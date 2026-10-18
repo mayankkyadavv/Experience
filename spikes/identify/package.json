@@ -1,0 +1,21 @@
+{
+  "name": "identify-spike",
+  "private": true,
+  "type": "module",
+  "description": "Phase 0 spike: reel/short/tiktok URL -> place. Throwaway; the real version becomes the identify Edge Function.",
+  "scripts": {
+    "identify": "node --env-file-if-exists=.env identify.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=23.6"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}

@@ -22,3 +22,7 @@ supabase/.branches/
 # Local tooling state
 .gstack/
 spikes/**/build/
+
+# Node (spikes, tooling)
+node_modules/
+spikes/**/runs/

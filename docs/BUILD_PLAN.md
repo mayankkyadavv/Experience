@@ -70,3 +70,6 @@ Last updated 2026-10-18, at the end of planning (office hours + eng review). Che
 
 ## Decisions made during build
 <!-- Append: date, decision, why (flexible / reliable / low cost), how to undo. -->
+- 2026-10-18 · Identification spike (`spikes/identify/`) is TypeScript run directly by Node (no build step). Why: the real `identify` Edge Function is TypeScript on Deno, so the extraction and place-search code ports almost unchanged (flexible). Undo: rewrite the spike; it's throwaway.
+- 2026-10-18 · Extraction uses `claude-opus-5-5` via the Anthropic SDK with structured outputs (Zod schema), effort `medium`, and server-side `fallbacks: "default"` so a policy decline is retried on another model. Why: reliable JSON with no parsing code, and medium effort keeps cost per save low. Undo: change `MODEL` / effort in `extract.ts`.
+- 2026-10-18 · Spike place search falls back to OpenStreetMap Nominatim when no Apple Maps token is set. Why: free and needs no key or developer account, so the spike runs before the Apple Developer account exists. Not for production (1 request/second, attribution required). Undo: set `APPLE_MAPS_AUTH_TOKEN`.
