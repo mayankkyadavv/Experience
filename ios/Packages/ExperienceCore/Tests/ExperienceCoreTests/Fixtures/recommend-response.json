@@ -1,0 +1,31 @@
+{
+  "requestId": "5b2f2c4e-0d3a-4c8e-9f51-2d0f7e9b4c11",
+  "picks": [
+    {
+      "experience": {
+        "id": "0e7a1c52-6f1a-5d3b-8a2c-1b9e4f7d3a10",
+        "title": "Night tour at Eastern State Penitentiary",
+        "category": "attraction",
+        "imageUrl": null,
+        "provenance": { "title": "curated", "price_min_cents": "estimated" },
+        "place": { "name": "Eastern State Penitentiary", "neighborhood": "Fairmount", "lat": 39.9683, "lng": -75.1727 }
+      },
+      "score": 3.4,
+      "reasons": ["You saved this on Sep 12", "Only until Oct 31"],
+      "facts": { "price": "$45", "duration": "2 hrs", "travelMinutes": 12, "openUntil": "Open till 11 PM" }
+    },
+    {
+      "experience": {
+        "id": "8c3d9f10-2a4b-5c6d-9e7f-0a1b2c3d4e5f",
+        "title": "Stand-up comedy at Punch Line Philly",
+        "category": "comedy",
+        "imageUrl": "https://example.com/comedy.jpg",
+        "provenance": {},
+        "place": null
+      },
+      "score": 2.1,
+      "reasons": ["You picked Comedy"],
+      "facts": { "price": "$25", "duration": "1.5 hrs" }
+    }
+  ]
+}

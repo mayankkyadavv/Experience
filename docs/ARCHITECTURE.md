@@ -2,6 +2,8 @@
 
 How the MVP is built. Decisions and their reasons live in `docs/ADR/` (the index maps every Eng Review ledger record). The scope is in `docs/MVP.md`.
 
+> **City-first update (2026-10-18):** the strategy moved to "What should we do?" in Philadelphia (`docs/EXPERIENCE.md`, `docs/MVP.md`). The system below (iOS + share extension + Supabase + the identification pipeline) still holds. The city-first schema is now in `supabase/migrations/20261019000000_init.sql` (ADR-009) and supersedes the domain model table below where they differ; maps follow ADR-010. Items 1-3, 6 and 7 of "Changes required by the city-first strategy" are done; 4, 5 and 8 remain.
+
 ## System
 
 ```
@@ -24,7 +26,7 @@ iPhone                                         Supabase (one project, ADR-002)
 
 - **iOS** (ADR-001): a SwiftUI app and a share extension, both depending on the local Swift package `ExperienceCore`. The App Group holds the outbox. The refresh token lives in a shared keychain group, and the access token in an App Group file with complete protection. Only the app refreshes (R4).
 - **Backend** (ADR-002): Supabase is the only backend. Edge Functions are TypeScript on Deno. The `jobs` table plus `pg_cron` do queueing and retries.
-- **Repo layout:** `ios/` (XcodeGen `project.yml`), `ios/Packages/ExperienceCore/`, `supabase/` (migrations, functions), `spikes/` (throwaway).
+- **Repo layout:** `ios/` (XcodeGen `project.yml`), `ios/Packages/ExperienceCore/`, `supabase/` (migrations, functions), `catalog/` + `tools/`, `spikes/` (throwaway). `compose.yaml` + `docker/` run the same Supabase services locally (`README.md`); production is the hosted project.
 
 ## Domain model (ADR-006)
 
@@ -93,3 +95,16 @@ The identification system is measured, not trusted.
 - Only the main app refreshes auth tokens (R4).
 - At most 3 live web views in the feed (R9).
 - Notification cap and quiet hours (R6, M8).
+
+## Changes required by the city-first strategy (settle in the architecture phase)
+
+Kept small on purpose: only what the MVP needs, plus not blocking what comes later.
+
+1. **Shared catalog + City** (ADR-009, proposed): `cities`; catalog `experiences` with recommendation attributes (price range, duration, good-for occasions, hours/dates, tags); a per-user relationship table (saved / interested / not interested / done, rating). Today's per-user `experiences` rows from shared posts become "match or create".
+2. **Taste profile:** onboarding answers + feedback events → per-user preference weights. Start as plain Postgres tables or a derived view; no separate infrastructure.
+3. **Recommendation:** constraints (time window, duration, budget, who, mood, location) → hard filters (open, affordable, fits the time, reachable) → rank by taste and saves → top 3 with reasons. Whether an LLM ranks or explains is decided with cost and latency numbers. Must work for the few hundred Philadelphia Experiences without new infrastructure.
+4. **Hours and travel time:** a source for opening hours and event dates, and an estimate of travel time from the user's location (provider terms apply to caching).
+5. **Identification matching:** extracted Experiences match existing catalog entries; the eval adds "matched correctly".
+6. **Provenance for curated data:** add a provenance value for editorial/catalog data, or map it to an existing one.
+7. **No longer needed for the wedge decision:** `home_cells` and `local_tag` (the travel-vs-local question is decided). Drop them unless another feature needs them.
+8. **Not now, but don't block:** Plans (ordered Experiences + transport), groups of users, many-user ratings, "what did people do" aggregates, sequences. Plain relational tables are fine; no graph database.

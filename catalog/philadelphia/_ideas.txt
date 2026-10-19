@@ -1,0 +1,49 @@
+# Philadelphia catalog ideas: one per line. `deno run -A tools/catalog/draft.ts catalog/philadelphia/_ideas.txt`
+# Drafts land next to this file as <slug>.json with status "draft". Review, fix, set "reviewed".
+# Mix (MVP.md): food, dates, friend groups, active, nightlife, creative, culture, seasonal, outdoor, sports, classes, unusual, free/cheap.
+
+Night tour at Eastern State Penitentiary
+Wander the mosaic maze at Philadelphia's Magic Gardens
+Graze your way through Reading Terminal Market
+Stand-up comedy at Punch Line Philly
+Old-fashioned sundae at The Franklin Fountain
+Arcade games and craft beer at Barcade Fishtown
+Hammocks and lights at Spruce Street Harbor Park
+Bike the Schuylkill River Trail to Boathouse Row
+Pottery wheel class for beginners in Philadelphia
+Run the Rocky Steps at the Philadelphia Museum of Art
+Oddities at the Mütter Museum
+Live jazz at Chris' Jazz Cafe
+Indie show at Johnny Brenda's
+Escape room with friends in Center City
+Sunset at Cira Green rooftop park
+Ice skating at the Blue Cross RiverRink
+Dim sum in Chinatown
+Cheesesteak taste-off at Pat's and Geno's
+Picnic and paddle boats at FDR Park
+Hike the Wissahickon Valley Park trails
+Flyers or Sixers game at the Wells Fargo Center
+Phillies game at Citizens Bank Park
+Drag brunch in the Gayborhood
+Axe throwing in Philadelphia
+Duckpin bowling in Philadelphia
+Rooftop cocktails with a skyline view in Center City
+Sunday at the Rodin Museum and Barnes Foundation
+Italian Market food walk on 9th Street
+Candlelit dinner at a BYOB in Bella Vista
+Cooking class in Philadelphia
+Shuffleboard at Philadelphia Shuffleboard Club
+Climbing gym session at Philadelphia Rock Gyms
+Kayak the Schuylkill River
+Free First Friday gallery walk in Old City
+Laurel Hill Cemetery night tour
+Speakeasy cocktails in Rittenhouse
+Karaoke private room in Chinatown
+Philly Pops or Kimmel Center concert
+Bok Bar rooftop in South Philly
+Mini golf at Franklin Square
+Dinner and a movie at the Roxy Theater
+Paint and sip class in Philadelphia
+Morning yoga in Rittenhouse Square
+Thrift crawl on South Street
+Clark Park farmers market and Shakespeare in the park

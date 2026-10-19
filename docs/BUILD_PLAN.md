@@ -1,70 +1,47 @@
-# Build Plan: Experience MVP (friends build)
+# Build Plan: Experience, Philadelphia beta (30 days)
 
-Last updated 2026-10-18 (realigned after the Rhyme discovery). Check off tasks as you go and add decisions to the log at the bottom. Scope is in `docs/MVP.md`; how things are built is in `docs/ARCHITECTURE.md` and `docs/ADR/`.
+Last updated 2026-10-18 (city-first). Check off tasks as you go and add decisions to the log at the bottom. Scope: `docs/MVP.md`. How it's built: `docs/ARCHITECTURE.md`, `docs/ADR/` (009 catalog, 010 map). How it looks: `DESIGN.md` (approved mockup linked there).
 
-**Goal:** a TestFlight build the founder's friends use. The demo loop comes first: share → identify → feed with mini-map → map → Did it. Everything else waits until friends are sharing.
+**Goal:** in 30 days (by ~2026-11-18), a TestFlight build the founder uses every week in Philadelphia to answer "What should we do?", then friends there. Core loop first: onboarding → ask → 3 recommendations → feedback → Did it → rate. TikTok capture feeds it.
 
 ## Prerequisites (the founder does these; agents should not install them)
 
 - [ ] **Install Xcode** from the Mac App Store, then `sudo xcode-select -s /Applications/Xcode.app`. As of 2026-10-18 only the Command Line Tools are installed, so `xcodebuild` fails ("requires Xcode").
 - [ ] Apple Developer Program account ($99/yr): needed for the App Group, share extension provisioning, Sign in with Apple, APNs and TestFlight.
-- [ ] `brew install xcodegen supabase/tap/supabase deno`
+- [ ] `brew install xcodegen supabase/tap/supabase deno` (the Supabase CLI is only needed to deploy; local dev runs on Docker Desktop, see `README.md`)
+- [x] Docker Desktop (installed)
 - [ ] A Supabase account (free tier to start) and an Anthropic API key. Keep keys in local, untracked env files.
 - [ ] Optional: the `gh` CLI for PRs.
 
-## Milestones
+## 30-day plan
 
-### M0: Phase 0 spikes (1-2 days, throwaway code in `spikes/`)
-- [ ] **Share payloads (day 1):** log exactly what Instagram, TikTok and YouTube hand a share extension on a real iPhone (URL vs. text with URL inside, `vm.tiktok.com` short links). → `docs/platforms.md`
-- [ ] **Platform metadata matrix:** for 30 of the founder's saves (10 per platform), record what the official endpoints legally return (oEmbed fields, title, caption, author, thumbnail) and whether the place is identifiable from that + place search + at most one question. → `docs/platforms.md`
-- [ ] **Terms check:** may oEmbed responses be used as extraction input? Instagram is "no" until confirmed.
-- [ ] **Places provider:** Apple Maps vs. Google Places on the 30 reels (match rate, caching terms, cost). Default to Apple Maps.
-- [ ] **Embed feed spike:** a SwiftUI vertical pager of 20 real official embeds (WKWebView, max 3 live). Measure first-frame time, smoothness, autoplay and memory. Decide autoplay embed vs. static card + tap-to-play.
-- [ ] **Geofence spike:** 1 day on a real device with `CLLocationManager.startMonitoring(for:)` at a 200 m radius.
-- [ ] **Rhyme gap hunt (founder):** 15 of your own saves (8+ local or non-travel) through Rhyme and `spikes/identify`; 2 friends do 5 each. Per save, record: place correct (y/n), activity correct (y/n), and what you wished for. Observed gaps go into `docs/COMPETITIVE_RESEARCH.md`. (The spike handles any reel with a caption or title; it doesn't yet output the activity, so judge the activity from Rhyme's result and your own expectation.)
+### Week 1 (Oct 19-25): backend foundation + catalog (no Xcode needed)
+- [x] Supabase schema per ADR-009 (`supabase/migrations/`): `cities`, `places`, `experiences` (catalog + private), `experience_places`, `user_experiences` (saved / interested / not_interested / done, rating, from_recommendation), `profiles` (city, onboarding answers), `sources`, `jobs`, `events`. Owner-only RLS on user tables; catalog readable by signed-in users.
+- [x] Recommender v1 (`supabase/functions/recommend/`): hard filters (open in the window, fits duration, within budget, good-for who, reachable) → score (taste weights from onboarding + feedback, saved boost, novelty, distance) → top 3 with reasons built only from real data. Pure TypeScript core with Deno tests.
+- [x] Catalog tooling (`tools/catalog/`): a JSON schema for a catalog Experience, a validator, a Claude-assisted drafter that turns a list of names into draft entries (every AI-filled field `estimated`), and a seed loader. Founder reviews drafts before they're `curated`.
+- [ ] First 100 Philadelphia Experiences reviewed (founder), across the MVP.md coverage mix. Draft with `deno task catalog:draft` (45 starter ideas in `catalog/philadelphia/_ideas.txt`; needs `ANTHROPIC_WORKSPACE_ID` for the current user-level key), edit each JSON, set `"status": "reviewed"`, then `deno task catalog:seed`.
+- [x] `ExperienceCore` Swift package (models incl. `Sourced<T>` with `curated`, API client protocol, recommendation request/response types) with `swift test` on macOS.
 
-### M1: Skeleton
-- [ ] Monorepo layout: `ios/` (XcodeGen `project.yml`: app target + share extension target, shared App Group + keychain group), `ios/Packages/ExperienceCore/` (SPM), `supabase/` (migrations, functions).
-- [ ] Supabase project, Sign in with Apple, schema + owner-only RLS per ADR-006: `sources` (unique `(user_id, save_id)`), `experiences` (`source_id`, Sourced `title/intent/category/location_requirement`, `status` in saved/done/dismissed/needs_review, `local_tag`), `experience_places`, `places` (shared cache, client read-only), `jobs`, `events`, `home_cells`, `device_tokens`, `notification_log`. (`identification_candidates` lands in M3.)
-- [ ] Test setup: Swift Testing, swift-snapshot-testing, Deno test. CI: GitHub Actions running package tests + Deno tests.
-- [ ] **UI gate (D4):** run a design pass on the screens below before building them (`/plan-design-review`, or `/design-consultation` to create a `DESIGN.md`). Keep it short; the founder wants to be building.
+### Week 2 (Oct 26-Nov 1): iOS skeleton + the question
+- [ ] XcodeGen project: app + share extension, App Group, keychain group. Sign in with Apple via Supabase.
+- [ ] Map component (MapLibre, ADR-010) with the DESIGN.md style: white 3D city, idle orbit, saved dots, beacons.
+- [ ] Onboarding: city picker (Philadelphia beta, New York "coming next"), taste chips, budget, usually-with.
+- [ ] Home ("What should we do?") → ask sheet → recommend → three cards; camera flight + beacons.
 
-### M2: Capture
-- [ ] Share extension: pull the first URL out of the payload; reject unsupported links with a friendly message; write to the App Group outbox **before** upload; show "Saved" right away; Instagram gets the "What place is this?" field (MKLocalSearchCompleter, skippable).
-- [ ] Outbox sync in the main app: retry in the background and on launch; idempotent `save_id`; "Syncing N saves" banner.
-- [ ] Share before sign-in: queue it and show "Open Experience to finish setup."
-- [ ] Event logging from day one: `share_started`, `share_saved`, plus the rest of the event list in the design doc (ledger R7c). This measures the expansion gate.
+### Week 3 (Nov 2-8): feedback, memory, capture
+- [ ] Interested / Not for us / Save / Did it / rating (3-tile placeholder until the founder picks the scale); events logged.
+- [ ] Saved list; "Your Philadelphia" with pillars.
+- [ ] Share extension (TikTok only): outbox first, "Saved", identify job (port `spikes/identify` extraction to the Edge Function, metadata only per ADR-004), match-or-create against the catalog.
+- [ ] Catalog to 300+ reviewed entries.
 
-### M3: Identify
-- [ ] Insert trigger → `identify` Edge Function (first attempt immediately); cron retries; 3 attempts with backoff, then `needs_review`.
-- [ ] Server resolves redirects for short links; metadata (only where legal) → Claude extraction → place search → Experience with confidence; auto-pin at ≥ 0.8 (default, tune later).
-- [ ] Extraction returns the activity, not just the place (ADR-006): title, intent, category (fixed list in MVP.md), location requirement, candidates with evidence → `identification_candidates`. Writes happen in one transaction with job completion; retries never duplicate and never overwrite `user` fields.
-- [ ] Edge cases: separate things to do → separate Experiences grouped by `source_id`; alternative places for the same thing → candidates of one Experience; no fixed venue (`none`); chains (brand + nearest branch at runtime); private/deleted posts.
-- [ ] Local/travel tag at identification (home area per MVP.md; one-time backfill when the home area is established).
-- [ ] Identification eval on the 30 Phase 0 reels: place (≥ 70% TikTok/YouTube), activity-correct, Experience count, category, calibration.
+### Week 4 (Nov 9-15): quality + TestFlight
+- [ ] Every state (loading / empty / error) per DESIGN.md; snapshot tests light/dark × default/largest Dynamic Type.
+- [ ] Privacy policy, tester consent, account deletion, location usage strings.
+- [ ] Supabase Pro, `/qa` on a real iPhone, TestFlight to the founder, then Philadelphia friends.
+- [ ] Founder dogfoods at least one real plan per week and logs what was wrong.
 
-### M4: The demo screen ("My Saves" feed)
-- [ ] Vertical feed of your own saves with a live mini-map (pans per card; faint pins for nearby saves; dashed pin for done).
-- [ ] Overlay: place, neighborhood, distance, category, `SourcedText` fields; actions **Go** and **Did it**.
-- [ ] Embed handling per the M0 spike result; 3 live web views max; per-platform fallback card with placeholders.
-- [ ] Snapshot tests for every state.
-
-### M5: Map + review queue
-- [ ] Map tab: browse, open, edit, delete.
-- [ ] "Needs a place" queue with badge: resolve via autocomplete, "Not a place" → idea.
-
-### M6: Push
-- [ ] APNs key, device token registration, sending from Edge Functions.
-- [ ] Low-confidence question within 5 minutes of a share (later than that → queue only, no push).
-
-### M7: TestFlight to friends
-- [ ] Privacy policy URL, tester consent screen, location usage strings, in-app account deletion (deletes everything, including logs; names the LLM and places providers as processors).
-- [ ] Upgrade Supabase to Pro. `/qa` on a real iPhone. Ship to the first friend group.
-
-### M8: After friends are sharing
-- [ ] Nearby reminders (When In Use first, Always after the 3rd resolved save; 20 nearest regions; re-rank on significant location change).
-- [ ] Weekly digest (Thursday 6pm), notification cap (device logs each reminder to `notification_log`; the digest checks it first).
-- [ ] Did-it attribution (last touchpoint within 7 days, otherwise organic).
+### Carried over from the earlier plan
+M0 spikes still worth doing when convenient: TikTok share payloads on a real iPhone, the oEmbed terms check, Apple Maps vs. alternatives for Philadelphia place matching, and the gap hunt (now including the core question on Google Maps Ask Maps, TikTok Local, Beli, Cobble). The old M4-M8 (saves feed, needs-a-place queue, push, reminders, digest) are superseded.
 
 ## Open items (decide while building, not before)
 - Expansion-gate threshold (how many friends sharing, for how long).
@@ -72,7 +49,7 @@ Last updated 2026-10-18 (realigned after the Rhyme discovery). Check off tasks a
 - Final product name ("Experience" is hard to trademark or search for).
 - Card headline: the activity or the place name; whether the question sheet offers alternative interpretations (D4 design pass).
 - No-download rule vs. transcript/video-vision extraction (founder; default: keep the rule).
-- Travel vs. local wedge (founder, at the MVP.md review point).
+- ~~Travel vs. local wedge~~: decided 2026-10-18, local / city-first.
 
 ## Decisions made during build
 <!-- Append: date, decision, why (flexible / reliable / low cost), how to undo. -->
@@ -84,3 +61,13 @@ Last updated 2026-10-18 (realigned after the Rhyme discovery). Check off tasks a
 - 2026-10-18 · Local decoder service (`spikes/identify`, `npm run serve` on 127.0.0.1:4321): Node + TypeScript, no framework, streaming each stage over Server-Sent Events. Video analysis per ADR-008: yt-dlp (≤ 720p, temp dir deleted every run), whisper.cpp `large-v3-turbo` on Metal for speech, Apple Vision OCR (a small Swift binary compiled on demand) for on-screen text, 8 evenly spaced frames. Why: everything runs on the Mac for free; the same pipeline code feeds the future Edge Function (flexible, low cost). Undo: delete `video.ts`/`server.ts`.
 - 2026-10-18 · The "understand" step has two providers: Ollama (local, default `gemma3:12b`, sees frames) and Claude (`claude-opus-5-5`), chosen per run so they can be compared on the same reel. Output follows ADR-006 (Experiences with title, intent, category, location requirement, place candidates, evidence). Why: free local iteration, with Claude as the accuracy reference. Undo: drop a provider in `understand.ts`.
 - 2026-10-18 · Decoder Instagram flow: Instagram links get the share extension's "What place is this?" question with autocomplete via `GET /api/suggest`, using Photon (komoot, OSM-based, free, built for search-as-you-type; Nominatim's policy forbids autocomplete) or the Apple Maps `searchAutocomplete` endpoint when a token is set. A picked suggestion = `user` name + coordinates, decision auto-pin, no lookup. A title written from the hint is `estimated`, not `user`. Answer time and outcome are logged for the Instagram < 10 s target. Why: tests the real product flow (ADR-004) for free (low cost, flexible). Undo: delete `suggestPlaces` and the question card.
+- 2026-10-18 · **Strategy: city-first** (founder brief). "What should we do?" becomes the central interaction; Philadelphia is the beta/dogfooding city; NYC the likely first expansion; City is a domain concept, never hardcoded. EXPERIENCE, MVP, ARCHITECTURE, COMPETITIVE_RESEARCH and CLAUDE.md updated; ADR-009 (shared city-scoped catalog) proposed, not accepted. Why: a weekly use case instead of a few trips a year, and dogfoodable recommendations. Undo: revert these doc changes; ADR-006 still stands until ADR-009 is accepted.
+- 2026-10-18 · **Capture launches TikTok-only** (founder). Instagram (URL-only, ADR-004) and YouTube follow. Why: Instagram needs the place-question flow and more setup; TikTok has the richest legal metadata. Undo: re-enable the other platforms in the share extension's allowlist.
+- 2026-10-18 · The design pass (`/design-consultation`) was paused before writing DESIGN.md. Two directions were previewed (dark "Lamplight Atlas", rejected as empty; white "Postcards", not yet reviewed), both built around the old map + saves-feed loop. Restart it around "What should we do?" and recommendation cards. Previews: `~/.gstack/projects/mayankkyadavv-Experience/designs/design-system-20261018/`.
+- 2026-10-18 · **ADR-009 accepted, ADR-010 added** (MapLibre Native + OpenFreeMap tiles for the white 3D city; search stays Apple). Why: the approved design needs restyled buildings and custom extrusions MapKit can't do. Undo: supersede ADR-010.
+- 2026-10-18 · **Recommender v1 is plain TypeScript** (`supabase/functions/recommend/core.ts`): hard filters (hours in the city's timezone, dates, duration, budget, who/group size, ≤ 40 min travel, dismissed 60 days, done excluded) → transparent score (onboarding likes, feedback by category, saved +2, mood, novelty, ending-soon, distance) → three picks varied across color groups. Reasons come only from held data. Why: explainable, testable, no infra; easy to swap the scorer later (flexible, low cost). Undo: replace `recommend()`.
+- 2026-10-18 · **Schema tests run in PGlite** (embedded Postgres in Deno) with a stub `auth` schema, so migrations and RLS are verified without Docker or the Supabase CLI. `deno task test`. Why: reliable checks today (low cost). Undo: switch to `supabase test db` once the CLI is installed.
+- 2026-10-18 · **Catalog lives in git** as `catalog/<city>/<slug>.json`, drafted by Claude (`claude-opus-5-5`, web search + a strict `submit_entry` tool, since structured outputs can't be combined with citations), geocoded with Nominatim (dev only), reviewed by the founder, compiled to `supabase/seed.sql` with stable UUIDv5 ids. Why: reviewable diffs, reproducible seeds, no admin UI needed for the beta (flexible, low cost). Undo: move entries into a table + admin tool.
+- 2026-10-18 · **ExperienceCore tests run without Xcode** via `ios/Packages/ExperienceCore/test.sh`, which points SwiftPM at the Command Line Tools' Swift Testing framework. Plain `swift test` once Xcode is installed.
+- 2026-10-18 · Claude clients send `anthropic-workspace-id` when `ANTHROPIC_WORKSPACE_ID` is set, because the current key is user-level (`sk-ant-usr-…`) and the API rejects it without a workspace.
+- 2026-10-19 · **Local backend runs on Docker Compose** (`compose.yaml`, `docker/`): Supabase's own open-source images (Postgres 17, GoTrue, PostgREST, Edge Runtime, Studio) pinned to the versions in their self-hosted compose, behind an nginx gateway on the Supabase CLI ports (54321-54323). A one-shot `migrate` service applies `supabase/migrations` (tracked in `supabase_migrations.schema_migrations`, like the CLI), the seed, and local-only sample data; a `tools` service runs Deno tasks; `deno task smoke` checks sign-up → profile → `recommend` end to end. Why: one command for collaborators, real RLS/auth/functions instead of stubs (reliable), no cloud cost. Production stays hosted Supabase (ADR-002); compose is not a deploy target. Undo: `supabase start` uses the same ports and folders.

@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "test": "deno test -A supabase/functions/recommend/core_test.ts supabase/tests/schema_test.ts",
+    "catalog:draft": "deno run -A tools/catalog/draft.ts --city philadelphia catalog/philadelphia/_ideas.txt",
+    "catalog:check": "deno run -A tools/catalog/build-seed.ts --check",
+    "catalog:seed": "deno run -A tools/catalog/build-seed.ts",
+    "smoke": "deno run -A tools/smoke.ts"
+  }
+}

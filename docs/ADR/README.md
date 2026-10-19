@@ -14,6 +14,8 @@ New decisions get the next number. To change one, add a new ADR that supersedes 
 | [006](ADR-006-experience-domain-model.md) | Experience is the root domain object | Accepted (amends the ledger) |
 | [007](ADR-007-outbox-idempotent-capture.md) | Outbox capture with idempotent `save_id` | Accepted (amended by 006) |
 | [008](ADR-008-local-video-research-exception.md) | Local research exception: video analysis on the founder's Mac only | Accepted (narrows 004 for research) |
+| [009](ADR-009-city-first-catalog.md) | City-first: shared Experience catalog, City as a domain concept | Accepted (amends 006) |
+| [010](ADR-010-map-rendering.md) | Map rendering: MapLibre Native + OpenStreetMap vector tiles (search stays Apple) | Accepted |
 
 ## Ledger → ADR map
 

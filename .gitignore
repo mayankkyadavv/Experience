@@ -27,3 +27,8 @@ spikes/**/build/
 node_modules/
 spikes/**/runs/
 spikes/identify/models/
+
+# Swift
+.build/
+.swiftpm/
+DerivedData/

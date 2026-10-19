@@ -144,7 +144,8 @@ export function claudeAvailable(): boolean {
 
 async function withClaude(s: Signals): Promise<UnderstandOutput> {
   if (!claudeAvailable()) throw new Error("No Claude API key. Copy .env.example to .env in spikes/identify and set ANTHROPIC_API_KEY.");
-  claude ??= new Anthropic();
+  const workspace = process.env.ANTHROPIC_WORKSPACE_ID; // needed for user-level (sk-ant-usr-) keys
+  claude ??= new Anthropic(workspace ? { defaultHeaders: { "anthropic-workspace-id": workspace } } : {});
   const content: Anthropic.Beta.BetaContentBlockParam[] = [{ type: "text", text: signalsText(s) }];
   for (const f of s.frames) {
     content.push({ type: "text", text: `Frame at ${f.atSec}s:` });
