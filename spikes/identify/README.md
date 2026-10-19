@@ -1,9 +1,9 @@
-# Identification spike (Phase 0, throwaway)
+# Local decoder (research, ADR-008)
 
-Paste a TikTok, YouTube Short or Instagram Reel link and see what the identify pipeline can work out: place name, type, address, coordinates, confidence, and where each field came from.
+Paste a TikTok, YouTube Short or Instagram Reel link and see everything we can decode from it, stage by stage. It all runs on this Mac.
 
 ```
-link → platform + short-link resolution → public metadata → Claude extraction → place search → result
+link → public metadata → video (temporary) → speech to text + frames/on-screen text → understanding → places
 ```
 
 ## Run
@@ -11,35 +11,41 @@ link → platform + short-link resolution → public metadata → Claude extract
 ```sh
 cd spikes/identify
 npm install
-cp .env.example .env        # add ANTHROPIC_API_KEY
-npm run identify -- "https://www.tiktok.com/@user/video/123"
-npm run identify -- "<link 1>" "<link 2>" "<link 3>"            # several at once
-npm run identify -- "https://www.instagram.com/reel/abc/" --hint "Joe's Pizza Carmine St"
-npm run identify -- "<link>" --json                             # full result as JSON
+npm run setup     # once: brew installs yt-dlp, ffmpeg, whisper-cpp; downloads the Whisper model (~1.6 GB); pulls gemma3:12b if Ollama is running
+npm run serve     # → http://localhost:4321
 ```
 
-Pasting the whole share text works too ("Check this out! https://vm.tiktok.com/…").
+Optional `.env` (copy `.env.example`): `ANTHROPIC_API_KEY` enables Claude in the model picker; `YOUTUBE_API_KEY` adds YouTube descriptions without downloading; `APPLE_MAPS_AUTH_TOKEN` switches place search from OpenStreetMap to Apple Maps.
 
-Every run is appended to `runs/runs.jsonl` (gitignored), which you can use to fill in the `docs/platforms.md` matrix.
+Command-line version, same pipeline:
 
-## What each platform gives
+```sh
+npm run identify -- "<link>" [--model gemma3:12b|claude] [--hint "Joe's Pizza"] [--no-video] [--no-frames] [--json]
+```
 
-| Platform | Metadata used | Notes |
+## What each stage does
+
+| Stage | How | Where it runs |
 |---|---|---|
-| TikTok | oEmbed: full caption, hashtags, author handle | No key needed. |
-| YouTube | oEmbed: title, channel. With `YOUTUBE_API_KEY`: description, tags, recording location | The title alone is often too thin. |
-| Instagram | Nothing (URL-only, by rule) | No hint: the app would ask "What place is this?". With `--hint`, the typed text stands in for the share extension's place field. |
+| Link | Platform, post id, short-link resolution | Local (+ a redirect lookup) |
+| Public metadata | TikTok/YouTube oEmbed (caption, author, hashtags); YouTube Data API if keyed | TikTok/YouTube servers |
+| Video | `yt-dlp` ≤ 720p into a temp dir, plus its info JSON (description, music, tags, location) | Download, then local |
+| Speech to text | `whisper.cpp` large-v3-turbo on the GPU, language auto-detected | Local |
+| Frames + on-screen text | 8 evenly spaced frames via `ffmpeg`; text read by Apple Vision (`ocr.swift`) | Local |
+| Understanding | Ollama model (local) or Claude: Experiences with title, intent, category, location requirement, place candidates, evidence | Local, or Anthropic's cloud for Claude |
+| Places | OpenStreetMap Nominatim (or Apple Maps with a token) | OpenStreetMap / Apple |
 
-Whether oEmbed responses may be used as extraction input is still an open M0 terms-check item.
+**Rules kept:** the temp directory (video, audio, frames) is deleted at the end of every run. Instagram's video is never fetched (URL-only).
 
-## Provenance tags in the output
+**Instagram links** work the way the share extension will: pasting one opens "What place is this?" with place autocomplete (Photon, or Apple Maps with a token). Pick a suggestion and its name and coordinates become a `user` hint. The place is confirmed and pins with no lookup, and the model still writes the title and category, labelled estimated. You can also type free text and press Return to have it looked up, or Skip to send it to "Needs a place". Each answer is timed from the moment the link arrives, against the < 10 s target, and logged as `question` (`picked` / `typed` / `skipped`, `ms`) in `runs.jsonl`. "Rank places near me" biases suggestions to your location, as `MKLocalSearchCompleter` does. Each run's derived text is appended to `runs/runs.jsonl` (gitignored).
 
-`[source]` read from the post · `[user]` from the hint · `[lookup]` from the map provider · `[estimated]` the model's guess, always shown with "(estimated)".
+## Reading the results
 
-## Confidence → decision
+Every field shows where it came from: `source` (read from the post: caption, speech, on-screen text, frames), `user` (your hint), `lookup` (map provider), `estimated` (the model's guess, always labelled "(estimated)").
 
-The model's confidence is lowered when the map match is weak (×0.75) or missing (×0.6). At 0.8 or above with a solid map match, the place would pin automatically. Otherwise the app asks one question, or the save goes to "Needs a place". An entry with no location becomes an idea (no map pin).
-
-## Place search
-
-The plan's default is the Apple Maps Server API. It needs an Apple Developer account to create a Maps token, so until `APPLE_MAPS_AUTH_TOKEN` is set, searches go to OpenStreetMap Nominatim (free, no key, limited to 1 request per second). The Apple Maps code path hasn't been run yet.
+Confidence is lowered when the map match is weak (×0.75) or missing (×0.6). The result is one of:
+- pin automatically (≥ 0.8 with a solid match)
+- ask the user
+- "Needs a place"
+- saved as flexible
+- saved as an idea

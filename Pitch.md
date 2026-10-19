@@ -1,5 +1,7 @@
 # Experience — Product Brief
 
+> **Historical (frozen 2026-10-18).** The vision now lives in `docs/EXPERIENCE.md`, current requirements in `docs/MVP.md`, and competitors in `docs/COMPETITIVE_RESEARCH.md` (this file's table understates Rhyme). The data model below is replaced by ADR-006. Kept for history; don't build from it.
+
 Oct 18, 2026 · @Someone
 
 ## How to use this doc

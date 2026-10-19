@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experience Decoder</title>
+<style>
+  :root {
+    --bg: #f6f6f4; --panel: #ffffff; --ink: #1b1b1a; --muted: #6b6b66; --line: #e3e2de;
+    --accent: #2f5bea; --ok: #1f8a4c; --warn: #b26b00; --err: #c0392b; --chip: #efeee9;
+    --src: #1f8a4c; --lookup: #2f5bea; --user: #7a3fd1; --est: #8a8a84;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121211; --panel: #1b1b1a; --ink: #ecebe6; --muted: #9b9a94; --line: #2c2c2a;
+      --accent: #7b9bff; --ok: #4cc27f; --warn: #e0a440; --err: #f0776a; --chip: #262624;
+      --src: #4cc27f; --lookup: #7b9bff; --user: #b78cff; --est: #8f8e88;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 32px 16px 80px; }
+  h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); margin: 0 0 20px; }
+  form { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: grid; gap: 12px; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  input[type=text], select { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+  input[type=text] { flex: 1 1 320px; min-width: 0; }
+  select { flex: 0 1 260px; }
+  label.check { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 14px; }
+  button { font: inherit; font-weight: 600; background: var(--accent); color: white; border: 0; border-radius: 10px; padding: 10px 18px; cursor: pointer; }
+  button:disabled { opacity: .5; cursor: default; }
+  .status { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 0; font-size: 13px; }
+  .pill { background: var(--chip); border-radius: 999px; padding: 3px 10px; color: var(--muted); }
+  .pill.ok::before { content: "●"; color: var(--ok); margin-right: 6px; }
+  .pill.missing::before { content: "●"; color: var(--warn); margin-right: 6px; }
+  .hint { font-size: 13px; color: var(--warn); margin-top: 8px; }
+  code { font: 12.5px ui-monospace, SFMono-Regular, Menlo, monospace; background: var(--chip); padding: 1px 5px; border-radius: 5px; }
+  #stages { display: grid; gap: 12px; margin-top: 20px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+  .card header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .card h2 { font-size: 15px; margin: 0; }
+  .state { font-size: 12.5px; color: var(--muted); white-space: nowrap; }
+  .state.running { color: var(--accent); }
+  .state.error { color: var(--err); }
+  .state.done { color: var(--ok); }
+  .note { color: var(--muted); font-size: 14px; margin: 8px 0 0; }
+  .note.error { color: var(--err); }
+  .body { margin-top: 10px; }
+  dl { display: grid; grid-template-columns: 140px 1fr; gap: 6px 14px; margin: 0; }
+  dt { color: var(--muted); font-size: 13.5px; }
+  dd { margin: 0; overflow-wrap: anywhere; white-space: pre-wrap; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag { background: var(--chip); border-radius: 6px; padding: 1px 8px; font-size: 13px; }
+  .segments { display: grid; gap: 4px; max-height: 320px; overflow: auto; }
+  .seg { display: grid; grid-template-columns: 52px 1fr; gap: 10px; }
+  .seg time { color: var(--muted); font: 12.5px ui-monospace, Menlo, monospace; padding-top: 2px; }
+  .frames { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+  .frame img { width: 100%; border-radius: 8px; display: block; background: var(--chip); }
+  .frame .t { font-size: 12px; color: var(--muted); margin: 4px 0 2px; }
+  .frame .ocr { font-size: 12.5px; }
+  .exp { border-top: 1px solid var(--line); padding-top: 12px; margin-top: 12px; }
+  .exp:first-child { border-top: 0; margin-top: 0; padding-top: 0; }
+  .exp h3 { margin: 0 0 8px; font-size: 17px; }
+  .prov { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; margin-left: 6px; }
+  .prov.source { color: var(--src); } .prov.lookup { color: var(--lookup); } .prov.user { color: var(--user); } .prov.estimated { color: var(--est); }
+  .est { color: var(--muted); }
+  .decision { display: inline-block; margin-top: 10px; font-weight: 600; }
+  .question { margin-top: 10px; padding: 10px 12px; border-radius: 10px; background: var(--chip); }
+  details { margin-top: 10px; }
+  summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+  pre { font: 12px/1.45 ui-monospace, Menlo, monospace; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px; overflow: auto; max-height: 360px; }
+  .ask { display: grid; gap: 10px; padding: 14px; border-radius: 12px; background: var(--bg); border: 1px solid var(--line); }
+  .ask[hidden] { display: none; }
+  .ask h2 { font-size: 17px; margin: 0; }
+  .ask .why { color: var(--muted); font-size: 13.5px; margin: 0; }
+  .combo { position: relative; display: flex; }
+  .combo input[type=text] { flex: 1 1 auto; background: var(--panel); }
+  .suggestions { list-style: none; margin: 4px 0 0; padding: 4px; position: absolute; top: 100%; left: 0; right: 0; z-index: 2; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 8px 24px rgb(0 0 0 / .12); max-height: 320px; overflow: auto; }
+  .suggestions[hidden] { display: none; }
+  .suggestions li { padding: 8px 10px; border-radius: 7px; cursor: pointer; }
+  .suggestions li[aria-selected=true] { background: var(--chip); }
+  .suggestions .name { display: block; }
+  .suggestions .sub { display: block; color: var(--muted); font-size: 13px; }
+  .suggestions .msg { color: var(--muted); font-size: 13.5px; cursor: default; }
+  .ask-foot { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+  .ask-foot .timer { font-variant-numeric: tabular-nums; margin-left: auto; }
+  button.secondary { background: var(--chip); color: var(--ink); font-weight: 500; }
+  button.link { background: none; color: var(--accent); padding: 0; font-weight: 500; font-size: 13px; }
+  .answer { margin: 14px 0 0; font-size: 14px; }
+  .answer .ok { color: var(--ok); } .answer .slow { color: var(--warn); }
+  .empty { text-align: center; color: var(--muted); padding: 48px 16px; }
+  @media (max-width: 560px) { dl { grid-template-columns: 1fr; } dt { margin-top: 6px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Experience Decoder</h1>
+  <p class="sub">Paste a TikTok, YouTube Short or Instagram Reel link and see everything we can decode from it. Runs locally on this Mac.</p>
+
+  <form id="form">
+    <div class="row">
+      <input type="text" id="url" placeholder="https://www.tiktok.com/@user/video/…" autocomplete="off" required>
+      <button id="go" type="submit">Decode</button>
+    </div>
+    <section class="ask" id="ask" hidden aria-labelledby="askTitle">
+      <h2 id="askTitle">What place is this?</h2>
+      <p class="why">Instagram links are URL-only, so the share sheet asks this one optional question. Pick a place or skip, like a tester would.</p>
+      <div class="combo">
+        <input type="text" id="place" placeholder="Search for a place" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggestions">
+        <ul class="suggestions" id="suggestions" role="listbox" hidden></ul>
+      </div>
+      <div class="ask-foot">
+        <button type="button" class="secondary" id="skip">Skip</button>
+        <button type="button" class="link" id="near" hidden>Rank places near me</button>
+        <span class="timer" id="timer" aria-live="off"></span>
+      </div>
+    </section>
+    <div class="row">
+      <input type="text" id="hint" placeholder="Optional hint, e.g. “Joe's Pizza Carmine St” (stands in for Instagram's place field)" autocomplete="off">
+      <select id="model" aria-label="Model"></select>
+    </div>
+    <div class="row">
+      <label class="check"><input type="checkbox" id="video" checked> Analyze the video (download temporarily, transcribe, read frames)</label>
+      <label class="check"><input type="checkbox" id="frames" checked> Send frames to the model</label>
+    </div>
+  </form>
+  <div class="status" id="status"></div>
+  <div id="setupHint"></div>
+  <div id="answer"></div>
+
+  <div id="stages"><div class="empty">Results show up here, stage by stage.</div></div>
+</main>
+
+<script>
+const STAGES = [
+  ["link", "Link"],
+  ["metadata", "Public metadata"],
+  ["download", "Video (temporary download)"],
+  ["transcript", "Speech to text"],
+  ["frames", "Frames and on-screen text"],
+  ["understand", "Understanding"],
+  ["places", "Experiences and places"],
+];
+const $ = (s) => document.querySelector(s);
+const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const mmss = (ms) => { const s = Math.floor(ms / 1000); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; };
+const secs = (ms) => (ms / 1000).toFixed(1) + "s";
+
+// --- Status ------------------------------------------------------------------------------
+async function loadStatus() {
+  const s = await fetch("/api/status").then((r) => r.json());
+  const t = s.tools;
+  const pills = [
+    ["yt-dlp", t.ytdlp], ["ffmpeg", t.ffmpeg], ["whisper.cpp", t.whisper && t.whisperModel], ["Apple OCR", t.ocr],
+    ["Ollama", !!s.ollama], ["Claude", s.claude.available], [`Places: ${s.places === "apple_maps" ? "Apple Maps" : "OpenStreetMap"}`, true],
+  ];
+  $("#status").innerHTML = pills.map(([n, ok]) => `<span class="pill ${ok ? "ok" : "missing"}">${esc(n)}</span>`).join("");
+
+  const missing = [];
+  if (!t.ytdlp || !t.ffmpeg || !t.whisper || !t.whisperModel) missing.push("Run <code>npm run setup</code> for video analysis.");
+  if (!s.ollama) missing.push("Start Ollama (<code>ollama serve</code>) for local models.");
+  if (!s.claude.available) missing.push("Add <code>ANTHROPIC_API_KEY</code> to <code>.env</code> for Claude.");
+  $("#setupHint").innerHTML = missing.length ? `<p class="hint">${missing.join(" ")}</p>` : "";
+
+  const sel = $("#model");
+  const opts = (s.ollama ?? []).map((m) => `<option value="${esc(m.name)}">${esc(m.name)} · local${m.vision ? " · sees frames" : ""} · ${m.sizeGb} GB</option>`);
+  opts.push(`<option value="claude" ${s.claude.available ? "" : "disabled"}>${esc(s.claude.model)} · Claude${s.claude.available ? "" : " (add API key)"}</option>`);
+  if (!s.ollama?.length && !s.claude.available) opts.unshift(`<option value="" disabled selected>No model available</option>`);
+  sel.innerHTML = opts.join("");
+  const saved = localStorageGet("model");
+  if (saved && [...sel.options].some((o) => o.value === saved && !o.disabled)) sel.value = saved;
+}
+function localStorageGet(k) { try { return localStorage.getItem(k); } catch { return null; } }
+function localStorageSet(k, v) { try { localStorage.setItem(k, v); } catch {} }
+
+// --- Rendering ---------------------------------------------------------------------------
+function sourcedHtml(f) {
+  if (!f) return `<span class="est">—</span>`;
+  const v = typeof f.value === "object" ? `${f.value.lat.toFixed(5)}, ${f.value.lng.toFixed(5)}` : f.value;
+  const label = f.provenance === "estimated" ? " (estimated)" : "";
+  return `<span class="${f.provenance === "estimated" ? "est" : ""}">${esc(v)}${label}</span><span class="prov ${f.provenance}">${f.provenance}</span>`;
+}
+const dl = (rows) => `<dl>${rows.filter(([, v]) => v !== undefined && v !== null && v !== "").map(([k, v]) => `<dt>${esc(k)}</dt><dd>${v}</dd>`).join("")}</dl>`;
+const tags = (list) => list?.length ? `<div class="tags">${list.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : null;
+const DECISIONS = {
+  auto_pin: "Pins on the map automatically",
+  ask: "Asks the user to confirm",
+  needs_review: "Goes to “Needs a place”",
+  save_flexible: "Saved as flexible (no exact pin)",
+  idea: "Saved as an idea (no map pin)",
+};
+
+const render = {
+  link: (d) => dl([["Platform", esc(d.platform)], ["Resolved URL", esc(d.resolvedUrl)], ["Short link", d.resolvedUrl !== d.originalUrl ? esc(d.originalUrl) : null], ["Post id", esc(d.postId)]]),
+  metadata: (d) => dl([
+    ["Sources", esc(d.sources.join(", ") || "none (URL only)")], ["Author", esc(d.author)], ["Title", esc(d.title)],
+    ["Caption", esc(d.caption)], ["Hashtags", tags(d.tags)], ["Geotag", d.geotag ? esc(`${d.geotag.lat}, ${d.geotag.lng} ${d.geotag.label ?? ""}`) : null],
+    ["Notes", d.notes.length ? esc(d.notes.join("\n")) : null],
+  ]),
+  download: (d) => dl([
+    ["Title", esc(d.title)], ["Uploader", esc(d.uploader)], ["Duration", d.durationSec ? `${Math.round(d.durationSec)}s` : null],
+    ["Music", esc(d.music)], ["Location field", esc(d.location)], ["Description", esc(d.description)], ["Tags", tags(d.tags)],
+    ["Uploaded", esc(d.uploadDate)], ["Views", d.viewCount?.toLocaleString()],
+  ]) + `<p class="note">The video file was deleted when this run finished.</p>`,
+  transcript: (d) => d.segments.length
+    ? `<p class="note">Language: ${esc(d.language ?? "unknown")}</p><div class="segments">${d.segments.map((s) => `<div class="seg"><time>${mmss(s.fromMs)}</time><span>${esc(s.text)}</span></div>`).join("")}</div>`
+    : `<p class="note">No speech found.</p>`,
+  frames: (d) => d.length
+    ? `<div class="frames">${d.map((f) => `<div class="frame"><img src="data:image/jpeg;base64,${f.jpegBase64}" alt="Frame at ${f.atSec}s"><div class="t">${f.atSec}s</div><div class="ocr">${f.lines.length ? f.lines.map((l) => esc(l.text)).join("<br>") : `<span class="est">no text</span>`}</div></div>`).join("")}</div>`
+    : `<p class="note">No frames extracted.</p>`,
+  understand: (d) => dl([
+    ["Summary", esc(d.result.summary)], ["Reasoning", esc(d.result.reasoning)], ["Model", esc(d.model)],
+    ["Frames sent", String(d.sentFrames)], ["Tokens", d.usage ? `${d.usage.input_tokens.toLocaleString()} in / ${d.usage.output_tokens.toLocaleString()} out` : null],
+  ]) + (d.result.clarifying_question ? `<div class="question">Would ask: “${esc(d.result.clarifying_question)}”</div>` : ""),
+  places: (d) => d.experiences.length ? d.experiences.map((e) => `
+    <div class="exp">
+      <h3>${esc(e.title.value)}<span class="prov ${e.title.provenance}">${e.title.provenance}</span></h3>
+      ${dl([
+        ["Intent", sourcedHtml(e.intent)], ["Category", sourcedHtml(e.category)], ["Location", sourcedHtml(e.locationRequirement)],
+        ["Place", e.place ? sourcedHtml(e.place.name) : null], ["Address", e.place ? sourcedHtml(e.place.address) : null],
+        ["Area", e.place ? sourcedHtml(e.place.area) : null], ["Coordinates", e.place ? sourcedHtml(e.place.coordinates) : null],
+        ["Place id", esc(e.place?.placeId)],
+        ["Map match", e.place?.pickedByUser ? `Picked by you in the question${e.place.placeId ? ` (${esc(e.place.placeId)})` : ""}` : e.place?.match ? esc(`${e.place.match.provider}: “${e.place.match.name ?? "?"}” (${e.place.match.nameMatch}) via “${e.place.match.query}”`) : (e.place ? `<span class="est">${e.place.lookupSkipped ? "not looked up: the model guessed this place" : `none from ${esc(d.provider)}`}</span>` : null)],
+        ["Alternatives", e.candidates.length ? esc(e.candidates.join(" · ")) : null],
+        ["Price", e.price ? sourcedHtml(e.price) : null], ["Dates", e.eventDates ? sourcedHtml(e.eventDates) : null],
+        ["Chain", e.isChain ? "Yes, multiple locations" : null],
+        ["Evidence", e.evidence.length ? esc(e.evidence.join("\n")) : null],
+        ["Confidence", `${e.confidence.toFixed(2)}${e.confidence !== e.modelConfidence ? ` <span class="est">(model said ${e.modelConfidence.toFixed(2)})</span>` : ""}`],
+      ])}
+      <span class="decision">→ ${esc(DECISIONS[e.decision])}${e.userConfirmed ? " · place confirmed by you" : ""}</span>
+    </div>`).join("") : `<p class="note">No experiences identified.</p>`,
+};
+
+function setStage(e) {
+  const card = $(`#stage-${e.stage}`);
+  const state = card.querySelector(".state");
+  state.className = `state ${e.status}`;
+  state.textContent = e.status === "running" ? "Working…" : e.status === "done" ? `Done · ${secs(e.ms)}` : e.status === "skipped" ? "Skipped" : `Failed · ${secs(e.ms ?? 0)}`;
+  const body = card.querySelector(".body");
+  if (e.status === "done") {
+    let html = "";
+    try { html = render[e.stage](e.data); } catch (err) { html = `<p class="note error">Couldn't display this stage: ${esc(err.message)}</p>`; }
+    const raw = e.stage === "frames" ? e.data.map(({ jpegBase64, ...rest }) => rest) : e.data;
+    body.innerHTML = html + `<details><summary>Raw data</summary><pre>${esc(JSON.stringify(raw, null, 2))}</pre></details>`;
+  } else if (e.note) {
+    body.innerHTML = `<p class="note ${e.status === "error" ? "error" : ""}">${esc(e.note)}</p>`;
+  }
+}
+
+// --- Instagram: "What place is this?" ----------------------------------------------------
+// Mirrors the share extension (ledger R13): one optional field with place autocomplete,
+// timed from the moment the link arrives, against the < 10 s target.
+const TARGET_MS = 10000;
+const isInstagram = (text) => /https?:\/\/(?:www\.|m\.)?(?:instagram\.com|instagr\.am)\//i.test(text);
+const ask = { link: null, shownAt: 0, timer: null, items: [], active: -1, picked: null, answered: false, near: null, req: 0, debounce: null };
+
+function showQuestion(show) {
+  $("#ask").hidden = !show;
+  $("#hint").hidden = show;
+  clearInterval(ask.timer);
+  if (!show) return;
+  ask.shownAt = performance.now();
+  ask.picked = null;
+  ask.answered = false;
+  $("#place").value = "";
+  closeSuggestions();
+  const tick = () => {
+    const ms = performance.now() - ask.shownAt;
+    $("#timer").textContent = `${secs(ms)}${ms > TARGET_MS ? " · over the 10 s target" : ""}`;
+  };
+  tick();
+  ask.timer = setInterval(tick, 100);
+}
+
+$("#url").addEventListener("input", () => {
+  const link = isInstagram($("#url").value) ? (firstUrl($("#url").value) ?? "") : null;
+  if (link === ask.link) return;
+  ask.link = link;
+  showQuestion(link !== null);
+  if (link !== null) $("#place").focus();
+});
+function firstUrl(text) { const m = text.match(/https?:\/\/[^\s<>"']+/i); return m ? m[0] : null; }
+
+function closeSuggestions() {
+  ask.items = []; ask.active = -1;
+  $("#suggestions").hidden = true;
+  $("#place").setAttribute("aria-expanded", "false");
+  $("#place").removeAttribute("aria-activedescendant");
+}
+function renderSuggestions(message) {
+  const list = $("#suggestions");
+  list.innerHTML = message
+    ? `<li class="msg" role="presentation">${esc(message)}</li>`
+    : ask.items.map((p, i) => `<li role="option" id="sug-${i}" aria-selected="${i === ask.active}" data-i="${i}"><span class="name">${esc(p.name)}</span>${p.subtitle ? `<span class="sub">${esc(p.subtitle)}</span>` : ""}</li>`).join("");
+  list.hidden = false;
+  $("#place").setAttribute("aria-expanded", "true");
+  if (ask.active >= 0) $("#place").setAttribute("aria-activedescendant", `sug-${ask.active}`);
+  else $("#place").removeAttribute("aria-activedescendant");
+}
+
+$("#place").addEventListener("input", () => {
+  ask.picked = null;
+  clearTimeout(ask.debounce);
+  const q = $("#place").value.trim();
+  if (q.length < 2) return closeSuggestions();
+  ask.debounce = setTimeout(async () => {
+    const id = ++ask.req;
+    const params = new URLSearchParams({ q });
+    if (ask.near) params.set("near", `${ask.near.lat},${ask.near.lng}`);
+    try {
+      const r = await fetch(`/api/suggest?${params}`).then((r) => r.json());
+      if (id !== ask.req) return; // a newer keystroke won
+      if (r.error) throw new Error(r.error);
+      ask.items = r.suggestions; ask.active = ask.items.length ? 0 : -1;
+      renderSuggestions(ask.items.length ? null : "No places found. Press Return to use what you typed.");
+    } catch {
+      if (id === ask.req) { ask.items = []; ask.active = -1; renderSuggestions("Couldn't search places. Press Return to use what you typed."); }
+    }
+  }, 200);
+});
+
+$("#place").addEventListener("keydown", (ev) => {
+  if (ev.key === "ArrowDown" || ev.key === "ArrowUp") {
+    if (!ask.items.length) return;
+    ev.preventDefault();
+    ask.active = (ask.active + (ev.key === "ArrowDown" ? 1 : -1) + ask.items.length) % ask.items.length;
+    renderSuggestions();
+  } else if (ev.key === "Escape") {
+    closeSuggestions();
+  } else if (ev.key === "Enter") {
+    ev.preventDefault();
+    answerQuestion();
+  }
+});
+$("#suggestions").addEventListener("mousedown", (ev) => {
+  const li = ev.target.closest("li[data-i]");
+  if (!li) return;
+  ev.preventDefault(); // keep focus in the field
+  ask.active = Number(li.dataset.i);
+  answerQuestion();
+});
+$("#place").addEventListener("blur", () => setTimeout(closeSuggestions, 100));
+$("#skip").addEventListener("click", () => { $("#place").value = ""; ask.picked = null; answerQuestion(); });
+
+/** Enter, click, Decode or Skip all end the question the same way the share sheet would. */
+function answerQuestion() {
+  const typed = $("#place").value.trim();
+  if (ask.active >= 0 && ask.items[ask.active]) ask.picked = ask.items[ask.active];
+  const outcome = ask.picked ? "picked" : typed ? "typed" : "skipped";
+  if (ask.picked) $("#place").value = ask.picked.name;
+  closeSuggestions();
+  clearInterval(ask.timer);
+  const label = { picked: `Picked “${ask.picked?.name}”`, typed: `Typed “${typed}”`, skipped: "Skipped" }[outcome];
+  // Only the first answer to a link is timed; re-runs would measure how long the page sat open.
+  let question = null;
+  if (!ask.answered) {
+    const ms = Math.round(performance.now() - ask.shownAt);
+    question = { outcome, ms };
+    $("#answer").innerHTML = `<p class="answer">${esc(label)} in <span class="${ms <= TARGET_MS ? "ok" : "slow"}">${secs(ms)}</span> <span class="est">· target under 10 s</span></p>`;
+  } else {
+    $("#answer").innerHTML = `<p class="answer">${esc(label)} <span class="est">· re-run, not timed (clear the link and paste it again to time it)</span></p>`;
+  }
+  ask.answered = true;
+  run({ hint: ask.picked ? "" : typed, place: ask.picked, question });
+}
+
+// Bias suggestions toward where you are, like MKLocalSearchCompleter. Never prompts on its own.
+async function setupNear() {
+  if (!navigator.geolocation) return;
+  const locate = () => navigator.geolocation.getCurrentPosition(
+    (p) => { ask.near = { lat: p.coords.latitude, lng: p.coords.longitude }; $("#near").hidden = true; },
+    () => { $("#near").hidden = true; },
+    { timeout: 8000, maximumAge: 600000 },
+  );
+  try {
+    const perm = await navigator.permissions.query({ name: "geolocation" });
+    if (perm.state === "granted") return locate();
+    if (perm.state === "denied") return;
+  } catch {}
+  $("#near").hidden = false;
+  $("#near").addEventListener("click", locate, { once: true });
+}
+
+// --- Run ---------------------------------------------------------------------------------
+let source = null;
+$("#form").addEventListener("submit", (ev) => {
+  ev.preventDefault();
+  if (!$("#ask").hidden) return answerQuestion();
+  $("#answer").innerHTML = "";
+  run({ hint: $("#hint").value, place: null, question: null });
+});
+
+function run({ hint, place, question }) {
+  if (source) source.close();
+  const model = $("#model").value;
+  if (!model) return;
+  localStorageSet("model", model);
+  $("#stages").innerHTML = STAGES.map(([id, name]) => `<section class="card" id="stage-${id}"><header><h2>${name}</h2><span class="state">Waiting</span></header><div class="body"></div></section>`).join("");
+  const q = new URLSearchParams({ url: $("#url").value, hint, model, video: $("#video").checked ? "1" : "0", frames: $("#frames").checked ? "1" : "0" });
+  if (place) q.set("place", JSON.stringify(place));
+  if (question) q.set("question", JSON.stringify(question));
+  $("#go").disabled = true;
+  source = new EventSource(`/api/decode?${q}`);
+  source.addEventListener("stage", (m) => setStage(JSON.parse(m.data)));
+  source.addEventListener("end", (m) => {
+    const d = JSON.parse(m.data);
+    source.close(); source = null; $("#go").disabled = false;
+    if (d.error) $("#stages").insertAdjacentHTML("beforeend", `<p class="note error">${esc(d.error)}</p>`);
+  });
+  source.onerror = () => {
+    if (!source) return;
+    source.close(); source = null; $("#go").disabled = false;
+    $("#stages").insertAdjacentHTML("beforeend", `<p class="note error">Lost connection to the local service. Is <code>npm run serve</code> still running?</p>`);
+  };
+}
+
+setupNear();
+loadStatus().catch(() => { $("#status").innerHTML = `<span class="pill missing">Local service not reachable</span>`; });
+</script>
+</body>
+</html>

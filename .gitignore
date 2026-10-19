@@ -26,3 +26,4 @@ spikes/**/build/
 # Node (spikes, tooling)
 node_modules/
 spikes/**/runs/
+spikes/identify/models/

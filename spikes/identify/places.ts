@@ -4,7 +4,7 @@
 // account to mint a Maps token. Until APPLE_MAPS_AUTH_TOKEN is set, this falls back to
 // OpenStreetMap Nominatim (free, no key, 1 request/second) so the spike runs today.
 
-import type { ExtractedPlace } from "./extract.ts";
+import type { ExtractedPlace } from "./understand.ts";
 
 export interface PlaceMatch {
   provider: "apple_maps" | "openstreetmap";
@@ -122,6 +122,78 @@ async function searchApple(place: ExtractedPlace, query: string, authToken: stri
   };
 }
 
+// --- Autocomplete for "What place is this?" -----------------------------------------------
+// Stands in for MKLocalSearchCompleter in the share extension (ledger R13). Nominatim forbids
+// search-as-you-type, so the OpenStreetMap path uses Photon, which is built for it.
+
+export interface PlaceSuggestion {
+  provider: PlaceMatch["provider"];
+  placeId: string | null;
+  name: string;
+  /** Address or area line under the name, as the completer shows it. */
+  subtitle: string | null;
+  lat: number;
+  lng: number;
+}
+
+const OSM_TYPES: Record<string, string> = { N: "node", W: "way", R: "relation" };
+
+async function suggestOsm(query: string, near: { lat: number; lng: number } | null): Promise<PlaceSuggestion[]> {
+  const params = new URLSearchParams({ q: query, limit: "6", lang: "en" });
+  if (near) {
+    params.set("lat", String(near.lat));
+    params.set("lon", String(near.lng));
+  }
+  const res = await fetch(`https://photon.komoot.io/api/?${params}`, {
+    headers: { "User-Agent": USER_AGENT },
+    signal: AbortSignal.timeout(6000),
+  });
+  if (!res.ok) throw new Error(`Place suggestions failed: HTTP ${res.status}`);
+  const features: any[] = ((await res.json()) as any).features ?? [];
+  return features
+    .filter((f) => f.properties?.name)
+    .map((f) => {
+      const p = f.properties;
+      const street = [p.housenumber, p.street].filter(Boolean).join(" ");
+      return {
+        provider: "openstreetmap" as const,
+        placeId: OSM_TYPES[p.osm_type] ? `osm:${OSM_TYPES[p.osm_type]}/${p.osm_id}` : null,
+        name: p.name,
+        subtitle: [street, p.district, p.city, p.state, p.country].filter(Boolean).join(", ") || null,
+        lat: f.geometry.coordinates[1],
+        lng: f.geometry.coordinates[0],
+      };
+    });
+}
+
+async function suggestApple(query: string, near: { lat: number; lng: number } | null, authToken: string): Promise<PlaceSuggestion[]> {
+  const token = await appleAccessToken(authToken);
+  const params = new URLSearchParams({ q: query, lang: "en-US", resultTypeFilter: "Poi,Address" });
+  if (near) params.set("searchLocation", `${near.lat},${near.lng}`);
+  const res = await fetch(`https://maps-api.apple.com/v1/searchAutocomplete?${params}`, {
+    headers: { Authorization: `Bearer ${token}` },
+    signal: AbortSignal.timeout(6000),
+  });
+  if (!res.ok) throw new Error(`Apple Maps autocomplete failed: HTTP ${res.status}`);
+  const results: any[] = ((await res.json()) as any).results ?? [];
+  return results
+    .filter((r) => r.location && r.displayLines?.length)
+    .slice(0, 6)
+    .map((r) => ({
+      provider: "apple_maps" as const,
+      placeId: r.id ?? null,
+      name: r.displayLines[0],
+      subtitle: r.displayLines.slice(1).join(", ") || null,
+      lat: r.location.latitude,
+      lng: r.location.longitude,
+    }));
+}
+
+export async function suggestPlaces(query: string, near: { lat: number; lng: number } | null): Promise<PlaceSuggestion[]> {
+  const appleToken = process.env.APPLE_MAPS_AUTH_TOKEN;
+  return appleToken ? suggestApple(query, near, appleToken) : suggestOsm(query, near);
+}
+
 // --- Public ------------------------------------------------------------------------------
 
 export function providerName(): PlaceMatch["provider"] {
@@ -130,7 +202,6 @@ export function providerName(): PlaceMatch["provider"] {
 
 /** Tries each query until one gives a strong name match; otherwise returns the best weaker hit. */
 export async function findPlace(place: ExtractedPlace): Promise<PlaceMatch | null> {
-  if (place.kind === "idea") return null;
   const appleToken = process.env.APPLE_MAPS_AUTH_TOKEN;
   let fallback: PlaceMatch | null = null;
   for (const query of queriesFor(place)) {

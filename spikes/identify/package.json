@@ -2,14 +2,14 @@
   "name": "identify-spike",
   "private": true,
   "type": "module",
-  "description": "Phase 0 spike: reel/short/tiktok URL -> place. Throwaway; the real version becomes the identify Edge Function.",
+  "description": "Local decoder: reel/short/tiktok URL -> everything we can decode -> Experiences. Research code (ADR-008); the real version becomes the identify Edge Function.",
   "scripts": {
+    "serve": "node --env-file-if-exists=.env server.ts",
     "identify": "node --env-file-if-exists=.env identify.ts",
+    "setup": "sh setup.sh",
     "typecheck": "tsc --noEmit"
   },
-  "engines": {
-    "node": ">=23.6"
-  },
+  "engines": { "node": ">=23.6" },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.135.0",
     "zod": "^4.6.7"
