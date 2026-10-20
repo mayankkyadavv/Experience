@@ -1,0 +1,87 @@
+{
+  "title": "Stroll the grounds of Awbury Arboretum in Germantown",
+  "intent": "Get a quiet, free nature walk among historic trees and a Quaker family estate.",
+  "description": "A 55-acre public landscape and historic house in Germantown, with grounds open dawn to dusk year-round at no charge. Includes the farm area and walking paths; it hosts seasonal programs such as Second Saturdays at the farm.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "arboretum",
+  "tags": [
+    "free",
+    "nature",
+    "walking",
+    "dog-friendly",
+    "germantown"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Awbury Arboretum",
+    "address": "1 Awbury Rd, Philadelphia, PA 19138",
+    "neighborhood": "Germantown"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://awbury.org/"
+    }
+  ],
+  "sources": [
+    "https://awbury.org/",
+    "https://www.mapquest.com/us/pennsylvania/awbury-arboretum-380198284",
+    "https://historicgermantownpa.org/awbury-arboretum/"
+  ],
+  "uncertain": [
+    "Dog policy",
+    "Exact sunrise-to-sunset hours vary by season"
+  ],
+  "slug": "stroll-the-grounds-of-awbury-arboretum-in-germantown",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.048354,
+    "lng": -75.169252
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.671Z",
+  "model": "claude-sonnet-5-5"
+}

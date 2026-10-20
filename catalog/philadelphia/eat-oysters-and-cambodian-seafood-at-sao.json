@@ -1,0 +1,105 @@
+{
+  "title": "Eat oysters and Cambodian seafood at Sao",
+  "intent": "Sultry, tiny oyster bar from the team behind Mawn with inventive Southeast Asian crudos and cocktails.",
+  "description": "Sao is a small counter-style oyster bar on East Passyunk from James Beard winner Phila Lorn and partners. Expect oysters with Cambodian peppercorn fish-sauce mignonette, crudos, golden soft-shell shrimp, noodle dishes and creative cocktails.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "seafood",
+  "tags": [
+    "oysters",
+    "cambodian",
+    "date-night",
+    "cocktails",
+    "buzzy"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Sao",
+    "address": "1710 E Passyunk Ave, Philadelphia, PA 19148",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": {
+    "min": 50,
+    "max": 100
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.saophilly.com/"
+    }
+  ],
+  "sources": [
+    "https://www.opentable.com/r/sao-philadelphia",
+    "https://www.theinfatuation.com/philadelphia/reviews/sao",
+    "https://www.inquirer.com/food/craig-laban/sao-phila-lorn-oyster-cambodian-passyunk-mawn-20251205.html"
+  ],
+  "uncertain": [
+    "price per person estimate"
+  ],
+  "slug": "eat-oysters-and-cambodian-seafood-at-sao",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9284859,
+    "lng": -75.1653443
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in South Philly, East Passyunk and Bella Vista",
+  "drafted_at": "2026-10-20T01:15:44.426Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,113 @@
+{
+  "title": "Weekend karaoke with fire pits at 1100 Social",
+  "intent": "Karaoke night in a big indoor-outdoor bar near the stadiums.",
+  "description": "Bar in the South Philly sports complex with indoor and outdoor space, fire pits and TVs. Karaoke runs Friday and Saturday around 8 p.m. with 300+ songs.",
+  "category": "nightlife",
+  "kind": "activity",
+  "subcategory": "karaoke",
+  "tags": [
+    "karaoke",
+    "outdoor-seating",
+    "fire-pit",
+    "sports-complex",
+    "weekend"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "1100 Social",
+    "address": "1100 Pattison Ave, Philadelphia, PA 19148",
+    "neighborhood": "South Philadelphia Sports Complex"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 12
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "16:00",
+      "close": "00:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://statesidelive.com/Eat-and-Drink/1100-Social"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/things-to-do/karaoke-philadelphia/",
+    "https://www.yelp.com/biz/1100-social-philadelphia"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours may change with stadium events",
+    "karaoke schedule should be confirmed"
+  ],
+  "slug": "weekend-karaoke-with-fire-pits-at-1100-social",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9045217,
+    "lng": -75.1674477
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.555Z",
+  "model": "claude-sonnet-5-5"
+}

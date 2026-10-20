@@ -1,0 +1,125 @@
+{
+  "title": "Play board games and eat plant-forward food at Queen & Rook Game Cafe",
+  "intent": "Spend a rainy evening with 2,000+ board games, a bar and a retro basement arcade.",
+  "description": "South Street board-game cafe with a library of 2,000+ games, a full restaurant and bar with lots of vegetarian, vegan and gluten-free options, plus a retro basement arcade. Reservations are available on Resy; a second location in Fairmount was announced.",
+  "category": "games",
+  "kind": "place",
+  "subcategory": "board game cafe",
+  "tags": [
+    "rainy-day",
+    "board-games",
+    "arcade",
+    "vegetarian-friendly",
+    "indoor"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Queen & Rook Game Cafe",
+    "address": "123 South St, Philadelphia, PA 19147",
+    "neighborhood": "Queen Village"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "00:00"
+    },
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.queenandrookcafe.com/"
+    },
+    {
+      "kind": "booking",
+      "url": "https://resy.com/cities/philadelphia-pa/venues/queen-and-rook-game-cafe"
+    }
+  ],
+  "sources": [
+    "https://www.queenandrookcafe.com/",
+    "https://resy.com/cities/philadelphia-pa/venues/queen-and-rook-game-cafe",
+    "https://www.yelp.com/biz/queen-and-rook-game-cafe-philadelphia-2"
+  ],
+  "uncertain": [
+    "price_usd",
+    "Sunday closing time (Resy/Yelp say 10pm, official site says midnight)",
+    "arcade hours are shorter than restaurant hours"
+  ],
+  "slug": "play-board-games-and-eat-plant-forward-food-at-queen-rook-ga",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9411672,
+    "lng": -75.1448857
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.120Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,109 @@
+{
+  "title": "Eat your way through the Southeast Asian Market at FDR Park",
+  "intent": "Try Cambodian, Lao, Vietnamese and Thai street food at an outdoor weekend market.",
+  "description": "A long-running weekend market at FDR Park with food vendors, fresh juices and goods. The 2026 season began April 4 and runs nearly every weekend through the end of October, so only the last weekend or two remain.",
+  "category": "market",
+  "kind": "event",
+  "subcategory": "street food market",
+  "tags": [
+    "street-food",
+    "outdoor",
+    "seasonal",
+    "weekend",
+    "southeast-asian"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "family",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Southeast Asian Market at FDR Park",
+    "address": "1500 Pattison Ave, Philadelphia, PA 19145",
+    "neighborhood": "South Philadelphia"
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-04-04",
+      "end": "2026-10-31"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-24",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-25",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-31",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://whyy.org/articles/southeast-asian-market-philadelphia-fdr-park/"
+    }
+  ],
+  "sources": [
+    "https://www.cbsnews.com/philadelphia/news/philadelphia-southeast-asian-market-2026-guide/",
+    "https://whyy.org/articles/southeast-asian-market-philadelphia-fdr-park/"
+  ],
+  "uncertain": [
+    "specific remaining dates (inferred from 'nearly every weekend through end of October')",
+    "daily hours",
+    "official website URL",
+    "price_usd"
+  ],
+  "slug": "eat-your-way-through-the-southeast-asian-market-at-fdr-park",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9055633,
+    "lng": -75.1758101
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.764Z",
+  "model": "claude-sonnet-5-5"
+}

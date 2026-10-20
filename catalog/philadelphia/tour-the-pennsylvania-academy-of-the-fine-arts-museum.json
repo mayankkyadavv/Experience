@@ -1,0 +1,107 @@
+{
+  "title": "Tour the Pennsylvania Academy of the Fine Arts museum",
+  "intent": "See American art in a landmark Victorian building, with cheaper Friday evenings.",
+  "description": "America's first art museum and school, with exhibitions across the Historic Landmark Building and the Hamilton Building. Friday evenings from 5-8 pm have discounted admission.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "art museum",
+  "tags": [
+    "museum",
+    "rainy-day",
+    "architecture",
+    "friday-evening"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Pennsylvania Academy of the Fine Arts",
+    "address": "128 N Broad St, Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "20:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.pafa.org/museum/visit"
+    }
+  ],
+  "sources": [
+    "https://www.pafa.org/museum/visit"
+  ],
+  "uncertain": [
+    "duration_minutes",
+    "one search result listed different hours; official page used"
+  ],
+  "slug": "tour-the-pennsylvania-academy-of-the-fine-arts-museum",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9554937,
+    "lng": -75.1634645
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.545Z",
+  "model": "claude-sonnet-5-5"
+}

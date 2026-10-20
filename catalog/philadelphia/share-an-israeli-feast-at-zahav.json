@@ -1,0 +1,113 @@
+{
+  "title": "Share an Israeli feast at Zahav",
+  "intent": "Philly's James Beard-winning Israeli restaurant, famous for hummus, laffa and slow-cooked lamb shoulder.",
+  "description": "Michael Solomonov's Society Hill flagship serves wood-fired laffa with hummus and salatim, mezze, charcoal skewers and the signature lamb shoulder, with a prix-fixe option for sharing. Open kitchen, lively room; book well ahead.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "israeli",
+  "tags": [
+    "james-beard",
+    "shareable",
+    "special-occasion",
+    "reservations-required"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Zahav",
+    "address": "237 St James Pl, Philadelphia, PA 19106",
+    "neighborhood": "Society Hill"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "21:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.zahavrestaurant.com"
+    },
+    {
+      "kind": "booking",
+      "url": "https://resy.com/cities/philadelphia-pa/venues/zahav"
+    }
+  ],
+  "sources": [
+    "https://resy.com/cities/philadelphia-pa/venues/zahav",
+    "https://www.yelp.com/biz/zahav-philadelphia",
+    "https://www.theworlds50best.com/discovery/Establishments/US/Philadelphia/Zahav.html"
+  ],
+  "uncertain": [
+    "price",
+    "hours (Yelp shows Tue-Sat 5-9:30; another guide lists Sunday service)",
+    "website URL not directly verified"
+  ],
+  "slug": "share-an-israeli-feast-at-zahav",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.946306,
+    "lng": -75.145187
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Center City and Rittenhouse",
+  "drafted_at": "2026-10-20T01:08:55.233Z",
+  "model": "claude-sonnet-5-5"
+}

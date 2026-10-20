@@ -1,0 +1,80 @@
+{
+  "title": "Happy hour wine at a.bar in Rittenhouse",
+  "intent": "Hotel-lobby wine and cocktail bar off Rittenhouse Square.",
+  "description": "Street-level bar in the AKA Rittenhouse Square hotel with wine, cocktails and light bites; happy hour has weekday discounts on beer, wine and aperitifs. Listed by The Infatuation as a good wine spot for first dates.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "wine bar",
+  "tags": [
+    "rittenhouse",
+    "happy-hour",
+    "hotel-bar",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "a.bar",
+    "address": "135 S 18th St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 50
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 5
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://punchdrink.com/venues/a-bar/",
+    "https://www.theinfatuation.com/philadelphia/guides/good-wine-philadelphia"
+  ],
+  "uncertain": [
+    "hours (older source: Mon-Thu noon-1am, Fri-Sat noon-2am, closed Sun; unverified)",
+    "price",
+    "official website"
+  ],
+  "slug": "happy-hour-wine-at-a-bar-in-rittenhouse",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9504178,
+    "lng": -75.1704317
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.054Z",
+  "model": "claude-sonnet-5-5"
+}

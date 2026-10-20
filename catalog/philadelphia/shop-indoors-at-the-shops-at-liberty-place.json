@@ -1,0 +1,79 @@
+{
+  "title": "Shop indoors at The Shops at Liberty Place",
+  "intent": "Do a quick dry shopping stop in the middle of Center City.",
+  "description": "A two-level indoor shopping complex between One and Two Liberty Place with 30+ shops and restaurants, near Rittenhouse and City Hall.",
+  "category": "shopping",
+  "kind": "place",
+  "subcategory": "mall",
+  "tags": [
+    "rainy-day",
+    "shopping",
+    "indoor",
+    "center-city"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Shops at Liberty Place",
+    "address": "1625 Chestnut St, Philadelphia, PA 19103",
+    "neighborhood": "Center City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://shopsatliberty.com"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/best-places-to-shop-in-philadelphia/",
+    "https://www.facebook.com/@ShopsatLiberty/"
+  ],
+  "uncertain": [
+    "hours",
+    "price_usd",
+    "number of current tenants"
+  ],
+  "slug": "shop-indoors-at-the-shops-at-liberty-place",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9516979,
+    "lng": -75.1674458
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.123Z",
+  "model": "claude-sonnet-5-5"
+}

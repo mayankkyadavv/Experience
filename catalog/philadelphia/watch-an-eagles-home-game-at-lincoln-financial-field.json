@@ -1,0 +1,129 @@
+{
+  "title": "Watch an Eagles home game at Lincoln Financial Field",
+  "intent": "See the Birds play in one of the NFL's loudest stadiums.",
+  "description": "Eagles home games in South Philadelphia, including a Monday Night Football game against Dallas on Oct. 26. Remaining home games run through Christmas Eve. Face-value tickets are scarce, and most buyers use resale.",
+  "category": "sports",
+  "kind": "event",
+  "subcategory": "nfl football",
+  "tags": [
+    "eagles",
+    "nfl",
+    "tailgating",
+    "south-philly",
+    "seasonal"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "family",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Lincoln Financial Field",
+    "address": "1 Lincoln Financial Field Way, Philadelphia, PA 19148",
+    "neighborhood": "South Philadelphia Sports Complex"
+  },
+  "price_usd": {
+    "min": 116,
+    "max": 400
+  },
+  "duration_minutes": {
+    "min": 210,
+    "max": 300
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-26",
+      "end": "2026-12-24"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-26",
+      "start": "20:15",
+      "end": null
+    },
+    {
+      "date": "2026-11-08",
+      "start": "13:00",
+      "end": null
+    },
+    {
+      "date": "2026-11-22",
+      "start": "16:25",
+      "end": null
+    },
+    {
+      "date": "2026-12-13",
+      "start": "13:00",
+      "end": null
+    },
+    {
+      "date": "2026-12-19",
+      "start": "17:00",
+      "end": null
+    },
+    {
+      "date": "2026-12-24",
+      "start": "20:15",
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.lincolnfinancialfield.com/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.ticketmaster.com/philadelphia-eagles-tickets/artist/805999?home_away=home"
+    }
+  ],
+  "sources": [
+    "https://www.philadelphiaeagles.com/news/eagles-schedule-release-2026",
+    "https://www.philadelphiaeagles.com/schedule/events",
+    "https://www.cbssports.com/nfl/teams/PHI/philadelphia-eagles/schedule/",
+    "https://seatgeek.com/venues/lincoln-financial-field/tickets"
+  ],
+  "uncertain": [
+    "price_usd (resale get-in prices seen; face value not confirmed)",
+    "end times",
+    "Jan 2027 home/playoff games"
+  ],
+  "slug": "watch-an-eagles-home-game-at-lincoln-financial-field",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9009099,
+    "lng": -75.1674892
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Pro and college sports games and stadium experiences",
+  "drafted_at": "2026-10-20T01:15:34.974Z",
+  "model": "claude-sonnet-5-5"
+}

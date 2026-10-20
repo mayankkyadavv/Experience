@@ -1,0 +1,97 @@
+{
+  "title": "Ice skate at Independence Blue Cross RiverRink Winterfest",
+  "intent": "Skate outdoors on the Delaware waterfront with a festive winter-village atmosphere.",
+  "description": "Philadelphia's largest outdoor rink on the Delaware River Waterfront opens for its 2026–27 season on Nov 27 with a tree lighting. Entry to the Winterfest grounds is free; skating costs $5 plus $12 for skate rental, and tickets go on sale Oct 28.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "ice skating",
+  "tags": [
+    "seasonal",
+    "outdoor",
+    "waterfront",
+    "winter",
+    "holiday"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Independence Blue Cross RiverRink Winterfest",
+    "address": "101 S Columbus Blvd, Philadelphia, PA 19106",
+    "neighborhood": "Penn's Landing"
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 17
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 12
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-27",
+      "end": "2027-02-28"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.delawareriverwaterfront.com/where-to-go/blue-cross-riverrink-winterfest"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.delawareriverwaterfront.com/where-to-go/blue-cross-riverrink-winterfest/ice-skating-tickets"
+    }
+  ],
+  "sources": [
+    "https://news.ibx.com/newsroom/press-release/ibx-riverrink-winterfest-2026/",
+    "https://www.delawareriverwaterfront.com/where-to-go/blue-cross-riverrink-winterfest",
+    "https://www.visitphilly.com/things-to-do/attractions/blue-cross-riverrink/"
+  ],
+  "uncertain": [
+    "hours",
+    "duration_minutes",
+    "group_size"
+  ],
+  "slug": "ice-skate-at-independence-blue-cross-riverrink-winterfest",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.947876,
+    "lng": -75.141105
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks",
+  "drafted_at": "2026-10-20T00:33:19.247Z",
+  "model": "claude-sonnet-5-5"
+}

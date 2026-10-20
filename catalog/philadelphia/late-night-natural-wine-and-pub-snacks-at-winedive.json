@@ -1,0 +1,117 @@
+{
+  "title": "Late-night natural wine and pub snacks at WineDive",
+  "intent": "Late-night wine-bar-meets-dive with a deep natural list.",
+  "description": "Rittenhouse reopening of the dive-bar-style natural wine bar, with about 30 wines by the glass, roast beef sandwiches and loaded potatoes, and a 'old Hollywood meets Atlantic City' look. No reservations and the kitchen runs until 1am.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "natural wine",
+  "tags": [
+    "natural-wine",
+    "late-night",
+    "walk-in",
+    "rittenhouse",
+    "dive-bar"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "WineDive",
+    "address": "1534 Sansom St, Philadelphia, PA 19102",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 50
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "16:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.phillymag.com/restaurants/2025/10/28/winedive-reopens/",
+    "https://www.theinfatuation.com/philadelphia/guides/good-wine-philadelphia",
+    "https://www.yelp.com/biz/wine-dive-philadelphia-3"
+  ],
+  "uncertain": [
+    "price",
+    "official website"
+  ],
+  "slug": "late-night-natural-wine-and-pub-snacks-at-winedive",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9503637,
+    "lng": -75.1670798
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.051Z",
+  "model": "claude-sonnet-5-5"
+}

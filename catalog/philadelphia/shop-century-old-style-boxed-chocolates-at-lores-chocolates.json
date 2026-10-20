@@ -1,0 +1,114 @@
+{
+  "title": "Shop century-old-style boxed chocolates at Lore's Chocolates",
+  "intent": "Classic Philadelphia buttercreams, caramels and seasonal chocolates near the historic district.",
+  "description": "Family-run chocolate maker and retailer on Jeweler's Row, handcrafting confections since 1967, with 100+ varieties including buttercreams, chocolate-covered caramels and marshmallows, and a big seasonal selection.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "chocolate shop",
+  "tags": [
+    "chocolate",
+    "gifts",
+    "historic-district",
+    "family-owned"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Lore's Chocolates",
+    "address": "34 S 7th St, Philadelphia, PA 19106",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": {
+    "min": 3,
+    "max": 40
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 30
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://loreschocolates.com/"
+    }
+  ],
+  "sources": [
+    "https://loreschocolates.com/pages/contact",
+    "https://maps.apple.com/place?q=Lore%27s+Chocolates&ll=39.9498778%2C-75.152448&auid=6464744304695833819&lsp=9902&address=34+S+Seventh+St%2C+Philadelphia%2C+PA++19106%2C+United+States"
+  ],
+  "uncertain": [
+    "price_usd estimated"
+  ],
+  "slug": "shop-century-old-style-boxed-chocolates-at-lores-chocolates",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9498064,
+    "lng": -75.1523576
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.081Z",
+  "model": "claude-sonnet-5-5"
+}

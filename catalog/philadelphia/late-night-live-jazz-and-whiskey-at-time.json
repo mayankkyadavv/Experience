@@ -1,0 +1,124 @@
+{
+  "title": "Late-night live jazz and whiskey at Time",
+  "intent": "Drop in for live music every night in a dim whiskey bar and jazz room.",
+  "description": "Time is a Sansom Street restaurant and bar with three spaces, over 200 whiskeys and live music listed every night, with jazz in its music room. Open late with dinner and drinks; some nights have an open mic.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "jazz bar",
+  "tags": [
+    "jazz",
+    "whiskey",
+    "late-night",
+    "live-music",
+    "cocktails"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Time",
+    "address": "1315 Sansom St, Philadelphia, PA 19107",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 60
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://resy.com/cities/philadelphia-pa/venues/time"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/time-philadelphia",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d1036053-Reviews-Time-Philadelphia_Pennsylvania.html",
+    "https://resy.com/cities/philadelphia-pa/venues/time"
+  ],
+  "uncertain": [
+    "official website",
+    "cover charge",
+    "whether music runs every night currently"
+  ],
+  "slug": "late-night-live-jazz-and-whiskey-at-time",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9500546,
+    "lng": -75.1626383
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.182Z",
+  "model": "claude-sonnet-5-5"
+}

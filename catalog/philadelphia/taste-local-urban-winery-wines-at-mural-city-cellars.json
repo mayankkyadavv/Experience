@@ -1,0 +1,82 @@
+{
+  "title": "Taste local urban-winery wines at Mural City Cellars",
+  "intent": "Drink Philly-made wine at a community-minded urban winery.",
+  "description": "Fishtown/Kensington urban winery and wine bar making wine from local and Pennsylvania grapes, with seating, make-your-own charcuterie and classes. It donates to neighborhood causes.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "winery",
+  "tags": [
+    "urban-winery",
+    "local",
+    "fishtown",
+    "classes"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Mural City Cellars",
+    "address": "1831 Frankford Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown / Kensington"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 40
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.inquirer.com/food/mural-city-cellars-philadelphia-wineries-wine-bars-fishtown-20240321.html",
+    "https://wooderice.com/mural-city-cellars-is-opening-a-new-location-with-plenty-of-seating-make-your-own-charcuterie-and-classes/",
+    "https://www.phillymag.com/foobooz/2025/07/23/kensington-fishtown-wine-country/"
+  ],
+  "uncertain": [
+    "hours",
+    "price",
+    "official website",
+    "current operating status (2024 opening article; 2026 mention found)"
+  ],
+  "slug": "taste-local-urban-winery-wines-at-mural-city-cellars",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9775855,
+    "lng": -75.1310006
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.055Z",
+  "model": "claude-sonnet-5-5"
+}

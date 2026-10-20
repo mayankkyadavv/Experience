@@ -1,0 +1,117 @@
+{
+  "title": "See racing sports cars at the Simeone Foundation Automotive Museum",
+  "intent": "Browse one of the world's great racing-car collections, out of the weather.",
+  "description": "Museum near the airport with 65+ historically significant racing sports cars (Ferrari, Alfa Romeo, Bugatti, Jaguar, Porsche and more). Regular admission is $15 for adults 18-64 and free for under 18; special Demo Days run select cars. No food service except vending.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "automotive museum",
+  "tags": [
+    "rainy-day",
+    "museum",
+    "cars",
+    "indoor"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Simeone Foundation Automotive Museum",
+    "address": "6825 Norwitch Dr, Philadelphia, PA 19153",
+    "neighborhood": "Eastwick"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "18:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "18:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "18:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://simeonemuseum.org/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://simeonemuseum.org/visit/purchase-tickets/"
+    }
+  ],
+  "sources": [
+    "https://simeonemuseum.org/visit/planning-your-trip/",
+    "https://simeonemuseum.org/visit/purchase-tickets/",
+    "https://simeonemuseum.org/2026-events/"
+  ],
+  "uncertain": [
+    "group_size"
+  ],
+  "slug": "see-racing-sports-cars-at-the-simeone-foundation-automotive",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9109825,
+    "lng": -75.2262944
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.121Z",
+  "model": "claude-sonnet-5-5"
+}

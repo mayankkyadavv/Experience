@@ -1,0 +1,117 @@
+{
+  "title": "Settle into ReAnimator's plant-filled Kensington roastery café",
+  "intent": "Roaster-made coffee and flaky pastries in an airy, plant-filled space with wifi.",
+  "description": "ReAnimator's South Kensington flagship roasts its own beans on site and has an open, plant-filled room with wifi, pastries, some wine, books and merch. It's a go-to for a few hours of work or a long coffee.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "specialty coffee",
+  "tags": [
+    "laptop-friendly",
+    "roastery",
+    "plants",
+    "wifi"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "ReAnimator Coffee (South Kensington)",
+    "address": "310 W Master St, Philadelphia, PA 19122",
+    "neighborhood": "South Kensington"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 10
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 1,
+      "open": "07:00",
+      "close": "15:00"
+    },
+    {
+      "day": 2,
+      "open": "07:00",
+      "close": "15:00"
+    },
+    {
+      "day": 3,
+      "open": "07:00",
+      "close": "15:00"
+    },
+    {
+      "day": 4,
+      "open": "07:00",
+      "close": "15:00"
+    },
+    {
+      "day": 5,
+      "open": "07:00",
+      "close": "15:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "15:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.reanimatorcoffee.com/pages/locations"
+    }
+  ],
+  "sources": [
+    "https://www.reanimatorcoffee.com/pages/locations",
+    "https://www.theinfatuation.com/philadelphia/guides/best-coffee-in-philly"
+  ],
+  "uncertain": [],
+  "slug": "settle-into-reanimators-plant-filled-kensington-roastery-caf",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9724779,
+    "lng": -75.1408854
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.317Z",
+  "model": "claude-sonnet-5-5"
+}

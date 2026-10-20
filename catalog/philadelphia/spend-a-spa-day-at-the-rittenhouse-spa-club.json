@@ -1,0 +1,85 @@
+{
+  "title": "Spend a spa day at The Rittenhouse Spa & Club",
+  "intent": "Get a luxury hotel spa day with a pool, steam and sauna on Rittenhouse Square.",
+  "description": "A spa on the third floor of The Rittenhouse hotel. It offers massage, facial and salon services, plus a saltwater pool, steam room and sauna. Treatments are by appointment, and reviewers describe making a full day of it.",
+  "category": "wellness",
+  "kind": "place",
+  "subcategory": "day spa",
+  "tags": [
+    "luxury",
+    "pool",
+    "steam-room",
+    "hotel-spa",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Rittenhouse Spa & Club",
+    "address": "210 W Rittenhouse Sq, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse Square"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 300
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.rittenhousehotel.com/about/service"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d8600186-Reviews-The_Rittenhouse_Spa_Club-Philadelphia_Pennsylvania.html",
+    "https://www.yelp.com/biz/the-rittenhouse-spa-and-club-philadelphia",
+    "https://www.rittenhousehotel.com/about/service"
+  ],
+  "uncertain": [
+    "hours (sources conflict)",
+    "prices",
+    "spa's own website URL",
+    "day-access policy for non-hotel guests"
+  ],
+  "slug": "spend-a-spa-day-at-the-rittenhouse-spa-club",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9498637,
+    "lng": -75.1734752
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Spas, saunas, bathhouses and wellness experiences",
+  "drafted_at": "2026-10-20T01:09:33.218Z",
+  "model": "claude-sonnet-5-5"
+}

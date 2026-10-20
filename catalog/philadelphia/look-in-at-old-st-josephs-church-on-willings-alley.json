@@ -1,0 +1,81 @@
+{
+  "title": "Look in at Old St. Joseph's Church on Willings Alley",
+  "intent": "Visit the city's first Catholic church, founded 1733, tucked down an alley.",
+  "description": "Founded by Jesuits in 1733, it was once the only place in the English-speaking world where Catholics could publicly celebrate Mass. It's an unassuming building off the main streets, so check Mass times before visiting.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic church",
+  "tags": [
+    "quiet",
+    "free",
+    "colonial"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Old St. Joseph's Church",
+    "address": "321 Willings Alley",
+    "neighborhood": "Society Hill"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 30
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://oldstjoseph.org/"
+    }
+  ],
+  "sources": [
+    "https://oldstjoseph.org/",
+    "https://www.frommers.com/destinations/philadelphia/attractions/old-st-josephs-church/"
+  ],
+  "uncertain": [
+    "visiting hours outside of Mass",
+    "price_usd (assumed free)"
+  ],
+  "slug": "look-in-at-old-st-josephs-church-on-willings-alley",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9468471,
+    "lng": -75.1475369
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.409Z",
+  "model": "claude-sonnet-5-5"
+}

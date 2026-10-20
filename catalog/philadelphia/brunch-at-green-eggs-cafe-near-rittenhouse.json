@@ -1,0 +1,122 @@
+{
+  "title": "Brunch at Green Eggs Café near Rittenhouse",
+  "intent": "Big, creative brunch plates with vegan and gluten-free options.",
+  "description": "Green Eggs Café serves breakfast, lunch and brunch with creative dishes like Kit Kat French toast, chicken and waffles and breakfast enchiladas. This Locust Avenue location is in Washington Square West; there are other locations around the city. Vegetarian and vegan options are available.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "vegan-options",
+    "popular",
+    "outdoor-seating"
+  ],
+  "good_for": [
+    "friends",
+    "family",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Green Eggs Café (Locust Ave)",
+    "address": "1301 Locust Ave, Philadelphia, PA 19107",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 28
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "15:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "15:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "15:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "15:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "15:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "15:00"
+    },
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g60795-d11718481-Reviews-Green_Eggs_Cafe-Philadelphia_Pennsylvania.html"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d11718481-Reviews-Green_Eggs_Cafe-Philadelphia_Pennsylvania.html",
+    "https://joe.coffee/locations/pa/philadelphia/green-eggs-caf-2327-gaul-st-philadelphia/"
+  ],
+  "uncertain": [
+    "official website link",
+    "Thursday-Saturday hours assumed 9-3",
+    "price_usd"
+  ],
+  "slug": "brunch-at-green-eggs-cafe-near-rittenhouse",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0383612,
+    "lng": -75.1687626
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.864Z",
+  "model": "claude-sonnet-5-5"
+}

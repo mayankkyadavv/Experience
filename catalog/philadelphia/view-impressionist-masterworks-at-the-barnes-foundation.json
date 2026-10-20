@@ -1,0 +1,107 @@
+{
+  "title": "View Impressionist masterworks at the Barnes Foundation",
+  "intent": "See Renoir, Cezanne and Matisse in the Barnes's famous wall ensembles.",
+  "description": "A world-class collection of Impressionist, Post-Impressionist and early modern art arranged in Albert Barnes's distinctive ensembles. Open Thursday to Monday, with timed tickets and optional guided highlights tours.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "art museum",
+  "tags": [
+    "museum",
+    "rainy-day",
+    "impressionism",
+    "parkway"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Barnes Foundation",
+    "address": "2025 Benjamin Franklin Pkwy, Philadelphia, PA 19130",
+    "neighborhood": "Parkway Museums District"
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.barnesfoundation.org/plan-your-visit"
+    }
+  ],
+  "sources": [
+    "https://www.barnesfoundation.org/plan-your-visit",
+    "https://www.phlvisitorcenter.com/barnesfoundation"
+  ],
+  "uncertain": [
+    "current adult price (from visitor-center listing)",
+    "duration_minutes"
+  ],
+  "slug": "view-impressionist-masterworks-at-the-barnes-foundation",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9605495,
+    "lng": -75.1726581
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.547Z",
+  "model": "claude-sonnet-5-5"
+}

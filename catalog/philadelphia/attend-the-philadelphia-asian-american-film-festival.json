@@ -1,0 +1,80 @@
+{
+  "slug": "attend-the-philadelphia-asian-american-film-festival",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Attend the Philadelphia Asian American Film Festival",
+  "intent": "See Asian and Pacific Islander films and meet filmmakers at one of the largest festivals of its kind on the East Coast.",
+  "description": "The festival's 19th edition runs Nov 5-15, 2026, with features, shorts and special programs at theaters around the city. The schedule, film guide and passes are on its Eventive site.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "film festival",
+  "tags": [
+    "film festival",
+    "asian american",
+    "seasonal",
+    "indie film"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "flexible",
+  "place": null,
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 240
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-05",
+      "end": "2026-11-15"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://paaff2026.eventive.org/welcome"
+    }
+  ],
+  "sources": [
+    "https://paaff2026.eventive.org/welcome",
+    "https://www.visitphilly.com/articles/philadelphia/top-things-to-do-in-philadelphia-in-november/"
+  ],
+  "uncertain": [
+    "venues",
+    "specific screening dates and times",
+    "ticket prices"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Movie theaters, indie cinemas and outdoor screenings",
+  "drafted_at": "2026-10-20T01:12:03.282Z",
+  "model": "claude-sonnet-5-5"
+}

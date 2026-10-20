@@ -1,0 +1,119 @@
+{
+  "title": "Wander the six-story Ministry of Awe in a former Old City bank",
+  "intent": "Get lost in a surreal, interactive art attraction packed with hidden rooms and live performers.",
+  "description": "An immersive, ever-changing art experience inside an 1870 Frank Furness-designed bank that opened in March 2026. Six floors of installations, secret passages, murals and costumed performers; visits run roughly 90 minutes to 2 hours with timed entry.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "immersive art",
+  "tags": [
+    "unusual",
+    "immersive",
+    "rainy-day",
+    "interactive",
+    "old-city"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Ministry of Awe",
+    "address": "27 N 3rd St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 19.99,
+    "max": 29.99
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://moaphilly.org/visit"
+    }
+  ],
+  "sources": [
+    "https://moaphilly.org/visit",
+    "https://www.phillyvoice.com/ministry-of-awe-old-city-bank-immersive-art/",
+    "https://attractionsmagazine.com/ministry-of-awe-near-the-liberty-bell-philadelphia-attraction-museum/",
+    "https://www.visitphilly.com/things-to-do/attractions/ministry-of-awe/"
+  ],
+  "uncertain": [
+    "Saturday opening time (site text says 11am, structured data says 10am)",
+    "Exact price range; $29.99 adult, $19.99 child, $24.99 senior/military"
+  ],
+  "slug": "wander-the-six-story-ministry-of-awe-in-a-former-old-city-ba",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9510622,
+    "lng": -75.1452624
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Small, unusual and weird museums and attractions",
+  "drafted_at": "2026-10-20T01:13:35.509Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,113 @@
+{
+  "title": "Visit the Wissahickon Environmental Center Tree House and Andorra Meadow",
+  "intent": "Easy nature stop with birdfeeders, meadow paths and a link onto Forbidden Drive.",
+  "description": "The Wissahickon Environmental Center, a Philadelphia Parks & Recreation site, is a nature-education building known as the Tree House at the park's northern end. Walk the Andorra Meadow and connect to Forbidden Drive; the center runs birding and family programs.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "nature center",
+  "tags": [
+    "free",
+    "birdwatching",
+    "family-friendly",
+    "rainy-day"
+  ],
+  "good_for": [
+    "family",
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Wissahickon Environmental Center (Tree House)",
+    "address": "300 W Northwestern Ave, Philadelphia, PA 19118",
+    "neighborhood": "Chestnut Hill"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "16:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "16:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "16:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "16:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.facebook.com/WissahickonEC/"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/wissahickon-environmental-education-center-philadelphia",
+    "https://wanderlog.com/place/details/422656/wissahickon-environmental-center-tree-house",
+    "https://dvoc.org/events/wissahickon-environmental-center/"
+  ],
+  "uncertain": [
+    "hours (sources conflict; verify before going)",
+    "official website",
+    "price"
+  ],
+  "slug": "visit-the-wissahickon-environmental-center-tree-house-and-an",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0776914,
+    "lng": -75.2389943
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.356Z",
+  "model": "claude-sonnet-5-5"
+}

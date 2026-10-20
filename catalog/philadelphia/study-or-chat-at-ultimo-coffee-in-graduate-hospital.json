@@ -1,0 +1,119 @@
+{
+  "title": "Study or chat at Ultimo Coffee in Graduate Hospital",
+  "intent": "A calm neighborhood specialty shop with lots of tables and good espresso.",
+  "description": "Ultimo's Catharine Street shop is a bright corner cafe with a wood bar, many tables and outdoor seating, drawing regulars with espresso drinks. The relaxed, quiet atmosphere suits reading or working.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "specialty coffee",
+  "tags": [
+    "laptop-friendly",
+    "neighborhood-favorite",
+    "outdoor-seating"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Ultimo Coffee",
+    "address": "2149 Catharine St, Philadelphia, PA 19146",
+    "neighborhood": "Graduate Hospital"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 9
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "19:00"
+    },
+    {
+      "day": 1,
+      "open": "07:00",
+      "close": "19:00"
+    },
+    {
+      "day": 2,
+      "open": "07:00",
+      "close": "19:00"
+    },
+    {
+      "day": 3,
+      "open": "07:00",
+      "close": "19:00"
+    },
+    {
+      "day": 4,
+      "open": "07:00",
+      "close": "19:00"
+    },
+    {
+      "day": 5,
+      "open": "07:00",
+      "close": "19:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "19:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://ultimocoffee.com"
+    }
+  ],
+  "sources": [
+    "https://goop.com/place/ultimo-coffee",
+    "https://nextdoor.com/pages/ultimo-coffee-philadelphia-pa/",
+    "https://sprudge.com/the-sprudge-guide-to-philadelphia-coffee-in-2023-209535.html"
+  ],
+  "uncertain": [
+    "current hours may differ"
+  ],
+  "slug": "study-or-chat-at-ultimo-coffee-in-graduate-hospital",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.942603,
+    "lng": -75.1790197
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.318Z",
+  "model": "claude-sonnet-5-5"
+}

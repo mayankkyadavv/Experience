@@ -1,0 +1,76 @@
+{
+  "title": "Private infrared sauna pod at Center City Cleanse",
+  "intent": "Take a short, private sauna break in Graduate Hospital.",
+  "description": "A wellness studio on South Street with individual infrared sauna pods for resting and relaxing. It is listed as a drop-in sauna option that doesn't need a membership or another treatment.",
+  "category": "wellness",
+  "kind": "place",
+  "subcategory": "infrared sauna",
+  "tags": [
+    "sauna",
+    "infrared",
+    "drop-in",
+    "solo"
+  ],
+  "good_for": [
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Center City Cleanse",
+    "address": "1740 South St, Suite 301, Philadelphia, PA 19146",
+    "neighborhood": "Graduate Hospital"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 1
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.phillymag.com/be-well-philly/saunas/"
+  ],
+  "uncertain": [
+    "official website",
+    "prices",
+    "hours",
+    "session length",
+    "whether it is still operating as described"
+  ],
+  "slug": "private-infrared-sauna-pod-at-center-city-cleanse",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9442607,
+    "lng": -75.1716608
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Spas, saunas, bathhouses and wellness experiences",
+  "drafted_at": "2026-10-20T01:09:33.219Z",
+  "model": "claude-sonnet-5-5"
+}

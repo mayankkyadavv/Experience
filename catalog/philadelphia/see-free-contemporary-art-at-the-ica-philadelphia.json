@@ -1,0 +1,107 @@
+{
+  "title": "See free contemporary art at the ICA Philadelphia",
+  "intent": "Catch cutting-edge exhibitions at an always-free kunsthalle on Penn's campus.",
+  "description": "A non-collecting contemporary art museum at Penn staging about a dozen exhibitions a year. Admission is always free, and it stays open until 8 pm on Thursdays.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "contemporary art museum",
+  "tags": [
+    "free",
+    "contemporary-art",
+    "university-city",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Institute of Contemporary Art, Philadelphia",
+    "address": "118 S 36th St, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "18:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "18:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "20:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://icaphila.org/"
+    }
+  ],
+  "sources": [
+    "https://icaphila.org/",
+    "https://www.musa.guide/en/discover/philadelphia/ica-philadelphia"
+  ],
+  "uncertain": [
+    "Friday hours (from third-party guide)",
+    "duration_minutes"
+  ],
+  "slug": "see-free-contemporary-art-at-the-ica-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9540646,
+    "lng": -75.194773
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.544Z",
+  "model": "claude-sonnet-5-5"
+}

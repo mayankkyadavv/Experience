@@ -1,0 +1,88 @@
+{
+  "title": "Costume up for Fright Fest at Philadelphia Brewing Company",
+  "intent": "Make a family-friendly Halloween afternoon of it with a costume contest and draft beer.",
+  "description": "Philadelphia Brewing Company hosts Fright Fest with a costume contest, Halloween activities, live music, local vendors and pay-as-you-go food trucks. It is a daytime event suitable for families as well as beer drinkers.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "halloween",
+  "tags": [
+    "seasonal",
+    "halloween",
+    "family-friendly",
+    "live-music"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Brewing Company",
+    "address": "2440 Frankford Ave, Philadelphia, PA 19125",
+    "neighborhood": "Kensington"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 240
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-25",
+      "end": "2026-10-25"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-25",
+      "start": "11:00",
+      "end": "17:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://philadelphiabrewing.com/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/things-to-do-in-philadelphia-this-week-weekend/",
+    "https://philadelphiabrewing.com/"
+  ],
+  "uncertain": [
+    "price (admission appears free; food and drinks pay-as-you-go)"
+  ],
+  "slug": "costume-up-for-fright-fest-at-philadelphia-brewing-company",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9823471,
+    "lng": -75.1271578
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.426Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Bowl and play arcade games at South Bowl",
+  "intent": "Casual, cheap bowling night in South Philly with a patio.",
+  "description": "South Philly lounge-and-lanes spot with bowling, an arcade, a pizza oven and kitchen, plus an outdoor Yard with batting cages, bocce and shuffleboard. Bowling is walk-in only (no reservations) and cash only; 21+ after 8pm.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "bowling",
+  "tags": [
+    "bowling",
+    "arcade",
+    "batting-cages",
+    "outdoor-seating",
+    "walk-in-only"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "South Bowl",
+    "address": "19 E Oregon Ave, Philadelphia, PA 19148",
+    "neighborhood": "South Philadelphia"
+  },
+  "price_usd": {
+    "min": 13,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "01:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "01:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.southbowlphilly.com/"
+    }
+  ],
+  "sources": [
+    "https://www.southbowlphilly.com/",
+    "https://www.southbowlphilly.com/location/south-bowl/",
+    "https://www.theinfatuation.com/philadelphia/guides/great-bars-with-activities-in-philadelphia"
+  ],
+  "uncertain": [
+    "Yard outdoor amenities may be seasonal"
+  ],
+  "slug": "bowl-and-play-arcade-games-at-south-bowl",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9139358,
+    "lng": -75.1487458
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Arcades, bowling, mini golf, axe throwing and escape rooms",
+  "drafted_at": "2026-10-20T00:27:35.839Z",
+  "model": "claude-sonnet-5-5"
+}

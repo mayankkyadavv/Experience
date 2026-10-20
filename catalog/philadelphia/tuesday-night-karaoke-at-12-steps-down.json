@@ -1,0 +1,82 @@
+{
+  "title": "Tuesday-night karaoke at 12 Steps Down",
+  "intent": "Cheap, no-frills dive-bar karaoke early in the week.",
+  "description": "Underground dive bar in the Italian Market area with a big beer list, darts and pool, and a weekly Tuesday karaoke night starting around 9 p.m. Also hosts trivia on other nights.",
+  "category": "nightlife",
+  "kind": "activity",
+  "subcategory": "karaoke",
+  "tags": [
+    "karaoke",
+    "dive-bar",
+    "weekly",
+    "cheap",
+    "italian-market"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "12 Steps Down",
+    "address": "831 Christian St, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.phillymag.com/things-to-do/karaoke-philadelphia/",
+    "https://do215.com/events/weekly/tue/12-steps-down-karaoke-night-tickets",
+    "https://www.chalkysticks.com/places/12-steps-down"
+  ],
+  "uncertain": [
+    "price_usd (assumed no cover)",
+    "bar opening hours",
+    "official website"
+  ],
+  "slug": "tuesday-night-karaoke-at-12-steps-down",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9390528,
+    "lng": -75.1576839
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.555Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,92 @@
+{
+  "title": "Trick-or-treat and costume parade at East Passyunk Fall Fest",
+  "intent": "Free neighborhood Halloween day with trick-or-treating and a costume contest.",
+  "description": "East Passyunk Avenue's annual Halloween celebration has live performances, pumpkin carving, a costume contest and trick-or-treating at local businesses.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "halloween",
+  "tags": [
+    "free",
+    "halloween",
+    "seasonal",
+    "outdoor",
+    "costumes"
+  ],
+  "good_for": [
+    "family",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "East Passyunk Avenue",
+    "address": "East Passyunk Ave, Philadelphia, PA 19147",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 240
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-31",
+      "end": "2026-10-31"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-31",
+      "start": "11:00",
+      "end": "16:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.phillymag.com/things-to-do/halloween-philly-kids/"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/things-to-do/halloween-philly-kids/"
+  ],
+  "uncertain": [
+    "article year not confirmed as 2026",
+    "official event website",
+    "price assumed free"
+  ],
+  "slug": "trick-or-treat-and-costume-parade-at-east-passyunk-fall-fest",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9365664,
+    "lng": -75.1553359
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Family-friendly and kid-friendly activities",
+  "drafted_at": "2026-10-20T00:34:18.069Z",
+  "model": "claude-sonnet-5-5"
+}

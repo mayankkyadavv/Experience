@@ -1,0 +1,107 @@
+{
+  "title": "See Ivy League football at historic Franklin Field",
+  "intent": "Cheap, easygoing college football at the country's oldest stadium still hosting games.",
+  "description": "Penn Quakers home games at Franklin Field in University City: Friday night vs Yale on Oct. 23 and the Homecoming game vs Harvard on Nov. 14, which is the last home game of the season. Tickets start under $20.",
+  "category": "sports",
+  "kind": "event",
+  "subcategory": "college football",
+  "tags": [
+    "penn",
+    "ivy-league",
+    "cheap",
+    "university-city",
+    "outdoor"
+  ],
+  "good_for": [
+    "friends",
+    "family",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Franklin Field",
+    "address": "235 S 33rd St, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": {
+    "min": 18,
+    "max": 40
+  },
+  "duration_minutes": {
+    "min": 150,
+    "max": 210
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-23",
+      "end": "2026-11-14"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-23",
+      "start": "19:00",
+      "end": null
+    },
+    {
+      "date": "2026-11-14",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://pennathletics.com/sports/football"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.axs.com/teams/1117397/penn-quakers-football-tickets"
+    }
+  ],
+  "sources": [
+    "https://www.axs.com/teams/1117397/penn-quakers-football-tickets",
+    "https://fbschedules.com/penn-announces-2026-football-schedule/",
+    "https://www.cbssports.com/college-football/teams/PA/pennsylvania-quakers/schedule/"
+  ],
+  "uncertain": [
+    "Nov. 14 kickoff time",
+    "upper price"
+  ],
+  "slug": "see-ivy-league-football-at-historic-franklin-field",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9519475,
+    "lng": -75.1900496
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Pro and college sports games and stadium experiences",
+  "drafted_at": "2026-10-20T01:15:34.975Z",
+  "model": "claude-sonnet-5-5"
+}

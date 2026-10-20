@@ -1,0 +1,90 @@
+{
+  "title": "Fitler Square Farmers Market on a Saturday morning",
+  "intent": "Grab fresh produce and baked goods at a small neighborhood market near the Schuylkill.",
+  "description": "Food Trust farmers market near Fitler Square, open year-round on Saturday mornings with local farm produce and prepared goods.",
+  "category": "market",
+  "kind": "place",
+  "subcategory": "farmers market",
+  "tags": [
+    "farmers-market",
+    "outdoor",
+    "year-round",
+    "saturday"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Fitler Square Farmers Market",
+    "address": "23rd St & Pine St, Philadelphia, PA 19103",
+    "neighborhood": "Fitler Square"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "12:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thefoodtrust.org/what-we-do/farmers-markets/"
+    }
+  ],
+  "sources": [
+    "https://ediblephilly.ediblecommunities.com/shop/edible-phillys-2026-philadelphia-farmers-market-guide/",
+    "https://phillyfamily.com/philly-farmers-markets/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "one older source listed 9am-2pm"
+  ],
+  "slug": "fitler-square-farmers-market-on-a-saturday-morning",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9475341,
+    "lng": -75.1793351
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.761Z",
+  "model": "claude-sonnet-5-5"
+}

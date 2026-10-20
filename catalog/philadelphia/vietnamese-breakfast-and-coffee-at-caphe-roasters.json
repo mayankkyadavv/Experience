@@ -1,0 +1,111 @@
+{
+  "title": "Vietnamese breakfast and coffee at Càphê Roasters",
+  "intent": "Vietnamese coffee and breakfast/lunch at a roastery cafe in Kensington.",
+  "description": "Vietnamese coffee roaster with a storefront serving egg coffee-style drinks, matcha and breakfast/lunch plates and sandwiches. Open mornings to mid-afternoon; closed Tuesdays.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "vietnamese",
+  "tags": [
+    "vietnamese",
+    "coffee",
+    "breakfast",
+    "cheap"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Càphê Roasters",
+    "address": "3400 J St, Unit G1, Philadelphia, PA 19134",
+    "neighborhood": "Kensington"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.yelp.com/biz/c%C3%A0ph%C3%AA-roasters-philadelphia?hrid=2c-qqkOsAT5pyAABz7v_ww&osq=Hot+New+Businesses",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d34512288-Reviews-Caphe_Roasters-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "price_usd",
+    "duration_minutes",
+    "official website"
+  ],
+  "slug": "vietnamese-breakfast-and-coffee-at-caphe-roasters",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9995513,
+    "lng": -75.1089849
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington",
+  "drafted_at": "2026-10-20T00:31:20.105Z",
+  "model": "claude-sonnet-5-5"
+}

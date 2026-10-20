@@ -1,0 +1,94 @@
+{
+  "title": "Tour Germantown's Wyck house and historic garden",
+  "intent": "Visit a historic house and garden on Germantown Avenue.",
+  "description": "One of Philadelphia's oldest historic houses, with a 2.5-acre garden along Germantown Avenue. Grounds are free to enter, and house tours are offered Thursday through Saturday afternoons.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic house museum",
+  "tags": [
+    "garden",
+    "germantown",
+    "guided-tour"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Wyck Historic House & Garden",
+    "address": "6026 Germantown Ave",
+    "neighborhood": "Germantown"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://wyck.org/"
+    }
+  ],
+  "sources": [
+    "https://wyck.org/",
+    "https://www.visitphilly.com/things-to-do/attractions/wyck/"
+  ],
+  "uncertain": [
+    "house tour price",
+    "fall hours may change; grounds also open Tue and Wed"
+  ],
+  "slug": "tour-germantowns-wyck-house-and-historic-garden",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0400086,
+    "lng": -75.1784283
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.409Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,82 @@
+{
+  "title": "The Black Journey: African-American history walking tour",
+  "intent": "Trace 300+ years of Black history in Old City, from enslaved people to the founding of Mother Bethel AME.",
+  "description": "A guided walk from the Independence Visitor Center covering Black Philadelphia's history, including the stories of enslaved people, the escape of Martha Washington's handmaid and the founder of the AME Church. It passes the Liberty Bell and Congress Hall and ends near the Commodore John Barry statue.",
+  "category": "attraction",
+  "kind": "activity",
+  "subcategory": "history walking tour",
+  "tags": [
+    "walking-tour",
+    "history",
+    "black-history",
+    "outdoor"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Independence Visitor Center (meeting point)",
+    "address": "599 Market St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.visitphilly.com/features/black-journey-tour/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.viator.com/tours/Philadelphia/The-Black-Journey-An-African-American-Philadelphia-Walking-Tour/d906-130374P1"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/features/black-journey-tour/",
+    "https://www.viator.com/tours/Philadelphia/The-Black-Journey-An-African-American-Philadelphia-Walking-Tour/d906-130374P1",
+    "https://www.tripadvisor.com/AttractionProductReview-g60795-d16862505-The_Black_Journey_An_African_American_History_Walking_Tour_of_Philadelphia-Philadel.html"
+  ],
+  "uncertain": [
+    "price",
+    "duration",
+    "tour days and times"
+  ],
+  "slug": "the-black-journey-african-american-history-walking-tour",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9514534,
+    "lng": -75.1499193
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:37.002Z",
+  "model": "claude-sonnet-5-5"
+}

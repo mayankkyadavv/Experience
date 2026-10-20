@@ -1,0 +1,78 @@
+{
+  "slug": "take-a-2-hour-electric-cart-tour-of-philadelphia-highlights",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Take a 2-hour electric cart tour of Philadelphia highlights",
+  "intent": "Cover Old City, Chinatown, South Street and the Rocky Steps without much walking.",
+  "description": "A guided two-hour electric cart tour (replacing the former Segway tour) through Old City's Independence Hall, Liberty Bell and Elfreth's Alley area, Center City and City Hall, with a stop at the Rocky Steps and passes by Philly's Magic Gardens and Chinatown.",
+  "category": "attraction",
+  "kind": "activity",
+  "subcategory": "electric cart tour",
+  "tags": [
+    "guided-tour",
+    "sightseeing",
+    "rainy-day-ok",
+    "easy"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "WeVenture electric cart tour",
+    "address": null,
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 120
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "tickets",
+      "url": "https://www.viator.com/tours/Philadelphia/Philadelphia-Segway-Tour/d906-6314PHILSEG"
+    }
+  ],
+  "sources": [
+    "https://www.viator.com/tours/Philadelphia/Philadelphia-Segway-Tour/d906-6314PHILSEG",
+    "https://www.aaa.com/tripcanvas/thing-to-do/philadelphia-2-hour-electric-cart-tour-6314PHILSEG"
+  ],
+  "uncertain": [
+    "price",
+    "meeting point and address",
+    "tour times",
+    "official website",
+    "operator naming (WeVenture listed on GetYourGuide-style listings)"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:37.003Z",
+  "model": "claude-sonnet-5-5"
+}

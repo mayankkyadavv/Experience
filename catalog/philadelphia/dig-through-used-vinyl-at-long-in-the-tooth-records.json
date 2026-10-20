@@ -1,0 +1,83 @@
+{
+  "title": "Dig through used vinyl at Long In the Tooth records",
+  "intent": "Flip through crates of used jazz, soul and rock on a rainy afternoon.",
+  "description": "Longtime Sansom Street record shop known for used vinyl, with jazz, soul and rock sections and frequent new arrivals in the used bins. Check current hours before going.",
+  "category": "shopping",
+  "kind": "place",
+  "subcategory": "record store",
+  "tags": [
+    "rainy-day",
+    "vinyl",
+    "music",
+    "indoor",
+    "cheap"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Long In the Tooth",
+    "address": "2027 Sansom St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 75
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.yelp.com/biz/long-in-the-tooth-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/long-in-the-tooth-philadelphia",
+    "https://www.recordshops.net/pennsylvania/philadelphia/"
+  ],
+  "uncertain": [
+    "hours",
+    "official website",
+    "price_usd"
+  ],
+  "slug": "dig-through-used-vinyl-at-long-in-the-tooth-records",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9515074,
+    "lng": -75.1746482
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.123Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,111 @@
+{
+  "title": "Tour the African American Museum in Philadelphia",
+  "intent": "Learn about African American history, art and culture at a Smithsonian-affiliated museum.",
+  "description": "A Smithsonian affiliate near Independence Mall founded in 1976, with exhibitions on African American history, civil rights, art and contemporary issues. Allow about two hours.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "history museum",
+  "tags": [
+    "smithsonian-affiliate",
+    "indoor",
+    "rainy-day",
+    "history"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "African American Museum in Philadelphia",
+    "address": "701 Arch St, Philadelphia, PA 19106",
+    "neighborhood": "Old City / Chinatown"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 15
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.aampmuseum.org/calendar.html"
+    }
+  ],
+  "sources": [
+    "https://www.aampmuseum.org/calendar.html",
+    "https://gocity.com/en/philadelphia/attractions/african-american-museum"
+  ],
+  "uncertain": [
+    "Street address (from general knowledge, not on fetched pages)"
+  ],
+  "slug": "tour-the-african-american-museum-in-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9532483,
+    "lng": -75.1517865
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.030Z",
+  "model": "claude-sonnet-5-5"
+}

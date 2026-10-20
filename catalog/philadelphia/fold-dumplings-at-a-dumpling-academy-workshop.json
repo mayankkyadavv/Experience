@@ -1,0 +1,87 @@
+{
+  "title": "Fold dumplings at a Dumpling Academy workshop",
+  "intent": "Spend a few hours making and eating dumplings with friends or family.",
+  "description": "The Dumpling Academy runs BYOB workshops where you prepare filling, fold handmade wrappers, cook and feast, with ingredients provided and a container for leftovers. Workshops have run about three hours at $95 per adult, with a lower kids' price, and are geared to groups.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "cooking class",
+  "tags": [
+    "dumplings",
+    "byob",
+    "hands-on",
+    "group-friendly"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "family",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Dumpling Academy",
+    "address": "2401 Walnut St, Suite 102, Philadelphia, PA 19103",
+    "neighborhood": "Fitler Square"
+  },
+  "price_usd": {
+    "min": 50,
+    "max": 95
+  },
+  "duration_minutes": {
+    "min": 150,
+    "max": 180
+  },
+  "group_size": {
+    "min": 4,
+    "max": 20
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "http://www.DumplingAcademy.com"
+    }
+  ],
+  "sources": [
+    "https://www.phillyvoice.com/dumplings-wonton-soup-workshop-dumpling-academy-center-city-christmas-new-years-eve-lunar-new-year-byob/",
+    "https://nextdoor.com/pages/dumpling-academy-philadelphia-pa-1/",
+    "https://www.inquirer.com/philly-tips/cooking-class-coffee-class-cocktail-class-near-me-philly-20230418.html"
+  ],
+  "uncertain": [
+    "current workshop dates",
+    "current price",
+    "minimum group size"
+  ],
+  "slug": "fold-dumplings-at-a-dumpling-academy-workshop",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9515359,
+    "lng": -75.1798688
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.730Z",
+  "model": "claude-sonnet-5-5"
+}

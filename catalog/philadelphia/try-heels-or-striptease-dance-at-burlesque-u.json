@@ -1,0 +1,94 @@
+{
+  "title": "Try heels or striptease dance at Burlesque U",
+  "intent": "Try a fun, confidence-boosting heels and burlesque dance class with no performance pressure.",
+  "description": "Burlesque U, part of Philly Dance Fitness, runs drop-in heels dance classes taught by professional burlesque performers. The 60-minute class is $16, with a cardio warm-up, signature striptease moves and a short routine. Sneakers or bare feet are fine.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "burlesque",
+  "tags": [
+    "heels",
+    "burlesque",
+    "drop-in",
+    "beginner-friendly",
+    "confidence"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philly Dance Fitness",
+    "address": "1923 Chestnut St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 16,
+    "max": 16
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "19:30",
+      "close": "20:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://phillydancefitness.com/burlesque/"
+    },
+    {
+      "kind": "other",
+      "url": "https://phillydancefitness.com/"
+    }
+  ],
+  "sources": [
+    "https://phillydancefitness.com/burlesque/"
+  ],
+  "uncertain": [
+    "other class days",
+    "current schedule may change"
+  ],
+  "slug": "try-heels-or-striptease-dance-at-burlesque-u",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9522173,
+    "lng": -75.1727249
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance, music, improv and other drop-in classes for adults",
+  "drafted_at": "2026-10-20T01:15:07.291Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "book-a-pasta-or-sushi-class-with-a-private-chef-via-cozymeal",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Book a pasta or sushi class with a private chef via Cozymeal",
+  "intent": "Pick a cuisine and class time from a marketplace of local chef-led classes.",
+  "description": "Cozymeal lists chef-led cooking classes in Philadelphia, from sushi-making to pasta workshops, with clean, organized stations and a friendly, familial atmosphere according to reviewers. Venues vary by class.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "cooking class",
+  "tags": [
+    "pasta",
+    "sushi",
+    "bookable",
+    "variety"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Cozymeal Cooking Classes (venues vary)",
+    "address": null,
+    "neighborhood": null
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cozymeal.com/"
+    }
+  ],
+  "sources": [
+    "https://wanderlog.com/list/geoCategory/1855429/best-cooking-classes-in-philadelphia",
+    "https://www.yelp.com/search?find_desc=Cooking+Class&find_loc=Philadelphia,+PA"
+  ],
+  "uncertain": [
+    "price",
+    "venues",
+    "class dates",
+    "official URL path for Philadelphia"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.731Z",
+  "model": "claude-sonnet-5-5"
+}

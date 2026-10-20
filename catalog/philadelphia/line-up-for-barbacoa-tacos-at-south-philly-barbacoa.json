@@ -1,0 +1,88 @@
+{
+  "title": "Line up for barbacoa tacos at South Philly Barbacoa",
+  "intent": "James Beard–winning slow-cooked lamb barbacoa tacos in the Italian Market.",
+  "description": "Cristina Martinez's nationally acclaimed taqueria serves slow-cooked lamb barbacoa, pancita, consomé and handmade tortillas on 9th Street. Weekend mornings draw lines starting before dawn, and it's often sold out later in the day.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "mexican barbacoa",
+  "tags": [
+    "james-beard",
+    "tacos",
+    "weekend-breakfast",
+    "cheap-eats",
+    "italian-market"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "South Philly Barbacoa",
+    "address": "1140 S 9th St, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.barbacoaphilly.com"
+    }
+  ],
+  "sources": [
+    "https://www.inquirer.com/philly/blogs/the-insider/south-philly-barbacoa-mexican-tacos-cristina-martinez-20180812.html",
+    "https://www.enprimeurclub.com/restaurants/south-philly-barbacoa-philadelphia-restaurant",
+    "https://www.theinfatuation.com/philadelphia/neighborhoods/bella-vista"
+  ],
+  "uncertain": [
+    "hours (sources conflict; weekends are the core days)",
+    "address (1134 vs 1140 S 9th St listed)",
+    "price"
+  ],
+  "slug": "line-up-for-barbacoa-tacos-at-south-philly-barbacoa",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9353567,
+    "lng": -75.1587988
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in South Philly, East Passyunk and Bella Vista",
+  "drafted_at": "2026-10-20T01:15:44.427Z",
+  "model": "claude-sonnet-5-5"
+}

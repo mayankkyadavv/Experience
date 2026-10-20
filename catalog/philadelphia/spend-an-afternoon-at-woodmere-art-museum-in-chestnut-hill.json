@@ -1,0 +1,111 @@
+{
+  "title": "Spend an afternoon at Woodmere Art Museum in Chestnut Hill",
+  "intent": "Philadelphia-region art in a stone mansion with sculpture gardens; free on Sundays.",
+  "description": "A museum devoted to the art and artists of Philadelphia, housed in a 19th-century mansion on six acres with sculpture gardens. Grounds are open dawn to dusk, and admission is always free on Sundays.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "art museum",
+  "tags": [
+    "chestnut-hill",
+    "sculpture-garden",
+    "free-sundays",
+    "museum"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Woodmere Art Museum",
+    "address": "9201 Germantown Ave, Philadelphia, PA 19118",
+    "neighborhood": "Chestnut Hill"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://woodmeremuseum.org/visit"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://woodmere.ticketapp.org/portal/product/1"
+    }
+  ],
+  "sources": [
+    "https://woodmeremuseum.org/visit",
+    "https://woodmere.ticketapp.org/portal/product/1"
+  ],
+  "uncertain": [
+    "duration_minutes"
+  ],
+  "slug": "spend-an-afternoon-at-woodmere-art-museum-in-chestnut-hill",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0831275,
+    "lng": -75.2194984
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.547Z",
+  "model": "claude-sonnet-5-5"
+}

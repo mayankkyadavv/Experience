@@ -1,0 +1,44 @@
+# One research topic per line for tools/catalog/harvest.ts (~20 entries each). Lines starting with # are ignored.
+Stand-up comedy clubs, improv theaters and regular comedy nights
+Live music venues: rock, indie and pop clubs and mid-size halls
+Jazz clubs, blues bars and places with live jazz most nights
+Cocktail bars and speakeasies worth going to on purpose
+Breweries, beer gardens and taprooms
+Wine bars and natural-wine spots
+Dance clubs, DJ nights and late-night spots
+Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)
+Arcades, bowling, mini golf, axe throwing and escape rooms
+Major museums and science centers
+Small, unusual and weird museums and attractions
+Art galleries, First Friday spots and public art (murals, Magic Gardens)
+Historic sites and Old City landmarks worth visiting
+Theaters, performing arts, opera, ballet and orchestra
+Movie theaters, indie cinemas and outdoor screenings
+Parks, gardens and arboretums
+Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)
+Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks
+Pro and college sports games and stadium experiences
+Recreational sports, run clubs, pickup leagues and fitness classes open to drop-ins
+Hands-on classes: pottery, painting, glassblowing, woodworking
+Cooking classes, food tours, and tasting experiences
+Dance, music, improv and other drop-in classes for adults
+Food markets, food halls and farmers markets
+Iconic Philadelphia foods: cheesesteaks, roast pork, soft pretzels, water ice, hoagies
+Restaurants worth a special trip in Center City and Rittenhouse
+Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington
+Restaurants worth a special trip in South Philly, East Passyunk and Bella Vista
+Restaurants worth a special trip in West Philly, University City and beyond
+Cheap eats and BYOB restaurants
+Brunch spots
+Coffee shops and cafes good for hanging out
+Dessert, bakeries, ice cream and chocolate shops
+Vintage, record, book and independent shops worth browsing
+Spas, saunas, bathhouses and wellness experiences
+Walking tours, ghost tours, boat tours and unusual tours
+Free things to do in Philadelphia
+Date-night ideas beyond dinner
+Family-friendly and kid-friendly activities
+Rainy-day and indoor activities
+Concerts, comedy shows and performances with specific dates between 2026-10-20 and 2026-12-31
+Festivals, markets, holiday events and seasonal pop-ups between 2026-10-20 and 2027-01-15
+Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)

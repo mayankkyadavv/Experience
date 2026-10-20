@@ -1,0 +1,82 @@
+{
+  "title": "Monday quizzo at Strangelove's",
+  "intent": "Classic Philly Monday-night quizzo with beer and prizes.",
+  "description": "Washington Square West beer bar hosting weekly Monday quizzo, with a bar-tab prize for top teams. Arrive early because the bar is small.",
+  "category": "games",
+  "kind": "activity",
+  "subcategory": "trivia",
+  "tags": [
+    "quizzo",
+    "trivia",
+    "weekly",
+    "monday",
+    "beer"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Strangelove's",
+    "address": "216 S 11th St, Philadelphia, PA 19107",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.ourphilly.org/date/2026-07-20",
+    "https://975thefanatic.com/listicle/8-terrific-bars-with-quizzo-nights-in-philadelphia/",
+    "https://www.phillyvoice.com/where-go-quizzo-and-karaoke-every-night-week/"
+  ],
+  "uncertain": [
+    "start time (8pm in recent listings; 9pm in an older one)",
+    "official website",
+    "free to play assumed"
+  ],
+  "slug": "monday-quizzo-at-strangeloves",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.948083,
+    "lng": -75.159232
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.557Z",
+  "model": "claude-sonnet-5-5"
+}

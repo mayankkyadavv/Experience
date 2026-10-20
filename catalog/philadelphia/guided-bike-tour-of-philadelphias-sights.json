@@ -1,0 +1,121 @@
+{
+  "slug": "guided-bike-tour-of-philadelphias-sights",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Guided bike tour of Philadelphia's sights",
+  "intent": "See the city by bike with a guide, from the Art Museum to Independence Hall.",
+  "description": "Philly Bike Tour Company runs guided rides including the Classic City Tour (about 3.5 hours past the Art Museum, the river trail, Washington Square and the Liberty Bell), plus Bikes + Beers, Bikes + Bites and a Fairmount Park tour.",
+  "category": "active",
+  "kind": "activity",
+  "subcategory": "bike tour",
+  "tags": [
+    "bike-tour",
+    "outdoor",
+    "guided",
+    "active"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo",
+    "group"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Philly Bike Tour Company",
+    "address": null,
+    "neighborhood": null
+  },
+  "price_usd": {
+    "min": 89,
+    "max": 89
+  },
+  "duration_minutes": {
+    "min": 210,
+    "max": 210
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "10:30",
+      "close": "18:00"
+    },
+    {
+      "day": 1,
+      "open": "10:30",
+      "close": "18:00"
+    },
+    {
+      "day": 2,
+      "open": "10:30",
+      "close": "18:00"
+    },
+    {
+      "day": 3,
+      "open": "10:30",
+      "close": "18:00"
+    },
+    {
+      "day": 4,
+      "open": "10:30",
+      "close": "18:00"
+    },
+    {
+      "day": 5,
+      "open": "10:30",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "10:30",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.tripadvisor.com/Attraction_Review-g60795-d4765278-Reviews-Philly_Bike_Tour_Company-Philadelphia_Pennsylvania.html"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.tripadvisor.com/AttractionProductReview-g60795-d11469310-Classic_Philadelphia_City_Bike_Tour-Philadelphia_Pennsylvania.html"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d4765278-Reviews-Philly_Bike_Tour_Company-Philadelphia_Pennsylvania.html",
+    "https://www.tripadvisor.com/AttractionProductReview-g60795-d11469310-Classic_Philadelphia_City_Bike_Tour-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "official website",
+    "address and meeting point",
+    "hours (from Tripadvisor listing)",
+    "fall/winter tour availability",
+    "prices for other tours"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:37.002Z",
+  "model": "claude-sonnet-5-5"
+}

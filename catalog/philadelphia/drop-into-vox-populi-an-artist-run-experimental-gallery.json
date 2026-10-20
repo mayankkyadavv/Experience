@@ -1,0 +1,80 @@
+{
+  "title": "Drop into Vox Populi, an artist-run experimental gallery",
+  "intent": "Climb the graffiti-lined stairwell to an artist collective's edgy shows, best on First Friday.",
+  "description": "Founded in 1988, Vox Populi is a nonprofit artist collective and gallery that stages monthly exhibitions, performances and talks. Best visited on First Fridays or during performance events.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "artist-run gallery",
+  "tags": [
+    "first-friday",
+    "experimental",
+    "artist-run"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Vox Populi Gallery",
+    "address": "319 N 11th St, Philadelphia, PA 19107",
+    "neighborhood": "Callowhill"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.voxpopuligallery.org/"
+    }
+  ],
+  "sources": [
+    "https://www.voxpopuligallery.org/about",
+    "https://www.phillymag.com/best-of-philly-archive/vox-populi/"
+  ],
+  "uncertain": [
+    "address (from memory, not on fetched pages)",
+    "hours",
+    "price",
+    "duration_minutes",
+    "current exhibition schedule"
+  ],
+  "slug": "drop-into-vox-populi-an-artist-run-experimental-gallery",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.958364,
+    "lng": -75.1565669
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.545Z",
+  "model": "claude-sonnet-5-5"
+}

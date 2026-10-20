@@ -1,0 +1,79 @@
+{
+  "slug": "follow-a-self-guided-public-sculpture-tour-with-museum-witho",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Follow a self-guided public sculpture tour with Museum Without Walls: AUDIO",
+  "intent": "Hear the stories behind Philly's outdoor sculptures on a free app-guided walk or ride.",
+  "description": "The Association for Public Art's free app has audio tours of the city's outdoor sculpture, over 1,000 works from the Schuylkill River to the Parkway. Pick a themed tour and walk or bike at your own pace.",
+  "category": "attraction",
+  "kind": "route",
+  "subcategory": "public art walk",
+  "tags": [
+    "free",
+    "self-guided",
+    "sculpture",
+    "outdoor",
+    "app"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Museum Without Walls (Parkway / Schuylkill River)",
+    "address": null,
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 180
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.associationforpublicart.org/"
+    }
+  ],
+  "sources": [
+    "https://6abc.com/post/phillys-public-art-comes-to-life-via-the-museum-without-walls-/6054452/",
+    "https://www.pewcenterarts.org/grant/planning-museum-without-walls-audio"
+  ],
+  "uncertain": [
+    "current app tour list",
+    "duration_minutes"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.546Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Soak in pools, saunas and a banya at Bathhouse Philly",
+  "intent": "Warm up on a cold wet day with a social spa day pass.",
+  "description": "A 36,000 sq ft social wellness club in the basement of the Bellevue Hotel with thermal pools, a dry sauna, infrared sauna, banya and steam room; massages are by appointment. Day passes use dynamic pricing starting around $29 and you can stay as long as you like. It opened Sept. 25, 2026.",
+  "category": "wellness",
+  "kind": "place",
+  "subcategory": "social spa",
+  "tags": [
+    "rainy-day",
+    "sauna",
+    "spa",
+    "indoor",
+    "new"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Bathhouse Philadelphia at The Bellevue",
+    "address": "1418 Walnut St, Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 29,
+    "max": 80
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 240
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.thebellevuehotel.com/bathhouse/"
+    }
+  ],
+  "sources": [
+    "https://www.thebellevuehotel.com/bathhouse/",
+    "https://www.inquirer.com/life/bathhouse-center-city-philly-saunas-bitcoin-pools-20260915.html",
+    "https://www.phillyvoice.com/bathhouse-philly-bellevue-hotel-review/"
+  ],
+  "uncertain": [
+    "hours",
+    "upper price range (dynamic pricing; only the $29 starting price confirmed)"
+  ],
+  "slug": "soak-in-pools-saunas-and-a-banya-at-bathhouse-philly",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9493155,
+    "lng": -75.16475
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.120Z",
+  "model": "claude-sonnet-5-5"
+}

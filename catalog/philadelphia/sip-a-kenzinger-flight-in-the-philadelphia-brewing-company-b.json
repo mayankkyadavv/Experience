@@ -1,0 +1,118 @@
+{
+  "title": "Sip a Kenzinger flight in the Philadelphia Brewing Company beer garden",
+  "intent": "Enjoy a classic Kensington brewery with picnic tables, a fireplace and rotating food trucks.",
+  "description": "Philadelphia Brewing Co. has operated in a historic 1885 brewhouse in Kensington since 2007. The taproom offers flights, a game room, outdoor picnic tables and fireplace seating, food trucks out front, and free tours on select Saturdays.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "brewery",
+    "beer-garden",
+    "dog-friendly",
+    "food-trucks"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Brewing Company",
+    "address": "2440 Frankford Ave, Philadelphia, PA 19125",
+    "neighborhood": "Kensington"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "23:00"
+    },
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "23:00"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "23:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "00:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://philadelphiabrewing.com/"
+    }
+  ],
+  "sources": [
+    "https://philadelphiabrewing.com/more-info/",
+    "https://northeasttimes.com/2026/08/04/the-best-brewery-taprooms-in-philadelphia-according-to-locals/",
+    "https://www.yelp.com/biz/philadelphia-brewing-company-philadelphia?start=40"
+  ],
+  "uncertain": [
+    "Tour schedule varies by source (every Saturday vs. third Saturday)"
+  ],
+  "slug": "sip-a-kenzinger-flight-in-the-philadelphia-brewing-company-b",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9823471,
+    "lng": -75.1271578
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.426Z",
+  "model": "claude-sonnet-5-5"
+}

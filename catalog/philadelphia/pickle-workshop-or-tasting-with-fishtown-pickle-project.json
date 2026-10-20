@@ -1,0 +1,81 @@
+{
+  "title": "Pickle workshop or tasting with Fishtown Pickle Project",
+  "intent": "Learn old-school fermentation and pickling from local makers.",
+  "description": "Fishtown Pickle Project makes small-batch pickles and has taught a roughly 90-minute BYOB pickling class covering fermentation. It has been building a Norris Square facility with a tasting room, tours and classes.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "pickling class",
+  "tags": [
+    "pickles",
+    "fermentation",
+    "byob",
+    "unusual"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "family",
+    "solo"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Fishtown Pickle Project",
+    "address": "1911 N 2nd St, Philadelphia, PA 19122",
+    "neighborhood": "Norris Square"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 90
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.metrophiladelphia.com/stories/fishtown-pickle-project-philly-pickle-destination,153899"
+    }
+  ],
+  "sources": [
+    "https://philly.citycast.fm/food-drink/where-to-learn-to-cook-in-philly",
+    "https://www.metrophiladelphia.com/stories/fishtown-pickle-project-philly-pickle-destination,153899"
+  ],
+  "uncertain": [
+    "whether the Norris Square facility is open",
+    "current class schedule",
+    "price",
+    "official website"
+  ],
+  "slug": "pickle-workshop-or-tasting-with-fishtown-pickle-project",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9794828,
+    "lng": -75.1371187
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.731Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,115 @@
+{
+  "title": "Relax in the garden at Love City Brewing Callowhill",
+  "intent": "Enjoy lagers and stouts with a rotating food truck in a Callowhill garden.",
+  "description": "Love City's flagship brewery in Callowhill has a taproom plus a garden with food trucks that rotate weekly. House beers include Lime City Lager and Eraserhead IPA, and events include bingo, quizzo and live music.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "brewery",
+    "garden",
+    "food-trucks",
+    "events"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Love City Brewing (Callowhill)",
+    "address": "1023 Hamilton St, Philadelphia, PA 19123",
+    "neighborhood": "Callowhill"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "00:00"
+    },
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "20:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lovecitybrewing.com"
+    }
+  ],
+  "sources": [
+    "https://lovecitybrewing.com/store",
+    "https://maps.apple.com/place?place-id=ID5B204DC86D93EA2",
+    "https://www.theinfatuation.com/philadelphia/guides/the-best-breweries-in-philadelphia"
+  ],
+  "uncertain": [],
+  "slug": "relax-in-the-garden-at-love-city-brewing-callowhill",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.960296,
+    "lng": -75.155549
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.427Z",
+  "model": "claude-sonnet-5-5"
+}

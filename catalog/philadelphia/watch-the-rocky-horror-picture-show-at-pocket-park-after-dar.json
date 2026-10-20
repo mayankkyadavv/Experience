@@ -1,0 +1,97 @@
+{
+  "title": "Watch The Rocky Horror Picture Show at Pocket Park After Dark",
+  "intent": "Dress up for a free Halloween-week costume party and outdoor Rocky Horror screening.",
+  "description": "Roxborough's open-air community garden turns into a Halloween night market with local artists and makers, live music and costume prizes (Best Rocky Horror Look, Most Outrageous, and others). The Rocky Horror Picture Show screens at 8 p.m. Free.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "outdoor screening",
+  "tags": [
+    "outdoor",
+    "halloween",
+    "free",
+    "costume",
+    "cult film"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Roxborough Pocket Park",
+    "address": "6170 Ridge Ave, Philadelphia, PA 19128",
+    "neighborhood": "Roxborough"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 300
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-22"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-22",
+      "start": "17:00",
+      "end": "22:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://roxborough.brightrtravel.com/events/pocket-park-after-dark-1"
+    }
+  ],
+  "sources": [
+    "https://billypenn.com/2026/10/19/philly-weekly-events-calendar-october-19-to-25/",
+    "https://www.visitphilly.com/uwishunu/things-to-do-in-philadelphia-this-week-weekend/",
+    "https://roxborough.brightrtravel.com/events/pocket-park-after-dark-1"
+  ],
+  "uncertain": [
+    "weather plan for outdoor screening"
+  ],
+  "slug": "watch-the-rocky-horror-picture-show-at-pocket-park-after-dar",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0350043,
+    "lng": -75.216943
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Movie theaters, indie cinemas and outdoor screenings",
+  "drafted_at": "2026-10-20T01:12:03.282Z",
+  "model": "claude-sonnet-5-5"
+}

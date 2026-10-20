@@ -1,0 +1,79 @@
+{
+  "slug": "stroll-lambertvilles-free-trail-of-magic-halloween-displays",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Stroll Lambertville's free Trail of Magic Halloween displays",
+  "intent": "A free, self-guided walk through handmade Halloween displays in a charming river town.",
+  "description": "Lambertville's Trail of Magic connects dozens of handmade Halloween displays at businesses and community spaces across the New Jersey town, just over the river from New Hope. It is free and self-guided.",
+  "category": "outdoors",
+  "kind": "activity",
+  "subcategory": "self-guided walk",
+  "tags": [
+    "free",
+    "halloween",
+    "self-guided",
+    "seasonal",
+    "day-trip",
+    "new-jersey"
+  ],
+  "good_for": [
+    "family",
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Downtown Lambertville, NJ",
+    "address": null,
+    "neighborhood": null
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-01",
+      "end": "2026-10-31"
+    }
+  ],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.phillyvoice.com/things-to-do-philly-suburbs-south-jersey-weekend-october-23-25-2026/"
+  ],
+  "uncertain": [
+    "official start date",
+    "map/website link"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.067Z",
+  "model": "claude-sonnet-5-5"
+}

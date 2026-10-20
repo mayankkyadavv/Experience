@@ -1,0 +1,95 @@
+{
+  "title": "Walk through LumiNature holiday lights at the Philadelphia Zoo",
+  "intent": "Stroll a million holiday lights and themed light zones after dark.",
+  "description": "The zoo's 42 acres turn into an illuminated holiday walk with thousands of displays, light zones and a visit with Santa. Runs on select nights from 5 to 9 p.m.; check the zoo's calendar for the exact nights and buy timed tickets.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "holiday lights",
+  "tags": [
+    "seasonal",
+    "holiday",
+    "outdoor",
+    "evening",
+    "lights"
+  ],
+  "good_for": [
+    "family",
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Zoo",
+    "address": "3400 W Girard Ave, Philadelphia, PA 19104",
+    "neighborhood": "West Philadelphia"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-19",
+      "end": "2027-01-09"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-19",
+      "start": "17:00",
+      "end": "21:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://visit.philadelphiazoo.org/"
+    }
+  ],
+  "sources": [
+    "https://visit.philadelphiazoo.org/",
+    "https://www.visitphilly.com/articles/philadelphia/top-things-to-do-in-philadelphia-in-november/"
+  ],
+  "uncertain": [
+    "price",
+    "full list of nights (only opening night confirmed)",
+    "end date: zoo site says Jan 9, 2027; VisitPhilly says Jan 2"
+  ],
+  "slug": "walk-through-luminature-holiday-lights-at-the-philadelphia-z",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9754074,
+    "lng": -75.1969461
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Family-friendly and kid-friendly activities",
+  "drafted_at": "2026-10-20T00:34:18.063Z",
+  "model": "claude-sonnet-5-5"
+}

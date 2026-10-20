@@ -16,6 +16,7 @@ New decisions get the next number. To change one, add a new ADR that supersedes 
 | [008](ADR-008-local-video-research-exception.md) | Local research exception: video analysis on the founder's Mac only | Accepted (narrows 004 for research) |
 | [009](ADR-009-city-first-catalog.md) | City-first: shared Experience catalog, City as a domain concept | Accepted (amends 006) |
 | [010](ADR-010-map-rendering.md) | Map rendering: MapLibre Native + OpenStreetMap vector tiles (search stays Apple) | Accepted |
+| [011](ADR-011-data-model-v2.md) | Data model v2: links, occurrences, recommendation items, social graph | Accepted (extends 009) |
 
 ## Ledger → ADR map
 

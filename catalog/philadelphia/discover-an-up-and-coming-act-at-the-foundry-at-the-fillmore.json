@@ -1,0 +1,83 @@
+{
+  "title": "Discover an up-and-coming act at The Foundry at the Fillmore",
+  "intent": "See a rising band in a smaller, more intimate room with full bar service.",
+  "description": "The Foundry is a roughly 450-capacity room inside The Fillmore, described as a club within the club for emerging and mid-level artists. Upcoming listings include Alissa White-Gluz (Nov 28) and Juice (Dec 4).",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "indie rock",
+  "tags": [
+    "intimate",
+    "fishtown",
+    "emerging-artists"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Foundry at The Fillmore",
+    "address": "29 E Allen St, Philadelphia, PA 19123",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 20,
+    "max": 50
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.thefillmorephilly.com"
+    }
+  ],
+  "sources": [
+    "https://phillyprgirl.com/2025/09/09/the-best-venues-in-philly-to-catch-live-music-close-up/",
+    "https://www.bandsintown.com/v/10482320-the-foundry-at-the-fillmore-philadelphia?came_from=900"
+  ],
+  "uncertain": [
+    "price_usd",
+    "website URL not directly verified"
+  ],
+  "slug": "discover-an-up-and-coming-act-at-the-foundry-at-the-fillmore",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9655391,
+    "lng": -75.1349058
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.506Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "pick-apples-and-pumpkins-at-highland-orchards-in-west-cheste",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Pick apples and pumpkins at Highland Orchards in West Chester",
+  "intent": "A big Chester County pick-your-own farm with a bakery famous for cider donuts.",
+  "description": "Highland Orchards is a 200-acre working farm with pick-your-own apples and pumpkins into the fall, a farm market and a bakery making apple cider donuts and pies. Check availability first because the 2026 apple crop was hit by a spring freeze.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "apple picking",
+  "tags": [
+    "apple-picking",
+    "pumpkin-patch",
+    "orchard",
+    "seasonal",
+    "day-trip",
+    "cider-donuts"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Highland Orchards",
+    "address": "1000 Marshallton-Thorndale Rd, West Chester, PA 19382",
+    "neighborhood": null
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.valleyforge.org/listing/highland-orchards/22882/"
+    }
+  ],
+  "sources": [
+    "https://www.valleyforge.org/listing/highland-orchards/22882/",
+    "https://www.yelp.com/biz/highland-orchards-west-chester",
+    "https://www.tripadvisor.com/Attraction_Review-g53951-d8608173-Reviews-Highland_Orchards-West_Chester_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "2026 apple availability after spring freeze",
+    "hours (from Yelp, may vary by season)",
+    "prices",
+    "official website"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.065Z",
+  "model": "claude-sonnet-5-5"
+}

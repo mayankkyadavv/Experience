@@ -1,0 +1,85 @@
+{
+  "title": "Ride the Cobbs Creek Trail through West and Southwest Philly",
+  "intent": "Shaded, mostly car-free paved path, good for families.",
+  "description": "A roughly 3.7-mile smooth asphalt path through the 851-acre Cobbs Creek Park, with few street crossings and one steep hill. It connects historic and educational sites and extends toward the 63rd Street station area.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "park trail",
+  "tags": [
+    "free",
+    "cycling",
+    "family-friendly",
+    "shaded",
+    "local-favorite"
+  ],
+  "good_for": [
+    "family",
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Cobbs Creek Park",
+    "address": "280 Cobbs Creek Pkwy, Philadelphia, PA 19139",
+    "neighborhood": "West Philadelphia"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.phila.gov/programs/rebuild/project-sites/cobbs-creek-park/"
+    }
+  ],
+  "sources": [
+    "https://www.phila.gov/programs/rebuild/project-sites/cobbs-creek-park/",
+    "https://whyy.org/articles/staycation-making-a-day-trip-of-the-cobbs-creek-parkway/",
+    "https://greatruns.com/wp-content/uploads/2018/08/Cobbs-Creek-Trail.pdf"
+  ],
+  "uncertain": [
+    "trail length may have changed with extensions"
+  ],
+  "slug": "ride-the-cobbs-creek-trail-through-west-and-southwest-philly",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.918175,
+    "lng": -75.2463201
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.359Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,91 @@
+{
+  "title": "Take a pottery class at The Clay Studio",
+  "intent": "Learn wheel throwing or handbuilding at one of the country's best-known ceramics centers.",
+  "description": "The Clay Studio in South Kensington runs year-round adult classes in handbuilding, wheel throwing, casting and glazing, plus one-off workshops. The fall term runs Sept 30 to Dec 13, with beginner evening and morning slots on Wednesdays. Galleries and a shop on site are free to visit.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "pottery",
+  "tags": [
+    "ceramics",
+    "beginner-friendly",
+    "multi-week",
+    "gallery"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Clay Studio",
+    "address": "1425 N American St, Philadelphia, PA 19122",
+    "neighborhood": "South Kensington"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 180,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 2
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-09-30",
+      "end": "2026-12-13"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.theclaystudio.org/"
+    },
+    {
+      "kind": "booking",
+      "url": "http://public.theclaystudio.org/"
+    }
+  ],
+  "sources": [
+    "https://www.theclaystudio.org/",
+    "http://public.theclaystudio.org/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours",
+    "winter term dates"
+  ],
+  "slug": "take-a-pottery-class-at-the-clay-studio",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9790561,
+    "lng": -75.1389113
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.445Z",
+  "model": "claude-sonnet-5-5"
+}

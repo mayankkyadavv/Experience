@@ -1,0 +1,119 @@
+{
+  "title": "Browse the oldest LGBTQ bookstore at Giovanni's Room",
+  "intent": "Poke through queer and feminist books on a slow, drizzly afternoon.",
+  "description": "America's longest-running LGBTQ bookstore, founded in 1973 and named for the James Baldwin novel, in the Gayborhood. It operates with the Philly AIDS Thrift store (710 S 5th St).",
+  "category": "shopping",
+  "kind": "place",
+  "subcategory": "bookstore",
+  "tags": [
+    "rainy-day",
+    "books",
+    "lgbtq",
+    "indoor",
+    "history"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philly AIDS Thrift @ Giovanni's Room",
+    "address": "345 S 12th St, Philadelphia, PA 19107",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "20:00"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "20:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "20:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "20:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "20:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "20:00"
+    },
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "19:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://queerbooks.com/"
+    }
+  ],
+  "sources": [
+    "https://queerbooks.com/donate/",
+    "https://shop.queerbooks.com/pages/contact-us",
+    "https://www.phillyvoice.com/giovannis-room-50th-anniversary-philly-aids-thrift-queerapalooza-block-party-gayborhood/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "group_size"
+  ],
+  "slug": "browse-the-oldest-lgbtq-bookstore-at-giovannis-room",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9451771,
+    "lng": -75.1611939
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.122Z",
+  "model": "claude-sonnet-5-5"
+}

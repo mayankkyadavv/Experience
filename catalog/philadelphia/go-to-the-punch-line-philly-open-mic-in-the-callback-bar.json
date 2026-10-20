@@ -1,0 +1,100 @@
+{
+  "title": "Go to the Punch Line Philly open mic in the Callback Bar",
+  "intent": "See local comics workshop material on a Monday night.",
+  "description": "Punch Line Philly runs an open mic night in its Callback Bar on alternating Mondays. It's a low-key way to see new comics work out material.",
+  "category": "comedy",
+  "kind": "event",
+  "subcategory": "open mic",
+  "tags": [
+    "open-mic",
+    "weeknight",
+    "local-comics",
+    "cheap"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Punch Line Philly – Callback Bar",
+    "address": "33 E Laurel St, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-26",
+      "end": "2026-11-23"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-26",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-11-09",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-11-23",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.punchlinephilly.com/open-mic"
+    }
+  ],
+  "sources": [
+    "https://www.punchlinephilly.com/open-mic"
+  ],
+  "uncertain": [
+    "start time",
+    "price"
+  ],
+  "slug": "go-to-the-punch-line-philly-open-mic-in-the-callback-bar",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9653617,
+    "lng": -75.1353867
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Stand-up comedy clubs, improv theaters and regular comedy nights",
+  "drafted_at": "2026-10-20T00:20:14.392Z",
+  "model": "claude-opus-5-5"
+}

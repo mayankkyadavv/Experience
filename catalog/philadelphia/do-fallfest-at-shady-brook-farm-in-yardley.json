@@ -1,0 +1,114 @@
+{
+  "slug": "do-fallfest-at-shady-brook-farm-in-yardley",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Do FallFest at Shady Brook Farm in Yardley",
+  "intent": "A full-day farm festival with pumpkin picking, a Philly-themed corn maze and an evening Halloween light show.",
+  "description": "Shady Brook Farm's FallFest includes 25+ attractions, a pumpkin patch, the America 250 corn maze, wagon rides, a haunted barn, live music and the Eerie Illuminations Halloween light show after dark. Admission is by dated ticket, about $20-$30.",
+  "category": "outdoors",
+  "kind": "event",
+  "subcategory": "pumpkin patch",
+  "tags": [
+    "pumpkin-patch",
+    "corn-maze",
+    "family-friendly",
+    "seasonal",
+    "day-trip",
+    "live-music"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Shady Brook Farm",
+    "address": "931 Stony Hill Rd, Yardley, PA 19067",
+    "neighborhood": null
+  },
+  "price_usd": {
+    "min": 20,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 300
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-09-11",
+      "end": "2026-10-30"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-23",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-24",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-25",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-30",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://shadybrookfarm.com/pages/fallfest"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://shadybrookfarm.com/products/fallfest-fri-oct-10-2026"
+    }
+  ],
+  "sources": [
+    "https://shadybrookfarm.com/pages/fallfest",
+    "https://buckscountyparent.com/bucks-county-fall-festivals/",
+    "https://mommypoppins.com/philadelphia-kids/event/events/fallfest-at-shady-brook-farms"
+  ],
+  "uncertain": [
+    "daily hours vary by date",
+    "which weekdays are open between Oct 26-29",
+    "pumpkin picking is extra by weight"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.064Z",
+  "model": "claude-sonnet-5-5"
+}

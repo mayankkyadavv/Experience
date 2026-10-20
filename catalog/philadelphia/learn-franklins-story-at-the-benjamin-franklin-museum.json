@@ -1,0 +1,119 @@
+{
+  "title": "Learn Franklin's story at the Benjamin Franklin Museum",
+  "intent": "Explore Franklin's life through interactive exhibits at the site of his home.",
+  "description": "A National Park Service museum in Franklin Court with artifacts, animations and interactive displays on Ben Franklin's life. Nearby, steel 'ghost structures' outline where his house stood.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "history museum",
+  "tags": [
+    "historic",
+    "independence-park",
+    "interactive",
+    "family-friendly"
+  ],
+  "good_for": [
+    "solo",
+    "family",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Benjamin Franklin Museum",
+    "address": "317 Chestnut St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 30,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.phlvisitorcenter.com/things-to-do/benjamin-franklin-museum"
+    }
+  ],
+  "sources": [
+    "https://www.phlvisitorcenter.com/things-to-do/benjamin-franklin-museum",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d5590734-Reviews-Benjamin_Franklin_Museum-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "Admission fee (NPS charges a small fee but amount not verified)",
+    "Hours from third-party listings",
+    "Street address from general knowledge"
+  ],
+  "slug": "learn-franklins-story-at-the-benjamin-franklin-museum",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9486909,
+    "lng": -75.1470879
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.033Z",
+  "model": "claude-sonnet-5-5"
+}

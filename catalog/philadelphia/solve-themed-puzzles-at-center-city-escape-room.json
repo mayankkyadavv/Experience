@@ -1,0 +1,84 @@
+{
+  "title": "Solve themed puzzles at Center City Escape Room",
+  "intent": "Team up to escape a themed room in under an hour.",
+  "description": "Escape-room venue in a lower-level space near Arch Street in Center City, with themed rooms for groups, friends and corporate outings. Reserve in advance.",
+  "category": "games",
+  "kind": "place",
+  "subcategory": "escape room",
+  "tags": [
+    "escape-room",
+    "puzzles",
+    "rainy-day",
+    "team-building"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Center City Escape Room",
+    "address": "1425 Arch St, Level B, Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.yelp.com/search?find_desc=Escape+Room&find_loc=Philadelphia%2C+PA"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/search?find_desc=Escape+Room&find_loc=Philadelphia%2C+PA",
+    "https://www.yelp.com/search?find_desc=Axe+Throwing&find_near=center-city-escape-room-philadelphia"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours (Yelp showed open until 10:30pm)",
+    "official website",
+    "room themes and group size"
+  ],
+  "slug": "solve-themed-puzzles-at-center-city-escape-room",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9545624,
+    "lng": -75.1636773
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Arcades, bowling, mini golf, axe throwing and escape rooms",
+  "drafted_at": "2026-10-20T00:27:35.844Z",
+  "model": "claude-sonnet-5-5"
+}

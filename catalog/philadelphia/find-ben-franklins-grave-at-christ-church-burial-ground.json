@@ -1,0 +1,119 @@
+{
+  "title": "Find Ben Franklin's grave at Christ Church Burial Ground",
+  "intent": "Toss a penny and see the Franklin family grave among 4,000 colonial-era burials.",
+  "description": "Christ Church's burial ground at 5th and Arch holds Benjamin Franklin and four other Declaration signers. The grave slab can be seen through the gate for free, with a small fee to walk the grounds. Closed in January and February and on some holidays.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "cemetery",
+  "tags": [
+    "colonial",
+    "cheap",
+    "outdoor",
+    "franklin"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Christ Church Burial Ground",
+    "address": "340 N 5th St",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 5
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 40
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://christchurchphila.org/hours-admissions/"
+    }
+  ],
+  "sources": [
+    "https://christchurchphila.org/hours-admissions/",
+    "https://freetoursbyfoot.com/visiting-christ-church-burial-ground/",
+    "https://www.roadsideamerica.com/tip/49400"
+  ],
+  "uncertain": [
+    "price_usd (third-party sources give $2-$3 adult; not confirmed on official site)",
+    "Dec hours 11-4"
+  ],
+  "slug": "find-ben-franklins-grave-at-christ-church-burial-ground",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9565394,
+    "lng": -75.1472604
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.407Z",
+  "model": "claude-sonnet-5-5"
+}

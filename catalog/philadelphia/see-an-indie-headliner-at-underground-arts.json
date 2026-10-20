@@ -1,0 +1,84 @@
+{
+  "title": "See an indie headliner at Underground Arts",
+  "intent": "Watch buzzy indie and alternative touring acts in a literally underground Loft District room.",
+  "description": "A below-ground, club-sized venue near the Race-Vine stop that books rising indie and alternative acts. Recent headliners include Fontaines D.C. and Nilüfer Yanya, and the lineup includes Anna von Hausswolff in January 2027.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "indie rock",
+  "tags": [
+    "mid-size",
+    "loft-district",
+    "standing-room"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Underground Arts",
+    "address": "1200 Callowhill St, Philadelphia, PA 19123",
+    "neighborhood": "Callowhill / Loft District"
+  },
+  "price_usd": {
+    "min": 20,
+    "max": 50
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://undergroundarts.org"
+    }
+  ],
+  "sources": [
+    "https://www.redbull.com/us-en/top-music-venues-in-philadelphia",
+    "https://www.concertarchives.org/venues/underground-arts",
+    "https://www.songkick.com/venues/1478523-underground-arts"
+  ],
+  "uncertain": [
+    "price_usd",
+    "website URL not directly verified"
+  ],
+  "slug": "see-an-indie-headliner-at-underground-arts",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9590941,
+    "lng": -75.1590111
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.507Z",
+  "model": "claude-sonnet-5-5"
+}

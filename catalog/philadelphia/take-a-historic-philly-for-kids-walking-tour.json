@@ -1,0 +1,74 @@
+{
+  "slug": "take-a-historic-philly-for-kids-walking-tour",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Take a Historic Philly for Kids walking tour",
+  "intent": "Kid-paced introduction to Independence-area history.",
+  "description": "A 1.5-hour guided tour of historic Philadelphia designed for kids ages 5-12, listed from about $28 per person on GetYourGuide.",
+  "category": "attraction",
+  "kind": "activity",
+  "subcategory": "walking tour",
+  "tags": [
+    "tour",
+    "history",
+    "outdoor",
+    "old-city"
+  ],
+  "good_for": [
+    "family"
+  ],
+  "location_requirement": "flexible",
+  "place": null,
+  "price_usd": {
+    "min": 28,
+    "max": 28
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 90
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.getyourguide.com/philadelphia-l60/family-friendly-activities-tc1094/"
+    }
+  ],
+  "sources": [
+    "https://www.getyourguide.com/philadelphia-l60/family-friendly-activities-tc1094/"
+  ],
+  "uncertain": [
+    "tour operator",
+    "meeting point",
+    "schedule"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Family-friendly and kid-friendly activities",
+  "drafted_at": "2026-10-20T00:34:18.069Z",
+  "model": "claude-sonnet-5-5"
+}

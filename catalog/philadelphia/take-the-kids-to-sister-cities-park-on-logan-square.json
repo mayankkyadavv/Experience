@@ -1,0 +1,85 @@
+{
+  "title": "Take the kids to Sister Cities Park on Logan Square",
+  "intent": "Play, snack and relax in a small, family-friendly park in Center City.",
+  "description": "A welcoming park in front of the Cathedral Basilica with a cafe, boat pond, educational garden, commemorative fountain and Robert Indiana's AMOR sculpture. Popular with families and good for a quick break near the Parkway museums.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "city park",
+  "tags": [
+    "free",
+    "family-friendly",
+    "cafe",
+    "center-city"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Sister Cities Park",
+    "address": "210 N 18th St, Philadelphia, PA 19103",
+    "neighborhood": "Logan Square"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.visitphilly.com/things-to-do/attractions/sister-cities-park/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/things-to-do/attractions/sister-cities-park/",
+    "https://maps.apple.com/place?place-id=ICF7AE84566F99834"
+  ],
+  "uncertain": [
+    "hours (park open daytime; cafe hours vary)",
+    "street address"
+  ],
+  "slug": "take-the-kids-to-sister-cities-park-on-logan-square",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9581946,
+    "lng": -75.1690371
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.774Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,122 @@
+{
+  "title": "See the Liberty Bell at the Liberty Bell Center",
+  "intent": "See the iconic cracked bell and exhibits on its history, free of charge.",
+  "description": "The National Park Service center that houses the Liberty Bell, with exhibits on its role in American history. Entry is free and lines can be long at midday.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic landmark",
+  "tags": [
+    "free",
+    "historic",
+    "independence-park",
+    "iconic"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Liberty Bell Center",
+    "address": "526 Market St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": {
+    "min": 1,
+    "max": 15
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.nps.gov/inde/planyourvisit/libertybellcenter.htm"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d104156-Reviews-or50-Liberty_Bell_Center-Philadelphia_Pennsylvania.html",
+    "https://www.yelp.com/biz/liberty-bell-center-philadelphia-2"
+  ],
+  "uncertain": [
+    "Hours from third-party listings; NPS hours can change seasonally",
+    "Free admission (from general knowledge)"
+  ],
+  "slug": "see-the-liberty-bell-at-the-liberty-bell-center",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.949954,
+    "lng": -75.1502052
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.031Z",
+  "model": "claude-sonnet-5-5"
+}

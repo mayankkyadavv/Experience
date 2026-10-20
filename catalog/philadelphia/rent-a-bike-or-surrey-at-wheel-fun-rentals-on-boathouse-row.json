@@ -1,0 +1,128 @@
+{
+  "title": "Rent a bike or surrey at Wheel Fun Rentals on Boathouse Row",
+  "intent": "Ride the river trail without owning a bike, including pedal surreys for groups.",
+  "description": "Wheel Fun Rentals sits at Boathouse Row and rents single and tandem bikes, surrey cycles and side-by-side pedal cars by the hour (one-hour minimum), with free helmets. Use them on the Schuylkill River Trail along Kelly Drive or toward the Art Museum.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "bike rental",
+  "tags": [
+    "rental",
+    "scenic",
+    "surrey",
+    "family-friendly",
+    "seasonal"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Wheel Fun Rentals at Boathouse Row",
+    "address": "1 Boathouse Row, Philadelphia, PA 19130",
+    "neighborhood": "Fairmount Park"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 45
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.phlvisitorcenter.com/things-to-do/wheel-fun-rentals"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/things-to-do/tours-and-rentals/"
+    }
+  ],
+  "sources": [
+    "https://www.phlvisitorcenter.com/things-to-do/wheel-fun-rentals",
+    "https://www.yelp.com/biz/wheel-fun-rentals-boathouse-row-philadelphia",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d8547050-Reviews-Wheel_Fun_Rentals-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "hours (listing hours; likely reduced in fall/winter)",
+    "price range (a pedal car was about $20/hr in one review)",
+    "official website URL"
+  ],
+  "slug": "rent-a-bike-or-surrey-at-wheel-fun-rentals-on-boathouse-row",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9694143,
+    "lng": -75.1871072
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.357Z",
+  "model": "claude-sonnet-5-5"
+}

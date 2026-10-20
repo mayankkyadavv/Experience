@@ -1,0 +1,196 @@
+{
+  "slug": "eat-drink-and-shop-at-the-christmas-village-in-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Eat, drink and shop at the Christmas Village in Philadelphia",
+  "intent": "Snack on bratwurst, crepes and mulled wine while shopping an authentic German-style Christmas market.",
+  "description": "Annual outdoor holiday market at LOVE Park and City Hall with 110-120+ vendors, European food specialties, a carousel and Santa's House. Free to enter; runs Nov 21 to Dec 27, 2026. Standard hours: Sun-Thu 12-8pm, Fri-Sat 12-9pm.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "holiday market",
+  "tags": [
+    "seasonal",
+    "holiday",
+    "outdoor",
+    "free-entry",
+    "christmas"
+  ],
+  "good_for": [
+    "family",
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Christmas Village in Philadelphia",
+    "address": "1 Love Park Plaza (LOVE Park), Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 40
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 1,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 2,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "21:00"
+    }
+  ],
+  "dates": [
+    {
+      "start": "2026-11-21",
+      "end": "2026-12-27"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-21",
+      "start": "12:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-11-22",
+      "start": "12:00",
+      "end": "20:00"
+    },
+    {
+      "date": "2026-11-27",
+      "start": "12:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-11-28",
+      "start": "12:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-11-29",
+      "start": "12:00",
+      "end": "20:00"
+    },
+    {
+      "date": "2026-12-04",
+      "start": "12:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-12-05",
+      "start": "12:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-12-06",
+      "start": "12:00",
+      "end": "20:00"
+    },
+    {
+      "date": "2026-12-11",
+      "start": "12:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-12-12",
+      "start": "12:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-12-13",
+      "start": "12:00",
+      "end": "20:00"
+    },
+    {
+      "date": "2026-12-18",
+      "start": "12:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-12-19",
+      "start": "12:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-12-20",
+      "start": "12:00",
+      "end": "20:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.philachristmas.com/"
+    }
+  ],
+  "sources": [
+    "https://www.philachristmas.com/about.html",
+    "https://www.philachristmas.com/",
+    "https://phillyfamily.com/event/christmas-village-in-philadelphia/2026-12-18/"
+  ],
+  "uncertain": [
+    "occurrences are a sample of days using the standard weekly hours; holiday and opening-day hours may differ",
+    "street address (LOVE Park / City Hall area)",
+    "price_usd (food and shopping only)"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.765Z",
+  "model": "claude-sonnet-5-5"
+}

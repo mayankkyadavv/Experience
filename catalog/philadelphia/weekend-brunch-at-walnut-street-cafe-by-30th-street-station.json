@@ -1,0 +1,101 @@
+{
+  "title": "Weekend brunch at Walnut Street Cafe by 30th Street Station",
+  "intent": "Light-filled brunch that takes reservations, near 30th Street Station.",
+  "description": "Walnut Street Cafe is an all-day New American spot with floor-to-ceiling windows near 30th Street Station. Weekend brunch runs 10 a.m. to 3 p.m., and it's one of the few brunches that accepts reservations.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "reservations",
+    "bright",
+    "university-city"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Walnut Street Cafe",
+    "address": "2929 Walnut St, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": {
+    "min": 18,
+    "max": 35
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 100
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "15:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "15:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/walnut-street-cafe-philadelphia"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.facebook.com/walnutstcafe"
+    }
+  ],
+  "sources": [
+    "https://www.opentable.com/r/walnut-street-cafe-philadelphia",
+    "https://www.timeout.com/philadelphia/restaurants/best-brunch-in-philadelphia"
+  ],
+  "uncertain": [
+    "hours shown are brunch window only; cafe open other times",
+    "official website",
+    "price_usd"
+  ],
+  "slug": "weekend-brunch-at-walnut-street-cafe-by-30th-street-station",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9519904,
+    "lng": -75.1838882
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.865Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "ride-the-haunted-hayride-and-walk-the-bates-motel-in-glen-mi",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Ride the haunted hayride and walk the Bates Motel in Glen Mills",
+  "intent": "A big multi-attraction suburban haunt with a famous haunted hayride.",
+  "description": "The Bates Motel & Haunted Hayride at Arasapha Farms in Delaware County combines a timed haunted house, a haunted hayride and other attractions. It is open on select dates from Sept. 25 through Nov. 1.",
+  "category": "nightlife",
+  "kind": "event",
+  "subcategory": "haunted hayride",
+  "tags": [
+    "haunted-house",
+    "hayride",
+    "halloween",
+    "seasonal",
+    "day-trip"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Bates Motel & Haunted Hayride (Arasapha Farms)",
+    "address": "1835 N Middletown Rd, Glen Mills, PA 19342",
+    "neighborhood": null
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-09-25",
+      "end": "2026-11-01"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thebatesmotel.com/"
+    },
+    {
+      "kind": "other",
+      "url": "https://thebatesmotel.com/hours/"
+    }
+  ],
+  "sources": [
+    "https://thebatesmotel.com/hours/",
+    "https://thebatesmotel.com/attractions/",
+    "https://southphillyreview.com/2026/10/13/halloween-events-philadelphia/"
+  ],
+  "uncertain": [
+    "specific open nights",
+    "ticket prices",
+    "hours"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.063Z",
+  "model": "claude-sonnet-5-5"
+}

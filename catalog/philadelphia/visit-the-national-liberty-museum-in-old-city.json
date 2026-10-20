@@ -1,0 +1,118 @@
+{
+  "title": "Visit the National Liberty Museum in Old City",
+  "intent": "Explore stories and art about liberty, including a Chihuly glass sculpture.",
+  "description": "A museum in Old City about liberty and civic engagement, home to Dale Chihuly's Flame of Liberty sculpture. The museum's site lists it as open daily with longer hours Wednesday through Friday.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "history museum",
+  "tags": [
+    "history",
+    "glass-art",
+    "indoor",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "National Liberty Museum",
+    "address": "321 Chestnut St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "19:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.libertymuseum.org/"
+    }
+  ],
+  "sources": [
+    "https://www.libertymuseum.org/",
+    "https://en.wikipedia.org/wiki/National_Liberty_Museum"
+  ],
+  "uncertain": [
+    "Admission price",
+    "Hours text on site is inconsistent; verify before visiting"
+  ],
+  "slug": "visit-the-national-liberty-museum-in-old-city",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9490019,
+    "lng": -75.146858
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.033Z",
+  "model": "claude-sonnet-5-5"
+}

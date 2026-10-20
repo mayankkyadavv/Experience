@@ -1,0 +1,77 @@
+{
+  "title": "Take a pottery class at Allens Lane Art Center",
+  "intent": "Neighborhood art-center clay classes, from beginner wheel to raku firing.",
+  "description": "Allens Lane Art Center in Mount Airy offers classes in wheel throwing, handbuilding, intro to pottery, advanced techniques and raku firing, plus monthly clay dates and kids' sessions.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "pottery",
+  "tags": [
+    "pottery",
+    "raku",
+    "northwest-philly",
+    "multi-week"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Allens Lane Art Center",
+    "address": "601 W Allens Ln, Philadelphia, PA 19119",
+    "neighborhood": "Mount Airy"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.phillymag.com/be-well-philly/pottery-classes-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/be-well-philly/pottery-classes-philadelphia/"
+  ],
+  "uncertain": [
+    "official website URL",
+    "price_usd",
+    "duration_minutes",
+    "hours",
+    "current schedule"
+  ],
+  "slug": "take-a-pottery-class-at-allens-lane-art-center",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.052272,
+    "lng": -75.201647
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.451Z",
+  "model": "claude-sonnet-5-5"
+}

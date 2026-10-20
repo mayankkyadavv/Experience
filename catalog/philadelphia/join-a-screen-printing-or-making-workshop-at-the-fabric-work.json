@@ -1,0 +1,82 @@
+{
+  "title": "Join a screen-printing or making workshop at the Fabric Workshop and Museum",
+  "intent": "Learn printing and textile-making techniques at a respected experimental art museum.",
+  "description": "The Fabric Workshop and Museum hosts seasonal adult workshops centered on making and experimentation, plus private group events for 4 or more adults. Its professional print studios focus on screen-printing on fabric.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "screen printing",
+  "tags": [
+    "screen-printing",
+    "museum",
+    "workshop",
+    "group-event"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Fabric Workshop and Museum",
+    "address": "1214 Arch St, Philadelphia, PA 19107",
+    "neighborhood": "Center City"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": {
+    "min": 1,
+    "max": 20
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.fabricworkshopandmuseum.org/"
+    }
+  ],
+  "sources": [
+    "https://www.craftnowphila.org/education/adults/",
+    "https://en.wikipedia.org/wiki/The_Fabric_Workshop_and_Museum"
+  ],
+  "uncertain": [
+    "price_usd",
+    "current workshop schedule",
+    "hours",
+    "group_size",
+    "museum is listed as Old City by one guide but its address is on Arch St"
+  ],
+  "slug": "join-a-screen-printing-or-making-workshop-at-the-fabric-work",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9537014,
+    "lng": -75.1602464
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.450Z",
+  "model": "claude-sonnet-5-5"
+}

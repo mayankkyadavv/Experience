@@ -1,0 +1,84 @@
+{
+  "title": "Roller skate at Philly SkatePlex in Northeast Philly",
+  "intent": "Go for a classic indoor roller-rink night with an arcade and themed sessions.",
+  "description": "A family-oriented indoor roller rink on Roosevelt Boulevard with a large skating floor, arcade, snack bar and parent lounge. It runs themed sessions, lessons and cheap $1–$2 admission times. The rink was formerly Palace Roller Skating Center.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "roller skating",
+  "tags": [
+    "indoor",
+    "rainy-day",
+    "family-friendly",
+    "cheap",
+    "arcade"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philly SkatePlex",
+    "address": "11586 Roosevelt Blvd, Philadelphia, PA 19116",
+    "neighborhood": "Northeast Philadelphia"
+  },
+  "price_usd": {
+    "min": 2,
+    "max": 12
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 15
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://mommypoppins.com/philadelphia-kids/best-roller-skating-rinks-philadelphia-kids-families",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d9984444-Reviews-Palace_Roller_Skating_Center-Philadelphia_Pennsylvania.html",
+    "https://billypenn.com/2021/05/28/philadelphia-roller-skating-best-rinks-summer-dilworth-penns-landing/"
+  ],
+  "uncertain": [
+    "official website",
+    "current admission prices (range from older sources)",
+    "session hours",
+    "group_size"
+  ],
+  "slug": "roller-skate-at-philly-skateplex-in-northeast-philly",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.104042,
+    "lng": -75.0047117
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks",
+  "drafted_at": "2026-10-20T00:33:19.253Z",
+  "model": "claude-sonnet-5-5"
+}

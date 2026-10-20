@@ -1,0 +1,85 @@
+{
+  "title": "Jamaican-inspired Saturday brunch at 48th Street Grille",
+  "intent": "West Philly Jamaican brunch, ackee and saltfish or catfish and waffles.",
+  "description": "48th Street Grille is a West Philly Jamaican restaurant that serves brunch on Saturdays with a Jamaican twist, including ackee and saltfish and a fried-catfish take on chicken and waffles.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "jamaican",
+    "west-philly",
+    "saturday-only"
+  ],
+  "good_for": [
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "48th Street Grille",
+    "address": "310 S 48th St, Philadelphia, PA 19143",
+    "neighborhood": "West Philadelphia"
+  },
+  "price_usd": {
+    "min": 14,
+    "max": 28
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.visitphilly.com/articles/philadelphia/best-brunch-spots-in-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/best-brunch-spots-in-philadelphia/"
+  ],
+  "uncertain": [
+    "brunch hours",
+    "current operating status (source is a guide)",
+    "price_usd",
+    "official website"
+  ],
+  "slug": "jamaican-inspired-saturday-brunch-at-48th-street-grille",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9531123,
+    "lng": -75.2186233
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.866Z",
+  "model": "claude-sonnet-5-5"
+}

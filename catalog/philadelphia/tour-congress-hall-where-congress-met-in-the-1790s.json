@@ -1,0 +1,117 @@
+{
+  "title": "Tour Congress Hall, where Congress met in the 1790s",
+  "intent": "Sit in the House and Senate chambers where early Congress debated the Bill of Rights.",
+  "description": "Restored House and Senate chambers from when Philadelphia was the U.S. capital. Free ranger-led tours run about every 20 minutes during the day, and a small exhibit is in the West Wing.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "national park site",
+  "tags": [
+    "free",
+    "colonial",
+    "rainy-day",
+    "ranger-tours"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Congress Hall",
+    "address": "6th & Chestnut St",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://home.nps.gov/inde/planyourvisit/hours.htm"
+    }
+  ],
+  "sources": [
+    "https://home.nps.gov/inde/planyourvisit/hours.htm"
+  ],
+  "uncertain": [
+    "exact street address (given as 6th & Chestnut)",
+    "tours end 4:40pm; hours approximate"
+  ],
+  "slug": "tour-congress-hall-where-congress-met-in-the-1790s",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.94883,
+    "lng": -75.15097
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.407Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,83 @@
+{
+  "title": "Try an etching and printmaking workshop at the Philadelphia Sketch Club",
+  "intent": "Learn etching and printmaking basics in a historic Center City studio.",
+  "description": "The Philadelphia Sketch Club runs a Wednesday 4-7pm printmaking workshop in its historic press studio, covering etching techniques at your own pace with small-class guidance. Materials are provided; the fee was listed at $80 for non-members ($65 members).",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "printmaking",
+  "tags": [
+    "printmaking",
+    "etching",
+    "historic",
+    "small-class"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Sketch Club",
+    "address": "235 S Camac St, Philadelphia, PA 19107",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": {
+    "min": 80,
+    "max": 80
+  },
+  "duration_minutes": {
+    "min": 180,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sketchclub.org/workshops-printmaking/"
+    }
+  ],
+  "sources": [
+    "https://sketchclub.org/workshops-printmaking/"
+  ],
+  "uncertain": [
+    "address (from general knowledge, not in the source page)",
+    "whether the workshop is currently running",
+    "group_size"
+  ],
+  "slug": "try-an-etching-and-printmaking-workshop-at-the-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9474275,
+    "lng": -75.1615613
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.450Z",
+  "model": "claude-sonnet-5-5"
+}

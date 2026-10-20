@@ -1,0 +1,87 @@
+{
+  "slug": "trick-or-treat-at-storybook-lands-halloween-weekends",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Trick or treat at Storybook Land's Halloween weekends",
+  "intent": "A low-scare Halloween outing for young kids at a South Jersey storybook theme park.",
+  "description": "Storybook Land in Egg Harbor Township hosts Trick or Treat Weekends with 12 candy stops, designed for young families without scary attractions. Tickets are $42.95 and must be bought online in advance.",
+  "category": "attraction",
+  "kind": "event",
+  "subcategory": "theme park",
+  "tags": [
+    "family-friendly",
+    "halloween",
+    "trick-or-treat",
+    "day-trip",
+    "new-jersey"
+  ],
+  "good_for": [
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Storybook Land",
+    "address": "6415 Black Horse Pike, Egg Harbor Township, NJ 08234",
+    "neighborhood": null
+  },
+  "price_usd": {
+    "min": 43,
+    "max": 43
+  },
+  "duration_minutes": {
+    "min": 180,
+    "max": 360
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-24",
+      "end": "2026-10-25"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-24",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-25",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [],
+  "sources": [
+    "https://www.phillyvoice.com/halloween-events-philadelphia-suburbs-south-jersey-2026/"
+  ],
+  "uncertain": [
+    "street address (from memory)",
+    "hours",
+    "official website"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.067Z",
+  "model": "claude-sonnet-5-5"
+}

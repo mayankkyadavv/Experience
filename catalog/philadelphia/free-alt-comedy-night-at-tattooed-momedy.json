@@ -1,0 +1,85 @@
+{
+  "title": "Free alt-comedy night at Tattooed Momedy",
+  "intent": "See a no-cover alternative stand-up showcase on South Street.",
+  "description": "Tattooed Mom's monthly Tattooed Momedy is a free alternative comedy showcase upstairs at the South Street bar, usually on the last Tuesday of the month (doors 7pm, show 8pm). The bar also hosts Lady Laughs Philly's monthly open mic for women and queer comics.",
+  "category": "comedy",
+  "kind": "activity",
+  "subcategory": "stand-up",
+  "tags": [
+    "free",
+    "alt-comedy",
+    "monthly",
+    "bar",
+    "lgbtq-friendly"
+  ],
+  "good_for": [
+    "friends",
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Tattooed Mom",
+    "address": "530 South St, Philadelphia, PA 19147",
+    "neighborhood": "Queen Village"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tattooedmomphilly.com/tag/comedy-show/"
+    }
+  ],
+  "sources": [
+    "https://www.tattooedmomphilly.com/event/tattooed-momedy-july-2026/",
+    "https://www.tattooedmomphilly.com/event/tattooed-momedy-june-2026/",
+    "https://www.tattooedmomphilly.com/tag/comedy-show/"
+  ],
+  "uncertain": [
+    "upcoming dates (last-Tuesday pattern inferred from June/July 2026)"
+  ],
+  "slug": "free-alt-comedy-night-at-tattooed-momedy",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9418748,
+    "lng": -75.1518877
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Stand-up comedy clubs, improv theaters and regular comedy nights",
+  "drafted_at": "2026-10-20T00:20:14.394Z",
+  "model": "claude-opus-5-5"
+}

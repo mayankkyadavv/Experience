@@ -1,0 +1,83 @@
+{
+  "title": "Seafood feast at Little Water near Rittenhouse Square",
+  "intent": "Inventive raw bar and coastal cooking from a James Beard-nominated couple.",
+  "description": "Randy and Amanda Rucker's 78-seat seafood restaurant has a pressed-tin ceiling, a raw bar with dishes like crab claws and caviar with hush puppies, and a menu drawing on Texas, New England and Philly. Michelin-listed and on Craig LaBan's 2025 top 10.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "seafood",
+  "tags": [
+    "raw-bar",
+    "michelin-listed",
+    "date-night",
+    "reservations-recommended"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Little Water",
+    "address": "261 S 20th St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/little-water-philly"
+    }
+  ],
+  "sources": [
+    "https://guide.michelin.com/us/en/pennsylvania/philadelphia_2942787/restaurant/little-water",
+    "https://www.opentable.com/r/little-water-philly",
+    "https://www.inquirer.com/food/craig-laban/little-water-philadelphia-review-20250211.html"
+  ],
+  "uncertain": [
+    "hours",
+    "price",
+    "official website"
+  ],
+  "slug": "seafood-feast-at-little-water-near-rittenhouse-square",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9486106,
+    "lng": -75.1740159
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Center City and Rittenhouse",
+  "drafted_at": "2026-10-20T01:08:55.234Z",
+  "model": "claude-sonnet-5-5"
+}

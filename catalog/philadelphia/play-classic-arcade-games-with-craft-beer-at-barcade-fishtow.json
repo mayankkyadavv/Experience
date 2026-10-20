@@ -1,0 +1,121 @@
+{
+  "title": "Play classic arcade games with craft beer at Barcade Fishtown",
+  "intent": "Play vintage cabinets and pinball over a beer.",
+  "description": "Fishtown arcade bar with 35+ classic cabinets (Donkey Kong, Galaga, Contra, Ms. Pac-Man), pinball, a rotating craft beer list and a kitchen. Games are pay-to-play and it gets busy on weekend nights.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "arcade bar",
+  "tags": [
+    "arcade",
+    "craft-beer",
+    "retro",
+    "late-night",
+    "21+"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Barcade",
+    "address": "1114 Frankford Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "02:00"
+    },
+    {
+      "day": 1,
+      "open": "14:00",
+      "close": "02:00"
+    },
+    {
+      "day": 2,
+      "open": "14:00",
+      "close": "02:00"
+    },
+    {
+      "day": 3,
+      "open": "14:00",
+      "close": "02:00"
+    },
+    {
+      "day": 4,
+      "open": "14:00",
+      "close": "02:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://barcade.com/location/philadelphia-center-city"
+    }
+  ],
+  "sources": [
+    "https://joe.coffee/locations/pa/philadelphia/barcade-philadelphia/",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d4729318-Reviews-Barcade-Philadelphia_Pennsylvania.html",
+    "https://rnbphilly.com/3673469/the-11-best-bars-in-philly-with-arcade-games/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "official website URL (link is Barcade's Philadelphia location page, listed as Center City but address is Frankford Ave)",
+    "hours from third-party listings"
+  ],
+  "slug": "play-classic-arcade-games-with-craft-beer-at-barcade-fishtow",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9674268,
+    "lng": -75.1347073
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Arcades, bowling, mini golf, axe throwing and escape rooms",
+  "drafted_at": "2026-10-20T00:27:35.837Z",
+  "model": "claude-sonnet-5-5"
+}

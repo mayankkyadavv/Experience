@@ -1,0 +1,117 @@
+{
+  "title": "Try a cemita and aguachile at El Chingon",
+  "intent": "Colorful all-day Mexican spot known for house-baked cemitas and Puebla-inspired plates.",
+  "description": "Chef Carlos Aparicio, who started baking as a teenager, bakes the soft cemita buns in-house at this Bib Gourmand-listed South Philly café. Go with friends to share cemitas, aguachile and other plates; brunch runs 11am–2pm on weekends.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "mexican",
+  "tags": [
+    "bib-gourmand",
+    "brunch",
+    "cemitas",
+    "casual",
+    "vegetarian-options"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "El Chingon",
+    "address": "1524 S 10th St, Philadelphia, PA 19147",
+    "neighborhood": "Passyunk Square"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 40
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "21:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.elchingonphilly.com/southphilly"
+    }
+  ],
+  "sources": [
+    "https://www.elchingonphilly.com/southphilly",
+    "https://guide.michelin.com/us/en/pennsylvania/philadelphia_2942787/restaurant/el-chingon",
+    "https://blog.resy.com/guides/72-hours-philly/"
+  ],
+  "uncertain": [
+    "price per person"
+  ],
+  "slug": "try-a-cemita-and-aguachile-at-el-chingon",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9301253,
+    "lng": -75.1616104
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in South Philly, East Passyunk and Bella Vista",
+  "drafted_at": "2026-10-20T01:15:44.427Z",
+  "model": "claude-sonnet-5-5"
+}

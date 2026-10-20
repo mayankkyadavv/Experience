@@ -1,0 +1,124 @@
+{
+  "title": "Eat around the world at Gather Food Hall",
+  "intent": "Sample tacos, Peruvian, Cambodian and Indian food plus doughnuts and a bar in one stop near 30th Street Station.",
+  "description": "A 13,000 sq ft food hall in the former Bulletin Building at Schuylkill Yards, opened Oct 2025. Stalls include Federal Donuts & Chicken, El Mictlan tacos, Bowl'd Masala and Peruvian options, plus the Bulletin Bar. Hours listed are from the opening announcement.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "food hall",
+  "tags": [
+    "food-hall",
+    "bar",
+    "university-city",
+    "group-friendly",
+    "near-train"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "group",
+    "date",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Gather Food Hall",
+    "address": "3025 Market St, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "23:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://gatherfoodhall.com"
+    }
+  ],
+  "sources": [
+    "https://6abc.com/post/gather-food-hall-showcasing-global-flavors-emerging-chefs/18116633/",
+    "https://www.phillyvoice.com/gather-food-hall-federal-donuts-university-city-bar-bulletin-building/",
+    "https://www.inquirer.com/food/restaurants/gather-food-hall-philadelphia-20251029.html"
+  ],
+  "uncertain": [
+    "hours (from 2025 opening announcement; Federal Donuts opens 8am)",
+    "price_usd"
+  ],
+  "slug": "eat-around-the-world-at-gather-food-hall",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9551706,
+    "lng": -75.1842139
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.759Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,107 @@
+{
+  "title": "Dinner at My Loup, a Walnut Street French bistro",
+  "intent": "Polished seasonal French cooking in a cozy, book-lined room with a great bar.",
+  "description": "A narrow, wood-paneled French bistro off Rittenhouse Square known for inventive seasonal plates like leeks with lobster and hazelnuts, and veteran bartenders. It's Michelin-listed and was on Inquirer critic Craig LaBan's 2025 top-10 list.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "french bistro",
+  "tags": [
+    "michelin-listed",
+    "date-night",
+    "cocktails",
+    "reservations-recommended"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "My Loup",
+    "address": "2005 Walnut St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.myloupphl.com"
+    }
+  ],
+  "sources": [
+    "https://www.myloupphl.com/location/my-loup/",
+    "https://www.inquirer.com/food/craig-laban-top-10-best-restaurants-philadelphia-2025-20251222.html",
+    "https://www.yelp.com/biz/my-loup-philadelphia"
+  ],
+  "uncertain": [
+    "price per person",
+    "operating days (site says Tue-Sat in text but Mon-Fri in structured data)"
+  ],
+  "slug": "dinner-at-my-loup-a-walnut-street-french-bistro",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9506651,
+    "lng": -75.1740181
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Center City and Rittenhouse",
+  "drafted_at": "2026-10-20T01:08:55.233Z",
+  "model": "claude-sonnet-5-5"
+}

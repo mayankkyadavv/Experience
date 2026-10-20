@@ -1,0 +1,119 @@
+{
+  "title": "Southern and Cajun brunch at Honey's Sit-N-Eat",
+  "intent": "Long-popular Northern Liberties brunch spot; expect a weekend wait.",
+  "description": "Casual Southern and Cajun/Creole breakfast and brunch diner at 4th and Brown. No reservations, so weekend waits are common; one listing notes it may be cash-only.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "southern",
+    "cajun",
+    "casual"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "family",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Honey's Sit-N-Eat",
+    "address": "800 N 4th St, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": {
+    "min": 12,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "14:00"
+    },
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "14:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "14:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "14:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "14:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "14:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "14:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://maps.apple.com/place?place-id=IF3F6DA77CC7E2A6E",
+    "https://www.yelp.com/biz/honeys-sit-n-eat-philadelphia?start=20"
+  ],
+  "uncertain": [
+    "weekend hours",
+    "cash-only status",
+    "price_usd",
+    "duration_minutes",
+    "official website"
+  ],
+  "slug": "southern-and-cajun-brunch-at-honeys-sit-n-eat",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9638985,
+    "lng": -75.1445263
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington",
+  "drafted_at": "2026-10-20T00:31:20.106Z",
+  "model": "claude-sonnet-5-5"
+}

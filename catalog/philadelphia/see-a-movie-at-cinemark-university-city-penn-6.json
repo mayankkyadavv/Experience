@@ -1,0 +1,83 @@
+{
+  "title": "See a movie at Cinemark University City Penn 6",
+  "intent": "Easy mainstream movie night close to Penn and Drexel campuses.",
+  "description": "Cinemark multiplex in University City listed among Philadelphia's main cinemas, used heavily by students for current releases.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "multiplex",
+  "tags": [
+    "university city",
+    "students",
+    "rainy-day",
+    "blockbusters"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Cinemark University City Penn 6",
+    "address": null,
+    "neighborhood": "University City"
+  },
+  "price_usd": {
+    "min": 9,
+    "max": 16
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 200
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.34st.com/article/2024/10/philly-cinema-movie-theater-pfs-bourse-amc-cinemark",
+    "https://www.atomtickets.com/theaters/pa-philadelphia"
+  ],
+  "uncertain": [
+    "address",
+    "hours",
+    "price_usd",
+    "website",
+    "current operating status not confirmed on an official page"
+  ],
+  "slug": "see-a-movie-at-cinemark-university-city-penn-6",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9538723,
+    "lng": -75.2032852
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Movie theaters, indie cinemas and outdoor screenings",
+  "drafted_at": "2026-10-20T01:12:03.283Z",
+  "model": "claude-sonnet-5-5"
+}

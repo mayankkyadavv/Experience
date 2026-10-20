@@ -1,0 +1,113 @@
+{
+  "title": "Jazz night and cocktails at Bourbon & Branch",
+  "intent": "Catch local jazz in a moody Northern Liberties cocktail bar.",
+  "description": "A dimly lit cocktail bar, restaurant and music venue that has featured jazz since 2014, with themed jazz nights, free First Friday jazz and an R&B lounge. Expect local talent and some weekly food specials.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "jazz bar",
+  "tags": [
+    "jazz",
+    "cocktails",
+    "northern-liberties",
+    "live-music",
+    "cheap"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Bourbon & Branch",
+    "address": "705 N 2nd St, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://bourbonandbranchphilly.com/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/top-places-to-listen-to-live-jazz-music-in-philadelphia/",
+    "https://bourbonandbranchphilly.com/events/tag/philly-jazz/",
+    "https://www.yelp.com/biz/bourbon-and-branch-philadelphia"
+  ],
+  "uncertain": [
+    "Saturday and Sunday hours",
+    "which nights have jazz now",
+    "cover"
+  ],
+  "slug": "jazz-night-and-cocktails-at-bourbon-branch",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9620555,
+    "lng": -75.1408427
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.182Z",
+  "model": "claude-sonnet-5-5"
+}

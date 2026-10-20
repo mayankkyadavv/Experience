@@ -1,0 +1,121 @@
+{
+  "title": "Bowl with a drink and arcade games at North Bowl",
+  "intent": "Lively bowling-bar night out in Northern Liberties.",
+  "description": "A 21,000 sq ft former mechanics garage with bowling lanes, an arcade, a full bar, a restaurant and live music at times. Bowling is about $7 per game plus $6 shoes, a bit more on Friday and Saturday evenings. Under-21s must leave by 8pm.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "bowling",
+  "tags": [
+    "bowling",
+    "arcade",
+    "bar",
+    "live-music",
+    "late-night"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "North Bowl",
+    "address": "909 N 2nd St, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": {
+    "min": 13,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "01:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "01:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.northbowlphilly.com/"
+    }
+  ],
+  "sources": [
+    "https://www.northbowlphilly.com/",
+    "http://www.thejawn.com/jawn/north-bowl-philadelphia/",
+    "https://www.spottedbylocals.com/philadelphia/north-bowl/"
+  ],
+  "uncertain": [
+    "pricing shown is from the site's general bowling pricing; check before visiting"
+  ],
+  "slug": "bowl-with-a-drink-and-arcade-games-at-north-bowl",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9644037,
+    "lng": -75.1401319
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Arcades, bowling, mini golf, axe throwing and escape rooms",
+  "drafted_at": "2026-10-20T00:27:35.839Z",
+  "model": "claude-sonnet-5-5"
+}

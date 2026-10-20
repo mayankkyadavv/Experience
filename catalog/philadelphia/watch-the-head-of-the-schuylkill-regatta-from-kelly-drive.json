@@ -1,0 +1,104 @@
+{
+  "title": "Watch the Head of the Schuylkill Regatta from Kelly Drive",
+  "intent": "Free spectating as thousands of rowers race toward Boathouse Row.",
+  "description": "The 56th Head of the Schuylkill Regatta runs Oct. 24-25 over a roughly 2.5-mile course beneath four bridges. Spectators watch from the riverbanks along Kelly Drive; parking and road access are limited.",
+  "category": "sports",
+  "kind": "event",
+  "subcategory": "rowing",
+  "tags": [
+    "free",
+    "outdoor",
+    "rowing",
+    "kelly-drive",
+    "weekend"
+  ],
+  "good_for": [
+    "friends",
+    "family",
+    "solo",
+    "date",
+    "group"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Schuylkill River at Kelly Drive",
+    "address": "Kelly Dr, Philadelphia, PA 19130",
+    "neighborhood": "Fairmount Park / East Falls"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 240
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-24",
+      "end": "2026-10-25"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-24",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-25",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.regattacentral.com/v3/regatta/10191"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.phillyvoice.com/head-schuylkill-regatta-2026-spectator-guide-where-watch-parking/"
+    }
+  ],
+  "sources": [
+    "https://www.regattacentral.com/v3/regatta/10191",
+    "https://www.phillyvoice.com/head-schuylkill-regatta-2026-spectator-guide-where-watch-parking/"
+  ],
+  "uncertain": [
+    "daily race start and end times",
+    "exact address"
+  ],
+  "slug": "watch-the-head-of-the-schuylkill-regatta-from-kelly-drive",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.969441,
+    "lng": -75.1851062
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Pro and college sports games and stadium experiences",
+  "drafted_at": "2026-10-20T01:15:34.977Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,119 @@
+{
+  "title": "Old-school diner breakfast at Sulimay's",
+  "intent": "Eater-listed Fishtown corner diner for a cheap, classic breakfast.",
+  "description": "Long-running corner diner on East Girard near the Berks stop, with breakfast and lunch staples. On the Eater 38 list.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "diner",
+  "tags": [
+    "diner",
+    "breakfast",
+    "cheap",
+    "eater-38"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Sulimay's Restaurant",
+    "address": "632 E Girard Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 22
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "14:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "14:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "14:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "14:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "14:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "15:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d893064-Reviews-Sulimay_s_Restaurant-Philadelphia_Pennsylvania.html",
+    "https://frankiapp.com/business/sulimay-s-restaurant-709435",
+    "https://957benfm.com/2026/08/25/fishtown-kensington-restaurants-dominate-eater-phillys-summer-list/"
+  ],
+  "uncertain": [
+    "hours (sources conflict on weekends/Wednesday dinner)",
+    "price_usd",
+    "duration_minutes",
+    "official website"
+  ],
+  "slug": "old-school-diner-breakfast-at-sulimays",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9714306,
+    "lng": -75.1258477
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington",
+  "drafted_at": "2026-10-20T00:31:20.106Z",
+  "model": "claude-sonnet-5-5"
+}

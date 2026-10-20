@@ -1,0 +1,82 @@
+{
+  "title": "Hear jazz, indie and experimental music at Solar Myth",
+  "intent": "Enjoy a drink in a cafe-wine bar and catch a show in the old Boot & Saddle space.",
+  "description": "A South Broad Street cafe, wine bar and music room that replaced Boot & Saddle in 2022, run with Ars Nova Workshop. It books jazz, experimental and indie acts, and took part in Philly Music Fest this October.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "jazz",
+  "tags": [
+    "wine-bar",
+    "south-philly",
+    "intimate",
+    "neon-sign"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Solar Myth",
+    "address": "1131 S Broad St, Philadelphia, PA 19147",
+    "neighborhood": "South Philadelphia"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 35
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.phillyvoice.com/boot-saddle-philly-solar-myth-cafe-wine-bar-music-ars-nova-workshop-jazz/",
+    "https://www.phillymag.com/news/2022/11/14/solar-myth-philadelphia-music-venue/",
+    "https://xpn.org/jazz-metal-indie-rock-more-in-store-for-philly-music-fest-2026/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours",
+    "official website",
+    "current program mix (jazz-leaning vs. indie)"
+  ],
+  "slug": "hear-jazz-indie-and-experimental-music-at-solar-myth",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9368419,
+    "lng": -75.16658
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.509Z",
+  "model": "claude-sonnet-5-5"
+}

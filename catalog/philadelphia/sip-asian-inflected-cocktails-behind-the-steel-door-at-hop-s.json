@@ -1,0 +1,99 @@
+{
+  "title": "Sip Asian-inflected cocktails behind the steel door at Hop Sing Laundromat",
+  "intent": "Experience Philly's most famous, rule-heavy speakeasy and its meticulously made drinks.",
+  "description": "An unmarked steel door in Chinatown leads to a candlelit, high-ceilinged room with peeling plaster walls and an Asian-influenced cocktail program. Known for strict house rules: a dress code, no photos or phone use, and cash only. Open Thursday to Saturday evenings.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "speakeasy",
+  "tags": [
+    "speakeasy",
+    "dress-code",
+    "cash-only",
+    "chinatown",
+    "late-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Hop Sing Laundromat",
+    "address": "1029 Race St, Philadelphia, PA 19107",
+    "neighborhood": "Chinatown"
+  },
+  "price_usd": {
+    "min": 16,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "01:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.yelp.com/biz/hop-sing-laundromat-philadelphia",
+    "https://punchdrink.com/venues/hop-sing-laundromat/",
+    "https://metrophiladelphia.com/hop-sing-laundromat/",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d3207481-Reviews-Hop_Sing_Laundromat-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "official website url",
+    "cocktail price range",
+    "hours may change; Yelp Oct 2026 listing used"
+  ],
+  "slug": "sip-asian-inflected-cocktails-behind-the-steel-door-at-hop-s",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9555221,
+    "lng": -75.1563955
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cocktail bars and speakeasies worth going to on purpose",
+  "drafted_at": "2026-10-20T00:34:55.450Z",
+  "model": "claude-sonnet-5-5"
+}

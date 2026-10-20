@@ -136,3 +136,9 @@ Deno.test("labels", () => {
   assertEquals(travelMinutes(1), 12);
   assertEquals(travelMinutes(5), 21);
 });
+
+Deno.test("durationLabel reads naturally", () => {
+  assertEquals(durationLabel(80, 120), "1 hr 20 min–2 hrs");
+  assertEquals(durationLabel(90, null), "1.5 hrs");
+  assertEquals(durationLabel(45, 60), "45 min–1 hr");
+});

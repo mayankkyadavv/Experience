@@ -1,0 +1,100 @@
+{
+  "title": "Learn salsa and dance Latin at Brasil's Nightclub",
+  "intent": "Salsa lesson plus social dancing in a long-running Old City Latin club.",
+  "description": "Old City's salsa club with a compact upstairs dance floor. Friday and Saturday nights start with doors around 8:30 p.m. and a salsa lesson with instructors from Estilo Dance Studio, then open social dancing.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "salsa / latin",
+  "tags": [
+    "salsa",
+    "latin",
+    "dance-lesson",
+    "old-city",
+    "beginner-friendly"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Brasil's Nightclub",
+    "address": "112 Chestnut St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 240
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 5,
+      "open": "20:30",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "20:30",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.visitphilly.com/things-to-do/food-drink/brasils-nightclub/"
+    }
+  ],
+  "sources": [
+    "https://www.salsavida.com/event/pennsylvania/philadelphia/salsasational-saturdays-at-brasils-nightclub/",
+    "https://www.salsavida.com/event/pennsylvania/philadelphia/finally-fridays-at-brasil-nightclub/",
+    "https://www.visitphilly.com/things-to-do/food-drink/brasils-nightclub/"
+  ],
+  "uncertain": [
+    "closing time",
+    "Friday cover",
+    "one guide showed venue as 'closed' - confirm before going",
+    "official website link is Visit Philly page"
+  ],
+  "slug": "learn-salsa-and-dance-latin-at-brasils-nightclub",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9480766,
+    "lng": -75.1431015
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance clubs, DJ nights and late-night spots",
+  "drafted_at": "2026-10-20T01:12:51.155Z",
+  "model": "claude-sonnet-5-5"
+}

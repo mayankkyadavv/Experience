@@ -1,0 +1,148 @@
+{
+  "title": "Watch Big 5 and Ivy hoops at the Palestra's centennial season",
+  "intent": "Experience the 'Cathedral of College Basketball' in its 100th year.",
+  "description": "The Palestra marks its 100th anniversary in 2026-27 with Big 5 doubleheaders (Nov. 8, plus the Cathedral Classic on Nov. 27-28 with Penn, La Salle, Bucknell and Towson) and Penn home games. It will host the Ivy League Tournaments March 12-14, 2027.",
+  "category": "sports",
+  "kind": "event",
+  "subcategory": "college basketball",
+  "tags": [
+    "palestra",
+    "big-5",
+    "historic",
+    "penn",
+    "indoor",
+    "centennial"
+  ],
+  "good_for": [
+    "friends",
+    "family",
+    "group",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Palestra",
+    "address": "223 S 33rd St, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 240
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-08",
+      "end": "2027-03-14"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-08",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-11-27",
+      "start": "15:30",
+      "end": null
+    },
+    {
+      "date": "2026-11-27",
+      "start": "18:00",
+      "end": null
+    },
+    {
+      "date": "2026-11-28",
+      "start": "15:30",
+      "end": null
+    },
+    {
+      "date": "2026-11-28",
+      "start": "18:00",
+      "end": null
+    },
+    {
+      "date": "2027-01-16",
+      "start": "14:00",
+      "end": null
+    },
+    {
+      "date": "2027-01-29",
+      "start": "19:00",
+      "end": null
+    },
+    {
+      "date": "2027-03-12",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2027-03-13",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2027-03-14",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://pennathletics.com/sports/palestra-100/schedule/2026-27"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.axs.com/teams/1118126/penn-quakers-men-s-basketball-tickets"
+    }
+  ],
+  "sources": [
+    "https://pennathletics.com/sports/palestra-100/schedule/2026-27",
+    "https://pennathletics.com/sports/mens-basketball/schedule",
+    "https://pennathletics.com/news/2026/8/4/mens-basketball-announces-ivy-league-slate-ahead-of-palestras-100th-anniversary.aspx"
+  ],
+  "uncertain": [
+    "price_usd",
+    "times for Nov. 8 doubleheader (Penn State vs Pitt, Temple vs Richmond)",
+    "tournament session times",
+    "other Penn home dates (Feb. 6 time conflicting)"
+  ],
+  "slug": "watch-big-5-and-ivy-hoops-at-the-palestras-centennial-season",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9520522,
+    "lng": -75.1900296
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Pro and college sports games and stadium experiences",
+  "drafted_at": "2026-10-20T01:15:34.976Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -6,7 +6,7 @@ Last updated 2026-10-18 (city-first). Check off tasks as you go and add decision
 
 ## Prerequisites (the founder does these; agents should not install them)
 
-- [ ] **Install Xcode** from the Mac App Store, then `sudo xcode-select -s /Applications/Xcode.app`. As of 2026-10-18 only the Command Line Tools are installed, so `xcodebuild` fails ("requires Xcode").
+- [x] **Install Xcode** (27.1, selected; iOS 27 Simulator installed 2026-10-19) from the Mac App Store, then `sudo xcode-select -s /Applications/Xcode.app`. As of 2026-10-18 only the Command Line Tools are installed, so `xcodebuild` fails ("requires Xcode").
 - [ ] Apple Developer Program account ($99/yr): needed for the App Group, share extension provisioning, Sign in with Apple, APNs and TestFlight.
 - [ ] `brew install xcodegen supabase/tap/supabase deno` (the Supabase CLI is only needed to deploy; local dev runs on Docker Desktop, see `README.md`)
 - [x] Docker Desktop (installed)
@@ -23,14 +23,14 @@ Last updated 2026-10-18 (city-first). Check off tasks as you go and add decision
 - [x] `ExperienceCore` Swift package (models incl. `Sourced<T>` with `curated`, API client protocol, recommendation request/response types) with `swift test` on macOS.
 
 ### Week 2 (Oct 26-Nov 1): iOS skeleton + the question
-- [ ] XcodeGen project: app + share extension, App Group, keychain group. Sign in with Apple via Supabase.
-- [ ] Map component (MapLibre, ADR-010) with the DESIGN.md style: white 3D city, idle orbit, saved dots, beacons.
-- [ ] Onboarding: city picker (Philadelphia beta, New York "coming next"), taste chips, budget, usually-with.
-- [ ] Home ("What should we do?") → ask sheet → recommend → three cards; camera flight + beacons.
+- [ ] XcodeGen project: app + share extension, App Group, keychain group. Sign in with Apple via Supabase. **2026-10-19:** app target + UI test target done (`ios/project.yml`); Debug signs in to the local Docker stack; Sign in with Apple code is in Release but needs the Apple Developer team + hosted Supabase. Share extension, App Group, keychain group remain.
+- [x] Map component (MapLibre, ADR-010) with the DESIGN.md style: white 3D city, idle orbit, saved dots, beacons. (Saved dots come with the saved list in Week 3.)
+- [x] Onboarding: city picker (Philadelphia beta, New York "coming next"), taste chips, budget, usually-with.
+- [x] Home ("What should we do?") → ask sheet → recommend → three cards; camera flight + beacons. Interested / Not for us / Save on the cards.
 
 ### Week 3 (Nov 2-8): feedback, memory, capture
-- [ ] Interested / Not for us / Save / Did it / rating (3-tile placeholder until the founder picks the scale); events logged.
-- [ ] Saved list; "Your Philadelphia" with pillars.
+- [ ] Interested / Not for us / Save / Did it / rating (3-tile placeholder until the founder picks the scale); events logged. **Backend done 2026-10-19:** `record_feedback` RPC + `ExperienceCore.Feedback`; UI remains.
+- [ ] Saved list; "Your Philadelphia" with pillars. **2026-10-19:** Explore mode (whole catalog on the map, filters incl. Saved, search, list) and the Experience detail sheet (facts, hours, dates, links, sources, directions, Save/Interested/Not for us/Did it/rating) are in; pillars remain.
 - [ ] Share extension (TikTok only): outbox first, "Saved", identify job (port `spikes/identify` extraction to the Edge Function, metadata only per ADR-004), match-or-create against the catalog.
 - [ ] Catalog to 300+ reviewed entries.
 
@@ -71,3 +71,7 @@ M0 spikes still worth doing when convenient: TikTok share payloads on a real iPh
 - 2026-10-18 · **ExperienceCore tests run without Xcode** via `ios/Packages/ExperienceCore/test.sh`, which points SwiftPM at the Command Line Tools' Swift Testing framework. Plain `swift test` once Xcode is installed.
 - 2026-10-18 · Claude clients send `anthropic-workspace-id` when `ANTHROPIC_WORKSPACE_ID` is set, because the current key is user-level (`sk-ant-usr-…`) and the API rejects it without a workspace.
 - 2026-10-19 · **Local backend runs on Docker Compose** (`compose.yaml`, `docker/`): Supabase's own open-source images (Postgres 17, GoTrue, PostgREST, Edge Runtime, Studio) pinned to the versions in their self-hosted compose, behind an nginx gateway on the Supabase CLI ports (54321-54323). A one-shot `migrate` service applies `supabase/migrations` (tracked in `supabase_migrations.schema_migrations`, like the CLI), the seed, and local-only sample data; a `tools` service runs Deno tasks; `deno task smoke` checks sign-up → profile → `recommend` end to end. Why: one command for collaborators, real RLS/auth/functions instead of stubs (reliable), no cloud cost. Production stays hosted Supabase (ADR-002); compose is not a deploy target. Undo: `supabase start` uses the same ports and folders.
+- 2026-10-19 · **Feedback is one Postgres function** (`record_feedback`, security invoker so RLS applies), called via PostgREST `/rest/v1/rpc/record_feedback`. It updates `user_experiences` and logs the MVP event in one transaction; interested/not-interested clear each other, rating requires done, undone clears the rating. Why: atomic, no extra Edge Function, testable in PGlite (reliable, low cost). Undo: move the logic to an Edge Function.
+- 2026-10-19 · **iOS app foundation:** minimum iOS 17 (Observation, scroll APIs; matches ExperienceCore), app target in Swift 5 language mode (MapLibre delegates; ExperienceCore stays Swift 6). Dependencies: MapLibre 6.31.0 (exact), supabase-swift 2.55+ (auth session/refresh/keychain, PostgREST). Debug builds use `LOCAL_BACKEND` → `http://localhost:54321` with an auto-created email account; Release uses Sign in with Apple. `CoreLoopTests` (XCUITest) walks onboarding → ask → results against Docker and attaches screenshots. Why: fastest path to a working loop with real data (flexible). Undo: swap supabase-swift for our own auth in ExperienceCore.
+- 2026-10-19 · **Data model v2 (ADR-011):** links, dated occurrences, `kind`/`subcategory`/`slug` on experiences, `recommendation_items`, profile handles, and `friendships`/`groups`/`group_members` tables with RLS (social stays "not building yet" in the UI). Additive migration; PGlite tests cover the new RLS.
+- 2026-10-19 · **Bulk catalog harvest** (`tools/catalog/harvest.ts`): one Claude call per topic in `catalog/<city>/_topics.txt` with web search (≤30 searches), ~15-20 entries per topic, resumable, spend tracked in `_harvest.json` with a `--budget` cap. Model: **Sonnet 5.5** by default (pilot: same quality as Opus 5.5 at ~$1.00 vs $1.65 per topic). Geocoding via Nominatim (`tools/catalog/geocode.ts`, 1 req/s, cached, bounded to the city). Every harvested fact is `estimated`; production publishes only reviewed entries, the local Docker stack publishes drafts (`LOCAL_PUBLISH_DRAFTS`). Undo: delete the drafts; the reviewed flow is unchanged.

@@ -1,0 +1,111 @@
+{
+  "title": "See Disney On Ice: Spotlight Magic at Xfinity Mobile Arena",
+  "intent": "Winter-break skating show with Mickey, Moana, Zootopia and Lilo & Stitch characters.",
+  "description": "Disney On Ice's new production features more than 30 Disney favorites, with 23 performances across winter break. Mix of daytime and evening shows.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "ice show",
+  "tags": [
+    "seasonal",
+    "disney",
+    "winter-break",
+    "indoor"
+  ],
+  "good_for": [
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Xfinity Mobile Arena",
+    "address": "3601 S Broad St, Philadelphia, PA 19148",
+    "neighborhood": "South Philadelphia"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-12-26",
+      "end": "2027-01-03"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-12-26",
+      "start": "11:00",
+      "end": null
+    },
+    {
+      "date": "2026-12-27",
+      "start": "15:00",
+      "end": null
+    },
+    {
+      "date": "2026-12-27",
+      "start": "19:00",
+      "end": null
+    },
+    {
+      "date": "2026-12-30",
+      "start": "11:00",
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "tickets",
+      "url": "https://www.ticketmaster.com/search?q=disney+on+ice%2C+philadelphia"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.phillyvoice.com/disney-on-ice-spotlight-magic-philadelphia-winter-break-2026/"
+    }
+  ],
+  "sources": [
+    "https://www.phillyvoice.com/disney-on-ice-spotlight-magic-philadelphia-winter-break-2026/",
+    "https://www.ticketmaster.com/search?q=disney+on+ice%2C+philadelphia",
+    "https://www.tickpick.com/buy-disney-on-ice-spotlight-magic!-tickets-xfinity-mobile-arena-12-30-26-11am/8040637/"
+  ],
+  "uncertain": [
+    "ticket prices (resale listing started at $83)",
+    "end times",
+    "full showtime list; sources differ slightly on first date (Dec 26 vs Dec 27)"
+  ],
+  "slug": "see-disney-on-ice-spotlight-magic-at-xfinity-mobile-arena",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9011004,
+    "lng": -75.1720165
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Family-friendly and kid-friendly activities",
+  "drafted_at": "2026-10-20T00:34:18.067Z",
+  "model": "claude-sonnet-5-5"
+}

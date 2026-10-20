@@ -1,0 +1,86 @@
+{
+  "title": "Bottomless brunch with Indian flavors at Veda",
+  "intent": "Bottomless mimosas with Indian-inspired brunch dishes near Rittenhouse.",
+  "description": "Veda is a modern Indian bistro near Rittenhouse that has a weekend brunch with dishes such as masala omelet and paneer kathi rolls and a bottomless mimosa option.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "bottomless brunch",
+  "tags": [
+    "bottomless",
+    "indian",
+    "weekend",
+    "unusual"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Veda Modern Indian Bistro",
+    "address": "1920 Chestnut St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 50
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/veda-modern-indian-bistro-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.opentable.com/r/veda-modern-indian-bistro-philadelphia",
+    "https://www.visitphilly.com/articles/philadelphia/best-brunch-spots-in-philadelphia/"
+  ],
+  "uncertain": [
+    "weekly brunch hours",
+    "price_usd",
+    "bottomless price",
+    "official website"
+  ],
+  "slug": "bottomless-brunch-with-indian-flavors-at-veda",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9517563,
+    "lng": -75.1728948
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.866Z",
+  "model": "claude-sonnet-5-5"
+}

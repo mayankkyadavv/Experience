@@ -1,0 +1,121 @@
+{
+  "title": "Cocktails at Enswell, a coffee shop by day and bar by night",
+  "intent": "A relaxed Rittenhouse bar with serious cocktails and bistro food.",
+  "description": "An all-day coffee and cocktail spot from Rival Bros Coffee near Rittenhouse Square. It serves cafe fare by day and full cocktail and bistro service in the evening, with bottles for sale.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "cocktail bar",
+  "tags": [
+    "coffee-by-day",
+    "rittenhouse",
+    "bistro",
+    "cozy"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Enswell",
+    "address": "1528 Spruce St, Philadelphia, PA 19102",
+    "neighborhood": "Rittenhouse Square"
+  },
+  "price_usd": {
+    "min": 14,
+    "max": 22
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "16:30",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "16:30",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "16:30",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "16:30",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "16:30",
+      "close": "22:30"
+    },
+    {
+      "day": 6,
+      "open": "16:30",
+      "close": "22:30"
+    },
+    {
+      "day": 0,
+      "open": "16:30",
+      "close": "21:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.facebook.com/enswellcocktailbar/"
+    }
+  ],
+  "sources": [
+    "https://joe.coffee/locations/pa/philadelphia/enswell-philadelphia/",
+    "https://www.inquirer.com/food/restaurants/enswell-coffee-cocktails-rival-bros-philadelphia-20230823.html"
+  ],
+  "uncertain": [
+    "evening hours from a third-party aggregator",
+    "price",
+    "official website"
+  ],
+  "slug": "cocktails-at-enswell-a-coffee-shop-by-day-and-bar-by-night",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.94725,
+    "lng": -75.167748
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cocktail bars and speakeasies worth going to on purpose",
+  "drafted_at": "2026-10-20T00:34:55.453Z",
+  "model": "claude-sonnet-5-5"
+}

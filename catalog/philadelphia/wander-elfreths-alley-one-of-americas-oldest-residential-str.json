@@ -1,0 +1,86 @@
+{
+  "title": "Wander Elfreth's Alley, one of America's oldest residential streets",
+  "intent": "Photograph a free cobblestone street of 18th-century rowhouses.",
+  "description": "A public street of 32 houses built between 1703 and 1836 that people still live in; strolling is free any time of day. The small Elfreth's Alley Museum (nos. 124-126) is seasonal, open Fri–Sun noon–4 through mid-November for a small admission fee.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic street",
+  "tags": [
+    "free",
+    "history",
+    "photo-spot",
+    "old-city",
+    "walking"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Elfreth's Alley",
+    "address": "Elfreth's Alley, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 45
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.elfrethsalley.org/"
+    }
+  ],
+  "sources": [
+    "https://www.elfrethsalley.org/",
+    "https://www.elfrethsalley.org/contact",
+    "https://travel.usnews.com/Philadelphia_PA/Things_To_Do/Elfreths_Alley_Museum_66255/"
+  ],
+  "uncertain": [
+    "Museum admission is about $3 (older US News figure); street itself is free"
+  ],
+  "slug": "wander-elfreths-alley-one-of-americas-oldest-residential-str",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9527723,
+    "lng": -75.1423814
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.671Z",
+  "model": "claude-sonnet-5-5"
+}

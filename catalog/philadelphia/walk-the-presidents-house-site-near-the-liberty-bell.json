@@ -1,0 +1,119 @@
+{
+  "slug": "walk-the-presidents-house-site-near-the-liberty-bell",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Walk the President's House Site near the Liberty Bell",
+  "intent": "Learn for free about Washington's Philadelphia household and the people he enslaved.",
+  "description": "An open-air, self-guided exhibit marking the location of the executive mansion used by Washington and Adams, with foundations visible in the ground and panels on slavery and freedom. It sits steps from the Liberty Bell Center.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic site",
+  "tags": [
+    "free",
+    "history",
+    "outdoor",
+    "self-guided",
+    "independence-park"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "President's House Site",
+    "address": "6th & Market Sts, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 40
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "07:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.phlvisitorcenter.com/things-to-do/presidents-house-site"
+    }
+  ],
+  "sources": [
+    "https://www.phlvisitorcenter.com/things-to-do/presidents-house-site",
+    "https://theclio.com/entry/23264"
+  ],
+  "uncertain": [
+    "Exact street address (listed as 6th and Market)",
+    "Current exhibit status"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.671Z",
+  "model": "claude-sonnet-5-5"
+}

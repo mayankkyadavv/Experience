@@ -1,0 +1,84 @@
+{
+  "title": "Check out the contemporary galleries at Crane Arts",
+  "intent": "A former warehouse of galleries and studios; second-Thursday evenings are the best time.",
+  "description": "A converted plumbing-supply warehouse housing galleries, artist studios and the Icebox Project Space. The first-floor galleries have traditionally opened 6-9 pm on second Thursdays.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "gallery complex",
+  "tags": [
+    "galleries",
+    "free",
+    "second-thursday",
+    "fishtown"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Crane Arts",
+    "address": "1400 N American St, Philadelphia, PA 19122",
+    "neighborhood": "Northern Liberties / Fishtown"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.visitphilly.com/things-to-do/attractions/crane-arts/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/things-to-do/attractions/crane-arts/",
+    "https://www.lonelyplanet.com/usa/pennsylvania/philadelphia/fishtown-northern-liberties/attractions/crane-arts/a/poi-sig/1593641/1342271"
+  ],
+  "uncertain": [
+    "current hours",
+    "address (from memory)",
+    "price",
+    "duration_minutes",
+    "current second-Thursday schedule"
+  ],
+  "slug": "check-out-the-contemporary-galleries-at-crane-arts",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9731554,
+    "lng": -75.1404668
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.547Z",
+  "model": "claude-sonnet-5-5"
+}

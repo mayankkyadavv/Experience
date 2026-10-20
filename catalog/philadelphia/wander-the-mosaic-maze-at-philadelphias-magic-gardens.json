@@ -1,0 +1,121 @@
+{
+  "title": "Wander the mosaic maze at Philadelphia's Magic Gardens",
+  "intent": "Lose yourself in Isaiah Zagar's immersive mosaic art environment on South Street.",
+  "description": "A fully mosaicked indoor-outdoor labyrinth of tile, bottles, bike wheels and folk art by Isaiah Zagar. Tickets are timed and self-guided and often sell out, so booking ahead is advised. Guided tours of the surrounding mosaic blocks are also offered.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "mosaic art environment",
+  "tags": [
+    "mosaics",
+    "public-art",
+    "south-street",
+    "unusual",
+    "book-ahead"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia's Magic Gardens",
+    "address": "1020 South St, Philadelphia, PA 19147",
+    "neighborhood": "South Street / Bok"
+  },
+  "price_usd": {
+    "min": 12,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "18:00"
+    },
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "18:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "18:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "18:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.phillymagicgardens.org/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.phillymagicgardens.org/hours-and-admission/"
+    }
+  ],
+  "sources": [
+    "https://www.phillymagicgardens.org/hours-and-admission/",
+    "https://www.phillymagicgardens.org/hours-and-admission/public-tours/guided-site-tours/"
+  ],
+  "uncertain": [
+    "duration_minutes",
+    "group_size"
+  ],
+  "slug": "wander-the-mosaic-maze-at-philadelphias-magic-gardens",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.942768,
+    "lng": -75.159409
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.542Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,118 @@
+{
+  "title": "Shop and wander the Fashion District Philadelphia mall",
+  "intent": "Run errands, shop and eat under one roof in Center City.",
+  "description": "Three-block indoor shopping and entertainment center on Market Street with fashion retailers, dining and entertainment, connected to Jefferson Station. Individual store hours vary.",
+  "category": "shopping",
+  "kind": "place",
+  "subcategory": "mall",
+  "tags": [
+    "rainy-day",
+    "shopping",
+    "indoor",
+    "transit-accessible"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Fashion District Philadelphia",
+    "address": "901 Market St, Philadelphia, PA 19107",
+    "neighborhood": "Center City East"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 100
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "20:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "20:00"
+    },
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.fashiondistrictphiladelphia.com/"
+    }
+  ],
+  "sources": [
+    "https://www.fashiondistrictphiladelphia.com/Hours",
+    "https://www.phlvisitorcenter.com/FashionDistrict"
+  ],
+  "uncertain": [
+    "price_usd",
+    "group_size"
+  ],
+  "slug": "shop-and-wander-the-fashion-district-philadelphia-mall",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9513696,
+    "lng": -75.1552838
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.122Z",
+  "model": "claude-sonnet-5-5"
+}

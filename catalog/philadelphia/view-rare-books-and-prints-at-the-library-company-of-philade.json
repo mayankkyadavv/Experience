@@ -1,0 +1,107 @@
+{
+  "title": "View rare books and prints at the Library Company of Philadelphia",
+  "intent": "Slip into a free, quiet gallery of Benjamin Franklin's 1731 library.",
+  "description": "Franklin-founded library with a free exhibition gallery open to the public on weekdays. A new exhibition, 'Serious Fun', opens Nov. 5 with a 5:30 pm event. Check the site for current exhibits.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "library gallery",
+  "tags": [
+    "rainy-day",
+    "free",
+    "history",
+    "books",
+    "indoor"
+  ],
+  "good_for": [
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Library Company of Philadelphia",
+    "address": "1314 Locust St, Philadelphia, PA 19107",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "16:45"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "16:45"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "16:45"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "16:45"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "16:45"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://librarycompany.org/"
+    }
+  ],
+  "sources": [
+    "https://thelivingbook.librarycompany.org/visit/",
+    "https://librarycompany.org/using-the-library/access/",
+    "https://librarycompany.org/"
+  ],
+  "uncertain": [
+    "group_size"
+  ],
+  "slug": "view-rare-books-and-prints-at-the-library-company-of-philade",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9478867,
+    "lng": -75.1631682
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.122Z",
+  "model": "claude-sonnet-5-5"
+}

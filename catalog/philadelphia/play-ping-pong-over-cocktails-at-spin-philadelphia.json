@@ -1,0 +1,112 @@
+{
+  "title": "Play ping pong over cocktails at SPIN Philadelphia",
+  "intent": "Competitive-but-casual ping pong with drinks and food.",
+  "description": "A 12,000 sq ft ping pong social club near Rittenhouse with 17 tournament-style tables, a full bar, a shareable menu, a DJ and a rooftop. Tables are booked by the hour.",
+  "category": "games",
+  "kind": "place",
+  "subcategory": "ping pong",
+  "tags": [
+    "ping-pong",
+    "bar-games",
+    "group",
+    "rooftop",
+    "reservations"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "SPIN Philadelphia",
+    "address": "211 S 15th St, Philadelphia, PA 19102",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "01:00"
+    },
+    {
+      "day": 6,
+      "open": "14:00",
+      "close": "01:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://wearespin.com/location/philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://wearespin.com/location/philadelphia/",
+    "https://www.yelp.com/biz/spin-philadelphia-philadelphia",
+    "https://www.corner.inc/place/pRbtfY4HAcjH"
+  ],
+  "uncertain": [
+    "price per person (about $40/hour per table split among players)",
+    "hours from Yelp; Sunday/Monday listed closed"
+  ],
+  "slug": "play-ping-pong-over-cocktails-at-spin-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9491022,
+    "lng": -75.1659293
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.555Z",
+  "model": "claude-sonnet-5-5"
+}

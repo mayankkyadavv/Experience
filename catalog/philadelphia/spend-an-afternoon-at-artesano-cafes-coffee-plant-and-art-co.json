@@ -1,0 +1,85 @@
+{
+  "title": "Spend an afternoon at Artesano Cafe's coffee, plant and art compound in Manayunk",
+  "intent": "A multi-room cafe with a plant shop, gallery and garden seating to settle into.",
+  "description": "Artesano Cafe in Manayunk combines a coffee counter, plant shop, art and furniture gallery, and garden. It has seating on two floors plus outdoor space, and was named a Best of Philly coffee-and-plant shop in 2025.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "coffee and plant shop",
+  "tags": [
+    "plants",
+    "outdoor-seating",
+    "art",
+    "spacious"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Artesano Cafe Manayunk",
+    "address": "109 Green Ln, Philadelphia, PA 19127",
+    "neighborhood": "Manayunk"
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 16
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.artesanocafemanayunk.com/"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/best-of-philly-archive/artesano-cafe/",
+    "https://wanderlog.com/place/details/978250",
+    "https://joe.coffee/locations/pa/philadelphia/artesano-cafe-philadelphia/"
+  ],
+  "uncertain": [
+    "hours"
+  ],
+  "slug": "spend-an-afternoon-at-artesano-cafes-coffee-plant-and-art-co",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0273978,
+    "lng": -75.2267064
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.318Z",
+  "model": "claude-sonnet-5-5"
+}

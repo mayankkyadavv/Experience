@@ -1,0 +1,87 @@
+{
+  "title": "Bowl and see a live show at Brooklyn Bowl Philadelphia",
+  "intent": "Combine a concert, bowling and dinner in one Fishtown stop.",
+  "description": "A 1,000-capacity music venue with 24 bowling lanes and a Blue Ribbon restaurant menu in a roughly 38,000 sq ft Fishtown space. Shows run across rock, funk, jam and pop; bowling opens around 6pm on show days.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "rock",
+  "tags": [
+    "bowling",
+    "dinner-and-show",
+    "fishtown",
+    "rainy-day"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Brooklyn Bowl Philadelphia",
+    "address": "1009 Canal St, Philadelphia, PA 19123",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 75
+  },
+  "duration_minutes": {
+    "min": 150,
+    "max": 240
+  },
+  "group_size": {
+    "min": 2,
+    "max": 12
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.brooklynbowl.com/philadelphia"
+    }
+  ],
+  "sources": [
+    "https://thesunpapers.com/2026/04/03/c-lifestyle-philadelphia-concert-venues-guide/",
+    "https://www.brooklynbowl.com/philadelphia/philadelphia-bowling",
+    "https://www.opentable.com/r/brooklyn-bowl-philadelphia-nashville"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours (vary by show)",
+    "age restrictions"
+  ],
+  "slug": "bowl-and-see-a-live-show-at-brooklyn-bowl-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.96525,
+    "lng": -75.1348956
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.509Z",
+  "model": "claude-sonnet-5-5"
+}

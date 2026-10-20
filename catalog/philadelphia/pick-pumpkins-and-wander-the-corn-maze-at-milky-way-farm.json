@@ -1,0 +1,96 @@
+{
+  "slug": "pick-pumpkins-and-wander-the-corn-maze-at-milky-way-farm",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Pick pumpkins and wander the corn maze at Milky Way Farm",
+  "intent": "A weekend farm visit with animals, a cornfield maze and ice cream.",
+  "description": "Milky Way Farm's Pumpkin Harvest has weekend general-admission visits with farm animals, a family cornfield maze and four acres of pumpkins sold by the pick, with hayrides between patches for extra. It runs through Oct. 31.",
+  "category": "outdoors",
+  "kind": "event",
+  "subcategory": "pumpkin patch",
+  "tags": [
+    "pumpkin-patch",
+    "corn-maze",
+    "family-friendly",
+    "seasonal",
+    "day-trip",
+    "ice-cream"
+  ],
+  "good_for": [
+    "family",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Milky Way Farm",
+    "address": null,
+    "neighborhood": null
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-09-26",
+      "end": "2026-10-31"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-24",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-25",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-31",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/fall-harvest-festivals/"
+  ],
+  "uncertain": [
+    "address",
+    "hours",
+    "admission price",
+    "official website",
+    "whether weekdays are open"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.065Z",
+  "model": "claude-sonnet-5-5"
+}

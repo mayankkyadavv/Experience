@@ -1,0 +1,112 @@
+{
+  "title": "Day-drink outside at Meyers Brewing Company",
+  "intent": "Casual Fishtown-area brewery with outdoor seating and walk-in pizza.",
+  "description": "Meyers Brewing Company is a neighborhood brewery on East Girard Ave with outdoor seating and walk-in friendly vibe. Pete's Famous Pizza operates on-site.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "brewery",
+    "outdoor-seating",
+    "walk-ins",
+    "pizza"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Meyers Brewing Company",
+    "address": "436 E Girard Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "00:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://meyersbrewing.com"
+    }
+  ],
+  "sources": [
+    "https://www.waze.com/live-map/directions/us/pa/philadelphia/meyers-brewing-company?to=place.ChIJH9Ol2hPJxokRzTcj3rlbjtA",
+    "https://www.theinfatuation.com/philadelphia/guides/the-best-breweries-in-philadelphia"
+  ],
+  "uncertain": [
+    "hours differ between listings",
+    "Monday closed assumed"
+  ],
+  "slug": "day-drink-outside-at-meyers-brewing-company",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9704195,
+    "lng": -75.129135
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.428Z",
+  "model": "claude-sonnet-5-5"
+}

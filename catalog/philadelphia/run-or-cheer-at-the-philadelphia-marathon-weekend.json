@@ -1,0 +1,95 @@
+{
+  "slug": "run-or-cheer-at-the-philadelphia-marathon-weekend",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Run or cheer at the Philadelphia Marathon Weekend",
+  "intent": "Run the 8K, half or full, or cheer on thousands along the course.",
+  "description": "Philadelphia Marathon Weekend runs Nov. 20-22 with 8K, half marathon and full marathon races; the full marathon is Sunday, Nov. 22. The course passes landmarks such as Independence Hall and the Parkway.",
+  "category": "sports",
+  "kind": "event",
+  "subcategory": "running",
+  "tags": [
+    "marathon",
+    "running",
+    "spectator",
+    "weekend",
+    "free-to-watch"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Philadelphia Marathon course (Benjamin Franklin Parkway start/finish)",
+    "address": null,
+    "neighborhood": "Center City / Fairmount"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 360
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-22"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-21",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-11-22",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.philadelphiamarathon.com/"
+    }
+  ],
+  "sources": [
+    "https://www.facebook.com/PhiladelphiaMarathon/",
+    "https://www.bepositive.org/b-events-info/philly-marathon-2026",
+    "https://www.ahotu.com/event/philadelphia-marathon-weekend"
+  ],
+  "uncertain": [
+    "start/finish location",
+    "race start times",
+    "registration fees",
+    "which race is on which day"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Pro and college sports games and stadium experiences",
+  "drafted_at": "2026-10-20T01:15:34.977Z",
+  "model": "claude-sonnet-5-5"
+}

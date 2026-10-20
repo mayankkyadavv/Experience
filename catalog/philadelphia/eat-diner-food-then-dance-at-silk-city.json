@@ -1,0 +1,82 @@
+{
+  "title": "Eat diner food then dance at Silk City",
+  "intent": "Combine late-night diner comfort food with a DJ dance floor in one stop.",
+  "description": "A 1950s-era diner in Northern Liberties that serves comfort food late and has a lounge/dance room with local DJs, cheap drinks and a covered garden patio. No dress code.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "diner / dance bar",
+  "tags": [
+    "diner",
+    "djs",
+    "patio",
+    "casual",
+    "late-night-food"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Silk City Diner & Lounge",
+    "address": "435 Spring Garden St, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 240
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/top-places-to-go-dancing-in-philadelphia/",
+    "https://www.corner.inc/place/80251",
+    "https://www.yelp.com/biz/silk-city-diner-and-lounge-philadelphia"
+  ],
+  "uncertain": [
+    "weekly hours (Yelp shows diner Mon-Thu 11am-11pm, Fri to 1am; weekend/late DJ hours unverified)",
+    "DJ night schedule",
+    "cover"
+  ],
+  "slug": "eat-diner-food-then-dance-at-silk-city",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9613557,
+    "lng": -75.1461046
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance clubs, DJ nights and late-night spots",
+  "drafted_at": "2026-10-20T01:12:51.154Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,4 +1,5 @@
-// End-to-end check of the local stack: sign up, pick Philadelphia, ask "What should we do?".
+// End-to-end check of the local stack: sign up, pick Philadelphia, ask "What should we do?",
+// give feedback on the picks, ask again.
 //
 //   docker compose run --rm tools deno task smoke    # inside Docker
 //   deno task smoke                                   # from your Mac (defaults to http://localhost:54321)
@@ -43,21 +44,52 @@ const constraints = {
   who: args.who,
   ...(args.mood ? { mood: args.mood } : {}),
 };
-const res = await fetch(`${url}/functions/v1/recommend`, {
-  method: "POST",
-  headers: { Authorization: `Bearer ${signUp.session.access_token}`, apikey: anonKey, "content-type": "application/json" },
-  body: JSON.stringify(constraints),
-});
-const body = await res.json().catch(() => null);
-if (!res.ok) fail(`recommend (HTTP ${res.status})`, body);
-console.log(`✓ recommend ${JSON.stringify(constraints)}\n`);
+// deno-lint-ignore no-explicit-any
+type Pick = any;
+async function ask(): Promise<{ requestId: string | null; picks: Pick[] }> {
+  const res = await fetch(`${url}/functions/v1/recommend`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${signUp.session!.access_token}`, apikey: anonKey, "content-type": "application/json" },
+    body: JSON.stringify(constraints),
+  });
+  const body = await res.json().catch(() => null);
+  if (!res.ok) fail(`recommend (HTTP ${res.status})`, body);
+  return body;
+}
 
-if (body.picks.length === 0) console.log("  No picks fit. Try --when weekend, a longer --hours, or --budget any.");
-for (const [i, p] of body.picks.entries()) {
-  const est = (field: string) => p.experience.provenance?.[field] === "estimated" ? " (estimated)" : "";
-  const facts = [p.facts.price, p.facts.duration, p.facts.openUntil].filter(Boolean).join(" · ");
-  console.log(`  ${i + 1}. ${p.experience.title}${est("title")}  [${p.experience.category}]`);
-  if (p.experience.place) console.log(`     ${p.experience.place.name}${p.experience.place.neighborhood ? `, ${p.experience.place.neighborhood}` : ""}`);
-  if (facts) console.log(`     ${facts}`);
-  for (const r of p.reasons) console.log(`     · ${r}`);
+const body = await ask();
+console.log(`✓ recommend ${JSON.stringify(constraints)}\n`);
+print(body.picks);
+
+if (body.picks.length >= 3) {
+  const [a, b, c] = body.picks.map((p: Pick) => p.experience);
+  const fb = async (experience: Pick, action: string, rating?: number) => {
+    const { error } = await supabase.rpc("record_feedback", {
+      p_experience_id: experience.id, p_action: action, p_rating: rating, p_recommendation_id: body.requestId,
+    });
+    if (error) fail(`feedback ${action}`, error.message);
+  };
+  await fb(a, "save");
+  await fb(b, "not_interested");
+  await fb(c, "done");
+  await fb(c, "rate", 3);
+  console.log(`\n✓ feedback: saved "${a.title}", not interested in "${b.title}", did and loved "${c.title}"`);
+
+  const again = await ask();
+  const ids = again.picks.map((p: Pick) => p.experience.id);
+  if (ids.includes(b.id) || ids.includes(c.id)) fail("re-ask", "a not-interested or done Experience came back");
+  console.log("✓ asked again: not-interested and done picks are gone\n");
+  print(again.picks);
+}
+
+function print(picks: Pick[]) {
+  if (picks.length === 0) console.log("  No picks fit. Try --when weekend, a longer --hours, or --budget any.");
+  for (const [i, p] of picks.entries()) {
+    const est = (field: string) => p.experience.provenance?.[field] === "estimated" ? " (estimated)" : "";
+    const facts = [p.facts.price, p.facts.duration, p.facts.openUntil].filter(Boolean).join(" · ");
+    console.log(`  ${i + 1}. ${p.experience.title}${est("title")}  [${p.experience.category}]`);
+    if (p.experience.place) console.log(`     ${p.experience.place.name}${p.experience.place.neighborhood ? `, ${p.experience.place.neighborhood}` : ""}`);
+    if (facts) console.log(`     ${facts}`);
+    for (const r of p.reasons) console.log(`     · ${r}`);
+  }
 }

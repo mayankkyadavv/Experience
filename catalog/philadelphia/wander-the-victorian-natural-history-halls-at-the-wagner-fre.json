@@ -1,0 +1,105 @@
+{
+  "title": "Wander the Victorian natural history halls at the Wagner Free Institute",
+  "intent": "See a 19th-century science museum that has barely changed, for free.",
+  "description": "A National Historic Landmark with a self-guided exhibit hall of over 100,000 specimens: fossils, minerals, taxidermy animals and mounted skeletons, in an interior little changed since the 1890s. Admission is always free.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "natural history museum",
+  "tags": [
+    "free",
+    "unusual",
+    "historic",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Wagner Free Institute of Science",
+    "address": "1700 W Montgomery Ave, Philadelphia, PA 19121",
+    "neighborhood": "North Central / Temple"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "09:30",
+      "close": "16:30"
+    },
+    {
+      "day": 3,
+      "open": "09:30",
+      "close": "16:30"
+    },
+    {
+      "day": 4,
+      "open": "09:30",
+      "close": "16:30"
+    },
+    {
+      "day": 5,
+      "open": "09:30",
+      "close": "16:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.wagnerfreeinstitute.org/visit"
+    }
+  ],
+  "sources": [
+    "https://www.wagnerfreeinstitute.org/visit",
+    "https://www.wagnerfreeinstitute.org/"
+  ],
+  "uncertain": [
+    "First-Saturday-of-month hours (noon-4) not included in weekly schedule"
+  ],
+  "slug": "wander-the-victorian-natural-history-halls-at-the-wagner-fre",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9805863,
+    "lng": -75.1628639
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.030Z",
+  "model": "claude-sonnet-5-5"
+}

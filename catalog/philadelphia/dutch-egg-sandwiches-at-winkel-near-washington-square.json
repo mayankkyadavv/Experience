@@ -1,0 +1,111 @@
+{
+  "slug": "dutch-egg-sandwiches-at-winkel-near-washington-square",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Dutch egg sandwiches at Winkel near Washington Square",
+  "intent": "Dutch-style brunch with open-faced egg sandwiches in Center City.",
+  "description": "Winkel is a Dutch-inspired cafe in Washington Square West known for uitsmijter, a Dutch open-faced egg sandwich. Open Monday and Wednesday through Friday 9-2, weekends 8-2:30, closed Tuesday.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "dutch",
+    "cafe",
+    "center-city"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Winkel",
+    "address": null,
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 22
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 5
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "14:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "14:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "14:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "14:00"
+    },
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "14:30"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "14:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://southphillyreview.com/2026/10/16/best-breakfast-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://southphillyreview.com/2026/10/16/best-breakfast-philadelphia/"
+  ],
+  "uncertain": [
+    "street address",
+    "price_usd",
+    "official website"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.867Z",
+  "model": "claude-sonnet-5-5"
+}

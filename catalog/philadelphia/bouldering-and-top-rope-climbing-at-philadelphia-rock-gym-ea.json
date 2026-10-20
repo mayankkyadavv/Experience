@@ -1,0 +1,83 @@
+{
+  "slug": "bouldering-and-top-rope-climbing-at-philadelphia-rock-gym-ea",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Bouldering and top-rope climbing at Philadelphia Rock Gym, East Falls",
+  "intent": "Climb at a long-running local gym with bouldering, top-ropes and lead walls.",
+  "description": "A roughly 15,000 sq ft gym with top-out bouldering, 40+ top-ropes and lead climbing. A day pass is $23, or $30.50 with gear. The intro package bundles three passes, three gear rentals, a safety orientation and a beginner class.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "rock climbing",
+  "tags": [
+    "indoor",
+    "rainy-day",
+    "beginner-friendly",
+    "bouldering",
+    "year-round"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Rock Gym – East Falls",
+    "address": "3500 Scotts Ln, Building B-3, Philadelphia, PA 19129",
+    "neighborhood": "East Falls"
+  },
+  "price_usd": {
+    "min": 23,
+    "max": 31
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://philarockgym.com/prg-east-falls/"
+    }
+  ],
+  "sources": [
+    "https://philarockgym.com/prg-east-falls/",
+    "https://www.indoorclimbing.com/pennsylvania.html"
+  ],
+  "uncertain": [
+    "hours",
+    "group_size",
+    "duration_minutes"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks",
+  "drafted_at": "2026-10-20T00:33:19.250Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,129 @@
+{
+  "slug": "spend-the-day-at-pumpkinland-at-linvilla-orchards",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Spend the day at Pumpkinland at Linvilla Orchards",
+  "intent": "A classic suburban fall day: pumpkins, hayrides, corn maze and cider doughnuts with free entry.",
+  "description": "Linvilla's Pumpkinland in Media has free admission and parking, with ticketed hayrides, straw bale and corn mazes, apple blasters and Halloween activities, plus a bakery and farm market. A spring freeze wiped out most of the apple crop, so pick-your-own apples are not currently available.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "pumpkin patch",
+  "tags": [
+    "pumpkin-patch",
+    "hayride",
+    "corn-maze",
+    "family-friendly",
+    "seasonal",
+    "day-trip"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Linvilla Orchards",
+    "address": "137 W Knowlton Rd, Media, PA 19063",
+    "neighborhood": null
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 300
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "20:00"
+    },
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "20:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "20:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "20:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "20:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "21:00"
+    }
+  ],
+  "dates": [
+    {
+      "start": "2026-09-26",
+      "end": "2026-11-08"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.linvilla.com/family-fun/pumpkinland"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.linvilla.com/pick-your-own"
+    }
+  ],
+  "sources": [
+    "https://www.phillyvoice.com/linvilla-orchards-pumpkinland-2026-hayrides-corn-maze/",
+    "https://www.linvilla.com/family-fun/pumpkinland",
+    "https://www.linvilla.com/pick-your-own"
+  ],
+  "uncertain": [
+    "hours shown apply through Oct 30; from Oct 31 generally 9am-6pm",
+    "activity prices vary (apple blasters $19 per bucket online)"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.064Z",
+  "model": "claude-sonnet-5-5"
+}

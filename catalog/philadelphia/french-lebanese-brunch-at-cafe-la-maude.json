@@ -1,0 +1,125 @@
+{
+  "title": "French-Lebanese brunch at Cafe La Maude",
+  "intent": "BYOB brunch with shakshuka and baklava pancakes in Northern Liberties.",
+  "description": "Cafe La Maude is a BYOB French-Lebanese cafe serving brunch daily, known for green shakshuka and baklava pancakes. It takes no reservations and has covered, heated outdoor seating plus an indoor room. Go early to skip the crowd.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "byob",
+    "outdoor-seating",
+    "no-reservations"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Cafe La Maude",
+    "address": "816 N 4th St, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 28
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cafelamaude.com"
+    },
+    {
+      "kind": "other",
+      "url": "https://x.com/lamaudecafe"
+    }
+  ],
+  "sources": [
+    "https://x.com/lamaudecafe",
+    "https://joe.coffee/locations/pa/philadelphia/cafe-la-maude-philadelphia/",
+    "https://southphillyreview.com/2026/10/16/best-breakfast-philadelphia/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "Toast listing shows 8:30-3:30 instead of 8-4"
+  ],
+  "slug": "french-lebanese-brunch-at-cafe-la-maude",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9642631,
+    "lng": -75.1445163
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.865Z",
+  "model": "claude-sonnet-5-5"
+}

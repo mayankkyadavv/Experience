@@ -1,0 +1,119 @@
+{
+  "title": "Bowl on boutique lanes at Lucky Strike Philadelphia",
+  "intent": "Polished bowling night in Center City with food and drinks.",
+  "description": "Two-story, 24-lane bowling lounge on Chestnut Street with leather couches, billiards, table tennis and oversized board games. Known for a weeknight unlimited-bowling special after 8pm.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "bowling",
+  "tags": [
+    "bowling",
+    "center-city",
+    "rainy-day",
+    "bar",
+    "group-friendly"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Lucky Strike Philadelphia",
+    "address": "1336 Chestnut St, Philadelphia, PA 19107",
+    "neighborhood": "Midtown Village"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 12
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "01:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "01:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.luckystrikeent.com/location/lucky-strike-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.luckystrikeent.com/location/lucky-strike-philadelphia",
+    "https://www.waze.com/live-map/directions/us/pa/philadelphia/lucky-strike-philadelphia?to=place.ChIJyZOuoC_GxokRWHXIIQsXPIU"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours differ slightly between listings"
+  ],
+  "slug": "bowl-on-boutique-lanes-at-lucky-strike-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9506774,
+    "lng": -75.1632811
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Arcades, bowling, mini golf, axe throwing and escape rooms",
+  "drafted_at": "2026-10-20T00:27:35.839Z",
+  "model": "claude-sonnet-5-5"
+}

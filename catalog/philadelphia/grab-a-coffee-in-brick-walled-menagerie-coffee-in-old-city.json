@@ -1,0 +1,85 @@
+{
+  "title": "Grab a coffee in brick-walled Menagerie Coffee in Old City",
+  "intent": "A charming, laid-back Old City coffee stop with a homey feel.",
+  "description": "Menagerie is a cozy brick-walled cafe on South 3rd Street, opened in 2013 by an Elixr alum. It serves specialty coffee and light food that works well between Old City sightseeing stops.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "coffee shop",
+  "tags": [
+    "old-city",
+    "cozy",
+    "exposed-brick",
+    "sightseeing-stop"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Menagerie Coffee",
+    "address": "18 S 3rd St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 10
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://joe.coffee/locations/pa/philadelphia/menagerie-coffee-18-s-3rd-st-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://northeasttimes.com/2026/08/03/7-of-the-best-coffee-shops-spots-in-philadelphia-right-now/",
+    "https://wanderlog.com/place/details/896757/menagerie-coffee",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d4919840-Reviews-Menagerie_Coffee-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "hours",
+    "official website"
+  ],
+  "slug": "grab-a-coffee-in-brick-walled-menagerie-coffee-in-old-city",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.949678,
+    "lng": -75.145926
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.318Z",
+  "model": "claude-sonnet-5-5"
+}

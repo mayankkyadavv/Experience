@@ -1,0 +1,86 @@
+{
+  "title": "See an experimental or punk show at PhilaMOCA",
+  "intent": "Catch offbeat, indie, experimental and cult acts in a former Mausoleum-turned-arts-space.",
+  "description": "An eclectic former-warehouse arts venue near Callowhill that hosts experimental, indie, punk and metal shows plus film screenings. Upcoming listings include The Kilans (Nov 14), Negativland (Nov 15) and Whitmer Thomas (Dec 13).",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "experimental",
+  "tags": [
+    "unusual",
+    "arts-space",
+    "all-ages-friendly",
+    "cult-acts"
+  ],
+  "good_for": [
+    "friends",
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "PhilaMOCA",
+    "address": "531 N 12th St, Philadelphia, PA 19123",
+    "neighborhood": "Callowhill"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 35
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.philamoca.org"
+    }
+  ],
+  "sources": [
+    "https://www.tickets.com/venues/philamoca/3150",
+    "https://www.axs.com/venues/129366/philamoca-philadelphia-tickets"
+  ],
+  "uncertain": [
+    "address (not on fetched pages)",
+    "price_usd",
+    "website URL not directly verified",
+    "description of building history unverified"
+  ],
+  "slug": "see-an-experimental-or-punk-show-at-philamoca",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9622418,
+    "lng": -75.1574577
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.508Z",
+  "model": "claude-sonnet-5-5"
+}

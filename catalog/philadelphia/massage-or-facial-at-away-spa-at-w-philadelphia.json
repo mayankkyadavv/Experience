@@ -1,0 +1,79 @@
+{
+  "title": "Massage or facial at AWAY Spa at W Philadelphia",
+  "intent": "Book a hotel spa treatment in a stylish Center City setting.",
+  "description": "The AWAY Spa inside W Philadelphia. A reviewer described a smooth check-in and a calm space. It is listed among the city's better-reviewed hotel spas.",
+  "category": "wellness",
+  "kind": "place",
+  "subcategory": "hotel spa",
+  "tags": [
+    "massage",
+    "facial",
+    "hotel-spa",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "AWAY Spa at W Philadelphia",
+    "address": "1439 Chestnut St, Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.tripadvisor.com/Hotels-g60795-zff13-Philadelphia_Pennsylvania-Hotels.html",
+    "https://www.yelp.com/search?cflt=spas&find_loc=Philadelphia%2C+PA"
+  ],
+  "uncertain": [
+    "official website",
+    "exact address (assumed to be the hotel's address)",
+    "prices",
+    "hours",
+    "menu of treatments"
+  ],
+  "slug": "massage-or-facial-at-away-spa-at-w-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9510361,
+    "lng": -75.1646497
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Spas, saunas, bathhouses and wellness experiences",
+  "drafted_at": "2026-10-20T01:09:33.220Z",
+  "model": "claude-sonnet-5-5"
+}

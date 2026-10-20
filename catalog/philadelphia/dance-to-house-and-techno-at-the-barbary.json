@@ -1,0 +1,99 @@
+{
+  "title": "Dance to house and techno at The Barbary",
+  "intent": "Underground-style house and techno in a no-frills two-floor Fishtown club.",
+  "description": "Fishtown dance venue that reopened in 2025 after a multi-year closure, with two floors, big sound and lighting, and a house/techno focus in an inclusive, no-frills atmosphere. Check the site for each night's lineup and tickets.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "house/techno",
+  "tags": [
+    "techno",
+    "house",
+    "fishtown",
+    "late-night",
+    "inclusive"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Barbary",
+    "address": "951 Frankford Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 300
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 4,
+      "open": "20:00",
+      "close": "00:00"
+    },
+    {
+      "day": 5,
+      "open": "22:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "22:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.thebarbaryphl.com/"
+    }
+  ],
+  "sources": [
+    "https://www.thebarbaryphl.com/",
+    "https://www.phillyvoice.com/the-barbary-fishtown-reopening-date/",
+    "https://maps.apple.com/place?place-id=ID66B479F6E4A4518"
+  ],
+  "uncertain": [
+    "ticket/cover prices",
+    "hours vary by event (Apple Maps listing used)"
+  ],
+  "slug": "dance-to-house-and-techno-at-the-barbary",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9657197,
+    "lng": -75.1343055
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance clubs, DJ nights and late-night spots",
+  "drafted_at": "2026-10-20T01:12:51.154Z",
+  "model": "claude-sonnet-5-5"
+}

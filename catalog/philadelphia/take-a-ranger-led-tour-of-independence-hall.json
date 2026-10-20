@@ -1,0 +1,126 @@
+{
+  "title": "Take a ranger-led tour of Independence Hall",
+  "intent": "Stand in the room where the Declaration and Constitution were debated and signed.",
+  "description": "A National Park Service ranger-led tour of the Assembly Room of Independence Hall. Timed tickets are required from February through December and are booked on recreation.gov for a $1 handling fee. An open house with no tickets runs before the first tour.",
+  "category": "attraction",
+  "kind": "activity",
+  "subcategory": "historic tour",
+  "tags": [
+    "historic",
+    "timed-entry",
+    "independence-park",
+    "iconic"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Independence Hall",
+    "address": "520 Chestnut St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 1
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 15
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "16:40"
+    },
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "16:40"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "16:40"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "16:40"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "16:40"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "16:40"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "16:40"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://home.nps.gov/inde/planyourvisit/independencehall.htm"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.recreation.gov"
+    }
+  ],
+  "sources": [
+    "https://home.nps.gov/inde/planyourvisit/independencehall.htm",
+    "https://home.nps.gov/thingstodo/tour-independence-hall.htm"
+  ],
+  "uncertain": [
+    "Exact daily hours and last tour time (sources say tours to 4:00 or 4:20 PM); weekly hours approximate",
+    "Street address (from general knowledge)"
+  ],
+  "slug": "take-a-ranger-led-tour-of-independence-hall",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9488873,
+    "lng": -75.150026
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.031Z",
+  "model": "claude-sonnet-5-5"
+}

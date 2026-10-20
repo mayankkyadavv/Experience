@@ -1,0 +1,122 @@
+{
+  "title": "Grab a cheesesteak at Pat's King of Steaks, open 24 hours",
+  "intent": "Sample the original 1930 cheesesteak joint at the Passyunk–9th–Wharton triangle, any time of day.",
+  "description": "Pat's, established in 1930, is the walk-up cheesesteak stand on East Passyunk Avenue, famously rivaled by Geno's across the street. It operates around the clock with outdoor window ordering and mostly outdoor eating.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "cheesesteak",
+  "tags": [
+    "cheesesteak",
+    "iconic",
+    "24-hours",
+    "cheap-eats",
+    "outdoor-seating",
+    "late-night"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Pat's King of Steaks",
+    "address": "1237 E Passyunk Ave, Philadelphia, PA 19147",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": {
+    "min": 12,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "00:00",
+      "close": "23:59"
+    },
+    {
+      "day": 1,
+      "open": "00:00",
+      "close": "23:59"
+    },
+    {
+      "day": 2,
+      "open": "00:00",
+      "close": "23:59"
+    },
+    {
+      "day": 3,
+      "open": "00:00",
+      "close": "23:59"
+    },
+    {
+      "day": 4,
+      "open": "00:00",
+      "close": "23:59"
+    },
+    {
+      "day": 5,
+      "open": "00:00",
+      "close": "23:59"
+    },
+    {
+      "day": 6,
+      "open": "00:00",
+      "close": "23:59"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.patskingofsteaks.com"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pat%27s_King_of_Steaks",
+    "https://m.yelp.com/biz/the-original-pats-king-of-steaks-philadelphia-3?start=3000"
+  ],
+  "uncertain": [
+    "price per sandwich (estimate)"
+  ],
+  "slug": "grab-a-cheesesteak-at-pats-king-of-steaks-open-24-hours",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9332216,
+    "lng": -75.1592408
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in South Philly, East Passyunk and Bella Vista",
+  "drafted_at": "2026-10-20T01:15:44.430Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,101 @@
+{
+  "title": "Buy farm-fresh at the Weavers Way Farm Market",
+  "intent": "Buy vegetables grown at a working city farm in northwest Philadelphia.",
+  "description": "The Weavers Way Co-op's farm market sells produce from its Philadelphia farms. Open Tuesday and Friday afternoons and Saturday daytime.",
+  "category": "market",
+  "kind": "place",
+  "subcategory": "farm stand",
+  "tags": [
+    "farm-stand",
+    "local",
+    "northwest-philly",
+    "produce"
+  ],
+  "good_for": [
+    "solo",
+    "family",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Weavers Way Farm Market",
+    "address": "7095 Henry Ave, Philadelphia, PA 19128",
+    "neighborhood": "Roxborough"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://weaversway.coop/"
+    }
+  ],
+  "sources": [
+    "https://weaversway.coop/",
+    "https://weaversway.coop/co-op/farms/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "neighborhood (Henry Ave, Upper Roxborough/Mt Airy border)",
+    "winter hours may change"
+  ],
+  "slug": "buy-farm-fresh-at-the-weavers-way-farm-market",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0490305,
+    "lng": -75.2194483
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.763Z",
+  "model": "claude-sonnet-5-5"
+}

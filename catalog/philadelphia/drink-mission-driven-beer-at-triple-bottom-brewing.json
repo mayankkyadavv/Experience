@@ -1,0 +1,101 @@
+{
+  "title": "Drink mission-driven beer at Triple Bottom Brewing",
+  "intent": "Pair a good pint with a brewery that gives back to the community.",
+  "description": "Triple Bottom Brewing is a socially minded brewery and taproom in the Spring Arts district, in a former Reading Railroad building, with a 'beer, people, planet' ethos. Good for big groups and day drinking.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "brewery",
+    "groups",
+    "community"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Triple Bottom Brewing",
+    "address": "915 Spring Garden St, Philadelphia, PA 19123",
+    "neighborhood": "Spring Arts"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 3,
+      "open": "15:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "15:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "15:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.triplebottombrewing.com"
+    }
+  ],
+  "sources": [
+    "https://www.theinfatuation.com/philadelphia/guides/the-best-breweries-in-philadelphia",
+    "https://www.yelp.com/biz/triple-bottom-brewing-philadelphia-2?start=40",
+    "https://www.phillymag.com/foobooz/2019/09/11/triple-bottom-brewing-spring-arts-callowhill-philadelphia/"
+  ],
+  "uncertain": [
+    "Sunday hours (Yelp snippet truncated)",
+    "website url"
+  ],
+  "slug": "drink-mission-driven-beer-at-triple-bottom-brewing",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9621393,
+    "lng": -75.1533935
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.427Z",
+  "model": "claude-sonnet-5-5"
+}

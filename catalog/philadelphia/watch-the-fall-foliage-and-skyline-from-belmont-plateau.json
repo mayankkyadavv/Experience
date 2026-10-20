@@ -1,0 +1,83 @@
+{
+  "slug": "watch-the-fall-foliage-and-skyline-from-belmont-plateau",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Watch the fall foliage and skyline from Belmont Plateau",
+  "intent": "Get one of the best free skyline views in the city, especially in autumn.",
+  "description": "A hilltop in West Fairmount Park with a wide view over the treetops to Center City. Popular for picnics, kite flying and foliage in late October, when the trees turn orange and red.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "viewpoint",
+  "tags": [
+    "free",
+    "views",
+    "fall-foliage",
+    "picnic",
+    "park"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Belmont Plateau, West Fairmount Park",
+    "address": null,
+    "neighborhood": "West Fairmount Park"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 12
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.visitphilly.com/media-center/press-releases/40-of-philadelphias-best-vantage-points/"
+    }
+  ],
+  "sources": [
+    "https://southphillyreview.com/2026/10/19/best-parks-in-philadelphia/",
+    "https://www.getyourguide.com/explorer/philadelphia-ttd60/best-views-in-philadelphia/",
+    "https://www.visitphilly.com/media-center/press-releases/40-of-philadelphias-best-vantage-points/"
+  ],
+  "uncertain": [
+    "Street address",
+    "Park hours (assumed dawn to dusk)"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.672Z",
+  "model": "claude-sonnet-5-5"
+}

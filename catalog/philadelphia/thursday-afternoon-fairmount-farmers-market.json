@@ -1,0 +1,90 @@
+{
+  "title": "Thursday-afternoon Fairmount Farmers Market",
+  "intent": "Pick up vegetables, cheese and vegan treats after work near Eastern State.",
+  "description": "A Food Trust market that sets up every Thursday afternoon year-round near Eastern State Penitentiary, with organic vegetables, cheese, baked goods and vegan tarts.",
+  "category": "market",
+  "kind": "place",
+  "subcategory": "farmers market",
+  "tags": [
+    "farmers-market",
+    "outdoor",
+    "year-round",
+    "weekday",
+    "after-work"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Fairmount Farmers Market",
+    "address": "22nd St & Fairmount Ave, Philadelphia, PA 19130",
+    "neighborhood": "Fairmount"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 4,
+      "open": "15:00",
+      "close": "19:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thefoodtrust.org/what-we-do/farmers-markets/"
+    }
+  ],
+  "sources": [
+    "https://www.inquirer.com/food/farmers-markets-philadelphia-suburbs-south-jersey-shore-20260603.html",
+    "https://ediblephilly.ediblecommunities.com/shop/edible-phillys-2026-philadelphia-farmers-market-guide/"
+  ],
+  "uncertain": [
+    "price_usd"
+  ],
+  "slug": "thursday-afternoon-fairmount-farmers-market",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9675577,
+    "lng": -75.1740334
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.761Z",
+  "model": "claude-sonnet-5-5"
+}

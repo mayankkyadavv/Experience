@@ -1,0 +1,115 @@
+{
+  "slug": "sing-in-a-private-room-or-open-lounge-at-voix-karaoke-lounge",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Sing in a private room or open lounge at Voix Karaoke Lounge",
+  "intent": "Big-group karaoke with private rooms, food and bottle service in the Northeast.",
+  "description": "Mayfair karaoke lounge with an open bar/lounge on the first floor and about 10 private rooms that hold groups of up to ~35. Asian fusion and sushi kitchen on site; the lounge turns into a late-night party on special-event nights.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "karaoke",
+  "tags": [
+    "karaoke",
+    "private-rooms",
+    "late-night",
+    "birthday",
+    "group"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Voix Karaoke Lounge",
+    "address": "2825-35 Cottman Ave, Philadelphia, PA 19149",
+    "neighborhood": "Mayfair"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 240
+  },
+  "group_size": {
+    "min": 2,
+    "max": 35
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "00:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "00:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "00:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "00:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "00:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.voixphilly.com/"
+    }
+  ],
+  "sources": [
+    "https://www.voixphilly.com/contactus",
+    "https://www.theinfatuation.com/philadelphia/guides/the-best-karaoke-bars-in-philadelphia"
+  ],
+  "uncertain": [
+    "price_usd",
+    "room rates",
+    "Yelp lists 2pm-2am daily; hours here are the karaoke hours from the venue site"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.554Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,119 @@
+{
+  "title": "Explore Otherworld Philadelphia's maze of interactive art rooms",
+  "intent": "Wander a 40,000-square-foot sci-fi and fantasy immersive art playground with hidden passages.",
+  "description": "A large immersive art installation in Northeast Philly with creature-filled rooms, mixed-reality playgrounds and secret passageways, built with local artists. Plan on up to about two hours.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "immersive art",
+  "tags": [
+    "immersive",
+    "unusual",
+    "rainy-day",
+    "interactive",
+    "northeast-philly"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Otherworld Philadelphia",
+    "address": "2500 Grant Ave, Philadelphia, PA 19114",
+    "neighborhood": "Northeast Philadelphia"
+  },
+  "price_usd": {
+    "min": 19,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "20:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "20:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "20:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "22:00"
+    },
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://otherworldphila.com/"
+    }
+  ],
+  "sources": [
+    "https://otherworldphila.com/",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d27542681-Reviews-Otherworld_Philadelphia-Philadelphia_Pennsylvania.html",
+    "https://help.otherworldphila.com/hc/en-us/articles/14023670692507-Where-is-Otherworld-Philadelphia-Located",
+    "https://www.inquirer.com/news/philadelphia/otherworld-philadelphia-immersive-art-exhibit-opening-20230406.html"
+  ],
+  "uncertain": [
+    "Current ticket prices (range is from 2023 launch reporting)",
+    "Hours come from a Tripadvisor listing, not the official site"
+  ],
+  "slug": "explore-otherworld-philadelphias-maze-of-interactive-art-roo",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0775343,
+    "lng": -75.0250289
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Small, unusual and weird museums and attractions",
+  "drafted_at": "2026-10-20T01:13:35.510Z",
+  "model": "claude-sonnet-5-5"
+}

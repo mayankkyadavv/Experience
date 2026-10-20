@@ -1,0 +1,125 @@
+{
+  "title": "Throw Social Darts at Flight Club Philadelphia",
+  "intent": "Tech-assisted darts with cocktails in the old Stock Exchange building.",
+  "description": "Upscale bar in the original Philadelphia Stock Exchange building with automated-scoring Social Darts, instant replays and multiple game modes, plus a food and cocktail menu. Bookable by the hour for groups; happy hour packages are available.",
+  "category": "games",
+  "kind": "place",
+  "subcategory": "darts",
+  "tags": [
+    "darts",
+    "bar-games",
+    "group",
+    "happy-hour",
+    "center-city"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Flight Club Philadelphia",
+    "address": "1417 Walnut St, Philadelphia, PA 19102",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 12
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "15:00",
+      "close": "23:00"
+    },
+    {
+      "day": 2,
+      "open": "15:00",
+      "close": "23:00"
+    },
+    {
+      "day": 3,
+      "open": "15:00",
+      "close": "23:00"
+    },
+    {
+      "day": 4,
+      "open": "15:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "01:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "01:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.flightclubdartsusa.com/philadelphia"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.flightclubdartsusa.com/philadelphia/experiences"
+    }
+  ],
+  "sources": [
+    "https://www.flightclubdartsusa.com/philadelphia",
+    "https://www.flightclubdartsusa.com/philadelphia/faq",
+    "https://aiphilametro.org/event/happy-hour-puttshack/"
+  ],
+  "uncertain": [
+    "price_usd (a past happy-hour listing was $17 for 90 minutes of darts; current rates vary)"
+  ],
+  "slug": "throw-social-darts-at-flight-club-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9494751,
+    "lng": -75.1646888
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.556Z",
+  "model": "claude-sonnet-5-5"
+}

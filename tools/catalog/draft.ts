@@ -38,7 +38,6 @@ const client = new Anthropic(workspace ? { defaultHeaders: { "anthropic-workspac
 const submitTool = {
   name: "submit_entry",
   description: "Submit the researched catalog entry. Call exactly once, after researching.",
-  strict: true,
   input_schema: z.toJSONSchema(Facts, { target: "draft-7" }) as Anthropic.Tool.InputSchema,
 };
 

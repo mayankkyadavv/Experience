@@ -1,0 +1,87 @@
+{
+  "title": "Try a one-day wheel-throwing workshop at Black Hound Clay Studio West",
+  "intent": "Get your hands on a potter's wheel in a single session without committing to a multi-week course.",
+  "description": "Black Hound West is a community ceramics studio in Cedar Park offering one-day wheelthrowing workshops, 8-week wheel and handbuilding classes, and specialty workshops. The one-day workshop was listed at $72 per person. Winter 2027 class registration opens Oct 31 at 10am.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "pottery",
+  "tags": [
+    "wheel-throwing",
+    "beginner-friendly",
+    "west-philly",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Black Hound Clay Studio West",
+    "address": "715 S 50th St, Philadelphia, PA 19143",
+    "neighborhood": "Cedar Park"
+  },
+  "price_usd": {
+    "min": 72,
+    "max": 72
+  },
+  "duration_minutes": null,
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.blackhoundclaywest.com/"
+    },
+    {
+      "kind": "booking",
+      "url": "https://blackhoundclaywest.myshopify.com/"
+    }
+  ],
+  "sources": [
+    "https://www.blackhoundclaywest.com/",
+    "https://blackhoundclaywest.myshopify.com/",
+    "https://m.yelp.com/biz/black-hound-clay-studio-west-philadelphia"
+  ],
+  "uncertain": [
+    "duration_minutes",
+    "hours",
+    "current one-day workshop availability (store listing showed sold out)"
+  ],
+  "slug": "try-a-one-day-wheel-throwing-workshop-at-black-hound-clay-st",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.94711,
+    "lng": -75.2221862
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.446Z",
+  "model": "claude-sonnet-5-5"
+}

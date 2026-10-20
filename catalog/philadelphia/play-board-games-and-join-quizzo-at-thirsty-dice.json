@@ -1,0 +1,88 @@
+{
+  "title": "Play board games and join Quizzo at Thirsty Dice",
+  "intent": "Settle in with 800+ games and a beer or join Wednesday quizzo.",
+  "description": "Philadelphia's original board game cafe in Fairmount, with a library of 800+ games and a beer list; staff help referee. Quizzo runs Wednesdays at 6:30 pm per its Instagram.",
+  "category": "games",
+  "kind": "place",
+  "subcategory": "board game cafe",
+  "tags": [
+    "rainy-day",
+    "board-games",
+    "trivia",
+    "indoor",
+    "beer"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Thirsty Dice Board Game Cafe",
+    "address": "1642 Fairmount Ave, Philadelphia, PA 19130",
+    "neighborhood": "Fairmount"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thirstydice.com"
+    },
+    {
+      "kind": "instagram",
+      "url": "https://www.instagram.com/thirstydice/"
+    }
+  ],
+  "sources": [
+    "https://www.instagram.com/thirstydice/",
+    "https://www.phillymag.com/best-of-philly-archive/thirsty-dice-board-game-cafe/",
+    "https://www.facebook.com/ThirstyDice/"
+  ],
+  "uncertain": [
+    "hours",
+    "price_usd",
+    "current operating status (sources are older)"
+  ],
+  "slug": "play-board-games-and-join-quizzo-at-thirsty-dice",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9669247,
+    "lng": -75.1652857
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.123Z",
+  "model": "claude-sonnet-5-5"
+}

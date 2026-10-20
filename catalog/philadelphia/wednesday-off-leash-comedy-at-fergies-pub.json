@@ -1,0 +1,91 @@
+{
+  "title": "Wednesday Off Leash Comedy at Fergie's Pub",
+  "intent": "Catch a free weeknight stand-up show at a classic Center City pub.",
+  "description": "Off Leash Comedy is a long-running weekly stand-up show on Wednesdays at 9pm upstairs at Fergie's, a TV-free Irish pub, with drink specials. Fergie's also lists a Sunday comedy night and a Monday comedy open mic.",
+  "category": "comedy",
+  "kind": "activity",
+  "subcategory": "stand-up",
+  "tags": [
+    "free",
+    "weekly",
+    "pub",
+    "weeknight"
+  ],
+  "good_for": [
+    "friends",
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Fergie's Pub",
+    "address": "1214 Sansom St, Philadelphia, PA 19107",
+    "neighborhood": "Midtown Village"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "21:00",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.fergies.com/"
+    }
+  ],
+  "sources": [
+    "https://philly.citycast.fm/philly-life-hacks/free-comedy-events",
+    "https://www.fergies.com/",
+    "https://www.eventbrite.com/e/off-leash-comedy-show-at-fergies-pub-tickets-506733923807"
+  ],
+  "uncertain": [
+    "whether Off Leash still runs every Wednesday in fall 2026",
+    "end time"
+  ],
+  "slug": "wednesday-off-leash-comedy-at-fergies-pub",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9496127,
+    "lng": -75.1611568
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Stand-up comedy clubs, improv theaters and regular comedy nights",
+  "drafted_at": "2026-10-20T00:20:14.394Z",
+  "model": "claude-opus-5-5"
+}

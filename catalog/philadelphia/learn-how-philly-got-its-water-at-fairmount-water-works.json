@@ -1,0 +1,116 @@
+{
+  "title": "Learn how Philly got its water at Fairmount Water Works",
+  "intent": "Discover the nation's first public water system in a riverside National Historic Landmark.",
+  "description": "A free interpretive center in the historic pumping station behind the Art Museum, with exhibits on Philadelphia's watershed and the Schuylkill River. Pair with a riverside walk.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "science / history center",
+  "tags": [
+    "free",
+    "riverfront",
+    "historic",
+    "family-friendly"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Fairmount Water Works Interpretive Center",
+    "address": "640 Waterworks Dr, Philadelphia, PA 19130",
+    "neighborhood": "Fairmount"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 0,
+      "open": "13:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fairmountwaterworks.org"
+    }
+  ],
+  "sources": [
+    "https://schuylkillriver.org/map/places-to-visit/fairmount-water-works-interpretive-center/",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d312467-Reviews-Fairmount_Water_Works_Interpretive_Education_Center-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "Current hours (source may be dated)",
+    "Website URL from general knowledge"
+  ],
+  "slug": "learn-how-philly-got-its-water-at-fairmount-water-works",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9663439,
+    "lng": -75.1835601
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.033Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Bowl, play arcade games and karaoke at Round1 Philadelphia",
+  "intent": "Large all-in-one bowling and arcade complex for groups.",
+  "description": "Japanese-chain entertainment center at the Franklin Mills mall with bowling, a big arcade and other games. Listed among Philly's top arcades and bowling spots.",
+  "category": "games",
+  "kind": "place",
+  "subcategory": "arcade and bowling",
+  "tags": [
+    "bowling",
+    "arcade",
+    "mall",
+    "group-friendly",
+    "rainy-day"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Round1 Bowling & Arcade",
+    "address": "1455 Franklin Mills Cir, Philadelphia, PA 19154",
+    "neighborhood": "Far Northeast"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 12
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.round1usa.com"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/search?cflt=arcades&find_loc=Philadelphia%2C+PA",
+    "https://www.yelp.com/search?cflt=bowling&find_loc=Philadelphia%2C+PA"
+  ],
+  "uncertain": [
+    "address (from memory)",
+    "hours",
+    "price_usd",
+    "karaoke availability not verified"
+  ],
+  "slug": "bowl-play-arcade-games-and-karaoke-at-round1-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0877713,
+    "lng": -74.9617762
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Arcades, bowling, mini golf, axe throwing and escape rooms",
+  "drafted_at": "2026-10-20T00:27:35.845Z",
+  "model": "claude-sonnet-5-5"
+}

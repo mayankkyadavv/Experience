@@ -1,0 +1,81 @@
+{
+  "slug": "take-a-short-indego-bike-share-ride-along-the-river-trails",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Take a short Indego bike-share ride along the river trails",
+  "intent": "Grab a city bike for a quick hop along the Schuylkill or Delaware trails.",
+  "description": "Indego is Philadelphia's bike share, with 250+ stations and a fleet that is about 70% e-bikes. A single 30-minute ride costs $4.50, with extra fees for e-bikes and longer rides. Dock at a station near the Schuylkill Banks or Delaware waterfront.",
+  "category": "active",
+  "kind": "activity",
+  "subcategory": "bike share",
+  "tags": [
+    "rental",
+    "cheap",
+    "e-bike",
+    "flexible"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Indego bike share stations",
+    "address": null,
+    "neighborhood": null
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.rideindego.com/"
+    }
+  ],
+  "sources": [
+    "https://www.phillyvoice.com/indego-bike-share-single-ride-pass/",
+    "https://billypenn.com/2026/09/30/indego-ebikes-philadelphia-bike-share-electric-vs-regular-bikes/"
+  ],
+  "uncertain": [
+    "official website URL (assumed rideindego.com)",
+    "current e-bike and overage prices",
+    "price range estimate"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.359Z",
+  "model": "claude-sonnet-5-5"
+}

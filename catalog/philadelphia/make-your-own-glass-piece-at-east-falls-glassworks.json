@@ -1,0 +1,87 @@
+{
+  "title": "Make your own glass piece at East Falls Glassworks",
+  "intent": "Blow molten glass into an ornament, drinking glass or planter in a real hot shop.",
+  "description": "East Falls Glassworks bills itself as Philadelphia's only public-access glassblowing studio, with a gallery and free demonstrations. Beginner one-day workshops (ornaments, drinking glasses, air planters, candy dishes) run about 2.5 to 3 hours with ages 13+. Finished pieces need several days to cool before pickup.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "glassblowing",
+  "tags": [
+    "glassblowing",
+    "unusual",
+    "beginner-friendly",
+    "hands-on"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "East Falls Glassworks",
+    "address": "3510 Scotts Ln, Philadelphia, PA 19129",
+    "neighborhood": "East Falls"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 150,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.eastfallsglass.com/"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.facebook.com/eastfallsglass/"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d614787-Reviews-East_Falls_Glassworks-Philadelphia_Pennsylvania.html",
+    "https://www.puertoricodaytrips.com/triprivo/index.php?s=p:%3Bs:eastfallsglass",
+    "https://www.facebook.com/eastfallsglass/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours (Yelp and Tripadvisor conflict on Mon-Wed)",
+    "current class dates"
+  ],
+  "slug": "make-your-own-glass-piece-at-east-falls-glassworks",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0075001,
+    "lng": -75.1852369
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.447Z",
+  "model": "claude-sonnet-5-5"
+}

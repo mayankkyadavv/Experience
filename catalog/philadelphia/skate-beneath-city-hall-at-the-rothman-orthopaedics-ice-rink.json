@@ -1,0 +1,128 @@
+{
+  "title": "Skate beneath City Hall at the Rothman Orthopaedics Ice Rink",
+  "intent": "Do a quick Center City skate with fire pits and hot drinks nearby.",
+  "description": "Seasonal ice rink at Dilworth Park on the west side of City Hall, with 90-minute timed sessions, daily from Nov 13 to Feb 21. Adults are $10 and kids 10 and under $8, with skate rental $11 extra. The Cabin next door has a bar, indoor dining and fire pits.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "ice skating",
+  "tags": [
+    "seasonal",
+    "outdoor",
+    "center-city",
+    "winter",
+    "holiday"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "solo",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Rothman Orthopaedics Ice Rink at Dilworth Park",
+    "address": "1 S 15th St, Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 21
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "12:00",
+      "close": "21:00"
+    },
+    {
+      "day": 2,
+      "open": "12:00",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "23:00"
+    },
+    {
+      "day": 6,
+      "open": "11:30",
+      "close": "23:00"
+    },
+    {
+      "day": 0,
+      "open": "11:30",
+      "close": "21:00"
+    }
+  ],
+  "dates": [
+    {
+      "start": "2026-11-13",
+      "end": "2027-02-21"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.dilworthpark.org"
+    }
+  ],
+  "sources": [
+    "https://www.mychesco.com/a/news/regional/something-magical-is-coming-to-dilworth-park-this-november/",
+    "https://www.visitphilly.com/things-to-do/attractions/the-rothman-ice-rink-at-dilworth-park/"
+  ],
+  "uncertain": [
+    "hours change after Jan 3 and on holidays",
+    "official website URL not verified"
+  ],
+  "slug": "skate-beneath-city-hall-at-the-rothman-orthopaedics-ice-rink",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9531741,
+    "lng": -75.1646835
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks",
+  "drafted_at": "2026-10-20T00:33:19.248Z",
+  "model": "claude-sonnet-5-5"
+}

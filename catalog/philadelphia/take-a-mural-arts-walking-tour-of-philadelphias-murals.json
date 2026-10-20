@@ -1,0 +1,95 @@
+{
+  "slug": "take-a-mural-arts-walking-tour-of-philadelphias-murals",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Take a Mural Arts walking tour of Philadelphia's murals",
+  "intent": "See the 'Mural Capital of the World' with a trained guide.",
+  "description": "Mural Arts Philadelphia runs guided walking tours (such as the Mural Mile in Center City) through the fall, generally on weekends at 11 am and 2 pm, plus themed specialty tours during Mural Arts Month. Advance registration is required; Philadelphia residents can use code TOURFREE26 for free tickets on public walking tours through Dec 6.",
+  "category": "attraction",
+  "kind": "activity",
+  "subcategory": "mural tour",
+  "tags": [
+    "murals",
+    "walking-tour",
+    "public-art",
+    "seasonal",
+    "free-for-residents"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Mural Arts Philadelphia tours (meeting points vary)",
+    "address": null,
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 20
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-03",
+      "end": "2026-12-06"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://muralarts.org/tours/"
+    },
+    {
+      "kind": "other",
+      "url": "https://muralarts.org/mural-arts-month-2026/"
+    }
+  ],
+  "sources": [
+    "https://muralarts.org/tours/",
+    "https://muralarts.org/mural-arts-month-2026/",
+    "https://muralarts.org/stories/announcing-mural-arts-spring-2026-tour-season/"
+  ],
+  "uncertain": [
+    "price_usd (about $25-30 in past seasons; residents free with code)",
+    "exact meeting points and fall tour schedule",
+    "group_size",
+    "trolley tour status"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.542Z",
+  "model": "claude-sonnet-5-5"
+}

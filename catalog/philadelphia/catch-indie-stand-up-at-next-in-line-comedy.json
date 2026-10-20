@@ -1,0 +1,82 @@
+{
+  "title": "Catch indie stand-up at Next In Line Comedy",
+  "intent": "See strong local and touring comics with no drink minimum.",
+  "description": "Next In Line is Philly's comic-owned independent club, an 80-seat room inside the Coop in Callowhill. Weekend shows feature top local comics and touring acts, with Love City Brewing drinks and a food truck, and no drink minimum.",
+  "category": "comedy",
+  "kind": "place",
+  "subcategory": "stand-up",
+  "tags": [
+    "stand-up",
+    "independent",
+    "no-drink-minimum",
+    "local-comics"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Next In Line Comedy (The Coop)",
+    "address": "1025 Hamilton St, Philadelphia, PA 19123",
+    "neighborhood": "Callowhill"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://nextinlinecomedy.com/"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/best-of-philly-archive/next-in-line/",
+    "https://www.phillyvoice.com/next-in-line-comedy-club-the-coop-weekend-shows-philly/",
+    "https://billypenn.com/2026/05/05/philly-comedy-scene-guide/"
+  ],
+  "uncertain": [
+    "ticket price",
+    "showtimes (Fri/Sat, typically 7:30pm)"
+  ],
+  "slug": "catch-indie-stand-up-at-next-in-line-comedy",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.960288,
+    "lng": -75.1552713
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Stand-up comedy clubs, improv theaters and regular comedy nights",
+  "drafted_at": "2026-10-20T00:20:14.393Z",
+  "model": "claude-opus-5-5"
+}

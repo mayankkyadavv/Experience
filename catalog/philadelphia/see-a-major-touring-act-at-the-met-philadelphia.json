@@ -1,0 +1,85 @@
+{
+  "title": "See a major touring act at The Met Philadelphia",
+  "intent": "Experience a big concert in a restored 1908 opera house with ornate detail.",
+  "description": "A restored 1908 opera house on North Broad with roughly 3,500 capacity and a mix of rock, hip-hop, pop and punk tours. Recent listings include The Chicks, Wave to Earth and Social Distortion.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "rock",
+  "tags": [
+    "historic-building",
+    "large-venue",
+    "north-broad",
+    "touring-acts"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Met Philadelphia",
+    "address": "858 N Broad St, Philadelphia, PA 19130",
+    "neighborhood": "North Broad / Francisville"
+  },
+  "price_usd": {
+    "min": 40,
+    "max": 130
+  },
+  "duration_minutes": {
+    "min": 150,
+    "max": 210
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.themetphilly.com"
+    }
+  ],
+  "sources": [
+    "https://thesunpapers.com/2026/04/03/c-lifestyle-philadelphia-concert-venues-guide/",
+    "https://www.jambase.com/venue/the-met-philadelphia",
+    "https://www.axs.com/venues/127656/the-met-philadelphia-philadelphia-tickets"
+  ],
+  "uncertain": [
+    "price_usd",
+    "website URL not directly verified"
+  ],
+  "slug": "see-a-major-touring-act-at-the-met-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9695108,
+    "lng": -75.1599683
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.508Z",
+  "model": "claude-sonnet-5-5"
+}

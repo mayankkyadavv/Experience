@@ -1,0 +1,86 @@
+{
+  "title": "Try seasonal small-batch scoops and ice cream sandwiches at Weckerly's",
+  "intent": "Craft ice cream with rotating seasonal flavors and ice cream sandwiches.",
+  "description": "Small Fishtown scoop shop making French-style ice cream in small batches with seasonal ingredients. Known for ice cream sandwiches and a rotating flavor list; also sells pints to go.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "ice cream",
+  "tags": [
+    "fishtown",
+    "small-batch",
+    "ice-cream-sandwich",
+    "local"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Weckerly's Ice Cream",
+    "address": "9 W Girard Ave, Philadelphia, PA 19123",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 12
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.weckerlys.com"
+    }
+  ],
+  "sources": [
+    "https://goop.com/place/pennsylvania/fishtown/weckerly",
+    "https://www.theinfatuation.com/philadelphia/guides/the-best-soft-serve-in-philadelphia"
+  ],
+  "uncertain": [
+    "hours (sources conflict; check before going, seasonal changes likely)",
+    "website URL not confirmed",
+    "price_usd estimated"
+  ],
+  "slug": "try-seasonal-small-batch-scoops-and-ice-cream-sandwiches-at",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9689701,
+    "lng": -75.1348071
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.079Z",
+  "model": "claude-sonnet-5-5"
+}

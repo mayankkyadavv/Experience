@@ -1,0 +1,81 @@
+{
+  "title": "Monday jazz at Ortlieb's in Northern Liberties",
+  "intent": "Catch laid-back live music at a former jazz-house bar, with jazz on Mondays.",
+  "description": "Ortlieb's, in a former bowling alley, was an essential Philly jazz venue in the 1980s and is now a casual 'Hot Dog Bar' with music, open mics, comedy and karaoke through the week. Philly Magazine lists jazz every Monday.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "music bar",
+  "tags": [
+    "jazz",
+    "dive-bar",
+    "open-mic",
+    "cheap",
+    "northern-liberties"
+  ],
+  "good_for": [
+    "friends",
+    "solo",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Ortlieb's",
+    "address": "847 N 3rd St, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.phillymag.com/restaurants/philly-jazz-bars-restaurants/",
+    "https://www.visitphilly.com/articles/philadelphia/top-places-to-listen-to-live-jazz-music-in-philadelphia/"
+  ],
+  "uncertain": [
+    "hours",
+    "official website",
+    "current jazz schedule (source is older)"
+  ],
+  "slug": "monday-jazz-at-ortliebs-in-northern-liberties",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9645128,
+    "lng": -75.1423333
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.189Z",
+  "model": "claude-sonnet-5-5"
+}

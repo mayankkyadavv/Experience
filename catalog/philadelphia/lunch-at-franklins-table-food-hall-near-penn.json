@@ -1,0 +1,86 @@
+{
+  "title": "Lunch at Franklin's Table Food Hall near Penn",
+  "intent": "Grab a quick, higher-end bite from local favorites on Penn's campus.",
+  "description": "An 8,000 sq ft food hall at 3401 Walnut St with about seven vendors, including Pitruco Pizza, Goldie, DK Sushi, High Street Hoagies and Dizengoff. Quick-service counters, aimed at students and University City workers.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "food hall",
+  "tags": [
+    "food-hall",
+    "university-city",
+    "quick-bite",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Franklin's Table Food Hall",
+    "address": "3401 Walnut St, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": {
+    "min": 9,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.shopsatpenn.com/food-hall-all"
+    }
+  ],
+  "sources": [
+    "https://www.shopsatpenn.com/food-hall-all",
+    "https://maps.apple.com/place?place-id=I96630BFCD94BA884",
+    "https://www.inquirer.com/food/restaurants/gather-food-hall-philadelphia-20251029.html"
+  ],
+  "uncertain": [
+    "hours (sources conflict; academic-calendar dependent)",
+    "price_usd",
+    "current vendor lineup"
+  ],
+  "slug": "lunch-at-franklins-table-food-hall-near-penn",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9531422,
+    "lng": -75.1928078
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.760Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Visit the Germantown White House where Washington stayed",
+  "intent": "Tour a National Park Service house that sheltered President Washington.",
+  "description": "Also called the Deshler-Morris House, this 18th-century home twice sheltered George Washington and is a National Park Service site. No tickets are needed when it is open, but opening days are limited.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "national park site",
+  "tags": [
+    "free",
+    "germantown",
+    "washington"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Germantown White House (Deshler-Morris House)",
+    "address": "5442 Germantown Ave",
+    "neighborhood": "Germantown"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.nps.gov/inde/planyourvisit/germantownwhitehouse.htm"
+    }
+  ],
+  "sources": [
+    "https://www.nps.gov/inde/planyourvisit/germantownwhitehouse.htm"
+  ],
+  "uncertain": [
+    "hours/days open",
+    "address"
+  ],
+  "slug": "visit-the-germantown-white-house-where-washington-stayed",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0338725,
+    "lng": -75.1722563
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.410Z",
+  "model": "claude-sonnet-5-5"
+}

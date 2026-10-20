@@ -1,0 +1,72 @@
+{
+  "slug": "join-a-di-bruno-bros-after-hours-cheese-and-charcuterie-tast",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Join a Di Bruno Bros. After Hours cheese and charcuterie tasting",
+  "intent": "Private after-closing tasting of cheeses and antipasti in a gourmet shop.",
+  "description": "Di Bruno Bros. 'After Hours' at its Franklin shop is an evening of tasting, learning and shopping after the store closes, featuring artisan cheeses, charcuterie, antipasti and more.",
+  "category": "food",
+  "kind": "activity",
+  "subcategory": "cheese tasting",
+  "tags": [
+    "cheese",
+    "charcuterie",
+    "tasting",
+    "evening"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Di Bruno Bros. – The Franklin",
+    "address": null,
+    "neighborhood": "Center City"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.exploretock.com/dibrunofranklin/"
+    }
+  ],
+  "sources": [
+    "https://www.exploretock.com/dibrunofranklin/"
+  ],
+  "uncertain": [
+    "address",
+    "price",
+    "dates and times",
+    "duration"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.731Z",
+  "model": "claude-sonnet-5-5"
+}

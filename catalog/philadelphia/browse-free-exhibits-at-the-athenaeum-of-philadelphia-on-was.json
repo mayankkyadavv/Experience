@@ -1,0 +1,113 @@
+{
+  "title": "Browse free exhibits at the Athenaeum of Philadelphia on Washington Square",
+  "intent": "Duck into a National Historic Landmark library and gallery for free.",
+  "description": "A member-supported library in an 1845 Italianate building on Washington Square. The street-level gallery is open to the public to view exhibitions (recently Laurie Olin sketchbooks); docent-led tours need advance registration.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "gallery",
+  "tags": [
+    "free",
+    "architecture",
+    "rainy-day",
+    "quiet",
+    "society-hill"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Athenaeum of Philadelphia",
+    "address": "219 S 6th St, Philadelphia, PA 19106",
+    "neighborhood": "Society Hill"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "19:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://philaathenaeum.org/hours-and-location/"
+    }
+  ],
+  "sources": [
+    "https://philaathenaeum.org/hours-and-location/",
+    "https://www.phlvisitorcenter.com/athenaeum-philadelphia",
+    "https://philaathenaeum.org/tour-the-building/"
+  ],
+  "uncertain": [
+    "Saturday/Sunday hours (listing was cut off)",
+    "Exact current exhibit",
+    "Whether gallery entry is always free"
+  ],
+  "slug": "browse-free-exhibits-at-the-athenaeum-of-philadelphia-on-was",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9468773,
+    "lng": -75.1509741
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.670Z",
+  "model": "claude-sonnet-5-5"
+}

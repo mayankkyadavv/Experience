@@ -1,0 +1,86 @@
+{
+  "title": "Catch up at Two Persons Coffee inside the Bok Building",
+  "intent": "A cozy, plant-filled cafe tucked into a giant former vocational school.",
+  "description": "Two Persons occupies the former tool library of the Bok Building, with blue tile, plants, built-in shelves and plenty of seating nooks. It serves coffee, pastries and light bites, and works for both chatting and working.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "coffee shop",
+  "tags": [
+    "historic-building",
+    "plants",
+    "cozy",
+    "laptop-friendly"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Two Persons Coffee",
+    "address": "1901 S 9th St, Philadelphia, PA 19148",
+    "neighborhood": "Passyunk Square"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 12
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://joe.coffee/locations/pa/philadelphia/two-persons-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://sprudge.com/the-sprudge-guide-to-philadelphia-coffee-in-2023-209535.html",
+    "https://www.phillyvoice.com/coffee-two-persons-shop-bok-building-south-philadelphia/",
+    "https://joe.coffee/locations/pa/philadelphia/two-persons-philadelphia/"
+  ],
+  "uncertain": [
+    "hours",
+    "current operating status confirmed only from older sources",
+    "official website"
+  ],
+  "slug": "catch-up-at-two-persons-coffee-inside-the-bok-building",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9253363,
+    "lng": -75.1601914
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.317Z",
+  "model": "claude-sonnet-5-5"
+}

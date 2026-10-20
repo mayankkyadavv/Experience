@@ -1,0 +1,96 @@
+{
+  "title": "See free exhibitions at Asian Arts Initiative",
+  "intent": "A community-rooted gallery in Chinatown North showing contemporary art.",
+  "description": "A multidisciplinary arts center with free exhibitions, performances and community programs. Gallery hours are Thursday through Saturday afternoons.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "gallery",
+  "tags": [
+    "free",
+    "chinatown",
+    "community",
+    "contemporary-art"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Asian Arts Initiative",
+    "address": "1219 Vine St, Philadelphia, PA 19107",
+    "neighborhood": "Callowhill / Chinatown North"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 4,
+      "open": "14:00",
+      "close": "18:00"
+    },
+    {
+      "day": 5,
+      "open": "14:00",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "14:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://asianartsinitiative.org/programs"
+    }
+  ],
+  "sources": [
+    "https://asianartsinitiative.org/programs",
+    "https://maps.apple.com/place?place-id=I7379252087E679CD"
+  ],
+  "uncertain": [
+    "duration_minutes"
+  ],
+  "slug": "see-free-exhibitions-at-asian-arts-initiative",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9577286,
+    "lng": -75.1590159
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.547Z",
+  "model": "claude-sonnet-5-5"
+}

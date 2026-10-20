@@ -1,0 +1,117 @@
+{
+  "title": "Drink house-made wine at LeoFigs, a Fishtown working winery",
+  "intent": "Wine made in the basement, drunk upstairs.",
+  "description": "Large Fishtown restaurant and bar with a small-batch winery downstairs; house wines, cocktails, charcuterie and housemade pastas. Infatuation says it suits sipping more than a full meal.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "winery",
+  "tags": [
+    "urban-winery",
+    "fishtown",
+    "charcuterie",
+    "house-made"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "LeoFigs",
+    "address": "2201 Frankford Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 55
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 0,
+      "open": "13:00",
+      "close": "19:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "instagram",
+      "url": "https://www.instagram.com/leofigs_fishtown/"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/leo-figs-philadelphia",
+    "https://www.theinfatuation.com/philadelphia/guides/good-wine-philadelphia",
+    "https://philly.citycast.fm/food-drink/philadelphia-pennsylvania-new-restaurants-bars-openings"
+  ],
+  "uncertain": [
+    "hours (from Yelp)",
+    "price",
+    "official website"
+  ],
+  "slug": "drink-house-made-wine-at-leofigs-a-fishtown-working-winery",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.979632,
+    "lng": -75.129284
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.055Z",
+  "model": "claude-sonnet-5-5"
+}

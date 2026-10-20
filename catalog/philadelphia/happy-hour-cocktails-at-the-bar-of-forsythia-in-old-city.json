@@ -1,0 +1,109 @@
+{
+  "title": "Happy-hour cocktails at the bar of Forsythia in Old City",
+  "intent": "An award-listed cocktail bar attached to a French bistro, good for happy hour.",
+  "description": "Chef Christopher Kearse's contemporary French bistro in Old City has a spacious bar for craft cocktails and French wine, and it appears on BarMagazine's list of top Pennsylvania cocktail bars. Happy hour starts at 4:30pm Monday to Friday.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "cocktail bar",
+  "tags": [
+    "old-city",
+    "french",
+    "happy-hour",
+    "bistro"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Forsythia",
+    "address": "233 Chestnut St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 14,
+    "max": 22
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.forsythiaphilly.com/"
+    }
+  ],
+  "sources": [
+    "https://www.forsythiaphilly.com/",
+    "https://barmagazine.com/best-bars/us/pennsylvania/cocktail-bars"
+  ],
+  "uncertain": [
+    "Sunday and Monday hours (site says open daily; earlier close on some days)",
+    "price"
+  ],
+  "slug": "happy-hour-cocktails-at-the-bar-of-forsythia-in-old-city",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9488336,
+    "lng": -75.1453502
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cocktail bars and speakeasies worth going to on purpose",
+  "drafted_at": "2026-10-20T00:34:55.454Z",
+  "model": "claude-sonnet-5-5"
+}

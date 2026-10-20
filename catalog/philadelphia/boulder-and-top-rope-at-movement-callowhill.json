@@ -1,0 +1,121 @@
+{
+  "title": "Boulder and top-rope at Movement Callowhill",
+  "intent": "Try one of Philly's biggest indoor climbing gyms, with bouldering, roped climbing and yoga.",
+  "description": "A 37,000+ sq ft gym with a large bouldering floor, a roped-climbing area, a yoga studio and fitness space. A day pass is $28, with shoe and harness rentals available as add-ons. The first intro class is advertised as free.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "rock climbing",
+  "tags": [
+    "indoor",
+    "rainy-day",
+    "beginner-friendly",
+    "bouldering",
+    "year-round"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Movement Callowhill",
+    "address": "1010 Callowhill St, Philadelphia, PA 19123",
+    "neighborhood": "Callowhill"
+  },
+  "price_usd": {
+    "min": 28,
+    "max": 38
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "06:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "06:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "06:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "06:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "06:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "20:00"
+    },
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "20:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://movementgyms.com/callowhill/"
+    }
+  ],
+  "sources": [
+    "https://movementgyms.com/callowhill/",
+    "https://www.inquirer.com/news/philadelphia/new-rock-climbing-gym-fishtown-philadelphia-movement-20251103.html"
+  ],
+  "uncertain": [
+    "gym was formerly branded The Cliffs at Callowhill; some listings still use that name"
+  ],
+  "slug": "boulder-and-top-rope-at-movement-callowhill",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9586314,
+    "lng": -75.1553524
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks",
+  "drafted_at": "2026-10-20T00:33:19.249Z",
+  "model": "claude-sonnet-5-5"
+}

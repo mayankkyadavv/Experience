@@ -1,0 +1,94 @@
+{
+  "title": "BYOB comedy trolley tour of Philadelphia's history",
+  "intent": "Learn Philly history from a joking guide while drinking your own beer on a trolley.",
+  "description": "Founding Footsteps runs 21+ BYOB trolley tours that mix history and comedy, about two hours, with stops such as City Hall and the Rocky Steps. The company also runs themed trolleys, including a weekly 7pm 'Spirits of Philadelphia' ghost-hunting tour and a true-crime tour.",
+  "category": "attraction",
+  "kind": "activity",
+  "subcategory": "trolley tour",
+  "tags": [
+    "byob",
+    "trolley",
+    "tour",
+    "humor",
+    "ghost-tour",
+    "adults-only"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Founding Footsteps (departs near Betsy Ross House)",
+    "address": "239 Arch St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 48,
+    "max": 65
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 30
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://foundingfootsteps.com/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.tripadvisor.com/AttractionProductReview-g60795-d11482388-BYOB_Historically_Hilarious_Trolley_Tour_of_Philadelphia-Philadelphia_Pennsylvania.html"
+    }
+  ],
+  "sources": [
+    "https://foundingfootsteps.com/",
+    "https://www.visitphilly.com/articles/philadelphia/the-top-tours-of-philadelphia/",
+    "https://www.groupon.com/deals/viator-founding-footsteps-1",
+    "https://www.metrophiladelphia.com/stories/philadelphia-true-crime-ghost-trolley-tours,159155"
+  ],
+  "uncertain": [
+    "current departure times",
+    "themed tour prices",
+    "departure points vary by tour",
+    "group size"
+  ],
+  "slug": "byob-comedy-trolley-tour-of-philadelphias-history",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9522851,
+    "lng": -75.144625
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:37.001Z",
+  "model": "claude-sonnet-5-5"
+}

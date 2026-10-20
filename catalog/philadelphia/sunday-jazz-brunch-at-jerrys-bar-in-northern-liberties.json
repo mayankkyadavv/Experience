@@ -1,0 +1,93 @@
+{
+  "title": "Sunday jazz brunch at Jerry's Bar in Northern Liberties",
+  "intent": "Live jazz with brunch cocktails and French toast on Sundays.",
+  "description": "Jerry's Bar is a Northern Liberties neighborhood bar with a Sunday jazz brunch starting at 11 a.m. The menu has breakfast sandwiches, omelets, pancakes and brunch cocktails. It fills up early, so reservations are worth it.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "jazz brunch",
+  "tags": [
+    "jazz",
+    "live-music",
+    "brunch",
+    "sunday"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Jerry's Bar",
+    "address": "129 W Laurel St, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 35
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "15:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/jerrys-bar-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/restaurants/philly-jazz-bars-restaurants/",
+    "https://www.opentable.com/r/jerrys-bar-philadelphia",
+    "https://www.theinfatuation.com/philadelphia/reviews/jerrys-bar"
+  ],
+  "uncertain": [
+    "Sunday end time",
+    "price_usd",
+    "official website",
+    "bar's other hours not listed"
+  ],
+  "slug": "sunday-jazz-brunch-at-jerrys-bar-in-northern-liberties",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9651497,
+    "lng": -75.1388845
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.866Z",
+  "model": "claude-sonnet-5-5"
+}

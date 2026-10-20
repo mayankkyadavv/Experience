@@ -1,0 +1,91 @@
+{
+  "title": "Play along at the free Sunday improv workshop and jam on East Passyunk",
+  "intent": "Try improv with no experience needed at a free weekly workshop, jam and show.",
+  "description": "Free Sunday evening improv event: workshop and jam 6–7:30pm, then a show by a different Philly indie improv team at 7:30pm. Themed jams rotate monthly, including an all-welcome Neapolitan Jam, a Queer Jam and a BIPOC workshop. Listed as running through March 2027.",
+  "category": "comedy",
+  "kind": "activity",
+  "subcategory": "improv",
+  "tags": [
+    "improv",
+    "free",
+    "no-experience-needed",
+    "weekly",
+    "inclusive"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "1626 East Passyunk Avenue #1 (venue name not confirmed)",
+    "address": "1626 E Passyunk Ave, Philadelphia, PA 19148",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "18:00",
+      "close": "20:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.creativephl.org/arts-event/community-event-every-sunday/?sd=1791756000&ed=1791756000&ad=n"
+    }
+  ],
+  "sources": [
+    "https://www.creativephl.org/arts-event/community-event-every-sunday/?sd=1791756000&ed=1791756000&ad=n"
+  ],
+  "uncertain": [
+    "venue name",
+    "official website",
+    "confirm still running"
+  ],
+  "slug": "play-along-at-the-free-sunday-improv-workshop-and-jam-on-eas",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9293844,
+    "lng": -75.1643378
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance, music, improv and other drop-in classes for adults",
+  "drafted_at": "2026-10-20T01:15:07.293Z",
+  "model": "claude-sonnet-5-5"
+}

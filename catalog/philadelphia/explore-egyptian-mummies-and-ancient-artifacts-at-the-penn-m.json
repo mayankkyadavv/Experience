@@ -1,0 +1,113 @@
+{
+  "title": "Explore Egyptian mummies and ancient artifacts at the Penn Museum",
+  "intent": "Big-collection archaeology museum with mummies and Mesopotamian treasures.",
+  "description": "University museum with large collections from ancient Egypt, Mesopotamia and beyond, plus garden spaces. Allow about 2-3 hours; no outside food or drink except bottled water.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "archaeology museum",
+  "tags": [
+    "indoor",
+    "rainy-day",
+    "mummies",
+    "university-city"
+  ],
+  "good_for": [
+    "family",
+    "group",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Penn Museum",
+    "address": "3260 South St, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.penn.museum/visit/visitor-guidelines"
+    }
+  ],
+  "sources": [
+    "https://www.penn.museum/visit/visitor-guidelines",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d138271-Reviews-Penn_Museum-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "price",
+    "specific exhibit availability"
+  ],
+  "slug": "explore-egyptian-mummies-and-ancient-artifacts-at-the-penn-m",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9492859,
+    "lng": -75.1920297
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Family-friendly and kid-friendly activities",
+  "drafted_at": "2026-10-20T00:34:18.067Z",
+  "model": "claude-sonnet-5-5"
+}

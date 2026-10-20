@@ -1,0 +1,79 @@
+{
+  "title": "Monday quizzo at Victory Brewing Company in Logan Square",
+  "intent": "Brewpub trivia with house beers near the Parkway.",
+  "description": "Victory's Philadelphia brewpub is listed with weekly Monday quizzo at 6 p.m. on the 2026 community calendar.",
+  "category": "games",
+  "kind": "activity",
+  "subcategory": "trivia",
+  "tags": [
+    "quizzo",
+    "trivia",
+    "weekly",
+    "monday",
+    "brewery"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Victory Brewing Company Philadelphia",
+    "address": null,
+    "neighborhood": "Logan Square"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.ourphilly.org/date/2026-07-20"
+  ],
+  "uncertain": [
+    "address",
+    "free to play assumed",
+    "official website"
+  ],
+  "slug": "monday-quizzo-at-victory-brewing-company-in-logan-square",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9561914,
+    "lng": -75.1686628
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.558Z",
+  "model": "claude-sonnet-5-5"
+}

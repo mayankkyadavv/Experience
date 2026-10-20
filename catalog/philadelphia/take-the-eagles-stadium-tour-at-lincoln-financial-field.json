@@ -1,0 +1,91 @@
+{
+  "title": "Take the Eagles stadium tour at Lincoln Financial Field",
+  "intent": "See the Eagles' locker room, field and pro shop on a guided tour.",
+  "description": "A guided Eagles stadium tour is sold through Ticketmaster as a 'VIP Stadium Tour'. Reviews describe a roughly $15 ticket and a stop at the Eagles Pro Shop. Check Ticketmaster for current dates, since tours are not offered on game days.",
+  "category": "attraction",
+  "kind": "activity",
+  "subcategory": "stadium tour",
+  "tags": [
+    "eagles",
+    "football",
+    "tour",
+    "south-philly",
+    "rainy-day"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "solo",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Lincoln Financial Field",
+    "address": "1 Lincoln Financial Field Way, Philadelphia, PA 19148",
+    "neighborhood": "South Philadelphia Sports Complex"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 15
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.lincolnfinancialfield.com/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.ticketmaster.com/artist/1504707"
+    }
+  ],
+  "sources": [
+    "https://www.ticketmaster.com/artist/1504707?page=2",
+    "http://www.22ndandphilly.com/2015/01/tour-citizens-bank-park-philadelphia.html?m=1"
+  ],
+  "uncertain": [
+    "current tour days and times",
+    "current price (review from 2023)",
+    "hours"
+  ],
+  "slug": "take-the-eagles-stadium-tour-at-lincoln-financial-field",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9009099,
+    "lng": -75.1674892
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Pro and college sports games and stadium experiences",
+  "drafted_at": "2026-10-20T01:15:34.978Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,119 @@
+{
+  "title": "Stroll the Rail Park's elevated paths and murals",
+  "intent": "Free elevated park with city views and public art like Shepard Fairey's mural.",
+  "description": "Phase One of the Rail Park is a quarter-mile elevated park on a former Reading Railroad line, with paths, bench swings and skyline views. It includes public art such as murals, and is free and open 7 am-10 pm daily.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "park / public art",
+  "tags": [
+    "free",
+    "murals",
+    "views",
+    "outdoor",
+    "callowhill"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Rail Park (Phase One)",
+    "address": "1300 Noble St, Philadelphia, PA 19123",
+    "neighborhood": "Callowhill"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 60
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "07:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.therailpark.org/"
+    }
+  ],
+  "sources": [
+    "https://www.therailpark.org/faqs/",
+    "https://www.therailpark.org/news/art-at-the-park/"
+  ],
+  "uncertain": [
+    "street address (from memory)",
+    "duration_minutes"
+  ],
+  "slug": "stroll-the-rail-parks-elevated-paths-and-murals",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9601195,
+    "lng": -75.1600657
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.546Z",
+  "model": "claude-sonnet-5-5"
+}

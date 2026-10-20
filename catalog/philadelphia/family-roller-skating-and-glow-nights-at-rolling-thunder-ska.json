@@ -1,0 +1,80 @@
+{
+  "title": "Family roller skating and glow nights at Rolling Thunder Skating Center",
+  "intent": "Hit a throwback roller rink with an arcade and glow-night sessions.",
+  "description": "An indoor roller rink and family fun center on Roosevelt Boulevard with a spacious skating floor, arcade and snack bar. It lists low-cost admission days and family glow nights.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "roller skating",
+  "tags": [
+    "indoor",
+    "rainy-day",
+    "family-friendly",
+    "arcade",
+    "glow-night"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Rolling Thunder Skating & Family Fun Center",
+    "address": "7017 Roosevelt Blvd, Philadelphia, PA 19149",
+    "neighborhood": "Northeast Philadelphia"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 15
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://mommypoppins.com/philadelphia-kids/best-roller-skating-rinks-philadelphia-kids-families"
+  ],
+  "uncertain": [
+    "official website",
+    "current operating status (not checked on an official page)",
+    "price",
+    "hours",
+    "session schedule",
+    "group_size"
+  ],
+  "slug": "family-roller-skating-and-glow-nights-at-rolling-thunder-ska",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0404992,
+    "lng": -75.0565605
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks",
+  "drafted_at": "2026-10-20T00:33:19.253Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Learn cheese and charcuterie pairings at Philly Cheese School",
+  "intent": "A playful, BYOB cheese tasting class with expert guidance.",
+  "description": "A cheese classroom in Bella Vista run by former Di Bruno Bros. and Murray's cheesemonger Julia Birnbaum, offering classes with artisanal cheese and charcuterie pairings. The space is BYOB and a pink, sparkly, whimsical room.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "cheese tasting",
+  "tags": [
+    "cheese",
+    "byob",
+    "tasting",
+    "bella-vista"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philly Cheese School",
+    "address": "9th & Bainbridge St, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://billypenn.com/2022/08/20/philadelphia-cheese-school-julia-birnbaum-pairings-cooking-classes/"
+    }
+  ],
+  "sources": [
+    "https://www.phillyvoice.com/philly-cheese-school-julia-birnbaum-bella-vista-south-philly-classes-charcuterie/",
+    "https://billypenn.com/2022/08/20/philadelphia-cheese-school-julia-birnbaum-pairings-cooking-classes/",
+    "https://www.inquirer.com/philly-tips/cooking-class-coffee-class-cocktail-class-near-me-philly-20230418.html"
+  ],
+  "uncertain": [
+    "exact street address",
+    "price",
+    "class schedule",
+    "website URL"
+  ],
+  "slug": "learn-cheese-and-charcuterie-pairings-at-philly-cheese-schoo",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9408917,
+    "lng": -75.15052
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.730Z",
+  "model": "claude-sonnet-5-5"
+}

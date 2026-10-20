@@ -1,0 +1,79 @@
+{
+  "title": "Spanish wine and sherry cocktails at BAR ilu",
+  "intent": "Madrid-style wine bar with raciones and low-lit energy.",
+  "description": "Kensington corner bar inspired by Madrid, with a 40-seat concrete bar, raciones, Spanish cocktails and a surprisingly affordable Spanish wine list. Reviewed by The Inquirer and Infatuation in 2026.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "wine bar",
+  "tags": [
+    "spanish",
+    "kensington",
+    "new",
+    "small-plates"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "BAR ilu",
+    "address": "2118 E Dauphin St, Philadelphia, PA 19125",
+    "neighborhood": "Kensington"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 60
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.theinfatuation.com/philadelphia/reviews/bar-ilu",
+    "https://www.inquirer.com/food/restaurants/ilu-spanish-restaurant-kensington-philadelphia-20260526.html"
+  ],
+  "uncertain": [
+    "hours",
+    "price",
+    "official website"
+  ],
+  "slug": "spanish-wine-and-sherry-cocktails-at-bar-ilu",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9812874,
+    "lng": -75.1294635
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.055Z",
+  "model": "claude-sonnet-5-5"
+}

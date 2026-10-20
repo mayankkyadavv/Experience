@@ -1,0 +1,90 @@
+{
+  "title": "Make fresh pasta in a La Cucina at the Market cooking class",
+  "intent": "Learn Italian cooking hands-on in a fun BYOB class.",
+  "description": "Chef Anna Maria Florio's long-running Italian cooking classes cover handmade pasta, gnocchi, pizza and seasonal menus, typically about two hours and BYOB. Classes are popular for date nights and groups.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "cooking class",
+  "tags": [
+    "italian",
+    "byob",
+    "pasta",
+    "hands-on"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "La Cucina at the Market",
+    "address": "1206 Arch St, Philadelphia, PA 19107",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 65,
+    "max": 100
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 20
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.lacucinaatthemarket.com/"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.facebook.com/LaCucinaATM/"
+    }
+  ],
+  "sources": [
+    "https://www.facebook.com/LaCucinaATM/",
+    "https://www.cbsnews.com/philadelphia/news/top-cooking-classes-in-philadelphia-1/",
+    "https://philadelphia.cbslocal.com/top-lists/top-cooking-classes-in-philadelphia/"
+  ],
+  "uncertain": [
+    "current address (older source lists 310 S 48th St)",
+    "current class schedule and price",
+    "group size"
+  ],
+  "slug": "make-fresh-pasta-in-a-la-cucina-at-the-market-cooking-class",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9539001,
+    "lng": -75.1596869
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.729Z",
+  "model": "claude-sonnet-5-5"
+}

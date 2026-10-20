@@ -1,0 +1,125 @@
+{
+  "title": "Sip coffee and flip through vinyl at Milkcrate Cafe",
+  "intent": "A cafe, record shop and listening room in one, with a real food menu.",
+  "description": "Milkcrate in Fishtown brews La Colombe coffee and sells new and vintage vinyl, turntables and speakers, with records playing in the room. The all-day menu goes beyond pastries, with breakfast sandwiches, burritos and more.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "record shop cafe",
+  "tags": [
+    "vinyl",
+    "music",
+    "brunch",
+    "casual"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Milkcrate Cafe",
+    "address": "400 E Girard Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 18
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 5
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:30",
+      "close": "14:30"
+    },
+    {
+      "day": 1,
+      "open": "08:30",
+      "close": "14:30"
+    },
+    {
+      "day": 2,
+      "open": "08:30",
+      "close": "14:30"
+    },
+    {
+      "day": 3,
+      "open": "08:30",
+      "close": "14:30"
+    },
+    {
+      "day": 4,
+      "open": "08:30",
+      "close": "14:30"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "14:30"
+    },
+    {
+      "day": 6,
+      "open": "08:30",
+      "close": "14:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.toasttab.com/local/milkcrate-cafe/r-bd14613f-4b44-4378-b449-830f6233415f"
+    },
+    {
+      "kind": "instagram",
+      "url": "https://www.instagram.com/milkcratecafe/"
+    }
+  ],
+  "sources": [
+    "https://www.toasttab.com/local/milkcrate-cafe/r-bd14613f-4b44-4378-b449-830f6233415f",
+    "https://northeasttimes.com/2026/08/03/7-of-the-best-coffee-shop-spots-in-philadelphia-right-now/",
+    "https://www.theinfatuation.com/philadelphia/guides/best-coffee-in-philly"
+  ],
+  "uncertain": [
+    "hours may vary; Instagram lists slightly different hours",
+    "official website url"
+  ],
+  "slug": "sip-coffee-and-flip-through-vinyl-at-milkcrate-cafe",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9700209,
+    "lng": -75.1302325
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.317Z",
+  "model": "claude-sonnet-5-5"
+}

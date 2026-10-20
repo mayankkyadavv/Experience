@@ -2,6 +2,7 @@ import Foundation
 
 public protocol ExperienceAPI: Sendable {
     func recommend(_ constraints: RecommendationConstraints) async throws -> RecommendationResponse
+    func feedback(_ feedback: Feedback) async throws -> UserExperienceState
 }
 
 public enum APIError: Error, Equatable, LocalizedError {
@@ -36,12 +37,17 @@ public struct SupabaseFunctionsClient: ExperienceAPI {
     }
 
     public func recommend(_ constraints: RecommendationConstraints) async throws -> RecommendationResponse {
-        try await call("recommend", body: constraints)
+        try await call("functions/v1/recommend", body: constraints)
     }
 
-    func call<Body: Encodable, Response: Decodable>(_ function: String, body: Body) async throws -> Response {
+    /// `record_feedback` in `supabase/migrations` (one call updates the state and logs the event).
+    public func feedback(_ feedback: Feedback) async throws -> UserExperienceState {
+        try await call("rest/v1/rpc/record_feedback", body: feedback)
+    }
+
+    func call<Body: Encodable, Response: Decodable>(_ path: String, body: Body) async throws -> Response {
         guard let token = try await accessToken() else { throw APIError.notSignedIn }
-        var request = URLRequest(url: projectURL.appending(path: "functions/v1/\(function)"))
+        var request = URLRequest(url: projectURL.appending(path: path))
         request.httpMethod = "POST"
         request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         request.setValue(anonKey, forHTTPHeaderField: "apikey")
@@ -56,7 +62,9 @@ public struct SupabaseFunctionsClient: ExperienceAPI {
         case 401:
             throw APIError.notSignedIn
         default:
-            let message = (try? JSONDecoder().decode([String: String].self, from: data))?["error"]
+            // Edge Functions send {"error": ...}; PostgREST sends {"message": ...}.
+            let body = try? JSONSerialization.jsonObject(with: data) as? [String: Any]
+            let message = (body?["error"] as? String) ?? (body?["message"] as? String)
             throw APIError.server(status: http.statusCode, message: message ?? "Something went wrong on our side. Try again in a moment.")
         }
     }

@@ -1,0 +1,84 @@
+{
+  "title": "See Liberation at Philadelphia Theatre Company",
+  "intent": "Catch an award-winning new play before its run ends.",
+  "description": "Philadelphia premiere of Bess Wohl's Liberation, directed by PTC co-artistic director Taibi Magar and described as winning the 2026 Pulitzer Prize for Drama and the Tony for Best Play. Plays at the Suzanne Roberts Theatre on S. Broad Street through Oct 25.",
+  "category": "arts_culture",
+  "kind": "event",
+  "subcategory": "play",
+  "tags": [
+    "new-play",
+    "award-winning",
+    "closing-soon"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Suzanne Roberts Theatre",
+    "address": "480 S Broad St, Philadelphia, PA 19146",
+    "neighborhood": "Avenue of the Arts"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-09",
+      "end": "2026-10-25"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://philadelphiatheatrecompany.org/"
+    }
+  ],
+  "sources": [
+    "https://philadelphiatheatrecompany.org/",
+    "https://www.broadwayworld.com/philadelphia/regionalshows/?link=SUZANNE-ROBERTS-THEATRE",
+    "https://www.visitphilly.com/articles/philadelphia/guide-performing-arts-and-live-theater-venues-in-greater-philadelphia/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "duration_minutes",
+    "performance times"
+  ],
+  "slug": "see-liberation-at-philadelphia-theatre-company",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9449056,
+    "lng": -75.1655897
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Theaters, performing arts, opera, ballet and orchestra",
+  "drafted_at": "2026-10-20T01:05:39.798Z",
+  "model": "claude-sonnet-5-5"
+}

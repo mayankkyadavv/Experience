@@ -1,0 +1,80 @@
+{
+  "title": "Taste Czech-style lagers at Human Robot in West Kensington",
+  "intent": "Try some of the region's best lagers, poured via traditional side-pull taps.",
+  "description": "Human Robot is known for Central European-style lagers, with Czech pale and dark lagers alongside a few IPAs and sours. The West Kensington taproom is a small, no-frills bar; it also has other locations.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "brewery",
+    "lager",
+    "czech",
+    "taproom"
+  ],
+  "good_for": [
+    "friends",
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Human Robot",
+    "address": "1710 N 5th St, Philadelphia, PA 19122",
+    "neighborhood": "West Kensington"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://humanrobotbeer.com"
+    }
+  ],
+  "sources": [
+    "https://www.beeradvocate.com/beer/profile/58686/",
+    "https://northeasttimes.com/2026/08/04/the-best-brewery-taprooms-in-philadelphia-according-to-locals/"
+  ],
+  "uncertain": [
+    "hours"
+  ],
+  "slug": "taste-czech-style-lagers-at-human-robot-in-west-kensington",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9773032,
+    "lng": -75.1435877
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.428Z",
+  "model": "claude-sonnet-5-5"
+}

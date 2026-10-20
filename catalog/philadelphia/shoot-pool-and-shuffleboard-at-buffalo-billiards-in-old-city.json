@@ -1,0 +1,118 @@
+{
+  "title": "Shoot pool and shuffleboard at Buffalo Billiards in Old City",
+  "intent": "Classic two-floor bar-games hall with pool, shuffleboard and arcade games.",
+  "description": "Old City tavern on two floors with 8 pool tables, 4 shuffleboard tables, foosball, Buck Hunter and Golden Tee, plus two bars and 17 TVs. Pool and shuffleboard are pay by the hour.",
+  "category": "games",
+  "kind": "place",
+  "subcategory": "pool & shuffleboard",
+  "tags": [
+    "shuffleboard",
+    "pool",
+    "bar-games",
+    "old-city",
+    "late-night"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Buffalo Billiards",
+    "address": "118 Chestnut St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "14:00",
+      "close": "02:00"
+    },
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "14:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.buffalobilliardsphilly.com/"
+    }
+  ],
+  "sources": [
+    "https://www.buffalobilliardsphilly.com/",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d4518967-Reviews-Buffalo_Billiards-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "price_usd (hourly table rates not confirmed)",
+    "official site shows slightly different weekday start (4pm) than some listings"
+  ],
+  "slug": "shoot-pool-and-shuffleboard-at-buffalo-billiards-in-old-city",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9481263,
+    "lng": -75.1432848
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.556Z",
+  "model": "claude-sonnet-5-5"
+}

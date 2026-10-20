@@ -1,0 +1,123 @@
+{
+  "title": "Farm-to-table brunch at Front Street Cafe in Fishtown",
+  "intent": "Roomy, relaxed Fishtown brunch with a beer garden.",
+  "description": "Front Street Cafe is a big, rustic New American spot with a coffee and pastry counter, a full brunch menu and a beer garden. It serves breakfast and brunch from 8 a.m. and stays open for dinner and drinks.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "outdoor-seating",
+    "beer-garden",
+    "vegan-options"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Front Street Cafe",
+    "address": "1253 N Front St, Philadelphia, PA 19122",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 14,
+    "max": 28
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "21:00"
+    },
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g60795-d9580747-Reviews-Front_Street_Cafe-Philadelphia_Pennsylvania.html"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d9580747-Reviews-Front_Street_Cafe-Philadelphia_Pennsylvania.html",
+    "https://www.yelp.com/biz/front-street-cafe-philadelphia?rh_count=8&rh_start=0&start=220&ylist=the-great-philly-food-experience-philadelphia",
+    "https://northeasttimes.com/2026/04/20/top-brunch-spots-in-philadelphia/"
+  ],
+  "uncertain": [
+    "Hours for Wed-Sat closing times assumed; sources conflict (Yelp shows a 4-5pm break)",
+    "price_usd",
+    "official website"
+  ],
+  "slug": "farm-to-table-brunch-at-front-street-cafe-in-fishtown",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9697606,
+    "lng": -75.1358427
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.865Z",
+  "model": "claude-sonnet-5-5"
+}

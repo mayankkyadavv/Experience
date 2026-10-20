@@ -1,0 +1,82 @@
+{
+  "title": "Get a facial or massage at Rescue Spa on Walnut Street",
+  "intent": "Book a polished facial, massage or nail service at a large Center City day spa.",
+  "description": "A 9,700 sq ft full-service day spa in the former Barneys space. It offers facials, massage, nails, hair and laser services, using high-end skincare brands. Founded by Danuta Mieloch and well reviewed locally.",
+  "category": "wellness",
+  "kind": "place",
+  "subcategory": "day spa",
+  "tags": [
+    "facial",
+    "massage",
+    "luxury",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Rescue Spa Philadelphia",
+    "address": "1811 Walnut St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse Square"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.rescuespa.com/philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://www.rescuespa.com/philadelphia/",
+    "https://www.phillymag.com/best-of-philly-archive/rescue-spa-3/",
+    "https://www.yelp.com/biz/rescue-spa-philadelphia-2"
+  ],
+  "uncertain": [
+    "prices",
+    "full weekly hours (Yelp shows about 8:30am to 7:30pm early in the week, longer on some days)"
+  ],
+  "slug": "get-a-facial-or-massage-at-rescue-spa-on-walnut-street",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9502683,
+    "lng": -75.1712454
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Spas, saunas, bathhouses and wellness experiences",
+  "drafted_at": "2026-10-20T01:09:33.218Z",
+  "model": "claude-sonnet-5-5"
+}

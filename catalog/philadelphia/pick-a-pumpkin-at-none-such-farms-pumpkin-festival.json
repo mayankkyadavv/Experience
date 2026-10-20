@@ -1,0 +1,89 @@
+{
+  "slug": "pick-a-pumpkin-at-none-such-farms-pumpkin-festival",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Pick a pumpkin at None Such Farm's Pumpkin Festival",
+  "intent": "A weekend pick-your-own pumpkin festival with live music in Bucks County.",
+  "description": "None Such Farm & Market in Buckingham hosts its annual Pumpkin Festival on October weekends, with a big pick-your-own pumpkin harvest and live music. The last weekend listed is Oct. 24-25.",
+  "category": "outdoors",
+  "kind": "event",
+  "subcategory": "pumpkin patch",
+  "tags": [
+    "pumpkin-patch",
+    "seasonal",
+    "family-friendly",
+    "live-music",
+    "day-trip"
+  ],
+  "good_for": [
+    "family",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "None Such Farm & Market",
+    "address": null,
+    "neighborhood": null
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-03",
+      "end": "2026-10-25"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-24",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-25",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/fall-harvest-festivals/"
+  ],
+  "uncertain": [
+    "address",
+    "hours",
+    "admission price",
+    "official website"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.065Z",
+  "model": "claude-sonnet-5-5"
+}

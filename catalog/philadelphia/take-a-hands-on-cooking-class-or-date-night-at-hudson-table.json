@@ -1,0 +1,76 @@
+{
+  "slug": "take-a-hands-on-cooking-class-or-date-night-at-hudson-table",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Take a hands-on cooking class or date night at Hudson Table",
+  "intent": "Cook side by side at a chef's counter in a competition-style kitchen.",
+  "description": "Hudson Table in Northern Liberties offers hands-on classes at a chef's table with counter seating for about 18, plus reservation-only dinners and chef competitions. Good for date nights and team events.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "cooking class",
+  "tags": [
+    "hands-on",
+    "date-night",
+    "northern-liberties",
+    "chef-led"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Hudson Table",
+    "address": "Schmidt's Commons, N 2nd St, Philadelphia, PA",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": {
+    "min": 2,
+    "max": 18
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.inquirer.com/food/hudson-table-philadelphia-cooking-school-northern-liberties-chef-training-20200219.html"
+    }
+  ],
+  "sources": [
+    "https://www.inquirer.com/food/hudson-table-philadelphia-cooking-school-northern-liberties-chef-training-20200219.html",
+    "https://www.inquirer.com/philly-tips/cooking-class-coffee-class-cocktail-class-near-me-philly-20230418.html"
+  ],
+  "uncertain": [
+    "street address",
+    "price",
+    "schedule",
+    "official website"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.730Z",
+  "model": "claude-sonnet-5-5"
+}

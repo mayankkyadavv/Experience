@@ -1,0 +1,87 @@
+{
+  "slug": "weekend-produce-run-at-rittenhouse-square-farmers-market",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Weekend produce run at Rittenhouse Square Farmers' Market",
+  "intent": "Shop a producer-only farm market beside Center City's most popular park.",
+  "description": "A year-round, producer-only Saturday farmers market at Rittenhouse Square run by Farm to City, with orchard fruit, cheese, seafood, greens and baked goods from dozens of producers.",
+  "category": "market",
+  "kind": "place",
+  "subcategory": "farmers market",
+  "tags": [
+    "farmers-market",
+    "outdoor",
+    "year-round",
+    "saturday",
+    "center-city"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Rittenhouse Square Farmers' Market",
+    "address": "Rittenhouse Square, S 18th St & Walnut St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse Square"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.farmtocitymarkets.com/"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.facebook.com/RittenhouseFarmersMarket/"
+    }
+  ],
+  "sources": [
+    "https://www.farmtocitymarkets.com/",
+    "https://www.phillymag.com/best-of-philly-archive/rittenhouse-square-farmers-market/",
+    "https://www.facebook.com/RittenhouseFarmersMarket/"
+  ],
+  "uncertain": [
+    "hours (opens ~9am Saturdays; closing time unverified)",
+    "exact location along the square",
+    "price_usd"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.761Z",
+  "model": "claude-sonnet-5-5"
+}

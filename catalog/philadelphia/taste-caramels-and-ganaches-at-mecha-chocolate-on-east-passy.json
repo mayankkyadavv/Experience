@@ -1,0 +1,111 @@
+{
+  "title": "Taste caramels and ganaches at Mecha Chocolate on East Passyunk",
+  "intent": "Small-batch caramels, ganaches and barks to gift or share with wine.",
+  "description": "Chocolate shop from the Haddonfield-based Mecha team on East Passyunk Ave, selling caramels, ganaches, barks and seasonal treats, often cited among the city's best chocolatiers.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "chocolate shop",
+  "tags": [
+    "chocolate",
+    "gifts",
+    "east-passyunk",
+    "caramels"
+  ],
+  "good_for": [
+    "date",
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Mecha Chocolate",
+    "address": "1618 E Passyunk Ave, Philadelphia, PA 19148",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 40
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 30
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "18:30"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "18:30"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "18:30"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "18:30"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "18:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://mechachocolate.com/"
+    }
+  ],
+  "sources": [
+    "https://mechachocolate.com/collections/frontpage",
+    "https://www.yelp.com/biz/mecha-chocolate-philadelphia",
+    "https://www.phillyexaminer.com/best-chocolates-philadelphia/"
+  ],
+  "uncertain": [
+    "Sunday hours (official site pages conflict: closed vs 12-4)",
+    "price_usd estimated"
+  ],
+  "slug": "taste-caramels-and-ganaches-at-mecha-chocolate-on-east-passy",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9294827,
+    "lng": -75.1641285
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.081Z",
+  "model": "claude-sonnet-5-5"
+}

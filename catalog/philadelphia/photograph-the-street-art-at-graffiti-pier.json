@@ -1,0 +1,80 @@
+{
+  "slug": "photograph-the-street-art-at-graffiti-pier",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Photograph the street art at Graffiti Pier",
+  "intent": "Walk a gritty abandoned coal pier covered in layers of graffiti with skyline views.",
+  "description": "A former coal-loading pier on the Delaware River in Port Richmond that has become an unsanctioned outdoor street art gallery. It's raw and constantly changing; take care with footing and expect no facilities.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "street art",
+  "tags": [
+    "graffiti",
+    "free",
+    "photography",
+    "unusual",
+    "outdoor"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Graffiti Pier (Pier 18)",
+    "address": null,
+    "neighborhood": "Port Richmond"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 90
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.atlasobscura.com/places/graffiti-pier-pier-no-18"
+    }
+  ],
+  "sources": [
+    "https://www.atlasobscura.com/places/graffiti-pier-pier-no-18",
+    "https://sjuhawknews.com/1578/features/exploring-graffiti-pier/"
+  ],
+  "uncertain": [
+    "exact street address",
+    "current access rules",
+    "hours",
+    "duration_minutes"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.545Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,92 @@
+{
+  "title": "Swing dance for free outdoors at Rittenhop in Rittenhouse Square",
+  "intent": "Join a free, casual Lindy Hop social dance in the park on a Sunday afternoon.",
+  "description": "Free weekly outdoor Lindy Hop social dance that has run for over a decade, held Sundays 1:00–3:30pm in Rittenhouse Square. Watch, join in, and meet local swing dancers; weather can affect it.",
+  "category": "active",
+  "kind": "activity",
+  "subcategory": "swing dance",
+  "tags": [
+    "free",
+    "outdoor",
+    "lindy-hop",
+    "weekly",
+    "social-dance"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Rittenhouse Square",
+    "address": "1800 Walnut St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "13:00",
+      "close": "15:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://rittenhop.org/"
+    }
+  ],
+  "sources": [
+    "https://rittenhop.org/",
+    "https://www.ourphilly.org/events/rittenhop-weekly-social-dance?date=2026-01-18"
+  ],
+  "uncertain": [
+    "whether a beginner lesson is offered",
+    "winter/rain cancellation policy"
+  ],
+  "slug": "swing-dance-for-free-outdoors-at-rittenhop-in-rittenhouse-sq",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9501438,
+    "lng": -75.1717741
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance, music, improv and other drop-in classes for adults",
+  "drafted_at": "2026-10-20T01:15:07.290Z",
+  "model": "claude-sonnet-5-5"
+}

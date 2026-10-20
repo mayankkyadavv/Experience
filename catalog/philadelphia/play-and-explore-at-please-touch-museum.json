@@ -1,0 +1,108 @@
+{
+  "title": "Play and explore at Please Touch Museum",
+  "intent": "Hands-on play museum built for toddlers through early elementary kids.",
+  "description": "Children's museum in Memorial Hall in Fairmount Park with interactive exhibits, water play, a century-old carousel and theater performances. Designed for kids roughly 7 and under; plan 2-3 hours.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "children's museum",
+  "tags": [
+    "rainy-day",
+    "indoor",
+    "toddlers",
+    "hands-on",
+    "carousel"
+  ],
+  "good_for": [
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Please Touch Museum",
+    "address": "4231 Avenue of the Republic, Philadelphia, PA 19131",
+    "neighborhood": "West Fairmount Park"
+  },
+  "price_usd": {
+    "min": 24,
+    "max": 24
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "16:30"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "16:30"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "16:30"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "16:30"
+    },
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "16:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.pleasetouchmuseum.org/visit/"
+    }
+  ],
+  "sources": [
+    "https://www.pleasetouchmuseum.org/visit/",
+    "https://www.phlvisitorcenter.com/please-touch-museum"
+  ],
+  "uncertain": [
+    "Sunday hours vary: 9am open on 1st/4th/5th Sundays (11am shown); closed Mon/Tue; closed Thu Oct 22 2026"
+  ],
+  "slug": "play-and-explore-at-please-touch-museum",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9794694,
+    "lng": -75.2091302
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Family-friendly and kid-friendly activities",
+  "drafted_at": "2026-10-20T00:34:18.062Z",
+  "model": "claude-sonnet-5-5"
+}

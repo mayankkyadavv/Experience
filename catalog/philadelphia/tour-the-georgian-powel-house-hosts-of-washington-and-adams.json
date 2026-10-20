@@ -1,0 +1,102 @@
+{
+  "title": "Tour the Georgian Powel House, hosts of Washington and Adams",
+  "intent": "See an elegant Georgian mansion where Philadelphia's elite entertained the founders.",
+  "description": "A restored Georgian mansion in Society Hill once owned by mayor Samuel Powel. Guided tours show period rooms and a garden.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic house museum",
+  "tags": [
+    "guided-tour",
+    "architecture",
+    "colonial"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Powel House",
+    "address": "244 S 3rd St",
+    "neighborhood": "Society Hill"
+  },
+  "price_usd": {
+    "min": 8,
+    "max": 10
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 60
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "16:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "16:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "16:00"
+    },
+    {
+      "day": 0,
+      "open": "13:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.philalandmarks.org/contact-visit"
+    }
+  ],
+  "sources": [
+    "https://www.philalandmarks.org/contact-visit",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d144039-Reviews-or10-Powel_House-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "hours are from Tripadvisor, not official",
+    "seasonality"
+  ],
+  "slug": "tour-the-georgian-powel-house-hosts-of-washington-and-adams",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9457815,
+    "lng": -75.1469201
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.409Z",
+  "model": "claude-sonnet-5-5"
+}

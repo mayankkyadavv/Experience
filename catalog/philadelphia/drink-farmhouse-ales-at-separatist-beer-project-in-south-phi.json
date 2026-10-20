@@ -1,0 +1,77 @@
+{
+  "title": "Drink farmhouse ales at Separatist Beer Project in South Philly",
+  "intent": "Sip rustic farmhouse-style beer in a modern taproom with indoor and outdoor seating.",
+  "description": "Separatist Beer Project, originally from Easton, runs a South Philly tasting room with a 15-seat bar and seating inside and out. It focuses on rustic, farmhouse-leaning beers.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "brewery",
+    "farmhouse",
+    "south-philly",
+    "outdoor-seating"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Separatist Beer Project South Philly",
+    "address": "1646 S 12th St, Philadelphia, PA 19148",
+    "neighborhood": "South Philadelphia"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.inquirer.com/food/separatist-beer-project-joe-fay-south-philadelphia-easton-20190410.html",
+    "https://www.mapquest.com/us/pennsylvania/separatist-south-philly-422428158"
+  ],
+  "uncertain": [
+    "hours",
+    "website",
+    "whether still operating exactly as in 2019 coverage"
+  ],
+  "slug": "drink-farmhouse-ales-at-separatist-beer-project-in-south-phi",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9289227,
+    "lng": -75.1651087
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.429Z",
+  "model": "claude-sonnet-5-5"
+}

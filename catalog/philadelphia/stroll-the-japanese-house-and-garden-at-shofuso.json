@@ -1,0 +1,113 @@
+{
+  "slug": "stroll-the-japanese-house-and-garden-at-shofuso",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Stroll the Japanese house and garden at Shofuso",
+  "intent": "Escape into a quiet, traditional Japanese garden and tea house in West Fairmount Park.",
+  "description": "Shofuso is a 1950s Japanese-style house built with traditional techniques, set in a landscaped garden with a koi pond. Entry is by timed ticket (bookable up to four weeks ahead, sometimes available at the door) and it's open rain or shine.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "japanese garden",
+  "tags": [
+    "garden",
+    "japanese",
+    "quiet",
+    "timed-tickets",
+    "fall-foliage"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Shofuso Japanese Cultural Center",
+    "address": "Lansdowne Dr & Horticultural Dr, West Fairmount Park, Philadelphia, PA 19131",
+    "neighborhood": "West Fairmount Park"
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://japanphilly.org/shofuso/"
+    },
+    {
+      "kind": "booking",
+      "url": "https://japanphilly.org/shofuso/visit/"
+    }
+  ],
+  "sources": [
+    "https://japanphilly.org/shofuso/",
+    "https://japanphilly.org/shofuso/visit/",
+    "https://myphillypark.org/explore/parks/shofuso-japanese-house-garden/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "season end date (open for 2026 season; late-fall closure date not confirmed)"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.770Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,118 @@
+{
+  "title": "Hear The Philadelphia Orchestra perform Orff's Carmina burana",
+  "intent": "Experience a thunderous choral-orchestral classic in the Orchestra's home hall.",
+  "description": "The Philadelphia Orchestra performs Orff's Carmina burana at Marian Anderson Hall on the Kimmel Cultural Campus, part of its 2026-27 season. Expect a full orchestra and chorus in one of Philadelphia's best-known concert halls.",
+  "category": "music",
+  "kind": "event",
+  "subcategory": "orchestra",
+  "tags": [
+    "classical",
+    "kimmel",
+    "choral",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Marian Anderson Hall (Kimmel Cultural Campus)",
+    "address": "300 S Broad St, Philadelphia, PA 19102",
+    "neighborhood": "Avenue of the Arts"
+  },
+  "price_usd": {
+    "min": 60,
+    "max": 220
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-22",
+      "end": "2026-10-25"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-22",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-23",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-24",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-25",
+      "start": "14:00",
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.ensembleartsphilly.org/tickets-and-events"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.ensembleartsphilly.org/tickets-and-events/philadelphia-orchestra/2026-27-season"
+    }
+  ],
+  "sources": [
+    "https://www.ensembleartsphilly.org/tickets-and-events",
+    "https://www.ensembleartsphilly.org/tickets-and-events/philadelphia-orchestra/2026-27-season",
+    "https://www.stubhub.com/philadelphia-orchestra-philadelphia-tickets-10-25-2026/event/160590026/"
+  ],
+  "uncertain": [
+    "price_usd (based on resale listings; box office prices may be lower)",
+    "occurrence start times except Oct 25",
+    "duration_minutes",
+    "end times"
+  ],
+  "slug": "hear-the-philadelphia-orchestra-perform-orffs-carmina-burana",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9467456,
+    "lng": -75.1657393
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Theaters, performing arts, opera, ballet and orchestra",
+  "drafted_at": "2026-10-20T01:05:39.796Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,110 @@
+{
+  "title": "Laotian and Thai dishes at Vientiane Cafe in West Philly",
+  "intent": "Inexpensive Lao and Thai comfort food on Baltimore Avenue.",
+  "description": "Casual Lao and Thai restaurant on Baltimore Ave in West Philly, with a second Kensington location offering a menu with nothing over $20. Per its site, West Philly is open Tuesday to Saturday evenings.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "lao thai",
+  "tags": [
+    "cheap",
+    "lao",
+    "thai",
+    "west-philly"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Vientiane Cafe",
+    "address": "4728 Baltimore Ave, Philadelphia, PA 19143",
+    "neighborhood": "West Philadelphia"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "16:00",
+      "close": "21:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.vientiane-cafe.com/locations"
+    }
+  ],
+  "sources": [
+    "https://www.vientiane-cafe.com/locations",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d893578-Reviews-Vientiane_Cafe-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "Whether it is BYOB currently",
+    "Conflicting hours across listings (Tripadvisor shows lunch and dinner)"
+  ],
+  "slug": "laotian-and-thai-dishes-at-vientiane-cafe-in-west-philly",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9482948,
+    "lng": -75.2179032
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cheap eats and BYOB restaurants",
+  "drafted_at": "2026-10-20T00:32:14.792Z",
+  "model": "claude-sonnet-5-5"
+}

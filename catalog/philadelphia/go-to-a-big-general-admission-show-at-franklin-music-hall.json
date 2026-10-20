@@ -1,0 +1,83 @@
+{
+  "title": "Go to a big general-admission show at Franklin Music Hall",
+  "intent": "See a bigger touring rock, hip-hop or electronic act in a historic standing-room hall.",
+  "description": "The former Electric Factory, with a capacity of roughly 2,500 to 3,000 and general admission. It hosts rock, indie, hip-hop and electronic tours; November listings include Trippie Redd, RoA and Action Bronson.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "rock",
+  "tags": [
+    "large-standing-room",
+    "callowhill",
+    "touring-acts"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Franklin Music Hall",
+    "address": "421 N 7th St, Philadelphia, PA 19123",
+    "neighborhood": "Callowhill"
+  },
+  "price_usd": {
+    "min": 30,
+    "max": 85
+  },
+  "duration_minutes": {
+    "min": 150,
+    "max": 210
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.franklinmusichall.com"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Franklin_Music_Hall",
+    "https://www.bandsintown.com/v/10001984-franklin-music-hall",
+    "https://www.ticketmaster.com/franklin-music-hall-tickets-philadelphia/venue/16428"
+  ],
+  "uncertain": [
+    "price_usd",
+    "website URL not directly verified"
+  ],
+  "slug": "go-to-a-big-general-admission-show-at-franklin-music-hall",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9591981,
+    "lng": -75.1496846
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.508Z",
+  "model": "claude-sonnet-5-5"
+}

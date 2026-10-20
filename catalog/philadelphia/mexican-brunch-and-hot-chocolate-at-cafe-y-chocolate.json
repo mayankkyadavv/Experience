@@ -1,0 +1,122 @@
+{
+  "title": "Mexican brunch and hot chocolate at Café y Chocolate",
+  "intent": "Mexican brunch plates and rich hot chocolate in South Philly.",
+  "description": "Café y Chocolate is a small South Philly Mexican cafe serving brunch dishes, enchiladas, tortas, churros and traditional hot chocolate. It accepts online reservations.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "mexican",
+    "hot-chocolate",
+    "reservations"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Café y Chocolate",
+    "address": "1532 Snyder Ave, Philadelphia, PA 19145",
+    "neighborhood": "Girard Estates"
+  },
+  "price_usd": {
+    "min": 12,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://joe.coffee/locations/pa/philadelphia/caf-y-chocolate-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/caf%C3%A9-y-chocolate-philadelphia-2?start=160",
+    "https://southphillyreview.com/2026/10/16/best-breakfast-philadelphia/",
+    "https://www.visitphilly.com/articles/philadelphia/best-brunch-spots-in-philadelphia/"
+  ],
+  "uncertain": [
+    "Hours confirmed for Mon-Tue only; assumed daily",
+    "official website",
+    "price_usd"
+  ],
+  "slug": "mexican-brunch-and-hot-chocolate-at-cafe-y-chocolate",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.924596,
+    "lng": -75.1726619
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.866Z",
+  "model": "claude-sonnet-5-5"
+}

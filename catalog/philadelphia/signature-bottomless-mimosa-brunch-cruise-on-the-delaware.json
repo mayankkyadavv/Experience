@@ -1,0 +1,78 @@
+{
+  "slug": "signature-bottomless-mimosa-brunch-cruise-on-the-delaware",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Signature bottomless mimosa brunch cruise on the Delaware",
+  "intent": "Two-hour brunch cruise along the Delaware River with bottomless mimosas.",
+  "description": "City Cruises runs a Signature Bottomless Mimosa Brunch Cruise on the Delaware River in Philadelphia lasting about two hours. A cash bar with cocktails, wine and beer and window-table upgrades are available.",
+  "category": "attraction",
+  "kind": "activity",
+  "subcategory": "brunch cruise",
+  "tags": [
+    "cruise",
+    "bottomless",
+    "river",
+    "special-occasion"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "City Cruises Philadelphia (Penn's Landing)",
+    "address": null,
+    "neighborhood": "Penn's Landing"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 12
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.cityexperiences.com/philadelphia/city-cruises/brunch-cruise/"
+    }
+  ],
+  "sources": [
+    "https://www.cityexperiences.com/philadelphia/city-cruises/brunch-cruise/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "address / boarding dock",
+    "schedule and seasonal run dates"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.867Z",
+  "model": "claude-sonnet-5-5"
+}

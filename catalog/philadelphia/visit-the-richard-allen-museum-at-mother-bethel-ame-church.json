@@ -1,0 +1,95 @@
+{
+  "title": "Visit the Richard Allen Museum at Mother Bethel AME Church",
+  "intent": "Learn about the founder of the AME Church at the oldest Black-owned parcel of land in the US.",
+  "description": "Mother Bethel, founded in 1787, sits on the oldest parcel of land continuously owned by African Americans. The lower-level museum is open on weekends and by weekday guided tour appointment.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "historic church",
+  "tags": [
+    "history",
+    "black-history",
+    "church",
+    "society-hill",
+    "weekend"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Mother Bethel AME Church / Richard Allen Museum",
+    "address": "419 S 6th St, Philadelphia, PA 19147",
+    "neighborhood": "Society Hill"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 15
+  },
+  "hours": [
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "14:00"
+    },
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "13:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://motherbethel.org/museum/"
+    }
+  ],
+  "sources": [
+    "https://www.phlvisitorcenter.com/mother-bethel-african-methodist-episcopal-ame-church",
+    "https://motherbethel.org/museum/"
+  ],
+  "uncertain": [
+    "Admission (likely free or donation-based, not confirmed)",
+    "Whether Sunday hours include worship services"
+  ],
+  "slug": "visit-the-richard-allen-museum-at-mother-bethel-ame-church",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9433248,
+    "lng": -75.1517607
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.672Z",
+  "model": "claude-sonnet-5-5"
+}

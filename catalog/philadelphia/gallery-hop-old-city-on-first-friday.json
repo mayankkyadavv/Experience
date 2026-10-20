@@ -1,0 +1,101 @@
+{
+  "slug": "gallery-hop-old-city-on-first-friday",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Gallery-hop Old City on First Friday",
+  "intent": "Free openings, wine and new shows across Old City's galleries on the first Friday of the month.",
+  "description": "On the first Friday of each month, Old City galleries open new exhibitions, design showrooms and shops stay open late, often with refreshments. Many openings run roughly 5-8 pm. Upcoming 2026 dates include Nov 6 and Dec 4.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "gallery walk",
+  "tags": [
+    "first-friday",
+    "free",
+    "galleries",
+    "old-city",
+    "evening"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Old City Arts District",
+    "address": null,
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-06",
+      "end": "2026-12-04"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-06",
+      "start": "17:00",
+      "end": "20:00"
+    },
+    {
+      "date": "2026-12-04",
+      "start": "17:00",
+      "end": "20:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.oldcitydistrict.org/first-friday"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.visitphilly.com/things-to-do/events/first-friday/"
+    }
+  ],
+  "sources": [
+    "https://www.oldcitydistrict.org/first-friday",
+    "https://www.visitphilly.com/things-to-do/events/first-friday/",
+    "https://www.oldcitydistrict.org/events/old-city-gallery-walk-first-friday"
+  ],
+  "uncertain": [
+    "Dec 4 date inferred (source list was truncated)",
+    "exact hours per gallery (5-8pm based on past years)",
+    "duration_minutes"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.544Z",
+  "model": "claude-sonnet-5-5"
+}

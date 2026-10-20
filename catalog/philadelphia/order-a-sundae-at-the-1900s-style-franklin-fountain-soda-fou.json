@@ -1,0 +1,123 @@
+{
+  "title": "Order a sundae at the 1900s-style Franklin Fountain soda fountain",
+  "intent": "Old-fashioned ice cream parlor experience with sundaes, egg creams and house-made syrups.",
+  "description": "Recreation of a 1900s ice cream parlor on Old City's Confectionery Row, with costumed staff, marble counters, hand-made sundaes, sodas and shakes. Since April 2026 it has been rolling out six new flavors a month. Lines are common on weekend evenings.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "ice cream parlor",
+  "tags": [
+    "old-fashioned",
+    "iconic",
+    "late-night",
+    "old-city",
+    "tourist-friendly"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Franklin Fountain",
+    "address": "116 Market St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 7,
+    "max": 16
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "00:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://franklinfountain.com"
+    }
+  ],
+  "sources": [
+    "https://www.nbcphiladelphia.com/entertainment/the-scene/charcuterie-flavored-ice-cream-franklin-fountain-philadelphia/4377553/",
+    "https://www.yelp.com/biz/the-franklin-fountain-philadelphia",
+    "https://nextdoor.com/pages/the-franklin-fountain-philadelphia-pa/"
+  ],
+  "uncertain": [
+    "hours (sources conflict on opening time and Fri/Sat closing; some list 1am-2am late closings)",
+    "price_usd estimated"
+  ],
+  "slug": "order-a-sundae-at-the-1900s-style-franklin-fountain-soda-fou",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9495571,
+    "lng": -75.1429288
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.077Z",
+  "model": "claude-sonnet-5-5"
+}

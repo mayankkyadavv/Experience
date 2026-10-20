@@ -1,0 +1,87 @@
+{
+  "title": "Speakeasy jazz lounge at Midnight & The Wicked",
+  "intent": "Spend a glamorous 1920s-style night with live music and craft cocktails.",
+  "description": "An underground Center City cocktail lounge with a 1920s jazz room of dark wood and red velvet banquettes, plus an adjacent club with a DJ. It has four distinct spaces and live music.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "speakeasy",
+  "tags": [
+    "speakeasy",
+    "jazz",
+    "cocktails",
+    "underground",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Midnight & The Wicked",
+    "address": "1500 Sansom St, Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 20,
+    "max": 70
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/midnight-and-the-wicked-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.alcoholprofessor.com/blog-posts/underground-bar-midnight-the-wicked-philadelphia",
+    "https://www.opentable.com/r/midnight-and-the-wicked-philadelphia",
+    "https://thevendry.com/venue/273741/midnight-the-wicked-philadelphia-pa"
+  ],
+  "uncertain": [
+    "hours",
+    "which nights have live jazz",
+    "official website"
+  ],
+  "slug": "speakeasy-jazz-lounge-at-midnight-the-wicked",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.950256,
+    "lng": -75.165948
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.188Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,86 @@
+{
+  "title": "See The Little Prince at the Wilma Theater",
+  "intent": "See an inventive stage adaptation of a children's classic at an adventurous Broad Street theater.",
+  "description": "The Wilma Theater's 2026-27 season includes Rick Cummins and John Scoullar's adaptation of The Little Prince, directed by Yury Urnov. Listed run is Nov 17 to Dec 6, per a casting notice.",
+  "category": "arts_culture",
+  "kind": "event",
+  "subcategory": "play",
+  "tags": [
+    "adaptation",
+    "family-friendly",
+    "avenue-of-the-arts"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Wilma Theater",
+    "address": "265 S Broad St, Philadelphia, PA 19107",
+    "neighborhood": "Avenue of the Arts"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-17",
+      "end": "2026-12-06"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.wilmatheater.org/"
+    }
+  ],
+  "sources": [
+    "https://www.backstage.com/casting/the-wilma-theater-2026-27-season-philadelphia-epa-3137638/",
+    "https://www.broadwayworld.com/philadelphia/article/The-Wilma-Theater-Reveals-2026-27-Season-HORSEGIRL-COWDADDY-World-Premiere-and-More-20260326"
+  ],
+  "uncertain": [
+    "price_usd",
+    "duration_minutes",
+    "performance times",
+    "exact run dates (from casting notice)",
+    "website URL not verified from search"
+  ],
+  "slug": "see-the-little-prince-at-the-wilma-theater",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9471856,
+    "lng": -75.1643043
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Theaters, performing arts, opera, ballet and orchestra",
+  "drafted_at": "2026-10-20T01:05:39.798Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Catch an underground rave at Warehouse on Watts",
+  "intent": "Warehouse-style electronic, disco and dark-techno nights in a dedicated North Philly venue.",
+  "description": "Multi-room warehouse venue in Callowhill/North Philly hosting event-based dance nights, from disco-house parties to dark electronic 'hell rave' nights, typically 9 p.m. to 2 a.m. Check the venue calendar or Resident Advisor for the specific night and tickets.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "warehouse / rave",
+  "tags": [
+    "rave",
+    "electronic",
+    "techno",
+    "ticketed",
+    "event-based"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Warehouse on Watts",
+    "address": "923-29 N Watts St, Philadelphia, PA 19123",
+    "neighborhood": "Callowhill"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 300
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://ra.co/events/2521764"
+    }
+  ],
+  "sources": [
+    "https://ra.co/events/2521764",
+    "https://ra.co/events/2505590",
+    "https://www.jambase.com/venue/warehouse-on-watts"
+  ],
+  "uncertain": [
+    "ticket prices",
+    "specific upcoming dates (only past dates seen, plus a Nov 11 2026 concert)",
+    "official website"
+  ],
+  "slug": "catch-an-underground-rave-at-warehouse-on-watts",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9693986,
+    "lng": -75.1590396
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance clubs, DJ nights and late-night spots",
+  "drafted_at": "2026-10-20T01:12:51.156Z",
+  "model": "claude-sonnet-5-5"
+}

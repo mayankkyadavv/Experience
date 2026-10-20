@@ -1,0 +1,113 @@
+{
+  "title": "See free exhibitions at the Galleries at Moore College of Art & Design",
+  "intent": "Duck into a free contemporary art gallery on the Parkway.",
+  "description": "Free, walk-in, self-guided galleries at Moore College on Race Street, with rotating exhibitions. Check the site for current shows as the galleries close between installations.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "art gallery",
+  "tags": [
+    "rainy-day",
+    "free",
+    "gallery",
+    "indoor",
+    "parkway"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Galleries at Moore College of Art & Design",
+    "address": "1916 Race St, Philadelphia, PA 19103",
+    "neighborhood": "Logan Square"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://moore.edu/the-galleries-at-moore/visit/"
+    }
+  ],
+  "sources": [
+    "https://moore.edu/the-galleries-at-moore/visit/",
+    "https://www.visitphilly.com/articles/philadelphia/top-free-philadelphia-attractions/"
+  ],
+  "uncertain": [
+    "group_size",
+    "current exhibition"
+  ],
+  "slug": "see-free-exhibitions-at-the-galleries-at-moore-college-of-ar",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9568373,
+    "lng": -75.1720755
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.123Z",
+  "model": "claude-sonnet-5-5"
+}

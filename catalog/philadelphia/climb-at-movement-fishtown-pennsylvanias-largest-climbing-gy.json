@@ -1,0 +1,122 @@
+{
+  "title": "Climb at Movement Fishtown, Pennsylvania's largest climbing gym",
+  "intent": "Spend a few hours on a huge wall and bouldering floor with fitness and yoga options.",
+  "description": "A 41,000+ sq ft climbing, yoga and fitness facility in the Fishtown area that bills itself as Pennsylvania's largest climbing gym. It offers bouldering, top-rope and lead climbing, with day passes listed from about $28.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "rock climbing",
+  "tags": [
+    "indoor",
+    "rainy-day",
+    "beginner-friendly",
+    "bouldering",
+    "year-round"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Movement Fishtown",
+    "address": "1700 N American St, Philadelphia, PA 19122",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 28,
+    "max": 38
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "06:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "06:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "06:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "06:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "06:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "20:00"
+    },
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "20:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://movementgyms.com/fishtown/"
+    }
+  ],
+  "sources": [
+    "https://movementgyms.com/fishtown/",
+    "https://www.indoorclimbinggym.com/gyms/movement-fishtown-philadelphia/",
+    "https://6abc.com/post/movement-gym-fishtown-is-pennsylvania-s-largest-rock-climbing/18677221/"
+  ],
+  "uncertain": [
+    "exact day-pass price and rental costs at Fishtown location"
+  ],
+  "slug": "climb-at-movement-fishtown-pennsylvanias-largest-climbing-gy",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9790561,
+    "lng": -75.1389113
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks",
+  "drafted_at": "2026-10-20T00:33:19.249Z",
+  "model": "claude-sonnet-5-5"
+}

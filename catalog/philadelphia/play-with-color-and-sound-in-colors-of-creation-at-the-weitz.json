@@ -1,0 +1,79 @@
+{
+  "title": "Play with color and sound in Colors of Creation at the Weitzman Museum",
+  "intent": "Playful sensory exhibit for kids at the National Museum of American Jewish History.",
+  "description": "The Weitzman National Museum of American Jewish History recently opened Colors of Creation, a permanent family-friendly sensory environment with immersive color, music and hands-on activities.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "museum exhibit",
+  "tags": [
+    "indoor",
+    "sensory",
+    "hands-on",
+    "independence-mall"
+  ],
+  "good_for": [
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Weitzman National Museum of American Jewish History",
+    "address": "101 S Independence Mall E, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.nmajh.org"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/top-events-and-festivals-in-philadelphia/"
+  ],
+  "uncertain": [
+    "hours",
+    "price",
+    "address and website not verified on fetched pages"
+  ],
+  "slug": "play-with-color-and-sound-in-colors-of-creation-at-the-weitz",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9538942,
+    "lng": -75.1481972
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Family-friendly and kid-friendly activities",
+  "drafted_at": "2026-10-20T00:34:18.069Z",
+  "model": "claude-sonnet-5-5"
+}

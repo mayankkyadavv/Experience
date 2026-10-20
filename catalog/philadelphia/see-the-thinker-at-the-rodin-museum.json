@@ -1,0 +1,107 @@
+{
+  "title": "See The Thinker at the Rodin Museum",
+  "intent": "Visit the largest Rodin collection outside Paris in a small, pay-what-you-wish garden museum.",
+  "description": "A Parisian-style building and garden on the Parkway with more than 100 Rodin works, including The Thinker, The Kiss and The Gates of Hell. Admission is pay what you wish, with a suggested price. It's a short visit and easy to pair with the Philadelphia Museum of Art.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "sculpture museum",
+  "tags": [
+    "pay-what-you-wish",
+    "garden",
+    "short-visit",
+    "parkway"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Rodin Museum",
+    "address": "2151 Benjamin Franklin Pkwy, Philadelphia, PA 19130",
+    "neighborhood": "Logan Square / Parkway"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.philamuseum.org/rodin-museum"
+    }
+  ],
+  "sources": [
+    "https://www.philamuseum.org/rodin-museum",
+    "https://gocity.com/en/philadelphia/attractions/rodin-museum",
+    "https://travel.usnews.com/Philadelphia_PA/Things_To_Do/Rodin_Museum_64318/"
+  ],
+  "uncertain": [
+    "Days open (sources differ on Wed-Thu vs Fri-Mon; PMA page shows Tue/Wed closed, Mon/Fri-Sun open)",
+    "Suggested donation ($12 vs $15)"
+  ],
+  "slug": "see-the-thinker-at-the-rodin-museum",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9619295,
+    "lng": -75.1739508
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.030Z",
+  "model": "claude-sonnet-5-5"
+}

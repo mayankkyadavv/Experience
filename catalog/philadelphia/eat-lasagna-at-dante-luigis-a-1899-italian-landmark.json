@@ -1,0 +1,117 @@
+{
+  "title": "Eat lasagna at Dante & Luigi's, a 1899 Italian landmark",
+  "intent": "Historic Bella Vista red-sauce restaurant with from-scratch sauces and big portions.",
+  "description": "Established in 1899, Dante & Luigi's is among the oldest Italian restaurants in the US and made Philadelphia magazine's 50 Best list. Expect lasagna, osso buco, fresh seafood and a full wine list in a classic dining room.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "italian",
+  "tags": [
+    "historic",
+    "red-sauce",
+    "old-school",
+    "group-friendly",
+    "italian-market"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Dante & Luigi's",
+    "address": "762 S 10th St, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 55
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "21:30"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "21:30"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "21:30"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "22:30"
+    },
+    {
+      "day": 6,
+      "open": "16:00",
+      "close": "22:30"
+    },
+    {
+      "day": 0,
+      "open": "16:00",
+      "close": "21:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://danteandluigis.com/"
+    }
+  ],
+  "sources": [
+    "https://danteandluigis.com/",
+    "https://www.inquirer.com/food/restaurants/dante-and-luigis/",
+    "https://www.yelp.com/biz/dante-and-luigis-philadelphia"
+  ],
+  "uncertain": [
+    "price per person estimate"
+  ],
+  "slug": "eat-lasagna-at-dante-luigis-a-1899-italian-landmark",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9405027,
+    "lng": -75.1592404
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in South Philly, East Passyunk and Bella Vista",
+  "drafted_at": "2026-10-20T01:15:44.429Z",
+  "model": "claude-sonnet-5-5"
+}

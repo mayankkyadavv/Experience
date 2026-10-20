@@ -1,0 +1,120 @@
+{
+  "title": "Drink in the Library Bar at the Rittenhouse Hotel",
+  "intent": "Dress up for inventive cocktails in a plush, library-themed hotel bar.",
+  "description": "A luxe, library-styled bar inside The Rittenhouse Hotel overlooking Rittenhouse Square, with a menu of inventive high-style cocktails. Often described as a hidden gem among Philly hotel bars.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "hotel bar",
+  "tags": [
+    "hotel-bar",
+    "elegant",
+    "rittenhouse",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Library Bar at The Rittenhouse",
+    "address": "210 W Rittenhouse Sq, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse Square"
+  },
+  "price_usd": {
+    "min": 18,
+    "max": 28
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "16:00",
+      "close": "00:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.rittenhousehotel.com/blog/best-drinks-in-philly-at-library-bar"
+    }
+  ],
+  "sources": [
+    "https://www.rittenhousehotel.com/blog/best-drinks-in-philly-at-library-bar",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d8466531-Reviews-The_Library_Bar_at_the_Rittenhouse-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "hours (aggregators conflict; Fri/Sat times unverified)",
+    "price"
+  ],
+  "slug": "drink-in-the-library-bar-at-the-rittenhouse-hotel",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9498637,
+    "lng": -75.1734752
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cocktail bars and speakeasies worth going to on purpose",
+  "drafted_at": "2026-10-20T00:34:55.453Z",
+  "model": "claude-sonnet-5-5"
+}

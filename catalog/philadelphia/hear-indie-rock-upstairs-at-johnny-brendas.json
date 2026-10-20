@@ -1,0 +1,124 @@
+{
+  "title": "Hear indie rock upstairs at Johnny Brenda's",
+  "intent": "Get close to rising indie acts, then eat or drink downstairs.",
+  "description": "A Fishtown gastropub with a roughly 250-capacity music room upstairs. It books indie rock and national tours most nights, with local beer, a kitchen open to 1am and weekend brunch.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "indie rock",
+  "tags": [
+    "intimate",
+    "fishtown",
+    "gastropub",
+    "local-beer"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Johnny Brenda's",
+    "address": "1201 Frankford Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 40
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "02:00"
+    },
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "02:00"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "02:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "02:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "02:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://johnnybrendas.com"
+    },
+    {
+      "kind": "instagram",
+      "url": "https://www.instagram.com/johnnybrendas/"
+    }
+  ],
+  "sources": [
+    "https://johnnybrendas.com/menu-2/",
+    "https://phillyprgirl.com/2025/09/09/the-best-venues-in-philly-to-catch-live-music-close-up/",
+    "https://www.songkick.com/venues/254-johnny-brendas"
+  ],
+  "uncertain": [
+    "price_usd (ticket prices vary by show)"
+  ],
+  "slug": "hear-indie-rock-upstairs-at-johnny-brendas",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9691525,
+    "lng": -75.1342216
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.507Z",
+  "model": "claude-sonnet-5-5"
+}

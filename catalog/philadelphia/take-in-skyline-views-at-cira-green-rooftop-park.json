@@ -1,0 +1,122 @@
+{
+  "title": "Take in skyline views at Cira Green rooftop park",
+  "intent": "Catch a free sunset view of Center City from a park in the sky.",
+  "description": "An elevated, privately owned but publicly accessible park atop a parking garage near 30th Street Station, open year-round with skyline views and lawn seating. A seasonal restaurant and occasional beer-garden pop-ups operate in warmer months.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "rooftop park",
+  "tags": [
+    "free",
+    "views",
+    "sunset",
+    "university-city",
+    "photo-spot"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Cira Green",
+    "address": "80 S 30th St, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "07:00",
+      "close": "20:00"
+    },
+    {
+      "day": 1,
+      "open": "07:00",
+      "close": "20:00"
+    },
+    {
+      "day": 2,
+      "open": "07:00",
+      "close": "20:00"
+    },
+    {
+      "day": 3,
+      "open": "07:00",
+      "close": "20:00"
+    },
+    {
+      "day": 4,
+      "open": "07:00",
+      "close": "20:00"
+    },
+    {
+      "day": 5,
+      "open": "07:00",
+      "close": "20:00"
+    },
+    {
+      "day": 6,
+      "open": "07:00",
+      "close": "20:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://files.brandywinerealty.com/files/001347.pdf"
+    }
+  ],
+  "sources": [
+    "https://files.brandywinerealty.com/files/001347.pdf",
+    "https://www.spottedbylocals.com/philadelphia/cira-green/",
+    "https://www.yelp.com/biz/cira-green-philadelphia?start=20"
+  ],
+  "uncertain": [
+    "Hours are from Yelp and may shift seasonally (earlier closing in winter)"
+  ],
+  "slug": "take-in-skyline-views-at-cira-green-rooftop-park",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9542874,
+    "lng": -75.1836533
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.671Z",
+  "model": "claude-sonnet-5-5"
+}

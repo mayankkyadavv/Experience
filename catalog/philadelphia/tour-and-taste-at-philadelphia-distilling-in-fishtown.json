@@ -1,0 +1,109 @@
+{
+  "title": "Tour and taste at Philadelphia Distilling in Fishtown",
+  "intent": "See how Bluecoat gin is made, then taste spirits and cocktails.",
+  "description": "Philadelphia Distilling, the city's first post-Prohibition distillery, offers behind-the-scenes tours that meet the distillers, cover the history of distilling in Pennsylvania and include tastings. There is also a cocktail bar and lounge, a retail store and occasional cocktail classes.",
+  "category": "bar",
+  "kind": "activity",
+  "subcategory": "distillery tour",
+  "tags": [
+    "distillery",
+    "tasting",
+    "gin",
+    "fishtown",
+    "cocktails"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Distilling",
+    "address": "25 E Allen St, Philadelphia, PA 19123",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 20
+  },
+  "hours": [
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 6,
+      "open": "13:00",
+      "close": "23:00"
+    },
+    {
+      "day": 0,
+      "open": "13:00",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.philadelphiadistilling.com/"
+    },
+    {
+      "kind": "booking",
+      "url": "https://www.philadelphiadistilling.com/book-a-tour"
+    }
+  ],
+  "sources": [
+    "https://www.philadelphiadistilling.com/book-a-tour",
+    "https://www.timeout.com/philadelphia/bars/philadelphia-distilling"
+  ],
+  "uncertain": [
+    "per-person tour price",
+    "current tour times (Time Out lists Thu/Fri 6pm and Sat/Sun 2, 4, 6pm)",
+    "tour duration",
+    "group size"
+  ],
+  "slug": "tour-and-taste-at-philadelphia-distilling-in-fishtown",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9655219,
+    "lng": -75.1351836
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.729Z",
+  "model": "claude-sonnet-5-5"
+}

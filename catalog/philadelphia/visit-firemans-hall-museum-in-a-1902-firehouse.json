@@ -1,0 +1,114 @@
+{
+  "title": "Visit Fireman's Hall Museum in a 1902 firehouse",
+  "intent": "See antique fire engines and firefighting history for free.",
+  "description": "A free museum in a renovated 1902 Old City fire station telling the story of firefighting, which began in Philadelphia with Ben Franklin's brigade in 1736. Open Tuesday through Sunday.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "history museum",
+  "tags": [
+    "free",
+    "family-friendly",
+    "historic",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "family",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Fireman's Hall Museum",
+    "address": "147 N 2nd St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.firemanshallmuseum.org/hours-admission/"
+    }
+  ],
+  "sources": [
+    "https://www.firemanshallmuseum.org/hours-admission/"
+  ],
+  "uncertain": [
+    "Yelp lists Sunday closed; official site says Tue-Sun"
+  ],
+  "slug": "visit-firemans-hall-museum-in-a-1902-firehouse",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9532957,
+    "lng": -75.1428054
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.032Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,125 @@
+{
+  "title": "Southern-style daily brunch at Booker's in West Philly",
+  "intent": "Southern-leaning brunch with bourbon cocktails every day.",
+  "description": "Booker's is a West Philadelphia bistro serving New American comfort food with Southern flair. Brunch is served daily from 10 a.m. to 2:30 p.m., with options like shrimp and grits, chicken and waffles and huevos rancheros.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "southern",
+    "west-philly",
+    "cocktails"
+  ],
+  "good_for": [
+    "friends",
+    "family",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Booker's Restaurant & Bar",
+    "address": "5021 Baltimore Ave, Philadelphia, PA 19143",
+    "neighborhood": "Cedar Park"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 100
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "14:30"
+    },
+    {
+      "day": 1,
+      "open": "10:00",
+      "close": "14:30"
+    },
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "14:30"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "14:30"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "14:30"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "14:30"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "14:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://bookersrestaurantandbar.com/brunch-menu/"
+    },
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/bookers-restaurant-and-bar-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://bookersrestaurantandbar.com/brunch-menu/",
+    "https://www.visitphilly.com/articles/philadelphia/best-brunch-spots-in-philadelphia/"
+  ],
+  "uncertain": [
+    "hours shown are brunch window; restaurant open later for dinner",
+    "price_usd"
+  ],
+  "slug": "southern-style-daily-brunch-at-bookers-in-west-philly",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9479899,
+    "lng": -75.2242528
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.866Z",
+  "model": "claude-sonnet-5-5"
+}

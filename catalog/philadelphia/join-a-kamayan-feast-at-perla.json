@@ -1,0 +1,112 @@
+{
+  "title": "Join a kamayan feast at Perla",
+  "intent": "Hands-on Filipino feast served on banana leaves at a BYOB on East Passyunk.",
+  "description": "Perla is a Filipino BYOB in South Philly; on Wednesdays and Sundays it serves a kamayan feast, eaten by hand off communal banana leaves. Other nights offer a modern Filipino à la carte menu.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "filipino",
+  "tags": [
+    "byob",
+    "kamayan",
+    "communal",
+    "date-night",
+    "unusual"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Perla",
+    "address": "1535 S 11th St, Philadelphia, PA 19147",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": {
+    "min": 30,
+    "max": 75
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 135
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "16:00",
+      "close": "21:00"
+    },
+    {
+      "day": 0,
+      "open": "16:00",
+      "close": "20:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.yelp.com/biz/perla-philadelphia-2"
+    }
+  ],
+  "sources": [
+    "https://maps.apple.com/place?place-id=I7EBAC11B3B3C426C",
+    "https://www.yelp.com/biz/perla-philadelphia-2"
+  ],
+  "uncertain": [
+    "official website",
+    "kamayan price",
+    "reservation requirements"
+  ],
+  "slug": "join-a-kamayan-feast-at-perla",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9299262,
+    "lng": -75.1629425
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in South Philly, East Passyunk and Bella Vista",
+  "drafted_at": "2026-10-20T01:15:44.430Z",
+  "model": "claude-sonnet-5-5"
+}

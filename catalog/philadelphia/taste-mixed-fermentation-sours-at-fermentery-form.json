@@ -1,0 +1,93 @@
+{
+  "title": "Taste mixed-fermentation sours at Fermentery Form",
+  "intent": "Hunt down one of Philly's most distinctive small sour and farmhouse beer producers.",
+  "description": "Fermentery Form is a tiny West Kensington fermentery and blendery known for tart farmhouse ales and mixed-fermentation beers, with a small tasting room tucked down an alley. Hours are limited and sometimes change, so check Instagram first.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "sour",
+    "unusual",
+    "small-batch",
+    "limited-hours"
+  ],
+  "good_for": [
+    "friends",
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Fermentery Form",
+    "address": "1700 Palethorp St, Philadelphia, PA 19122",
+    "neighborhood": "West Kensington"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "instagram",
+      "url": "https://www.instagram.com/fermentery_form/"
+    }
+  ],
+  "sources": [
+    "https://www.instagram.com/fermentery_form/",
+    "https://www.hopculture.com/best-craft-breweries-philadelphia-pennsylvania/",
+    "https://www.phillymag.com/foobooz/2017/11/09/fermentery-form-kensington/"
+  ],
+  "uncertain": [
+    "hours vary; 'unless otherwise stated'",
+    "website"
+  ],
+  "slug": "taste-mixed-fermentation-sours-at-fermentery-form",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9783522,
+    "lng": -75.1371063
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.428Z",
+  "model": "claude-sonnet-5-5"
+}

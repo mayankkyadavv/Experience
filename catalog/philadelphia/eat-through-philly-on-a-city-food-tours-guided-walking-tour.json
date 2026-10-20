@@ -1,0 +1,89 @@
+{
+  "slug": "eat-through-philly-on-a-city-food-tours-guided-walking-tour",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Eat through Philly on a City Food Tours guided walking tour",
+  "intent": "Sample classic Philly bites with a local guide and some history along the way.",
+  "description": "City Food Tours bills itself as Philly's original food tour and runs several guided walks, including Flavors of Philly (Old City history plus a full lunch), a Chinatown tour, a breakfast tour and a Reading Terminal Market tour. Tours run roughly 45 minutes to 3 hours depending on the route.",
+  "category": "food",
+  "kind": "activity",
+  "subcategory": "food tour",
+  "tags": [
+    "walking-tour",
+    "guided",
+    "tasting",
+    "good-for-visitors"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group",
+    "family",
+    "solo"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "City Food Tours Philadelphia (meeting points vary by tour)",
+    "address": null,
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 34,
+    "max": 105
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 15
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cityfoodtours.com/philadelphia"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.tripadvisor.com/Attraction_Review-g60795-d1098514-Reviews-City_Food_Tours_Philadelphia-Philadelphia_Pennsylvania.html"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d1098514-Reviews-City_Food_Tours_Philadelphia-Philadelphia_Pennsylvania.html",
+    "https://www.phillymag.com/restaurants/best-philly-food-tours/",
+    "https://www.visitphilly.com/articles/philadelphia/the-top-tours-of-philadelphia/"
+  ],
+  "uncertain": [
+    "official website URL not directly verified",
+    "meeting points",
+    "exact tour start times",
+    "group size"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.727Z",
+  "model": "claude-sonnet-5-5"
+}

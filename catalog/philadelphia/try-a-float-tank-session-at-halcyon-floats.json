@@ -1,0 +1,83 @@
+{
+  "title": "Try a float tank session at Halcyon Floats",
+  "intent": "Float weightless in a quiet private room to unwind.",
+  "description": "A float studio on the Fishtown/Kensington border with three private rooms. Each holds an Epsom-salt float tank and a shower. It also offers a private full-spectrum infrared sauna (listed at $34 for 40 minutes) and an oxygen bar.",
+  "category": "wellness",
+  "kind": "place",
+  "subcategory": "float therapy",
+  "tags": [
+    "float",
+    "sensory-deprivation",
+    "infrared-sauna",
+    "solo",
+    "unusual"
+  ],
+  "good_for": [
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Halcyon Floats",
+    "address": "1314 N Front St, Philadelphia, PA 19122",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 2
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.yelp.com/biz/halcyon-floats-philadelphia-3"
+    }
+  ],
+  "sources": [
+    "https://www.mapquest.com/us/pennsylvania/halcyon-floats-369362272",
+    "https://www.findmysauna.com/philadelphia",
+    "https://www.yelp.com/biz/halcyon-floats-philadelphia-3"
+  ],
+  "uncertain": [
+    "official website",
+    "float session price",
+    "weekly hours"
+  ],
+  "slug": "try-a-float-tank-session-at-halcyon-floats",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.97066,
+    "lng": -75.1357857
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Spas, saunas, bathhouses and wellness experiences",
+  "drafted_at": "2026-10-20T01:09:33.219Z",
+  "model": "claude-sonnet-5-5"
+}

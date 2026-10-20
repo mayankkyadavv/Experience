@@ -1,0 +1,85 @@
+{
+  "title": "Book a private Nordic-style sauna session at Formation in Northern Liberties",
+  "intent": "Get a quiet, private sauna session with a cold plunge, alone or with friends.",
+  "description": "A plant-filled, Nordic-inspired sauna and massage studio. Private sauna sessions run up to 90 minutes and include a cold shower, a complimentary cold plunge, a lounge, and lockers with towels and robes. Massage and sauna packages are also offered.",
+  "category": "wellness",
+  "kind": "place",
+  "subcategory": "sauna",
+  "tags": [
+    "sauna",
+    "cold-plunge",
+    "massage",
+    "private",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Formation Sauna + Wellness",
+    "address": "305 Brown St, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": {
+    "min": 85,
+    "max": 195
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.formationsauna.com/services"
+    }
+  ],
+  "sources": [
+    "https://www.formationsauna.com/services",
+    "https://www.phillymag.com/be-well-philly/sauna-cold-plunge-contrast-therapy/"
+  ],
+  "uncertain": [
+    "weekly hours",
+    "price: $85 for one to $195 for four for a sauna only; massage packages cost more"
+  ],
+  "slug": "book-a-private-nordic-style-sauna-session-at-formation-in-no",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9637692,
+    "lng": -75.1433937
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Spas, saunas, bathhouses and wellness experiences",
+  "drafted_at": "2026-10-20T01:09:33.218Z",
+  "model": "claude-sonnet-5-5"
+}

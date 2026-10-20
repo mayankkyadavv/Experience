@@ -1,0 +1,81 @@
+{
+  "title": "Roll a few frames of bocce at Bardascino Park",
+  "intent": "Free, old-school Italian-American bocce in Bella Vista.",
+  "description": "A public bocce court in Bella Vista, the best-known in the city; open to anyone when no league games are scheduled. Bring your own balls or check locally for equipment.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "bocce",
+  "tags": [
+    "bocce",
+    "free",
+    "outdoor",
+    "bella-vista",
+    "italian-market"
+  ],
+  "good_for": [
+    "friends",
+    "family",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Bardascino Park bocce court",
+    "address": "1000 S 10th St, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.phillymag.com/be-well-philly/bocce-ball-courts-philadelphia/"
+  ],
+  "uncertain": [
+    "whether equipment is provided",
+    "current league schedule",
+    "park hours"
+  ],
+  "slug": "roll-a-few-frames-of-bocce-at-bardascino-park",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.937387,
+    "lng": -75.159916
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.558Z",
+  "model": "claude-sonnet-5-5"
+}

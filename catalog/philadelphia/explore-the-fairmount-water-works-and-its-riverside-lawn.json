@@ -1,0 +1,102 @@
+{
+  "title": "Explore the Fairmount Water Works and its riverside lawn",
+  "intent": "Neoclassical waterworks on the Schuylkill with an interpretive center and trail access.",
+  "description": "The historic 19th-century pumping station by the Art Museum is now the Fairmount Water Works Interpretive Center, run by the Philadelphia Water Department, with exhibits on the urban watershed and hands-on Saturday drop-in activities. It sits right on the Schuylkill River Trail and Schuylkill Banks.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "interpretive center",
+  "tags": [
+    "history",
+    "riverside",
+    "family-friendly",
+    "rainy-day"
+  ],
+  "good_for": [
+    "family",
+    "date",
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Fairmount Water Works",
+    "address": "640 Waterworks Dr, Philadelphia, PA 19130",
+    "neighborhood": "Fairmount"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fairmountwaterworks.org/"
+    }
+  ],
+  "sources": [
+    "https://fairmountwaterworks.org/",
+    "https://www.watershedalliance.org/awe-centers/fairmount-water-works/"
+  ],
+  "uncertain": [
+    "admission price"
+  ],
+  "slug": "explore-the-fairmount-water-works-and-its-riverside-lawn",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9663439,
+    "lng": -75.1835601
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.359Z",
+  "model": "claude-sonnet-5-5"
+}

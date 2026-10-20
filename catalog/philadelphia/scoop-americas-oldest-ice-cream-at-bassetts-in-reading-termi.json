@@ -1,0 +1,123 @@
+{
+  "title": "Scoop America's oldest ice cream at Bassetts in Reading Terminal Market",
+  "intent": "Try Philadelphia-style ice cream from a brand dating to 1861 while exploring the market.",
+  "description": "Bassetts, founded in 1861 and based in Reading Terminal Market since the market opened, serves eggless Philadelphia-style ice cream in 40+ flavors. It has only this one storefront, making it an easy add-on to a market food crawl.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "ice cream",
+  "tags": [
+    "reading-terminal-market",
+    "historic",
+    "rainy-day",
+    "family-friendly"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Bassetts Ice Cream (Reading Terminal Market)",
+    "address": "45 N 12th St, Philadelphia, PA 19107",
+    "neighborhood": "Center City East"
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 12
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 30
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://bassettsicecream.com"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d2321510-Reviews-Bassetts_Ice_Cream-Philadelphia_Pennsylvania.html",
+    "https://6abc.com/post/a-century-of-ice-cream-at-bassetts/6309246/",
+    "https://en.wikipedia.org/wiki/Bassetts_Ice_Cream"
+  ],
+  "uncertain": [
+    "hours (from Tripadvisor; market itself is open 8am-6pm daily)",
+    "price_usd estimated"
+  ],
+  "slug": "scoop-americas-oldest-ice-cream-at-bassetts-in-reading-termi",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9523703,
+    "lng": -75.1596766
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.078Z",
+  "model": "claude-sonnet-5-5"
+}

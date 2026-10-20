@@ -1,0 +1,84 @@
+{
+  "title": "Linger over pastries at Thunder Mug Cafe in East Falls",
+  "intent": "A cozy European-style neighborhood cafe with coffee, tea and baked goods.",
+  "description": "Thunder Mug is a small East Falls cafe, opened in 2019, serving coffee, tea, pastries and lunch fare. It has a second Market location in Tacony.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "neighborhood cafe",
+  "tags": [
+    "cozy",
+    "pastries",
+    "east-falls",
+    "neighborhood-favorite"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Thunder Mug Cafe",
+    "address": "4233 Ridge Ave, Philadelphia, PA 19129",
+    "neighborhood": "East Falls"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 14
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thundermugcafe.com"
+    }
+  ],
+  "sources": [
+    "https://www.giftly.com/gift-card/thunder-mug-cafe-philadelphia",
+    "https://nextdoor.com/pages/thunder-mug-cafe-philadelphia-pa/",
+    "https://www.tagvenue.com/us/venues/philadelphia/29714/thunder-mug-cafe"
+  ],
+  "uncertain": [
+    "hours (sources conflict)"
+  ],
+  "slug": "linger-over-pastries-at-thunder-mug-cafe-in-east-falls",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.00936,
+    "lng": -75.19482
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.319Z",
+  "model": "claude-sonnet-5-5"
+}

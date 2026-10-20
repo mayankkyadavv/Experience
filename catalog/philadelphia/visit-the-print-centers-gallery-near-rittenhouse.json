@@ -1,0 +1,104 @@
+{
+  "title": "Visit The Print Center's gallery near Rittenhouse",
+  "intent": "Contemporary prints and photography in a free gallery, plus a store of local artists' work.",
+  "description": "A century-old nonprofit showing exhibitions of prints and photographs, with a gallery store carrying work by about 100 artists. Located just off Rittenhouse Square.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "photography/print gallery",
+  "tags": [
+    "free",
+    "photography",
+    "prints",
+    "rittenhouse",
+    "shop"
+  ],
+  "good_for": [
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Print Center",
+    "address": "1614 Latimer St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "18:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "18:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "18:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.yelp.com/biz/the-print-center-philadelphia",
+    "https://printcenterstore.myshopify.com/pages/about-us"
+  ],
+  "uncertain": [
+    "official hours (from Yelp)",
+    "official website URL",
+    "price (assumed free)",
+    "duration_minutes"
+  ],
+  "slug": "visit-the-print-centers-gallery-near-rittenhouse",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9481506,
+    "lng": -75.1685543
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.548Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,116 @@
+{
+  "title": "Grab Liberian jollof and a Nubian ale at Two Locals Brewing",
+  "intent": "Drink beer from Philly's first Black-owned brewery alongside some of the city's best brewery food.",
+  "description": "Two Locals Brewing, run by brothers Mengistu and Richard Koilor, has a spacious University City taproom with about a dozen beers on tap. Food from Liberty Kitchen includes tomato pie, hoagies and Liberian jollof rice.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "black-owned",
+    "brewery",
+    "food",
+    "university-city"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Two Locals Brewing Company",
+    "address": "3675 Market St, Suite 100, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 1,
+      "open": "15:00",
+      "close": "21:00"
+    },
+    {
+      "day": 2,
+      "open": "15:00",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "15:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "15:00",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://twolocalsbrewing.com"
+    }
+  ],
+  "sources": [
+    "https://northeasttimes.com/2026/08/04/the-best-brewery-taprooms-in-philadelphia-according-to-locals/",
+    "https://www.theinfatuation.com/philadelphia/guides/the-best-breweries-in-philadelphia",
+    "https://maps.apple.com/place?q=Two+Locals+Brewing&ll=39.9566039%2C-75.1951262&auid=8244939062883784353&lsp=9902&address=3675+Market+St%2C+Philadelphia%2C+PA++19104%2C+United+States"
+  ],
+  "uncertain": [],
+  "slug": "grab-liberian-jollof-and-a-nubian-ale-at-two-locals-brewing",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9568003,
+    "lng": -75.1951694
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.426Z",
+  "model": "claude-sonnet-5-5"
+}

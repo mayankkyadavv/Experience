@@ -1,0 +1,128 @@
+{
+  "title": "Putt past Philly landmarks at Franklin Square Mini Golf",
+  "intent": "Fun outdoor 18-hole round themed on Philly icons, spooky through Nov 1.",
+  "description": "Center City's 18-hole course with replicas of the Liberty Bell, LOVE statue, Elfreth's Alley and more. Through Nov 1 it runs as Spooky Mini Golf with fog and decor, plus a Boo-zy Bar Thursday–Sunday 5–9pm; tickets are $15 adults, $12 kids during the event.",
+  "category": "games",
+  "kind": "place",
+  "subcategory": "mini golf",
+  "tags": [
+    "mini-golf",
+    "outdoor",
+    "halloween",
+    "seasonal",
+    "family-friendly"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Franklin Square",
+    "address": "200 N 6th St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 12,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "10:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [
+    {
+      "start": "2026-10-01",
+      "end": "2026-11-01"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://historicphiladelphia.org/events/philly-mini-golf/"
+    }
+  ],
+  "sources": [
+    "https://www.phillyvoice.com/franklin-square-spooky-mini-golf-halloween-boozy-bar-philadelphia-2026/",
+    "https://historicphiladelphia.org/events/philly-mini-golf/",
+    "https://www.yelp.com/biz/franklin-square-mini-golf-philadelphia"
+  ],
+  "uncertain": [
+    "hours/prices after Nov 1 (Yelp lists regular hours 10am-7pm)",
+    "neighborhood approximate"
+  ],
+  "slug": "putt-past-philly-landmarks-at-franklin-square-mini-golf",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9556915,
+    "lng": -75.1501424
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Arcades, bowling, mini golf, axe throwing and escape rooms",
+  "drafted_at": "2026-10-20T00:27:35.842Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Eat a ricotta cannoli at Termini Bros Bakery",
+  "intent": "Classic South Philly Italian pastry run for cannoli, cookies and cakes.",
+  "description": "Family-run South Philly Italian bakery known for ricotta-filled cannoli, plus cookies, cakes and other pastries. The flagship is on S 8th St in Passyunk Square, with other locations elsewhere in the city.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "italian bakery",
+  "tags": [
+    "cannoli",
+    "south-philly",
+    "classic",
+    "cheap"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Termini Bros Bakery",
+    "address": "1523 S 8th St, Philadelphia, PA 19147",
+    "neighborhood": "Passyunk Square"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 30
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "19:00"
+    },
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "19:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "19:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "19:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.terminibros.com"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/termini-bros-bakery-philadelphia",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d839037-Reviews-Termini_Brothers_Bakery-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "hours (Tripadvisor shows earlier 7-8am openings and 6pm Sunday close)",
+    "website URL not confirmed in search",
+    "price_usd estimated"
+  ],
+  "slug": "eat-a-ricotta-cannoli-at-termini-bros-bakery",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9297728,
+    "lng": -75.1578453
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.078Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,90 @@
+{
+  "title": "Pasta at Elma, a tiny Southern Italian BYOB",
+  "intent": "Intimate chef-driven Southern Italian-meets-New American dinner.",
+  "description": "Chef James Nardone's small Fishtown BYOB on East Girard serves antipasti, handmade pastas and local ingredients. Seating is limited, so book ahead on Resy.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "italian",
+  "tags": [
+    "byob",
+    "italian",
+    "pasta",
+    "small"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Elma",
+    "address": "431 E Girard Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 40,
+    "max": 70
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://resy.com/cities/philadelphia-pa/venues/elma"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.toasttab.com/local/elmaphilly/r-57c17ccf-1605-4e2a-95e5-ea5b4282b231"
+    }
+  ],
+  "sources": [
+    "https://resy.com/cities/philadelphia-pa/venues/elma",
+    "https://www.toasttab.com/local/elmaphilly/r-57c17ccf-1605-4e2a-95e5-ea5b4282b231",
+    "https://www.theinfatuation.com/philadelphia/neighborhoods/fishtown"
+  ],
+  "uncertain": [
+    "hours",
+    "price_usd",
+    "duration_minutes",
+    "official website"
+  ],
+  "slug": "pasta-at-elma-a-tiny-southern-italian-byob",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9707423,
+    "lng": -75.1297596
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington",
+  "drafted_at": "2026-10-20T00:31:20.104Z",
+  "model": "claude-sonnet-5-5"
+}

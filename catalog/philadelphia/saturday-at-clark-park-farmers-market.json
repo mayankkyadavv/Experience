@@ -1,0 +1,91 @@
+{
+  "title": "Saturday at Clark Park Farmers Market",
+  "intent": "Pick up produce, cheese and coffee at West Philly's big year-round Saturday market.",
+  "description": "One of The Food Trust's largest markets, held every Saturday year-round near Clark Park. Fruit and vegetable farmers, baked goods, meats, cheese, coffee and specialty vendors.",
+  "category": "market",
+  "kind": "place",
+  "subcategory": "farmers market",
+  "tags": [
+    "farmers-market",
+    "outdoor",
+    "year-round",
+    "west-philly",
+    "saturday"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Clark Park Farmers Market",
+    "address": "43rd St & Chester Ave, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 5
+  },
+  "hours": [
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "14:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thefoodtrust.org/what-we-do/farmers-markets/clark-park/"
+    }
+  ],
+  "sources": [
+    "https://thefoodtrust.org/what-we-do/farmers-markets/clark-park/",
+    "https://www.inquirer.com/food/restaurants/clark-park-farmers-market/"
+  ],
+  "uncertain": [
+    "price_usd"
+  ],
+  "slug": "saturday-at-clark-park-farmers-market",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.948489,
+    "lng": -75.2089363
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.760Z",
+  "model": "claude-sonnet-5-5"
+}

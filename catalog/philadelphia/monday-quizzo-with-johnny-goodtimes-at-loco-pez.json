@@ -1,0 +1,82 @@
+{
+  "title": "Monday quizzo with Johnny Goodtimes at Loco Pez",
+  "intent": "Trivia plus nachos and margaritas with the host who popularized Philly quizzo.",
+  "description": "Graduate Hospital taqueria hosting Monday quizzo at 7 p.m. run by Johnny Goodtimes, with nacho and margarita deals.",
+  "category": "games",
+  "kind": "activity",
+  "subcategory": "trivia",
+  "tags": [
+    "quizzo",
+    "trivia",
+    "weekly",
+    "monday",
+    "tacos"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Loco Pez (Graduate Hospital)",
+    "address": null,
+    "neighborhood": "Graduate Hospital"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://wmgk.com/listicle/8-terrific-bars-with-quizzo-nights-in-philadelphia/",
+    "https://www.urbancraftandcrawl.com/blog/best-bars-with-quizzo-nights-in-philadelphia",
+    "https://www.inquirer.com/philly-tips/where-to-play-quizzo-nights-bars-philly.html"
+  ],
+  "uncertain": [
+    "address",
+    "current schedule",
+    "free to play assumed",
+    "official website"
+  ],
+  "slug": "monday-quizzo-with-johnny-goodtimes-at-loco-pez",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9439091,
+    "lng": -75.1753843
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.557Z",
+  "model": "claude-sonnet-5-5"
+}

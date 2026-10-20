@@ -1,0 +1,85 @@
+{
+  "title": "See a touring band at The Fillmore Philadelphia",
+  "intent": "Enjoy a big-name touring act in a polished 25,000 sq ft Fishtown hall.",
+  "description": "A multi-room Fishtown venue that hosts larger touring rock, pop, R&B and alternative acts. It sits near the Girard Ave corridor, so dinner and drinks are close by.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "rock",
+  "tags": [
+    "mid-size",
+    "fishtown",
+    "touring-acts"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Fillmore Philadelphia",
+    "address": "29 E Allen St, Philadelphia, PA 19123",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 35,
+    "max": 110
+  },
+  "duration_minutes": {
+    "min": 150,
+    "max": 210
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.thefillmorephilly.com"
+    }
+  ],
+  "sources": [
+    "https://do215.com/venues/the-fillmore",
+    "https://www.songkick.com/venues/3019369-fillmore-philadelphia",
+    "https://www.redbull.com/us-en/top-music-venues-in-philadelphia"
+  ],
+  "uncertain": [
+    "price_usd",
+    "website URL not directly verified",
+    "hours (show nights only)"
+  ],
+  "slug": "see-a-touring-band-at-the-fillmore-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9655391,
+    "lng": -75.1349058
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.506Z",
+  "model": "claude-sonnet-5-5"
+}

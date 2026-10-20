@@ -1,0 +1,92 @@
+{
+  "title": "Halloween Nights inside Eastern State Penitentiary",
+  "intent": "Get scared inside a real abandoned 10-acre prison with haunted houses, bars and live acts.",
+  "description": "Eastern State's Halloween festival (35th season) offers five haunted houses, including a bigger Crypt, plus historic tours, themed bars and lounges and live performances inside the ruined prison. It runs select nights through Nov 7 and is a separate admission from daytime visits.",
+  "category": "attraction",
+  "kind": "event",
+  "subcategory": "haunted attraction",
+  "tags": [
+    "halloween",
+    "haunted-house",
+    "historic",
+    "seasonal",
+    "evening",
+    "unusual"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Eastern State Penitentiary",
+    "address": "2027 Fairmount Ave, Philadelphia, PA 19130",
+    "neighborhood": "Fairmount"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 240
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-20",
+      "end": "2026-11-07"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://easternstate.org/events/details/halloween-nights"
+    },
+    {
+      "kind": "other",
+      "url": "https://easternstate.org/halloween/faqs"
+    }
+  ],
+  "sources": [
+    "https://easternstate.org/events/details/halloween-nights",
+    "https://easternstate.org/halloween/faqs",
+    "https://www.phillyvoice.com/halloween-nights-eastern-state-2026-guide/"
+  ],
+  "uncertain": [
+    "ticket prices",
+    "specific open nights and hours",
+    "age guidance",
+    "street address from general knowledge"
+  ],
+  "slug": "halloween-nights-inside-eastern-state-penitentiary",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9683406,
+    "lng": -75.1726626
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:37.000Z",
+  "model": "claude-sonnet-5-5"
+}

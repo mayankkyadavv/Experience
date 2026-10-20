@@ -1,0 +1,117 @@
+{
+  "title": "Breakfast sandwiches at Middle Child Clubhouse",
+  "intent": "Fishtown breakfast sandwiches big enough to share.",
+  "description": "Middle Child Clubhouse is a Fishtown all-day spot known for oversized breakfast sandwiches such as the pastrami, egg and cheese. Breakfast is served until about 2 p.m., and it runs into dinner and drinks later. Closed Mondays.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "sandwiches",
+    "popular"
+  ],
+  "good_for": [
+    "friends",
+    "solo",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Middle Child Clubhouse",
+    "address": "1232 N Front St, Philadelphia, PA 19122",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 12,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "23:59"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "23:59"
+    },
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.yelp.com/biz/middle-child-clubhouse-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/middle-child-clubhouse-philadelphia?start=60",
+    "https://southphillyreview.com/2026/10/16/best-breakfast-philadelphia/",
+    "https://www.visitphilly.com/articles/philadelphia/best-brunch-spots-in-philadelphia/"
+  ],
+  "uncertain": [
+    "official website",
+    "Sunday closing time",
+    "price_usd"
+  ],
+  "slug": "breakfast-sandwiches-at-middle-child-clubhouse",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.969608,
+    "lng": -75.1361093
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.865Z",
+  "model": "claude-sonnet-5-5"
+}

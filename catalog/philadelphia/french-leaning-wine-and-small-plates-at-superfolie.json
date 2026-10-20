@@ -1,0 +1,89 @@
+{
+  "title": "French-leaning wine and small plates at Superfolie",
+  "intent": "Rittenhouse wine bar that works for a date or after-work drink.",
+  "description": "Rittenhouse wine bar with 70+ wines, French-leaning small plates such as steak tartare and tartines, plus martinis. There's a quasi-private mezzanine upstairs.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "wine bar",
+  "tags": [
+    "french",
+    "date-night",
+    "rittenhouse",
+    "small-plates"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Superfolie",
+    "address": "1602 Spruce St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 60
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://superfoliephl.com"
+    },
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/superfolie-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/best-of-philly-archive/superfolie/",
+    "https://www.opentable.com/r/superfolie-philadelphia",
+    "https://www.corner.inc/place/120895"
+  ],
+  "uncertain": [
+    "hours (reportedly opens 3pm)",
+    "price"
+  ],
+  "slug": "french-leaning-wine-and-small-plates-at-superfolie",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9472455,
+    "lng": -75.1682807
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.052Z",
+  "model": "claude-sonnet-5-5"
+}

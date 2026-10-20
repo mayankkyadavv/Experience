@@ -1,0 +1,85 @@
+{
+  "slug": "guided-craft-brewery-and-distillery-van-tour",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Guided craft brewery and distillery van tour",
+  "intent": "Sample beers at three Philly breweries or distilleries without worrying about driving.",
+  "description": "City Brew Tours' Philly Signature Guided Brewery Tour takes small groups by passenger van to three breweries or distilleries, with tastings and a snack. Itineraries vary and can include Yards Brewing, Evil Genius and Flying Fish.",
+  "category": "bar",
+  "kind": "activity",
+  "subcategory": "brewery tour",
+  "tags": [
+    "beer",
+    "brewery-tour",
+    "tasting",
+    "adults-only",
+    "transport-included"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "City Brew Tours Philly",
+    "address": null,
+    "neighborhood": null
+  },
+  "price_usd": {
+    "min": 75,
+    "max": 105
+  },
+  "duration_minutes": {
+    "min": 180,
+    "max": 240
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "tickets",
+      "url": "https://www.tripadvisor.com/AttractionProductReview-g60795-d11890086-Philly_Signature_Guided_Brewery_Tour-Philadelphia_Pennsylvania.html"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.getyourguide.com/philadelphia-l60/philadelphia-sip-of-philly-brew-tour-t315817/"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/AttractionProductReview-g60795-d11890086-Philly_Signature_Guided_Brewery_Tour-Philadelphia_Pennsylvania.html",
+    "https://www.getyourguide.com/philadelphia-l60/philadelphia-sip-of-philly-brew-tour-t315817/"
+  ],
+  "uncertain": [
+    "duration",
+    "price range (from $105 on Tripadvisor; GetYourGuide variant price not seen)",
+    "pickup location",
+    "schedule",
+    "official website"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:37.003Z",
+  "model": "claude-sonnet-5-5"
+}

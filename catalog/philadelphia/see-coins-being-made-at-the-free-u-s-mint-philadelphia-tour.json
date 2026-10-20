@@ -1,0 +1,87 @@
+{
+  "title": "See coins being made at the free U.S. Mint Philadelphia tour",
+  "intent": "Watch real coin production from a walkway above the factory floor, for free.",
+  "description": "A free, self-guided tour of the Philadelphia Mint, about 45 minutes, with views of coining operations from above the factory floor and historic exhibits. No reservations are needed, but expect security screening, and the Mint has hosted America 250 meet-and-greet events this fall.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "factory tour",
+  "tags": [
+    "free",
+    "history",
+    "self-guided",
+    "rainy-day",
+    "old-city"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "U.S. Mint at Philadelphia",
+    "address": "151 N Independence Mall East, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.usmint.gov/about/tours-and-locations/philadelphia/tour-philadelphia-mint"
+    }
+  ],
+  "sources": [
+    "https://www.usmint.gov/about/tours-and-locations/philadelphia/tour-philadelphia-mint",
+    "https://www.visitphilly.com/articles/philadelphia/strange-unusual-attractions/",
+    "https://www.coinnews.net/2026/10/14/philadelphia-mint-america-250-events/"
+  ],
+  "uncertain": [
+    "Current weekly hours (an older guide lists Mon-Fri 9:00-16:30); check the official page",
+    "Weekday-only operation not confirmed"
+  ],
+  "slug": "see-coins-being-made-at-the-free-u-s-mint-philadelphia-tour",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9542394,
+    "lng": -75.1481231
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Small, unusual and weird museums and attractions",
+  "drafted_at": "2026-10-20T01:13:35.511Z",
+  "model": "claude-sonnet-5-5"
+}

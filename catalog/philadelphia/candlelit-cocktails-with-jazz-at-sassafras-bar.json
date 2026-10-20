@@ -1,0 +1,113 @@
+{
+  "title": "Candlelit cocktails with jazz at Sassafras Bar",
+  "intent": "Have a romantic drink in a long-running Old City bar that sometimes has live jazz.",
+  "description": "A 1976 Old City bar styled like a candlelit parlor, with classic cocktails, bar food and occasional no-cover live jazz sets. Cocktail service runs until 2 a.m.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "cocktail bar",
+  "tags": [
+    "jazz",
+    "cocktails",
+    "old-city",
+    "no-cover",
+    "romantic"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Sassafras Bar",
+    "address": "48 S 2nd St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 40
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "02:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "02:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.phillymag.com/restaurants/philly-jazz-bars-restaurants/",
+    "https://www.oldcitydistrict.org/business/sassafras",
+    "https://www.yelp.com/biz/sassafras-bar-philadelphia-2"
+  ],
+  "uncertain": [
+    "Sunday hours",
+    "jazz schedule (occasional)",
+    "official website"
+  ],
+  "slug": "candlelit-cocktails-with-jazz-at-sassafras-bar",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9488335,
+    "lng": -75.1441085
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.186Z",
+  "model": "claude-sonnet-5-5"
+}

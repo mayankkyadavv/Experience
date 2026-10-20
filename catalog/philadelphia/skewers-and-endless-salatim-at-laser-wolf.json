@@ -1,0 +1,117 @@
+{
+  "title": "Skewers and endless salatim at Laser Wolf",
+  "intent": "Group dinner centered on grilled skewers and a spread of Israeli salads.",
+  "description": "Michelin-listed Middle Eastern grill in Kensington/Fishtown where entrees come with a spread of salatim. Lively and loud, good for groups and birthdays.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "middle eastern",
+  "tags": [
+    "israeli",
+    "skewers",
+    "group-friendly",
+    "michelin"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Laser Wolf",
+    "address": "1301 N Howard St, Philadelphia, PA 19122",
+    "neighborhood": "Kensington"
+  },
+  "price_usd": {
+    "min": 40,
+    "max": 75
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://guide.michelin.com/us/en/pennsylvania/philadelphia_2942787/restaurant/laser-wolf-1213729",
+    "https://www.yelp.com/biz/laser-wolf-philadelphia-2"
+  ],
+  "uncertain": [
+    "price_usd",
+    "duration_minutes",
+    "official website",
+    "exact neighborhood label"
+  ],
+  "slug": "skewers-and-endless-salatim-at-laser-wolf",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9706287,
+    "lng": -75.1365403
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington",
+  "drafted_at": "2026-10-20T00:31:20.103Z",
+  "model": "claude-sonnet-5-5"
+}

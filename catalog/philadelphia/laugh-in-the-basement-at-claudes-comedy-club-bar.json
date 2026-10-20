@@ -1,0 +1,85 @@
+{
+  "title": "Laugh in the basement at Claude's Comedy Club & Bar",
+  "intent": "Catch a cheap, low-key stand-up show with Tastykake flights in South Philly.",
+  "description": "Claude's is a new basement comedy club and bar on South Broad, with shows seven nights a week and no minimums. The menu has pickle plates, grilled cheese and Tastykake flights. It hosts a Tuesday open mic at 9pm.",
+  "category": "comedy",
+  "kind": "place",
+  "subcategory": "stand-up",
+  "tags": [
+    "stand-up",
+    "new",
+    "no-drink-minimum",
+    "open-mic",
+    "quirky"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Claude's Comedy Club & Bar",
+    "address": "1123 S Broad St, Philadelphia, PA 19147",
+    "neighborhood": "South Philadelphia"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://claudescomedy.com/"
+    }
+  ],
+  "sources": [
+    "https://www.phillyvoice.com/claudes-comedy-club-bar-south-philly-entertainment-scene/",
+    "https://phillyfringe.org/venues/claudes-comedy-club-bar/",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d34298646-Reviews-Claude_s_Comedy_Club_Bar-Philadelphia_Pennsylvania.html",
+    "https://www.handstamp.com/e/open-mic-6zkbrrqn"
+  ],
+  "uncertain": [
+    "hours (bar reportedly opens 4pm daily)",
+    "ticket prices",
+    "whether the Tuesday open mic is weekly"
+  ],
+  "slug": "laugh-in-the-basement-at-claudes-comedy-club-bar",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9369867,
+    "lng": -75.166794
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Stand-up comedy clubs, improv theaters and regular comedy nights",
+  "drafted_at": "2026-10-20T00:20:14.393Z",
+  "model": "claude-opus-5-5"
+}

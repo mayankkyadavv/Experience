@@ -1,0 +1,110 @@
+{
+  "title": "Public ice skating at Penn's Class of 1923 Ice Rink",
+  "intent": "Skate on an indoor rink all year, rain or shine.",
+  "description": "The University of Pennsylvania's indoor rink opens for public sessions a few times a week on a fall/winter schedule. General admission is $13 with $6 skate rental. Groups of 10 or more get $10 each, rental included.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "ice skating",
+  "tags": [
+    "indoor",
+    "rainy-day",
+    "university-city",
+    "year-round"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Penn Ice Rink, Class of 1923",
+    "address": "3130 Walnut St, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": {
+    "min": 13,
+    "max": 19
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "12:30",
+      "close": "14:00"
+    },
+    {
+      "day": 3,
+      "open": "12:30",
+      "close": "14:00"
+    },
+    {
+      "day": 5,
+      "open": "12:30",
+      "close": "14:00"
+    },
+    {
+      "day": 6,
+      "open": "18:00",
+      "close": "19:00"
+    },
+    {
+      "day": 0,
+      "open": "13:00",
+      "close": "14:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://icerink.business-services.upenn.edu/public-sessions/our-schedule"
+    }
+  ],
+  "sources": [
+    "https://icerink.business-services.upenn.edu/public-sessions/our-schedule"
+  ],
+  "uncertain": [
+    "sessions may be cancelled for events; check schedule before going"
+  ],
+  "slug": "public-ice-skating-at-penns-class-of-1923-ice-rink",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9521903,
+    "lng": -75.1864719
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks",
+  "drafted_at": "2026-10-20T00:33:19.249Z",
+  "model": "claude-sonnet-5-5"
+}

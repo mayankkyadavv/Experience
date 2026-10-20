@@ -1,0 +1,94 @@
+{
+  "title": "Watch the 6abc Dunkin' Thanksgiving Day Parade on the Parkway",
+  "intent": "Start Thanksgiving morning with giant balloons, floats and marching bands.",
+  "description": "The country's oldest Thanksgiving parade marches through Center City and up the Benjamin Franklin Parkway to the Art Museum steps, with floats, balloons, bands and Santa's arrival. Free to watch from the sidewalk; arrive early for a good spot.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "parade",
+  "tags": [
+    "free",
+    "parade",
+    "holiday",
+    "family-friendly",
+    "outdoor"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Benjamin Franklin Parkway (parade route)",
+    "address": "2600 Benjamin Franklin Pkwy, Philadelphia, PA 19130",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-26",
+      "end": "2026-11-26"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-26",
+      "start": "09:00",
+      "end": "12:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://6abc.com/feature/6abc-dunkin-thanksgiving-day-parade/15349996/"
+    }
+  ],
+  "sources": [
+    "https://6abc.com/feature/6abc-dunkin-thanksgiving-day-parade/15349996/",
+    "https://www.visitphilly.com/articles/philadelphia/top-things-to-do-in-philadelphia-in-november/",
+    "https://dig.abclocal.go.com/wpvi/html/2025tdp/index.html"
+  ],
+  "uncertain": [
+    "2026 start/end time (2025 ran 8:30am-noon with preshow)",
+    "Exact 2026 route"
+  ],
+  "slug": "watch-the-6abc-dunkin-thanksgiving-day-parade-on-the-parkway",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9655661,
+    "lng": -75.1815202
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.673Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Pause at Welcome Park, a tribute to William Penn",
+  "intent": "See a small free park honoring William Penn on the site of his Philadelphia home.",
+  "description": "A small open-air park built in 1982 on the site of Penn's Slate Roof House. It has a timeline of Pennsylvania's history and a William Penn statue.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "park",
+  "tags": [
+    "free",
+    "outdoor",
+    "quick-stop"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Welcome Park",
+    "address": "129 Sansom St",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 10,
+    "max": 25
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.ushistory.org/tour/welcome-park.htm"
+    }
+  ],
+  "sources": [
+    "https://www.ushistory.org/tour/welcome-park.htm",
+    "https://www.phillyvoice.com/william-penn-statue-philly-welcome-park-nps/"
+  ],
+  "uncertain": [
+    "address",
+    "current design details"
+  ],
+  "slug": "pause-at-welcome-park-a-tribute-to-william-penn",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.947341,
+    "lng": -75.1430147
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.408Z",
+  "model": "claude-sonnet-5-5"
+}

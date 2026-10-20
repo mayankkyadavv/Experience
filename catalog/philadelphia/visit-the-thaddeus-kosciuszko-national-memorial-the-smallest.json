@@ -1,0 +1,96 @@
+{
+  "title": "Visit the Thaddeus Kosciuszko National Memorial, the smallest national park site",
+  "intent": "Tour a tiny rooming-house bedroom that is the smallest unit in the National Park system.",
+  "description": "The 900-square-foot Philadelphia rooming house where Polish engineer and Revolutionary War hero Tadeusz Kościuszko stayed in 1797–98. It is the smallest unit of the National Park system; admission is free and visits are quick.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic house",
+  "tags": [
+    "free",
+    "tiny",
+    "history",
+    "national-park"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Thaddeus Kosciuszko National Memorial",
+    "address": "301 Pine St, Philadelphia, PA 19106",
+    "neighborhood": "Society Hill"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 30
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "16:00"
+    },
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.nps.gov/thko/index.htm"
+    }
+  ],
+  "sources": [
+    "https://www.nps.gov/thko/index.htm",
+    "https://npplan.com/parks-by-state/pennsylvania-national-parks/thaddeus-kosciuszko-national-memorial-park-at-a-glance/thaddeus-kosciuszko-national-memorial-memorial-house/",
+    "https://www.phlvisitorcenter.com/ThaddeusKosciuszko"
+  ],
+  "uncertain": [
+    "NPS notes limited hours; call 215-965-2305 to confirm before going"
+  ],
+  "slug": "visit-the-thaddeus-kosciuszko-national-memorial-the-smallest",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.943435,
+    "lng": -75.147332
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Small, unusual and weird museums and attractions",
+  "drafted_at": "2026-10-20T01:13:35.510Z",
+  "model": "claude-sonnet-5-5"
+}

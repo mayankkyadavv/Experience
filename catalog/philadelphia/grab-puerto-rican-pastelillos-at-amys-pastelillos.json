@@ -1,0 +1,101 @@
+{
+  "title": "Grab Puerto Rican pastelillos at Amy's Pastelillos",
+  "intent": "Cheap fried turnovers and rice bowls from a beloved Puerto Rican takeout shop.",
+  "description": "Takeout-focused Fishtown shop selling pastelillos, rice bowls and plantains from a Puerto Rican pop-up turned storefront. Limited seating and short hours, with lines common.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "puerto rican",
+  "tags": [
+    "cheap",
+    "takeout",
+    "lunch",
+    "puerto-rican"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Amy's Pastelillos",
+    "address": "2001 Memphis St, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "15:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "15:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "15:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "15:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.phillyvoice.com/amys-pastelillos-fishtown-puerto-rican-food/",
+    "https://2for20deals.com/philadelphia",
+    "https://www.phillymag.com/restaurants/2024/08/27/amys-pastelillos/"
+  ],
+  "uncertain": [
+    "Official website",
+    "Current hours (from an August 2026 listing)"
+  ],
+  "slug": "grab-puerto-rican-pastelillos-at-amys-pastelillos",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9775049,
+    "lng": -75.1283848
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cheap eats and BYOB restaurants",
+  "drafted_at": "2026-10-20T00:32:14.786Z",
+  "model": "claude-sonnet-5-5"
+}

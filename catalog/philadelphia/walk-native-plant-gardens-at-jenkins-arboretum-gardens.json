@@ -1,0 +1,80 @@
+{
+  "slug": "walk-native-plant-gardens-at-jenkins-arboretum-gardens",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Walk native-plant gardens at Jenkins Arboretum & Gardens",
+  "intent": "Enjoy a free, peaceful stroll through native rhododendrons, azaleas, ferns and woodland paths.",
+  "description": "A 48-acre nonprofit garden in Devon showcasing Pennsylvania native trees, shrubs, ferns and wildflowers. Open every day of the year with free admission; hours change seasonally.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "arboretum",
+  "tags": [
+    "free",
+    "native-plants",
+    "quiet",
+    "main-line"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Jenkins Arboretum & Gardens",
+    "address": "631 Berwyn Baptist Rd, Devon, PA 19333",
+    "neighborhood": "Devon (Main Line)"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.jenkinsarboretum.org/visit/hours-and-admission/"
+    }
+  ],
+  "sources": [
+    "https://schuylkillriver.org/map/places-to-visit/jenkins-arboretum/",
+    "https://en.wikipedia.org/wiki/Jenkins_Arboretum",
+    "https://maps.apple.com/place?place-id=I93A940528B0CFBD1"
+  ],
+  "uncertain": [
+    "current seasonal hours (listed as 8am to sunset)"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.773Z",
+  "model": "claude-sonnet-5-5"
+}

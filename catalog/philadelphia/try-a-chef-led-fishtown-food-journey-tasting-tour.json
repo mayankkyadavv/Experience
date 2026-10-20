@@ -1,0 +1,73 @@
+{
+  "slug": "try-a-chef-led-fishtown-food-journey-tasting-tour",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Try a chef-led Fishtown Food Journey tasting tour",
+  "intent": "Eat through Fishtown's restaurants with chefs who know the neighborhood.",
+  "description": "Fishtown Food Journey is a guided food tour of Fishtown's dining scene led by chefs Jen Carroll and Billy Riddle, which Philadelphia magazine lists among the city's best food tours.",
+  "category": "food",
+  "kind": "activity",
+  "subcategory": "food tour",
+  "tags": [
+    "walking-tour",
+    "fishtown",
+    "guided",
+    "tasting"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Fishtown Food Journey (Fishtown)",
+    "address": null,
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.phillymag.com/restaurants/best-philly-food-tours/"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/restaurants/best-philly-food-tours/"
+  ],
+  "uncertain": [
+    "official website",
+    "price",
+    "duration",
+    "schedule",
+    "meeting point"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.728Z",
+  "model": "claude-sonnet-5-5"
+}

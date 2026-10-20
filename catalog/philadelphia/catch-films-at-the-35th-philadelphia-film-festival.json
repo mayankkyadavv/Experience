@@ -1,0 +1,117 @@
+{
+  "title": "Catch films at the 35th Philadelphia Film Festival",
+  "intent": "Watch new premieres and special guests during the final days of the festival.",
+  "description": "The 35th Philadelphia Film Festival runs Oct 15-25 with screenings and events in Center City, opening with 'The Only Living Pickpocket in New York' and closing with Jesse Eisenberg's film. Check filmadelphia.org for the exact schedule and tickets.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "film festival",
+  "tags": [
+    "film",
+    "festival",
+    "indoor",
+    "rainy-day",
+    "seasonal"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Film Society Center and other Center City venues",
+    "address": "1412 Chestnut St, Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 240
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-15",
+      "end": "2026-10-25"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-20",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-21",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-22",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-23",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-24",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-25",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://filmadelphia.org/festival/how-to-fest-PFF35/"
+    }
+  ],
+  "sources": [
+    "https://filmadelphia.org/festival/how-to-fest-PFF35/",
+    "https://www.fox29.com/news/philadelphia-film-festival-2026-lineup-eisenberg-duvernay-gray-films-lead-35th-edition",
+    "https://www.visitphilly.com/articles/philadelphia/events-festivals-2026/"
+  ],
+  "uncertain": [
+    "showtimes",
+    "ticket prices",
+    "which films still have seats"
+  ],
+  "slug": "catch-films-at-the-35th-philadelphia-film-festival",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9507355,
+    "lng": -75.1647093
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.122Z",
+  "model": "claude-sonnet-5-5"
+}

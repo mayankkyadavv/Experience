@@ -1,0 +1,86 @@
+{
+  "title": "Get fresh hand-glazed doughnuts at Beiler's Doughnuts in Reading Terminal Market",
+  "intent": "Fresh-made doughnuts as a market snack or dessert.",
+  "description": "Beiler's makes fresh doughnuts at a counter inside Reading Terminal Market, with a line most weekends; the same family runs a bakery stall across the aisle. Fodor's named it one of America's best dessert spots.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "doughnuts",
+  "tags": [
+    "reading-terminal-market",
+    "doughnuts",
+    "rainy-day",
+    "cheap"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Beiler's Doughnuts",
+    "address": "51 N 12th St, Philadelphia, PA 19107",
+    "neighborhood": "Center City East"
+  },
+  "price_usd": {
+    "min": 3,
+    "max": 12
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 30
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://readingterminalmarket.org/merchant/beilers-donuts-and-salads/"
+    }
+  ],
+  "sources": [
+    "https://readingterminalmarket.org/merchant/beilers-donuts-and-salads/",
+    "https://www.travelmag.com/beiler-s-doughnuts-turns-hand-glazed-doughnuts-into-a-weekend-ritual-in-philadelphia-40039dcf/"
+  ],
+  "uncertain": [
+    "hours (the market is open 8am-6pm daily, but Beiler's own days, possibly closed some days, not verified)",
+    "price_usd estimated",
+    "official website not verified"
+  ],
+  "slug": "get-fresh-hand-glazed-doughnuts-at-beilers-doughnuts-in-read",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9531441,
+    "lng": -75.1590492
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.079Z",
+  "model": "claude-sonnet-5-5"
+}

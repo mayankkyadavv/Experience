@@ -1,0 +1,78 @@
+{
+  "title": "Hotel spa treatment at The Spa at The Logan",
+  "intent": "Book a massage or facial at a hotel spa near Logan Square.",
+  "description": "The hotel spa at The Logan Philadelphia, Curio Collection by Hilton, in the Logan Square area. Travelers rate it highly, and reviews mention friendly therapists. Services are by appointment.",
+  "category": "wellness",
+  "kind": "place",
+  "subcategory": "hotel spa",
+  "tags": [
+    "massage",
+    "hotel-spa",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Spa at The Logan",
+    "address": "1 Logan Sq, Philadelphia, PA 19103",
+    "neighborhood": "Logan Square"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.tripadvisor.com/Hotels-g60795-zff13-Philadelphia_Pennsylvania-Hotels.html",
+    "https://www.yelp.com/search?cflt=spas&find_loc=Philadelphia%2C+PA"
+  ],
+  "uncertain": [
+    "official website",
+    "exact address (assumed to be the hotel's address)",
+    "prices",
+    "hours",
+    "menu of treatments"
+  ],
+  "slug": "hotel-spa-treatment-at-the-spa-at-the-logan",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9566765,
+    "lng": -75.1696142
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Spas, saunas, bathhouses and wellness experiences",
+  "drafted_at": "2026-10-20T01:09:33.220Z",
+  "model": "claude-sonnet-5-5"
+}

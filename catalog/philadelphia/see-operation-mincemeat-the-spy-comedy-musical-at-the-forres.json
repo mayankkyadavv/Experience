@@ -1,0 +1,108 @@
+{
+  "title": "See Operation Mincemeat, the spy-comedy musical, at the Forrest Theatre",
+  "intent": "Laugh at a fast-paced, Tony-winning musical comedy based on a true WWII deception.",
+  "description": "The Tony and Olivier Award-winning musical retells the real WWII Operation Mincemeat with a small cast playing dozens of roles, mixing farce and song. It plays a one-week Philadelphia run on the national tour.",
+  "category": "arts_culture",
+  "kind": "event",
+  "subcategory": "musical",
+  "tags": [
+    "broadway",
+    "musical",
+    "comedy",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Forrest Theatre",
+    "address": "1114 Walnut St, Philadelphia, PA 19107",
+    "neighborhood": "Midtown Village"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 150,
+    "max": 165
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-12-15",
+      "end": "2026-12-20"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-12-15",
+      "start": "19:30",
+      "end": null
+    },
+    {
+      "date": "2026-12-18",
+      "start": "19:30",
+      "end": null
+    },
+    {
+      "date": "2026-12-19",
+      "start": "19:30",
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.forrest-theatre.com"
+    },
+    {
+      "kind": "website",
+      "url": "https://shubert.nyc/theatres/forrest/"
+    }
+  ],
+  "sources": [
+    "https://www.broadwayworld.com/philadelphia/regionalshows/FORREST-THEATRE",
+    "https://www.expedia.com/event-tickets/forrest-theatre-tickets.v",
+    "https://shubert.nyc/theatres/forrest/"
+  ],
+  "uncertain": [
+    "Dec 16, 17, 20 showtimes",
+    "ticket price",
+    "running time estimated"
+  ],
+  "slug": "see-operation-mincemeat-the-spy-comedy-musical-at-the-forres",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9484975,
+    "lng": -75.1596101
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Concerts, comedy shows and performances with specific dates between 2026-10-20 and 2026-12-31",
+  "drafted_at": "2026-10-20T01:18:20.056Z",
+  "model": "claude-sonnet-5-5"
+}

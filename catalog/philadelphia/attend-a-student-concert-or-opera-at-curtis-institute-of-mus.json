@@ -1,0 +1,82 @@
+{
+  "title": "Attend a student concert or opera at Curtis Institute of Music",
+  "intent": "Hear world-class young musicians perform orchestral, opera and chamber music, often at low cost.",
+  "description": "Curtis's 2026-27 season includes more than 100 Philadelphia performances across orchestra, opera (including Carlisle Floyd's Susannah) and chamber music. Check the calendar for dates and which are free or ticketed.",
+  "category": "music",
+  "kind": "activity",
+  "subcategory": "classical",
+  "tags": [
+    "students",
+    "classical",
+    "opera",
+    "cheap"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Curtis Institute of Music",
+    "address": "1726 Locust St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.curtis.edu/"
+    }
+  ],
+  "sources": [
+    "https://www.curtis.edu/news/curtis-institute-of-music-announces-2026-27-season/",
+    "https://www.curtis.edu/news/tag/2026-27-academic-year/"
+  ],
+  "uncertain": [
+    "price_usd (many recitals may be free; not verified)",
+    "specific upcoming dates",
+    "duration_minutes"
+  ],
+  "slug": "attend-a-student-concert-or-opera-at-curtis-institute-of-mus",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9488069,
+    "lng": -75.1706054
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Theaters, performing arts, opera, ballet and orchestra",
+  "drafted_at": "2026-10-20T01:05:39.798Z",
+  "model": "claude-sonnet-5-5"
+}

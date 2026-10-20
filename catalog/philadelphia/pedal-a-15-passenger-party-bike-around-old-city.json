@@ -1,0 +1,85 @@
+{
+  "title": "Pedal a 15-passenger party bike around Old City",
+  "intent": "Explore Philly's historic district or bar scene on a group-powered pedicycle.",
+  "description": "Big Red Pedal Tours runs an open-air, roofed 15-passenger pedicycle, pedaled by riders and steered by a driver, for daytime historic tours and evening pub crawls.",
+  "category": "active",
+  "kind": "activity",
+  "subcategory": "pedal tour",
+  "tags": [
+    "group-activity",
+    "unusual",
+    "pub-crawl",
+    "outdoor",
+    "bike"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Big Red Pedal Tours",
+    "address": "218 Market St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": {
+    "min": 4,
+    "max": 15
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.bigredpedaltours.com"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.visitphilly.com/things-to-do/attractions/big-red-pedal-tours/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/things-to-do/attractions/big-red-pedal-tours/",
+    "https://www.phlvisitorcenter.com/things-to-do/big-red-pedal-tours",
+    "https://overlookmaps.com/places/big-red-pedal-tours-philadelphia-6375093048804296"
+  ],
+  "uncertain": [
+    "price",
+    "tour length",
+    "off-season running (late fall)",
+    "min group size"
+  ],
+  "slug": "pedal-a-15-passenger-party-bike-around-old-city",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.949799,
+    "lng": -75.1444868
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:37.002Z",
+  "model": "claude-sonnet-5-5"
+}

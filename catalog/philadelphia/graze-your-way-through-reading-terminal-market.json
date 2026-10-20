@@ -1,0 +1,123 @@
+{
+  "title": "Graze your way through Reading Terminal Market",
+  "intent": "Eat a long lunch from dozens of stalls under one historic roof.",
+  "description": "Philadelphia's famous indoor public market has 75+ merchants selling roast pork sandwiches, doughnuts, Pennsylvania Dutch fare, produce, cheese and gifts. Open daily; Pennsylvania Dutch merchants are closed on Sundays, and individual stall hours vary.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "public market",
+  "tags": [
+    "iconic",
+    "rainy-day",
+    "indoor",
+    "family-friendly",
+    "lunch"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Reading Terminal Market",
+    "address": "1136 Arch St, Philadelphia, PA 19107",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 8,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://readingterminalmarket.org/"
+    }
+  ],
+  "sources": [
+    "https://readingterminalmarket.org/visit-us/",
+    "https://readingterminalmarket.org/frequently-asked-questions/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "duration_minutes"
+  ],
+  "slug": "graze-your-way-through-reading-terminal-market",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9537066,
+    "lng": -75.1590923
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.757Z",
+  "model": "claude-sonnet-5-5"
+}

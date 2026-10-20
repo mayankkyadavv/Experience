@@ -1,0 +1,72 @@
+{
+  "slug": "cook-a-themed-class-with-cocusocial-in-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Cook a themed class with CocuSocial in Philadelphia",
+  "intent": "Social, BYOB-style cooking class with a variety of cuisines.",
+  "description": "CocuSocial offers in-person cooking classes in Philadelphia across cuisines, including fresh pasta and cheese with an Italian chef and Chinese dumplings, plus bartending classes.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "cooking class",
+  "tags": [
+    "social",
+    "variety",
+    "pasta",
+    "dumplings"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "CocuSocial Philadelphia (venues vary)",
+    "address": null,
+    "neighborhood": null
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cocusocial.com/cooking-classes/Philadelphia"
+    }
+  ],
+  "sources": [
+    "https://cocusocial.com/cooking-classes/Philadelphia"
+  ],
+  "uncertain": [
+    "price",
+    "venues",
+    "duration",
+    "class dates"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.731Z",
+  "model": "claude-sonnet-5-5"
+}

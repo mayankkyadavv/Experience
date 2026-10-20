@@ -1,0 +1,95 @@
+{
+  "title": "Watch the 12th Philadelphia Veterans Day Parade and Festival",
+  "intent": "Cheer on marching bands and honor guards, then stay for a free all-ages festival.",
+  "description": "The annual parade starts around noon on the Benjamin Franklin Parkway and ends just past the Art Museum, followed by a festival. Features marching bands, honor guards, emergency vehicles and local celebrities, scaled up for the 250th anniversary.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "parade",
+  "tags": [
+    "free",
+    "parade",
+    "outdoor",
+    "family-friendly",
+    "veterans"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Benjamin Franklin Parkway",
+    "address": "2600 Benjamin Franklin Pkwy, Philadelphia, PA 19130",
+    "neighborhood": "Fairmount"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 210
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-08",
+      "end": "2026-11-08"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-08",
+      "start": "12:00",
+      "end": "16:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.visitphilly.com/articles/philadelphia/events-festivals-2026/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/events-festivals-2026/",
+    "https://usveteransmagazine.com/event/philadelphia-veterans-parade-2026/",
+    "https://thephiladelphiacitizen.org/good-citizen-calendar/"
+  ],
+  "uncertain": [
+    "Festival start/end time (Visit Philly lists 12:30-4; parade kicks off at noon)",
+    "Free spectator admission assumed"
+  ],
+  "slug": "watch-the-12th-philadelphia-veterans-day-parade-and-festival",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9655661,
+    "lng": -75.1815202
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.673Z",
+  "model": "claude-sonnet-5-5"
+}

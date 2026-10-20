@@ -1,0 +1,87 @@
+{
+  "title": "Climb the Rocky Steps for free views down the Parkway",
+  "intent": "Run the famous steps and take in the Parkway and skyline view for nothing.",
+  "description": "The 72 steps at the Philadelphia Museum of Art are open to the public for free, with a skyline and Parkway view at the top. The bronze Rocky statue was moved inside the museum for a special exhibition and was closed to the public through September 2026, so check whether it is back outside.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "landmark",
+  "tags": [
+    "free",
+    "iconic",
+    "views",
+    "photo-spot",
+    "outdoor"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Rocky Steps (Philadelphia Museum of Art east entrance)",
+    "address": "2600 Benjamin Franklin Pkwy, Philadelphia, PA 19130",
+    "neighborhood": "Fairmount"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 45
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.visitphilly.com/things-to-do/attractions/the-rocky-statue-and-the-rocky-steps/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/things-to-do/attractions/the-rocky-statue-and-the-rocky-steps/",
+    "https://www.nbcnews.com/news/us-news/iconic-rocky-statue-moves-philadelphia-museum-art-rcna265274",
+    "https://www.extendedstayamerica.com/blog/article/15-free-and-cheap-things-to-do-in-philadelphia"
+  ],
+  "uncertain": [
+    "Whether the Rocky statue is currently back at its outdoor spot"
+  ],
+  "slug": "climb-the-rocky-steps-for-free-views-down-the-parkway",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9655661,
+    "lng": -75.1815202
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.672Z",
+  "model": "claude-sonnet-5-5"
+}

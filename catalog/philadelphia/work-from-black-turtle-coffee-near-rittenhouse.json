@@ -1,0 +1,82 @@
+{
+  "title": "Work from Black Turtle Coffee near Rittenhouse",
+  "intent": "A small Center City cafe for a laptop session over cappuccinos and flavored lattes.",
+  "description": "Black Turtle Coffee is a Black-owned cafe at 2100 Chestnut St serving espresso drinks and specialty lattes, listed by The Infatuation as a place to get work done.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "coffee shop",
+  "tags": [
+    "laptop-friendly",
+    "black-owned",
+    "center-city"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Black Turtle Coffee",
+    "address": "2100 Chestnut St, Philadelphia, PA 19103",
+    "neighborhood": "Center City West"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 9
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 3
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.toasttab.com/local/order/black-turtle-coffee-philadelphia-2100-chestnut-street/r-ad828375-bbd0-4d8e-99ee-a326c338ac57"
+    }
+  ],
+  "sources": [
+    "https://www.theinfatuation.com/philadelphia/perfect-for/getting-work-done",
+    "https://joe.coffee/locations/pa/philadelphia/black-turtle-coffee-2100-chestnut-st-fl-1-philadelphia/"
+  ],
+  "uncertain": [
+    "hours (sources conflict)",
+    "official website"
+  ],
+  "slug": "work-from-black-turtle-coffee-near-rittenhouse",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9521965,
+    "lng": -75.1755702
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.319Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "hear-hiss-golden-messenger-and-sam-amidon-at-ardmore-music-h",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Hear Hiss Golden Messenger and Sam Amidon at Ardmore Music Hall",
+  "intent": "See a folk-rock favorite in an intimate Main Line club.",
+  "description": "North Carolina folk-rock project Hiss Golden Messenger plays Ardmore Music Hall with Sam Amidon. A standing/seated club show just outside the city, reachable by regional rail.",
+  "category": "music",
+  "kind": "event",
+  "subcategory": "folk rock",
+  "tags": [
+    "folk",
+    "indie",
+    "club-show"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Ardmore Music Hall",
+    "address": "23 E. Lancaster Ave, Ardmore, PA 19003",
+    "neighborhood": "Ardmore (Main Line)"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-04",
+      "end": "2026-11-04"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-04",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "tickets",
+      "url": "https://www.ticketmaster.com/The-Ardmore-Music-Hall-tickets-Ardmore/venue/338162"
+    }
+  ],
+  "sources": [
+    "https://www.jambase.com/venue/ardmore-music-hall",
+    "https://www.ticketmaster.com/The-Ardmore-Music-Hall-tickets-Ardmore/venue/338162"
+  ],
+  "uncertain": [
+    "start time",
+    "ticket price",
+    "official website url",
+    "outside Philadelphia city limits"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Concerts, comedy shows and performances with specific dates between 2026-10-20 and 2026-12-31",
+  "drafted_at": "2026-10-20T01:18:20.057Z",
+  "model": "claude-sonnet-5-5"
+}

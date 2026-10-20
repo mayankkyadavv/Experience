@@ -1,0 +1,77 @@
+{
+  "title": "Haunted pub crawl through Old City with a lantern-carrying guide",
+  "intent": "Mix ghost stories with drinks at historic taverns.",
+  "description": "The 'Philly Ghosts Boos and Booze' haunted pub crawl, run by US Ghost Adventures, meets at the Independence Beer Garden; the guide wears a black US Ghost Adventures shirt and carries a lantern.",
+  "category": "nightlife",
+  "kind": "activity",
+  "subcategory": "haunted pub crawl",
+  "tags": [
+    "ghost-tour",
+    "pub-crawl",
+    "adults-only",
+    "evening"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Independence Beer Garden (meeting point)",
+    "address": "100 S Independence Mall W, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "tickets",
+      "url": "https://www.getyourguide.com/philadelphia-l60/halloween-activities-tc17/"
+    }
+  ],
+  "sources": [
+    "https://www.getyourguide.com/philadelphia-l60/halloween-activities-tc17/"
+  ],
+  "uncertain": [
+    "price",
+    "duration",
+    "schedule and whether it runs outside Halloween season",
+    "official website",
+    "age limit (assumed 21+)"
+  ],
+  "slug": "haunted-pub-crawl-through-old-city-with-a-lantern-carrying-g",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.949115,
+    "lng": -75.1509
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:37.003Z",
+  "model": "claude-sonnet-5-5"
+}

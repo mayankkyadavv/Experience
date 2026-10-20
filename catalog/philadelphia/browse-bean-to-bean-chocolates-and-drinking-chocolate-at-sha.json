@@ -1,0 +1,122 @@
+{
+  "title": "Browse bean-to-bean chocolates and drinking chocolate at Shane Confectionery",
+  "intent": "Visit America's oldest continuously operating candy shop for bonbons, caramels and hot chocolate.",
+  "description": "Historic Old City candy shop next door to the Franklin Fountain, making bonbons, caramels and bean-to-bar chocolate confections from house-roasted cacao, plus a drinking chocolate. Pair it with an ice cream stop next door.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "chocolate shop",
+  "tags": [
+    "historic",
+    "chocolate",
+    "gifts",
+    "old-city"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Shane Confectionery",
+    "address": "110 Market St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 40
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "20:00"
+    },
+    {
+      "day": 1,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 2,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "21:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://shaneconfectionery.com"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/shane-confectionery-philadelphia",
+    "https://billypenn.com/2026/09/25/philly-novelty-stores-guide/",
+    "https://en.wikipedia.org/wiki/Shane_Confectionery"
+  ],
+  "uncertain": [
+    "price_usd estimated",
+    "website URL not confirmed in search"
+  ],
+  "slug": "browse-bean-to-bean-chocolates-and-drinking-chocolate-at-sha",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9495527,
+    "lng": -75.1427412
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.078Z",
+  "model": "claude-sonnet-5-5"
+}

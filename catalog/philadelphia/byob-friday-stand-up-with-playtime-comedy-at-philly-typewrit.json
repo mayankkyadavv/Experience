@@ -1,0 +1,87 @@
+{
+  "title": "BYOB Friday stand-up with Playtime Comedy at Philly Typewriter",
+  "intent": "Bring your own drinks to an intimate Friday comedy show.",
+  "description": "Every Friday at 7:30pm, Playtime Comedy brings local and touring comics to Philly Typewriter, a typewriter shop on East Passyunk, for a BYOB stand-up show.",
+  "category": "comedy",
+  "kind": "activity",
+  "subcategory": "stand-up",
+  "tags": [
+    "byob",
+    "weekly",
+    "unusual",
+    "intimate"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philly Typewriter",
+    "address": "1735 E Passyunk Ave, Philadelphia, PA 19148",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 5,
+      "open": "19:30",
+      "close": "21:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "tickets",
+      "url": "https://www.eventbrite.com/e/playtime-comedy-fridays-at-philly-typewriter-byob-tickets-1088299546239"
+    }
+  ],
+  "sources": [
+    "https://www.eventbrite.com/e/playtime-comedy-fridays-at-philly-typewriter-byob-tickets-1088299546239",
+    "https://billypenn.com/2026/05/05/philly-comedy-scene-guide/"
+  ],
+  "uncertain": [
+    "street address",
+    "ticket price",
+    "end time"
+  ],
+  "slug": "byob-friday-stand-up-with-playtime-comedy-at-philly-typewrit",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9278196,
+    "lng": -75.1656848
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Stand-up comedy clubs, improv theaters and regular comedy nights",
+  "drafted_at": "2026-10-20T00:20:14.394Z",
+  "model": "claude-opus-5-5"
+}

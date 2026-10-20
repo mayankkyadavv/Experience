@@ -1,0 +1,109 @@
+{
+  "title": "Soul Crawl: after-dark flashlight tour of Laurel Hill East cemetery",
+  "intent": "Walk a historic Victorian cemetery by flashlight and finish with drinks around fire pits.",
+  "description": "Guides lead flashlight tours down the winding paths of Laurel Hill East, telling the stories of 'restless spirits' from the late 19th and early 20th centuries. The night ends with festive beverages around fire pits.",
+  "category": "attraction",
+  "kind": "event",
+  "subcategory": "cemetery tour",
+  "tags": [
+    "ghost-tour",
+    "cemetery",
+    "halloween",
+    "seasonal",
+    "outdoor",
+    "evening"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Laurel Hill East Cemetery",
+    "address": "3822 Ridge Ave, Philadelphia, PA 19132",
+    "neighborhood": "East Falls"
+  },
+  "price_usd": {
+    "min": 12.5,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 20
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-24",
+      "end": "2026-10-31"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-24",
+      "start": "19:00",
+      "end": "22:00"
+    },
+    {
+      "date": "2026-10-31",
+      "start": "19:00",
+      "end": "22:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://laurelhillphl.com/event/soul-crawl/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://laurelhillphl.com/event/soul-crawl-10-24/"
+    }
+  ],
+  "sources": [
+    "https://laurelhillphl.com/event/soul-crawl/",
+    "https://laurelhillphl.com/event/soul-crawl-10-24/",
+    "https://www.phillyvoice.com/soul-crawl-laurel-hill-cemetery-halloween-2026/"
+  ],
+  "uncertain": [
+    "street address not on fetched pages (from general knowledge)",
+    "tour length per group",
+    "Oct 24 listing could be sold out"
+  ],
+  "slug": "soul-crawl-after-dark-flashlight-tour-of-laurel-hill-east-ce",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0021955,
+    "lng": -75.1869072
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:36.999Z",
+  "model": "claude-sonnet-5-5"
+}

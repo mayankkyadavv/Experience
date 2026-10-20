@@ -1,0 +1,111 @@
+{
+  "title": "See Temple men's basketball at the Liacouras Center",
+  "intent": "Cheap Big 5 and American Conference hoops on North Broad Street.",
+  "description": "Temple's non-conference home games at the Liacouras Center start Nov. 2 (Central Connecticut State), with Charleston (Nov. 11) and Middle Tennessee (Nov. 20) following; a Big 5 game vs Villanova is on Dec. 1. The Nov. 8 game vs Richmond is at the Palestra instead.",
+  "category": "sports",
+  "kind": "event",
+  "subcategory": "college basketball",
+  "tags": [
+    "temple",
+    "big-5",
+    "indoor",
+    "north-philly",
+    "cheap"
+  ],
+  "good_for": [
+    "friends",
+    "family",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Liacouras Center",
+    "address": "1776 N Broad St, Philadelphia, PA 19121",
+    "neighborhood": "North Philadelphia (Temple University)"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-02",
+      "end": "2026-12-01"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-02",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-11-11",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-11-20",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-12-01",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://owlsports.com/sports/mens-basketball/schedule"
+    }
+  ],
+  "sources": [
+    "https://owlsports.com/news/2026/9/23/mens-basketball-temple-mens-basketball-announces-2026-27-non-conference-schedule",
+    "https://owlsports.com/sports/mens-basketball/schedule",
+    "https://pennathletics.com/sports/palestra-100/schedule/2026-27"
+  ],
+  "uncertain": [
+    "tip-off times",
+    "price_usd",
+    "venue for Dec. 1 Villanova game"
+  ],
+  "slug": "see-temple-mens-basketball-at-the-liacouras-center",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9798139,
+    "lng": -75.1585825
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Pro and college sports games and stadium experiences",
+  "drafted_at": "2026-10-20T01:15:34.976Z",
+  "model": "claude-sonnet-5-5"
+}

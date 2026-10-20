@@ -1,0 +1,110 @@
+{
+  "title": "Pierogi and contemporary Polish dinner at Little Walter's",
+  "intent": "Modern Polish-American cooking in East Kensington, praised by the NYT.",
+  "description": "Chef Michael Brenfleck's casual restaurant gives Polish classics like pierogi ruskie new twists. Reservations on OpenTable.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "polish",
+  "tags": [
+    "polish",
+    "pierogi",
+    "casual"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Little Walter's",
+    "address": "2049 E Hagert St, Philadelphia, PA 19125",
+    "neighborhood": "East Kensington"
+  },
+  "price_usd": {
+    "min": 30,
+    "max": 55
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 100
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "15:00",
+      "close": "20:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/little-walters-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.opentable.com/r/little-walters-philadelphia",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d28034225-Reviews-Little_Walter_s-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "hours (sources conflict; narrowest used)",
+    "duration_minutes",
+    "official website"
+  ],
+  "slug": "pierogi-and-contemporary-polish-dinner-at-little-walters",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9840107,
+    "lng": -75.127966
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington",
+  "drafted_at": "2026-10-20T00:31:20.105Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,93 @@
+{
+  "title": "Sip PA ciders at the Headhouse Sunday Cider Stroll",
+  "intent": "Close out Philly Cider Week with cider, snacks and live music under the Shambles.",
+  "description": "All-ages outdoor cider market beneath the Headhouse Shambles on Sunday, Nov. 1, with Pennsylvania ciders, live music, local snacks and face painting. It closes Philly Cider Week (Oct 25-Nov 1) and runs after the regular Headhouse Farmers Market.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "cider market",
+  "tags": [
+    "cider",
+    "outdoor",
+    "seasonal",
+    "live-music",
+    "family-friendly"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Headhouse Shambles",
+    "address": "200 Lombard St, Philadelphia, PA 19147",
+    "neighborhood": "Society Hill"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-01",
+      "end": "2026-11-01"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-01",
+      "start": "15:00",
+      "end": "19:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thefoodtrust.org/what-we-do/farmers-markets/headhouse/"
+    }
+  ],
+  "sources": [
+    "https://www.phillyvoice.com/philly-cider-week-pennsylvania-cider-events-2026/",
+    "https://thefoodtrust.org/what-we-do/farmers-markets/headhouse/"
+  ],
+  "uncertain": [
+    "price_usd (entry/ticketing not confirmed)"
+  ],
+  "slug": "sip-pa-ciders-at-the-headhouse-sunday-cider-stroll",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9417694,
+    "lng": -75.1459502
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.764Z",
+  "model": "claude-sonnet-5-5"
+}

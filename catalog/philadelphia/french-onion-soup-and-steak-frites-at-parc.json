@@ -1,0 +1,124 @@
+{
+  "title": "French onion soup and steak frites at Parc",
+  "intent": "Classic all-day Parisian brasserie facing Rittenhouse Square.",
+  "description": "Stephen Starr's bustling brasserie on the corner of Rittenhouse Square serves breakfast through dinner: omelettes, escargots, French onion soup, steak frites and fruits de mer, with sidewalk seating on the square.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "french brasserie",
+  "tags": [
+    "outdoor-seating",
+    "brunch",
+    "people-watching",
+    "all-day"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "solo",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Parc",
+    "address": "227 S 18th St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 70
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:30",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "23:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.yelp.com/biz/parc-philadelphia-2"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/parc-philadelphia-2",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d1134529-Reviews-Parc_Brasserie-Philadelphia_Pennsylvania.html",
+    "https://www.enprimeurclub.com/restaurants/parc-philadelphia-restaurant"
+  ],
+  "uncertain": [
+    "Fri-Sun hours",
+    "price range estimated (~$50 typical)",
+    "official website"
+  ],
+  "slug": "french-onion-soup-and-steak-frites-at-parc",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.949089,
+    "lng": -75.1707551
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Center City and Rittenhouse",
+  "drafted_at": "2026-10-20T01:08:55.234Z",
+  "model": "claude-sonnet-5-5"
+}

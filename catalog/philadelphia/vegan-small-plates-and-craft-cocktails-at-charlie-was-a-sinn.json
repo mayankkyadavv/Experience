@@ -1,0 +1,123 @@
+{
+  "title": "Vegan small plates and craft cocktails at Charlie was a sinner.",
+  "intent": "Strong, creative cocktails in a dark, moody Midtown Village bar with all-vegan snacks.",
+  "description": "A popular vegan tapas-style bar in Midtown Village with a list of strong craft cocktails and a dark, candlelit interior. Small plates are served until 11pm daily, and happy hour runs weekdays 4–6pm. It gets busy on weekend nights.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "cocktail bar",
+  "tags": [
+    "vegan",
+    "happy-hour",
+    "midtown-village",
+    "late-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Charlie was a sinner.",
+    "address": "131 S 13th St, Philadelphia, PA 19107",
+    "neighborhood": "Midtown Village"
+  },
+  "price_usd": {
+    "min": 14,
+    "max": 22
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "16:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://charliewasasinner.com/"
+    },
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/charlie-was-a-sinner-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.opentable.com/r/charlie-was-a-sinner-philadelphia",
+    "https://savorytraveler.com/restaurant_reviews/charlie-was-a-sinner/"
+  ],
+  "uncertain": [
+    "cocktail price"
+  ],
+  "slug": "vegan-small-plates-and-craft-cocktails-at-charlie-was-a-sinn",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9495249,
+    "lng": -75.1618901
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cocktail bars and speakeasies worth going to on purpose",
+  "drafted_at": "2026-10-20T00:34:55.453Z",
+  "model": "claude-sonnet-5-5"
+}

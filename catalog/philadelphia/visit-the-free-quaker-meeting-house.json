@@ -1,0 +1,104 @@
+{
+  "title": "Visit the Free Quaker Meeting House",
+  "intent": "Learn about the Quakers who broke away to support the Revolution.",
+  "description": "This 1783 brick meeting house was built by the Free Quakers, who were expelled by other Friends for supporting the Revolutionary War. It is a small free National Park Service site near Independence Mall.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic meeting house",
+  "tags": [
+    "free",
+    "quick-stop",
+    "quaker"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Free Quaker Meeting House",
+    "address": "500 Arch St",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 30
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "16:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "16:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "16:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "16:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.phlvisitorcenter.com/things-to-do/free-quaker-meeting-house"
+    }
+  ],
+  "sources": [
+    "https://www.phlvisitorcenter.com/things-to-do/free-quaker-meeting-house",
+    "https://home.nps.gov/inde/planyourvisit/hours.htm"
+  ],
+  "uncertain": [],
+  "slug": "visit-the-free-quaker-meeting-house",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.952516,
+    "lng": -75.148647
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.408Z",
+  "model": "claude-sonnet-5-5"
+}

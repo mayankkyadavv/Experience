@@ -1,0 +1,91 @@
+{
+  "title": "Build something in a beginner woodworking class at Philadelphia Woodworks",
+  "intent": "Learn real woodshop skills and leave with something you built.",
+  "description": "Philadelphia Woodworks has a large shop in Roxborough with beginner classes like the one-day Express Woodshop Introduction, hand-tool classes and woodturning. It also runs a BYO-drinks 'Boards & Booze' evening at $129 per person. No membership is required for classes.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "woodworking",
+  "tags": [
+    "woodworking",
+    "beginner-friendly",
+    "byob",
+    "hands-on"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Woodworks",
+    "address": "4901 Umbria St, Philadelphia, PA 19128",
+    "neighborhood": "Roxborough"
+  },
+  "price_usd": {
+    "min": 129,
+    "max": 460
+  },
+  "duration_minutes": {
+    "min": 240,
+    "max": 465
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.philadelphiawoodworks.com/"
+    },
+    {
+      "kind": "booking",
+      "url": "https://www.philadelphiawoodworks.com/essentials_series/express_woodshop_introduction/"
+    }
+  ],
+  "sources": [
+    "https://www.philadelphiawoodworks.com/",
+    "https://www.philadelphiawoodworks.com/home_and_lifestyle_series/boards_and_booze/",
+    "https://www.philadelphiawoodworks.com/tools_and_techniques_series/introduction_to_hand_tools/"
+  ],
+  "uncertain": [
+    "upcoming class dates",
+    "price range varies by class (materials extra)",
+    "duration",
+    "neighborhood"
+  ],
+  "slug": "build-something-in-a-beginner-woodworking-class-at-philadelp",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0348865,
+    "lng": -75.2345876
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.447Z",
+  "model": "claude-sonnet-5-5"
+}

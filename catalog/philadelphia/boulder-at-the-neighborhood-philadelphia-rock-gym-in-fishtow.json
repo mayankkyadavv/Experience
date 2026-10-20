@@ -1,0 +1,83 @@
+{
+  "title": "Boulder at the neighborhood Philadelphia Rock Gym in Fishtown",
+  "intent": "Drop in at a smaller, community-feeling bouldering gym.",
+  "description": "A 6,000 sq ft bouldering and fitness gym open since 2018, serving Fishtown, Northern Liberties and Kensington. It has a laid-back neighborhood feel and offers day passes and memberships.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "rock climbing",
+  "tags": [
+    "indoor",
+    "rainy-day",
+    "bouldering",
+    "beginner-friendly",
+    "year-round"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Rock Gym – Fishtown",
+    "address": "2412 E York St, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://philarockgym.com/prg-fishtown/"
+    }
+  ],
+  "sources": [
+    "https://philarockgym.com/prg-fishtown/"
+  ],
+  "uncertain": [
+    "price (East Falls day pass is $23; Fishtown not confirmed)",
+    "weekend closing time (weekday hours seen: Mon/Wed/Fri 12-10pm, Tue/Thu 9am-10pm; Sat-Sun open 9am)",
+    "duration_minutes",
+    "group_size"
+  ],
+  "slug": "boulder-at-the-neighborhood-philadelphia-rock-gym-in-fishtow",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9779531,
+    "lng": -75.1246857
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks",
+  "drafted_at": "2026-10-20T00:33:19.251Z",
+  "model": "claude-sonnet-5-5"
+}

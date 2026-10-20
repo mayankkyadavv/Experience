@@ -1,0 +1,131 @@
+{
+  "title": "Dinner at Kalaya, Nok Suntaranon's Southern Thai restaurant",
+  "intent": "Eat acclaimed, fiery Southern Thai cooking in a large Fishtown dining room.",
+  "description": "Chef Nok Suntaranon's Southern Thai restaurant moved from Bella Vista to a much bigger Fishtown space and is on Eater Philly's Eater 38 list. Expect curries, grilled dishes and a dinner-focused menu; reservations are wise.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "thai",
+  "tags": [
+    "thai",
+    "reservations",
+    "eater-38",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Kalaya",
+    "address": "4 W Palmer St, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 35,
+    "max": 70
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "14:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "14:00"
+    },
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://kalayaphilly.com"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d25385418-Reviews-Kalaya-Philadelphia_Pennsylvania.html",
+    "https://guidetophilly.com/kalaya-thai-kitchen/",
+    "https://957benfm.com/2026/08/25/fishtown-kensington-restaurants-dominate-eater-phillys-summer-list/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "duration_minutes"
+  ],
+  "slug": "dinner-at-kalaya-nok-suntaranons-southern-thai-restaurant",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.975633,
+    "lng": -75.133092
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington",
+  "drafted_at": "2026-10-20T00:31:20.102Z",
+  "model": "claude-sonnet-5-5"
+}

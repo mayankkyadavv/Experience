@@ -1,0 +1,114 @@
+{
+  "title": "Tour Edgar Allan Poe's Philadelphia home",
+  "intent": "Walk through the only surviving Philadelphia home of the writer, for free.",
+  "description": "A National Historic Site with Poe's 1840s house, a visitor center museum, a short film and a reading room. Open Friday through Sunday, closed noon to 1 PM.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic house",
+  "tags": [
+    "free",
+    "literary",
+    "historic",
+    "short-visit"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Edgar Allan Poe National Historic Site",
+    "address": "532 N 7th St, Philadelphia, PA 19123",
+    "neighborhood": "Spring Garden"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "12:00"
+    },
+    {
+      "day": 5,
+      "open": "13:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "12:00"
+    },
+    {
+      "day": 6,
+      "open": "13:00",
+      "close": "17:00"
+    },
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "12:00"
+    },
+    {
+      "day": 0,
+      "open": "13:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.nps.gov/edal/index.htm"
+    }
+  ],
+  "sources": [
+    "https://home.nps.gov/edal/faqs.htm",
+    "https://npplan.com/parks-by-state/pennsylvania-national-parks/edgar-allan-poe-national-historic-site-park-at-a-glance/"
+  ],
+  "uncertain": [
+    "Free admission (general knowledge)"
+  ],
+  "slug": "tour-edgar-allan-poes-philadelphia-home",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9618313,
+    "lng": -75.1498587
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.033Z",
+  "model": "claude-sonnet-5-5"
+}

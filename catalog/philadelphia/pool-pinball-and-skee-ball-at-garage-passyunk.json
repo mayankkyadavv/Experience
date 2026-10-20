@@ -1,0 +1,121 @@
+{
+  "title": "Pool, pinball and skee-ball at Garage Passyunk",
+  "intent": "Casual South Philly beer bar with games and rotating food cart.",
+  "description": "Former auto-body shop turned beer bar with 200-300 canned beers, pool tables, skee-ball and pinball, plus a food cart with rotating guest chefs. Near Pat's and Geno's.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "game bar",
+  "tags": [
+    "pinball",
+    "skee-ball",
+    "pool",
+    "cheap",
+    "south-philly",
+    "beer"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Garage Passyunk",
+    "address": "1231 E Passyunk Ave, Philadelphia, PA 19147",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "02:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.garagephilly.com"
+    }
+  ],
+  "sources": [
+    "https://punchdrink.com/venues/garage/",
+    "https://mindtrip.ai/restaurant/philadelphia-pennsylvania/garage-passyunk/re-XSqRoGG5",
+    "https://www.yelp.ca/biz/garage-passyunk-philadelphia-2?osq=mexican+food+factory&start=160"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours differ across sources (Yelp shows 11am-2am)",
+    "website url for this location"
+  ],
+  "slug": "pool-pinball-and-skee-ball-at-garage-passyunk",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9334683,
+    "lng": -75.1587419
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.556Z",
+  "model": "claude-sonnet-5-5"
+}

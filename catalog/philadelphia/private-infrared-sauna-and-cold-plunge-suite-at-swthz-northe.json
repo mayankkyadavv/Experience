@@ -1,0 +1,88 @@
+{
+  "title": "Private infrared sauna and cold plunge suite at SWTHZ Northern Liberties",
+  "intent": "Try hot and cold contrast therapy in your own private suite.",
+  "description": "A private 60-minute contrast therapy session with an infrared sauna, a cold plunge and a vitamin-C shower. A first-time intro session costs $35 and a regular drop-in is $80. It is near The Piazza, and memberships are available.",
+  "category": "wellness",
+  "kind": "place",
+  "subcategory": "contrast therapy",
+  "tags": [
+    "sauna",
+    "cold-plunge",
+    "infrared",
+    "private",
+    "recovery"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "SWTHZ Northern Liberties",
+    "address": "1050 N Hancock St, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": {
+    "min": 35,
+    "max": 80
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 2
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sweathouz.com/northern-liberties-book-now/"
+    },
+    {
+      "kind": "instagram",
+      "url": "https://www.instagram.com/sweathouz"
+    }
+  ],
+  "sources": [
+    "https://sweathouz.com/northern-liberties-book-now/"
+  ],
+  "uncertain": [
+    "weekly hours",
+    "maximum number of people per suite"
+  ],
+  "slug": "private-infrared-sauna-and-cold-plunge-suite-at-swthz-northe",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9660968,
+    "lng": -75.1393076
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Spas, saunas, bathhouses and wellness experiences",
+  "drafted_at": "2026-10-20T01:09:33.218Z",
+  "model": "claude-sonnet-5-5"
+}

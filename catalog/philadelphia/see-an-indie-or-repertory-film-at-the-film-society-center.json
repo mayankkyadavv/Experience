@@ -1,0 +1,78 @@
+{
+  "title": "See an indie or repertory film at the Film Society Center",
+  "intent": "Catch an arthouse, classic or festival film in a Center City cinema.",
+  "description": "The Philadelphia Film Society's flagship venue (formerly the Prince Theater) screens independent, international and classic films, plus festival and special events. Box office opens an hour before the first show; check the schedule for showtimes. PFS also runs screens at PFS East (Old City) and PFS Bourse.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "cinema",
+  "tags": [
+    "rainy-day",
+    "film",
+    "arthouse",
+    "indoor"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Film Society - Film Society Center",
+    "address": "1412 Chestnut St, Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://filmadelphia.org/about/venues/film-society-center/"
+    }
+  ],
+  "sources": [
+    "https://filmadelphia.org/about/venues/film-society-center/",
+    "https://www.visitphilly.com/things-to-do/attractions/philadelphia-film-center/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours (showtime dependent)"
+  ],
+  "slug": "see-an-indie-or-repertory-film-at-the-film-society-center",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9507355,
+    "lng": -75.1647093
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.122Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,121 @@
+{
+  "title": "Spend a day at the Philadelphia Zoo",
+  "intent": "See America's first zoo, including walk-over animal trails and KidZooU.",
+  "description": "America's first zoo covers 42 acres with Big Cat Falls, the PECO Primate Reserve, KidZooU and the Zoo360 mesh trails that let animals roam overhead. Daytime admission pricing varies by date and advance reservation is required.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "zoo",
+  "tags": [
+    "outdoor",
+    "animals",
+    "all-day",
+    "kid-favorite"
+  ],
+  "good_for": [
+    "family",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Zoo",
+    "address": "3400 W Girard Ave, Philadelphia, PA 19104",
+    "neighborhood": "West Philadelphia"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 180,
+    "max": 330
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:30",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "09:30",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "09:30",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "09:30",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "09:30",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "09:30",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "09:30",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.philadelphiazoo.org/visit/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://visit.philadelphiazoo.org/"
+    }
+  ],
+  "sources": [
+    "https://www.philadelphiazoo.org/visit/",
+    "https://visit.philadelphiazoo.org/"
+  ],
+  "uncertain": [
+    "price (varies by date; children under 2 free, parking $22)",
+    "winter-season hours may be shorter"
+  ],
+  "slug": "spend-a-day-at-the-philadelphia-zoo",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9754074,
+    "lng": -75.1969461
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Family-friendly and kid-friendly activities",
+  "drafted_at": "2026-10-20T00:34:18.063Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,111 @@
+{
+  "title": "Wine by the glass from a record-size Winekeeper at Panorama",
+  "intent": "Old City Italian dinner with 150+ wines by the glass.",
+  "description": "Italian restaurant and wine bar in the Penn's View Hotel with a Guinness-certified large Winekeeper system pouring 150+ wines by the glass. Suits a nicer date night or business dinner.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "wine bar",
+  "tags": [
+    "old-city",
+    "italian",
+    "wine-flights",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Panorama",
+    "address": "14 N Front St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 40,
+    "max": 90
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "16:30",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "16:30",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "16:30",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "16:30",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "15:00",
+      "close": "22:00"
+    },
+    {
+      "day": 0,
+      "open": "15:00",
+      "close": "20:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.oldcitydistrict.org/business/panorama-wine-bar",
+    "https://www.yelp.com/biz/panorama-philadelphia-2",
+    "https://www.toasttab.com/local/order/panorama-14-n-front-st/item-broccoli-rabe_9e2dec40-4cfa-4ef2-bb66-0a52b3f3462c"
+  ],
+  "uncertain": [
+    "hours (Yelp/Toast; Sat/Sun vary by source)",
+    "price",
+    "official website"
+  ],
+  "slug": "wine-by-the-glass-from-a-record-size-winekeeper-at-panorama",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9501703,
+    "lng": -75.1421735
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.056Z",
+  "model": "claude-sonnet-5-5"
+}

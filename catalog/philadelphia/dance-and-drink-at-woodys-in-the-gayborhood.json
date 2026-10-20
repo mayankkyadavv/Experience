@@ -1,0 +1,106 @@
+{
+  "title": "Dance and drink at Woody's in the Gayborhood",
+  "intent": "A multi-floor, 40-year-old gay bar and dance club in the heart of the Gayborhood.",
+  "description": "Long-running LGBTQ+ nightspot with multiple floors including a video bar and a dance floor, with DJs, themed nights and a lively crowd. Open into the early morning.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "gay bar / dance club",
+  "tags": [
+    "lgbtq",
+    "gayborhood",
+    "dance-floor",
+    "late-night",
+    "video-bar"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Woody's Bar",
+    "address": "202 S 13th St, Philadelphia, PA 19107",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 240
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.yelp.com/biz/woodys-philadelphia",
+    "https://www.travelgay.com/philadelphia-gay-dance-clubs",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d493104-Reviews-Woody_s_Bar-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "Monday/Tuesday hours (sources conflict)",
+    "cover",
+    "official website"
+  ],
+  "slug": "dance-and-drink-at-woodys-in-the-gayborhood",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9488398,
+    "lng": -75.1622899
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance clubs, DJ nights and late-night spots",
+  "drafted_at": "2026-10-20T01:12:51.155Z",
+  "model": "claude-sonnet-5-5"
+}

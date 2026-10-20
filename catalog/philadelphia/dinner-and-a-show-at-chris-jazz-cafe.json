@@ -1,0 +1,113 @@
+{
+  "title": "Dinner and a show at Chris' Jazz Cafe",
+  "intent": "See touring and local jazz acts in Philly's longest-running jazz club.",
+  "description": "Founded in 1989, Chris' is the oldest continuously operating jazz club in Philadelphia, with ticketed live sets about five nights a week and a New Orleans-inspired menu. Saturday nights feature a late-night jam.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "jazz club",
+  "tags": [
+    "jazz",
+    "dinner-and-show",
+    "institution",
+    "ticketed",
+    "late-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Chris' Jazz Cafe",
+    "address": "1421 Sansom St, Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 45
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "12:00",
+      "close": "00:00"
+    },
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "00:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "00:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "18:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.chrisjazzcafe.com/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/top-places-to-listen-to-live-jazz-music-in-philadelphia/",
+    "https://www.yelp.com/biz/chris-jazz-cafe-philadelphia-2",
+    "https://www.wrti.org/wrti-spotlight/2026-10-11/jazz-thepoint-festival-benny-benack-iii-v-shayne-frederick"
+  ],
+  "uncertain": [
+    "hours (from Yelp; kitchen/show times vary)",
+    "exact cover price per show (recent shows $30-35 on one listing)"
+  ],
+  "slug": "dinner-and-a-show-at-chris-jazz-cafe",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9503498,
+    "lng": -75.16537
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.180Z",
+  "model": "claude-sonnet-5-5"
+}

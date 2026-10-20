@@ -1,0 +1,76 @@
+{
+  "title": "Take an American Vegan Center cooking demo in Old City",
+  "intent": "Watch and learn plant-based cooking at a community demo.",
+  "description": "The American Vegan Center in Old City regularly hosts vegan cooking demonstrations, with past sessions on pizza quesadillas, a chopped 'liver' pate and festive dips. Some events are free, and a student price tier is offered.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "cooking demo",
+  "tags": [
+    "vegan",
+    "demo",
+    "community",
+    "cheap"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "American Vegan Center",
+    "address": null,
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://philly.citycast.fm/food-drink/where-to-learn-to-cook-in-philly"
+    }
+  ],
+  "sources": [
+    "https://philly.citycast.fm/food-drink/where-to-learn-to-cook-in-philly"
+  ],
+  "uncertain": [
+    "address",
+    "price",
+    "schedule",
+    "website"
+  ],
+  "slug": "take-an-american-vegan-center-cooking-demo-in-old-city",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.950539,
+    "lng": -75.1434872
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.731Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,88 @@
+{
+  "title": "Sit at a table for The Magicians Table close-up magic show",
+  "intent": "See an intimate London-style magic show with live music and cocktails.",
+  "description": "A Philadelphia premiere from London: roughly two hours of close-up magic performed at your table, mixed with live music, comedy and handcrafted cocktails. Held in the SEI Innovation Studio inside the Kimmel Center.",
+  "category": "arts_culture",
+  "kind": "event",
+  "subcategory": "magic",
+  "tags": [
+    "magic",
+    "immersive",
+    "cocktails",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "SEI Innovation Studio, Kimmel Center",
+    "address": "300 S. Broad St, Philadelphia, PA 19102",
+    "neighborhood": "Avenue of the Arts"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-21",
+      "end": "2026-11-22"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.ensembleartsphilly.org/tickets-and-events/ensemble-arts-philly-presents/the-magicians-table"
+    }
+  ],
+  "sources": [
+    "https://www.ensembleartsphilly.org/tickets-and-events/ensemble-arts-philly-presents/the-magicians-table",
+    "https://www.broadwayworld.com/philadelphia/article/THE-MAGICIANS-TABLE-to-Bring-London-Magic-Show-to-Philadelphia-20260727"
+  ],
+  "uncertain": [
+    "performance days and times",
+    "ticket price",
+    "end date (Nov 21 vs Nov 22 across sources)",
+    "street address of the studio assumed to be Kimmel Center's 300 S. Broad"
+  ],
+  "slug": "sit-at-a-table-for-the-magicians-table-close-up-magic-show",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9467456,
+    "lng": -75.1657393
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Concerts, comedy shows and performances with specific dates between 2026-10-20 and 2026-12-31",
+  "drafted_at": "2026-10-20T01:18:20.056Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,107 @@
+{
+  "title": "Drink at the Neon Clown Dream Lounge above Kung Fu Necktie",
+  "intent": "Have cocktails in a bar decked out entirely in clown memorabilia salvaged from shuttered amusement parks.",
+  "description": "A clown-themed cocktail lounge on the second floor above Kung Fu Necktie in Fishtown, decorated with clown masks and amusement-park salvage. It has no cover, hosts DJ sets, drag and themed nights, and its food menu is $2 hot dogs.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "themed bar",
+  "tags": [
+    "unusual",
+    "clowns",
+    "cocktails",
+    "no-cover",
+    "late-night"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Neon Clown Dream Lounge",
+    "address": "1248 N Front St, Philadelphia, PA 19122",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "18:00",
+      "close": "00:00"
+    },
+    {
+      "day": 4,
+      "open": "18:00",
+      "close": "00:00"
+    },
+    {
+      "day": 5,
+      "open": "18:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "18:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://neonclownbar.com"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/strange-unusual-attractions/",
+    "https://www.yelp.com/biz/neon-clown-dream-lounge-philadelphia",
+    "https://ra.co/clubs/301121"
+  ],
+  "uncertain": [
+    "Typical per-person spend is an estimate",
+    "Official website URL taken from a directory listing"
+  ],
+  "slug": "drink-at-the-neon-clown-dream-lounge-above-kung-fu-necktie",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9702775,
+    "lng": -75.1359278
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Small, unusual and weird museums and attractions",
+  "drafted_at": "2026-10-20T01:13:35.509Z",
+  "model": "claude-sonnet-5-5"
+}

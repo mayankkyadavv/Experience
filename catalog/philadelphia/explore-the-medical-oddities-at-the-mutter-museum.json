@@ -1,0 +1,119 @@
+{
+  "title": "Explore the medical oddities at the Mütter Museum",
+  "intent": "See a Victorian-style cabinet of anatomical specimens and medical history.",
+  "description": "A 19th-century-style cabinet museum at the College of Physicians with anatomical specimens, wax models and antique medical tools. Dimly lit and macabre, so not for the squeamish. Timed entry with limited capacity; book ahead on weekends.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "medical history museum",
+  "tags": [
+    "unusual",
+    "rainy-day",
+    "indoor",
+    "timed-entry"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Mütter Museum",
+    "address": "19 S 22nd St, Philadelphia, PA 19103",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 23,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "15:00",
+      "close": "20:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://muttermuseum.org/visit/hours-admission/"
+    }
+  ],
+  "sources": [
+    "https://muttermuseum.org/visit/hours-admission/"
+  ],
+  "uncertain": [
+    "Tuesday extended hours (3-8 PM) listed only through Oct 27; after that Tuesday likely closed or changed"
+  ],
+  "slug": "explore-the-medical-oddities-at-the-mutter-museum",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9532752,
+    "lng": -75.1765473
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.029Z",
+  "model": "claude-sonnet-5-5"
+}

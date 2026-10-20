@@ -1,0 +1,86 @@
+{
+  "title": "Monday happy-hour quizzo at Cavanaugh's Rittenhouse",
+  "intent": "Early-evening trivia with pub food near Rittenhouse Square.",
+  "description": "Rittenhouse sports bar running Monday quizzo starting around 6:30 p.m., during happy hour, with pub fare and a wide drink range.",
+  "category": "games",
+  "kind": "activity",
+  "subcategory": "trivia",
+  "tags": [
+    "quizzo",
+    "trivia",
+    "weekly",
+    "monday",
+    "happy-hour"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Cavanaugh's Rittenhouse",
+    "address": "1823 Sansom St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://cavsrittenhouse.com"
+    }
+  ],
+  "sources": [
+    "https://www.inquirer.com/philly-tips/where-to-play-quizzo-nights-bars-philly.html",
+    "https://phillyviews.com/philadelphia-quizzo-guide/"
+  ],
+  "uncertain": [
+    "street number (sources list 1823 vs 1921 Sansom St)",
+    "free to play assumed",
+    "current schedule"
+  ],
+  "slug": "monday-happy-hour-quizzo-at-cavanaughs-rittenhouse",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9510375,
+    "lng": -75.1709241
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.557Z",
+  "model": "claude-sonnet-5-5"
+}

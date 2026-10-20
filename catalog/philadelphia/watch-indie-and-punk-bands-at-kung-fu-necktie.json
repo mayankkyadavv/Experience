@@ -1,0 +1,84 @@
+{
+  "title": "Watch indie and punk bands at Kung Fu Necktie",
+  "intent": "Take in a cheap, loose, local-scene night in a two-floor Fishtown music bar.",
+  "description": "A two-floor live-music bar founded in 2008 and still active, with indie, punk and rock shows plus dance nights. Shows are listed for Oct 22 and 23 on its site.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "punk",
+  "tags": [
+    "dive-bar",
+    "cheap",
+    "local-scene",
+    "fishtown"
+  ],
+  "good_for": [
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Kung Fu Necktie",
+    "address": "1250 N Front St, Philadelphia, PA 19122",
+    "neighborhood": "Fishtown / Kensington"
+  },
+  "price_usd": {
+    "min": 8,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://kungfunecktie.com/"
+    }
+  ],
+  "sources": [
+    "https://kungfunecktie.com/",
+    "https://riffipedia.fandom.com/wiki/Kung_Fu_Necktie",
+    "https://www.indieonthemove.com/venues/kung-fu-necktie-philadelphia-pennsylvania"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours"
+  ],
+  "slug": "watch-indie-and-punk-bands-at-kung-fu-necktie",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9697795,
+    "lng": -75.1360566
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.508Z",
+  "model": "claude-sonnet-5-5"
+}

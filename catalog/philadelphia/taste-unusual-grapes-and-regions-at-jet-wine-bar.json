@@ -1,0 +1,120 @@
+{
+  "title": "Taste unusual grapes and regions at Jet Wine Bar",
+  "intent": "Adventurous by-the-glass list from lesser-known regions.",
+  "description": "Small South Street wine bar whose by-the-glass list leans on exotic grapes and regions, with small plates, a bottle shop and wine club. Reservations are available.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "wine bar",
+  "tags": [
+    "wine-flights",
+    "bottle-shop",
+    "south-street",
+    "intimate"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Jet Wine Bar",
+    "address": "1525 South St, Philadelphia, PA 19146",
+    "neighborhood": "Graduate Hospital"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 50
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "14:00",
+      "close": "00:00"
+    },
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "http://jetwinebar.com/"
+    },
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/jet-wine-bar-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.opentable.com/r/jet-wine-bar-philadelphia",
+    "https://punchdrink.com/venues/jet/",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d3618620-Reviews-Jet_Wine_Bar-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "hours (OpenTable/TripAdvisor; Apple Maps differs)",
+    "price"
+  ],
+  "slug": "taste-unusual-grapes-and-regions-at-jet-wine-bar",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9440934,
+    "lng": -75.1680044
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.050Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,117 @@
+{
+  "title": "Scoop creative small-batch flavors at Milk Jawn",
+  "intent": "Inventive small-batch ice cream on East Passyunk Avenue.",
+  "description": "Brick-and-mortar shop from a Philly small-batch ice cream company that started as a kitchen hobby in 2012, using local Pennsylvania dairy and Philly-style (egg-free) bases. Named in guides to the city's best ice cream.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "ice cream",
+  "tags": [
+    "east-passyunk",
+    "small-batch",
+    "local",
+    "late-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Milk Jawn",
+    "address": "1439 E Passyunk Ave, Philadelphia, PA 19147",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 12
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 40
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "21:00"
+    },
+    {
+      "day": 2,
+      "open": "15:00",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "15:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "15:00",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "15:00",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "21:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g60795-d25093030-Reviews-Milk_Jawn-Philadelphia_Pennsylvania.html"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d25093030-Reviews-Milk_Jawn-Philadelphia_Pennsylvania.html",
+    "https://maps.apple.com/place?address=1439+E+Passyunk+Ave%2C+Philadelphia%2C+PA++19147%2C+United+States&coordinate=39.9309911%2C-75.1619138&name=Milk+Jawn&place-id=IA29C9123B70232DA&_provider=9902"
+  ],
+  "uncertain": [
+    "hours (Tripadvisor shows 9pm close; Apple Maps shows 11pm)",
+    "official website",
+    "price_usd estimated"
+  ],
+  "slug": "scoop-creative-small-batch-flavors-at-milk-jawn",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9309944,
+    "lng": -75.1618766
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.080Z",
+  "model": "claude-sonnet-5-5"
+}

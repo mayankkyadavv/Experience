@@ -1,0 +1,114 @@
+{
+  "title": "Have a bartender's-choice martini at Andra Hem",
+  "intent": "A tiny Swedish-inspired cocktail bar for martinis and caviar chips.",
+  "description": "A small, easy-to-miss Rittenhouse cocktail bar with a Swedish-leaning menu, known for martinis and a high-low snack of potato chips with caviar and crème fraîche. Open Tuesday to Sunday evenings.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "cocktail bar",
+  "tags": [
+    "martini",
+    "small-plates",
+    "date-night",
+    "hidden"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Andra Hem",
+    "address": "218 S 16th St, Philadelphia, PA 19102",
+    "neighborhood": "Rittenhouse Square"
+  },
+  "price_usd": {
+    "min": 16,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 2,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "00:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "00:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://andrahem.com"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/andra-hem-philadelphia",
+    "https://www.visitphilly.com/articles/philadelphia/hidden-bars-and-restaurants-in-philadelphia/",
+    "https://maps.roadtrippers.com/us/philadelphia-pa/food-drink/andra-hem"
+  ],
+  "uncertain": [
+    "price"
+  ],
+  "slug": "have-a-bartenders-choice-martini-at-andra-hem",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.949161,
+    "lng": -75.167758
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cocktail bars and speakeasies worth going to on purpose",
+  "drafted_at": "2026-10-20T00:34:55.452Z",
+  "model": "claude-sonnet-5-5"
+}

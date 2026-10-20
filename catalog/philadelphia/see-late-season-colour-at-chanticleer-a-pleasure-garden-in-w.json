@@ -1,0 +1,113 @@
+{
+  "slug": "see-late-season-colour-at-chanticleer-a-pleasure-garden-in-w",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "See late-season colour at Chanticleer, a 'pleasure garden' in Wayne",
+  "intent": "Experience one of the region's most artful gardens before it closes for winter.",
+  "description": "A contemporary 48-acre botanical garden on a former Main Line estate, known for creative plantings, a Japanese-inspired garden and relaxed picnic-friendly grounds. Open Wednesday-Sunday, April through October; general admission was listed at $15 with parking reservations.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "botanical garden",
+  "tags": [
+    "garden",
+    "seasonal",
+    "main-line",
+    "photography"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Chanticleer Garden",
+    "address": "786 Church Rd, Wayne, PA 19087",
+    "neighborhood": "Main Line (Wayne)"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.chanticleer.org/"
+    },
+    {
+      "kind": "booking",
+      "url": "https://chanticleer.ahvay-dev.com/plan-your-visit/"
+    }
+  ],
+  "sources": [
+    "https://chanticleer.ahvay-dev.com/plan-your-visit/",
+    "https://maps.apple.com/place?place-id=IC44E3AB6A2AECF29",
+    "https://www.yelp.com/biz/chanticleer-foundation-wayne-3"
+  ],
+  "uncertain": [
+    "final day of 2026 season (likely around end of October/early November; confirm before going)",
+    "official website URL",
+    "price may differ by date"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.772Z",
+  "model": "claude-sonnet-5-5"
+}

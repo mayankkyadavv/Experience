@@ -1,0 +1,80 @@
+{
+  "title": "Cheese and rosé at Supérette's Paris-meets-Passyunk wine bar",
+  "intent": "Snacky, stylish wine bar-and-bottle-shop hang on East Passyunk.",
+  "description": "Vintage-inspired wine bar, bottle shop and café from the team behind The Good King Tavern, with mostly French wines, small plates and a small market. About 44 indoor seats, so it fills up.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "wine bar",
+  "tags": [
+    "french",
+    "bottle-shop",
+    "small-plates",
+    "east-passyunk",
+    "popular"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Supérette",
+    "address": "1538 E Passyunk Ave, Philadelphia, PA 19147",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 60
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 5
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.theinfatuation.com/philadelphia/guides/good-wine-philadelphia",
+    "https://www.inquirer.com/food/craig-laban/superette-review-wine-bar-east-passyunk-20250521.html"
+  ],
+  "uncertain": [
+    "hours",
+    "price",
+    "official website"
+  ],
+  "slug": "cheese-and-rose-at-superettes-paris-meets-passyunk-wine-bar",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.93005,
+    "lng": -75.163374
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.052Z",
+  "model": "claude-sonnet-5-5"
+}

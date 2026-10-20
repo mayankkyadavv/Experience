@@ -1,0 +1,86 @@
+{
+  "title": "Meet at La Colombe's Fishtown flagship",
+  "intent": "A roomy, well-known Philly coffee name with space to chat or have a meeting.",
+  "description": "La Colombe's Frankford Avenue cafe is the brand's Fishtown home, with ample seating and an atmosphere that's quiet enough to talk but not hushed. It's a dependable meeting spot for draft lattes and espresso.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "coffee shop",
+  "tags": [
+    "fishtown",
+    "draft-latte",
+    "meeting-spot",
+    "roastery-brand"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "La Colombe Coffee Roasters",
+    "address": "1335 Frankford Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 10
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.lacolombe.com/"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/business/2018/03/08/coffee-meetings-philadelphia-cafes/",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d8508686-Reviews-La_Colombe_Coffee_Roasters-Philadelphia_Pennsylvania.html",
+    "https://goop.com/place/pennsylvania/fishtown/la-colombe-5"
+  ],
+  "uncertain": [
+    "hours (sources conflict)",
+    "official website url",
+    "description based on 2018 Philly Mag guide"
+  ],
+  "slug": "meet-at-la-colombes-fishtown-flagship",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9712293,
+    "lng": -75.1342829
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.319Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,120 @@
+{
+  "title": "Sip a single-origin pour-over at Persimmon Coffee",
+  "intent": "A minimalist Japanese/Korean-inspired shop for a quiet, careful cup.",
+  "description": "Persimmon focuses on one single-origin coffee each month, with inventive specialty drinks and local baked goods. The bright, simple Fishtown shop has limited seating, so it suits a short sit-down or a date more than a work session.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "specialty coffee",
+  "tags": [
+    "minimalist",
+    "single-origin",
+    "small",
+    "fishtown"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Persimmon Coffee",
+    "address": "11 W Girard Ave, Philadelphia, PA 19123",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 10
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 3
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.persimmoncoffee.com/"
+    }
+  ],
+  "sources": [
+    "https://northeasttimes.com/2026/08/03/7-of-the-best-coffee-shop-spots-in-philadelphia-right-now/",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d25092983-Reviews-Persimmon_Coffee-Philadelphia_Pennsylvania.html",
+    "https://maps.apple.com/place?place-id=I4737149BD9485E47"
+  ],
+  "uncertain": [
+    "official website url"
+  ],
+  "slug": "sip-a-single-origin-pour-over-at-persimmon-coffee",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9689241,
+    "lng": -75.1348688
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.318Z",
+  "model": "claude-sonnet-5-5"
+}

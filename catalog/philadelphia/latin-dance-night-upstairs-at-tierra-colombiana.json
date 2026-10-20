@@ -1,0 +1,78 @@
+{
+  "title": "Latin dance night upstairs at Tierra Colombiana",
+  "intent": "Colombian food downstairs and a weekend Latin dance party upstairs in North Philly.",
+  "description": "A longtime North Philly Colombian restaurant that turns into a nightclub late; reports describe Top 40 and Latin rhythms on Fridays and bachata on Saturdays, with empanadas on the first floor.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "latin nightclub",
+  "tags": [
+    "latin",
+    "bachata",
+    "colombian",
+    "north-philly",
+    "weekends"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Tierra Colombiana",
+    "address": "4535 N 5th St, Philadelphia, PA 19140",
+    "neighborhood": "North Philadelphia"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 240
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/top-places-to-go-dancing-in-philadelphia/",
+    "https://billypenn.com/2022/05/05/philadelphia-latino-nightlife-salsa-dancing/"
+  ],
+  "uncertain": [
+    "street address (from memory, not verified)",
+    "hours",
+    "cover",
+    "current schedule"
+  ],
+  "slug": "latin-dance-night-upstairs-at-tierra-colombiana",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.020618,
+    "lng": -75.133858
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance clubs, DJ nights and late-night spots",
+  "drafted_at": "2026-10-20T01:12:51.156Z",
+  "model": "claude-sonnet-5-5"
+}

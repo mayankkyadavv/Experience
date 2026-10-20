@@ -1,0 +1,103 @@
+{
+  "title": "Take a behind-the-scenes tour of Citizens Bank Park",
+  "intent": "Walk the dugout, broadcast booth and club areas of the Phillies' ballpark in the offseason.",
+  "description": "The Phillies have offered year-round guided tours that cover the dugout, media room, broadcast booth and club spaces. A fan guide says off-season tours run Monday, Wednesday and Friday at 11 AM, but I could not confirm this on the official site.",
+  "category": "attraction",
+  "kind": "activity",
+  "subcategory": "stadium tour",
+  "tags": [
+    "phillies",
+    "baseball",
+    "tour",
+    "south-philly",
+    "rainy-day"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "solo",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Citizens Bank Park",
+    "address": "1 Citizens Bank Way, Philadelphia, PA 19148",
+    "neighborhood": "South Philadelphia Sports Complex"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 15
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "12:30"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "12:30"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "12:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.mlb.com/phillies/ballpark"
+    }
+  ],
+  "sources": [
+    "https://baseballbucketlist.com/ballpark-guides/citizens-bank-park/",
+    "https://www.baseballpilgrimages.com/ballparks/tours.html"
+  ],
+  "uncertain": [
+    "current tour days, times and prices (from third-party sources)",
+    "booking link",
+    "off-season schedule for 2026-27"
+  ],
+  "slug": "take-a-behind-the-scenes-tour-of-citizens-bank-park",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9059221,
+    "lng": -75.1664804
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Pro and college sports games and stadium experiences",
+  "drafted_at": "2026-10-20T01:15:34.978Z",
+  "model": "claude-sonnet-5-5"
+}

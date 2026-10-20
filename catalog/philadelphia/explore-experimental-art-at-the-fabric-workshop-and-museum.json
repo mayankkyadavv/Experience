@@ -1,0 +1,106 @@
+{
+  "title": "Explore experimental art at the Fabric Workshop and Museum",
+  "intent": "A small, free contemporary museum with artist-made commissions near Chinatown.",
+  "description": "A contemporary art museum that collaborates with artists to produce new work in fabric and other materials. Admission is free with a $10 suggested donation.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "contemporary art museum",
+  "tags": [
+    "free",
+    "donation",
+    "contemporary-art",
+    "rainy-day",
+    "chinatown"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Fabric Workshop and Museum",
+    "address": "1214 Arch St, Philadelphia, PA 19107",
+    "neighborhood": "Center City / Chinatown"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 10
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "18:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "18:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "17:00"
+    },
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fabricworkshopandmuseum.org/visit/plan-your-trip-to-fwm/"
+    }
+  ],
+  "sources": [
+    "https://fabricworkshopandmuseum.org/visit/plan-your-trip-to-fwm/"
+  ],
+  "uncertain": [
+    "duration_minutes"
+  ],
+  "slug": "explore-experimental-art-at-the-fabric-workshop-and-museum",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9537014,
+    "lng": -75.1602464
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.544Z",
+  "model": "claude-sonnet-5-5"
+}

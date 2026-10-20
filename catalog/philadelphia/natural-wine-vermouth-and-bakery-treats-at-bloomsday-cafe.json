@@ -1,0 +1,82 @@
+{
+  "title": "Natural wine, vermouth and bakery treats at Bloomsday Cafe",
+  "intent": "Early natural-wine pioneer with a café-by-day, wine bar-by-night feel.",
+  "description": "Headhouse Square café and wine bar with a natural wine list, house-made vermouth, in-house baking and an on-site bottle shop. Snacks like patatas bravas and a burger round out the menu.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "natural wine",
+  "tags": [
+    "natural-wine",
+    "bottle-shop",
+    "vermouth",
+    "headhouse-square",
+    "cafe"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Bloomsday Cafe",
+    "address": "414 S 2nd St, Philadelphia, PA 19147",
+    "neighborhood": "Society Hill / Headhouse Square"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 50
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.theinfatuation.com/philadelphia/guides/good-wine-philadelphia",
+    "https://www.inquirer.com/philly-tips/best-wine-bars-philadelphia-20210602.html",
+    "https://order.toasttab.com/online/bloomsday-cafe"
+  ],
+  "uncertain": [
+    "hours (sources show Wed-Sun but inconsistent)",
+    "price",
+    "official website"
+  ],
+  "slug": "natural-wine-vermouth-and-bakery-treats-at-bloomsday-cafe",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.942737,
+    "lng": -75.1455915
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.050Z",
+  "model": "claude-sonnet-5-5"
+}

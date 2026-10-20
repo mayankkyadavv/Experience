@@ -1,0 +1,120 @@
+{
+  "title": "Throw axes with a coach at Choppers Hatchet House",
+  "intent": "Learn to throw axes and compete with friends in a casual South Philly venue.",
+  "description": "Second-floor axe-throwing venue with coached sessions, private arenas, pool tables and video games in the lounge. Walk-ins are first-come, so booking ahead is recommended; kids 13 and under are free with a paying adult by phone booking.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "axe throwing",
+  "tags": [
+    "axe-throwing",
+    "group-friendly",
+    "byob-style-lounge",
+    "birthday"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Choppers Hatchet House",
+    "address": "1719 Washington Ave, Floor 2, Philadelphia, PA 19146",
+    "neighborhood": "Graduate Hospital"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 40
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 24
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "21:30"
+    },
+    {
+      "day": 2,
+      "open": "15:00",
+      "close": "21:30"
+    },
+    {
+      "day": 3,
+      "open": "15:00",
+      "close": "21:30"
+    },
+    {
+      "day": 4,
+      "open": "15:00",
+      "close": "21:30"
+    },
+    {
+      "day": 5,
+      "open": "13:00",
+      "close": "23:30"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "23:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.choppershh.com/"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.choppershh.com/faq/"
+    }
+  ],
+  "sources": [
+    "https://www.choppershh.com/faq/",
+    "https://maps.apple.com/place?place-id=I47EC756DACBAE1F7",
+    "https://releaserooms.com/philadelphia/chopper-s-hatchet-house-axe-throwing/pme010s7s298f"
+  ],
+  "uncertain": [
+    "price_usd (from $15 reported; session pricing not confirmed)",
+    "closing times depend on last booking"
+  ],
+  "slug": "throw-axes-with-a-coach-at-choppers-hatchet-house",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9388579,
+    "lng": -75.1723922
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Arcades, bowling, mini golf, axe throwing and escape rooms",
+  "drafted_at": "2026-10-20T00:27:35.843Z",
+  "model": "claude-sonnet-5-5"
+}

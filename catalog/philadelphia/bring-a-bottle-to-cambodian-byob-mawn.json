@@ -1,0 +1,85 @@
+{
+  "title": "Bring a bottle to Cambodian BYOB Mawn",
+  "intent": "A hard-to-get, award-winning Cambodian dinner you can pair with your own wine.",
+  "description": "Tiny 28-seat Cambodian BYOB in the Italian Market area serving noodle dishes, soft-shell shrimp and skewers. Open Wednesday to Saturday; reservations strongly recommended, and groups of 4+ may be steered to a $75 family-style feast.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "cambodian byob",
+  "tags": [
+    "byob",
+    "date-night",
+    "reservations",
+    "cambodian"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Mawn",
+    "address": "764 S 9th St, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 35,
+    "max": 75
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/mawn-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.theinfatuation.com/philadelphia/guides/byob-philadelphia-restaurants",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d26560798-Reviews-Mawn-Philadelphia_Pennsylvania.html",
+    "https://www.opentable.com/r/mawn-philadelphia"
+  ],
+  "uncertain": [
+    "Daily opening hours (open Wed-Sat)",
+    "Typical per-person price for a la carte dining"
+  ],
+  "slug": "bring-a-bottle-to-cambodian-byob-mawn",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9399762,
+    "lng": -75.157844
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cheap eats and BYOB restaurants",
+  "drafted_at": "2026-10-20T00:32:14.785Z",
+  "model": "claude-sonnet-5-5"
+}

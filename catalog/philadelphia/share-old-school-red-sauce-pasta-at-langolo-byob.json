@@ -1,0 +1,123 @@
+{
+  "title": "Share old-school red-sauce pasta at L'Angolo (BYOB)",
+  "intent": "Warm, generous, classic South Philly Italian BYOB with great pasta.",
+  "description": "L'Angolo is an old-school Italian BYOB on Porter Street praised for excellent pasta, warm service and big portions. Bring your own wine and come hungry; reservations are advisable on weekends.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "italian byob",
+  "tags": [
+    "byob",
+    "red-sauce",
+    "generous-portions",
+    "neighborhood-classic",
+    "group-friendly"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "L'Angolo Ristorante",
+    "address": "1415 W Porter St, Philadelphia, PA 19145",
+    "neighborhood": "South Philly"
+  },
+  "price_usd": {
+    "min": 20,
+    "max": 45
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "16:30",
+      "close": "21:00"
+    },
+    {
+      "day": 2,
+      "open": "16:30",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "16:30",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "16:30",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "16:30",
+      "close": "21:45"
+    },
+    {
+      "day": 6,
+      "open": "16:30",
+      "close": "21:45"
+    },
+    {
+      "day": 0,
+      "open": "15:00",
+      "close": "19:45"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.yelp.com/biz/l-angolo-ristorante-philadelphia-3"
+    }
+  ],
+  "sources": [
+    "https://www.theinfatuation.com/philadelphia/neighborhoods/south-philly",
+    "https://www.yelp.com/biz/l-angolo-ristorante-philadelphia-3"
+  ],
+  "uncertain": [
+    "official website",
+    "price per person estimate",
+    "reservation policy"
+  ],
+  "slug": "share-old-school-red-sauce-pasta-at-langolo-byob",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9224082,
+    "lng": -75.1941749
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in South Philly, East Passyunk and Bella Vista",
+  "drafted_at": "2026-10-20T01:15:44.429Z",
+  "model": "claude-sonnet-5-5"
+}

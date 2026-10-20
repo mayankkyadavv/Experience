@@ -1,0 +1,108 @@
+{
+  "title": "Dinner at Vernick Food & Drink on Walnut Street",
+  "intent": "James Beard-winning chef's inviting bistro with modern American, globally inflected dishes.",
+  "description": "Greg Vernick's flagship is a bi-level Rittenhouse brownstone with a lively bar, an open-kitchen room and a quieter space upstairs. The menu blends seasonal American cooking with global flavors; Michelin-listed.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "modern american",
+  "tags": [
+    "james-beard",
+    "michelin-listed",
+    "date-night",
+    "reservations-recommended"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Vernick Food & Drink",
+    "address": "2031 Walnut St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "16:45",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "16:45",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "16:45",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "16:45",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "16:45",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.vernickphilly.com/vernick-food-and-drink"
+    }
+  ],
+  "sources": [
+    "https://www.vernickphilly.com/vernick-food-and-drink",
+    "https://www.yelp.com/biz/vernick-food-and-drink-philadelphia",
+    "https://www.visitphilly.com/articles/philadelphia/michelin-restaurants/"
+  ],
+  "uncertain": [
+    "price",
+    "Saturday close time and Sunday hours"
+  ],
+  "slug": "dinner-at-vernick-food-drink-on-walnut-street",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.950806,
+    "lng": -75.174892
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Center City and Rittenhouse",
+  "drafted_at": "2026-10-20T01:08:55.234Z",
+  "model": "claude-sonnet-5-5"
+}

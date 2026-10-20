@@ -1,0 +1,117 @@
+{
+  "title": "Elevated Mexican dinner at Amá",
+  "intent": "Wood-fire Mexican cooking by chef Frankie Ramirez, on Eater 38 this summer.",
+  "description": "Elegant, airy Mexican restaurant on the Fishtown–Kensington border at Front and Oxford. Dishes include seasonal tlayuda and lamb neck birria, with cocktails.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "mexican",
+  "tags": [
+    "mexican",
+    "wood-fire",
+    "eater-38",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Amá",
+    "address": "101 W Oxford St, Philadelphia, PA 19122",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 40,
+    "max": 80
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.inquirer.com/food/restaurants/ama-chef-frankie-ramirez-mexican-food-fishtown-kensington-20250513.html",
+    "https://m.yelp.ca/biz/ama-philadelphia",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d33322953-Reviews-Ama-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "price_usd",
+    "duration_minutes",
+    "official website"
+  ],
+  "slug": "elevated-mexican-dinner-at-ama",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.974355,
+    "lng": -75.134698
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington",
+  "drafted_at": "2026-10-20T00:31:20.103Z",
+  "model": "claude-sonnet-5-5"
+}

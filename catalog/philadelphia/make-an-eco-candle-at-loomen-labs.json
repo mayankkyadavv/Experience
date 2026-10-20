@@ -1,0 +1,72 @@
+{
+  "slug": "make-an-eco-candle-at-loomen-labs",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Make an eco candle at Loomen Labs",
+  "intent": "A low-key candle-pouring session you can do with a friend.",
+  "description": "Loomen Labs in Queen Village runs candle-making sessions where you make your own eco candle, and you can bring back your vessel to refill. Non-alcoholic seltzers are offered and BYOB is welcome.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "candle making",
+  "tags": [
+    "candles",
+    "byob",
+    "queen-village",
+    "one-time"
+  ],
+  "good_for": [
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Loomen Labs",
+    "address": null,
+    "neighborhood": "Queen Village"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.phillyhomegirls.com/blog/getting-creative-in-philadelphia-workshops-for-adults"
+    }
+  ],
+  "sources": [
+    "https://www.phillyhomegirls.com/blog/getting-creative-in-philadelphia-workshops-for-adults"
+  ],
+  "uncertain": [
+    "address",
+    "official website",
+    "price_usd",
+    "hours",
+    "whether still operating (source is a blog guide)"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.451Z",
+  "model": "claude-sonnet-5-5"
+}

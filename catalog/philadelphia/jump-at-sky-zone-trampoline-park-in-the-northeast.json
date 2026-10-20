@@ -1,0 +1,118 @@
+{
+  "title": "Jump at Sky Zone trampoline park in the Northeast",
+  "intent": "Burn off energy indoors with open jump and dodgeball.",
+  "description": "Indoor trampoline park with wall-to-wall trampolines, foam pit, SkySlam and dodgeball; open jump daily and GLOW nights Friday and Saturday. Jump time is sold by the hour.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "trampoline park",
+  "tags": [
+    "rainy-day",
+    "kids",
+    "indoor",
+    "active"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Sky Zone Philadelphia",
+    "address": "9490 Blue Grass Rd Ste H, Philadelphia, PA 19114",
+    "neighborhood": "Northeast Philadelphia"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 12
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "21:00"
+    },
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "21:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "14:00",
+      "close": "23:00"
+    },
+    {
+      "day": 6,
+      "open": "09:30",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.skyzone.com/philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://www.skyzone.com/philadelphia/",
+    "https://maps.apple.com/place?place-id=I8DE6C6A1058A7C3E",
+    "https://local.yahoo.com/info-205910645-sky-zone-trampoline-park-philadelphia/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours (listings conflict for Mon/Wed; Apple Maps used)"
+  ],
+  "slug": "jump-at-sky-zone-trampoline-park-in-the-northeast",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0783254,
+    "lng": -75.0255376
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Rainy-day and indoor activities",
+  "drafted_at": "2026-10-20T01:08:39.121Z",
+  "model": "claude-sonnet-5-5"
+}

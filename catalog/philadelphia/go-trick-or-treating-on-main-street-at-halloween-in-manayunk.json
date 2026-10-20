@@ -1,0 +1,92 @@
+{
+  "title": "Go trick-or-treating on Main Street at Halloween in Manayunk",
+  "intent": "Take kids and pets for a free costume-friendly trick-or-treat stroll along Main Street.",
+  "description": "Manayunk's annual Halloween event invites kids, pets and families to trick-or-treat at local businesses along Main Street, with themed activities.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "halloween",
+  "tags": [
+    "free",
+    "halloween",
+    "family-friendly",
+    "dog-friendly",
+    "outdoor"
+  ],
+  "good_for": [
+    "family",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Main Street, Manayunk",
+    "address": "Main St, Philadelphia, PA 19127",
+    "neighborhood": "Manayunk"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-24",
+      "end": "2026-10-24"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-24",
+      "start": "11:00",
+      "end": "14:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://manayunk.com/mnyk-events/halloween-in-manayunk/"
+    }
+  ],
+  "sources": [
+    "https://manayunk.com/mnyk-events/halloween-in-manayunk/",
+    "https://www.audacy.com/big981/events/halloween-in-manayunk-26",
+    "https://mommypoppins.com/philadelphia-kids/free-halloween-events-near-philly-for-kids-families"
+  ],
+  "uncertain": [
+    "Exact street address range"
+  ],
+  "slug": "go-trick-or-treating-on-main-street-at-halloween-in-manayunk",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0260065,
+    "lng": -75.2249659
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.673Z",
+  "model": "claude-sonnet-5-5"
+}

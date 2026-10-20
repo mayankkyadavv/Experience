@@ -1,0 +1,81 @@
+{
+  "slug": "eat-beyond-the-italian-market-with-tiny-table-tours",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Eat beyond the Italian Market with Tiny Table Tours",
+  "intent": "Small-group neighborhood food tour built around local business owners' stories.",
+  "description": "Tiny Table Tours runs small-group walking tours of lesser-trekked South Philly, including a roughly two-mile 'Beyond the Italian Market' route with stops like Ba Le Bakery, mixing tastings with neighborhood and immigrant history. The company has also added a Fishtown wine tour.",
+  "category": "food",
+  "kind": "activity",
+  "subcategory": "food tour",
+  "tags": [
+    "walking-tour",
+    "small-group",
+    "south-philly",
+    "local-stories"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Tiny Table Tours (South Philadelphia)",
+    "address": null,
+    "neighborhood": "South Philadelphia"
+  },
+  "price_usd": {
+    "min": 95,
+    "max": 95
+  },
+  "duration_minutes": null,
+  "group_size": {
+    "min": 1,
+    "max": 12
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.phillymag.com/restaurants/2026/06/01/wine-tour-fishtown/"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/restaurants/best-philly-food-tours/",
+    "https://www.phillymag.com/restaurants/2026/06/01/wine-tour-fishtown/"
+  ],
+  "uncertain": [
+    "official website URL",
+    "duration",
+    "group size",
+    "current price",
+    "meeting point"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.728Z",
+  "model": "claude-sonnet-5-5"
+}

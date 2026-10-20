@@ -1,0 +1,78 @@
+{
+  "slug": "walk-the-free-ambler-arboretum-of-temple-university",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Walk the free Ambler Arboretum of Temple University",
+  "intent": "Visit gardens, meadows and tornado-recovery landscapes on a free university arboretum.",
+  "description": "A free arboretum on Temple's Ambler campus, open sunrise to sunset 365 days a year with no admission or parking charge (vehicle registration required). Leashed dogs welcome; guided tours can be arranged.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "arboretum",
+  "tags": [
+    "free",
+    "dog-friendly",
+    "arboretum",
+    "day-trip"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Ambler Arboretum of Temple University",
+    "address": "580 Meetinghouse Rd, Ambler, PA 19002",
+    "neighborhood": "Ambler (Montgomery County)"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://ambler.temple.edu/arboretum/visit/hours-operation"
+    }
+  ],
+  "sources": [
+    "https://ambler.temple.edu/arboretum/visit/hours-operation",
+    "https://ambler.temple.edu/arboretum-text-map"
+  ],
+  "uncertain": [],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.773Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,116 @@
+{
+  "title": "Step inside Pennsylvania Hospital Museum's 1804 surgical amphitheater",
+  "intent": "See America's first hospital, including its original operating theater, library and apothecary.",
+  "description": "A museum in the 1750s Pine Building of the nation's oldest chartered hospital, opened May 2026. Eight galleries cover medical firsts, plus the preserved surgical amphitheater, historic medical library and restored apothecary; self-guided or hourly guided visits with timed tickets.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "medical history",
+  "tags": [
+    "medical",
+    "history",
+    "unusual",
+    "rainy-day",
+    "timed-tickets"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Pennsylvania Hospital Museum",
+    "address": "800 Spruce St, Philadelphia, PA 19107",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 10
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://pahmuseum.pennmedicine.org/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://pahmuseum.pennmedicine.org/"
+    }
+  ],
+  "sources": [
+    "https://pahmuseum.pennmedicine.org/",
+    "https://www.visitphilly.com/things-to-do/attractions/pennsylvania-hospital-museum/",
+    "https://www.phillymag.com/things-to-do/2026/05/14/pennsylvania-hospital-museum/"
+  ],
+  "uncertain": [
+    "Price may have changed since the $10 launch rate; Philly Mag mentions a later Friday close of 6pm"
+  ],
+  "slug": "step-inside-pennsylvania-hospital-museums-1804-surgical-amph",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9453631,
+    "lng": -75.1556518
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Small, unusual and weird museums and attractions",
+  "drafted_at": "2026-10-20T01:13:35.510Z",
+  "model": "claude-sonnet-5-5"
+}

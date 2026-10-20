@@ -1,0 +1,94 @@
+{
+  "title": "Join Mural Arts Fest at LOVE Park",
+  "intent": "Live painting, music and art-making for the whole family to close out Mural Arts Month.",
+  "description": "A free, family-friendly festival at LOVE Park on Oct. 31 with live painting, music and hands-on art activities, capping Mural Arts Month.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "art festival",
+  "tags": [
+    "free",
+    "family-friendly",
+    "murals",
+    "outdoor",
+    "seasonal"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "LOVE Park",
+    "address": "1599 John F Kennedy Blvd, Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-31",
+      "end": "2026-10-31"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-31",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://muralarts.org/mural-arts-month-2026/"
+    }
+  ],
+  "sources": [
+    "https://muralarts.org/mural-arts-month-2026/"
+  ],
+  "uncertain": [
+    "start/end times",
+    "duration_minutes",
+    "street address of LOVE Park"
+  ],
+  "slug": "join-mural-arts-fest-at-love-park",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9540934,
+    "lng": -75.166133
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.543Z",
+  "model": "claude-sonnet-5-5"
+}

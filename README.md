@@ -18,7 +18,7 @@ docker compose run --rm tools deno task smoke     # sign up, pick Philadelphia, 
 | Studio (tables, SQL editor) | http://localhost:54323 |
 | Anon key | in `compose.yaml` (`ANON_KEY`); local only |
 
-`docker compose up` applies new files in `supabase/migrations/`, then `supabase/seed.sql` (the reviewed catalog), then eight **sample** Philadelphia Experiences from `docker/sample-data.sql`, all marked `(estimated)`, so the recommender returns something before the catalog is reviewed. Turn them off with `SAMPLE_DATA=false docker compose up -d`.
+`docker compose up` applies new files in `supabase/migrations/`, then `supabase/seed.sql` (built from `catalog/`), and publishes the catalog drafts locally so they show in the app, still labelled "(estimated)" (`LOCAL_PUBLISH_DRAFTS=false` to skip). Production only publishes reviewed entries. Rebuild the seed after catalog changes with `deno task catalog:seed`, then `docker compose up -d migrate`.
 
 Edge Functions in `supabase/functions/` are live-mounted: save a file and the next request runs the new code. Local sign-in is email + password, auto-confirmed (Sign in with Apple needs the hosted project).
 
@@ -36,9 +36,19 @@ docker compose down -v                            # stop and wipe the database
 
 With Deno installed on your Mac, the same tasks run directly (`deno task test`, `deno task smoke`).
 
+## Run the iOS app
+
+Needs Xcode and `brew install xcodegen`, with the Docker stack up.
+
+```sh
+cd ios && xcodegen && open Experience.xcodeproj    # then Run (⌘R) on an iPhone Simulator
+```
+
+Debug builds talk to `http://localhost:54321` and sign in with a local account automatically ("Continue"). `CoreLoopTests` (⌘U) walks onboarding → ask → three picks and attaches screenshots.
+
 ## Not in Docker
 
-- **The iOS app** needs Xcode and the iOS Simulator (macOS only). It will point at `http://localhost:54321` in debug builds.
+- **The iOS app** needs Xcode and the iOS Simulator (macOS only).
 - **`ExperienceCore` Swift tests:** `ios/Packages/ExperienceCore/test.sh` (or `swift test` once Xcode is installed).
 - **Production** is hosted Supabase (ADR-002): migrations and functions deploy with the Supabase CLI. The local stack runs the same open-source services, so what works here works there.
 

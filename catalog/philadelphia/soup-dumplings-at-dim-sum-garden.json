@@ -1,0 +1,118 @@
+{
+  "title": "Soup dumplings at Dim Sum Garden",
+  "intent": "Get cheap, famous soup buns and dumplings in Chinatown.",
+  "description": "Chinatown dumpling house known for Shanghai-style soup dumplings and a wide dim sum menu at low prices. Popular, so expect a wait at peak times.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "dumplings",
+  "tags": [
+    "cheap",
+    "chinatown",
+    "dumplings",
+    "casual"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Dim Sum Garden",
+    "address": "1024 Race St, Philadelphia, PA 19107",
+    "neighborhood": "Chinatown"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.yelp.com/biz/dim-sum-garden-philadelphia?start=200",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d1014519-Reviews-Dim_Sum_Garden-Philadelphia_Pennsylvania.html",
+    "https://www.visitphilly.com/media-center/press-releases/affordable-dining-philadelphia/"
+  ],
+  "uncertain": [
+    "Official website",
+    "Saturday hours",
+    "Exact price range"
+  ],
+  "slug": "soup-dumplings-at-dim-sum-garden",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9552228,
+    "lng": -75.1569362
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cheap eats and BYOB restaurants",
+  "drafted_at": "2026-10-20T00:32:14.785Z",
+  "model": "claude-sonnet-5-5"
+}

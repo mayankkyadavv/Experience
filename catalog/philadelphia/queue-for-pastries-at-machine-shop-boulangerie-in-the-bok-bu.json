@@ -1,0 +1,109 @@
+{
+  "title": "Queue for pastries at Machine Shop Boulangerie in the Bok Building",
+  "intent": "Farm-driven French-leaning pastries and bread in a South Philly industrial building.",
+  "description": "Boulangerie and patisserie in the Bok Building (enter via Dudley Street) using fruit and produce from small mid-Atlantic farms. Expect a line for danishes and other pastries; open Wednesday through Sunday daytime.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "bakery",
+  "tags": [
+    "pastries",
+    "french",
+    "south-philly",
+    "weekend-brunch"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Machine Shop Boulangerie",
+    "address": "1901 S 9th St, Philadelphia, PA 19148",
+    "neighborhood": "South Philadelphia"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": {
+    "min": 1,
+    "max": 5
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "15:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.machineshopphilly.com/"
+    }
+  ],
+  "sources": [
+    "https://www.machineshopphilly.com/",
+    "https://maps.apple.com/place?place-id=IEC67864CBB416AFB"
+  ],
+  "uncertain": [
+    "price_usd estimated"
+  ],
+  "slug": "queue-for-pastries-at-machine-shop-boulangerie-in-the-bok-bu",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9253363,
+    "lng": -75.1601914
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.082Z",
+  "model": "claude-sonnet-5-5"
+}

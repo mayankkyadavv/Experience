@@ -1,0 +1,81 @@
+{
+  "slug": "tour-the-campus-gardens-of-the-scott-arboretum-of-swarthmore",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Tour the campus gardens of the Scott Arboretum of Swarthmore College",
+  "intent": "See 4,000+ plant types in small, home-garden-scale plantings across a pretty campus.",
+  "description": "The entire Swarthmore College campus functions as an arboretum with intimate gardens, labeled plants and Crum Creek woods. The grounds are open to walk; it's reachable by SEPTA Regional Rail from Center City.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "arboretum",
+  "tags": [
+    "free",
+    "campus",
+    "regional-rail",
+    "garden"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Scott Arboretum of Swarthmore College",
+    "address": "500 College Ave, Swarthmore, PA 19081",
+    "neighborhood": "Swarthmore (Delaware County)"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.scottarboretum.org/"
+    }
+  ],
+  "sources": [
+    "http://www.americanrosetrialsforsustainability.org/scott-arboretum-of-swarthmore-college",
+    "https://www.yelp.com/biz/scott-arboretum-of-swarthmore-college-swarthmore"
+  ],
+  "uncertain": [
+    "admission (believed free, not confirmed on official site)",
+    "hours (grounds believed open daily dawn to dusk)",
+    "official website URL"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.773Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Bring the dog and kids to Wissahickon Brewing Company",
+  "intent": "Easygoing family- and dog-friendly brewery with an outdoor beer garden near East Falls.",
+  "description": "Family-owned since 2015, Wissahickon Brewing serves its own ales and lagers plus wine, cider and boozy slushies. There's an indoor tasting room and an outdoor beer garden, and kids and dogs are welcome.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "brewery",
+    "dog-friendly",
+    "family-friendly",
+    "beer-garden"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Wissahickon Brewing Company",
+    "address": "3705 W School House Ln, Philadelphia, PA 19144",
+    "neighborhood": "East Falls"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.wissahickonbrewing.com"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d14137943-Reviews-Wissahickon_Brewing_Company-Philadelphia_Pennsylvania.html",
+    "https://untappd.com/v/wissahickon-brewing-company/5515091",
+    "https://matadornetwork.com/read/best-breweries-philly/"
+  ],
+  "uncertain": [
+    "full weekly hours (Mon-Wed ~12-10pm, Thu to 11pm seen; weekend unverified)",
+    "website url",
+    "neighborhood (East Falls vs Roxborough)"
+  ],
+  "slug": "bring-the-dog-and-kids-to-wissahickon-brewing-company",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0136778,
+    "lng": -75.2004463
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.429Z",
+  "model": "claude-sonnet-5-5"
+}

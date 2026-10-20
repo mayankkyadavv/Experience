@@ -1,0 +1,100 @@
+{
+  "title": "Take in a Drexel Dragons basketball game in University City",
+  "intent": "A cheap, intimate Division I game near Center City.",
+  "description": "Drexel hosts Colgate on Nov. 3 and American on Nov. 7 at the Daskalakis Athletic Center, with Big 5 games against Penn and Saint Joseph's later in November. The arena seats about 2,500, so every seat is close.",
+  "category": "sports",
+  "kind": "event",
+  "subcategory": "college basketball",
+  "tags": [
+    "drexel",
+    "big-5",
+    "cheap",
+    "indoor",
+    "university-city"
+  ],
+  "good_for": [
+    "friends",
+    "family",
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Daskalakis Athletic Center",
+    "address": "3301 Market St, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-03",
+      "end": "2026-11-07"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-03",
+      "start": "19:30",
+      "end": null
+    },
+    {
+      "date": "2026-11-07",
+      "start": "14:00",
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://drexeldragons.com/sports/mens-basketball/schedule"
+    }
+  ],
+  "sources": [
+    "https://drexeldragons.com/sports/mens-basketball/schedule",
+    "https://www.thetriangle.org/article/drexel-men-s-and-women-s-basketball-teams-announce-big-5-schedules"
+  ],
+  "uncertain": [
+    "street address",
+    "price_usd",
+    "later home dates"
+  ],
+  "slug": "take-in-a-drexel-dragons-basketball-game-in-university-city",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9559861,
+    "lng": -75.1898855
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Pro and college sports games and stadium experiences",
+  "drafted_at": "2026-10-20T01:15:34.977Z",
+  "model": "claude-sonnet-5-5"
+}

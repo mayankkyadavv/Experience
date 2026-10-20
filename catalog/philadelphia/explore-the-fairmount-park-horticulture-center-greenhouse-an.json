@@ -1,0 +1,120 @@
+{
+  "title": "Explore the Fairmount Park Horticulture Center greenhouse and arboretum",
+  "intent": "Wander free demonstration gardens, a greenhouse and tree collections near the Please Touch Museum.",
+  "description": "A modern exhibition hall and greenhouse on the site of the 1876 Centennial's Horticultural Hall, surrounded by demonstration gardens and an arboretum in West Fairmount Park. Grounds are free; good for a picnic or a quiet stroll.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "botanical garden",
+  "tags": [
+    "free",
+    "greenhouse",
+    "picnic",
+    "arboretum"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Fairmount Park Horticulture Center",
+    "address": "100 N Horticultural Dr, Philadelphia, PA 19131",
+    "neighborhood": "West Fairmount Park"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.associationforpublicart.org/tours/around-the-horticulture-center/"
+    }
+  ],
+  "sources": [
+    "https://www.associationforpublicart.org/tours/around-the-horticulture-center/",
+    "https://en.wikipedia.org/wiki/Fairmount_Park_Horticulture_Center_(Philadelphia)"
+  ],
+  "uncertain": [
+    "hours (8am-6pm Apr-Oct, 8am-5pm Nov-Mar per one source; closed holidays; greenhouse interior hours not confirmed)"
+  ],
+  "slug": "explore-the-fairmount-park-horticulture-center-greenhouse-an",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9834665,
+    "lng": -75.2102201
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.771Z",
+  "model": "claude-sonnet-5-5"
+}

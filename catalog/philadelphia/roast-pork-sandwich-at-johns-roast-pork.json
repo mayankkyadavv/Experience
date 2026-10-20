@@ -1,0 +1,112 @@
+{
+  "title": "Roast pork sandwich at John's Roast Pork",
+  "intent": "Eat the quintessential Philly roast pork sandwich at a legendary South Philly counter.",
+  "description": "Old-school sandwich shop famous for roast pork with provolone, broccoli rabe and long hots on a hoagie roll. Daytime only; closed Sunday and Monday.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "sandwiches",
+  "tags": [
+    "cheap",
+    "roast-pork",
+    "iconic",
+    "lunch",
+    "takeout"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "John's Roast Pork",
+    "address": "14 E Snyder Ave, Philadelphia, PA 19148",
+    "neighborhood": "South Philadelphia"
+  },
+  "price_usd": {
+    "min": 9,
+    "max": 16
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://johnsroastpork.com"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/johns-roast-pork-philadelphia?start=240",
+    "https://maps.apple.com/place?address=14+E+Snyder+Ave%2C+Philadelphia%2C+PA+19148%2C+United+States&coordinate=39.9210585%2C-75.1449829&name=John%27s+Roast+Pork&place-id=IFB3D94A59AC51206&_provider=9902",
+    "https://2for20deals.com/philadelphia"
+  ],
+  "uncertain": [
+    "Saturday closing time",
+    "Exact price"
+  ],
+  "slug": "roast-pork-sandwich-at-johns-roast-pork",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9210448,
+    "lng": -75.1449949
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cheap eats and BYOB restaurants",
+  "drafted_at": "2026-10-20T00:32:14.787Z",
+  "model": "claude-sonnet-5-5"
+}

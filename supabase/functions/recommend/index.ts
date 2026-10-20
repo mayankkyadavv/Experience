@@ -26,6 +26,15 @@ function parseConstraints(b: Record<string, unknown>): Constraints | string {
   };
 }
 
+/** Events with known occurrences are only possible on those (local) days; everything else keeps its `dates`. */
+// deno-lint-ignore no-explicit-any
+function eventDates(r: any, timezone: string) {
+  const occ: { starts_at: string }[] = r.experience_occurrences ?? [];
+  if (r.kind !== "event" || occ.length === 0) return r.dates;
+  const day = (iso: string) => new Intl.DateTimeFormat("en-CA", { timeZone: timezone }).format(new Date(iso));
+  return occ.map((o) => ({ start: day(o.starts_at), end: day(o.starts_at) }));
+}
+
 const json = (status: number, body: unknown) =>
   new Response(JSON.stringify(body), { status, headers: { "content-type": "application/json" } });
 
@@ -49,7 +58,7 @@ Deno.serve(async (req) => {
 
   const [{ data: rows, error }, { data: states }] = await Promise.all([
     asUser.from("experiences")
-      .select("*, experience_places(role, places(lat, lng, name, neighborhood))")
+      .select("*, experience_places(role, places(lat, lng, name, neighborhood)), experience_occurrences(starts_at)")
       .eq("city_id", city.id)
       .eq("status", "published"),
     asUser.from("user_experiences").select("*, experiences(category)"),
@@ -63,7 +72,7 @@ Deno.serve(async (req) => {
     id: r.id, title: r.title, category: r.category, tags: r.tags, goodFor: r.good_for,
     priceMinCents: r.price_min_cents, priceMaxCents: r.price_max_cents,
     durationMinMinutes: r.duration_min_minutes, durationMaxMinutes: r.duration_max_minutes,
-    groupMin: r.group_min, groupMax: r.group_max, hours: r.hours, dates: r.dates,
+    groupMin: r.group_min, groupMax: r.group_max, hours: r.hours, dates: eventDates(r, city.timezone),
     place: primaryPlace(r)?.lat != null ? { lat: primaryPlace(r).lat, lng: primaryPlace(r).lng } : null,
   }));
   // deno-lint-ignore no-explicit-any
@@ -82,6 +91,11 @@ Deno.serve(async (req) => {
   const { data: logged } = await service.from("recommendation_requests")
     .insert({ user_id: user.id, city_id: city.id, constraints, results: picks })
     .select("id").single();
+  if (logged) {
+    await service.from("recommendation_items").insert(picks.map((p, position) => ({
+      request_id: logged.id, experience_id: p.experienceId, position, score: p.score, reasons: p.reasons,
+    })));
+  }
 
   const byId = new Map((rows ?? []).map((r: { id: string }) => [r.id, r]));
   return json(200, {

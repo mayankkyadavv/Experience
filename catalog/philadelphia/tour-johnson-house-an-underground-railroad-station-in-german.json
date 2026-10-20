@@ -1,0 +1,78 @@
+{
+  "title": "Tour Johnson House, an Underground Railroad station in Germantown",
+  "intent": "Learn about a Black family's role in the Underground Railroad.",
+  "description": "A historic stone house in Germantown that served as a stop on the Underground Railroad. Roughly hour-long tours are offered Thursday–Saturday, mostly by appointment, so check before going.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic house museum",
+  "tags": [
+    "black-history",
+    "underground-railroad",
+    "guided-tour"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Johnson House Historic Site",
+    "address": "6306 Germantown Ave",
+    "neighborhood": "Germantown"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 75
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.johnsonhouse.org/visit/"
+    }
+  ],
+  "sources": [
+    "https://www.johnsonhouse.org/visit/",
+    "https://historicgermantownpa.org/johnson-house/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours conflict between sources (appointment-only Thu-Sat vs. Fri/Sat 12-4)"
+  ],
+  "slug": "tour-johnson-house-an-underground-railroad-station-in-german",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0433544,
+    "lng": -75.1812224
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.410Z",
+  "model": "claude-sonnet-5-5"
+}

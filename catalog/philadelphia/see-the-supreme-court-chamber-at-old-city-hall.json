@@ -1,0 +1,116 @@
+{
+  "title": "See the Supreme Court Chamber at Old City Hall",
+  "intent": "Look at the room where the U.S. Supreme Court met in the 1790s.",
+  "description": "Old City Hall at 5th and Chestnut served as the Supreme Court's first home during Philadelphia's years as capital. It is a free, quick stop, with a small National Parks store.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "national park site",
+  "tags": [
+    "free",
+    "quick-stop",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Old City Hall",
+    "address": "501 Chestnut St",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 30
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.nps.gov/places/000/old-city-hall.htm"
+    }
+  ],
+  "sources": [
+    "https://www.nps.gov/places/000/old-city-hall.htm",
+    "https://home.nps.gov/inde/planyourvisit/hours.htm"
+  ],
+  "uncertain": [
+    "exact street address"
+  ],
+  "slug": "see-the-supreme-court-chamber-at-old-city-hall",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.949132,
+    "lng": -75.149328
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.407Z",
+  "model": "claude-sonnet-5-5"
+}

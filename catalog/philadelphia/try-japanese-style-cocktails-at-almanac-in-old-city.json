@@ -1,0 +1,111 @@
+{
+  "title": "Try Japanese-style cocktails at Almanac in Old City",
+  "intent": "Japanese bar craft and seasonal drinks in a speakeasy-style upstairs bar.",
+  "description": "An intimate Japanese-American cocktail bar on the second floor above Ogawa Sushi & Kappo, inspired by Japanese bar craft and the American speakeasy. It uses hyper-seasonal ingredients and has national recognition; tables can be hard to get.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "japanese cocktail bar",
+  "tags": [
+    "old-city",
+    "japanese",
+    "speakeasy-style",
+    "late-night"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Almanac",
+    "address": "310 Market St, 2nd Floor, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 16,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "01:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d32834761-Reviews-Almanac-Philadelphia_Pennsylvania.html",
+    "https://joinpearl.co/restaurants/philadelphia-united-states-pennsylvania/almanac",
+    "https://local.ireview.com/business/almanac?id=747569"
+  ],
+  "uncertain": [
+    "official website",
+    "price",
+    "hours are from third-party listings (Tripadvisor showed an earlier close time that day)"
+  ],
+  "slug": "try-japanese-style-cocktails-at-almanac-in-old-city",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9659459,
+    "lng": -75.1441129
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cocktail bars and speakeasies worth going to on purpose",
+  "drafted_at": "2026-10-20T00:34:55.452Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,104 @@
+{
+  "title": "Browse the free Science History Institute museum",
+  "intent": "Explore the stories behind chemistry, materials and science in a free Old City museum.",
+  "description": "A free museum and library in Old City with exhibitions on the history of science, matter and materials, plus guided tours and events. Open Wednesday through Saturday.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "science museum",
+  "tags": [
+    "free",
+    "rainy-day",
+    "indoor",
+    "science"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Science History Institute",
+    "address": "315 Chestnut St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.sciencehistory.org/visit/"
+    }
+  ],
+  "sources": [
+    "https://www.sciencehistory.org/visit/"
+  ],
+  "uncertain": [
+    "Street address (from general knowledge)"
+  ],
+  "slug": "browse-the-free-science-history-institute-museum",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9491077,
+    "lng": -75.1465328
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.031Z",
+  "model": "claude-sonnet-5-5"
+}

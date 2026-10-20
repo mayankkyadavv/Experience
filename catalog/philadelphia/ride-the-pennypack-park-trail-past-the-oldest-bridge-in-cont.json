@@ -1,0 +1,86 @@
+{
+  "title": "Ride the Pennypack Park trail past the oldest bridge in continuous use",
+  "intent": "Quiet Northeast Philly creekside ride past a 1697 stone bridge.",
+  "description": "Pennypack Park, the city's third-largest park, has a paved multi-use trail along Pennypack Creek and woodland. The historic stone arch Pennypack Creek Bridge on Frankford Avenue, dating to 1697, is billed as the oldest continuously used bridge in the US. The Pennypack Environmental Center sits off Verree Road.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "park trail",
+  "tags": [
+    "free",
+    "cycling",
+    "history",
+    "woods",
+    "birdwatching"
+  ],
+  "good_for": [
+    "solo",
+    "family",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Pennypack Park",
+    "address": "8600 Verree Rd, Philadelphia, PA 19111",
+    "neighborhood": "Fox Chase"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://bicyclecoalition.org/where-to-ride-your-bike-pennypack-park/"
+    }
+  ],
+  "sources": [
+    "https://bicyclecoalition.org/where-to-ride-your-bike-pennypack-park/",
+    "https://whyy.org/articles/getting-back-to-nature-in-pennypack-parl/"
+  ],
+  "uncertain": [
+    "address is the Environmental Center, not a trailhead",
+    "environmental center hours Mon-Fri 9-4 (WHYY, may be outdated)"
+  ],
+  "slug": "ride-the-pennypack-park-trail-past-the-oldest-bridge-in-cont",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0902321,
+    "lng": -75.0572232
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.358Z",
+  "model": "claude-sonnet-5-5"
+}

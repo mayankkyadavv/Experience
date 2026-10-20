@@ -1,0 +1,102 @@
+{
+  "title": "See early American portraits at the Second Bank Portrait Gallery",
+  "intent": "Browse Peale portraits of founders in a Greek Revival bank building.",
+  "description": "A William Strickland-designed Greek Revival building holds dozens of portraits of leaders of the early republic. It is run by the National Park Service with free entry. Ranger talks run hourly in the afternoon.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "gallery",
+  "tags": [
+    "free",
+    "art",
+    "architecture",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Second Bank of the United States",
+    "address": "420 Chestnut St",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "17:00"
+    },
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://home.nps.gov/inde/planyourvisit/hours.htm"
+    }
+  ],
+  "sources": [
+    "https://home.nps.gov/inde/planyourvisit/hours.htm",
+    "https://www.frommers.com/destinations/philadelphia/attractions/second-bank-portrait-gallery/"
+  ],
+  "uncertain": [
+    "hours differ on third-party sites; NPS used"
+  ],
+  "slug": "see-early-american-portraits-at-the-second-bank-portrait-gal",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.948572,
+    "lng": -75.14841
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.408Z",
+  "model": "claude-sonnet-5-5"
+}

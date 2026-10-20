@@ -1,0 +1,93 @@
+{
+  "title": "Late-night dancing at Voyeur Nightclub",
+  "intent": "A three-floor, after-midnight house/EDM and Top 40 club in the Gayborhood.",
+  "description": "Long-running three-floor Center City club with DJs playing house/EDM, Top 40, dance classics and hip-hop. Listed as a private club for members and guests; it stays open until about 4 a.m. on weekends.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "nightclub",
+  "tags": [
+    "late-night",
+    "house",
+    "edm",
+    "gayborhood",
+    "after-hours"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Voyeur Nightclub",
+    "address": "1221 St James St, Philadelphia, PA 19107",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 300
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 5,
+      "open": "23:00",
+      "close": "04:00"
+    },
+    {
+      "day": 6,
+      "open": "23:00",
+      "close": "04:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.voyeurnightclub.com"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/voyeur-nightclub-philadelphia",
+    "https://www.yellowpages.com/philadelphia-pa/mip/voyeur-nightclub-456103974"
+  ],
+  "uncertain": [
+    "price/cover",
+    "weeknight hours (Thu/Mon listed inconsistently)",
+    "membership/entry policy"
+  ],
+  "slug": "late-night-dancing-at-voyeur-nightclub",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9483761,
+    "lng": -75.1617196
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance clubs, DJ nights and late-night spots",
+  "drafted_at": "2026-10-20T01:12:51.154Z",
+  "model": "claude-sonnet-5-5"
+}

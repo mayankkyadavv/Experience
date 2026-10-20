@@ -1,0 +1,87 @@
+{
+  "title": "Wander the gardens and sculptures at Morris Arboretum",
+  "intent": "92 acres of woodland paths, sculptures and water features for a family nature outing.",
+  "description": "Penn's 92-acre arboretum in Chestnut Hill has well-paved paths, flower gardens, sculptures and water features. The summer Garden Railway has ended for the season; adult admission was about $22 per recent reviews.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "garden",
+  "tags": [
+    "outdoor",
+    "nature",
+    "chestnut-hill",
+    "walking"
+  ],
+  "good_for": [
+    "family",
+    "date",
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Morris Arboretum & Gardens",
+    "address": "100 E Northwestern Ave, Philadelphia, PA 19118",
+    "neighborhood": "Chestnut Hill"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 22
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://morrisarboretum.org"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d307317-Reviews-Morris_Arboretum-Philadelphia_Pennsylvania.html",
+    "https://morrisarboretum.org/see-do/garden-railway?holiday="
+  ],
+  "uncertain": [
+    "current hours (spring weekday hours were 10am-5pm)",
+    "current admission price and child rate",
+    "address and website not verified on fetched pages",
+    "holiday railway 2026 dates not found"
+  ],
+  "slug": "wander-the-gardens-and-sculptures-at-morris-arboretum",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0776914,
+    "lng": -75.2389943
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Family-friendly and kid-friendly activities",
+  "drafted_at": "2026-10-20T00:34:18.067Z",
+  "model": "claude-sonnet-5-5"
+}

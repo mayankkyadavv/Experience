@@ -1,0 +1,96 @@
+{
+  "slug": "eat-apple-treats-at-the-peddlers-village-apple-festival",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Eat apple treats at the Peddler's Village Apple Festival",
+  "intent": "A free two-day village festival of apple food, shopping and fall activities in Bucks County.",
+  "description": "Peddler's Village in Lahaska hosts its annual Apple Festival with free admission, apple foods and pies, shopping and seasonal activities throughout the village. It falls just after Halloween, on Nov. 7-8.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "festival",
+  "tags": [
+    "free",
+    "apple",
+    "family-friendly",
+    "seasonal",
+    "day-trip",
+    "festival"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Peddler's Village",
+    "address": "3245 Street Rd, Lahaska, PA 18931",
+    "neighborhood": null
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 300
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-07",
+      "end": "2026-11-08"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-07",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-11-08",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.peddlersvillage.com/"
+    }
+  ],
+  "sources": [
+    "https://www.phillyvoice.com/peddlers-village-apple-festival-2026-bucks-county/",
+    "https://www.visitphilly.com/articles/philadelphia/fall-harvest-festivals/"
+  ],
+  "uncertain": [
+    "street address (from memory)",
+    "festival hours",
+    "official website URL"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.067Z",
+  "model": "claude-sonnet-5-5"
+}

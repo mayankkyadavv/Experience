@@ -76,7 +76,8 @@ services:
       timeout: 5s
       retries: 20
 
-  # Applies supabase/migrations, supabase/seed.sql and (unless SAMPLE_DATA=false) docker/sample-data.sql, then exits.
+  # Applies supabase/migrations and supabase/seed.sql, publishes catalog drafts locally, then exits.
+  # SAMPLE_DATA=true also loads the 8 hand-written samples in docker/sample-data.sql.
   # Needs auth healthy first: the schema references auth.users, which GoTrue creates.
   migrate:
     image: supabase/postgres:17.6.1.136
@@ -87,7 +88,8 @@ services:
       PGUSER: postgres
       PGPASSWORD: *dbpass
       PGDATABASE: postgres
-      SAMPLE_DATA: ${SAMPLE_DATA:-true}
+      SAMPLE_DATA: ${SAMPLE_DATA:-false}
+      LOCAL_PUBLISH_DRAFTS: ${LOCAL_PUBLISH_DRAFTS:-true}
       PGOPTIONS: -c client_min_messages=warning
     volumes:
       - ./supabase:/supabase:ro
@@ -128,12 +130,13 @@ services:
       SUPABASE_ANON_KEY: *anon
       SUPABASE_SERVICE_ROLE_KEY: *service
       SUPABASE_DB_URL: postgresql://postgres:${POSTGRES_PASSWORD:-postgres}@db:5432/postgres
+      FUNCTIONS_DIR: /repo/supabase/functions
     volumes:
       # Edit a function and the next request runs the new code; no restart needed.
-      - ./supabase/functions:/home/deno/functions:ro
-      - ./docker/functions/main:/home/deno/main:ro
+      # The repo root is mounted (not supabase/functions) so switching git branches can't leave a stale mount.
+      - .:/repo:ro
       - deno-cache:/root/.cache/deno
-    command: ["start", "--main-service", "/home/deno/main"]
+    command: ["start", "--main-service", "/repo/docker/functions/main"]
     healthcheck:
       test: ["CMD-SHELL", "timeout 1 bash -c '</dev/tcp/127.0.0.1/9000'"]
       interval: 5s

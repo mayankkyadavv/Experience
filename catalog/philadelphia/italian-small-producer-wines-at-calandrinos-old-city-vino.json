@@ -1,0 +1,105 @@
+{
+  "title": "Italian small-producer wines at Calandrino's Old City Vino",
+  "intent": "Quiet Old City wine bar focused on family-run Italian wineries.",
+  "description": "Intimate Old City wine bar with a curated, mostly Italian list from family-owned wineries in lesser-known regions, served in an unpretentious room. It also hosts events like the Vino-delphia tasting.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "wine bar",
+  "tags": [
+    "italian",
+    "old-city",
+    "intimate",
+    "tastings"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Calandrino's Old City Vino",
+    "address": "110 N 2nd St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 45
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "13:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://oldcityvino.com"
+    }
+  ],
+  "sources": [
+    "https://www.oldcitydistrict.org/business/calandrinos-old-city-vino",
+    "https://local.yahoo.com/info-237191704-calandrino-s-old-city-vino-philadelphia/",
+    "https://phl17.com/phl17-news/calandrinos-wine-bar-in-old-city/"
+  ],
+  "uncertain": [
+    "hours (aggregator listings)",
+    "price"
+  ],
+  "slug": "italian-small-producer-wines-at-calandrinos-old-city-vino",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9523488,
+    "lng": -75.1434924
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.055Z",
+  "model": "claude-sonnet-5-5"
+}

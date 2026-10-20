@@ -1,0 +1,117 @@
+{
+  "title": "Armenian kebabs and shawarma at BYOB Apricot Stone",
+  "intent": "A homey Armenian BYOB with kebabs, shawarma and falafel at modest prices.",
+  "description": "BYOB run by an Armenian family cook serving kebabs, shawarma, falafel and Mediterranean salads. Located on Girard Ave near Northern Liberties/Fishtown.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "armenian byob",
+  "tags": [
+    "byob",
+    "armenian",
+    "mediterranean",
+    "casual"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Apricot Stone",
+    "address": "426 W Girard Ave, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "21:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://apricotstonephilly.com"
+    }
+  ],
+  "sources": [
+    "https://www.explorenorthernliberties.org/restaurant/apricot-stone/",
+    "https://joe.coffee/locations/pa/philadelphia/apricot-stone-byob-philadelphia/",
+    "https://www.aaa.com/tripcanvas/restaurant/apricot-stone-AA25970"
+  ],
+  "uncertain": [
+    "Lunch hours (some listings show 11am-2pm Mon-Sat)",
+    "Sunday hours",
+    "Price range"
+  ],
+  "slug": "armenian-kebabs-and-shawarma-at-byob-apricot-stone",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9701904,
+    "lng": -75.1443576
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cheap eats and BYOB restaurants",
+  "drafted_at": "2026-10-20T00:32:14.791Z",
+  "model": "claude-sonnet-5-5"
+}

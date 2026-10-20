@@ -1,0 +1,119 @@
+{
+  "title": "Karaoke upstairs at Yakitori Boy in Chinatown",
+  "intent": "Izakaya dinner followed by karaoke rooms or lounge tables in Chinatown.",
+  "description": "Longtime Chinatown izakaya (open since 2007) with a first-floor restaurant serving japas and sushi, and karaoke rooms and lounge tables upstairs. Restaurant reservations don't cover karaoke; inquire separately for a karaoke room or lounge table.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "karaoke",
+  "tags": [
+    "karaoke",
+    "chinatown",
+    "private-rooms",
+    "late-night",
+    "izakaya"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Yakitori Boy",
+    "address": "211 N 11th St, Philadelphia, PA 19107",
+    "neighborhood": "Chinatown"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 240
+  },
+  "group_size": {
+    "min": 2,
+    "max": 30
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "01:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://yakitoriboy.com/sing"
+    },
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/yakitori-boy-japas-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.theinfatuation.com/philadelphia/guides/the-best-karaoke-bars-in-philadelphia",
+    "https://www.opentable.com/r/yakitori-boy-japas-philadelphia",
+    "https://www.yelp.com/biz/yakitori-boy-philadelphia?start=40"
+  ],
+  "uncertain": [
+    "price_usd",
+    "karaoke room capacity",
+    "karaoke hours may differ from restaurant hours (from Yelp)"
+  ],
+  "slug": "karaoke-upstairs-at-yakitori-boy-in-chinatown",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.955961,
+    "lng": -75.157271
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.554Z",
+  "model": "claude-sonnet-5-5"
+}

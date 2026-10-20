@@ -1,0 +1,117 @@
+{
+  "title": "Slurp bún bò huế at Cafe Nhan",
+  "intent": "Tiny, beloved Vietnamese counter famed for soul-soothing spicy noodle soups.",
+  "description": "A small South Philly Vietnamese spot with only a couple of tables and counter seats, known for bún bò huế and bún riêu. It made Philadelphia magazine's 50 Best list and is a favorite of local chefs; expect a wait at peak times.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "vietnamese",
+  "tags": [
+    "noodle-soup",
+    "cheap-eats",
+    "tiny",
+    "chef-favorite",
+    "cash-friendly"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Cafe Nhan",
+    "address": "1606 W Passyunk Ave, Philadelphia, PA 19145",
+    "neighborhood": "South Philly"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 3
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "19:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.yelp.com/biz/cafe-nhan-philadelphia-2"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/restaurants/50-best-restaurants/",
+    "https://www.yelp.com/biz/cafe-nhan-philadelphia-2?start=20",
+    "https://joe.coffee/locations/pa/philadelphia/caf-nhan-philadelphia/"
+  ],
+  "uncertain": [
+    "official website",
+    "Wednesday closure (from Yelp/aggregator)"
+  ],
+  "slug": "slurp-bun-bo-hue-at-cafe-nhan",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9246162,
+    "lng": -75.1732854
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in South Philly, East Passyunk and Bella Vista",
+  "drafted_at": "2026-10-20T01:15:44.428Z",
+  "model": "claude-sonnet-5-5"
+}

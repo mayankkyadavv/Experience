@@ -1,0 +1,110 @@
+{
+  "title": "Rolled omelets at Comfort & Floyd on East Passyunk",
+  "intent": "Hearty omelets at a small South Philly breakfast spot.",
+  "description": "Comfort & Floyd is a small breakfast spot on 11th Street in East Passyunk known for its rolled omelet with bacon, Gouda and Cooper Sharp. Open Thursday through Monday, 8 a.m. to 3 p.m. Arrive early; it's small.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "omelets",
+    "small-spot",
+    "south-philly"
+  ],
+  "good_for": [
+    "friends",
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Comfort & Floyd",
+    "address": null,
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "15:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://southphillyreview.com/2026/10/16/best-breakfast-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://southphillyreview.com/2026/10/16/best-breakfast-philadelphia/"
+  ],
+  "uncertain": [
+    "street address",
+    "price_usd",
+    "official website"
+  ],
+  "slug": "rolled-omelets-at-comfort-floyd-on-east-passyunk",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9333442,
+    "lng": -75.1620256
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.867Z",
+  "model": "claude-sonnet-5-5"
+}

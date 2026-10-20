@@ -1,0 +1,118 @@
+{
+  "title": "Drink steins in the courtyard at Frankford Hall",
+  "intent": "Enjoy a German-style biergarten with liter mugs, ping pong and fire pits.",
+  "description": "Stephen Starr's Fishtown beer garden has a large gravel courtyard with picnic tables, string lights and fire pits, plus indoor seating. It serves German beer in steins and brats and pretzels.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "beer garden",
+  "tags": [
+    "beer-garden",
+    "german",
+    "outdoor-seating",
+    "games"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Frankford Hall",
+    "address": "1210 Frankford Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 8,
+    "max": 35
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "22:00"
+    },
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "14:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.frankfordhall.com"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d2154959-Reviews-Frankford_Hall-Philadelphia_Pennsylvania.html",
+    "https://philly.thedrinknation.com/mobile/article/17228",
+    "https://www.phillymag.com/2011/05/17/tale-of-the-tape-frankford-hall/"
+  ],
+  "uncertain": [
+    "fall/winter hours and heated-seating setup",
+    "website url"
+  ],
+  "slug": "drink-steins-in-the-courtyard-at-frankford-hall",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.969485,
+    "lng": -75.134683
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.429Z",
+  "model": "claude-sonnet-5-5"
+}

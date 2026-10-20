@@ -1,0 +1,114 @@
+{
+  "title": "Visit Christ Church, the 'Nation's Church' of the founders",
+  "intent": "See the pew where Washington and Franklin worshipped in a 1744 colonial church.",
+  "description": "Christ Church is an Anglican church where many founders worshipped. Walk-in tours run about 20–30 minutes. Open daily, with a slightly later start on Sundays because of services.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic church",
+  "tags": [
+    "colonial",
+    "walk-in-tours",
+    "old-city",
+    "rainy-day"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Christ Church",
+    "address": "20 N American St",
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 0,
+      "open": "11:30",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://christchurchphila.org/hours-admissions/"
+    }
+  ],
+  "sources": [
+    "https://christchurchphila.org/hours-admissions/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "Sunday morning open window 9:45-11 is for services"
+  ],
+  "slug": "visit-christ-church-the-nations-church-of-the-founders",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9508119,
+    "lng": -75.1443203
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.406Z",
+  "model": "claude-sonnet-5-5"
+}

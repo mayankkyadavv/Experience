@@ -1,0 +1,90 @@
+{
+  "title": "Hike the Wetland Loop at John Heinz National Wildlife Refuge",
+  "intent": "Birdwatch and walk boardwalks through Pennsylvania's largest freshwater tidal marsh.",
+  "description": "The refuge protects about 1,000 acres with more than 10 miles of trails, including a 3.5-mile Wetland Loop open to walkers and bikes and a wheelchair-accessible Big Boardwalk Loop under a mile. The visitor center is open Wednesday to Sunday 9-4, trails daily sunrise to sundown, and parking is free.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "wildlife refuge",
+  "tags": [
+    "free",
+    "birdwatching",
+    "nature",
+    "family-friendly",
+    "bike-friendly"
+  ],
+  "good_for": [
+    "family",
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "John Heinz National Wildlife Refuge at Tinicum",
+    "address": "8601 Lindbergh Blvd, Philadelphia, PA 19153",
+    "neighborhood": "Eastwick"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.fws.gov/refuge/john-heinz-tinicum/visit-us/trails"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.fws.gov/refuge/john-heinz-tinicum/visit-us"
+    }
+  ],
+  "sources": [
+    "https://www.fws.gov/refuge/john-heinz-tinicum/visit-us/trails",
+    "https://www.fws.gov/refuge/john-heinz-tinicum/visit-us",
+    "https://www.visitphilly.com/things-to-do/attractions/john-heinz-national-wildlife-refuge-at-tinicum/"
+  ],
+  "uncertain": [
+    "street address from memory"
+  ],
+  "slug": "hike-the-wetland-loop-at-john-heinz-national-wildlife-refuge",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.894817,
+    "lng": -75.255045
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.358Z",
+  "model": "claude-sonnet-5-5"
+}

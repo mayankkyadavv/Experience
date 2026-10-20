@@ -1,0 +1,85 @@
+{
+  "title": "Drop into a salsa, bachata or swing class at Society Hill Dance Academy",
+  "intent": "Try a beginner partner-dance class with no commitment.",
+  "description": "East Passyunk ballroom and Latin studio offering single drop-in group classes for beginners (Salsa 1, Bachata 1, Swing 1, Ballroom 1, Hustle 1). Drop-in is $25 per class; 4-week and monthly-pass options also exist. Example schedule: Salsa 1 Mondays 7pm, Swing 1 Tuesdays 7:45pm.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "partner dance",
+  "tags": [
+    "salsa",
+    "bachata",
+    "ballroom",
+    "beginner-friendly",
+    "drop-in"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Society Hill Dance Academy",
+    "address": "1919 E Passyunk Ave, Philadelphia, PA 19148",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://societyhilldance.com/group-dance-classes-philadelphia.php"
+    }
+  ],
+  "sources": [
+    "https://societyhilldance.com/group-dance-classes-philadelphia.php",
+    "https://societyhilldance.com/contact-society-hill-dance-academy.php"
+  ],
+  "uncertain": [
+    "full weekly class schedule and class length",
+    "hours"
+  ],
+  "slug": "drop-into-a-salsa-bachata-or-swing-class-at-society-hill-dan",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9260566,
+    "lng": -75.16766
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance, music, improv and other drop-in classes for adults",
+  "drafted_at": "2026-10-20T01:15:07.290Z",
+  "model": "claude-sonnet-5-5"
+}

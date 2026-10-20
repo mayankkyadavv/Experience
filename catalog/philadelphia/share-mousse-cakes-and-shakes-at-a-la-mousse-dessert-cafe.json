@@ -1,0 +1,121 @@
+{
+  "title": "Share mousse cakes and shakes at A La Mousse dessert cafe",
+  "intent": "Elaborate, photogenic mousse desserts and milkshakes for a late dessert outing.",
+  "description": "Dessert cafe known for sculpted mousse cakes (such as a mango-shaped one), milkshakes and coffee, open late on weekends. Listed at 145 N 11th St on Yelp; an older listing shows a South St address.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "dessert cafe",
+  "tags": [
+    "late-night",
+    "mousse",
+    "instagrammable",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "A La Mousse",
+    "address": "145 N 11th St, Philadelphia, PA 19107",
+    "neighborhood": "Chinatown"
+  },
+  "price_usd": {
+    "min": 8,
+    "max": 18
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "23:00"
+    },
+    {
+      "day": 1,
+      "open": "12:00",
+      "close": "23:00"
+    },
+    {
+      "day": 2,
+      "open": "12:00",
+      "close": "23:00"
+    },
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "23:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "00:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.yelp.com/biz/a-la-mousse-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/a-la-mousse-philadelphia",
+    "https://maps.apple.com/place?place-id=IE9B638AE46E2EF16"
+  ],
+  "uncertain": [
+    "address (other listings show 1622 South St; Yelp Oct 2026 shows 145 N 11th St)",
+    "official website",
+    "price_usd estimated"
+  ],
+  "slug": "share-mousse-cakes-and-shakes-at-a-la-mousse-dessert-cafe",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9553873,
+    "lng": -75.1573713
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.080Z",
+  "model": "claude-sonnet-5-5"
+}

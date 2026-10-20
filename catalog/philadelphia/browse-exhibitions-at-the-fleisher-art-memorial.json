@@ -1,0 +1,107 @@
+{
+  "title": "Browse exhibitions at the Fleisher Art Memorial",
+  "intent": "Free gallery in a restored Bella Vista church that is also a community art school.",
+  "description": "A historic former church and school complex in Bella Vista that serves as an art school and community art center, with galleries and a sanctuary. Weekday hours are listed; check for current exhibitions and events.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "art center",
+  "tags": [
+    "bella-vista",
+    "free",
+    "historic-building"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Fleisher Art Memorial",
+    "address": "719 Catharine St, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 1,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fleisher.org/"
+    }
+  ],
+  "sources": [
+    "https://fleisher.org/contact/",
+    "https://maps.apple.com/place?query=Fleisher+Art+Memorial&coordinate=39.939177%2C-75.1551037&place-id=IA675CF4297E40DE1&_provider=9902"
+  ],
+  "uncertain": [
+    "gallery-specific hours (Apple Maps hours)",
+    "price (assumed free)",
+    "duration_minutes"
+  ],
+  "slug": "browse-exhibitions-at-the-fleisher-art-memorial",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9390857,
+    "lng": -75.1549984
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.548Z",
+  "model": "claude-sonnet-5-5"
+}

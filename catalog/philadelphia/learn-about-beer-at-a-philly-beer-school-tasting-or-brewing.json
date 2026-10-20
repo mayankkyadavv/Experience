@@ -1,0 +1,74 @@
+{
+  "slug": "learn-about-beer-at-a-philly-beer-school-tasting-or-brewing",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Learn about beer at a Philly Beer School tasting or brewing class",
+  "intent": "Taste and learn beer styles, or learn to brew your own.",
+  "description": "Philly Beer School offers beer tasting classes and beer brewing courses, and has been named Best Adult Education by Philadelphia magazine. It is run alongside the Wine School of Philadelphia.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "beer tasting",
+  "tags": [
+    "beer",
+    "brewing",
+    "tasting",
+    "education"
+  ],
+  "good_for": [
+    "friends",
+    "solo",
+    "group",
+    "date"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Philly Beer School",
+    "address": null,
+    "neighborhood": "Center City"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.vinology.com/philly-beer-school/"
+    }
+  ],
+  "sources": [
+    "https://www.vinology.com/philly-beer-school/",
+    "https://x.com/abeerschool"
+  ],
+  "uncertain": [
+    "address",
+    "price",
+    "schedule",
+    "duration"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.731Z",
+  "model": "claude-sonnet-5-5"
+}

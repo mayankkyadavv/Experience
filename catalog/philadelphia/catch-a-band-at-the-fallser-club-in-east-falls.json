@@ -1,0 +1,89 @@
+{
+  "title": "Catch a band at The Fallser Club in East Falls",
+  "intent": "See live music in a converted former cinema outside Center City.",
+  "description": "A music and arts venue in East Falls in a former theater building, with about 6,300 sq ft of space and a photography gallery. It hosts touring and local acts and was part of this month's Philly Music Fest lineup.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "indie rock",
+  "tags": [
+    "east-falls",
+    "converted-theater",
+    "neighborhood-venue"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Fallser Club",
+    "address": "3721 Midvale Ave, Philadelphia, PA 19129",
+    "neighborhood": "East Falls"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 45
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.facebook.com/TheFallserClub/"
+    },
+    {
+      "kind": "other",
+      "url": "https://feverup.com/en/philadelphia/venue/the-fallser-club"
+    }
+  ],
+  "sources": [
+    "https://feverup.com/en/philadelphia/venue/the-fallser-club",
+    "https://cinematreasures.org/theaters/64655",
+    "https://xpn.org/jazz-metal-indie-rock-more-in-store-for-philly-music-fest-2026/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "official website",
+    "hours"
+  ],
+  "slug": "catch-a-band-at-the-fallser-club-in-east-falls",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0097076,
+    "lng": -75.193341
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.509Z",
+  "model": "claude-sonnet-5-5"
+}

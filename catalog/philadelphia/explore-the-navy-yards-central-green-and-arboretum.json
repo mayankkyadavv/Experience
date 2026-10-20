@@ -1,0 +1,82 @@
+{
+  "slug": "explore-the-navy-yards-central-green-and-arboretum",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Explore the Navy Yard's Central Green and arboretum",
+  "intent": "Stroll a circular park, tree collections and waterfront green space at the old Navy Yard.",
+  "description": "The Navy Yard is a certified Level-1 arboretum with parks and green spaces across its 1,200 acres, anchored by the 5-acre circular Central Green designed by James Corner Field Operations. Pair it with a waterfront walk or bike ride in South Philly.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "urban park",
+  "tags": [
+    "free",
+    "arboretum",
+    "design",
+    "waterfront"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Central Green at The Navy Yard",
+    "address": null,
+    "neighborhood": "Navy Yard"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://navyyard.org/visit/parks/"
+    }
+  ],
+  "sources": [
+    "https://navyyard.org/visit/parks/",
+    "https://www.pennoni.com/projects/central-green-navy-yard/",
+    "https://inhabitat.com/james-corner-field-operations-designs-an-iconic-circular-park-for-the-philadelphia-navy-yard/"
+  ],
+  "uncertain": [
+    "street address",
+    "hours"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.774Z",
+  "model": "claude-sonnet-5-5"
+}

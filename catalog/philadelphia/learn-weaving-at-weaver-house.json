@@ -1,0 +1,73 @@
+{
+  "slug": "learn-weaving-at-weaver-house",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Learn weaving at Weaver House",
+  "intent": "Learn to weave on a loom, from beginner basics to advanced technique.",
+  "description": "Weaver House in South Philadelphia offers beginner and advanced classes covering many aspects of weaving.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "weaving",
+  "tags": [
+    "weaving",
+    "fiber-arts",
+    "south-philly",
+    "multi-week"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Weaver House",
+    "address": null,
+    "neighborhood": "South Philadelphia"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.phillyhomegirls.com/blog/getting-creative-in-philadelphia-workshops-for-adults"
+    }
+  ],
+  "sources": [
+    "https://www.phillyhomegirls.com/blog/getting-creative-in-philadelphia-workshops-for-adults"
+  ],
+  "uncertain": [
+    "address",
+    "official website",
+    "price_usd",
+    "duration_minutes",
+    "hours",
+    "current schedule"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.452Z",
+  "model": "claude-sonnet-5-5"
+}

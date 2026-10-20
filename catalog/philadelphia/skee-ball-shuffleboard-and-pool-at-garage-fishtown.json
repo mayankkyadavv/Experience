@@ -1,0 +1,82 @@
+{
+  "title": "Skee-ball, shuffleboard and pool at Garage Fishtown",
+  "intent": "Big corner beer bar with 400+ canned beers and lots of games.",
+  "description": "Fishtown bar in a former auto garage with indoor and outdoor seating, pool tables, shuffleboard, skee-ball and TVs, and a huge canned-beer list. Rotating food at Garage North; busy on weekend nights.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "game bar",
+  "tags": [
+    "shuffleboard",
+    "skee-ball",
+    "pool",
+    "fishtown",
+    "outdoor-seating",
+    "beer"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Garage Fishtown",
+    "address": "100 E Girard Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.garagephilly.com"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/media-center/press-releases/neighborhood-guide-fishtown-river-wards/",
+    "https://mindtrip.ai/restaurant/philadelphia-pennsylvania/garage-fishtown/re-LE3KmTUo"
+  ],
+  "uncertain": [
+    "hours",
+    "price_usd"
+  ],
+  "slug": "skee-ball-shuffleboard-and-pool-at-garage-fishtown",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9686442,
+    "lng": -75.1341772
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.556Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,108 @@
+{
+  "title": "See portraits of founders at the Second Bank Portrait Gallery",
+  "intent": "View a free collection of colonial and Revolutionary-era portraits in a Greek Revival bank.",
+  "description": "The Second Bank of the United States on Chestnut Street houses a National Park Service gallery of portraits of leaders from the founding era, free to enter. Short visit, good for a rainy day while exploring Independence Park.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "portrait gallery",
+  "tags": [
+    "free",
+    "history",
+    "rainy-day",
+    "indoor",
+    "independence-park"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Second Bank of the United States Portrait Gallery",
+    "address": "420 Chestnut St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://home.nps.gov/inde/planyourvisit/hours.htm"
+    }
+  ],
+  "sources": [
+    "https://www.frommers.com/destinations/philadelphia/attractions/second-bank-portrait-gallery/",
+    "https://www.trip.com/travel-guide/attraction/philadelphia/second-bank-of-the-united-states-portrait-gallery-38675630/",
+    "https://home.nps.gov/inde/planyourvisit/hours.htm"
+  ],
+  "uncertain": [
+    "Hours (Frommer's says Wed-Sat 10-5; another site says 11-5) — confirm with NPS",
+    "Address not on a fetched page"
+  ],
+  "slug": "see-portraits-of-founders-at-the-second-bank-portrait-galler",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.948572,
+    "lng": -75.14841
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.672Z",
+  "model": "claude-sonnet-5-5"
+}

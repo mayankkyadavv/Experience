@@ -1,0 +1,84 @@
+{
+  "title": "Jazz at the Philadelphia Clef Club and Blue Note Music Hall",
+  "intent": "Hear jazz at the city's historic Black musicians' institution.",
+  "description": "The Clef Club of Jazz and Performing Arts grew out of Local 274, a union for Black musicians. Today it hosts concerts, workshops and classes on South Broad Street, and its larger Blue Note Music Hall stages shows.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "jazz",
+  "tags": [
+    "jazz",
+    "historic",
+    "community",
+    "concerts",
+    "south-broad"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Clef Club of Jazz and Performing Arts",
+    "address": "736 S Broad St, Philadelphia, PA 19146",
+    "neighborhood": "Graduate Hospital"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://clefclubofjazz.org"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/top-places-to-listen-to-live-jazz-music-in-philadelphia/",
+    "https://en.wikipedia.org/wiki/Philadelphia_Clef_Club_of_Jazz_and_Performing_Arts"
+  ],
+  "uncertain": [
+    "hours",
+    "ticket prices",
+    "current schedule"
+  ],
+  "slug": "jazz-at-the-philadelphia-clef-club-and-blue-note-music-hall",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.942026,
+    "lng": -75.1663615
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.188Z",
+  "model": "claude-sonnet-5-5"
+}

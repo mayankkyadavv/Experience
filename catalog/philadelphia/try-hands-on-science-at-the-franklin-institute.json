@@ -1,0 +1,121 @@
+{
+  "title": "Try hands-on science at The Franklin Institute",
+  "intent": "Interactive science exhibits, planetarium and a giant walk-through heart.",
+  "description": "Three floors of hands-on science exhibits, live demonstrations and the Fels Planetarium in a Parkway landmark. Plan 3-4 hours; special exhibits cost extra.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "science museum",
+  "tags": [
+    "rainy-day",
+    "indoor",
+    "hands-on",
+    "stem",
+    "planetarium"
+  ],
+  "good_for": [
+    "family",
+    "group",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Franklin Institute",
+    "address": "222 N 20th St, Philadelphia, PA 19103",
+    "neighborhood": "Logan Square"
+  },
+  "price_usd": {
+    "min": 21,
+    "max": 29
+  },
+  "duration_minutes": {
+    "min": 180,
+    "max": 240
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:30",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "09:30",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "09:30",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "09:30",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "09:30",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "09:30",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "09:30",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fi.edu/en/plan-your-visit/tickets"
+    }
+  ],
+  "sources": [
+    "https://fi.edu/en/contact",
+    "https://fi.edu/en/plan-your-visit/tickets",
+    "https://planetwhitley.com/franklin-institute-philadelphia-ticket-prices-hours-visitor-guide/"
+  ],
+  "uncertain": [
+    "exact current prices: official pages list $25 adult/$21 child (3-11) and 'from $23'; third party lists higher"
+  ],
+  "slug": "try-hands-on-science-at-the-franklin-institute",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9582436,
+    "lng": -75.1730789
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Family-friendly and kid-friendly activities",
+  "drafted_at": "2026-10-20T00:34:18.063Z",
+  "model": "claude-sonnet-5-5"
+}

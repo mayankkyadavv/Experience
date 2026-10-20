@@ -1,0 +1,86 @@
+{
+  "title": "Dress up for the Tacony Halloween Fall Festival",
+  "intent": "A free neighborhood street festival with costume contests for kids and pets.",
+  "description": "Torresdale Avenue's 6800 and 6900 blocks close for a free Halloween festival in Tacony with trick-or-treating, costume contests, carnival games, vendors, food and live entertainment.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "street festival",
+  "tags": [
+    "free",
+    "family-friendly",
+    "halloween",
+    "outdoor",
+    "costume-contest"
+  ],
+  "good_for": [
+    "family",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Torresdale Avenue (6800-6900 blocks)",
+    "address": "6800 Torresdale Ave, Philadelphia, PA 19135",
+    "neighborhood": "Tacony"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-24",
+      "end": "2026-10-24"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-24",
+      "start": "12:00",
+      "end": "18:00"
+    }
+  ],
+  "links": [],
+  "sources": [
+    "https://www.phillyvoice.com/halloween-events-philadelphia-suburbs-south-jersey-2026/",
+    "https://www.phillyvoice.com/things-to-do-philly-suburbs-south-jersey-weekend-october-23-25-2026/"
+  ],
+  "uncertain": [
+    "official website"
+  ],
+  "slug": "dress-up-for-the-tacony-halloween-fall-festival",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.025424,
+    "lng": -75.0447592
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.066Z",
+  "model": "claude-sonnet-5-5"
+}

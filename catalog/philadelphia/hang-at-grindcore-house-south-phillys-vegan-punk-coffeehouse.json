@@ -1,0 +1,85 @@
+{
+  "title": "Hang at Grindcore House, South Philly's vegan punk coffeehouse",
+  "intent": "A long-running, band-poster-covered vegan coffeehouse with a tucked-away dining room.",
+  "description": "Grindcore House is a vegan coffee shop with hardcore and punk aesthetics, serving coffee, baked goods, sandwiches and salads. It has a hidden dining room and sells coffee and apparel.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "vegan coffeehouse",
+  "tags": [
+    "vegan",
+    "punk",
+    "cheap",
+    "community-spot"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Grindcore House",
+    "address": "1515 S 4th St, Philadelphia, PA 19147",
+    "neighborhood": "Queen Village"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 14
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://joe.coffee/locations/pa/philadelphia/grindcore-house-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://overlookmaps.com/places/grindcore-house-philadelphia-46816559615368",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d4067152-Reviews-Grindcore_House-Philadelphia_Pennsylvania.html",
+    "https://joe.coffee/locations/pa/philadelphia/grindcore-house-philadelphia/"
+  ],
+  "uncertain": [
+    "hours (opens 8am per one listing)",
+    "neighborhood approximate",
+    "official website"
+  ],
+  "slug": "hang-at-grindcore-house-south-phillys-vegan-punk-coffeehouse",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9290329,
+    "lng": -75.1518623
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.319Z",
+  "model": "claude-sonnet-5-5"
+}

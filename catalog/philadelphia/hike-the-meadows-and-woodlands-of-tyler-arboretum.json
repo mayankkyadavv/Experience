@@ -1,0 +1,118 @@
+{
+  "slug": "hike-the-meadows-and-woodlands-of-tyler-arboretum",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Hike the meadows and woodlands of Tyler Arboretum",
+  "intent": "Spend a day on 17 miles of trails through 650 acres of champion trees and meadows.",
+  "description": "A 650-acre arboretum in Media with heritage and champion trees, naturalistic gardens, meadows and about 17 miles of hiking trails. Open daily except major holidays with admission for non-members.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "arboretum",
+  "tags": [
+    "arboretum",
+    "hiking",
+    "family-friendly",
+    "day-trip"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Tyler Arboretum",
+    "address": "515 Painter Rd, Media, PA 19063",
+    "neighborhood": "Media (Delaware County)"
+  },
+  "price_usd": {
+    "min": 7,
+    "max": 11
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 240
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://tylerarboretum.org/"
+    }
+  ],
+  "sources": [
+    "https://americasgardencapital.org/garden/tyler-arboretum/",
+    "https://www.tripadvisor.com/Attraction_Review-g53158-d591733-Reviews-Tyler_Arboretum-Media_Pennsylvania.html",
+    "https://maps.apple.com/place?place-id=IC3912E022CC459D1"
+  ],
+  "uncertain": [
+    "hours (from third-party listing; fall hours may close earlier)",
+    "price_usd (adult $11 / child $7 from a review site, possibly outdated)"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.772Z",
+  "model": "claude-sonnet-5-5"
+}

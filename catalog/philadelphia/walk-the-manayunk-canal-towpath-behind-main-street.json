@@ -1,0 +1,90 @@
+{
+  "title": "Walk the Manayunk Canal Towpath behind Main Street",
+  "intent": "Quiet canal-side walk with old locks, then lunch or a drink on Main Street.",
+  "description": "The towpath runs behind Manayunk's Main Street along the old Schuylkill canal, a mix of gravel and boardwalk with historic locks and wooded views. It connects to the Schuylkill River Trail toward Center City and Valley Forge, and the entrance is at Main and Lock Streets.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "canal path",
+  "tags": [
+    "free",
+    "scenic",
+    "walkable",
+    "dog-friendly",
+    "history"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Manayunk Canal Towpath",
+    "address": "Main St & Lock St, Philadelphia, PA 19127",
+    "neighborhood": "Manayunk"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://manayunk.com/trails-recreation/"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.spottedbylocals.com/philadelphia/manayunk-towpath/"
+    }
+  ],
+  "sources": [
+    "https://manayunk.com/trails-recreation/",
+    "https://www.spottedbylocals.com/philadelphia/manayunk-towpath/",
+    "https://en.wikipedia.org/wiki/Manayunk_Canal_Towpath"
+  ],
+  "uncertain": [
+    "length varies by source (half mile to two miles)"
+  ],
+  "slug": "walk-the-manayunk-canal-towpath-behind-main-street",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0275918,
+    "lng": -75.2286643
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.357Z",
+  "model": "claude-sonnet-5-5"
+}

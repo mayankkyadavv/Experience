@@ -1,0 +1,118 @@
+{
+  "title": "Browse ceramics at The Clay Studio's gallery and shop",
+  "intent": "Free galleries of contemporary ceramics, plus a Second Thursday gallery night.",
+  "description": "One of the nation's oldest ceramics centers, now in a new building with galleries and a shop open daily and free to the public. On the second Thursday of each month it has evening hours from 5-8 pm.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "ceramics gallery",
+  "tags": [
+    "free",
+    "ceramics",
+    "shopping",
+    "second-thursday",
+    "kensington"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Clay Studio",
+    "address": "1425 N American St, Philadelphia, PA 19122",
+    "neighborhood": "Kensington / Northern Liberties"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 75
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 1,
+      "open": "11:00",
+      "close": "17:30"
+    },
+    {
+      "day": 2,
+      "open": "11:00",
+      "close": "17:30"
+    },
+    {
+      "day": 3,
+      "open": "11:00",
+      "close": "17:30"
+    },
+    {
+      "day": 4,
+      "open": "11:00",
+      "close": "17:30"
+    },
+    {
+      "day": 5,
+      "open": "11:00",
+      "close": "17:30"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "17:00"
+    },
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.theclaystudio.org/visit"
+    }
+  ],
+  "sources": [
+    "https://www.theclaystudio.org/visit",
+    "https://www.theclaystudio.org/events/public-events"
+  ],
+  "uncertain": [
+    "duration_minutes"
+  ],
+  "slug": "browse-ceramics-at-the-clay-studios-gallery-and-shop",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9790561,
+    "lng": -75.1389113
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.546Z",
+  "model": "claude-sonnet-5-5"
+}

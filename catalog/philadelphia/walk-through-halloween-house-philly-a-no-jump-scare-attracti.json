@@ -1,0 +1,132 @@
+{
+  "title": "Walk through Halloween House Philly, a no-jump-scare attraction",
+  "intent": "Halloween fun for families or scare-averse friends without actors or jump scares.",
+  "description": "A 10-room, all-ages immersive Halloween attraction in the former Forever 21 at Fashion District Philadelphia, with a spiderweb light tunnel, a zombie bunker and interactive games. It has no live actors and is entirely indoors.",
+  "category": "attraction",
+  "kind": "event",
+  "subcategory": "halloween walk-through",
+  "tags": [
+    "halloween",
+    "family-friendly",
+    "indoor",
+    "rainy-day",
+    "no-scares"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Halloween House Philly (Fashion District Philadelphia, Level 2)",
+    "address": "901 Market St, Philadelphia, PA 19107",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 35
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "19:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "19:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "19:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "19:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "20:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "20:00"
+    },
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [
+    {
+      "start": "2026-09-25",
+      "end": "2026-11-01"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.phlvisitorcenter.com/things-to-do/halloween-house-philly"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.fashiondistrictphiladelphia.com/Events/Details/580999"
+    }
+  ],
+  "sources": [
+    "https://www.phlvisitorcenter.com/things-to-do/halloween-house-philly",
+    "https://www.phillyvoice.com/halloween-house-philly-forever-21-fashion-district/",
+    "https://hoodline.com/2026/10/no-scare-halloween-house-opens-in-old-forever-21-at-fashion-district/",
+    "https://www.fashiondistrictphiladelphia.com/Events/Details/580999"
+  ],
+  "uncertain": [
+    "Inquirer reported different prices ($39 adult/$29 child) than the venue's $34.99/$24.99",
+    "official dedicated website"
+  ],
+  "slug": "walk-through-halloween-house-philly-a-no-jump-scare-attracti",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9513696,
+    "lng": -75.1552838
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.064Z",
+  "model": "claude-sonnet-5-5"
+}

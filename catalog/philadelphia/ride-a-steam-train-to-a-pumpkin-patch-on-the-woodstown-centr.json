@@ -1,0 +1,112 @@
+{
+  "slug": "ride-a-steam-train-to-a-pumpkin-patch-on-the-woodstown-centr",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Ride a steam train to a pumpkin patch on the Woodstown Central Railroad",
+  "intent": "A train ride to pick pumpkins in Salem County, NJ.",
+  "description": "The Pumpkin Patch Flyer is a historic steam train ride to a pumpkin patch from South Woodstown Station in Salem County, NJ, about 45 minutes from Philadelphia. The railroad also runs a Corn Maze Express and a Salem Ghost Train this fall.",
+  "category": "outdoors",
+  "kind": "event",
+  "subcategory": "pumpkin patch",
+  "tags": [
+    "train",
+    "pumpkin-patch",
+    "family-friendly",
+    "seasonal",
+    "day-trip",
+    "new-jersey"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Woodstown Central Railroad, South Woodstown Station",
+    "address": null,
+    "neighborhood": null
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-03",
+      "end": "2026-10-25"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-24",
+      "start": "10:00",
+      "end": null
+    },
+    {
+      "date": "2026-10-24",
+      "start": "12:30",
+      "end": null
+    },
+    {
+      "date": "2026-10-24",
+      "start": "15:00",
+      "end": null
+    },
+    {
+      "date": "2026-10-25",
+      "start": "10:00",
+      "end": null
+    },
+    {
+      "date": "2026-10-25",
+      "start": "12:30",
+      "end": null
+    },
+    {
+      "date": "2026-10-25",
+      "start": "15:00",
+      "end": null
+    }
+  ],
+  "links": [],
+  "sources": [
+    "https://www.phillyvoice.com/woodstown-central-railroad-pumpkin-patch-flyer-south-jersey-october-2026/",
+    "https://hoodline.com/2026/09/historic-steam-engine-no-9-hauls-riders-to-a-salem-county-pumpkin-patch-this-october/"
+  ],
+  "uncertain": [
+    "address",
+    "ticket price",
+    "official website",
+    "end times"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.066Z",
+  "model": "claude-sonnet-5-5"
+}

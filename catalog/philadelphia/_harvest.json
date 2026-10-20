@@ -1,0 +1,227 @@
+{
+  "spentUsd": 46.346384,
+  "topics": {
+    "Stand-up comedy clubs, improv theaters and regular comedy nights": {
+      "entries": 18,
+      "invalid": 0,
+      "costUsd": 1.65,
+      "at": "2026-10-20T00:20:14.395Z"
+    },
+    "Live music venues: rock, indie and pop clubs and mid-size halls": {
+      "entries": 14,
+      "invalid": 0,
+      "costUsd": 1.02,
+      "at": "2026-10-20T00:24:33.509Z"
+    },
+    "Jazz clubs, blues bars and places with live jazz most nights": {
+      "entries": 15,
+      "invalid": 0,
+      "costUsd": 0.87,
+      "at": "2026-10-20T00:27:19.189Z"
+    },
+    "Arcades, bowling, mini golf, axe throwing and escape rooms": {
+      "entries": 16,
+      "invalid": 0,
+      "costUsd": 1.31,
+      "at": "2026-10-20T00:27:35.845Z"
+    },
+    "Art galleries, First Friday spots and public art (murals, Magic Gardens)": {
+      "entries": 20,
+      "invalid": 0,
+      "costUsd": 1.13,
+      "at": "2026-10-20T00:28:19.548Z"
+    },
+    "Wine bars and natural-wine spots": {
+      "entries": 18,
+      "invalid": 0,
+      "costUsd": 1.59,
+      "at": "2026-10-20T00:29:45.056Z"
+    },
+    "Hands-on classes: pottery, painting, glassblowing, woodworking": {
+      "entries": 19,
+      "invalid": 0,
+      "costUsd": 1.21,
+      "at": "2026-10-20T00:29:55.452Z"
+    },
+    "Food markets, food halls and farmers markets": {
+      "entries": 17,
+      "invalid": 0,
+      "costUsd": 1.21,
+      "at": "2026-10-20T00:30:28.765Z"
+    },
+    "Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington": {
+      "entries": 15,
+      "invalid": 0,
+      "costUsd": 1.33,
+      "at": "2026-10-20T00:31:20.108Z"
+    },
+    "Cheap eats and BYOB restaurants": {
+      "entries": 14,
+      "invalid": 0,
+      "costUsd": 0.98,
+      "at": "2026-10-20T00:32:14.794Z"
+    },
+    "Dessert, bakeries, ice cream and chocolate shops": {
+      "entries": 17,
+      "invalid": 0,
+      "costUsd": 0.98,
+      "at": "2026-10-20T00:32:32.082Z"
+    },
+    "Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks": {
+      "entries": 13,
+      "invalid": 0,
+      "costUsd": 1.44,
+      "at": "2026-10-20T00:33:19.253Z"
+    },
+    "Walking tours, ghost tours, boat tours and unusual tours": {
+      "entries": 18,
+      "invalid": 0,
+      "costUsd": 1.1,
+      "at": "2026-10-20T00:33:37.003Z"
+    },
+    "Family-friendly and kid-friendly activities": {
+      "entries": 19,
+      "invalid": 0,
+      "costUsd": 1.04,
+      "at": "2026-10-20T00:34:18.069Z"
+    },
+    "Cocktail bars and speakeasies worth going to on purpose": {
+      "entries": 9,
+      "invalid": 2,
+      "costUsd": 1.05,
+      "at": "2026-10-20T00:34:55.454Z"
+    },
+    "Major museums and science centers": {
+      "entries": 17,
+      "invalid": 0,
+      "costUsd": 0.92,
+      "at": "2026-10-20T01:04:56.033Z"
+    },
+    "Cooking classes, food tours, and tasting experiences": {
+      "entries": 17,
+      "invalid": 0,
+      "costUsd": 1.15,
+      "at": "2026-10-20T01:05:29.731Z"
+    },
+    "Theaters, performing arts, opera, ballet and orchestra": {
+      "entries": 9,
+      "invalid": 2,
+      "costUsd": 1.18,
+      "at": "2026-10-20T01:05:39.799Z"
+    },
+    "Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)": {
+      "entries": 16,
+      "invalid": 1,
+      "costUsd": 0.99,
+      "at": "2026-10-20T01:05:59.359Z"
+    },
+    "Breweries, beer gardens and taprooms": {
+      "entries": 18,
+      "invalid": 0,
+      "costUsd": 1.67,
+      "at": "2026-10-20T01:08:00.429Z"
+    },
+    "Rainy-day and indoor activities": {
+      "entries": 14,
+      "invalid": 0,
+      "costUsd": 1.08,
+      "at": "2026-10-20T01:08:39.123Z"
+    },
+    "Restaurants worth a special trip in Center City and Rittenhouse": {
+      "entries": 12,
+      "invalid": 0,
+      "costUsd": 1.13,
+      "at": "2026-10-20T01:08:55.235Z"
+    },
+    "Spas, saunas, bathhouses and wellness experiences": {
+      "entries": 11,
+      "invalid": 0,
+      "costUsd": 1.17,
+      "at": "2026-10-20T01:09:33.220Z"
+    },
+    "Brunch spots": {
+      "entries": 18,
+      "invalid": 0,
+      "costUsd": 1.7,
+      "at": "2026-10-20T01:10:41.867Z"
+    },
+    "Movie theaters, indie cinemas and outdoor screenings": {
+      "entries": 10,
+      "invalid": 1,
+      "costUsd": 1.19,
+      "at": "2026-10-20T01:12:03.284Z"
+    },
+    "Dance clubs, DJ nights and late-night spots": {
+      "entries": 15,
+      "invalid": 0,
+      "costUsd": 1.26,
+      "at": "2026-10-20T01:12:51.156Z"
+    },
+    "Small, unusual and weird museums and attractions": {
+      "entries": 9,
+      "invalid": 0,
+      "costUsd": 1.41,
+      "at": "2026-10-20T01:13:35.511Z"
+    },
+    "Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)": {
+      "entries": 19,
+      "invalid": 0,
+      "costUsd": 1.74,
+      "at": "2026-10-20T01:14:21.068Z"
+    },
+    "Dance, music, improv and other drop-in classes for adults": {
+      "entries": 17,
+      "invalid": 0,
+      "costUsd": 1.65,
+      "at": "2026-10-20T01:15:07.294Z"
+    },
+    "Pro and college sports games and stadium experiences": {
+      "entries": 13,
+      "invalid": 0,
+      "costUsd": 1.63,
+      "at": "2026-10-20T01:15:34.978Z"
+    },
+    "Restaurants worth a special trip in South Philly, East Passyunk and Bella Vista": {
+      "entries": 16,
+      "invalid": 0,
+      "costUsd": 1.44,
+      "at": "2026-10-20T01:15:44.430Z"
+    },
+    "Coffee shops and cafes good for hanging out": {
+      "entries": 15,
+      "invalid": 0,
+      "costUsd": 1.27,
+      "at": "2026-10-20T01:16:05.320Z"
+    },
+    "Free things to do in Philadelphia": {
+      "entries": 14,
+      "invalid": 0,
+      "costUsd": 1.26,
+      "at": "2026-10-20T01:17:16.674Z"
+    },
+    "Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)": {
+      "entries": 18,
+      "invalid": 0,
+      "costUsd": 1.27,
+      "at": "2026-10-20T01:18:14.558Z"
+    },
+    "Concerts, comedy shows and performances with specific dates between 2026-10-20 and 2026-12-31": {
+      "entries": 7,
+      "invalid": 1,
+      "costUsd": 1.34,
+      "at": "2026-10-20T01:18:20.058Z"
+    },
+    "Parks, gardens and arboretums": {
+      "entries": 19,
+      "invalid": 0,
+      "costUsd": 0.86,
+      "at": "2026-10-20T01:18:58.775Z"
+    },
+    "Historic sites and Old City landmarks worth visiting": {
+      "entries": 17,
+      "invalid": 0,
+      "costUsd": 1.13,
+      "at": "2026-10-20T01:19:09.410Z"
+    }
+  }
+}

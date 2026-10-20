@@ -1,0 +1,109 @@
+{
+  "title": "Learn about money at the Federal Reserve's Money in Motion exhibit",
+  "intent": "Try a free, hands-on exhibit about money and banking in a Federal Reserve building.",
+  "description": "A free interactive exhibit at the Federal Reserve Bank of Philadelphia near Independence Mall. Visitors pass through x-ray and metal-detector screening; open weekdays year-round with last admission at 4:00 pm.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "money museum",
+  "tags": [
+    "free",
+    "rainy-day",
+    "interactive",
+    "hidden-gem",
+    "old-city"
+  ],
+  "good_for": [
+    "solo",
+    "family",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Money in Motion at the Federal Reserve Bank of Philadelphia",
+    "address": "10 Independence Mall, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "09:30",
+      "close": "16:30"
+    },
+    {
+      "day": 2,
+      "open": "09:30",
+      "close": "16:30"
+    },
+    {
+      "day": 3,
+      "open": "09:30",
+      "close": "16:30"
+    },
+    {
+      "day": 4,
+      "open": "09:30",
+      "close": "16:30"
+    },
+    {
+      "day": 5,
+      "open": "09:30",
+      "close": "16:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.philadelphiafed.org/money-in-motion/visit"
+    }
+  ],
+  "sources": [
+    "https://www.philadelphiafed.org/money-in-motion/visit",
+    "https://uncoveringpa.com/money-in-motion-exhibit-philadelphia-federal-reserve"
+  ],
+  "uncertain": [],
+  "slug": "learn-about-money-at-the-federal-reserves-money-in-motion-ex",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9509426,
+    "lng": -75.1504379
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Small, unusual and weird museums and attractions",
+  "drafted_at": "2026-10-20T01:13:35.511Z",
+  "model": "claude-sonnet-5-5"
+}

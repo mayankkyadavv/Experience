@@ -1,0 +1,88 @@
+{
+  "title": "Blues and soul dinner at Warmdaddy's",
+  "intent": "Pair Southern soul food with live blues and R&B in an upscale club.",
+  "description": "Warmdaddy's has served soul food with live blues and R&B for 26+ years and now operates from a newer space on North Broad in Spring Garden. Older listings describe live music about six nights a week.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "blues",
+  "tags": [
+    "blues",
+    "soul-food",
+    "dinner-and-show",
+    "r&b",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Warmdaddy's",
+    "address": "1410 Mt Vernon St, Philadelphia, PA 19130",
+    "neighborhood": "Spring Garden"
+  },
+  "price_usd": {
+    "min": 20,
+    "max": 70
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/warmdaddys"
+    }
+  ],
+  "sources": [
+    "https://www.opentable.com/r/warmdaddys",
+    "https://billypenn.com/2020/10/27/bynum-brothers-warmdaddys-philadelphia-soul-food-music-north-broad/",
+    "https://explorepahistory.com/attraction.php%3Fid=1-B-B70.html"
+  ],
+  "uncertain": [
+    "hours",
+    "current live music nights",
+    "official website",
+    "cover"
+  ],
+  "slug": "blues-and-soul-dinner-at-warmdaddys",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9644178,
+    "lng": -75.1615233
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.189Z",
+  "model": "claude-sonnet-5-5"
+}

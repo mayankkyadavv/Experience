@@ -1,0 +1,79 @@
+{
+  "title": "Israeli bar bites and small plates at Jaffa Bar",
+  "intent": "Kensington date-night spot for Israeli small plates, at the bar or a group table.",
+  "description": "Israeli restaurant and bar on North Howard Street in Kensington, listed by The Infatuation for bar seating, groups and dates.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "israeli",
+  "tags": [
+    "israeli",
+    "small-plates",
+    "bar"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Jaffa Bar",
+    "address": "1625 N Howard St, Philadelphia, PA 19122",
+    "neighborhood": "Kensington"
+  },
+  "price_usd": {
+    "min": 30,
+    "max": 60
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 100
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.theinfatuation.com/philadelphia/guides/best-bars-restaurants-kensington"
+  ],
+  "uncertain": [
+    "hours",
+    "price_usd",
+    "duration_minutes",
+    "official website"
+  ],
+  "slug": "israeli-bar-bites-and-small-plates-at-jaffa-bar",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9752555,
+    "lng": -75.1351697
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington",
+  "drafted_at": "2026-10-20T00:31:20.107Z",
+  "model": "claude-sonnet-5-5"
+}

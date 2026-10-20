@@ -1,0 +1,81 @@
+{
+  "title": "Stand-up paddleboard session on the pool at Aqua Vida, University City",
+  "intent": "Try paddleboarding or SUP yoga indoors, even in cold weather.",
+  "description": "Aqua Vida runs private and group stand-up paddleboard sessions in the indoor pool at AKA University City, about 400 feet above street level. It also hosts weekly SUP yoga and Pilates classes on the water.",
+  "category": "active",
+  "kind": "activity",
+  "subcategory": "paddleboarding",
+  "tags": [
+    "indoor",
+    "unusual",
+    "rainy-day",
+    "sup-yoga",
+    "views"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Aqua Vida at AKA University City",
+    "address": "2929 Walnut St, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 45,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.phillymag.com/be-well-philly/canoe-kayak-paddle-board/"
+  ],
+  "uncertain": [
+    "official website and booking link",
+    "price",
+    "class schedule",
+    "whether classes run in fall/winter",
+    "duration_minutes",
+    "group_size"
+  ],
+  "slug": "stand-up-paddleboard-session-on-the-pool-at-aqua-vida-univer",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9519904,
+    "lng": -75.1838882
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks",
+  "drafted_at": "2026-10-20T00:33:19.252Z",
+  "model": "claude-sonnet-5-5"
+}

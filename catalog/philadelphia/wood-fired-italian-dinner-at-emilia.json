@@ -1,0 +1,126 @@
+{
+  "title": "Wood-fired Italian dinner at Emilia",
+  "intent": "Try Greg Vernick's new regional Italian restaurant, a recent Eater 38 addition.",
+  "description": "Opened in 2026 just north of the York Street roundabout, Emilia serves wood-fired dishes and housemade pastas like tortellini in brodo, plus Italian wines and cocktails. Reservations via Resy.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "italian",
+  "tags": [
+    "italian",
+    "pasta",
+    "new",
+    "eater-38",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Emilia",
+    "address": "2406 Frankford Ave, Philadelphia, PA 19125",
+    "neighborhood": "East Kensington"
+  },
+  "price_usd": {
+    "min": 40,
+    "max": 80
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.emiliaphilly.com"
+    },
+    {
+      "kind": "booking",
+      "url": "https://resy.com/cities/philadelphia-pa/venues/EMiLIA"
+    }
+  ],
+  "sources": [
+    "https://resy.com/cities/philadelphia-pa/venues/EMiLIA",
+    "https://www.inquirer.com/food/restaurants/emilia-restaurant-kensington-greg-vernick-20260127.html",
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d34345152-Reviews-Emilia-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "price_usd",
+    "duration_minutes"
+  ],
+  "slug": "wood-fired-italian-dinner-at-emilia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9817758,
+    "lng": -75.1275505
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington",
+  "drafted_at": "2026-10-20T00:31:20.103Z",
+  "model": "claude-sonnet-5-5"
+}

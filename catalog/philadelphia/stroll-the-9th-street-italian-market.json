@@ -1,0 +1,88 @@
+{
+  "slug": "stroll-the-9th-street-italian-market",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Stroll the 9th Street Italian Market",
+  "intent": "Wander an old-school outdoor market of butchers, cheese shops, bakeries and taquerias.",
+  "description": "The South 9th Street Curb Market is billed as the oldest continuously operating outdoor market in the US, with Italian delis, cheese shops, bakeries, produce stands and a growing mix of Mexican and Asian eateries. The Italian Market Visitor Center sits mid-street; individual shops keep their own hours.",
+  "category": "market",
+  "kind": "place",
+  "subcategory": "outdoor market",
+  "tags": [
+    "historic",
+    "outdoor",
+    "iconic",
+    "foodie",
+    "walkable"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "9th Street Italian Market",
+    "address": "S 9th St between Wharton and Fitzwater Sts, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://italianmarketphilly.org/"
+    },
+    {
+      "kind": "other",
+      "url": "https://italianmarketphilly.org/visitor-center/"
+    }
+  ],
+  "sources": [
+    "https://italianmarketphilly.org/visitor-center/",
+    "https://thesunpapers.com/philadelphia-food-markets-guide/"
+  ],
+  "uncertain": [
+    "hours",
+    "price_usd",
+    "duration_minutes"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.759Z",
+  "model": "claude-sonnet-5-5"
+}

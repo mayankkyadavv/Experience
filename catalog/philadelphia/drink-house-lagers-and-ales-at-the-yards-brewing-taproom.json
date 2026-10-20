@@ -1,0 +1,119 @@
+{
+  "title": "Drink house lagers and ales at the Yards Brewing taproom",
+  "intent": "Sample a Philly-original craft brewery's beers at its flagship brewery and taproom.",
+  "description": "Yards, brewing in Philadelphia since 1994, runs its brewery and taproom at 500 Spring Garden St. Expect a long list of house beers on tap, a full food menu and a big, casual room suited to groups.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "brewery",
+    "taproom",
+    "groups",
+    "food"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Yards Brewing Company",
+    "address": "500 Spring Garden St, Philadelphia, PA 19123",
+    "neighborhood": "Spring Garden"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 15
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "11:30",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "11:30",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "11:30",
+      "close": "22:00"
+    },
+    {
+      "day": 0,
+      "open": "11:30",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "11:30",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "11:30",
+      "close": "23:00"
+    },
+    {
+      "day": 6,
+      "open": "11:30",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://yardsbrewing.com/pages/taproom"
+    }
+  ],
+  "sources": [
+    "https://yardsbrewing.com/pages/taproom",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d107532-Reviews-Yards_Brewing_Company-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "Sunday closing time (page truncated; Mon-Wed time used)"
+  ],
+  "slug": "drink-house-lagers-and-ales-at-the-yards-brewing-taproom",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9606439,
+    "lng": -75.1472275
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.422Z",
+  "model": "claude-sonnet-5-5"
+}

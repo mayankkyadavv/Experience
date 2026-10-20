@@ -1,0 +1,85 @@
+{
+  "title": "Picnic and people-watch in Washington Square",
+  "intent": "Relax in one of William Penn's original five squares in Center City.",
+  "description": "A 6.4-acre historic park in Washington Square West with shaded paths, benches, a fountain and the Tomb of the Unknown Soldier of the American Revolution. Free and open daily; handy before or after Society Hill and Midtown Village wandering.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "city park",
+  "tags": [
+    "free",
+    "historic",
+    "picnic",
+    "center-city"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Washington Square",
+    "address": "210 W Washington Sq, Philadelphia, PA 19106",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.visitphilly.com/things-to-do/attractions/washington-square/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/things-to-do/attractions/washington-square/",
+    "https://www.phlvisitorcenter.com/things-to-do/washington-square",
+    "https://www.visitphilly.com/areas/philadelphia-neighborhoods/washington-square-west/"
+  ],
+  "uncertain": [
+    "exact street address"
+  ],
+  "slug": "picnic-and-people-watch-in-washington-square",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9472791,
+    "lng": -75.1536297
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.771Z",
+  "model": "claude-sonnet-5-5"
+}

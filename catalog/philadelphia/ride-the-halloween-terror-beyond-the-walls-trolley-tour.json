@@ -1,0 +1,86 @@
+{
+  "slug": "ride-the-halloween-terror-beyond-the-walls-trolley-tour",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Ride the Halloween 'Terror Beyond the Walls' trolley tour",
+  "intent": "Hear ghost and dark-history stories on a BYOB Halloween trolley with surprise stops.",
+  "description": "City Sightseeing's Halloween trolley runs a roughly 90-minute tour of Old City's creepier history, with trivia and games, surprise on-foot stops and sites like Christ Church Burial Ground, the Arch Street Meeting House and the Powel House. Runs select dates through Nov 7; the trolley is BYOB.",
+  "category": "attraction",
+  "kind": "event",
+  "subcategory": "ghost tour",
+  "tags": [
+    "ghost-tour",
+    "trolley",
+    "halloween",
+    "seasonal",
+    "byob"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "City Sightseeing Bus Kiosk, Independence Mall",
+    "address": null,
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 50,
+    "max": 65
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 90
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-20",
+      "end": "2026-11-07"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "tickets",
+      "url": "https://www.getyourguide.com/philadelphia-l60/philadelphia-terror-beyond-the-walls-trolley-tour-t832929/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/the-10-scariest-halloween-attractions-in-philadelphia/",
+    "https://www.getyourguide.com/philadelphia-l60/philadelphia-terror-beyond-the-walls-trolley-tour-t832929/",
+    "https://www.tripadvisor.com/AttractionProductReview-g60795-d28399674-Halloween_Trolley_Tour_Terror_Beyond_the_Walls-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "specific tour dates and times (only 'select dates through Nov 7')",
+    "exact kiosk address",
+    "price ($49.99 on Tripadvisor, from $65 on GetYourGuide)",
+    "official website"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:36.999Z",
+  "model": "claude-sonnet-5-5"
+}

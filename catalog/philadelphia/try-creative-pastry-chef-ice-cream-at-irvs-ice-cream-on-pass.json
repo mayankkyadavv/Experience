@@ -1,0 +1,88 @@
+{
+  "title": "Try creative pastry-chef ice cream at Irv's Ice Cream on Passyunk Ave",
+  "intent": "Inventive small-batch flavors from a trained pastry chef.",
+  "description": "Ice cream shop from pastry chef Ilissa Shapiro, who started selling from a trolley at Cherry Street Pier. Small-batch flavors use ingredients like real mint leaves and large chunks of mix-ins; Infatuation lists it among the city's best ice cream.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "ice cream",
+  "tags": [
+    "small-batch",
+    "east-passyunk",
+    "local",
+    "creative-flavors"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Irv's Ice Cream",
+    "address": "932 E Passyunk Ave, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 12
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 40
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.theinfatuation.com/philadelphia/guides/the-best-soft-serve-in-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://6abc.com/post/pastry-chef-passyunk-square-drives-ice-cream-dreams-trolley-storefront/17155969/",
+    "https://www.doordash.com/city/philadelphia-pa/b/irvs-ice-cream-13490253/",
+    "https://maps.apple.com/place?place-id=IC24F3158863B3948"
+  ],
+  "uncertain": [
+    "hours",
+    "official website",
+    "price_usd estimated",
+    "street address (from DoorDash listing; a second location appears at 121 N Columbus Blvd)"
+  ],
+  "slug": "try-creative-pastry-chef-ice-cream-at-irvs-ice-cream-on-pass",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9372129,
+    "lng": -75.1548006
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.082Z",
+  "model": "claude-sonnet-5-5"
+}

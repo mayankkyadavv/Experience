@@ -1,0 +1,108 @@
+{
+  "title": "Try the banana pudding and vegan treats at The Sweet Life Bakeshop",
+  "intent": "Cupcakes, cookies and a standout banana pudding on South Street.",
+  "description": "Cheerful South Street bakeshop praised for its banana pudding, sprinkle-topped cupcakes and labeled vegan cookies, brownies, pies and cakes.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "bakery",
+  "tags": [
+    "vegan-options",
+    "south-street",
+    "banana-pudding",
+    "cupcakes"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "family",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Sweet Life Bakeshop",
+    "address": "740 South St, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 15,
+    "max": 40
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "21:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.theinfatuation.com/philadelphia/cuisines/dessert"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d4827765-Reviews-The_Sweet_Life_Bakeshop-Philadelphia_Pennsylvania.html",
+    "https://www.happycow.net/reviews/the-sweet-life-bakeshop-philadelphia-68401",
+    "https://www.theinfatuation.com/philadelphia/cuisines/dessert"
+  ],
+  "uncertain": [
+    "hours (Tripadvisor shows closed Mon-Wed; HappyCow shows open Tue)",
+    "official website",
+    "price_usd estimated"
+  ],
+  "slug": "try-the-banana-pudding-and-vegan-treats-at-the-sweet-life-ba",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9422448,
+    "lng": -75.1553
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.080Z",
+  "model": "claude-sonnet-5-5"
+}

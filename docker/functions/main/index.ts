@@ -1,7 +1,7 @@
 // Edge Runtime router for local development: /<name>/... runs supabase/functions/<name>/index.ts.
 // The hosted project does this for us. Each function checks the caller's JWT itself (auth.getUser).
 
-const functions = "/home/deno/functions";
+const functions = Deno.env.get("FUNCTIONS_DIR") ?? "/home/deno/functions";
 
 const json = (status: number, body: unknown) =>
   new Response(JSON.stringify(body), { status, headers: { "content-type": "application/json" } });

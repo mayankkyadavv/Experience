@@ -34,7 +34,7 @@ let errors = 0;
 for await (const dir of Deno.readDir(catalog)) {
   if (!dir.isDirectory) continue;
   for await (const f of Deno.readDir(new URL(`${dir.name}/`, catalog))) {
-    if (!f.name.endsWith(".json")) continue;
+    if (!f.name.endsWith(".json") || f.name.startsWith("_")) continue;
     const path = `catalog/${dir.name}/${f.name}`;
     const parsed = Entry.safeParse(JSON.parse(await Deno.readTextFile(new URL(path, root))));
     if (!parsed.success) {
@@ -74,17 +74,29 @@ for (const e of entries) {
     Object.entries(e.provenance).map(([k, v]) => [k, e.status === "reviewed" && v !== "lookup" ? "curated" : v]),
   );
   lines.push(
-    `insert into experiences (id, city_id, visibility, status, title, intent, description, category, tags, good_for, location_requirement, price_min_cents, price_max_cents, duration_min_minutes, duration_max_minutes, group_min, group_max, hours, dates, image_url, provenance, review_note) values (` +
+    `insert into experiences (id, city_id, visibility, status, slug, kind, subcategory, title, intent, description, category, tags, good_for, location_requirement, price_min_cents, price_max_cents, duration_min_minutes, duration_max_minutes, group_min, group_max, hours, dates, image_url, provenance, review_note) values (` +
       [
-        q(id), q(e.city), "'catalog'", q(status), q(e.title), q(e.intent), q(e.description), q(e.category),
+        q(id), q(e.city), "'catalog'", q(status), q(e.slug), q(e.kind), q(e.subcategory), q(e.title), q(e.intent), q(e.description), q(e.category),
         arr(e.tags, "text"), arr(e.good_for, "occasion"), q(e.location_requirement),
         e.price_usd ? e.price_usd.min * 100 : "null", e.price_usd ? e.price_usd.max * 100 : "null",
         e.duration_minutes?.min ?? "null", e.duration_minutes?.max ?? "null",
         e.group_size?.min ?? "null", e.group_size?.max ?? "null",
         jsonb(e.hours), jsonb(e.dates), q(e.image_url), jsonb(provenance), q(e.notes ?? null),
       ].join(", ") +
-      `) on conflict (id) do update set status = excluded.status, title = excluded.title, intent = excluded.intent, description = excluded.description, category = excluded.category, tags = excluded.tags, good_for = excluded.good_for, location_requirement = excluded.location_requirement, price_min_cents = excluded.price_min_cents, price_max_cents = excluded.price_max_cents, duration_min_minutes = excluded.duration_min_minutes, duration_max_minutes = excluded.duration_max_minutes, group_min = excluded.group_min, group_max = excluded.group_max, hours = excluded.hours, dates = excluded.dates, image_url = excluded.image_url, provenance = excluded.provenance, review_note = excluded.review_note, updated_at = now();`,
+      `) on conflict (id) do update set status = excluded.status, slug = excluded.slug, kind = excluded.kind, subcategory = excluded.subcategory, title = excluded.title, intent = excluded.intent, description = excluded.description, category = excluded.category, tags = excluded.tags, good_for = excluded.good_for, location_requirement = excluded.location_requirement, price_min_cents = excluded.price_min_cents, price_max_cents = excluded.price_max_cents, duration_min_minutes = excluded.duration_min_minutes, duration_max_minutes = excluded.duration_max_minutes, group_min = excluded.group_min, group_max = excluded.group_max, hours = excluded.hours, dates = excluded.dates, image_url = excluded.image_url, provenance = excluded.provenance, review_note = excluded.review_note, updated_at = now();`,
   );
+  const linkProvenance = e.status === "reviewed" ? "curated" : "estimated";
+  const links = [...e.links.map((l) => [l.kind, l.url]), ...e.sources.map((u) => ["source", u])]
+    .filter(([, url], i, all) => all.findIndex(([, u]) => u === url) === i);
+  for (const [kind, url] of links) {
+    lines.push(`insert into experience_links (experience_id, kind, url, provenance) values (${q(id)}, ${q(kind)}, ${q(url)}, ${q(linkProvenance)}) on conflict (experience_id, url) do update set kind = excluded.kind, provenance = excluded.provenance;`);
+  }
+  for (const o of e.occurrences) {
+    // Local wall-clock time in the city's timezone.
+    const at = (t: string | null) => t ? `(timestamp ${q(`${o.date} ${t}`)} at time zone (select timezone from cities where id = ${q(e.city)}))` : "null";
+    const starts = o.start ? at(o.start) : at("00:00");
+    lines.push(`insert into experience_occurrences (experience_id, starts_at, ends_at, provenance) values (${q(id)}, ${starts}, ${at(o.end)}, ${q(linkProvenance)}) on conflict (experience_id, starts_at) do nothing;`);
+  }
   if (e.place) {
     const placeId = await uuidv5(`place:${e.city}:${e.slug}`);
     lines.push(

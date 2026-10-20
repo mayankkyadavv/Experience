@@ -1,0 +1,116 @@
+{
+  "title": "Book a set-menu dinner at Her Place Supper Club",
+  "intent": "Michelin-starred dinner-party-style supper that feels like a friend's home table.",
+  "description": "Chef Amanda Shulman's tiny Sansom Street supper club serves a multi-course set menu that changes every couple of weeks, with everyone served together and each dish explained to the room. Two seatings a night, about 24-26 guests; reservations sell out fast and dietary substitutions aren't accommodated.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "supper club",
+  "tags": [
+    "michelin-star",
+    "special-occasion",
+    "reservations-required",
+    "set-menu",
+    "byo-friends"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Her Place Supper Club",
+    "address": "1740 Sansom St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 110,
+    "max": 170
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "18:00",
+      "close": "22:30"
+    },
+    {
+      "day": 2,
+      "open": "18:00",
+      "close": "22:30"
+    },
+    {
+      "day": 3,
+      "open": "18:00",
+      "close": "22:30"
+    },
+    {
+      "day": 4,
+      "open": "18:00",
+      "close": "22:30"
+    },
+    {
+      "day": 5,
+      "open": "18:00",
+      "close": "22:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.herplacephilly.com"
+    },
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/her-place-supper-club-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.herplacephilly.com/faq/",
+    "https://www.opentable.com/r/her-place-supper-club-philadelphia",
+    "https://www.visitphilly.com/articles/philadelphia/michelin-restaurants/"
+  ],
+  "uncertain": [
+    "closing time (seatings at 6pm and 8:30pm; end time estimated)",
+    "max price incl. drinks/tax/tip estimated"
+  ],
+  "slug": "book-a-set-menu-dinner-at-her-place-supper-club",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9507698,
+    "lng": -75.1701708
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Center City and Rittenhouse",
+  "drafted_at": "2026-10-20T01:08:55.232Z",
+  "model": "claude-sonnet-5-5"
+}

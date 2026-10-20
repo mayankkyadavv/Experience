@@ -1,0 +1,118 @@
+{
+  "slug": "hike-among-native-wildflowers-at-bowmans-hill-wildflower-pre",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Hike among native wildflowers at Bowman's Hill Wildflower Preserve",
+  "intent": "Spend a few hours on trails through Pennsylvania native plant collections near New Hope.",
+  "description": "A native-plant preserve along the Delaware in New Hope with trails, a visitor center and wildflower collections. Open 9-5 with last gate admission at 4 pm; tickets can be bought online or onsite.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "native plant preserve",
+  "tags": [
+    "native-plants",
+    "hiking",
+    "day-trip",
+    "bucks-county"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Bowman's Hill Wildflower Preserve",
+    "address": "1635 River Rd, New Hope, PA 18938",
+    "neighborhood": "New Hope (Bucks County)"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 10
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://bhwp.org/visit/plan-your-visit/hours-and-admission/"
+    }
+  ],
+  "sources": [
+    "https://bhwp.org/visit/plan-your-visit/hours-and-admission/",
+    "https://www.tripadvisor.com/Attraction_Review-g53315-d2523029-Reviews-or30-Bowman_s_Hill_Wildflower_Preserve-New_Hope_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "price_usd (adult about $8 per a review; current price unconfirmed)",
+    "street address from memory",
+    "winter hours"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.774Z",
+  "model": "claude-sonnet-5-5"
+}

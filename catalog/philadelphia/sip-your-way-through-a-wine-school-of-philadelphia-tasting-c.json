@@ -1,0 +1,87 @@
+{
+  "title": "Sip your way through a Wine School of Philadelphia tasting class",
+  "intent": "Learn to taste wine in a small classroom with multiple flights.",
+  "description": "The Wine School of Philadelphia holds tasting classes in a 20-seat Center City classroom, such as Wine 101, with several flights, tasting notes and plenty of discussion. It also runs sommelier programs.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "wine tasting",
+  "tags": [
+    "wine",
+    "tasting",
+    "beginner-friendly",
+    "rittenhouse"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Wine School of Philadelphia (Vinology)",
+    "address": "109 S 22nd St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 20
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.vinology.com/school/wine/"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.vinology.com/sommelier-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://www.vinology.com/school/wine/",
+    "https://www.vinology.com/sommelier-philadelphia/",
+    "https://www.phillymag.com/restaurants/philly-food-drink-classes-gift-guide/"
+  ],
+  "uncertain": [
+    "class price",
+    "current class dates"
+  ],
+  "slug": "sip-your-way-through-a-wine-school-of-philadelphia-tasting-c",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9520835,
+    "lng": -75.1769009
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cooking classes, food tours, and tasting experiences",
+  "drafted_at": "2026-10-20T01:05:29.730Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Watch Tuesday open mic night at Helium",
+  "intent": "See up-and-coming comics try out 3-minute sets on a cheap weeknight.",
+  "description": "Helium runs an open mic every Tuesday at 8pm with new and seasoned comics doing about three minutes each. Comics sign up online the week before; it draws more than 100 sign-ups.",
+  "category": "comedy",
+  "kind": "activity",
+  "subcategory": "open mic",
+  "tags": [
+    "open-mic",
+    "weeknight",
+    "cheap",
+    "local-comics"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Helium Comedy Club",
+    "address": "2031 Sansom St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "20:00",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://philadelphia.heliumcomedy.com/pages/open-mic-lineup"
+    }
+  ],
+  "sources": [
+    "https://philadelphia.heliumcomedy.com/pages/open-mic-lineup"
+  ],
+  "uncertain": [
+    "audience ticket price",
+    "end time"
+  ],
+  "slug": "watch-tuesday-open-mic-night-at-helium",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9515197,
+    "lng": -75.174738
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Stand-up comedy clubs, improv theaters and regular comedy nights",
+  "drafted_at": "2026-10-20T00:20:14.389Z",
+  "model": "claude-opus-5-5"
+}

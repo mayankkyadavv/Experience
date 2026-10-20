@@ -1,0 +1,98 @@
+{
+  "title": "Salsa and bachata after dinner at Cuba Libre Nights",
+  "intent": "Turn a Cuban dinner into a late Latin dance party in Old City.",
+  "description": "Cuba Libre Restaurant & Rum Bar clears its floor for a DJ dance party every Friday and Saturday from 11 p.m. to 2 a.m., with salsa, bachata and merengue. The late-night portion is 21+.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "latin dance party",
+  "tags": [
+    "salsa",
+    "bachata",
+    "old-city",
+    "dinner-and-dancing",
+    "21+"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Cuba Libre Restaurant & Rum Bar",
+    "address": "10 S 2nd St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 5,
+      "open": "23:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "23:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cubalibrerestaurant.com/en/philadelphia/nightlife/"
+    }
+  ],
+  "sources": [
+    "https://www.salsavida.com/event/pennsylvania/philadelphia/cuba-libre-nights/",
+    "https://www.oldcitydistrict.org/events/dj-dance-party-cuba-libre-nights",
+    "https://www.phillymag.com/things-to-do/go-dancing-philadelphia/"
+  ],
+  "uncertain": [
+    "street address (from memory, not source)",
+    "cover charge",
+    "Thursday nights mentioned by one source"
+  ],
+  "slug": "salsa-and-bachata-after-dinner-at-cuba-libre-nights",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9496006,
+    "lng": -75.1439816
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance clubs, DJ nights and late-night spots",
+  "drafted_at": "2026-10-20T01:12:51.155Z",
+  "model": "claude-sonnet-5-5"
+}

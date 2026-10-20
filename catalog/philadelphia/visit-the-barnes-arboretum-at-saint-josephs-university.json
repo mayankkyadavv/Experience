@@ -1,0 +1,78 @@
+{
+  "slug": "visit-the-barnes-arboretum-at-saint-josephs-university",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Visit the Barnes Arboretum at Saint Joseph's University",
+  "intent": "Walk a 12-acre historic arboretum on the former Barnes Foundation grounds.",
+  "description": "A 12-acre arboretum in Merion, formerly the home of the Barnes Foundation's art gallery, now run by Saint Joseph's University. Collections of trees and shrubs on a quiet Main Line estate.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "arboretum",
+  "tags": [
+    "arboretum",
+    "historic",
+    "quiet",
+    "main-line"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Barnes Arboretum at Saint Joseph's University",
+    "address": "50 Lapsley Ln, Merion Station, PA 19066",
+    "neighborhood": "Merion Station (Main Line)"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sju.edu/barnesarboretum"
+    }
+  ],
+  "sources": [
+    "https://maps.apple.com/place?place-id=IB74A7A92A160A48C",
+    "https://en.wikipedia.org/wiki/Barnes_Arboretum_at_Saint_Joseph%27s_University"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours (Apple Maps lists Mon-Fri 8:30-5:30, Sat-Sun 11-5:30 but unverified)",
+    "street address / entrance"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.773Z",
+  "model": "claude-sonnet-5-5"
+}

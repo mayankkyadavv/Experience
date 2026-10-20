@@ -1,0 +1,88 @@
+{
+  "title": "See Gruesome Playground Injuries at Theatre Exile",
+  "intent": "Catch an intimate two-person play in a small South Philly theater.",
+  "description": "Theatre Exile opens its 30th season with Rajiv Joseph's two-character play following childhood friends from age 8 to 38. Runs Oct 29 to Nov 15 at its 13th Street home in South Philadelphia.",
+  "category": "arts_culture",
+  "kind": "event",
+  "subcategory": "play",
+  "tags": [
+    "intimate",
+    "drama",
+    "south-philly",
+    "small-theater"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Theatre Exile",
+    "address": "1340 S 13th St, Philadelphia, PA 19147",
+    "neighborhood": "Passyunk Square"
+  },
+  "price_usd": {
+    "min": 11,
+    "max": 45
+  },
+  "duration_minutes": null,
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-29",
+      "end": "2026-11-15"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.theatreexile.org/"
+    }
+  ],
+  "sources": [
+    "https://www.theatreexile.org/",
+    "https://lowerbuckstimes.com/2026/09/10/theatre-exile-launches-30th-season-with-three-show-lineup-at-south-philadelphia/",
+    "https://www.mychesco.com/a/news/regional/theatre-exile-marks-30-seasons-with-bold-south-philadelphia-lineup/"
+  ],
+  "uncertain": [
+    "price_usd (only the $45 4-ticket Flex Pass was verified; single ticket price unknown)",
+    "performance times",
+    "duration_minutes"
+  ],
+  "slug": "see-gruesome-playground-injuries-at-theatre-exile",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9328659,
+    "lng": -75.1659619
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Theaters, performing arts, opera, ballet and orchestra",
+  "drafted_at": "2026-10-20T01:05:39.798Z",
+  "model": "claude-sonnet-5-5"
+}

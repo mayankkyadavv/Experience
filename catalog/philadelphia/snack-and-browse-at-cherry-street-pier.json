@@ -1,0 +1,126 @@
+{
+  "title": "Snack and browse at Cherry Street Pier",
+  "intent": "Pair food-truck-style bites and a drink with artist studios and Delaware River views.",
+  "description": "A riverfront pier with food and drink concessions (such as Philly Tacos and The Bar), artist studios, a second-floor gallery and rotating artisan markets, including the First Friday event 4-9pm. It's partly unconditioned, so dress for the weather.",
+  "category": "market",
+  "kind": "place",
+  "subcategory": "pier market",
+  "tags": [
+    "waterfront",
+    "art",
+    "outdoor",
+    "first-friday",
+    "views"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Cherry Street Pier",
+    "address": "121 N Columbus Blvd, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 1,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 2,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "20:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "21:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.cherrystreetpier.com/"
+    }
+  ],
+  "sources": [
+    "https://www.cherrystreetpier.com/faqs/",
+    "https://www.cherrystreetpier.com/concession/the-bar/",
+    "https://www.cherrystreetpier.com/concession/philly-tacos/",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d17723401-Reviews-Cherry_Street_Pier-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "hours (sources conflict; concession hours vary and the park hours are listed as subject to change)",
+    "address",
+    "price_usd",
+    "on-site parking limited due to construction"
+  ],
+  "slug": "snack-and-browse-at-cherry-street-pier",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9525055,
+    "lng": -75.1390561
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.764Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,91 @@
+{
+  "title": "Shop the Headhouse Farmers Market under the Shambles",
+  "intent": "Spend a Sunday morning among produce, baked goods and prepared foods in a colonial market shed.",
+  "description": "Year-round Sunday farmers market run by The Food Trust beneath the historic Headhouse Shambles in Society Hill, with dozens of vendors selling produce, baked goods, candles, wellness products and prepared foods, often with live music.",
+  "category": "market",
+  "kind": "place",
+  "subcategory": "farmers market",
+  "tags": [
+    "farmers-market",
+    "outdoor",
+    "year-round",
+    "historic",
+    "sunday"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Headhouse Farmers Market",
+    "address": "2nd St & Lombard St, Philadelphia, PA 19147",
+    "neighborhood": "Society Hill"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "14:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thefoodtrust.org/what-we-do/farmers-markets/headhouse/"
+    }
+  ],
+  "sources": [
+    "https://thefoodtrust.org/what-we-do/farmers-markets/headhouse/",
+    "https://6abc.com/post/philadelphias-historic-farmers-markets-are-ready-fall/19844421/"
+  ],
+  "uncertain": [
+    "price_usd"
+  ],
+  "slug": "shop-the-headhouse-farmers-market-under-the-shambles",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9423427,
+    "lng": -75.1454083
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.760Z",
+  "model": "claude-sonnet-5-5"
+}

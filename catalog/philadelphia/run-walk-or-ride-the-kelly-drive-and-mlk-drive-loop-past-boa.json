@@ -1,0 +1,91 @@
+{
+  "title": "Run, walk or ride the Kelly Drive and MLK Drive loop past Boathouse Row",
+  "intent": "Philly's classic riverside loop, with rowing crews and a lit-up Boathouse Row.",
+  "description": "A nearly nine-mile (8.7) loop on paved paths hugging both sides of the Schuylkill River, starting behind the Philadelphia Museum of Art and passing Boathouse Row and Fairmount Park. Popular with runners and cyclists, and you can shorten it using the bridges.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "bike ride",
+  "tags": [
+    "free",
+    "scenic",
+    "boathouse-row",
+    "running",
+    "cycling"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Boathouse Row / Kelly Drive",
+    "address": "1 Boathouse Row, Philadelphia, PA 19130",
+    "neighborhood": "Fairmount Park"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.visitphilly.com/articles/philadelphia/running-and-biking-trails-center-city-philadelphia/"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.associationforpublicart.org/tours/along-kelly-drive/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/running-and-biking-trails-center-city-philadelphia/",
+    "https://www.phlvisitorcenter.com/things-to-do/kelly-drive",
+    "https://www.associationforpublicart.org/tours/along-kelly-drive/"
+  ],
+  "uncertain": [
+    "address (approximate start)"
+  ],
+  "slug": "run-walk-or-ride-the-kelly-drive-and-mlk-drive-loop-past-boa",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9694143,
+    "lng": -75.1871072
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.357Z",
+  "model": "claude-sonnet-5-5"
+}

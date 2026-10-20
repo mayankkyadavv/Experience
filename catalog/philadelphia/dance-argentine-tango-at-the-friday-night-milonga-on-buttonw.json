@@ -1,0 +1,86 @@
+{
+  "title": "Dance Argentine tango at the Friday night milonga on Buttonwood Street",
+  "intent": "Dance tango socially in a welcoming Friday night milonga.",
+  "description": "Dance Philadelphia Argentine Tango hosts a weekly Friday milonga at 1315 Buttonwood Street, led by instructors Kelly or Lesley, with occasional guest instructors. It is a social tango dance, and some nights are paired with instruction.",
+  "category": "nightlife",
+  "kind": "activity",
+  "subcategory": "tango",
+  "tags": [
+    "tango",
+    "milonga",
+    "social-dance",
+    "friday",
+    "weekly"
+  ],
+  "good_for": [
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Dance Philadelphia Argentine Tango",
+    "address": "1315 Buttonwood St, Philadelphia, PA 19123",
+    "neighborhood": "Callowhill"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 240
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.facebook.com/DancePhiladelphia.ArgentineTango/"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.danceus.org/event/16601659433440/friday-night-milonga-philadelphia-pa/"
+    }
+  ],
+  "sources": [
+    "https://www.danceus.org/event/16601659433440/friday-night-milonga-philadelphia-pa/",
+    "https://www.facebook.com/DancePhiladelphia.ArgentineTango/"
+  ],
+  "uncertain": [
+    "start and end times",
+    "price",
+    "whether a beginner lesson precedes it"
+  ],
+  "slug": "dance-argentine-tango-at-the-friday-night-milonga-on-buttonw",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9614285,
+    "lng": -75.1601388
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance, music, improv and other drop-in classes for adults",
+  "drafted_at": "2026-10-20T01:15:07.293Z",
+  "model": "claude-sonnet-5-5"
+}

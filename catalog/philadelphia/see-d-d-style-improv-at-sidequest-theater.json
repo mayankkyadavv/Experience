@@ -1,0 +1,86 @@
+{
+  "title": "See D&D-style improv at SideQuest Theater",
+  "intent": "Try unscripted, adventure-themed improv in a small Rittenhouse theater.",
+  "description": "SideQuest grew out of the long-running Roll Play show and puts on Dungeons & Dragons–inspired improv, stand-up and other unscripted shows at the Adrienne Theater. It also teaches classes. Upcoming: Ahmed Al-kadri on Nov 19 at 8pm (about $27).",
+  "category": "comedy",
+  "kind": "place",
+  "subcategory": "improv",
+  "tags": [
+    "improv",
+    "unusual",
+    "nerdy",
+    "classes"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "SideQuest Theater",
+    "address": "2030 Sansom St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "tickets",
+      "url": "https://www.crowdwork.com/e/ahmed-al-kadri-live-in-philly"
+    }
+  ],
+  "sources": [
+    "https://www.phillyvoice.com/sidequest-theater-opening-dungeons-dragons-improv-comedy/",
+    "https://www.yelp.com/biz/sidequest-theater-philadelphia",
+    "https://www.crowdwork.com/e/ahmed-al-kadri-live-in-philly"
+  ],
+  "uncertain": [
+    "regular weekly schedule",
+    "typical price range",
+    "official website URL"
+  ],
+  "slug": "see-d-d-style-improv-at-sidequest-theater",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9513051,
+    "lng": -75.17468
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Stand-up comedy clubs, improv theaters and regular comedy nights",
+  "drafted_at": "2026-10-20T00:20:14.393Z",
+  "model": "claude-opus-5-5"
+}

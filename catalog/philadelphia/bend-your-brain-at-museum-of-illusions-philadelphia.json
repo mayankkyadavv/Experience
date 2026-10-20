@@ -1,0 +1,124 @@
+{
+  "title": "Bend your brain at Museum of Illusions Philadelphia",
+  "intent": "Take mind-bending photos and play with optical illusions.",
+  "description": "An interactive museum near Independence Hall with dozens of illusion exhibits and photo-friendly rooms, aimed at all ages. Plan on about an hour.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "interactive museum",
+  "tags": [
+    "photo-spots",
+    "indoor",
+    "rainy-day",
+    "interactive"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Museum of Illusions Philadelphia",
+    "address": "401 Market St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 23,
+    "max": 29
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "20:00"
+    },
+    {
+      "day": 1,
+      "open": "10:00",
+      "close": "20:00"
+    },
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "20:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "20:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "20:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "21:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.phlvisitorcenter.com/museum-illusions-philadelphia"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.tiqets.com/en/museum-of-illusions-philadelphia-tickets-l194650/"
+    }
+  ],
+  "sources": [
+    "https://www.phlvisitorcenter.com/museum-illusions-philadelphia",
+    "https://www.tiqets.com/en/museum-of-illusions-philadelphia-tickets-l194650/"
+  ],
+  "uncertain": [
+    "Official museum site not checked"
+  ],
+  "slug": "bend-your-brain-at-museum-of-illusions-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.950469,
+    "lng": -75.147401
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.032Z",
+  "model": "claude-sonnet-5-5"
+}

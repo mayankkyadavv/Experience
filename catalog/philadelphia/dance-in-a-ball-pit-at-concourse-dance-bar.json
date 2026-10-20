@@ -1,0 +1,89 @@
+{
+  "slug": "dance-in-a-ball-pit-at-concourse-dance-bar",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Dance in a ball pit at Concourse Dance Bar",
+  "intent": "Throwback hits and a glowing ball pit for a goofy, low-pressure night out.",
+  "description": "Two-story subterranean dance bar near Penn Center with a big main dance floor playing '80s, '90s and 2000s hits, plus an adults-only ball pit. Open weekends only; reported cover is a flat $5.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "dance club",
+  "tags": [
+    "ball-pit",
+    "throwbacks",
+    "weekends",
+    "late-night",
+    "quirky"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Concourse Dance Bar",
+    "address": "1635 Market St (back entrance), Philadelphia, PA 19103",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 240
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 5,
+      "open": "21:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "21:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.yelp.com/biz/concourse-dance-bar-philadelphia-2",
+    "https://www.phillymag.com/things-to-do/go-dancing-philadelphia/",
+    "https://www.nbcphiladelphia.com/entertainment/the-scene/concourse-dance-bar-philadelphia-upgrade/3992617/"
+  ],
+  "uncertain": [
+    "official website",
+    "current cover charge on a given night",
+    "drink prices"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Dance clubs, DJ nights and late-night spots",
+  "drafted_at": "2026-10-20T01:12:51.153Z",
+  "model": "claude-sonnet-5-5"
+}

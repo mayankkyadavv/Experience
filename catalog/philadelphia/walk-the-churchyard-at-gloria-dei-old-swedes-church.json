@@ -1,0 +1,112 @@
+{
+  "title": "Walk the churchyard at Gloria Dei (Old Swedes') Church",
+  "intent": "See Pennsylvania's oldest church building, from 1700, near the Delaware River.",
+  "description": "Gloria Dei is the oldest church building in Pennsylvania, built for Swedish colonists between 1698 and 1700. The church is usually open for visits Tuesday–Saturday and the churchyard is always open. It is a National Historic Site in Queen Village.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic church",
+  "tags": [
+    "free",
+    "quiet",
+    "colonial",
+    "outdoor"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Gloria Dei (Old Swedes') Church",
+    "address": "916 S Swanson St",
+    "neighborhood": "Queen Village"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 45
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "16:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "16:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "16:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "16:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "16:00"
+    },
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "14:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.old-swedes.org/"
+    }
+  ],
+  "sources": [
+    "https://www.old-swedes.org/contact",
+    "https://www.nps.gov/places/gloria-dei-church.htm"
+  ],
+  "uncertain": [
+    "donation suggestion"
+  ],
+  "slug": "walk-the-churchyard-at-gloria-dei-old-swedes-church",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9156942,
+    "lng": -75.1472608
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.409Z",
+  "model": "claude-sonnet-5-5"
+}

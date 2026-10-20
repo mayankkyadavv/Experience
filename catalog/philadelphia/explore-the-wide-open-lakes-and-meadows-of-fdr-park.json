@@ -1,0 +1,87 @@
+{
+  "title": "Explore the wide-open lakes and meadows of FDR Park",
+  "intent": "Walk, bike or picnic in South Philly's largest park, now with a new welcome center.",
+  "description": "A large Olmsted-influenced park in South Philadelphia with lakes, lawns and trails, undergoing a long-planned renovation. A Welcome Center with an information desk partially opened in July 2026, with food vendors planned later.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "city park",
+  "tags": [
+    "free",
+    "picnic",
+    "south-philly",
+    "biking"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "FDR Park",
+    "address": "1500 Pattison Ave, Philadelphia, PA 19145",
+    "neighborhood": "South Philadelphia"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 15
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://myphillypark.org/"
+    }
+  ],
+  "sources": [
+    "https://www.inquirer.com/news/philadelphia/fdr-park-welcome-center-information-desk-opens-20260727.html",
+    "https://myphillypark.org/forward-momentum-in-fdr-park-celebrating-new-funding-for-trails-and-ecology/"
+  ],
+  "uncertain": [
+    "street address",
+    "construction may limit some areas",
+    "Welcome Center hours"
+  ],
+  "slug": "explore-the-wide-open-lakes-and-meadows-of-fdr-park",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9055633,
+    "lng": -75.1758101
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.774Z",
+  "model": "claude-sonnet-5-5"
+}

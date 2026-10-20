@@ -1,0 +1,118 @@
+{
+  "title": "Splurge on a tasting menu at Vetri Cucina",
+  "intent": "Philadelphia's landmark Italian tasting-menu dinner in an intimate townhouse.",
+  "description": "Marc Vetri's long-running (since 1998) Italian fine-dining room on Spruce Street serves multi-course seasonal tasting menus with hand-made pasta and a deep wine list, including the longtime sweet onion crepe. Michelin-listed and back on Craig LaBan's 2025 favorites list.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "fine dining italian",
+  "tags": [
+    "tasting-menu",
+    "special-occasion",
+    "michelin-listed",
+    "pasta",
+    "reservations-required"
+  ],
+  "good_for": [
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Vetri Cucina",
+    "address": "1312 Spruce St, Philadelphia, PA 19107",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 150,
+    "max": 210
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "21:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://vetricucina.com"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/vetri-cucina-philadelphia?start=20",
+    "https://www.visitphilly.com/articles/philadelphia/michelin-restaurants/",
+    "https://www.inquirer.com/food/craig-laban-top-10-best-restaurants-philadelphia-2025-20251222.html"
+  ],
+  "uncertain": [
+    "tasting menu price",
+    "exact weekly hours (listings conflict on closed days)"
+  ],
+  "slug": "splurge-on-a-tasting-menu-at-vetri-cucina",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.946737,
+    "lng": -75.163189
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Center City and Rittenhouse",
+  "drafted_at": "2026-10-20T01:08:55.233Z",
+  "model": "claude-sonnet-5-5"
+}

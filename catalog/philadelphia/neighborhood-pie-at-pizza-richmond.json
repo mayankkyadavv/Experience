@@ -1,0 +1,81 @@
+{
+  "title": "Neighborhood pie at Pizza Richmond",
+  "intent": "A cheap, old-school neighborhood pizza night in Port Richmond.",
+  "description": "Minimalist pizzeria from the Pizza Shackamaxon team, set in a century-old Port Richmond building. Inquirer and Philadelphia Magazine praised its simple menu.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "pizza",
+  "tags": [
+    "cheap",
+    "pizza",
+    "neighborhood",
+    "casual"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Pizza Richmond",
+    "address": "3136 Richmond St, Philadelphia, PA 19134",
+    "neighborhood": "Port Richmond"
+  },
+  "price_usd": {
+    "min": 8,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.inquirer.com/food/restaurants/pizza-richmond-pizzeria-shackamaxon-20240112.html",
+    "https://www.phillymag.com/foobooz/2024/05/01/pizza-richmond-review/",
+    "https://www.theinfatuation.com/philadelphia/perfect-for/cheap-eats"
+  ],
+  "uncertain": [
+    "Hours",
+    "Prices",
+    "Official website"
+  ],
+  "slug": "neighborhood-pie-at-pizza-richmond",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9825107,
+    "lng": -75.1028597
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cheap eats and BYOB restaurants",
+  "drafted_at": "2026-10-20T00:32:14.793Z",
+  "model": "claude-sonnet-5-5"
+}

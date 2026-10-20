@@ -1,0 +1,83 @@
+{
+  "slug": "trick-or-treat-and-shop-farmers-market-at-open-streets-west",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Trick-or-treat and shop farmers market at Open Streets: West Walnut Fall Finale",
+  "intent": "A free car-free Sunday on Walnut Street with Halloween activities and a farmers market.",
+  "description": "The fall finale of Open Streets: West Walnut closes nearly eight blocks of Walnut Street in Center City with a farmers market extension, trick-or-treating, pumpkin painting and live music. Admission is free; food and shopping cost extra.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "street festival",
+  "tags": [
+    "free",
+    "family-friendly",
+    "halloween",
+    "outdoor",
+    "farmers-market"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Walnut Street, Broad to 19th Streets",
+    "address": "Walnut St & S 18th St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse / Center City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-25",
+      "end": "2026-10-25"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-25",
+      "start": "10:00",
+      "end": "17:00"
+    }
+  ],
+  "links": [],
+  "sources": [
+    "https://www.phillyvoice.com/open-streets-walnut-street-farmers-market-halloween-2026/"
+  ],
+  "uncertain": [
+    "official website URL"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.066Z",
+  "model": "claude-sonnet-5-5"
+}

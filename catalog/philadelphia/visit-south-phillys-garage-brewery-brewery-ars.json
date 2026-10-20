@@ -1,0 +1,113 @@
+{
+  "title": "Visit South Philly's garage brewery, Brewery ARS",
+  "intent": "Drink small-batch beer in a cozy East Passyunk garage taproom, often with pizza.",
+  "description": "Brewery ARS is a small garage brewery on West Passyunk Ave pouring its own beers including a west coast IPA, often with food pop-ups or a pizza partner. It has some outdoor seating and works for a low-key drink or casual dinner.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "brewery",
+    "small-batch",
+    "east-passyunk",
+    "outdoor-seating"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Brewery ARS",
+    "address": "1927 W Passyunk Ave, Philadelphia, PA 19145",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "23:00"
+    },
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "20:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://breweryars.square.site"
+    }
+  ],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d12828470-Reviews-Brewery_ARS-Philadelphia_Pennsylvania.html",
+    "https://x.com/BreweryARS",
+    "https://www.theinfatuation.com/philadelphia/guides/the-best-breweries-in-philadelphia"
+  ],
+  "uncertain": [
+    "Friday closing (21:00 vs 22:00 across sources)",
+    "hours may have changed"
+  ],
+  "slug": "visit-south-phillys-garage-brewery-brewery-ars",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9240075,
+    "lng": -75.1788898
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.428Z",
+  "model": "claude-sonnet-5-5"
+}

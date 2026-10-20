@@ -1,0 +1,87 @@
+{
+  "title": "Sunday jazz and Southern food at Rex at the Royal",
+  "intent": "Catch free live funk, R&B and jazz in a restored historic theater.",
+  "description": "Rex at the Royal occupies the historic Royal Theatre on South Street with a Southern coastal menu, velvet booths and a long bar. Philly Magazine lists no-cover live music on Sundays; other guides say jazz plays several nights a week.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "jazz",
+  "tags": [
+    "jazz",
+    "no-cover",
+    "historic",
+    "southern-food",
+    "sunday"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Rex at the Royal",
+    "address": "1524 South St, Philadelphia, PA 19146",
+    "neighborhood": "Graduate Hospital"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 60
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/rex-at-the-royal-philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/restaurants/philly-jazz-bars-restaurants/",
+    "https://www.theinfatuation.com/philadelphia/guides/the-best-philly-bars-and-restaurants-to-see-live-music",
+    "https://www.opentable.com/r/rex-at-the-royal-philadelphia"
+  ],
+  "uncertain": [
+    "hours",
+    "which nights have music now",
+    "official website"
+  ],
+  "slug": "sunday-jazz-and-southern-food-at-rex-at-the-royal",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9438267,
+    "lng": -75.1676666
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.184Z",
+  "model": "claude-sonnet-5-5"
+}

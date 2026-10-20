@@ -1,0 +1,117 @@
+{
+  "title": "Dinner in the old Mulherin whiskey warehouse at Wm. Mulherin's Sons",
+  "intent": "Date-night Italian in a restored Fishtown whiskey warehouse.",
+  "description": "Restaurant and bar at Front and Palmer in a historic industrial building, serving Italian cooking in a rustic-glam setting; takes reservations.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "italian",
+  "tags": [
+    "italian",
+    "date-night",
+    "historic-building",
+    "reservations"
+  ],
+  "good_for": [
+    "date",
+    "group",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Wm. Mulherin's Sons",
+    "address": "1355 N Front St, Philadelphia, PA 19122",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 40,
+    "max": 80
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d10274722-Reviews-or75-Wm_Mulherin_s_Sons-Philadelphia_Pennsylvania.html",
+    "https://goop.com/place/pennsylvania/philadelphia/fishtown-restaurants/wm-mulherins-sons-restaurant-bar/"
+  ],
+  "uncertain": [
+    "hours",
+    "price_usd",
+    "duration_minutes",
+    "official website"
+  ],
+  "slug": "dinner-in-the-old-mulherin-whiskey-warehouse-at-wm-mulherins",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9717223,
+    "lng": -75.1350516
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington",
+  "drafted_at": "2026-10-20T00:31:20.107Z",
+  "model": "claude-sonnet-5-5"
+}

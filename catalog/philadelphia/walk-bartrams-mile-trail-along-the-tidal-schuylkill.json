@@ -1,0 +1,91 @@
+{
+  "title": "Walk Bartram's Mile Trail along the tidal Schuylkill",
+  "intent": "A quiet riverside path through a historic garden and waterfront meadows in Southwest Philly.",
+  "description": "Bartram's Mile is a paved path of about 1.1-1.55 miles through Bartram's Garden, a 50-acre National Historic Landmark, and along the tidal Schuylkill, with river rooms and a restored pier. The grounds are free and open daily; the Welcome Center has more limited hours.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "riverfront trail",
+  "tags": [
+    "free",
+    "scenic",
+    "history",
+    "garden",
+    "bike-friendly"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Bartram's Garden",
+    "address": "5400 Lindbergh Blvd, Philadelphia, PA 19143",
+    "neighborhood": "Southwest Philadelphia"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.bartramsgarden.org/trail/"
+    },
+    {
+      "kind": "other",
+      "url": "https://schuylkillriver.org/map/places-to-visit/bartrams-garden/"
+    }
+  ],
+  "sources": [
+    "https://www.bartramsgarden.org/trail/",
+    "https://schuylkillriver.org/map/places-to-visit/bartrams-garden/",
+    "https://audiala.com/en/united-states/philadelphia/bartrams-garden"
+  ],
+  "uncertain": [
+    "Welcome Center hours conflict across sources",
+    "trail length varies (1.1 vs 1.55 mi)"
+  ],
+  "slug": "walk-bartrams-mile-trail-along-the-tidal-schuylkill",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.933341,
+    "lng": -75.215549
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.358Z",
+  "model": "claude-sonnet-5-5"
+}

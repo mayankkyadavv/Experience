@@ -1,0 +1,110 @@
+{
+  "title": "Mediterranean pizza and shawarma at BYOB Stina",
+  "intent": "A cozy, thrift-store-chic BYOB for a relaxed date night in South Philly.",
+  "description": "Mediterranean BYOB with pizza, handmade pasta and shawarma in a space decorated like an auntie's parlor. Open Tuesday to Saturday.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "mediterranean byob",
+  "tags": [
+    "byob",
+    "date-night",
+    "pizza",
+    "cozy"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Stina Pizzeria",
+    "address": "1705 Snyder Ave, Philadelphia, PA 19145",
+    "neighborhood": "South Philadelphia"
+  },
+  "price_usd": {
+    "min": 20,
+    "max": 40
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 105
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "12:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://stinapizzeria.com"
+    }
+  ],
+  "sources": [
+    "https://stinapizzeria.com/hours-location/",
+    "https://www.theinfatuation.com/philadelphia/guides/best-date-night-byob-restaurants-philadelphia",
+    "https://www.inquirer.com/food/stina-pizza-mediterranean-bobby-saritsoglou-south-philadelphia-cafe-20190528.html"
+  ],
+  "uncertain": [
+    "Price range"
+  ],
+  "slug": "mediterranean-pizza-and-shawarma-at-byob-stina",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9252506,
+    "lng": -75.1747177
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cheap eats and BYOB restaurants",
+  "drafted_at": "2026-10-20T00:32:14.786Z",
+  "model": "claude-sonnet-5-5"
+}

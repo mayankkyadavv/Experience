@@ -1,0 +1,85 @@
+{
+  "title": "Watch a new release at AMC Dine-In Fashion District 8",
+  "intent": "Catch a blockbuster with premium formats and in-theater food in Center City.",
+  "description": "Eight-screen AMC inside the Fashion District mall on Market Street, with Dolby Cinema, PRIME, RealD 3D, discount matinees and dine-in service.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "multiplex",
+  "tags": [
+    "dine-in",
+    "dolby",
+    "blockbusters",
+    "rainy-day",
+    "center city"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "AMC DINE-IN Fashion District 8",
+    "address": "1001 Market St, Suite 3050, Philadelphia, PA 19107",
+    "neighborhood": "Market East"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 200
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.amctheatres.com/movie-theatres/states/pennsylvania/philadelphia"
+    }
+  ],
+  "sources": [
+    "https://www.amctheatres.com/movie-theatres/states/pennsylvania/philadelphia"
+  ],
+  "uncertain": [
+    "hours",
+    "price_usd"
+  ],
+  "slug": "watch-a-new-release-at-amc-dine-in-fashion-district-8",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.95163,
+    "lng": -75.156878
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Movie theaters, indie cinemas and outdoor screenings",
+  "drafted_at": "2026-10-20T01:12:03.283Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,87 @@
+{
+  "title": "Laugh at Earthquake's stand-up at Rivers Casino Philadelphia",
+  "intent": "Catch a veteran headliner comic in Fishtown on a Friday night.",
+  "description": "Comedian Earthquake brings his fast, brash stand-up to Rivers Casino Philadelphia on the Delaware waterfront. Reported in the Inquirer's fall comedy preview.",
+  "category": "comedy",
+  "kind": "event",
+  "subcategory": "stand-up",
+  "tags": [
+    "stand-up",
+    "casino",
+    "friday-night"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Rivers Casino Philadelphia",
+    "address": "1001 N. Delaware Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown / Northern Liberties"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 75,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-23",
+      "end": "2026-10-23"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-23",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [],
+  "sources": [
+    "https://www.inquirer.com/arts/comedy-shows-philadelphia-fall-2026-20260923.html"
+  ],
+  "uncertain": [
+    "start time",
+    "ticket price",
+    "official ticket link",
+    "exact venue room"
+  ],
+  "slug": "laugh-at-earthquakes-stand-up-at-rivers-casino-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9638356,
+    "lng": -75.1324475
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Concerts, comedy shows and performances with specific dates between 2026-10-20 and 2026-12-31",
+  "drafted_at": "2026-10-20T01:18:20.057Z",
+  "model": "claude-sonnet-5-5"
+}

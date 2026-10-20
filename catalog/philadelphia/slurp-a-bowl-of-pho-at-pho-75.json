@@ -1,0 +1,116 @@
+{
+  "title": "Slurp a bowl of pho at Pho 75",
+  "intent": "A cheap, fast, no-frills bowl of beef pho in South Philly's Wing Phat Plaza.",
+  "description": "Long-running Vietnamese counter-style spot known for pho and not much else, with dozens of beef cut combinations to choose from. Plain decor, quick service, and Vietnamese coffee available.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "vietnamese",
+  "tags": [
+    "cheap",
+    "pho",
+    "casual",
+    "quick"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Pho 75",
+    "address": "1122 Washington Ave, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 16
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "09:00",
+      "close": "20:00"
+    },
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "20:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "20:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "20:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "20:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "20:00"
+    },
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "20:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d494379-Reviews-Pho_75-Philadelphia_Pennsylvania.html",
+    "https://www.inquirer.com/food/restaurants/pho-75/"
+  ],
+  "uncertain": [
+    "Official website",
+    "Exact price range",
+    "Cash-only policy"
+  ],
+  "slug": "slurp-a-bowl-of-pho-at-pho-75",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9367476,
+    "lng": -75.1627382
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cheap eats and BYOB restaurants",
+  "drafted_at": "2026-10-20T00:32:14.783Z",
+  "model": "claude-sonnet-5-5"
+}

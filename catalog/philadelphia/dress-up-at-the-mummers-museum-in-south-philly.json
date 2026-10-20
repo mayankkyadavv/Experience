@@ -1,0 +1,105 @@
+{
+  "title": "Dress up at the Mummers Museum in South Philly",
+  "intent": "Learn about Philly's New Year's Day Mummers tradition and try on costumes.",
+  "description": "A neighborhood museum opened in 1976 in Pennsport dedicated to the Mummers parade, with elaborate costumes, music and history. It's a quick, quirky visit.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "folk culture museum",
+  "tags": [
+    "quirky",
+    "local",
+    "short-visit",
+    "south-philly"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Mummers Museum",
+    "address": "1100 S 2nd St, Philadelphia, PA 19147",
+    "neighborhood": "Pennsport"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "15:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "15:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "15:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "15:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.mummersmuseum.org"
+    }
+  ],
+  "sources": [
+    "https://maps.apple.com/place?address=1100+S+Second+St%2C+Philadelphia%2C+PA++19147%2C+United+States&coordinate=39.933491%2C-75.1475251&name=Mummers+Museum&place-id=IA6483DED311A4F0B&_provider=9902",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d275362-Reviews-Mummers_Museum-Philadelphia_Pennsylvania.html",
+    "https://www.roadsideamerica.com/tip/5972"
+  ],
+  "uncertain": [
+    "Hours conflict between sources (Apple: Wed-Sat 10-3; Tripadvisor: Wed-Sat 9:30-4)",
+    "Admission price",
+    "Website URL from general knowledge"
+  ],
+  "slug": "dress-up-at-the-mummers-museum-in-south-philly",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.93343,
+    "lng": -75.1475665
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Major museums and science centers",
+  "drafted_at": "2026-10-20T01:04:56.032Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Sauna and cold plunge at CURE de Repos in Chestnut Hill",
+  "intent": "Warm up in an infrared sauna and take a cold plunge in a garden setting.",
+  "description": "A wellness spa with an infrared sauna and cold-plunge tank, and an outdoor 'zen garden' at the Chestnut Hill location. You can book them without a spa service, at about $35 for 30 minutes in the sauna and $25 for 30 minutes in the plunge. Monthly packages are available.",
+  "category": "wellness",
+  "kind": "place",
+  "subcategory": "sauna",
+  "tags": [
+    "sauna",
+    "cold-plunge",
+    "infrared",
+    "garden"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "CURE de Repos",
+    "address": "8439 Germantown Ave, Philadelphia, PA 19118",
+    "neighborhood": "Chestnut Hill"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 60
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 2
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.phillymag.com/be-well-philly/sauna-cold-plunge-contrast-therapy/"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/be-well-philly/sauna-cold-plunge-contrast-therapy/"
+  ],
+  "uncertain": [
+    "official website",
+    "weekly hours",
+    "price max for spa services"
+  ],
+  "slug": "sauna-and-cold-plunge-at-cure-de-repos-in-chestnut-hill",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0760277,
+    "lng": -75.2061291
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Spas, saunas, bathhouses and wellness experiences",
+  "drafted_at": "2026-10-20T01:09:33.219Z",
+  "model": "claude-sonnet-5-5"
+}

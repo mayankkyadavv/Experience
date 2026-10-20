@@ -1,0 +1,110 @@
+{
+  "slug": "catch-villanova-wildcats-basketball-at-finneran-pavilion",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Catch Villanova Wildcats basketball at Finneran Pavilion",
+  "intent": "See a Big East powerhouse on the Main Line.",
+  "description": "Villanova home games at Finneran Pavilion in Villanova, PA (just outside the city): Virginia on Oct. 22 and Holy Cross, La Salle and Rider in November. Marquee games like Michigan (Nov. 21) are held at Xfinity Mobile Arena in South Philly.",
+  "category": "sports",
+  "kind": "event",
+  "subcategory": "college basketball",
+  "tags": [
+    "villanova",
+    "big-east",
+    "main-line",
+    "indoor"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "William B. Finneran Pavilion",
+    "address": "800 E Lancaster Ave, Villanova, PA 19085",
+    "neighborhood": "Main Line (Villanova)"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-22",
+      "end": "2026-11-14"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-22",
+      "start": "19:00",
+      "end": null
+    },
+    {
+      "date": "2026-11-06",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-11-10",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-11-14",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://villanova.com/sports/mens-basketball"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.ticketmaster.com/villanova-wildcats-mens-basketball-tickets/artist/821745"
+    }
+  ],
+  "sources": [
+    "https://villanova.com/news/2026/9/14/mens-basketball-villanova-announces-complete-2026-27-mbb-schedule.aspx",
+    "https://www.cbssports.com/college-football/teams/NOVA/villanova-wildcats/schedule/",
+    "https://www.ticketmaster.com/villanova-wildcats-mens-basketball-tickets/artist/821745"
+  ],
+  "uncertain": [
+    "address (not verified on a source page)",
+    "tip-off times",
+    "price_usd (resale from about $107 seen)",
+    "whether Oct. 22 Virginia game is an exhibition"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Pro and college sports games and stadium experiences",
+  "drafted_at": "2026-10-20T01:15:34.976Z",
+  "model": "claude-sonnet-5-5"
+}

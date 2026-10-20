@@ -1,0 +1,87 @@
+{
+  "title": "Dine on Sicilian pasta with skyline views at Irwin's",
+  "intent": "Dinner in a former high school's eighth-floor classroom with Sicilian food, natural wine and city views.",
+  "description": "Irwin's occupies the eighth floor of the Bok Building, a former vocational school, with lockers and yearbooks still part of the décor. The menu centers on handmade pastas, agrodolce chicken, whole fish and fritto misto, with a chef's counter and a good bar.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "sicilian",
+  "tags": [
+    "views",
+    "natural-wine",
+    "date-night",
+    "unusual-setting",
+    "chef's-counter"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Irwin's (Bok Building, 8th floor)",
+    "address": "1901 S 9th St, Fl 8, Philadelphia, PA 19148",
+    "neighborhood": "South Philly"
+  },
+  "price_usd": {
+    "min": 40,
+    "max": 90
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.theinfatuation.com/philadelphia/reviews/irwins"
+    }
+  ],
+  "sources": [
+    "https://www.theinfatuation.com/philadelphia/reviews/irwins",
+    "https://www.theinfatuation.com/philadelphia/guides/best-rooftop-restaurants-philadelphia",
+    "https://www.therooftopguide.com/rooftop-bars-in-philadelphia/irwins.html"
+  ],
+  "uncertain": [
+    "hours",
+    "official website",
+    "price per person"
+  ],
+  "slug": "dine-on-sicilian-pasta-with-skyline-views-at-irwins",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9253363,
+    "lng": -75.1601914
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in South Philly, East Passyunk and Bella Vista",
+  "drafted_at": "2026-10-20T01:15:44.426Z",
+  "model": "claude-sonnet-5-5"
+}

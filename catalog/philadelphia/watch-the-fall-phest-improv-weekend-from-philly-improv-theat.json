@@ -1,0 +1,102 @@
+{
+  "title": "Watch the Fall PHEST improv weekend from Philly Improv Theater",
+  "intent": "Catch a curated weekend of indie improv teams from Philly and beyond.",
+  "description": "Philly Improv Theater (PHIT) puts on PHEST, a weekend of indie improv with a different lineup each night, at the Hamilton Family Arts Center in Old City. Student showcases follow on Nov 29.",
+  "category": "comedy",
+  "kind": "event",
+  "subcategory": "improv",
+  "tags": [
+    "improv",
+    "festival",
+    "indie",
+    "seasonal"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Hamilton Family Arts Center",
+    "address": "62 N 2nd St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-29"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-20",
+      "start": "19:00",
+      "end": null
+    },
+    {
+      "date": "2026-11-21",
+      "start": "19:00",
+      "end": null
+    },
+    {
+      "date": "2026-11-29",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://phillyimprovtheater.com/"
+    }
+  ],
+  "sources": [
+    "https://phillyimprovtheater.com/",
+    "https://www.crowdwork.com/e/summer-phest-2026-saturday?date=2026-08-01T19%3A00%3A00"
+  ],
+  "uncertain": [
+    "start times (7pm based on summer PHEST)",
+    "ticket prices"
+  ],
+  "slug": "watch-the-fall-phest-improv-weekend-from-philly-improv-theat",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9516302,
+    "lng": -75.1436863
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Stand-up comedy clubs, improv theaters and regular comedy nights",
+  "drafted_at": "2026-10-20T00:20:14.394Z",
+  "model": "claude-opus-5-5"
+}

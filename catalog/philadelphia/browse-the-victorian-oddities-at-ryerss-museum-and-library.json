@@ -1,0 +1,102 @@
+{
+  "title": "Browse the Victorian oddities at Ryerss Museum and Library",
+  "intent": "See a free, eclectic family-mansion collection with a Victorian pet cemetery on the grounds.",
+  "description": "A free museum in a Burholme Park mansion with a jumbled collection of family heirlooms, art, Centennial artifacts and curios from around the world, plus a community lending library upstairs. The Ryerss family were early animal-welfare advocates and the grounds hold a small Victorian pet cemetery.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "eclectic museum",
+  "tags": [
+    "free",
+    "unusual",
+    "hidden-gem",
+    "history",
+    "northeast-philly"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Ryerss Museum and Library",
+    "address": "7370 Central Ave, Philadelphia, PA 19111",
+    "neighborhood": "Fox Chase / Burholme"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://robertryerss.org/"
+    }
+  ],
+  "sources": [
+    "https://robertryerss.org/",
+    "https://northeasttimes.com/2026/07/30/fox-chase-s-ryerss-museum-remains-a-hidden-gem-for-neighbors/",
+    "https://www.atlasobscura.com/places/ryerss-museum-and-library"
+  ],
+  "uncertain": [
+    "Atlas Obscura listing carries a conflicting 'closed' tag but 2026 local news and the official site show it open"
+  ],
+  "slug": "browse-the-victorian-oddities-at-ryerss-museum-and-library",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0686181,
+    "lng": -75.0886831
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Small, unusual and weird museums and attractions",
+  "drafted_at": "2026-10-20T01:13:35.510Z",
+  "model": "claude-sonnet-5-5"
+}

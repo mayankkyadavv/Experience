@@ -1,0 +1,107 @@
+{
+  "title": "Sing in a private karaoke room at Lair KTV | Sky Club",
+  "intent": "Late-night private-room karaoke for a group in Chinatown.",
+  "description": "Karaoke lounge on Arch Street with private rooms for up to about 10 people, a bar and a lively atmosphere. Rooms carry an hourly minimum spend (about $50 weekdays, $70 Fri–Sat, per listing).",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "karaoke",
+  "tags": [
+    "karaoke",
+    "private-rooms",
+    "chinatown",
+    "group",
+    "late-night"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Lair KTV | Sky Club",
+    "address": "1025 Arch St, Philadelphia, PA 19107",
+    "neighborhood": "Chinatown"
+  },
+  "price_usd": {
+    "min": 8,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 180
+  },
+  "group_size": {
+    "min": 3,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "16:30",
+      "close": "02:00"
+    },
+    {
+      "day": 2,
+      "open": "16:30",
+      "close": "02:00"
+    },
+    {
+      "day": 3,
+      "open": "16:30",
+      "close": "02:00"
+    },
+    {
+      "day": 4,
+      "open": "16:30",
+      "close": "02:00"
+    },
+    {
+      "day": 5,
+      "open": "16:30",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.yelp.com/biz/lair-ktv-sky-club-philadelphia?start=20",
+    "https://local.yahoo.com/info-202868444-Lair-KTV-%7C-Sky-Club/?p=Lair+KTV+%7C+Sky+Club&selectedId=202868444&ei=UTF-8",
+    "https://www.giftly.com/gift-card/lair-ktv-sky-club-philadelphia"
+  ],
+  "uncertain": [
+    "a Yelp note says it may have rebranded to Space KTV Bar Lounge - verify",
+    "Saturday/Sunday hours",
+    "per-person price is an estimate from room minimums"
+  ],
+  "slug": "sing-in-a-private-karaoke-room-at-lair-ktv-sky-club",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9538831,
+    "lng": -75.1574417
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance clubs, DJ nights and late-night spots",
+  "drafted_at": "2026-10-20T01:12:51.156Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,103 @@
+{
+  "title": "Stroll Elfreth's Alley, the nation's oldest residential street",
+  "intent": "Walk a cobbled 1700s street where people still live, and tour two small museum houses.",
+  "description": "The alley is a public street open any time. The seasonal museum is open Friday–Sunday afternoons, with a 40-minute guided tour at 2:30 pm on Saturdays and Sundays. Museum entry is a few dollars.",
+  "category": "attraction",
+  "kind": "place",
+  "subcategory": "historic street",
+  "tags": [
+    "cheap",
+    "seasonal",
+    "photogenic",
+    "colonial"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Elfreth's Alley Museum",
+    "address": "126 Elfreth's Alley",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 3
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 60
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "16:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "16:00"
+    },
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [
+    {
+      "start": "2026-04-01",
+      "end": "2026-11-15"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.elfrethsalley.org/visit"
+    }
+  ],
+  "sources": [
+    "https://www.elfrethsalley.org/visit",
+    "https://www.elfrethsalley.org/contact"
+  ],
+  "uncertain": [
+    "exact season start and end dates (April to mid-November)",
+    "tour price"
+  ],
+  "slug": "stroll-elfreths-alley-the-nations-oldest-residential-street",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9527514,
+    "lng": -75.1424264
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Historic sites and Old City landmarks worth visiting",
+  "drafted_at": "2026-10-20T01:19:09.407Z",
+  "model": "claude-sonnet-5-5"
+}

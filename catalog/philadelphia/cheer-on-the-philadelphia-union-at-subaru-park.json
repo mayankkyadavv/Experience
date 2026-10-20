@@ -1,0 +1,95 @@
+{
+  "slug": "cheer-on-the-philadelphia-union-at-subaru-park",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Cheer on the Philadelphia Union at Subaru Park",
+  "intent": "Catch an MLS match on the Delaware riverfront with a loud supporters' section.",
+  "description": "The Union host the New England Revolution on Saturday, Oct. 24 at 7:30 PM as the MLS regular season winds down. Subaru Park is in Chester, a short drive or SEPTA ride from Center City.",
+  "category": "sports",
+  "kind": "event",
+  "subcategory": "mls soccer",
+  "tags": [
+    "soccer",
+    "union",
+    "riverfront",
+    "evening"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "family",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Subaru Park",
+    "address": "1 Stadium Dr, Chester, PA 19013",
+    "neighborhood": "Chester (Delaware County)"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-24",
+      "end": "2026-10-24"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-24",
+      "start": "19:30",
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.philadelphiaunion.com/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.ticketmaster.com/philadelphia-union-tickets/artist/1418418"
+    }
+  ],
+  "sources": [
+    "https://www.ticketmaster.com/philadelphia-union-tickets/artist/1418418",
+    "https://www.espn.com/soccer/team/fixtures/_/id/10739/philadelphia-union",
+    "https://www.philadelphiaunion.com/news/philadelphia-union-announce-2026-regular-season-schedule"
+  ],
+  "uncertain": [
+    "price_usd",
+    "Nov. 7 Decision Day vs Toronto FC at 4 PM (home/away not confirmed)",
+    "MLS playoff home dates"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Pro and college sports games and stadium experiences",
+  "drafted_at": "2026-10-20T01:15:34.975Z",
+  "model": "claude-sonnet-5-5"
+}

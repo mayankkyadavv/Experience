@@ -1,0 +1,115 @@
+{
+  "title": "Spanish tapas and wine at Barcelona Wine Bar on Passyunk",
+  "intent": "Tapas and paella over a Spanish-focused wine list.",
+  "description": "Warm tapas bar inspired by Spain, with seasonal small plates, paella and a large wine selection. Good for groups sharing plates.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "wine bar",
+  "tags": [
+    "tapas",
+    "spanish",
+    "east-passyunk",
+    "group-friendly"
+  ],
+  "good_for": [
+    "group",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Barcelona Wine Bar",
+    "address": "1709 E Passyunk Ave, Philadelphia, PA 19148",
+    "neighborhood": "East Passyunk"
+  },
+  "price_usd": {
+    "min": 30,
+    "max": 70
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "14:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "00:00"
+    },
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.visiteastpassyunk.com/backend/restaurant-week/barcelona",
+    "https://www.yelp.com/biz/barcelona-wine-bar-passyunk-philadelphia"
+  ],
+  "uncertain": [
+    "price",
+    "official website"
+  ],
+  "slug": "spanish-tapas-and-wine-at-barcelona-wine-bar-on-passyunk",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9281381,
+    "lng": -75.1652636
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.055Z",
+  "model": "claude-sonnet-5-5"
+}

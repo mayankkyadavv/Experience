@@ -1,0 +1,89 @@
+{
+  "title": "Sit in at the Wednesday open jam at The Grape Room",
+  "intent": "Jump on stage with other musicians of any level at a free weekly jam.",
+  "description": "Open improvised jam night every Wednesday in Manayunk. Musicians of all skill levels play on stage together, with house drums, keyboard, acoustic and bass guitars, percussion and vocal mics provided. No cover, 21+.",
+  "category": "music",
+  "kind": "activity",
+  "subcategory": "jam session",
+  "tags": [
+    "open-jam",
+    "free",
+    "21-plus",
+    "weekly",
+    "manayunk"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Grape Room",
+    "address": "105 Grape St, Philadelphia, PA 19127",
+    "neighborhood": "Manayunk"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "21:00",
+      "close": "23:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.ourphilly.org/events/open-jam-at-the-grape-room"
+    }
+  ],
+  "sources": [
+    "https://www.ourphilly.org/events/open-jam-at-the-grape-room"
+  ],
+  "uncertain": [
+    "official venue website",
+    "listing was dated September; confirm it still runs weekly"
+  ],
+  "slug": "sit-in-at-the-wednesday-open-jam-at-the-grape-room",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0256728,
+    "lng": -75.2230923
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance, music, improv and other drop-in classes for adults",
+  "drafted_at": "2026-10-20T01:15:07.292Z",
+  "model": "claude-sonnet-5-5"
+}

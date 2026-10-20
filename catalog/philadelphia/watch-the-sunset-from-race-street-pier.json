@@ -1,0 +1,121 @@
+{
+  "title": "Watch the sunset from Race Street Pier",
+  "intent": "Short waterfront stop with a lawn and close-up views of the Ben Franklin Bridge.",
+  "description": "A landscaped pier extending about 500 feet into the Delaware River at Race Street, with a lawn, seating, trees and views of the Ben Franklin Bridge and skyline. A good pause on a Delaware River Trail walk.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "waterfront park",
+  "tags": [
+    "free",
+    "views",
+    "picnic",
+    "photography",
+    "sunset"
+  ],
+  "good_for": [
+    "date",
+    "solo",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Race Street Pier",
+    "address": "Race St & N Christopher Columbus Blvd, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "07:00",
+      "close": "23:00"
+    },
+    {
+      "day": 1,
+      "open": "07:00",
+      "close": "23:00"
+    },
+    {
+      "day": 2,
+      "open": "07:00",
+      "close": "23:00"
+    },
+    {
+      "day": 3,
+      "open": "07:00",
+      "close": "23:00"
+    },
+    {
+      "day": 4,
+      "open": "07:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "07:00",
+      "close": "23:00"
+    },
+    {
+      "day": 6,
+      "open": "07:00",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.visitphilly.com/things-to-do/attractions/race-street-pier/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/things-to-do/attractions/race-street-pier/",
+    "https://www.yelp.com/biz/race-street-pier-philadelphia"
+  ],
+  "uncertain": [
+    "hours (from Yelp listing)"
+  ],
+  "slug": "watch-the-sunset-from-race-street-pier",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.953636,
+    "lng": -75.1395008
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.358Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,96 @@
+{
+  "title": "Learn contra dancing at the Thursday night dance in Mt. Airy",
+  "intent": "Try easy folk dancing with live music, a beginner lesson and no partner needed.",
+  "description": "Weekly contra dance at the Irish Center in Mt. Airy with a beginner lesson at 7:30pm and dancing 8:00–10:30pm to a caller and live band. Newcomers are welcome and no partner is required. Admission is sliding scale.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "contra dance",
+  "tags": [
+    "folk-dance",
+    "live-music",
+    "sliding-scale",
+    "no-partner-needed",
+    "weekly"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Irish Center (Commodore Barry Arts & Cultural Center)",
+    "address": "6815 Emlen St, Philadelphia, PA 19119",
+    "neighborhood": "Mount Airy"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 4,
+      "open": "19:30",
+      "close": "22:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thursdaycontra.com/"
+    },
+    {
+      "kind": "other",
+      "url": "https://cdss.org/series/thursday-contra-dance-in-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://thursdaycontra.com/",
+    "https://thursdaycontra.com/welcome.html",
+    "https://cdss.org/series/thursday-contra-dance-in-philadelphia/"
+  ],
+  "uncertain": [
+    "venue may change on some Thursdays; check the website"
+  ],
+  "slug": "learn-contra-dancing-at-the-thursday-night-dance-in-mt-airy",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0502971,
+    "lng": -75.1908529
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance, music, improv and other drop-in classes for adults",
+  "drafted_at": "2026-10-20T01:15:07.291Z",
+  "model": "claude-sonnet-5-5"
+}

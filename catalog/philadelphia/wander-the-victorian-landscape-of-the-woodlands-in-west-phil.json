@@ -1,0 +1,111 @@
+{
+  "title": "Wander the Victorian landscape of The Woodlands in West Philadelphia",
+  "intent": "Walk a historic garden cemetery with rolling hills, rare trees and skyline views.",
+  "description": "A 54-acre 18th-century burial ground and designed landscape in West Philadelphia with tree-lined paths, mausoleums and notable graves, still an active cemetery. Weekday hours listed at 9-5; guided tours are offered.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "garden cemetery",
+  "tags": [
+    "historic",
+    "free",
+    "walking",
+    "unusual"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Woodlands",
+    "address": "4000 Woodland Ave, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 2,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.woodlandsphl.org/"
+    }
+  ],
+  "sources": [
+    "https://maps.roadtrippers.com/us/philadelphia-pa/points-of-interest/the-woodlands-cemetery",
+    "https://mindtrip.ai/attraction/philadelphia-pennsylvania/woodlands-cemetery/at-U4Rg7D5H"
+  ],
+  "uncertain": [
+    "weekend hours",
+    "free admission (not confirmed)",
+    "official website URL"
+  ],
+  "slug": "wander-the-victorian-landscape-of-the-woodlands-in-west-phil",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.946759,
+    "lng": -75.20691
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.773Z",
+  "model": "claude-sonnet-5-5"
+}

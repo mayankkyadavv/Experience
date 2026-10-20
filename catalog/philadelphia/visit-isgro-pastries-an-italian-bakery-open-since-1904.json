@@ -1,0 +1,116 @@
+{
+  "title": "Visit Isgro Pastries, an Italian bakery open since 1904",
+  "intent": "Old-school South Philly cannoli and Italian pastries from one of the city's oldest bakeries.",
+  "description": "Bella Vista bakery in business since 1904, known for cannoli and Italian pastries and cookies, often with a line on weekends. Closed Mondays.",
+  "category": "dessert",
+  "kind": "place",
+  "subcategory": "italian bakery",
+  "tags": [
+    "cannoli",
+    "historic",
+    "bella-vista",
+    "cheap"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Isgro Pastries",
+    "address": "1009 Christian St, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 10,
+    "max": 25
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.isgropastries.com"
+    }
+  ],
+  "sources": [
+    "https://www.isgropastries.com/contact-us",
+    "https://www.yelp.com/biz/isgro-pastries-philadelphia"
+  ],
+  "uncertain": [
+    "Wed-Sat closing time (Yelp 6pm; official page excerpt only confirmed Tue/Sun 8-4)",
+    "price_usd estimated"
+  ],
+  "slug": "visit-isgro-pastries-an-italian-bakery-open-since-1904",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9393876,
+    "lng": -75.1597921
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dessert, bakeries, ice cream and chocolate shops",
+  "drafted_at": "2026-10-20T00:32:32.081Z",
+  "model": "claude-sonnet-5-5"
+}

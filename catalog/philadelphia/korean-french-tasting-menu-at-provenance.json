@@ -1,0 +1,82 @@
+{
+  "title": "Korean-French tasting menu at Provenance",
+  "intent": "A one-Michelin-star tasting menu across from Headhouse Square.",
+  "description": "Chef Nicholas Bazik's Society Hill restaurant earned a Michelin star for a seasonal tasting menu with Korean and French influences, using house-made soys, oils and sauces. Service is warmly choreographed and a chef's-table option exists.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "tasting menu",
+  "tags": [
+    "michelin-star",
+    "special-occasion",
+    "tasting-menu",
+    "reservations-required"
+  ],
+  "good_for": [
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Provenance",
+    "address": "408 S 2nd St, Philadelphia, PA 19147",
+    "neighborhood": "Society Hill"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://guide.michelin.com/us/en/pennsylvania/philadelphia_2942787/restaurant/provenance"
+    }
+  ],
+  "sources": [
+    "https://guide.michelin.com/us/en/pennsylvania/philadelphia_2942787/restaurant/provenance",
+    "https://northeasttimes.com/2025/11/26/philly-michelin-stars/"
+  ],
+  "uncertain": [
+    "hours",
+    "price",
+    "official website",
+    "borders Center City (Society Hill/Queen Village edge)"
+  ],
+  "slug": "korean-french-tasting-menu-at-provenance",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9428981,
+    "lng": -75.1455617
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Center City and Rittenhouse",
+  "drafted_at": "2026-10-20T01:08:55.235Z",
+  "model": "claude-sonnet-5-5"
+}

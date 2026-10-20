@@ -1,0 +1,87 @@
+{
+  "slug": "join-the-halloween-costume-promenade-and-trunk-or-treat-on-s",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Join the Halloween costume promenade and trunk-or-treat on South Street",
+  "intent": "Afternoon of shop trick-or-treating and a costume parade on Halloween.",
+  "description": "Kids can trick-or-treat at shops through the afternoon, then join a costume promenade at 1 p.m. that ends in a trunk-or-treat at Headhouse.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "halloween",
+  "tags": [
+    "halloween",
+    "seasonal",
+    "outdoor",
+    "costumes",
+    "south-street"
+  ],
+  "good_for": [
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "South Street / Headhouse",
+    "address": "S 2nd St & Lombard St, Philadelphia, PA 19147",
+    "neighborhood": "Queen Village"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 300
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-31",
+      "end": "2026-10-31"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-31",
+      "start": "12:00",
+      "end": "17:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.phillymag.com/things-to-do/halloween-philly-kids/"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/things-to-do/halloween-philly-kids/"
+  ],
+  "uncertain": [
+    "article year not confirmed as 2026",
+    "official event name and website",
+    "exact location and price assumed free"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Family-friendly and kid-friendly activities",
+  "drafted_at": "2026-10-20T00:34:18.069Z",
+  "model": "claude-sonnet-5-5"
+}

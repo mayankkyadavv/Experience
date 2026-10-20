@@ -1,0 +1,85 @@
+{
+  "title": "Sip natural wine and browse the bottle shop at Fishtown Social",
+  "intent": "Relaxed glass of natural wine plus a bottle to take home.",
+  "description": "Woman-owned wine café and bottle shop on Frankford Ave pouring organic, biodynamic and natural wines from small producers, with cheese, meats and small plates. Unpretentious and good for newcomers.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "natural wine",
+  "tags": [
+    "natural-wine",
+    "bottle-shop",
+    "fishtown",
+    "cozy"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Fishtown Social",
+    "address": "1525 Frankford Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 12,
+    "max": 45
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fishtownsocial.com/"
+    }
+  ],
+  "sources": [
+    "https://fishtownsocial.com/",
+    "https://www.visitphilly.com/media-center/press-releases/wine-in-philadelphia-and-the-countryside-fact-sheet/",
+    "https://thegrapereset.com/philadelphia"
+  ],
+  "uncertain": [
+    "hours (sources conflict; one lists Tue-Sat from noon, another daily noon-10/11)",
+    "price"
+  ],
+  "slug": "sip-natural-wine-and-browse-the-bottle-shop-at-fishtown-soci",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9739114,
+    "lng": -75.1333405
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.048Z",
+  "model": "claude-sonnet-5-5"
+}

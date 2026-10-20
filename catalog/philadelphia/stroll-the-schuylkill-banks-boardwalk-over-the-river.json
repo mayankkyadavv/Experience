@@ -1,0 +1,91 @@
+{
+  "title": "Stroll the Schuylkill Banks boardwalk over the river",
+  "intent": "Easy, flat riverside walk with skyline views in the middle of Center City.",
+  "description": "Schuylkill Banks is the Center City stretch of the Schuylkill River Trail, with a 2,000-foot boardwalk built over the water from Locust Street toward the South Street Bridge. It has piers, plazas and a kayak dock at Walnut Street, and is reached by ramps at Market and Chestnut or stairs at Walnut.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "river walk",
+  "tags": [
+    "free",
+    "skyline-views",
+    "scenic",
+    "walkable",
+    "dog-friendly"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Schuylkill Banks Boardwalk",
+    "address": "Locust St & Schuylkill River Trail, Philadelphia, PA 19103",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.schuylkillbanks.org/explore/map"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.visitphilly.com/things-to-do/attractions/schuylkill-banks/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/things-to-do/attractions/schuylkill-river-trail/",
+    "https://www.visitphilly.com/things-to-do/attractions/schuylkill-banks/",
+    "https://schuylkillriver.org/map/trailhead/schuylkill-banks/"
+  ],
+  "uncertain": [
+    "address (approximate access point)"
+  ],
+  "slug": "stroll-the-schuylkill-banks-boardwalk-over-the-river",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9495528,
+    "lng": -75.1820508
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.356Z",
+  "model": "claude-sonnet-5-5"
+}

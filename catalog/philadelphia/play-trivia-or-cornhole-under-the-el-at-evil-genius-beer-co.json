@@ -1,0 +1,113 @@
+{
+  "title": "Play trivia or cornhole under the El at Evil Genius Beer Co.",
+  "intent": "Drink inventively named beers in a quirky Fishtown taproom with weekly events.",
+  "description": "Evil Genius's Fishtown taproom sits beneath the El on Front Street, known for playful beer names and flavored beers. The week has trivia (Wed), cornhole league (Thu), live music (Sat) and a drag brunch (Sun).",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "brewery",
+    "trivia",
+    "live-music",
+    "games"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Evil Genius Beer Company",
+    "address": "1727 N Front St, Philadelphia, PA 19122",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "00:00"
+    },
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "20:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://evilgeniusbeer.com/our-taproom/"
+    }
+  ],
+  "sources": [
+    "https://evilgeniusbeer.com/our-taproom/",
+    "https://www.theinfatuation.com/philadelphia/guides/the-best-breweries-in-philadelphia"
+  ],
+  "uncertain": [],
+  "slug": "play-trivia-or-cornhole-under-the-el-at-evil-genius-beer-co",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9757484,
+    "lng": -75.1338733
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.427Z",
+  "model": "claude-sonnet-5-5"
+}

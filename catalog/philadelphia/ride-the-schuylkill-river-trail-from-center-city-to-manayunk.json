@@ -1,0 +1,88 @@
+{
+  "slug": "ride-the-schuylkill-river-trail-from-center-city-to-manayunk",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Ride the Schuylkill River Trail from Center City to Manayunk or Valley Forge",
+  "intent": "A long, mostly flat paved ride out of the city along the river.",
+  "description": "The Schuylkill River Trail runs 30+ miles from Center City toward Phoenixville and Parker Ford, mostly flat and paved. Cyclists commonly ride to Manayunk for lunch, or go on to Valley Forge National Historical Park (about 25 miles each way, roughly 7-8 hours on foot).",
+  "category": "active",
+  "kind": "route",
+  "subcategory": "bike ride",
+  "tags": [
+    "free",
+    "long-ride",
+    "scenic",
+    "fall-foliage",
+    "flat"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "Schuylkill River Trail (Philadelphia section)",
+    "address": null,
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 480
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://schuylkillriver.org/schuylkill-river-trail/philadelphia-srt/"
+    },
+    {
+      "kind": "other",
+      "url": "https://schuylkillriver.org/thing/biking/"
+    }
+  ],
+  "sources": [
+    "https://schuylkillriver.org/schuylkill-river-trail/philadelphia-srt/",
+    "https://schuylkillriver.org/thing/biking/",
+    "https://www.alltrails.com/en-gb/trail/us/pennsylvania/schuylkill-river-trail-philadelphia-to-valley-forge",
+    "https://www.traillink.com/trail/schuylkill-river-trail/"
+  ],
+  "uncertain": [
+    "address (trail spans many access points)",
+    "duration varies by route"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.357Z",
+  "model": "claude-sonnet-5-5"
+}

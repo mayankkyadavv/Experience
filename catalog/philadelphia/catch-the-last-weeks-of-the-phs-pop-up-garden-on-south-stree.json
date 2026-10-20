@@ -1,0 +1,117 @@
+{
+  "title": "Catch the last weeks of the PHS Pop Up Garden on South Street",
+  "intent": "Enjoy a plant-filled outdoor bar before the season ends.",
+  "description": "A pollinator-garden pop-up at 1438 South St with drinks, food and plant-themed events. It is staying open through Halloween, with possible bonus weekends if the weather stays mild.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "beer garden",
+  "tags": [
+    "seasonal",
+    "beer-garden",
+    "outdoor-seating",
+    "plants"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "PHS Pop Up Garden on South Street",
+    "address": "1438 South St, Philadelphia, PA 19146",
+    "neighborhood": "Graduate Hospital"
+  },
+  "price_usd": {
+    "min": 7,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 1,
+      "open": "12:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "12:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "00:00"
+    }
+  ],
+  "dates": [
+    {
+      "start": "2026-10-20",
+      "end": "2026-10-31"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://phsonline.org/locations/phs-pop-up-garden-south-street"
+    }
+  ],
+  "sources": [
+    "https://phsonline.org/locations/phs-pop-up-garden-south-street",
+    "https://phsonline.org/phs-news/phs-shares-lineup-of-fall-events-at-pop-up-gardens"
+  ],
+  "uncertain": [
+    "Sunday hours (about 11am-9pm per Tripadvisor)",
+    "possible November bonus dates"
+  ],
+  "slug": "catch-the-last-weeks-of-the-phs-pop-up-garden-on-south-stree",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9435827,
+    "lng": -75.1669831
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.429Z",
+  "model": "claude-sonnet-5-5"
+}

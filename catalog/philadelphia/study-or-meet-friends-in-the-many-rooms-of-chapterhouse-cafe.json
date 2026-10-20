@@ -1,0 +1,117 @@
+{
+  "title": "Study or meet friends in the many rooms of Chapterhouse Café & Gallery",
+  "intent": "A roomy Bella Vista coffeehouse with local art and a lot of seating.",
+  "description": "Chapterhouse has about five seating rooms hung with changing local art, plus organic fair-trade coffee, Italian sodas and a large hot chocolate menu. Its size makes it one of the easier places to find a seat and stay a while.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "coffeehouse",
+  "tags": [
+    "art-gallery",
+    "spacious",
+    "study-spot",
+    "late-hours"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Chapterhouse Café & Gallery",
+    "address": "620 S 9th St, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 12
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "07:00",
+      "close": "20:00"
+    },
+    {
+      "day": 1,
+      "open": "07:00",
+      "close": "20:00"
+    },
+    {
+      "day": 2,
+      "open": "07:00",
+      "close": "20:00"
+    },
+    {
+      "day": 3,
+      "open": "07:00",
+      "close": "20:00"
+    },
+    {
+      "day": 4,
+      "open": "07:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "07:00",
+      "close": "20:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.chapterhousecafe.com/"
+    }
+  ],
+  "sources": [
+    "https://campusphilly.org/2024/10/14/a-guide-to-the-best-study-friendly-coffee-shops-in-philadelphia/",
+    "https://www.yelp.com/biz/chapterhouse-caf%C3%A9-and-gallery-philadelphia-2?start=360",
+    "https://wanderlog.com/place/details/1511809/chapterhouse-cafe--gallery"
+  ],
+  "uncertain": [
+    "Saturday hours not found (omitted)",
+    "official website url"
+  ],
+  "slug": "study-or-meet-friends-in-the-many-rooms-of-chapterhouse-cafe",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9419281,
+    "lng": -75.1574145
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.319Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,121 @@
+{
+  "title": "Catch a stand-up show at Punch Line Philly",
+  "intent": "See big-name comics in a 300-seat club with dinner and drinks.",
+  "description": "Live Nation's 300-seat comedy club near the Delaware waterfront has hosted Ali Wong, Dave Chappelle and Chelsea Handler, plus local showcases. There's a full food and drink menu during shows.",
+  "category": "comedy",
+  "kind": "place",
+  "subcategory": "stand-up",
+  "tags": [
+    "stand-up",
+    "headliners",
+    "dinner-and-show",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Punch Line Philly",
+    "address": "33 E Laurel St, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": {
+    "min": 28,
+    "max": 55
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 15
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "18:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "18:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "18:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "18:00",
+      "close": "23:45"
+    },
+    {
+      "day": 6,
+      "open": "18:00",
+      "close": "23:45"
+    },
+    {
+      "day": 0,
+      "open": "18:00",
+      "close": "21:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.punchlinephilly.com/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.livenation.com/venue/KovZpZAEvtFA/punch-line-philly-events"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/media-center/press-releases/live-from-philadelphia-music-comedy-theater-and-more/",
+    "https://www.yelp.com/biz/punch-line-philly-philadelphia",
+    "https://comedyclubfinder.com/comedy-clubs-in/philadelphia",
+    "https://www.ticketmaster.com/punch-line-philly-tickets-philadelphia/venue/17020"
+  ],
+  "uncertain": [
+    "hours (from Yelp)",
+    "price range"
+  ],
+  "slug": "catch-a-stand-up-show-at-punch-line-philly",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9653617,
+    "lng": -75.1353867
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Stand-up comedy clubs, improv theaters and regular comedy nights",
+  "drafted_at": "2026-10-20T00:20:14.389Z",
+  "model": "claude-opus-5-5"
+}

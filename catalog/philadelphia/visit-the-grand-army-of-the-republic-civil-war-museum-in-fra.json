@@ -1,0 +1,85 @@
+{
+  "title": "Visit the Grand Army of the Republic Civil War Museum in Frankford",
+  "intent": "Find Philadelphia's only Civil War museum in a 1790s mansion, with free admission.",
+  "description": "A small museum and library in the Ruan House in Frankford, with Civil War artifacts, memorabilia, archives and about 3,000 books. Admission is free; it is known for monthly open houses rather than regular daily hours.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "history museum",
+  "tags": [
+    "free",
+    "civil-war",
+    "hidden-gem",
+    "northeast-philly"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Grand Army of the Republic Civil War Museum and Library",
+    "address": "4278 Griscom St, Philadelphia, PA 19124",
+    "neighborhood": "Frankford"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.facebook.com/GrandArmyOfTheRepublicMuseumAndLibrary/"
+    }
+  ],
+  "sources": [
+    "https://www.facebook.com/GrandArmyOfTheRepublicMuseumAndLibrary/",
+    "https://philadelphianeighborhoods.com/2016/11/03/frankford-grand-army-of-the-republic-museum-library-offers-frankford-residents-historical-context/",
+    "https://www.theconstitutional.com/blog/2019/06/29/grand-army-republic-civil-war-museum-library"
+  ],
+  "uncertain": [
+    "Current open hours and next open-house date; call 215-289-6484 before going",
+    "Whether admission is still free (from Facebook page)"
+  ],
+  "slug": "visit-the-grand-army-of-the-republic-civil-war-museum-in-fra",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0111072,
+    "lng": -75.0903693
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Small, unusual and weird museums and attractions",
+  "drafted_at": "2026-10-20T01:13:35.511Z",
+  "model": "claude-sonnet-5-5"
+}

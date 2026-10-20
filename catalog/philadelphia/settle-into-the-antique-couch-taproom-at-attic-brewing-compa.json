@@ -1,0 +1,117 @@
+{
+  "title": "Settle into the antique-couch taproom at Attic Brewing Company",
+  "intent": "Drink in a quirky Germantown taproom with a big outdoor beer garden.",
+  "description": "Attic Brewing Company in Germantown has a taproom styled like an antique shop with mismatched couches and vintage decor, plus a beer garden hosting events, food trucks and live music.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "brewery",
+  "tags": [
+    "brewery",
+    "beer-garden",
+    "quirky",
+    "germantown"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Attic Brewing Company",
+    "address": "137 Berkley St, Philadelphia, PA 19144",
+    "neighborhood": "Germantown"
+  },
+  "price_usd": {
+    "min": 6,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "13:00",
+      "close": "20:00"
+    },
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "15:00",
+      "close": "23:00"
+    },
+    {
+      "day": 6,
+      "open": "13:00",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.atticbrewing.com"
+    }
+  ],
+  "sources": [
+    "https://maps.apple.com/place?place-id=IBB4CF42E63CB688E",
+    "https://www.phillyvoice.com/attic-brewing-co-beer-garden-party-germantown-philadelphia/",
+    "https://www.theinfatuation.com/philadelphia/guides/the-best-breweries-in-philadelphia"
+  ],
+  "uncertain": [
+    "website url"
+  ],
+  "slug": "settle-into-the-antique-couch-taproom-at-attic-brewing-compa",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0229838,
+    "lng": -75.1616517
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.428Z",
+  "model": "claude-sonnet-5-5"
+}

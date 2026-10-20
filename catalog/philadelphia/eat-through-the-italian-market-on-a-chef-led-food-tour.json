@@ -1,0 +1,89 @@
+{
+  "slug": "eat-through-the-italian-market-on-a-chef-led-food-tour",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Eat through the Italian Market on a chef-led food tour",
+  "intent": "Taste roast pork, cheese and cannoli while hearing South Philly food history.",
+  "description": "StrEATS of Philly's chef-led tour runs about two hours through the Italian Market, with roughly 8 tasting stops: roast pork sandwiches, artisan cheeses, Isgro's cannoli and more. The guide is a South Philly native chef.",
+  "category": "food",
+  "kind": "activity",
+  "subcategory": "food tour",
+  "tags": [
+    "food-tour",
+    "walking-tour",
+    "south-philly",
+    "tasting"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group",
+    "solo",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "StrEATS of Philly Food Tours (Italian Market)",
+    "address": null,
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 69,
+    "max": 69
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 14
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://streatsofphillyfoodtours.com/italian-market-food-tour/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://www.viator.com/tours/Philadelphia/Taste-of-the-Italian-Market-Tour/d906-52886P6"
+    }
+  ],
+  "sources": [
+    "https://streatsofphillyfoodtours.com/italian-market-food-tour/",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d2305436-Reviews-StrEATS_of_Philly_Food_Tours-Philadelphia_Pennsylvania.html",
+    "https://www.viator.com/tours/Philadelphia/Taste-of-the-Italian-Market-Tour/d906-52886P6"
+  ],
+  "uncertain": [
+    "meeting address",
+    "days and start times",
+    "group size",
+    "price from $69 per adult"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:37.002Z",
+  "model": "claude-sonnet-5-5"
+}

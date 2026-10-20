@@ -128,3 +128,41 @@ final class StubProtocol: URLProtocol, @unchecked Sendable {
         await #expect(throws: APIError.badResponse) { try await client().recommend(constraints) }
     }
 }
+
+/// Feedback calls share ClientTests' serialized stub.
+extension ClientTests {
+    var id: UUID { UUID(uuidString: "5a5a5a5a-0000-4000-8000-000000000001")! }
+
+    @Test func postsToTheRPCWithPostgresArgumentNames() async throws {
+        StubProtocol.handler = { _ in
+            (200, Data(#"{"user_id":"00000000-0000-0000-0000-00000000000a","experience_id":"5a5a5a5a-0000-4000-8000-000000000001","saved_at":null,"interested_at":null,"not_interested_at":null,"done_at":"2026-10-19T18:33:12.123456+00:00","rating":3,"from_recommendation":null,"updated_at":"2026-10-19T18:33:12+00:00"}"#.utf8))
+        }
+        let state = try await client().feedback(.rate(3, on: id))
+        #expect(state.rating == 3)
+        #expect(state.isDone)
+        #expect(!state.isSaved)
+        let req = try #require(StubProtocol.lastRequest)
+        #expect(req.url?.absoluteString == "https://abc.supabase.co/rest/v1/rpc/record_feedback")
+        let sent = try #require(StubProtocol.lastBody)
+        let body = try #require(JSONSerialization.jsonObject(with: sent) as? [String: Any])
+        #expect(body["p_action"] as? String == "rate")
+        #expect(body["p_rating"] as? Int == 3)
+        #expect(body["p_experience_id"] as? String == id.uuidString)
+        #expect(body["p_recommendation_id"] == nil)
+    }
+
+    @Test func surfacesPostgRESTErrorMessages() async {
+        StubProtocol.handler = { _ in (400, Data(#"{"code":"22023","message":"Mark it done before rating it","details":null,"hint":null}"#.utf8)) }
+        await #expect(throws: APIError.server(status: 400, message: "Mark it done before rating it")) {
+            try await client().feedback(.rate(3, on: id))
+        }
+    }
+
+    @Test func feedbackActionsMatchTheDatabase() throws {
+        let sql = try String(contentsOf: URL(filePath: #filePath).deletingLastPathComponent()
+            .appending(path: "../../../../../supabase/migrations/20261020000000_feedback.sql").standardized, encoding: .utf8)
+        for action in Feedback.Action.allCases {
+            #expect(sql.contains("'\(action.rawValue)'"), "\(action.rawValue) missing from record_feedback")
+        }
+    }
+}

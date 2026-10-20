@@ -1,0 +1,85 @@
+{
+  "title": "Catch a rock, punk or hip-hop show at the TLA",
+  "intent": "Stand close to the stage for a loud, standing-room show on South Street.",
+  "description": "The Theatre of Living Arts is a roughly 1,000-capacity club on South Street in a building dating to 1908. It leans toward rock, punk, alternative and hip-hop tours; upcoming listings include Phillip Phillips and Yung Gravy in November.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "rock",
+  "tags": [
+    "mid-size",
+    "standing-room",
+    "south-street",
+    "historic-building"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Theatre of Living Arts (TLA)",
+    "address": "334 South St, Philadelphia, PA 19147",
+    "neighborhood": "South Street / Queen Village"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 70
+  },
+  "duration_minutes": {
+    "min": 150,
+    "max": 210
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.tlaphilly.com/"
+    }
+  ],
+  "sources": [
+    "https://www.tlaphilly.com/",
+    "https://thesunpapers.com/2026/04/03/c-lifestyle-philadelphia-concert-venues-guide/",
+    "https://www.songkick.com/venues/28639-theatre-of-living-arts"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours (show nights only)"
+  ],
+  "slug": "catch-a-rock-punk-or-hip-hop-show-at-the-tla",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9414106,
+    "lng": -75.1487443
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.505Z",
+  "model": "claude-sonnet-5-5"
+}

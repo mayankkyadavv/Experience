@@ -1,0 +1,106 @@
+{
+  "title": "Order at the Lovers Bar at Friday Saturday Sunday",
+  "intent": "Drink at a James Beard-nominated bar with a cocktail program tied to the kitchen's seasonal menu.",
+  "description": "The ground-floor Lovers Bar at Friday Saturday Sunday on Rittenhouse Square is a 2026 James Beard Outstanding Bar finalist, led by head bartender Paul MacDonald. Seating fills fast right at opening, and the tasting-menu dining room is upstairs.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "cocktail bar",
+  "tags": [
+    "james-beard",
+    "rittenhouse",
+    "date-night",
+    "walk-in"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Friday Saturday Sunday – Lovers Bar",
+    "address": "261 S 21st St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse Square"
+  },
+  "price_usd": {
+    "min": 16,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "22:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.fridaysaturdaysunday.com/lovers-bar"
+    }
+  ],
+  "sources": [
+    "https://barmagazine.com/bars/friday-saturday-sunday-philadelphia",
+    "https://www.fridaysaturdaysunday.com/lovers-bar",
+    "https://www.opentable.com/r/friday-saturday-sunday-philadelphia"
+  ],
+  "uncertain": [
+    "hours (OpenTable lists Wed–Sun, BarMagazine Wed–Sat)",
+    "price"
+  ],
+  "slug": "order-at-the-lovers-bar-at-friday-saturday-sunday",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9489314,
+    "lng": -75.1759317
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cocktail bars and speakeasies worth going to on purpose",
+  "drafted_at": "2026-10-20T00:34:55.451Z",
+  "model": "claude-sonnet-5-5"
+}

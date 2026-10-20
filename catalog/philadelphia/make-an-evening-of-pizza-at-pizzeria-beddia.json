@@ -1,0 +1,117 @@
+{
+  "title": "Make an evening of pizza at Pizzeria Beddia",
+  "intent": "Famous hand-made pies in a Scandinavian-chapel-like Fishtown room.",
+  "description": "Joe Beddia's Michelin Bib Gourmand pizzeria on a quiet lane, with booths, a counter and snacks plus pizza. Expect a wait at peak times.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "pizza",
+  "tags": [
+    "pizza",
+    "bib-gourmand",
+    "casual"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Pizzeria Beddia",
+    "address": "1313 N Lee St, Philadelphia, PA 19122",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 20,
+    "max": 45
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "21:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "21:30"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "22:30"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "22:30"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.tripadvisor.com/Restaurant_Review-g60795-d19460967-Reviews-Beddia-Philadelphia_Pennsylvania.html",
+    "https://maps.apple.com/place?address=1313+N+Lee+St%2C+Philadelphia%2C+PA++19122%2C+United+States&coordinate=39.9707193%2C-75.1352459&name=Pizzeria+Beddia&place-id=IE900CC34B59A41F1&_provider=9902"
+  ],
+  "uncertain": [
+    "hours (older sources conflict)",
+    "price_usd",
+    "duration_minutes",
+    "official website"
+  ],
+  "slug": "make-an-evening-of-pizza-at-pizzeria-beddia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9705054,
+    "lng": -75.1350963
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Fishtown, Northern Liberties and Kensington",
+  "drafted_at": "2026-10-20T00:31:20.104Z",
+  "model": "claude-sonnet-5-5"
+}

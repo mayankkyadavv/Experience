@@ -1,0 +1,127 @@
+{
+  "title": "Race full-motion F1 simulators at F1 Arcade",
+  "intent": "Compete head-to-head in racing simulators with drinks and food.",
+  "description": "Glossy racing-themed arcade bar on Chestnut Street where each racer gets a full-motion F1 simulator. Sessions are about 30 minutes of head-to-head racing, with a full bar and food menu. Family racing packages start around $39 for three people.",
+  "category": "games",
+  "kind": "place",
+  "subcategory": "racing simulator arcade",
+  "tags": [
+    "racing",
+    "simulator",
+    "bar",
+    "group-friendly",
+    "rainy-day"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "family",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "F1 Arcade Philadelphia",
+    "address": "1330 Chestnut St, Philadelphia, PA 19107",
+    "neighborhood": "Midtown Village"
+  },
+  "price_usd": {
+    "min": 13,
+    "max": 38
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 20
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "10:00",
+      "close": "23:00"
+    },
+    {
+      "day": 1,
+      "open": "12:00",
+      "close": "23:00"
+    },
+    {
+      "day": 2,
+      "open": "12:00",
+      "close": "23:00"
+    },
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "23:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "01:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "01:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://f1arcade.com/us/philadelphia"
+    },
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/r/f1-arcade-philedelphia-philly"
+    }
+  ],
+  "sources": [
+    "https://f1arcade.com/us/philadelphia",
+    "https://www.opentable.com/r/f1-arcade-philedelphia-philly",
+    "https://www.expedia.com/things-to-do/philadelphia-ultimate-f1arcade-simulator-racing-experience.a52377602.activity-details"
+  ],
+  "uncertain": [
+    "exact per-person price varies by package and time",
+    "official site showed a second hours set that may be seasonal"
+  ],
+  "slug": "race-full-motion-f1-simulators-at-f1-arcade",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9506527,
+    "lng": -75.1630759
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Arcades, bowling, mini golf, axe throwing and escape rooms",
+  "drafted_at": "2026-10-20T00:27:35.838Z",
+  "model": "claude-sonnet-5-5"
+}

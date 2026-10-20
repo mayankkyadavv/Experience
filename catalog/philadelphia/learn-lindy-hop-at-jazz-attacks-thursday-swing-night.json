@@ -1,0 +1,96 @@
+{
+  "title": "Learn Lindy Hop at Jazz Attack's Thursday swing night",
+  "intent": "Learn swing dancing from scratch, then stay for a live-band or DJ social dance.",
+  "description": "Volunteer-run nonprofit swing night. Doors open 7:45pm, a drop-in Lindy 101 beginner lesson runs 8–9pm, then a social dance with a DJ or live band goes 9–11pm. No partner or experience needed. Lesson is included in admission.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "swing dance",
+  "tags": [
+    "lindy-hop",
+    "beginner-friendly",
+    "no-partner-needed",
+    "weekly",
+    "live-music"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Jazz Attack at 1336 Spring Garden St",
+    "address": "1336 Spring Garden St, Philadelphia, PA 19123",
+    "neighborhood": "Spring Garden"
+  },
+  "price_usd": {
+    "min": 7,
+    "max": 17
+  },
+  "duration_minutes": {
+    "min": 120,
+    "max": 195
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 4,
+      "open": "19:45",
+      "close": "23:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.jazzattackswings.com/classes"
+    },
+    {
+      "kind": "instagram",
+      "url": "https://www.instagram.com/jazzattackswings/"
+    }
+  ],
+  "sources": [
+    "https://www.jazzattackswings.com/classes",
+    "https://www.jazzattackswings.com/blog",
+    "https://www.phillymag.com/best-of-philly-archive/jazz-attack/"
+  ],
+  "uncertain": [
+    "exact current-week lineup and whether a given Thursday has a band (higher price)"
+  ],
+  "slug": "learn-lindy-hop-at-jazz-attacks-thursday-swing-night",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9618881,
+    "lng": -75.1597125
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance, music, improv and other drop-in classes for adults",
+  "drafted_at": "2026-10-20T01:15:07.289Z",
+  "model": "claude-sonnet-5-5"
+}

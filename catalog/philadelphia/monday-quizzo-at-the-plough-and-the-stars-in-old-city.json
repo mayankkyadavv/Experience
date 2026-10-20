@@ -1,0 +1,80 @@
+{
+  "title": "Monday quizzo at The Plough and the Stars in Old City",
+  "intent": "Irish pub trivia in Old City.",
+  "description": "Old City Irish pub listed with a weekly Monday 7 p.m. quizzo on the 2026 community calendar.",
+  "category": "games",
+  "kind": "activity",
+  "subcategory": "trivia",
+  "tags": [
+    "quizzo",
+    "trivia",
+    "weekly",
+    "monday",
+    "irish-pub",
+    "old-city"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Plough and the Stars",
+    "address": "123 Chestnut St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.ourphilly.org/date/2026-07-20"
+  ],
+  "uncertain": [
+    "address (not in source)",
+    "free to play assumed",
+    "official website"
+  ],
+  "slug": "monday-quizzo-at-the-plough-and-the-stars-in-old-city",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9486184,
+    "lng": -75.1436225
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Karaoke bars, trivia nights and bar games (bocce, shuffleboard, pinball)",
+  "drafted_at": "2026-10-20T01:18:14.558Z",
+  "model": "claude-sonnet-5-5"
+}

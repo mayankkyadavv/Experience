@@ -1,0 +1,85 @@
+{
+  "title": "Live music night at Velvet Whip Arts & Social Club",
+  "intent": "Discover a hidden speakeasy-style live music club in Eraserhood.",
+  "description": "A small, secret-feeling live music, performance arts and social club near 11th and Wood Streets in Callowhill/Eraserhood, with multi-genre performances in a swanky speakeasy style. Listed by VisitPhilly among its jazz deep cuts.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "speakeasy",
+  "tags": [
+    "speakeasy",
+    "live-music",
+    "intimate",
+    "eraserhood",
+    "unusual"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Velvet Whip Arts & Social Club",
+    "address": "11th & Wood St, Philadelphia, PA 19123",
+    "neighborhood": "Callowhill"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.facebook.com/velvetwhipphilly/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/top-places-to-listen-to-live-jazz-music-in-philadelphia/",
+    "https://www.facebook.com/velvetwhipphilly/",
+    "https://maps.apple.com/place?place-id=I1E0B5DBD385DAAD"
+  ],
+  "uncertain": [
+    "exact street address",
+    "hours",
+    "prices",
+    "current schedule"
+  ],
+  "slug": "live-music-night-at-velvet-whip-arts-social-club",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.95817,
+    "lng": -75.15668
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.189Z",
+  "model": "claude-sonnet-5-5"
+}

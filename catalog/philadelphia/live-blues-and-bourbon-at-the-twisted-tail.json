@@ -1,0 +1,90 @@
+{
+  "title": "Live blues and bourbon at The Twisted Tail",
+  "intent": "Hear live blues in a two-level juke joint with a big bourbon list.",
+  "description": "A Headhouse Square restaurant, bourbon house and live-music venue styled as a Southern juke joint, with charcoal-grilled food and live blues music. Check the calendar for current nights.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "blues",
+  "tags": [
+    "blues",
+    "bourbon",
+    "juke-joint",
+    "live-music",
+    "headhouse"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Twisted Tail",
+    "address": "509 S 2nd St, Philadelphia, PA 19147",
+    "neighborhood": "Society Hill"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 60
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://thetwistedtail.com/"
+    },
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/the-twisted-tail"
+    }
+  ],
+  "sources": [
+    "https://x.com/twistedtailphl?lang=en",
+    "https://www.opentable.com/the-twisted-tail",
+    "https://www.visitphilly.com/articles/philadelphia/top-places-to-listen-to-live-jazz-music-in-philadelphia/"
+  ],
+  "uncertain": [
+    "hours",
+    "live music nights and cover"
+  ],
+  "slug": "live-blues-and-bourbon-at-the-twisted-tail",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9418432,
+    "lng": -75.1451181
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.187Z",
+  "model": "claude-sonnet-5-5"
+}

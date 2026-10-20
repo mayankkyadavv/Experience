@@ -1,0 +1,86 @@
+{
+  "title": "See an indie or alt-pop show at Union Transfer",
+  "intent": "Catch a rising or established indie, pop or hip-hop act in a roomy converted 19th-century building.",
+  "description": "A roughly 1,200-capacity standing-room hall in a former farmers' market building with an industrial look. It books mostly indie rock, alt-pop, hip-hop and electronic touring acts, and runs several shows a week.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "indie rock",
+  "tags": [
+    "mid-size",
+    "standing-room",
+    "touring-acts",
+    "industrial-venue"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Union Transfer",
+    "address": "1026 Spring Garden St, Philadelphia, PA 19123",
+    "neighborhood": "Spring Garden"
+  },
+  "price_usd": {
+    "min": 25,
+    "max": 60
+  },
+  "duration_minutes": {
+    "min": 150,
+    "max": 210
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.utphilly.com"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Union_Transfer",
+    "https://www.songkick.com/venues/1392958-union-transfer",
+    "https://traveler.marriott.com/philadelphia/philly-music-concert-venues/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "hours (show nights only)"
+  ],
+  "slug": "see-an-indie-or-alt-pop-show-at-union-transfer",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9613822,
+    "lng": -75.1553446
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Live music venues: rock, indie and pop clubs and mid-size halls",
+  "drafted_at": "2026-10-20T00:24:33.504Z",
+  "model": "claude-sonnet-5-5"
+}

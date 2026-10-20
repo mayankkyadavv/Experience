@@ -1,0 +1,83 @@
+{
+  "title": "Camp out at Good Karma Cafe on Pine Street",
+  "intent": "A cozy, easygoing cafe with ample seating, handy for studying or casual meetups.",
+  "description": "Good Karma is a local cafe mini-chain with ample seating and a cozy atmosphere, popular as a study spot. This Pine Street location is in Washington Square West.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "coffee shop",
+  "tags": [
+    "study-spot",
+    "cozy",
+    "laptop-friendly",
+    "neighborhood-favorite"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Good Karma Cafe",
+    "address": "928 Pine St, Philadelphia, PA 19107",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 12
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://joe.coffee/locations/pa/philadelphia/good-karma-cafe-928-pine-st-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://campusphilly.org/2024/10/14/a-guide-to-the-best-study-friendly-coffee-shops-in-philadelphia/",
+    "https://joe.coffee/locations/pa/philadelphia/good-karma-cafe-928-pine-st-philadelphia/"
+  ],
+  "uncertain": [
+    "hours (sources conflict: closes 5 or 8 pm)",
+    "official website"
+  ],
+  "slug": "camp-out-at-good-karma-cafe-on-pine-street",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9445562,
+    "lng": -75.1578617
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.319Z",
+  "model": "claude-sonnet-5-5"
+}

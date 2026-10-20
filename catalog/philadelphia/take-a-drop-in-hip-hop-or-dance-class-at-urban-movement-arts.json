@@ -1,0 +1,90 @@
+{
+  "title": "Take a drop-in hip hop or dance class at Urban Movement Arts",
+  "intent": "Get a dance workout in a beginner-friendly adult class.",
+  "description": "Adult-focused studio in Rittenhouse (second floor, 2100 Chestnut) teaching hip hop, folk and other movement styles, with a second location at 812 Chestnut. Drop-ins are booked on the online schedule after buying a pass; there is also a cheaper intro month.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "hip hop",
+  "tags": [
+    "drop-in",
+    "adults",
+    "hip-hop",
+    "fitness",
+    "beginner-friendly"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Urban Movement Arts",
+    "address": "2100 Chestnut St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 19
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.urbanmovementarts.com/"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.urbanmovementarts.com/prices-232500.html"
+    }
+  ],
+  "sources": [
+    "https://www.urbanmovementarts.com/prices-232500.html",
+    "https://www.phillymag.com/be-well-philly/dance-class/",
+    "https://www.movemakersphilly.com/drop-in-classes.html"
+  ],
+  "uncertain": [
+    "class times",
+    "drop-in price ($19 on site; older press said $15)",
+    "drop-in passes expire 14 days after purchase"
+  ],
+  "slug": "take-a-drop-in-hip-hop-or-dance-class-at-urban-movement-arts",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9521965,
+    "lng": -75.1755702
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance, music, improv and other drop-in classes for adults",
+  "drafted_at": "2026-10-20T01:15:07.291Z",
+  "model": "claude-sonnet-5-5"
+}

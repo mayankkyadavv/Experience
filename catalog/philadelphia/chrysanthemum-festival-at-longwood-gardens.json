@@ -1,0 +1,146 @@
+{
+  "slug": "chrysanthemum-festival-at-longwood-gardens",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Chrysanthemum Festival at Longwood Gardens",
+  "intent": "See thousands of trained mums and bonsai chrysanthemums in the conservatories, with late evening hours on weekends.",
+  "description": "Longwood's fall highlight fills the historic conservatories with chrysanthemums in elaborate trained forms, plus a bonsai mum display. Timed-admission tickets are required; Friday-Sunday the Gardens stay open until 9 pm and the site is closed Tuesdays. It's in Kennett Square, roughly an hour from Center City.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "flower festival",
+  "tags": [
+    "seasonal",
+    "garden",
+    "fall",
+    "day-trip",
+    "conservatory"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Longwood Gardens",
+    "address": "1001 Longwood Rd, Kennett Square, PA 19348",
+    "neighborhood": "Kennett Square (outside Philadelphia)"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 180,
+    "max": 240
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-16",
+      "end": "2026-11-15"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-21",
+      "start": "10:00",
+      "end": "18:00"
+    },
+    {
+      "date": "2026-10-22",
+      "start": "10:00",
+      "end": "18:00"
+    },
+    {
+      "date": "2026-10-23",
+      "start": "10:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-10-24",
+      "start": "10:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-10-25",
+      "start": "10:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-10-26",
+      "start": "10:00",
+      "end": "18:00"
+    },
+    {
+      "date": "2026-10-28",
+      "start": "10:00",
+      "end": "18:00"
+    },
+    {
+      "date": "2026-10-29",
+      "start": "10:00",
+      "end": "18:00"
+    },
+    {
+      "date": "2026-10-30",
+      "start": "10:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-10-31",
+      "start": "10:00",
+      "end": "21:00"
+    },
+    {
+      "date": "2026-11-01",
+      "start": "10:00",
+      "end": "21:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://longwoodgardens.org/events-performances/events/chrysanthemum-festival"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://longwoodgardens.org/visit"
+    }
+  ],
+  "sources": [
+    "https://longwoodgardens.org/events-performances/events/chrysanthemum-festival",
+    "https://longwoodgardens.org/visit",
+    "https://longwoodgardens.org/events-performances/exhibits"
+  ],
+  "uncertain": [
+    "price_usd (ticket price not retrieved)",
+    "occurrences after Nov 1 (hours change after Nov 1)",
+    "Oct 31/Nov 1 hours inferred from regular Fri-Sun 10am-9pm schedule"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.772Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Learn woodworking, metalwork or leatherwork at NextFab",
+  "intent": "Take a skills class in a big makerspace with pro-level tools.",
+  "description": "NextFab is a Philadelphia makerspace with a 21,000-sq-ft woodshop and classes in woodworking, finishing, CNC, woodturning, metalworking, jewelry and leather/sewing. Beginner shop orientations and project-based 'Maker Series' classes are offered at its Kensington and South Philadelphia locations.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "woodworking",
+  "tags": [
+    "makerspace",
+    "woodworking",
+    "metalworking",
+    "leatherworking"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "NextFab",
+    "address": null,
+    "neighborhood": null
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://nextfab.com/department/woodworking/"
+    }
+  ],
+  "sources": [
+    "https://nextfab.com/department/woodworking/",
+    "https://nextfab.com/woodworking-at-nextfab/",
+    "https://www.woodworkingnetwork.com/community/show-us-your-shop/community-woodworking-hub-expands-21000-sq-ft-philly"
+  ],
+  "uncertain": [
+    "address",
+    "price_usd",
+    "duration_minutes",
+    "hours",
+    "which locations host which classes"
+  ],
+  "slug": "learn-woodworking-metalwork-or-leatherwork-at-nextfab",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9782515,
+    "lng": -75.1399998
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.448Z",
+  "model": "claude-sonnet-5-5"
+}

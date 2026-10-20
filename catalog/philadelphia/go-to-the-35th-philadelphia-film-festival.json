@@ -1,0 +1,132 @@
+{
+  "title": "Go to the 35th Philadelphia Film Festival",
+  "intent": "See 100+ films, premieres and filmmaker Q&As over eleven days at Center City cinemas.",
+  "description": "The Philadelphia Film Society's annual festival runs Oct 15-25, 2026 at three venues: Film Society Center (Chestnut St), Film Society Bourse (Ranstead St) and Film Society East (S 2nd St). Expect new releases, awards contenders, world premieres and guest appearances. Individual tickets were $17 ($12 members) at last published pricing; badges are also sold.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "film festival",
+  "tags": [
+    "film festival",
+    "seasonal",
+    "premieres",
+    "center city",
+    "old city"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Film Society Center (festival hub; also Film Society Bourse and Film Society East)",
+    "address": "1412 Chestnut St, Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 12,
+    "max": 17
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 240
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-15",
+      "end": "2026-10-25"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-20",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-21",
+      "start": "20:45",
+      "end": null
+    },
+    {
+      "date": "2026-10-22",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-23",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-24",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-10-25",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://filmadelphia.org/festival/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://filmadelphia.org/ticket-info/"
+    },
+    {
+      "kind": "other",
+      "url": "https://filmadelphia.org/festival/pff35-badges/"
+    }
+  ],
+  "sources": [
+    "https://filmadelphia.org/news/philadelphia-film-festival-announces-the-first-wave-of-films-for-the-historic-35th-edition/",
+    "https://thephiladelphiacitizen.org/philadephia-fiim-festival-2026/",
+    "https://filmadelphia.org/ticket-info/",
+    "https://filmadelphia.org/festival/pff35-badges/"
+  ],
+  "uncertain": [
+    "occurrences times (screenings vary by film)",
+    "2026 individual ticket prices (the $12-17 figures come from the PFS ticket info page and may be from a prior year)"
+  ],
+  "slug": "go-to-the-35th-philadelphia-film-festival",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9507355,
+    "lng": -75.1647093
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Movie theaters, indie cinemas and outdoor screenings",
+  "drafted_at": "2026-10-20T01:12:03.281Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,119 @@
+{
+  "title": "Rooftop DJ party at Vango Lounge & Skybar",
+  "intent": "A rooftop lounge near Rittenhouse that's good for starting or ending a night.",
+  "description": "Lounge and rooftop sky bar a few blocks from Rittenhouse Square with a full bar and shareable food. It has hosted a Wednesday rooftop DJ night with free entry and drink specials.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "rooftop lounge",
+  "tags": [
+    "rooftop",
+    "djs",
+    "late-night",
+    "drink-specials"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Vango Lounge & Skybar",
+    "address": "116 S 18th St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 210
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 1,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://vangoloungeandskybar.com"
+    }
+  ],
+  "sources": [
+    "https://www.facebook.com/VangoLoungeAndSkyBar/",
+    "https://maps.apple.com/place?place-id=I5D5E3523C3CB5475",
+    "https://www.waze.com/live-map/directions/us/pa/philadelphia/vango-lounge-and-skybar?to=place.ChIJ7wUNlTDGxokRqaoLh0IhFuQ"
+  ],
+  "uncertain": [
+    "whether the rooftop is open in cold weather",
+    "DJ night schedule",
+    "Tuesday/Thursday hours"
+  ],
+  "slug": "rooftop-dj-party-at-vango-lounge-skybar",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.951077,
+    "lng": -75.170571
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance clubs, DJ nights and late-night spots",
+  "drafted_at": "2026-10-20T01:12:51.155Z",
+  "model": "claude-sonnet-5-5"
+}

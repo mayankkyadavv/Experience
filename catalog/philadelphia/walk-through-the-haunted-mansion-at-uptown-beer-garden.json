@@ -1,0 +1,122 @@
+{
+  "title": "Walk through the Haunted Mansion at Uptown Beer Garden",
+  "intent": "Do a themed Halloween beer garden with spooky cocktails and horror movies.",
+  "description": "Uptown Beer Garden on JFK Blvd is decked out as a haunted mansion through Oct. 31, with skeleton and cobweb decor, themed cocktails, drafts, small bites and horror movies on big screens.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "beer garden",
+  "tags": [
+    "seasonal",
+    "halloween",
+    "beer-garden",
+    "themed"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Uptown Beer Garden",
+    "address": "1500 John F Kennedy Blvd, Philadelphia, PA 19102",
+    "neighborhood": "Center City"
+  },
+  "price_usd": {
+    "min": 8,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "11:00",
+      "close": "21:00"
+    },
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "11:00",
+      "close": "00:00"
+    }
+  ],
+  "dates": [
+    {
+      "start": "2026-10-20",
+      "end": "2026-10-31"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.uptownbeer.com/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/halloween-pop-up-bars/",
+    "https://www.inquirer.com/food/drink/halloween-bars-spooky-cocktails-pop-ups-philly-20261016.html",
+    "https://maps.apple.com/place?place-id=IDBAFFCBCA4516841"
+  ],
+  "uncertain": [
+    "hours may differ during Halloween season"
+  ],
+  "slug": "walk-through-the-haunted-mansion-at-uptown-beer-garden",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9534235,
+    "lng": -75.1657163
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Breweries, beer gardens and taprooms",
+  "drafted_at": "2026-10-20T01:08:00.429Z",
+  "model": "claude-sonnet-5-5"
+}

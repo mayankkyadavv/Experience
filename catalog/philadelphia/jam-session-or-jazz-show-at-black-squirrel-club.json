@@ -1,0 +1,85 @@
+{
+  "title": "Jam session or jazz show at Black Squirrel Club",
+  "intent": "Hear jazz and eclectic live music in a church-pew speakeasy-style room in a former steam plant.",
+  "description": "An intimate Fishtown venue in a historic 1890s steam plant with church pews and vintage chandeliers. Programming ranges from 1920s-style jazz to samba and bluegrass, with a Monday night jam session hosted by Richard Hill Jr. and friends.",
+  "category": "music",
+  "kind": "place",
+  "subcategory": "jazz",
+  "tags": [
+    "jazz",
+    "jam-session",
+    "unusual",
+    "fishtown",
+    "intimate"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Black Squirrel Club",
+    "address": "1049 Sarah St, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://blacksquirrelclub.com/"
+    }
+  ],
+  "sources": [
+    "https://www.visitphilly.com/articles/philadelphia/top-places-to-listen-to-live-jazz-music-in-philadelphia/",
+    "https://www.eventbrite.com/e/drew-nugent-the-midnight-society-tickets-2002179596069"
+  ],
+  "uncertain": [
+    "regular hours (event-based)",
+    "ticket prices vary"
+  ],
+  "slug": "jam-session-or-jazz-show-at-black-squirrel-club",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9674521,
+    "lng": -75.1337901
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.183Z",
+  "model": "claude-sonnet-5-5"
+}

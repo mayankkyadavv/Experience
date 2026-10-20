@@ -1,0 +1,97 @@
+{
+  "title": "Take an adult ballet or contemporary drop-in at Philadelphia Dance Theatre",
+  "intent": "Return to or start ballet and contemporary dance in a supportive adult class.",
+  "description": "Philadelphia Dance Theatre's Adult Division runs drop-in classes for ages 18+, including Beginner Ballet (Tuesdays 7–8:30pm), Advanced Ballet (Mondays 7–8:30pm), Gyrokinesis and Contemporary (Wednesdays). First class is free, and classes must be booked at least 24 hours ahead.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "ballet",
+  "tags": [
+    "ballet",
+    "contemporary",
+    "first-class-free",
+    "beginner-friendly",
+    "book-ahead"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Dance Theatre",
+    "address": "7500 Germantown Ave, Philadelphia, PA 19119",
+    "neighborhood": "Mount Airy"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "19:00",
+      "close": "20:30"
+    },
+    {
+      "day": 2,
+      "open": "19:00",
+      "close": "20:30"
+    },
+    {
+      "day": 3,
+      "open": "19:30",
+      "close": "21:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.philadancetheatre.org/pdt-adult-division"
+    }
+  ],
+  "sources": [
+    "https://www.philadancetheatre.org/pdt-adult-division",
+    "https://classpass.com/studios/philadelphia-dance-theatre"
+  ],
+  "uncertain": [
+    "drop-in price",
+    "studio address is from ClassPass listing; verify class room location"
+  ],
+  "slug": "take-an-adult-ballet-or-contemporary-drop-in-at-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0634785,
+    "lng": -75.1936155
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance, music, improv and other drop-in classes for adults",
+  "drafted_at": "2026-10-20T01:15:07.291Z",
+  "model": "claude-sonnet-5-5"
+}

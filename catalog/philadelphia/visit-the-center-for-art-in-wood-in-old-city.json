@@ -1,0 +1,106 @@
+{
+  "title": "Visit the Center for Art in Wood in Old City",
+  "intent": "Admire turned, carved and sculpted wood art in a small Old City museum.",
+  "description": "A museum and research center devoted to wood art with rotating exhibitions, a museum store and a library. Hours on its site may be out of date, so check before going.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "craft museum",
+  "tags": [
+    "old-city",
+    "crafts",
+    "rainy-day",
+    "shop"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Center for Art in Wood",
+    "address": "141 N 3rd St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": null,
+  "hours": [
+    {
+      "day": 0,
+      "open": "12:00",
+      "close": "17:00"
+    },
+    {
+      "day": 3,
+      "open": "12:00",
+      "close": "17:00"
+    },
+    {
+      "day": 4,
+      "open": "12:00",
+      "close": "17:00"
+    },
+    {
+      "day": 5,
+      "open": "12:00",
+      "close": "17:00"
+    },
+    {
+      "day": 6,
+      "open": "12:00",
+      "close": "17:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://museumforartinwood.org/home-3/"
+    }
+  ],
+  "sources": [
+    "https://museumforartinwood.org/home-3/",
+    "https://www.tripadvisor.com/Attraction_Review-g60795-d7217189-Reviews-Museum_for_Art_in_Wood-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "address (from memory)",
+    "hours conflict between sources",
+    "admission price",
+    "duration_minutes"
+  ],
+  "slug": "visit-the-center-for-art-in-wood-in-old-city",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9533851,
+    "lng": -75.1448564
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Art galleries, First Friday spots and public art (murals, Magic Gardens)",
+  "drafted_at": "2026-10-20T00:28:19.546Z",
+  "model": "claude-sonnet-5-5"
+}

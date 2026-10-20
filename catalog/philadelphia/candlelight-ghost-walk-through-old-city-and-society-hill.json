@@ -1,0 +1,125 @@
+{
+  "slug": "candlelight-ghost-walk-through-old-city-and-society-hill",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Candlelight ghost walk through Old City and Society Hill",
+  "intent": "Hear costumed-guide ghost stories on an after-dark stroll past colonial landmarks.",
+  "description": "Costumed guides lead a lantern-lit 75–90 minute walk through Independence Park, Society Hill and Old City, using stories from a local ghost-story book, with stops near Washington Square, the Powel House and City Tavern. Tours leave from Signers' Garden and end near Second and Walnut.",
+  "category": "attraction",
+  "kind": "activity",
+  "subcategory": "ghost tour",
+  "tags": [
+    "ghost-tour",
+    "walking-tour",
+    "evening",
+    "historic",
+    "outdoor"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "family",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Signers' Garden (Ghost Tour of Philadelphia)",
+    "address": "434-498 Chestnut St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 18,
+    "max": 28
+  },
+  "duration_minutes": {
+    "min": 75,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 35
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "19:30",
+      "close": "21:00"
+    },
+    {
+      "day": 1,
+      "open": "19:30",
+      "close": "21:00"
+    },
+    {
+      "day": 2,
+      "open": "19:30",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "19:30",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "19:30",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "19:30",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "19:30",
+      "close": "21:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.ghosttour.com"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://feverup.com/m/92877"
+    }
+  ],
+  "sources": [
+    "https://southphillyreview.com/2026/10/13/halloween-events-philadelphia/",
+    "https://feverup.com/m/92877",
+    "https://www.tripadvisor.ie/AttractionProductReview-g60795-d14105428-or10-Ghost_Tour_of_Philadelphia_by_Candlelight-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "official website URL not opened",
+    "nightly schedule reported as through November only; off-season frequency unknown",
+    "price $28 adult / $18 child (4-12) with discounts online"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:36.998Z",
+  "model": "claude-sonnet-5-5"
+}

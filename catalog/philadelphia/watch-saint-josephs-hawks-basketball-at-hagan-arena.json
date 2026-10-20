@@ -1,0 +1,111 @@
+{
+  "title": "Watch Saint Joseph's Hawks basketball at Hagan Arena",
+  "intent": "Affordable Atlantic 10 and Big 5 hoops on City Avenue.",
+  "description": "Saint Joseph's opens with four home games in two weeks: Longwood (Nov. 4, 7 PM), Lafayette (Nov. 7, 4 PM), Penn (Nov. 14) and Wagner (Nov. 17). The women's team also opens at home Nov. 7 at 1 PM vs Kutztown.",
+  "category": "sports",
+  "kind": "event",
+  "subcategory": "college basketball",
+  "tags": [
+    "saint-josephs",
+    "big-5",
+    "atlantic-10",
+    "indoor",
+    "cheap"
+  ],
+  "good_for": [
+    "friends",
+    "family",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Michael J. Hagan '85 Arena",
+    "address": "5600 City Ave, Philadelphia, PA 19131",
+    "neighborhood": "Overbrook / City Avenue"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 120,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-11-04",
+      "end": "2026-11-17"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-11-04",
+      "start": "19:00",
+      "end": null
+    },
+    {
+      "date": "2026-11-07",
+      "start": "16:00",
+      "end": null
+    },
+    {
+      "date": "2026-11-14",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-11-17",
+      "start": null,
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://sjuhawks.com/sports/mens-basketball/schedule/2026-27"
+    }
+  ],
+  "sources": [
+    "https://sjuhawks.com/sports/mens-basketball/schedule/2026-27",
+    "https://sjuhawks.com/news/2026/8/25/mens-basketball-reveals-non-conference-schedule.aspx",
+    "https://sjuhawks.com/news/2026/9/2/womens-basketball-womens-basketball-announces-2026-27-non-conference-schedule.aspx"
+  ],
+  "uncertain": [
+    "street address",
+    "price_usd",
+    "Nov. 14 and Nov. 17 tip-off times"
+  ],
+  "slug": "watch-saint-josephs-hawks-basketball-at-hagan-arena",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9935304,
+    "lng": -75.2396382
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Pro and college sports games and stadium experiences",
+  "drafted_at": "2026-10-20T01:15:34.977Z",
+  "model": "claude-sonnet-5-5"
+}

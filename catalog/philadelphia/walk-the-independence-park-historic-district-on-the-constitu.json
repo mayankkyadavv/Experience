@@ -1,0 +1,76 @@
+{
+  "slug": "walk-the-independence-park-historic-district-on-the-constitu",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Walk the Independence Park historic district on The Constitutional",
+  "intent": "Hit 20+ key historic sites in a short guided walk.",
+  "description": "A 75-minute, 1.25-mile outdoor guided walk past more than 20 historic sites, including the Liberty Bell and Independence Hall, packed into a few blocks of the historic district. A good quick intro for first-timers.",
+  "category": "attraction",
+  "kind": "activity",
+  "subcategory": "historic walking tour",
+  "tags": [
+    "walking-tour",
+    "historic",
+    "outdoor",
+    "first-timers"
+  ],
+  "good_for": [
+    "solo",
+    "family",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "flexible",
+  "place": {
+    "name": "The Constitutional Walking Tour of Philadelphia",
+    "address": null,
+    "neighborhood": "Old City"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 75,
+    "max": 75
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.theconstitutional.com/"
+    }
+  ],
+  "sources": [
+    "https://www.theconstitutional.com/",
+    "https://www.tripadvisor.com/Attractions-g60795-Activities-c42-t183-Philadelphia_Pennsylvania.html"
+  ],
+  "uncertain": [
+    "price",
+    "meeting point and tour times",
+    "fall/winter schedule"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Walking tours, ghost tours, boat tours and unusual tours",
+  "drafted_at": "2026-10-20T00:33:37.001Z",
+  "model": "claude-sonnet-5-5"
+}

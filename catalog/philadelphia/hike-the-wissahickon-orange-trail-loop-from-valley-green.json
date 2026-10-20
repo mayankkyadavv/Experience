@@ -1,0 +1,91 @@
+{
+  "title": "Hike the Wissahickon Orange Trail loop from Valley Green",
+  "intent": "Swap the flat gravel for rooty, rocky singletrack above the creek, with Wissahickon landmarks along the way.",
+  "description": "Moderate loops combine the Orange Trail with Forbidden Drive (about 3.9 miles from Valley Green) and can extend to the Yellow Trail and Lover's Leap lookout or Devil's Pool. Expect roots, rocky sections and some climbing; wear proper shoes.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "hiking",
+  "tags": [
+    "free",
+    "fall-foliage",
+    "scenic",
+    "dog-friendly",
+    "unusual"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Valley Green trailhead, Wissahickon Valley Park",
+    "address": "Valley Green Rd, Philadelphia, PA 19128",
+    "neighborhood": "Wissahickon"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 210
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fow.org/feel-the-love-wissahickon/"
+    },
+    {
+      "kind": "other",
+      "url": "https://www.komoot.com/smarttour/e2813335178/wissahickon-orange-and-forbidden-drive-trail-loop"
+    }
+  ],
+  "sources": [
+    "https://www.komoot.com/smarttour/e2813335178/wissahickon-orange-and-forbidden-drive-trail-loop",
+    "https://fow.org/feel-the-love-wissahickon/",
+    "https://www.alltrails.com/parks/us/pennsylvania/wissahickon-valley-park/walking"
+  ],
+  "uncertain": [
+    "address (trailhead approximate)",
+    "duration estimate"
+  ],
+  "slug": "hike-the-wissahickon-orange-trail-loop-from-valley-green",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0556165,
+    "lng": -75.2170966
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.355Z",
+  "model": "claude-sonnet-5-5"
+}

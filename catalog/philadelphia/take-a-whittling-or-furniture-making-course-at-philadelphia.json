@@ -1,0 +1,88 @@
+{
+  "title": "Take a whittling or furniture-making course at Philadelphia Furniture Workshop",
+  "intent": "Learn fine woodworking from experienced instructors in a small teaching studio.",
+  "description": "A woodworking school in Germantown with beginner courses such as a 3-evening Whittling class ($300), Small Treasure Boxes ($200), a weeklong Introduction to Woodworking ($925) and a 5-week Basic Skills course. Classes are small and project-based, mostly evenings and weekdays.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "woodworking",
+  "tags": [
+    "woodworking",
+    "multi-week",
+    "furniture",
+    "beginner-friendly"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Philadelphia Furniture Workshop",
+    "address": "5212 Pulaski Ave, Philadelphia, PA 19144",
+    "neighborhood": "Germantown"
+  },
+  "price_usd": {
+    "min": 200,
+    "max": 925
+  },
+  "duration_minutes": {
+    "min": 180,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.philadelphiafurnitureworkshop.com/"
+    },
+    {
+      "kind": "booking",
+      "url": "https://www.philadelphiafurnitureworkshop.com/foundation-courses"
+    }
+  ],
+  "sources": [
+    "https://www.philadelphiafurnitureworkshop.com/",
+    "https://www.philadelphiafurnitureworkshop.com/foundation-courses",
+    "https://www.ourphilly.org/events/philafurnitureworkshop-whittling-week-2-2026-09-02"
+  ],
+  "uncertain": [
+    "upcoming session dates",
+    "group_size"
+  ],
+  "slug": "take-a-whittling-or-furniture-making-course-at-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.025581,
+    "lng": -75.1735847
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.448Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Drop-in infrared sauna session at Alma Acupuncture in Fishtown",
+  "intent": "Book a simple, affordable sauna session on Frankford Avenue, alone or with a friend.",
+  "description": "An acupuncture clinic with an infrared sauna you can book without another service. Solo sessions are about $50 to $65 for 30 or 60 minutes. Two people pay about $70 to $95.",
+  "category": "wellness",
+  "kind": "place",
+  "subcategory": "infrared sauna",
+  "tags": [
+    "sauna",
+    "infrared",
+    "drop-in",
+    "cheap"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Alma Acupuncture",
+    "address": "1856 Frankford Ave, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 50,
+    "max": 95
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 2
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.phillymag.com/be-well-philly/saunas/"
+  ],
+  "uncertain": [
+    "official website",
+    "weekly hours",
+    "prices are from a Philadelphia Magazine guide and may have changed"
+  ],
+  "slug": "drop-in-infrared-sauna-session-at-alma-acupuncture-in-fishto",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9782587,
+    "lng": -75.1310145
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Spas, saunas, bathhouses and wellness experiences",
+  "drafted_at": "2026-10-20T01:09:33.219Z",
+  "model": "claude-sonnet-5-5"
+}

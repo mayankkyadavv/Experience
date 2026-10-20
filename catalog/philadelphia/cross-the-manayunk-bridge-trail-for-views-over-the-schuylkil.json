@@ -1,0 +1,85 @@
+{
+  "title": "Cross the Manayunk Bridge Trail for views over the Schuylkill",
+  "intent": "A short, high-up walk or ride with valley views, open 24 hours.",
+  "description": "The Manayunk Bridge Trail is a roughly 0.4-mile converted railway bridge linking Manayunk with Lower Merion and the Cynwyd Heritage Trail. City upgrades added lighting and security so it is open 24 hours. It pairs well with the Towpath.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "bridge trail",
+  "tags": [
+    "free",
+    "views",
+    "walkable",
+    "cycling"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Manayunk Bridge Trail",
+    "address": null,
+    "neighborhood": "Manayunk"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 20,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.phila.gov/2022-08-22-manayunk-bridge-trail-now-offers-24-hour-access/"
+    }
+  ],
+  "sources": [
+    "https://www.phila.gov/2022-08-22-manayunk-bridge-trail-now-offers-24-hour-access/",
+    "https://trails.dcnr.pa.gov/trails/trail/trailview?trailkey=985",
+    "https://www.spottedbylocals.com/philadelphia/manayunk-bridge-trail/"
+  ],
+  "uncertain": [
+    "street address of access point"
+  ],
+  "slug": "cross-the-manayunk-bridge-trail-for-views-over-the-schuylkil",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0253302,
+    "lng": -75.2266049
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.357Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,91 @@
+{
+  "title": "Pancake and omelet brunch at Breakfast Boutique in Chestnut Hill",
+  "intent": "Sweet-leaning brunch on Germantown Avenue.",
+  "description": "Breakfast Boutique is a cozy Black-owned breakfast and brunch cafe on Chestnut Hill's Germantown Avenue, with red velvet pancakes, blueberry waffles and omelets. It has another location on Germantown Ave in Mt. Airy.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "chestnut-hill",
+    "black-owned",
+    "pancakes"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Breakfast Boutique Chestnut Hill",
+    "address": "8630 Germantown Ave, Philadelphia, PA 19118",
+    "neighborhood": "Chestnut Hill"
+  },
+  "price_usd": {
+    "min": 12,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 75
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "07:30",
+      "close": "14:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.visitphilly.com/articles/philadelphia/best-brunch-spots-in-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://accelerator.eatokra.com/businesses/breakfast-boutique-chestnut-hill",
+    "https://www.visitphilly.com/articles/philadelphia/best-brunch-spots-in-philadelphia/"
+  ],
+  "uncertain": [
+    "hours other than Sunday",
+    "official website",
+    "price_usd"
+  ],
+  "slug": "pancake-and-omelet-brunch-at-breakfast-boutique-in-chestnut",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0770973,
+    "lng": -75.2087181
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.867Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Sign up for a drawing, painting or ceramics class at Fleisher Art Memorial",
+  "intent": "Take affordable studio art classes in a historic Bella Vista/Queen Village art school.",
+  "description": "Fleisher is a nonprofit art school offering adult classes in painting, drawing, ceramics, sculpture, printmaking and more, plus open studios. The Fall 2026 adult term runs Sept 8 to Nov 16 (registration has closed or is limited), so check the calendar for winter and workshop options.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "painting",
+  "tags": [
+    "painting",
+    "ceramics",
+    "art-school",
+    "nonprofit"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Fleisher Art Memorial",
+    "address": "719 Catharine St, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-09-08",
+      "end": "2026-11-16"
+    }
+  ],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://fleisher.org/"
+    },
+    {
+      "kind": "other",
+      "url": "https://fleisher.org/adult-education/adult-fall-2026/"
+    }
+  ],
+  "sources": [
+    "https://fleisher.org/calendar/",
+    "https://fleisher.org/adult-education/adult-fall-2026/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "duration_minutes",
+    "winter term dates",
+    "hours"
+  ],
+  "slug": "sign-up-for-a-drawing-painting-or-ceramics-class-at-fleisher",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9390857,
+    "lng": -75.1549984
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.449Z",
+  "model": "claude-sonnet-5-5"
+}

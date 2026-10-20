@@ -1,0 +1,84 @@
+{
+  "title": "Dinner-and-comedy show at City Winery Philadelphia",
+  "intent": "Pair wine and dinner with a touring comedian's set.",
+  "description": "City Winery's Center City venue mixes concerts with stand-up from touring headliners and rising comics. Seating is at tables with a full wine list and dining menu.",
+  "category": "comedy",
+  "kind": "place",
+  "subcategory": "stand-up",
+  "tags": [
+    "dinner-and-show",
+    "wine",
+    "headliners",
+    "date-night"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "City Winery Philadelphia",
+    "address": "990 Filbert St, Philadelphia, PA 19107",
+    "neighborhood": "Market East"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://citywinery.com/philadelphia"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://citywinery.com/philadelphia/events/"
+    }
+  ],
+  "sources": [
+    "https://citywinery.com/philadelphia",
+    "https://comedy.tickets/venue/city-winery-philadelphia/"
+  ],
+  "uncertain": [
+    "ticket price range",
+    "comedy show frequency"
+  ],
+  "slug": "dinner-and-comedy-show-at-city-winery-philadelphia",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9522713,
+    "lng": -75.156091
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Stand-up comedy clubs, improv theaters and regular comedy nights",
+  "drafted_at": "2026-10-20T00:20:14.395Z",
+  "model": "claude-opus-5-5"
+}

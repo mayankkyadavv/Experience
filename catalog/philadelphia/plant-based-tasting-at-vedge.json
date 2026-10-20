@@ -1,0 +1,109 @@
+{
+  "title": "Plant-based tasting at Vedge",
+  "intent": "Pioneering vegan fine dining in a Center City brownstone.",
+  "description": "Richard Landau and Kate Jacoby's vegan restaurant (since 2011) offers shareable seasonal dishes built around vegetables, in a charming Locust Street townhouse. Michelin-listed and a go-to even for non-vegans.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "vegan",
+  "tags": [
+    "vegan",
+    "michelin-listed",
+    "date-night",
+    "shareable"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Vedge",
+    "address": "1221 Locust St, Philadelphia, PA 19107",
+    "neighborhood": "Washington Square West"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 2,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "21:15"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "21:15"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "booking",
+      "url": "https://www.opentable.com/vedge"
+    }
+  ],
+  "sources": [
+    "https://www.opentable.com/vedge",
+    "https://www.yelp.com/biz/vedge-philadelphia?start=80",
+    "https://www.visitphilly.com/articles/philadelphia/michelin-restaurants/"
+  ],
+  "uncertain": [
+    "price",
+    "Sunday hours",
+    "official website"
+  ],
+  "slug": "plant-based-tasting-at-vedge",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9479023,
+    "lng": -75.1613868
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Restaurants worth a special trip in Center City and Rittenhouse",
+  "drafted_at": "2026-10-20T01:08:55.235Z",
+  "model": "claude-sonnet-5-5"
+}

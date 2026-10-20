@@ -1,0 +1,111 @@
+{
+  "title": "Basement jazz, pool and shuffleboard at Cellar Dog",
+  "intent": "Combine cheap drinks and games with live jazz in a casual basement bar.",
+  "description": "A Center City basement bar and live jazz club, an offshoot of the NYC original, with pool tables, shuffleboard, ping pong and bands several nights a week. Late sets are added on Fridays and Saturdays.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "jazz bar",
+  "tags": [
+    "jazz",
+    "games",
+    "pool",
+    "cheap",
+    "late-night",
+    "basement"
+  ],
+  "good_for": [
+    "friends",
+    "date",
+    "group",
+    "solo"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Cellar Dog",
+    "address": "258 S 15th St, Philadelphia, PA 19102",
+    "neighborhood": "Rittenhouse"
+  },
+  "price_usd": {
+    "min": 5,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "00:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "00:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "00:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "16:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://phillygrub.blog/2024/11/18/cellar-dog-philly/",
+    "https://www.yelp.com/biz/cellar-dog-philadelphia",
+    "https://www.theinfatuation.com/philadelphia/reviews/cellar-dog",
+    "https://www.corner.inc/place/pHwzmeByCWe7"
+  ],
+  "uncertain": [
+    "official website",
+    "hours (Yelp; another source lists live music Wed-Sun)",
+    "current cover (reported $5 after 6pm)"
+  ],
+  "slug": "basement-jazz-pool-and-shuffleboard-at-cellar-dog",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.947698,
+    "lng": -75.166533
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.183Z",
+  "model": "claude-sonnet-5-5"
+}

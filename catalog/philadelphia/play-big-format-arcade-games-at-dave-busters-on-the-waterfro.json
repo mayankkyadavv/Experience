@@ -1,0 +1,83 @@
+{
+  "title": "Play big-format arcade games at Dave & Buster's on the waterfront",
+  "intent": "Big arcade, food and drinks on the Delaware waterfront.",
+  "description": "Chain entertainment complex at Pier 19 North with a large arcade, sports bar and full menu. Pay-per-play game card system; popular for groups and birthdays.",
+  "category": "games",
+  "kind": "place",
+  "subcategory": "arcade",
+  "tags": [
+    "arcade",
+    "waterfront",
+    "group-friendly",
+    "rainy-day",
+    "family-friendly"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Dave & Buster's Philadelphia",
+    "address": "325 N Columbus Blvd, Philadelphia, PA 19106",
+    "neighborhood": "Penn's Landing"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 2,
+    "max": 15
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.daveandbusters.com"
+    }
+  ],
+  "sources": [
+    "https://rnbphilly.com/3673469/the-11-best-bars-in-philly-with-arcade-games/",
+    "https://www.yelp.com/search?cflt=arcades&find_loc=Philadelphia%2C+PA"
+  ],
+  "uncertain": [
+    "address (from memory, not confirmed by fetched page)",
+    "hours",
+    "price_usd"
+  ],
+  "slug": "play-big-format-arcade-games-at-dave-busters-on-the-waterfro",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9575697,
+    "lng": -75.1381143
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Arcades, bowling, mini golf, axe throwing and escape rooms",
+  "drafted_at": "2026-10-20T00:27:35.844Z",
+  "model": "claude-sonnet-5-5"
+}

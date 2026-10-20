@@ -1,0 +1,113 @@
+{
+  "title": "See Jim Gaffigan's \"Everything is Wonderful!\" stand-up tour at Miller Theater",
+  "intent": "Catch one of the biggest touring stand-up comics in a multi-night Philly run.",
+  "description": "Jim Gaffigan brings his observational, food-and-family-flavored stand-up to the Kimmel Cultural Campus for several shows over three nights. Expect a roughly 90-minute clean-ish comedy set in a large historic theater.",
+  "category": "comedy",
+  "kind": "event",
+  "subcategory": "stand-up",
+  "tags": [
+    "stand-up",
+    "touring-act",
+    "date-night",
+    "holiday-season"
+  ],
+  "good_for": [
+    "date",
+    "friends",
+    "group",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Miller Theater",
+    "address": "250 S. Broad St, Philadelphia, PA 19102",
+    "neighborhood": "Avenue of the Arts"
+  },
+  "price_usd": {
+    "min": 86,
+    "max": 185
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-12-10",
+      "end": "2026-12-12"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-12-10",
+      "start": null,
+      "end": null
+    },
+    {
+      "date": "2026-12-11",
+      "start": "19:30",
+      "end": null
+    },
+    {
+      "date": "2026-12-12",
+      "start": "17:00",
+      "end": null
+    },
+    {
+      "date": "2026-12-12",
+      "start": "20:00",
+      "end": null
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.ensembleartsphilly.org/tickets-and-events/ensemble-arts-philly-presents/jim-gaffigan"
+    }
+  ],
+  "sources": [
+    "https://www.ensembleartsphilly.org/tickets-and-events/ensemble-arts-philly-presents/jim-gaffigan",
+    "https://www.cmctheclub.com/jim-gaffigan-2/",
+    "https://www.vividseats.com/jim-gaffigan-tickets-philadelphia-kimmel-center---miller-theater-12-12-2026/production/7170478"
+  ],
+  "uncertain": [
+    "Dec 10 showtime",
+    "price (resale site range: from $86, avg $185)",
+    "some third-party listings also show Perelman Theater shows on Dec 11-12"
+  ],
+  "slug": "see-jim-gaffigans-everything-is-wonderful-stand-up-tour-at-m",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9477895,
+    "lng": -75.1644205
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Concerts, comedy shows and performances with specific dates between 2026-10-20 and 2026-12-31",
+  "drafted_at": "2026-10-20T01:18:20.055Z",
+  "model": "claude-sonnet-5-5"
+}

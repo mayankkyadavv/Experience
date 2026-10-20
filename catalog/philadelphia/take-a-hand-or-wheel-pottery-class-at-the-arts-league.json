@@ -1,0 +1,75 @@
+{
+  "title": "Take a hand or wheel pottery class at The Arts League",
+  "intent": "Affordable community ceramics classes in University City.",
+  "description": "The Arts League is a nonprofit with adult hand and wheel pottery sessions through the week, open studio hours, and other workshops such as portrait drawing, crocheting and rug braiding.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "pottery",
+  "tags": [
+    "pottery",
+    "community",
+    "university-city",
+    "open-studio"
+  ],
+  "good_for": [
+    "solo",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The Arts League",
+    "address": "4226 Spruce St, Philadelphia, PA 19104",
+    "neighborhood": "University City"
+  },
+  "price_usd": null,
+  "duration_minutes": null,
+  "group_size": null,
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "other",
+      "url": "https://www.phillymag.com/be-well-philly/pottery-classes-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://www.phillymag.com/be-well-philly/pottery-classes-philadelphia/"
+  ],
+  "uncertain": [
+    "official website URL",
+    "price_usd",
+    "hours",
+    "current schedule"
+  ],
+  "slug": "take-a-hand-or-wheel-pottery-class-at-the-arts-league",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9521367,
+    "lng": -75.2082617
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.451Z",
+  "model": "claude-sonnet-5-5"
+}

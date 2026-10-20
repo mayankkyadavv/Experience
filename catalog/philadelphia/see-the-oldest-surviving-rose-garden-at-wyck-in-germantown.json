@@ -1,0 +1,109 @@
+{
+  "title": "See the oldest surviving rose garden at Wyck in Germantown",
+  "intent": "Duck into a hidden 2.5-acre historic garden off Germantown Avenue.",
+  "description": "Wyck is a historic Quaker farmstead with a rare early American rose garden of 50+ old rose varieties and boxwood hedges. Grounds are open for visitation Tuesday to Saturday with guided tours offered.",
+  "category": "outdoors",
+  "kind": "place",
+  "subcategory": "historic garden",
+  "tags": [
+    "historic",
+    "rose-garden",
+    "germantown",
+    "quiet"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Wyck Historic House and Garden",
+    "address": "6026 Germantown Ave, Philadelphia, PA 19144",
+    "neighborhood": "Germantown"
+  },
+  "price_usd": null,
+  "duration_minutes": {
+    "min": 30,
+    "max": 90
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 3,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 4,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 5,
+      "open": "10:00",
+      "close": "16:00"
+    },
+    {
+      "day": 6,
+      "open": "10:00",
+      "close": "16:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://wyck.org/"
+    }
+  ],
+  "sources": [
+    "https://historicgermantownpa.org/greenspace/",
+    "https://www.visitphilly.com/things-to-do/attractions/wyck/",
+    "https://historicgermantownpa.org/wyck/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "street address and website from memory",
+    "fall/winter hours may differ; roses bloom mainly in spring-summer"
+  ],
+  "slug": "see-the-oldest-surviving-rose-garden-at-wyck-in-germantown",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0400086,
+    "lng": -75.1784283
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Parks, gardens and arboretums",
+  "drafted_at": "2026-10-20T01:18:58.773Z",
+  "model": "claude-sonnet-5-5"
+}

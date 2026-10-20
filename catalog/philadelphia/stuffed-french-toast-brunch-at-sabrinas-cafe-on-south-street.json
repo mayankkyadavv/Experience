@@ -1,0 +1,122 @@
+{
+  "title": "Stuffed French toast brunch at Sabrina's Cafe on South Street",
+  "intent": "Classic Philly brunch with big portions and creative French toast.",
+  "description": "Sabrina's is a local brunch chain known for stuffed brioche French toast and big omelets. The South Street location in Graduate Hospital has a full bar, so mimosas and brunch cocktails are on offer. No reservations, so expect a wait on weekends.",
+  "category": "food",
+  "kind": "place",
+  "subcategory": "brunch",
+  "tags": [
+    "brunch",
+    "popular",
+    "bar",
+    "weekend-wait"
+  ],
+  "good_for": [
+    "friends",
+    "family",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Sabrina's Cafe (South Street)",
+    "address": "2101 South St, Philadelphia, PA 19146",
+    "neighborhood": "Graduate Hospital"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 30
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 90
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "15:00"
+    },
+    {
+      "day": 0,
+      "open": "07:00",
+      "close": "15:00"
+    },
+    {
+      "day": 6,
+      "open": "07:00",
+      "close": "15:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.sabrinascafe.com/location/sabrinas-cafe-south-street/"
+    }
+  ],
+  "sources": [
+    "https://www.sabrinascafe.com/location/sabrinas-cafe-south-street/",
+    "https://www.timeout.com/philadelphia/restaurants/best-brunch-in-philadelphia"
+  ],
+  "uncertain": [
+    "price_usd",
+    "duration_minutes",
+    "reservations policy"
+  ],
+  "slug": "stuffed-french-toast-brunch-at-sabrinas-cafe-on-south-street",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9451878,
+    "lng": -75.177063
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Brunch spots",
+  "drafted_at": "2026-10-20T01:10:41.864Z",
+  "model": "claude-sonnet-5-5"
+}

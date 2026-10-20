@@ -1,0 +1,141 @@
+{
+  "title": "Explore the haunted 1860 Lincoln Mill in Manayunk",
+  "intent": "Walk through a timed haunted house inside a real Manayunk textile mill, with new rooms this year.",
+  "description": "Lincoln Mill Haunted House is set in an 1860 mill on the Manayunk Canal, telling a story of bodies found in a hidden basement chamber. This season adds three new rooms and an outdoor Mill Yard; general admission includes the river deck, and VIP skips the line.",
+  "category": "nightlife",
+  "kind": "event",
+  "subcategory": "haunted house",
+  "tags": [
+    "haunted-house",
+    "halloween",
+    "seasonal",
+    "manayunk",
+    "scary"
+  ],
+  "good_for": [
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Lincoln Mill Haunted House",
+    "address": "4100 Main St, Philadelphia, PA 19127",
+    "neighborhood": "Manayunk"
+  },
+  "price_usd": {
+    "min": 38,
+    "max": 55
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 90
+  },
+  "group_size": {
+    "min": 2,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-09-26",
+      "end": "2026-11-07"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-22",
+      "start": "19:00",
+      "end": "22:00"
+    },
+    {
+      "date": "2026-10-23",
+      "start": "19:00",
+      "end": "22:30"
+    },
+    {
+      "date": "2026-10-24",
+      "start": "18:30",
+      "end": "22:30"
+    },
+    {
+      "date": "2026-10-25",
+      "start": "19:00",
+      "end": "22:00"
+    },
+    {
+      "date": "2026-10-28",
+      "start": "19:00",
+      "end": "22:00"
+    },
+    {
+      "date": "2026-10-29",
+      "start": "19:00",
+      "end": "22:00"
+    },
+    {
+      "date": "2026-10-30",
+      "start": "18:30",
+      "end": "22:30"
+    },
+    {
+      "date": "2026-10-31",
+      "start": "18:30",
+      "end": "22:30"
+    },
+    {
+      "date": "2026-11-01",
+      "start": "19:00",
+      "end": "22:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://lincolnmillhaunt.com/"
+    },
+    {
+      "kind": "tickets",
+      "url": "https://lincolnmillhaunt2026.fearticket.com/"
+    }
+  ],
+  "sources": [
+    "https://hauntedattractionnetwork.com/lincoln-mill-haunted-house/",
+    "https://lincolnmillhaunt2026.fearticket.com/",
+    "https://www.visitphilly.com/articles/philadelphia/the-10-scariest-halloween-attractions-in-philadelphia/"
+  ],
+  "uncertain": [
+    "Nov 7 hours (schedule table truncated)",
+    "Oct 24 shown as sold out for one university group trip only; general tickets not confirmed"
+  ],
+  "slug": "explore-the-haunted-1860-lincoln-mill-in-manayunk",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 40.0222282,
+    "lng": -75.2186803
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Halloween and fall activities for late October 2026 (haunted attractions, pumpkin patches, apple picking near Philly)",
+  "drafted_at": "2026-10-20T01:14:21.063Z",
+  "model": "claude-sonnet-5-5"
+}

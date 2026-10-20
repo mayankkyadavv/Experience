@@ -1,0 +1,127 @@
+{
+  "title": "Walk or ride the Delaware River Trail from Penn Treaty Park",
+  "intent": "Waterfront path with Ben Franklin Bridge views from Fishtown toward Penn's Landing.",
+  "description": "The Delaware River Trail is a multi-use path along the Delaware, with its northern start at Penn Treaty Park in Fishtown. It runs about 3.3 miles south through Penn's Landing, passing Spruce Street Harbor Park and the Ben Franklin Bridge down to Pier 70 in South Philly.",
+  "category": "outdoors",
+  "kind": "route",
+  "subcategory": "river walk",
+  "tags": [
+    "free",
+    "skyline-views",
+    "waterfront",
+    "cycling",
+    "scenic"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Penn Treaty Park / Delaware River Trail",
+    "address": "1301 N Beach St, Philadelphia, PA 19125",
+    "neighborhood": "Fishtown"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "18:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "18:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.penntreatypark.org/getting-here"
+    },
+    {
+      "kind": "other",
+      "url": "https://en.wikipedia.org/wiki/Delaware_River_Trail"
+    }
+  ],
+  "sources": [
+    "https://www.penntreatypark.org/getting-here",
+    "https://en.wikipedia.org/wiki/Delaware_River_Trail",
+    "https://www.alltrails.com/trail/us/pennsylvania/delaware-river-trail"
+  ],
+  "uncertain": [
+    "park hours may differ (other sources list 7am-10pm)",
+    "trail length varies by source"
+  ],
+  "slug": "walk-or-ride-the-delaware-river-trail-from-penn-treaty-park",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.966975,
+    "lng": -75.128504
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Trails, river walks and bike rides (Schuylkill River Trail, Wissahickon, Forbidden Drive)",
+  "drafted_at": "2026-10-20T01:05:59.358Z",
+  "model": "claude-sonnet-5-5"
+}

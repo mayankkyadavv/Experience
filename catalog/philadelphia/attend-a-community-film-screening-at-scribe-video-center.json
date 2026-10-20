@@ -1,0 +1,86 @@
+{
+  "title": "Attend a community film screening at Scribe Video Center",
+  "intent": "See independent and community-made documentaries, often with the filmmakers, in West Philadelphia.",
+  "description": "Scribe Video Center is a West Philadelphia media-arts nonprofit that runs seasonal screening series and community film projects, often free, with some held at partner venues such as Parkway Central Library. Check its site for the current fall program.",
+  "category": "arts_culture",
+  "kind": "activity",
+  "subcategory": "community cinema",
+  "tags": [
+    "documentary",
+    "community",
+    "free",
+    "west philly"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Scribe Video Center",
+    "address": "3908 Lancaster Ave, Philadelphia, PA 19104",
+    "neighborhood": "West Philadelphia"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 10
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 10
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://scribe.org/"
+    }
+  ],
+  "sources": [
+    "https://scribe.org/",
+    "https://scribe.org/PR1",
+    "https://billypenn.com/2026/09/19/scribe-video-center-philadelphia-filmmakers-city-guide/"
+  ],
+  "uncertain": [
+    "current screening schedule",
+    "price_usd",
+    "whether screenings are still held at 3908 Lancaster Ave"
+  ],
+  "slug": "attend-a-community-film-screening-at-scribe-video-center",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9620877,
+    "lng": -75.2005717
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Movie theaters, indie cinemas and outdoor screenings",
+  "drafted_at": "2026-10-20T01:12:03.283Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,117 @@
+{
+  "title": "Upstairs DJ dance floor at The 700",
+  "intent": "A casual Northern Liberties soccer bar with a no-cover DJ dance level upstairs.",
+  "description": "Multilevel Northern Liberties bar with a soccer-on-the-telly ground floor and an upstairs dance room whose vibe changes with each night's DJ. Reported as long-running with a college-leaning crowd.",
+  "category": "nightlife",
+  "kind": "place",
+  "subcategory": "bar with DJ",
+  "tags": [
+    "djs",
+    "soccer",
+    "casual",
+    "northern-liberties",
+    "cheap"
+  ],
+  "good_for": [
+    "friends",
+    "group"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "The 700",
+    "address": "700 N 2nd St, Philadelphia, PA 19123",
+    "neighborhood": "Northern Liberties"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 20
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 240
+  },
+  "group_size": {
+    "min": 2,
+    "max": 10
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "13:00",
+      "close": "02:00"
+    },
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "16:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://punchdrink.com/venues/the-700/",
+    "https://maps.apple.com/place?place-id=I5E57CC44356E6D2D",
+    "https://www.visitphilly.com/media-center/press-releases/in-philly-dance-clubs-are-over-the-top-and-under-the-radar/"
+  ],
+  "uncertain": [
+    "Saturday hours",
+    "current DJ schedule",
+    "no-cover policy is from older Visit Philly copy"
+  ],
+  "slug": "upstairs-dj-dance-floor-at-the-700",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9620488,
+    "lng": -75.1413848
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Dance clubs, DJ nights and late-night spots",
+  "drafted_at": "2026-10-20T01:12:51.156Z",
+  "model": "claude-sonnet-5-5"
+}

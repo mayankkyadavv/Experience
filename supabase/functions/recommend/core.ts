@@ -129,7 +129,12 @@ export function priceLabel(min: number | null, max: number | null): string | und
 
 export function durationLabel(min: number | null, max: number | null): string | undefined {
   if (min === null) return undefined;
-  const f = (m: number) => (m < 60 ? `${m} min` : m % 60 === 0 ? `${m / 60} hr${m === 60 ? "" : "s"}` : `${(m / 60).toFixed(1)} hrs`);
+  // Half hours read as "1.5 hrs"; other odd minutes as "1 hr 20 min".
+  const f = (m: number) =>
+    m < 60 ? `${m} min`
+    : m % 60 === 0 ? `${m / 60} hr${m === 60 ? "" : "s"}`
+    : m % 30 === 0 ? `${m / 60} hrs`
+    : `${Math.floor(m / 60)} hr ${m % 60} min`;
   return max !== null && max !== min ? `${f(min)}–${f(max)}` : f(min);
 }
 

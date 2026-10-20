@@ -1,0 +1,85 @@
+{
+  "title": "Work or linger over pour-overs at Elixr's Callowhill roastery",
+  "intent": "A big, bright laptop-friendly cafe with a working roastery and plenty of seating.",
+  "description": "Elixr's 2,000-square-foot cafe and roastery in the Goldtex Building serves rotating hand-poured coffees, specialty lattes, matcha and pastries. It's roomy, with wifi and outlets, so it works for getting things done or catching up with friends.",
+  "category": "cafe",
+  "kind": "place",
+  "subcategory": "specialty coffee",
+  "tags": [
+    "laptop-friendly",
+    "roastery",
+    "spacious",
+    "wifi"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Elixr Coffee Roasters",
+    "address": "315 N 12th St, Philadelphia, PA 19107",
+    "neighborhood": "Callowhill"
+  },
+  "price_usd": {
+    "min": 4,
+    "max": 12
+  },
+  "duration_minutes": {
+    "min": 45,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.elixrcoffee.com/"
+    }
+  ],
+  "sources": [
+    "https://www.theinfatuation.com/philadelphia/reviews/elixr-coffee-roasters",
+    "https://www.corner.inc/place/107402",
+    "https://www.tripexpert.com/philadelphia/restaurants/elixr-coffee-roasters"
+  ],
+  "uncertain": [
+    "hours",
+    "official website url"
+  ],
+  "slug": "work-or-linger-over-pour-overs-at-elixrs-callowhill-roastery",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9581762,
+    "lng": -75.1580821
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Coffee shops and cafes good for hanging out",
+  "drafted_at": "2026-10-20T01:16:05.316Z",
+  "model": "claude-sonnet-5-5"
+}

@@ -1,0 +1,117 @@
+{
+  "title": "Listen to a Hammond B3 at Bob & Barbara's Lounge",
+  "intent": "Enjoy a no-cover dive bar with weekend live jazz and a Citywide Special.",
+  "description": "A South Street dive bar open since 1969, known for its PBR-and-shot Citywide Special. It features no-cover live bands on Friday and Saturday nights and is the only Philly club still using a Hammond B3 organ for jazz. Cash only.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "dive bar",
+  "tags": [
+    "dive-bar",
+    "no-cover",
+    "cheap",
+    "jazz",
+    "cash-only"
+  ],
+  "good_for": [
+    "friends",
+    "solo",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Bob & Barbara's Lounge",
+    "address": "1509 South St, Philadelphia, PA 19146",
+    "neighborhood": "Graduate Hospital"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 15
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [
+    {
+      "day": 0,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 1,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 2,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 3,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 4,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 5,
+      "open": "16:00",
+      "close": "02:00"
+    },
+    {
+      "day": 6,
+      "open": "16:00",
+      "close": "02:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.phillymag.com/restaurants/philly-jazz-bars-restaurants/",
+    "https://www.yelp.com/biz/bob-and-barbaras-philadelphia",
+    "https://mindtrip.ai/restaurant/philadelphia-pennsylvania/bob-barbaras-lounge/re-OeUXC4bR"
+  ],
+  "uncertain": [
+    "official website",
+    "current band lineup"
+  ],
+  "slug": "listen-to-a-hammond-b3-at-bob-barbaras-lounge",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9439702,
+    "lng": -75.1674777
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Jazz clubs, blues bars and places with live jazz most nights",
+  "drafted_at": "2026-10-20T00:27:19.184Z",
+  "model": "claude-sonnet-5-5"
+}

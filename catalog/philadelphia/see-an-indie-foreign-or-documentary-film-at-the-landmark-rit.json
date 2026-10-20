@@ -1,0 +1,86 @@
+{
+  "title": "See an indie, foreign or documentary film at the Landmark Ritz Five",
+  "intent": "Catch arthouse and awards-season films in Old City's long-running independent cinema.",
+  "description": "Five-screen Old City arthouse cinema, opened in 1976, showing independent, foreign-language and documentary films alongside some wider releases. It was closed by a fire-safety order in August 2026 and reopened in early September after the violations were fixed.",
+  "category": "arts_culture",
+  "kind": "place",
+  "subcategory": "arthouse cinema",
+  "tags": [
+    "indie film",
+    "old city",
+    "rainy-day",
+    "date night"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Landmark Ritz Five",
+    "address": "214 Walnut St, Philadelphia, PA 19106",
+    "neighborhood": "Old City"
+  },
+  "price_usd": {
+    "min": 10,
+    "max": 17
+  },
+  "duration_minutes": {
+    "min": 90,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.landmarktheatres.com/our-locations/x081d-landmark-ritz-five-philadelphia/"
+    }
+  ],
+  "sources": [
+    "https://www.landmarktheatres.com/our-locations/x081d-landmark-ritz-five-philadelphia/",
+    "https://www.inquirer.com/business/landmark-ritz-five-open-movie-theater-philadelphia-20260904.html",
+    "https://northeasttimes.com/2026/09/05/landmark-ritz-five-back-open-for-labor-day-weekend-after-fire-safety-shutdown/"
+  ],
+  "uncertain": [
+    "hours",
+    "price_usd",
+    "duration_minutes"
+  ],
+  "slug": "see-an-indie-foreign-or-documentary-film-at-the-landmark-rit",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9467636,
+    "lng": -75.1455779
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Movie theaters, indie cinemas and outdoor screenings",
+  "drafted_at": "2026-10-20T01:12:03.280Z",
+  "model": "claude-sonnet-5-5"
+}

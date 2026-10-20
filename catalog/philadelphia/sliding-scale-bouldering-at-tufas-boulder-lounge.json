@@ -1,0 +1,83 @@
+{
+  "title": "Sliding-scale bouldering at Tufas Boulder Lounge",
+  "intent": "Climb at an affordable, welcoming bouldering gym with a sliding-scale day pass.",
+  "description": "A 12,700 sq ft bouldering gym in North Philly's Fishtown/Olde Kensington area. Reviewers mention a sliding-scale day pass with a minimum of about $15.",
+  "category": "active",
+  "kind": "place",
+  "subcategory": "rock climbing",
+  "tags": [
+    "indoor",
+    "rainy-day",
+    "cheap",
+    "bouldering",
+    "sliding-scale"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Tufas Boulder Lounge",
+    "address": "1614 N 5th St, Philadelphia, PA 19122",
+    "neighborhood": "Olde Kensington"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 150
+  },
+  "group_size": {
+    "min": 1,
+    "max": 6
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.yelp.com/biz/tufas-boulder-lounge-philadelphia",
+    "https://www.inquirer.com/news/philadelphia/new-rock-climbing-gym-fishtown-philadelphia-movement-20251103.html"
+  ],
+  "uncertain": [
+    "official website",
+    "price max",
+    "hours (Mon/Wed 6am-10pm, Tue/Thu 9am-10pm seen; Fri-Sun not seen)",
+    "duration_minutes",
+    "group_size"
+  ],
+  "slug": "sliding-scale-bouldering-at-tufas-boulder-lounge",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9759354,
+    "lng": -75.1438759
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Outdoor activities: kayaking, paddleboarding, rock climbing gyms, ice skating, roller rinks",
+  "drafted_at": "2026-10-20T00:33:19.251Z",
+  "model": "claude-sonnet-5-5"
+}

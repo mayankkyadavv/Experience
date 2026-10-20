@@ -1,0 +1,97 @@
+{
+  "title": "Walk-in natural wine at Le Caveau above The Good King Tavern",
+  "intent": "Dim, romantic second-floor wine bar for a spontaneous date.",
+  "description": "Small, moody wine bar upstairs from The Good King Tavern, with a natural-leaning list split between 'France' and 'Not France' plus bar snacks and fries. Walk-ins only.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "natural wine",
+  "tags": [
+    "natural-wine",
+    "date-night",
+    "walk-in",
+    "french",
+    "cozy"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Le Caveau",
+    "address": "614 S 7th St, Philadelphia, PA 19147",
+    "neighborhood": "Bella Vista"
+  },
+  "price_usd": {
+    "min": 30,
+    "max": 60
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "23:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "00:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [],
+  "sources": [
+    "https://www.theinfatuation.com/philadelphia/guides/good-wine-philadelphia",
+    "https://www.yelp.com/biz/le-caveau-philadelphia",
+    "https://wanderlog.com/place/details/749067/le-caveau"
+  ],
+  "uncertain": [
+    "hours (from Yelp, may have changed)",
+    "price",
+    "official website"
+  ],
+  "slug": "walk-in-natural-wine-at-le-caveau-above-the-good-king-tavern",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.9417392,
+    "lng": -75.1542093
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Wine bars and natural-wine spots",
+  "drafted_at": "2026-10-20T00:29:45.049Z",
+  "model": "claude-sonnet-5-5"
+}

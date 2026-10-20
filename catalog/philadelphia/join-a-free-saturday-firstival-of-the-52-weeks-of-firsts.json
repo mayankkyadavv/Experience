@@ -1,0 +1,132 @@
+{
+  "slug": "join-a-free-saturday-firstival-of-the-52-weeks-of-firsts",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Join a free Saturday 'Firstival' of the 52 Weeks of Firsts",
+  "intent": "Catch a free neighborhood festival celebrating a Philly invention or milestone every Saturday.",
+  "description": "Every Saturday of 2026, Philadelphia's Historic District 250th Committee hosts a free public Firstival at the site of a historic 'first' (e.g. the first selfie at Franklin Square), with storytelling, family activities, music and giveaways. Locations and themes change weekly, so check the schedule.",
+  "category": "event",
+  "kind": "event",
+  "subcategory": "festival",
+  "tags": [
+    "free",
+    "250th",
+    "family-friendly",
+    "history",
+    "seasonal"
+  ],
+  "good_for": [
+    "family",
+    "friends",
+    "group",
+    "date"
+  ],
+  "location_requirement": "flexible",
+  "place": null,
+  "price_usd": {
+    "min": 0,
+    "max": 0
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": null,
+  "hours": [],
+  "dates": [
+    {
+      "start": "2026-10-24",
+      "end": "2026-12-26"
+    }
+  ],
+  "occurrences": [
+    {
+      "date": "2026-10-24",
+      "start": "11:00",
+      "end": "13:00"
+    },
+    {
+      "date": "2026-10-31",
+      "start": "11:00",
+      "end": "13:00"
+    },
+    {
+      "date": "2026-11-07",
+      "start": "11:00",
+      "end": "13:00"
+    },
+    {
+      "date": "2026-11-14",
+      "start": "11:00",
+      "end": "13:00"
+    },
+    {
+      "date": "2026-11-21",
+      "start": "11:00",
+      "end": "13:00"
+    },
+    {
+      "date": "2026-11-28",
+      "start": "11:00",
+      "end": "13:00"
+    },
+    {
+      "date": "2026-12-05",
+      "start": "11:00",
+      "end": "13:00"
+    },
+    {
+      "date": "2026-12-12",
+      "start": "11:00",
+      "end": "13:00"
+    },
+    {
+      "date": "2026-12-19",
+      "start": "11:00",
+      "end": "13:00"
+    },
+    {
+      "date": "2026-12-26",
+      "start": "11:00",
+      "end": "13:00"
+    }
+  ],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://historicphiladelphia.org/events/52-weeks-of-firsts/"
+    }
+  ],
+  "sources": [
+    "https://historicphiladelphia.org/events/52-weeks-of-firsts/",
+    "https://www.visitphilly.com/articles/philadelphia/top-things-to-do-in-philadelphia-in-november/",
+    "https://northeasttimes.com/2026/08/20/philadelphia-s-52-weeks-of-firsts-celebrates-the-original-selfie-saturday/"
+  ],
+  "uncertain": [
+    "Location and exact times for each Saturday (11am-1pm seen for some; others differ)",
+    "Theme of each week"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Free things to do in Philadelphia",
+  "drafted_at": "2026-10-20T01:17:16.673Z",
+  "model": "claude-sonnet-5-5"
+}

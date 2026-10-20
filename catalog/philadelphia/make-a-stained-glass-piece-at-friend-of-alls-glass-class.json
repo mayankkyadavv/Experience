@@ -1,0 +1,80 @@
+{
+  "slug": "make-a-stained-glass-piece-at-friend-of-alls-glass-class",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Make a stained glass piece at Friend of All's Glass Class",
+  "intent": "Cut, grind and solder your own stained glass in a small Manayunk studio.",
+  "description": "Friend of All is a small stained glass studio that runs intro workshops (such as a stained glass nightlight, 10am-1pm) and an Intro 1 class listed at $180. Materials and instruction are included.",
+  "category": "class",
+  "kind": "activity",
+  "subcategory": "stained glass",
+  "tags": [
+    "stained-glass",
+    "beginner-friendly",
+    "manayunk",
+    "small-class"
+  ],
+  "good_for": [
+    "solo",
+    "friends",
+    "date"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Friend of All Studio",
+    "address": "126 Leverington Ave, Studio C, Philadelphia, PA 19127",
+    "neighborhood": "Manayunk"
+  },
+  "price_usd": {
+    "min": 100,
+    "max": 180
+  },
+  "duration_minutes": {
+    "min": 180,
+    "max": 180
+  },
+  "group_size": {
+    "min": 1,
+    "max": 8
+  },
+  "hours": [],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://www.glass-class.org/"
+    }
+  ],
+  "sources": [
+    "https://www.glass-class.org/"
+  ],
+  "uncertain": [
+    "price range for the nightlight workshop",
+    "upcoming dates",
+    "group_size"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Hands-on classes: pottery, painting, glassblowing, woodworking",
+  "drafted_at": "2026-10-20T00:29:55.449Z",
+  "model": "claude-sonnet-5-5"
+}

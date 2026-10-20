@@ -1,0 +1,93 @@
+{
+  "slug": "chestnut-hill-farmers-market-on-germantown-ave",
+  "city": "philadelphia",
+  "status": "draft",
+  "title": "Chestnut Hill Farmers Market on Germantown Ave",
+  "intent": "Shop a producer-only Saturday market in Philly's Victorian-feeling northwest corner.",
+  "description": "Outdoor, producer-only farmers market on Germantown Avenue in front of The Mermaid Inn, held every Saturday year-round, 9am to noon. Pair it with a walk along Chestnut Hill's shops.",
+  "category": "market",
+  "kind": "place",
+  "subcategory": "farmers market",
+  "tags": [
+    "farmers-market",
+    "outdoor",
+    "year-round",
+    "saturday",
+    "chestnut-hill"
+  ],
+  "good_for": [
+    "solo",
+    "date",
+    "friends",
+    "family"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "Chestnut Hill Farmers Market",
+    "address": "Germantown Ave & Mermaid Ln, Philadelphia, PA 19118",
+    "neighborhood": "Chestnut Hill"
+  },
+  "price_usd": {
+    "min": 0,
+    "max": 25
+  },
+  "duration_minutes": {
+    "min": 30,
+    "max": 60
+  },
+  "group_size": {
+    "min": 1,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 6,
+      "open": "09:00",
+      "close": "12:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "https://chestnuthillpa.com/events/the-chestnut-hill-farmers-market-2026-4/"
+    },
+    {
+      "kind": "instagram",
+      "url": "https://www.instagram.com/chestnuthillfm/"
+    }
+  ],
+  "sources": [
+    "https://chestnuthillpa.com/events/the-chestnut-hill-farmers-market-2026-4/",
+    "https://www.instagram.com/chestnuthillfm/",
+    "https://ediblephilly.ediblecommunities.com/shop/edible-phillys-2026-philadelphia-farmers-market-guide/"
+  ],
+  "uncertain": [
+    "price_usd",
+    "cross-street (Mermaid Ln vs Winston Rd in different sources)"
+  ],
+  "coordinates": null,
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated"
+  },
+  "notes": "harvest: Food markets, food halls and farmers markets",
+  "drafted_at": "2026-10-20T00:30:28.762Z",
+  "model": "claude-sonnet-5-5"
+}

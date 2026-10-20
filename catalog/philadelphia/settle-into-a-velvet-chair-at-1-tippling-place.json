@@ -1,0 +1,108 @@
+{
+  "title": "Settle into a velvet chair at 1 Tippling Place",
+  "intent": "A disguised, living-room-style lounge for whiskey and vintage spirits.",
+  "description": "A classic cocktail lounge near Rittenhouse that has operated since 2012, with velvet chairs and leather couches. It's known for its whiskey depth, vintage spirits and a skilled bartending team. Open Tuesday to Saturday evenings.",
+  "category": "bar",
+  "kind": "place",
+  "subcategory": "cocktail lounge",
+  "tags": [
+    "speakeasy-style",
+    "whiskey",
+    "date-night",
+    "rittenhouse"
+  ],
+  "good_for": [
+    "date",
+    "friends"
+  ],
+  "location_requirement": "exact",
+  "place": {
+    "name": "1 Tippling Place",
+    "address": "2006 Chestnut St, Philadelphia, PA 19103",
+    "neighborhood": "Rittenhouse Square"
+  },
+  "price_usd": {
+    "min": 15,
+    "max": 24
+  },
+  "duration_minutes": {
+    "min": 60,
+    "max": 120
+  },
+  "group_size": {
+    "min": 2,
+    "max": 4
+  },
+  "hours": [
+    {
+      "day": 2,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 3,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 4,
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": 5,
+      "open": "17:00",
+      "close": "00:00"
+    },
+    {
+      "day": 6,
+      "open": "17:00",
+      "close": "00:00"
+    }
+  ],
+  "dates": [],
+  "occurrences": [],
+  "links": [
+    {
+      "kind": "website",
+      "url": "http://1tpl.com/"
+    }
+  ],
+  "sources": [
+    "https://www.yelp.com/biz/1-tippling-place-philadelphia",
+    "https://barmagazine.com/bars/one-tippling-place-philadelphia"
+  ],
+  "uncertain": [
+    "price"
+  ],
+  "slug": "settle-into-a-velvet-chair-at-1-tippling-place",
+  "city": "philadelphia",
+  "status": "draft",
+  "coordinates": {
+    "lat": 39.951931,
+    "lng": -75.1738615
+  },
+  "image_url": null,
+  "provenance": {
+    "title": "estimated",
+    "intent": "estimated",
+    "description": "estimated",
+    "category": "estimated",
+    "kind": "estimated",
+    "subcategory": "estimated",
+    "tags": "estimated",
+    "good_for": "estimated",
+    "location_requirement": "estimated",
+    "place": "estimated",
+    "price_usd": "estimated",
+    "duration_minutes": "estimated",
+    "group_size": "estimated",
+    "hours": "estimated",
+    "dates": "estimated",
+    "occurrences": "estimated",
+    "coordinates": "lookup"
+  },
+  "notes": "harvest: Cocktail bars and speakeasies worth going to on purpose",
+  "drafted_at": "2026-10-20T00:34:55.452Z",
+  "model": "claude-sonnet-5-5"
+}
