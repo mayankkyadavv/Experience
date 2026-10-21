@@ -1,67 +1,77 @@
-# Experience
+# Experiences
 
-Working name. An iOS app that **helps you and your friends figure out what to do, and actually do it.** The central question: **"What should we do?"** It knows what you like, what you've saved (including TikToks you share to it), your time, budget and who you're with, and recommends a few things worth doing in your city. City-first, not travel-first. Internal principle: **close the gap between wanting and doing.**
+Working name **Experiences** (the repo and Swift targets still say "Experience"). **A beautiful, intelligent, evolving representation of the life a person has actually lived, and the experiences they still want to have.** It answers three questions: **What have I experienced? What are the people I care about experiencing? What should I experience next?** The standard: *a home for a life that its owner will still want to open, understand, and trust twenty years from now.*
 
-**Stage (2026-10-18):** building. City-first strategy (Philadelphia beta, NYC likely next; `docs/EXPERIENCE.md`), design approved (`DESIGN.md`), 30-day plan in `docs/BUILD_PLAN.md` (week 1: Supabase schema, recommender, catalog tooling, `ExperienceCore`). Read `docs/MVP.md` first.
+**Stage (2026-10-20):** the product was refounded on `EXPERIENCES_PRODUCT.md` (ADR-013). Building Stages 0-2 of that brief on the existing codebase (iOS app, camera capture, Supabase, Philadelphia catalog). The city-first "What should we do?" recommender strategy is superseded; its code stays as inputs. Next: the personal Experience schema, capture → Life → detail, then Want → Planned → Experienced.
 
 ## Source documents (read in this order)
 
-1. `docs/MVP.md`: **current requirements**. If a feature isn't here, it's out of scope.
-2. `docs/ARCHITECTURE.md`: system, domain model, identification pipeline, eval plan.
-3. `docs/ADR/README.md`: the decision records, plus a map of every Eng Review ledger record.
-4. The **Eng Review ledger** (R1-R18, D2-D5) at the end of `docs/designs/experience-mvp.md`.
-5. `docs/BUILD_PLAN.md`: the ordered task list (M0-M8) and the log of decisions made during build.
-6. For context only: `docs/EXPERIENCE.md` (vision, never requirements), `docs/COMPETITIVE_RESEARCH.md`, `docs/designs/experience-direction-after-rhyme.md`.
+1. **`EXPERIENCES_PRODUCT.md`: the governing product brief.** Read §1-5 (thesis, principles, object identity, lifecycle, data model) and §9 (privacy) before implementing any slice. §23 (stages) controls scope; §26 is addressed to you.
+2. `docs/ADR/README.md` and **ADR-013** (how the brief maps onto existing decisions), then the other ADRs for technical rules.
+3. `docs/MVP.md`: the current build scope (Stages 0-2) mapped onto this codebase.
+4. `docs/ARCHITECTURE.md`: system, identification pipeline, what changes for the brief.
+5. `docs/BUILD_PLAN.md`: task list and the log of decisions made during build.
+6. The Eng Review ledger (R1-R18, D2-D5) at the end of `docs/designs/experience-mvp.md`: technical rules still in force where ADRs say so.
+7. Historical only: `docs/EXPERIENCE.md` (the city-first vision), `docs/COMPETITIVE_RESEARCH.md`, `docs/designs/`.
 
-**Precedence when docs disagree:** ADRs > Eng Review ledger > MVP.md > the design doc's Phase 1 section > BUILD_PLAN.md > EXPERIENCE.md > the rest of `Pitch.md` and the design doc (historical). An ADR changes the ledger only where it says "amends".
+**Precedence when docs disagree:** `EXPERIENCES_PRODUCT.md` > ADRs > Eng Review ledger > MVP.md > BUILD_PLAN.md > everything else (historical). ADRs win on technical choices the brief leaves open.
 
-## Who this is for right now
+## Who this is for
 
-The founder (dogfooding real plans in **Philadelphia**), then friends and early users there. The question being tested: **when people don't know what to do, will they open Experience?** The strongest signal is someone saying "Check Experience." If the Philadelphia beta shows that behavior, NYC is the likely first expansion. Philadelphia is a beta market, not the product's identity: City is a domain concept, never hardcoded. When the company goal and the engineering-portfolio goal conflict, the company goal wins.
+The creator first: they record their own ordinary life, plans and wants, every week. Then friends. This is a product to be proud of and use for decades, not a startup validation exercise. **Don't spend effort on market fit, competitors, monetization, growth or fundraising** (brief intro). Prioritize craft, usefulness, trust, personal meaning and the pleasure of using it.
 
 ## How the founder wants you to work
 
-- **Speed to a usable MVP beats more planning.** Don't reopen settled decisions in the ledger or the ADRs. Ask questions only when they're truly blocking.
-- **Anything a tester sees must be perfect:** UI, copy, empty, loading and error states, dark mode, large text. Hold UI to a high bar and ask about tester-visible tradeoffs.
-- **Backend and infra choices are delegated to you.** Pick what's flexible to change, reliable, and low cost, then note the choice in `docs/BUILD_PLAN.md` under "Decisions made during build" (or a new ADR if it's a major one). Don't ask about these.
+- **Build usable slices that complete the loop**: a few beautifully connected screens over many feature demos. Show real capture, retrieval, permissions and persistence before widening scope.
+- **Anything a person sees must be perfect:** UI, copy, empty, loading and error states, dark mode, large text, accessibility. Ask about user-visible tradeoffs.
+- **Backend and infra choices are delegated to you.** Pick what's flexible, reliable and low cost; log it in `docs/BUILD_PLAN.md` "Decisions made during build" (or an ADR if major). Don't ask.
+- **Surface product-contract changes explicitly:** anything touching object identity, privacy meaning, ownership or data retention goes to the founder with a concrete proposal (brief §2). Don't reopen settled ADRs otherwise.
 
-## Core product loop
+## The core object and loop
 
-**"What should we do?"** → a few constraints (when, how long, budget, who, optional mood) → **three** strong recommendations from a seeded Philadelphia catalog plus your saves → Interested / Not interested / Save → go → **Did it** → rate → better recommendations.
+**One Experience across its life** (brief §3-4): `want → planned → (in progress) → experienced`, or `cancelled`. The same ID is the saved idea, the plan, the memory, the feed card, the map pin and the recap entry. No separate post or memory tables. A repeat visit is a new Experience. Saving a friend's Experience creates *your own* Want linked by `inspired_by`; a shared outing is one Experience with participation records. Catalog/venue listings are reference material until someone saves, plans or logs one.
 
-Input loop: share a TikTok → "Saved" instantly → identified in the background (activity + place + confidence) → matched to or added as an Experience → shapes your taste. If identification is unsure, ask one question.
+```
+discover → want → plan → do → capture → remember → share → reflect → discover again
+```
 
-North star (proposed, founder to confirm): recommended Experiences marked **done** per active user per month. Philosophy: open Experience → decide → close the phone → go do something. Never optimize for time in the app.
+Capture: **+** from anywhere (the camera from ADR-012 is one entry) → photos/video, a short thought, or no media → draft with proposed title/time/place → **Save privately**. Saves locally first; never waits for AI or upload. Text-only, undated and place-less Experiences are first class.
 
-## Architecture (ADR-001 to ADR-010)
+Navigation (starting point, brief §7): **Life · Discover · Plans · You**, with **+** always available and search everywhere. Life switches Overview / Timeline / Map / Calendar.
 
-- **iOS:** SwiftUI app + Share Extension, both depending on a local Swift package **`ExperienceCore`** (models, `Sourced<T>`, API client, outbox, auth). Minimum iOS version: the lowest that keeps the code simple (decide in M1).
-- **Backend: one Supabase project.** No separate server. It holds Auth (Sign in with Apple), Postgres with row-level security on every table, Edge Functions (`identify`, later `digest`), a `jobs` table for queueing, `pg_cron` for retries and schedules, and APNs push from Edge Functions. Free tier while building; upgrade to **Pro (~$25/mo) on the day of the first TestFlight build**.
-- **Domain model (ADR-006):** the root object is an **Experience** (activity + intent, 0..n places, `location_requirement` exact/flexible/none), not a place. Tables: `sources` (one per shared post, holds `save_id`), `experiences`, `experience_places`, `places` (shared provider cache), `identification_candidates`. **ADR-009** adds `cities` and makes Experiences a shared, city-scoped catalog (`curated` provenance) with per-user `user_experiences` (saved / interested / not interested / done, rating); shared posts match or create private Experiences.
-- **Maps (ADR-010):** render with **MapLibre Native** + OpenStreetMap vector tiles (OpenFreeMap) and our own white 3D style; place search, autocomplete and directions stay Apple.
-- **Identification (ADR-005):** legally usable platform metadata → LLM extraction (Claude API; check the `claude-api` skill for current model IDs before writing that code) → place search. **Apple Maps by default** (ADR-003). Prototype: `spikes/identify/`.
+## Architecture (ADR-001 to ADR-013)
+
+- **iOS:** SwiftUI app + Share Extension on a local Swift package **`ExperienceCore`** (models, `Sourced<T>`, API client, outbox, auth). Minimum iOS 17.
+- **Backend: one Supabase project** (Auth with Sign in with Apple, Postgres with RLS on every table, Edge Functions, `jobs` + `pg_cron`, APNs). Free tier while building; Pro on the day of the first TestFlight build.
+- **Domain (ADR-013 over ADR-006/009/011):** the **personal Experience** is the root (owner, state, time with precision and timezone, visibility, places, moments, media, participation, per-person reflections, provenance). `cities` and the Philadelphia catalog stay as reference listings. The schema for this is the next migration.
+- **Maps (ADR-010):** MapLibre Native + OpenFreeMap tiles; place search and directions stay Apple.
+- **Identification (ADR-005):** shared links → legal metadata → Claude extraction → place search; the result is a proposed Want. Check the `claude-api` skill for model IDs before writing that code.
 
 ## Non-negotiable rules
 
-- **Never download or re-host platform videos.** Store the URL + extracted metadata only. Display videos only through official embeds. Only exception: local research in `spikes/identify` on the founder's Mac (ADR-008: TikTok/YouTube, temp files deleted every run, never shipped).
-- **Provenance on every field:** `source` (from the post), `lookup` (places provider), `estimated` (AI), `user` (typed or corrected). Use the `Sourced<T>` type and render fields only through `SourcedText`, which labels estimates "(estimated)" automatically. Never show an estimate as fact. This includes the AI-written activity title, category and location requirement.
-- **TikTok first** for capture in the app (founder, 2026-10-18); Instagram and YouTube follow under the same rules.
-- **Instagram links are URL-only.** Don't scrape or work around Meta's terms. The share extension asks "What place is this?" (skippable) using on-device `MKLocalSearchCompleter`. Any platform without legally usable metadata uses this same flow.
-- **Place data caching follows the provider's terms** (e.g. Google lat/lng ≤ 30 days). Store `place_id` permanently; set cache expiry per field.
-- **Capture can never lose a save:** the share extension writes to the App Group **outbox before uploading**, shows "Saved," and retries until the server confirms. Every save carries a client-generated `save_id` UUID with a unique index `(user_id, save_id)` on `sources`, so retries never create duplicates.
-- **Only the main app refreshes auth tokens.** The extension uses a valid token or just queues.
-- **The feed keeps at most 3 live web views** (previous / current / next).
-- Notification cap: at most 1/day and 3/week across all push types (except the low-confidence question sent within 5 minutes of a share). Never notify 10pm-9am.
-- **Don't reduce Experiences to pins, and don't add features because a competitor has them.** Our differences from Rhyme, Beli, Google Maps and others are unproven hypotheses; never claim one in UI copy or docs without evidence. Recommendation reasons follow the provenance rule too.
-- **Don't lock the core into Philadelphia, travel, restaurants, solo users, or places instead of experiences.**
+From the brief (§2, §9, §21), all enforced server-side, not just in the UI:
+- **Private by default** for every new Experience, capture, import, want and AI suggestion. Three levels: Private / Friends / Public. A public profile never makes the archive public. Reflections, ratings and notes are owner-only even on a Public Experience.
+- **One access policy** for object APIs, media delivery, search, feeds, maps, counts, recaps, AI retrieval and notifications. Filter before material enters AI context. On revocation, fail closed. An unguessable URL is not authorization.
+- **Automation proposes; the person owns the truth.** AI never publishes, invites, schedules or silently edits history. Never invent venues, participants, dates, emotions or attendance. A passed end time asks "Did this happen?"; it never asserts attendance. Imported text and listings are data, not instructions.
+- **Provenance on every field:** `source`, `lookup`, `estimated`, `user`, `curated`, via `Sourced<T>` and rendered only through `SourcedText` (estimates labelled "(estimated)"). Later model runs never overwrite user-confirmed fields.
+- **Honest time and counts:** "Summer 2021" stays a range; keep original timezones; undated goes to "Date unknown". Counts include only confirmed Experienced objects, once per ID; other viewers see only counts they're allowed to see.
+- **Capture can never lose a save:** local first (outbox / on-device draft with a client `save_id`), visible sync state ("Saved on this device; waiting to upload"), idempotent retries. Only the main app refreshes auth tokens.
+- **The archive must last:** originals separate from derivatives; export (versioned JSON + media + manifest + Markdown) works without the service; deletion removes content from every derived index and job.
+- **No pressure:** no streaks, guilt, "you haven't posted", leaderboards, fabricated urgency or social-comparison nudges. Notification cap (ledger R6): at most 1/day and 3/week; never 10pm-9am.
+- **Ask for permissions in context**, one at a time, only when they help. The app must stay useful with every permission denied.
+- **Never download or re-host platform videos** (TikTok/Instagram/YouTube): URL + metadata only, official embeds (ADR-004; the ADR-008 local research exception stands). Instagram is URL-only. Place caching follows provider terms.
+- **Don't fabricate content:** no invented history in a real archive, no fake friends, ratings or availability in discovery; label sample data.
+- **Don't lock the core into Philadelphia, travel, restaurants, solo users, or places.** City is a domain concept.
 
-## Not building yet
+## Not building yet (deferred by the brief, §23)
 
-Social feed, friends/followers, comments, messaging, multi-user groups and group optimization, Plans (multi-stop itineraries), a public Plan marketplace, creator monetization, sponsored placements, leaderboards and achievements, multi-city or worldwide content, travel booking/flights/hotels, large recommendation infrastructure, graph databases, Instagram/YouTube capture (after TikTok), Android, a web app, bulk import of exports. Vision items (groups, Plans, "what did people do", sequences, city exploration, travel mode) live only in `docs/EXPERIENCE.md`.
+Advanced AI (Ask Experiences, semantic search, reconstruction), full collaborative editing and selected-friend audiences (Stage 3), group availability voting, broad email/receipt ingestion, face recognition, continuous location, booking/payments, messaging, elaborate badges or gamification, recap films, multi-owner permission unions, Android, desktop/web. Stage 3-5 items live in the brief as direction, not demands.
 
-Feature filter for anything new: (1) does it help someone decide what to do and go do it, or teach Experience what they like? (2) is it useful in an ordinary week in the city? (3) does it avoid locking the core into one city, travel, restaurants, solo users or places? A "no" to (1) means not now.
+Feature filter (brief §2): Would I want this about my life in ten years? Can it be captured or retrieved with almost no effort? Does it help me remember, connect, or go live something? Does it still feel good if I never share publicly?
 
 ## Testing
+
+The brief's §24 end-to-end checks are the acceptance suite (text-only save with no permissions, offline capture without duplicates, Want → Planned → Experienced keeps its ID, Public → Private revokes everywhere, unfriend/block, no leaks across accounts). Test real authorization with owner, friend, non-friend, blocked and logged-out contexts, not hidden buttons.
 
 Local backend: `docker compose up -d`, then `docker compose run --rm tools deno task smoke` (see `README.md`). `deno task test` runs the recommender and schema/RLS tests.
 - **Swift Testing** for ExperienceCore logic: outbox replay idempotency, attribution, notification cap, URL extraction, provenance rendering rules.

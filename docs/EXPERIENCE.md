@@ -1,5 +1,7 @@
 # Experience: product vision
 
+> **Superseded 2026-10-20 (ADR-013).** The product is now defined by `EXPERIENCES_PRODUCT.md` (a personal life archive). This city-first vision is historical; don't build from it.
+
 > **This is vision, not requirements.** Nothing here is in scope unless `docs/MVP.md` says so. Agents: never build from this file. Read it for context on *why*, then build from MVP.md, ARCHITECTURE.md and the ADRs.
 
 "Experience" is a working name.

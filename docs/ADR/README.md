@@ -1,6 +1,6 @@
 # Architecture Decision Records
 
-Each ADR records one decision: context, decision, consequences, and how to revisit it. Precedence: **ADRs > Eng Review ledger** (end of `docs/designs/experience-mvp.md`) **> MVP.md**. An ADR changes the ledger only where it explicitly says "amends".
+Each ADR records one decision: context, decision, consequences, and how to revisit it. Precedence: **`EXPERIENCES_PRODUCT.md` (the product brief, ADR-013) > ADRs > Eng Review ledger** (end of `docs/designs/experience-mvp.md`) **> MVP.md**. An ADR changes the ledger only where it explicitly says "amends".
 
 New decisions get the next number. To change one, add a new ADR that supersedes it; don't rewrite history.
 
@@ -14,9 +14,11 @@ New decisions get the next number. To change one, add a new ADR that supersedes 
 | [006](ADR-006-experience-domain-model.md) | Experience is the root domain object | Accepted (amends the ledger) |
 | [007](ADR-007-outbox-idempotent-capture.md) | Outbox capture with idempotent `save_id` | Accepted (amended by 006) |
 | [008](ADR-008-local-video-research-exception.md) | Local research exception: video analysis on the founder's Mac only | Accepted (narrows 004 for research) |
-| [009](ADR-009-city-first-catalog.md) | City-first: shared Experience catalog, City as a domain concept | Accepted (amends 006) |
+| [009](ADR-009-city-first-catalog.md) | City-first: shared Experience catalog, City as a domain concept | Accepted (amends 006); catalog becomes reference listings per 013 |
 | [010](ADR-010-map-rendering.md) | Map rendering: MapLibre Native + OpenStreetMap vector tiles (search stays Apple) | Accepted |
 | [011](ADR-011-data-model-v2.md) | Data model v2: links, occurrences, recommendation items, social graph | Accepted (extends 009) |
+| [012](ADR-012-capture-first.md) | Capture-first: the camera is the home screen | Accepted (amended by 013: media durability) |
+| [013](ADR-013-life-archive-foundation.md) | Experiences is a personal life archive; the product brief governs | Accepted (supersedes city-first; amends 006, 009, 011, 012) |
 
 ## Ledger → ADR map
 

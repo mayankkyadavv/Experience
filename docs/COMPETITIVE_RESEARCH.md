@@ -1,5 +1,7 @@
 # Competitive research
 
+> **Historical (2026-10-20, ADR-013).** The product brief (`EXPERIENCES_PRODUCT.md`) says not to spend the build on competitors or market fit. Kept for reference only; don't use it to justify features.
+
 Living document. Update it whenever someone uses a competitor. Every factual claim needs a source link or the tag **[founder-observed]**. Never write a difference we haven't observed.
 
 ## Summary (updated 2026-10-18, city-first)

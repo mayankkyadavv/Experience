@@ -146,4 +146,23 @@ extension AppModel {
         states[state.experienceId] = state
         return state
     }
+
+    /// Records a capture (media stays on the device) and, with an Experience, marks it done so its pillar rises.
+    func saveCapture(_ media: CapturedMedia, experienceId: UUID?) async throws {
+        struct Row: Encodable {
+            let experience_id: UUID?
+            let kind: String
+            let taken_at: Date
+            let duration_seconds: Double?
+            let device_media_id: String
+        }
+        try await supabase.from("captures").insert(Row(
+            experience_id: experienceId, kind: media.kind.rawValue, taken_at: media.takenAt,
+            duration_seconds: media.duration, device_media_id: media.url.lastPathComponent
+        )).execute()
+        if let experienceId, states[experienceId]?.isDone != true {
+            try await send(Feedback(.done, on: experienceId))
+        }
+    }
 }
+

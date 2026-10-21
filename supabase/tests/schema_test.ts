@@ -182,3 +182,11 @@ Deno.test("groups are visible to members only", async () => {
   await db.exec(`insert into auth.users values ('00000000-0000-0000-0000-00000000000c')`);
   assertEquals((await as(db, "00000000-0000-0000-0000-00000000000c", "select * from groups")).length, 0);
 });
+
+Deno.test("captures are owner-only", async () => {
+  const db = await setup();
+  await as(db, ALICE, "insert into captures (user_id, kind, taken_at) values ($1, 'photo', now())", [ALICE]);
+  assertEquals((await as(db, ALICE, "select * from captures")).length, 1);
+  assertEquals((await as(db, BOB, "select * from captures")).length, 0);
+  await assertRejects(() => as(db, BOB, "insert into captures (user_id, kind, taken_at) values ($1, 'video', now())", [ALICE]));
+});

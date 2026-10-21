@@ -49,6 +49,9 @@ targets:
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
         UIAppFonts: [BricolageGrotesque.ttf]
         ITSAppUsesNonExemptEncryption: false
+        NSCameraUsageDescription: Experience uses the camera to capture what you're doing and add it to your city.
+        NSMicrophoneUsageDescription: Experience records sound with your videos.
+        NSLocationWhenInUseUsageDescription: Experience uses your location to show what's close and how long it takes to get there.
         SupabaseURL: $(SUPABASE_URL)
         SupabaseAnonKey: $(SUPABASE_ANON_KEY)
         # Debug talks to the local Docker stack over http.

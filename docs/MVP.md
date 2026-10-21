@@ -1,133 +1,71 @@
-# MVP: current requirements
+# MVP: current build scope
 
-This is the scope for the **Philadelphia beta** build. If a feature isn't here, it's out of scope. Precedence is in CLAUDE.md (ADRs > Eng Review ledger > this file > the design doc's Phase 1 section > BUILD_PLAN > EXPERIENCE.md). Ledger IDs (R1-R18, D2-D5) refer to the Eng Review ledger at the end of `docs/designs/experience-mvp.md`.
+**Updated 2026-10-20 (ADR-013).** The product is now defined by `EXPERIENCES_PRODUCT.md`. This file maps its **Stages 0-2** onto this codebase. If something isn't in the brief's Stages 0-2, it's out of scope. Precedence is in CLAUDE.md. The previous city-first scope ("What should we do?" → three recommendations) is superseded; see git history and `docs/EXPERIENCE.md` (historical).
 
-> **Updated 2026-10-18 for the city-first strategy** (`docs/EXPERIENCE.md`). The previous MVP centered on share-reel → identify → "My Saves" feed → Did it. Capture and identification carry over as the input layer; the center is now **"What should we do?"**. The detailed 30-day plan and the technical architecture for this scope are the next phase. Items marked **[founder]** in "Open decisions" are unresolved.
+## What we're building
 
-## The hypothesis
+A personal life archive the creator uses every week, then friends: **capture what you lived, keep what you want to do, plan it, live it, revisit it.** One Experience object across its whole life (brief §3-5).
 
-> **When people don't know what to do, will they open Experience?**
+The standard for "done" is the brief's §25, not engagement: does the creator voluntarily save ordinary moments, find a half-remembered evening fast, know exactly who sees what, turn discovery into plans, and leave with their history intact?
 
-Build the smallest product that tests this. Strongest signal: someone in a group says "Check Experience."
+## Stage 0: skeleton and prototypes (now)
 
-## Audience and geography
+- The Experience contract in code: stable ID, owner, `state` (want / planned / in_progress / experienced / cancelled), separate draft and archived flags, `visibility` (private / friends / public), time with precision and original timezone, ordered places, moments, media references, participation, per-person reflection and rating, `inspired_by` / source listing, field provenance.
+- Authorization policy and audience labels designed once (brief §9) and enforced by RLS.
+- Navigation: **Life · Discover · Plans · You**, **+** everywhere, search. Life: Overview / Timeline / Map / Calendar.
+- Prototype both loops end to end with clearly labelled sample histories (sparse, ordinary, large, uncertain dates, shared): capture → detail → Life → map, and discover → Want → plan → Experienced.
+- Decide before real private media is ingested: media storage, export format, deletion and processing disclosures.
+- Design pass: explore several Life layouts against sparse, dense, media-free and decade-long histories (brief §20) before extending DESIGN.md.
 
-- **City:** Philadelphia only, for content and dogfooding. The founder uses it for real plans every week.
-- **Users:** the founder, then friends and early users in Philadelphia, via TestFlight (R18's "build the loop first" still applies).
-- **Architecture stays multi-city:** City is an explicit domain concept/configuration. Nothing Philadelphia-specific is hardcoded. The UI may label it "Philadelphia (beta)".
-- **Next market (not now):** New York City, once the core behavior is validated (EXPERIENCE.md).
+**Ready when** the full loop works in the prototype with no fork between a shared post and a remembered Experience.
 
-## The core loop (build this first)
+## Stage 1: a dependable personal archive
 
-```
-Open → "What should we do?" → a few constraints (when, how long, budget, who, optional mood)
-→ 3 strong recommendations → Interested / Not interested / Save
-→ go → Did it → rate → better recommendations next time
-```
+- Account and profile basics (Sign in with Apple, ADR-002). Owner profile centered on the confirmed Experience count.
+- **Capture** (brief §6): + → photos/video (existing camera, ADR-012, plus the photo library), a short thought, or **Add without media** → draft with proposed title, time and place (provenance visible) → **Save privately**. No required rating, caption, category, place, people or sharing decision. Works offline; saves before AI or upload finish; visible states ("Saved on this device; waiting to upload"); retries never duplicate.
+- Experience detail: cover or text-first treatment, title, time, place, people, plainly visible audience, moments/media, reflection. Actions by state (Experienced: Add a moment, Reflect, Share; Want: Plan this, Edit; Planned: Add photos / Mark experienced).
+- Editable time (exact / day / month / year / range / unknown) and place; "Date unknown" area.
+- Media: originals kept separate from derivatives; durable private storage (open decision 1).
+- Timeline, basic map with a synchronized list, lexical search over titles, dates, places, people, categories, notes.
+- **Want** and **Planned** states on the same object. Saving a catalog listing (existing Philadelphia catalog) or a shared TikTok link creates a private Want linked to it.
+- Reflection invitation ("What do you want to remember?"), optional 1-5 rating with no default, Would do again, favorite moment. All private by default.
+- **Export:** versioned JSON + media + manifest + Markdown summaries.
+- Empty states as in brief §19; onboarding offers Add a recent Experience / Save something I want to do / Explore first. Permissions asked one at a time, in context.
 
-The input loop that feeds it:
+**Ready when** the creator can record a month of ordinary life, find a memory by date, place or text, correct it, and export it without losing media or context.
 
-```
-Share a TikTok → "Saved" instantly → identified in the background
-→ matched to (or added as) an Experience → saved to your list → shapes your taste and recommendations
-```
+## Stage 2: the core MVP loop (the MVP boundary)
 
-## In scope
+- Mutual friendships (Add friend / Request sent / Friends), block, mute, unfriend.
+- Private / Friends (all accepted friends) / Public on each Experience; audience preview ("What would a friend or public visitor see?"); public location precision.
+- Basic public profile; permission-aware counts ("31 public Experiences"); optional "Show my total count".
+- **Discover:** finite Friends feed (recent first, one card per shared outing, "You're caught up"), public Experience browsing, and **Things you could do** from the curated catalog, honestly labelled. **Want to Experience** from any of them creates your own Want.
+- Basic planning: date, meeting place, invited friends, notes, optional stops; invitee accepts or declines; each participant confirms their own attendance; "Did you go?" after the time passes.
+- Simple month recap referencing Experiences (public sharing only of Public content).
+- Reporting and blocking before anything is public. Revocation works across media, search, counts and caches.
 
-### Account and onboarding
-- **Sign in with Apple** via Supabase (ADR-002). Only the main app refreshes tokens (R4).
-- **Lightweight preference onboarding** to solve cold start: a short, skippable set of choices (kinds of things you like, typical budget, who you usually go out with). Fast, never a long quiz. Answers seed the taste profile; behavior refines it.
+**Ready when** the creator can discover an idea, save it, plan it, do it, capture it, share the same object, and revisit it on timeline and map, and another account sees exactly the intended subset.
 
-### The Experience catalog (Philadelphia)
-- **Seed several hundred high-quality Philadelphia Experiences.** Quality and diversity over coverage.
-- Each Experience is an activity (ADR-006), with the data recommendations need: title, category, description, place(s) or area, neighborhood, approximate price per person, typical duration, good-for (solo, date, friends, groups, family), hours or dates, and source/provenance. Exact fields are set in the architecture phase.
-- Coverage targets (a mix, not quotas): food, date ideas, friend-group activities, active/adventure, nightlife, creative, culture, seasonal, outdoors, sports, classes, unusual/unique, free/cheap. "Dates" and "friend groups" are **occasions (tags), not categories**.
-- **Browse** the catalog (by category, occasion, price, neighborhood).
+## What carries over from the city-first build
 
-### "What should we do?" (the center of the app)
-- One prominent entry point on the home screen.
-- Minimal constraints: **When?** (now, tonight, a day, this weekend) · **How long?** · **Budget?** (free, under $25 / $50 / $100, no preference) · **Who?** (just me, partner, friends, group, family) · optional **mood** (chill, active, food, creative, nightlife, outdoors, something new, surprise me).
-- Returns **three** strong recommendations, each with why it fits (stated honestly, provenance shown), price, duration, distance and whether it's open then.
-- Filters out what doesn't fit (closed at that time, over budget, too long, too far). Ranks by the taste profile, saves and past feedback. The engine design is set in the architecture phase; no large recommendation infrastructure in the MVP.
-- "Who?" is a descriptor in the MVP (it shapes the recommendation). Multi-user groups with merged taste profiles are later.
+| Existing | Becomes |
+|---|---|
+| Camera capture (ADR-012), `captures` table | Media capture into a draft Experience; `captures` folds into media assets |
+| Philadelphia catalog (`experiences`, `experience_places`, links, occurrences; ADR-009/011) | Reference listings for **Things you could do**; saving creates a personal Experience |
+| `user_experiences` (saved / interested / not interested / done, rating) | Migrated to personal Experiences (Want / Experienced) + per-person rating; can't represent repeat visits |
+| Recommender (`supabase/functions/recommend/`) | Optional "Worth a look" on Life and Discover; no longer the home screen |
+| TikTok share extension + identify (ADR-004/005/007) | A shared link becomes a proposed Want, with provenance |
+| `friendships`, `groups` tables (ADR-011) | Friendships used in Stage 2; groups wait for Stage 3 |
+| White 3D city map (ADR-010, DESIGN.md) | The Life → Map view; Experiences, not pins or location trails |
+| `Sourced<T>` / `SourcedText` | Unchanged; the brief's field provenance |
 
-### Feedback (every recommendation and Experience)
-- **Interested · Not interested · Save · Did it · Rating** (after Did it).
-- All of it feeds the user's taste profile and future recommendations.
+## Not in scope (Stages 3-5 and deferred)
 
-### My Experiences
-- Your saved and done Experiences, from the catalog or from shared TikToks. Mark done, rate, remove.
-- Saved Experiences are preferred candidates in "What should we do?" ("you saved this three weeks ago").
+Selected-friend audiences, collaborative contributions and consent, group availability voting, Ask Experiences and semantic search, capture clustering, recap films, memory reconstruction, gamification, broad email/receipt ingestion, face recognition, continuous location, booking/payments, messaging, multi-owner permissions, Android, desktop/web.
 
-### Capture (social ingestion stays in the MVP)
-- **TikTok first.** Founder decision (2026-10-18): the app supports TikTok links at launch; Instagram (URL-only, ADR-004) and YouTube follow, and their rules below stay in force when they're added. Other links show a friendly "Experience works with TikTok for now" and aren't saved.
-- **Share extension** pulls the first URL out of shared text (R12).
-- **Outbox first, never lose a save** (R1, ADR-007): write to the App Group outbox with a client-generated `save_id` *before* uploading, show "Saved" immediately, retry until the server confirms. Unique `(user_id, save_id)` on `sources`.
-- **Share before sign-in:** queue it and show "Open Experience to finish setup".
-- **Main app outbox sync** with a "Syncing N saves" banner while the outbox isn't empty.
+## Open decisions (founder)
 
-### Identify
-- **Queued jobs** (R2, R15): the insert trigger calls `identify` immediately, `pg_cron` retries, 3 attempts with backoff, then `needs_review`. Never a silent loss.
-- **Pipeline** (ADR-005): resolve short links → legally usable metadata only (ADR-004) → Claude structured extraction → place search (Apple Maps, ADR-003).
-- **Extract the activity, not just the place** (ADR-006): title (the activity in words), intent, category, location requirement, place candidates, evidence, confidence; plus, where the post supports it, approximate price, duration and group fit. Don't assume one post = one place.
-- **Create or match:** a shared post is matched to an existing catalog Experience when it's the same activity, otherwise it becomes a new Experience for that user (ADR-009, proposed; matching rules set in the architecture phase).
-- **One post → several Experiences** when it shows separate things to do ("top 5 bars" → 5, grouped by `source_id`). Alternative places for the same activity are candidates of one Experience.
-- **Unsure → one question** in the share extension; unresolved saves go to a short "Needs a place" list. Auto-resolve at confidence ≥ 0.8 with a solid place match (default, tuned by the eval, R7b).
-- **Edge cases:** chains (brand + nearest branch at runtime, R5), private or deleted posts ("Post unavailable" + the place question), no fixed venue (`location_requirement: none`), places outside Philadelphia (saved and shown, but not recommended until their city is supported).
-- **Retry safety:** writes and job completion happen in one transaction; retries never duplicate and never overwrite `user`-provenance fields.
-
-### Provenance (unchanged)
-Every displayed field shows where it came from (`Sourced<T>`, rendered only through `SourcedText`, R8). AI estimates are labelled "(estimated)" and never shown as fact. This includes recommendation reasons: never claim "your friends loved this" or similar without the data.
-
-### Events (from day one)
-Capture: `share_started`, `share_saved`, `question_shown` / `question_answered` / `question_skipped` (with duration), `review_resolved`, `correction`.
-Recommend: `recommend_opened` (with constraints), `recommendation_shown`, `interested`, `not_interested`, `saved`, `did_it` (with whether it came from a recommendation), `rated`, `onboarding_completed` / `onboarding_skipped`, `experience_viewed`. Final names are set in the architecture phase.
-
-### Privacy and TestFlight
-- Server stores: account, preferences and taste signals, saves (URL + extracted fields), feedback and ratings, event logs. Precise location stays on the device unless a feature needs it and says so; recommendations use the location the user is at when they ask.
-- In-app account deletion removes everything, logs included, within 30 days. Logs kept at most 12 months (R7d).
-- The privacy policy and tester consent name the LLM provider and the places provider as processors.
-- Supabase Pro on the day of the first TestFlight build (R16).
-
-### Quality bar (D4 / R10)
-- Design pass before building screens; the "What should we do?" flow and recommendation cards come first.
-- Empty, loading and error states for every screen. Snapshot tests for every state (loading / empty / error / success × light / dark × default / largest Dynamic Type).
-- `/qa` on a real iPhone before each TestFlight build.
-
-## Not in the MVP
-
-Unless separately approved:
-- Social feed, friends/followers, comments, messaging, real-time friend location
-- Multi-user groups with merged preferences; advanced group optimization
-- Plans as a feature (multi-stop itineraries); complete itinerary generation
-- Public Plan marketplace, creator monetization, sponsored placements
-- City leaderboards, complex achievements, exploration percentages
-- Worldwide or multi-city content; travel booking, flights, hotels
-- Massive recommendation infrastructure, complex graph databases
-- Instagram and YouTube capture (follow after TikTok); Android, web app, bulk import of exports
-
-**Feature filter for anything new:** (1) Does it help someone decide what to do and go do it, or teach Experience what they like? (2) Is it useful in an ordinary week in the city, not just on a trip? (3) Does it avoid locking the core into Philadelphia, travel, restaurants, solo users, or places instead of experiences? A "no" to (1) means not now.
-
-## Metrics
-
-Downloads are not the measure.
-- **Activation:** can a new user get a recommendation that feels relevant within their first session?
-- **Recommendation quality:** share of recommendations marked Interested or Saved; Not-interested rate.
-- **Real-world conversion:** recommended Experiences marked Did it.
-- **Repeat:** users who come back the next time they don't know what to do (weeks with a "What should we do?" session per active user).
-- **Taste improvement:** acceptance rate rising as users save, rate and complete.
-- **Social pull:** users who invite friends.
-- **Capture:** TikTok identifications needing no correction ≥ 70%.
-- **North star (proposed, [founder]):** recommended Experiences marked done per active user per month.
-
-## Open decisions
-
-1. **[founder] Seed catalog sourcing:** who curates the several hundred Philadelphia Experiences, from which sources, and under which licenses. Place data must follow provider terms (no scraping Google/Yelp). Default proposal: founder-curated with AI-assisted drafting, places resolved via Apple Maps, every field provenance-tagged.
-2. **[founder] What happens to the "My Saves" video feed** (vertical swipe with a live mini-map, the old demo screen): keep it as the "My Experiences" view, or defer it. The interrupted design pass was built around it.
-3. **[founder] Is a map in the MVP**, and what does it show (want to do / done)?
-4. **[founder] North star** (proposal above) and the beta audience size before NYC prep.
-5. **[founder] Ratings:** a simple scale, or Beli-style comparisons?
-6. Category taxonomy update (architecture phase): the old fixed list (`restaurant, cafe, bar, nightlife, dessert, outdoors, attraction, activity, arts_culture, shopping, event, lodging, other`) lacks classes, sports and entertainment; occasions become tags.
-7. Carried over: no-download rule for the shipped app (default: keep, ADR-004/008); minimum iOS version; final name.
-
-**Resolved by this update:** the travel-vs-local wedge (now local, city-first; the `local`/`travel` tag and home-area tracking are no longer needed for that decision); "onboarding interest quizzes" and "recommendations for users with no saves" move from out of scope to in scope (lightweight, as above).
+1. **Media storage.** Default proposal: originals upload to private Supabase Storage (signed, short-lived URLs; location metadata stripped from served derivatives), with the on-device copy kept until upload is confirmed. This changes ADR-012's "media stays on device" and is a privacy disclosure.
+2. **What the app opens to.** The brief's Life overview, or keep ADR-012's camera as the first screen with Life one tap away.
+3. **Rating scale:** the brief proposes an optional 1-5; the current UI has three tiles.
+4. Final name (Experiences is the working name).

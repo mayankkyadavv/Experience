@@ -27,6 +27,12 @@
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Experience uses the camera to capture what you're doing and add it to your city.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Experience uses your location to show what's close and how long it takes to get there.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Experience records sound with your videos.</string>
 	<key>SupabaseAnonKey</key>
 	<string>$(SUPABASE_ANON_KEY)</string>
 	<key>SupabaseURL</key>

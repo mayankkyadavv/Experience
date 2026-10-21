@@ -1,6 +1,6 @@
 # Experience
 
-An iOS app that helps you and your friends answer **"What should we do?"** in your city, then go do it. Philadelphia is the beta. Start with `CLAUDE.md` and `docs/MVP.md`.
+**Experiences** (working name): an iOS app that keeps the life you've actually lived and the experiences you still want to have. Start with `CLAUDE.md` and `EXPERIENCES_PRODUCT.md`.
 
 ## Run the backend locally
 

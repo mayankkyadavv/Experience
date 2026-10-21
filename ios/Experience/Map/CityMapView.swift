@@ -44,6 +44,8 @@ struct CityMapView: UIViewRepresentable {
         // Reading the scene here makes SwiftUI re-run this when it changes.
         c.sync(shot: scene.shot, center: scene.center, marks: scene.marks, orbit: scene.orbit,
                bottomInset: scene.bottomInset, flight: scene.flight)
+        c.syncDots(scene.dots)
+        if map.showsUserLocation != scene.showsUser { map.showsUserLocation = scene.showsUser }
     }
 
     static func dismantleUIView(_ map: MLNMapView, coordinator: Coordinator) {
@@ -75,6 +77,16 @@ struct CityMapView: UIViewRepresentable {
 
         func mapView(_ mapView: MLNMapView, didFinishLoading style: MLNStyle) {
             MapStyle.apply(to: style, dark: dark)
+            let dotSource = MLNShapeSource(identifier: "dots", shape: nil, options: nil)
+            style.addSource(dotSource)
+            let dotLayer = MLNCircleStyleLayer(identifier: "dots", source: dotSource)
+            dotLayer.circleColor = NSExpression(format: "CAST(c, 'UIColor')")
+            dotLayer.circleRadius = NSExpression(forConstantValue: 6)
+            dotLayer.circleStrokeColor = NSExpression(forConstantValue: UIColor.white)
+            dotLayer.circleStrokeWidth = NSExpression(forConstantValue: 2.5)
+            dotLayer.circlePitchAlignment = NSExpression(forConstantValue: "map")
+            style.addLayer(dotLayer)
+
             let source = MLNShapeSource(identifier: "marks", shape: nil, options: nil)
             style.addSource(source)
             let layer = MLNFillExtrusionStyleLayer(identifier: "marks", source: source)
@@ -85,6 +97,7 @@ struct CityMapView: UIViewRepresentable {
             style.addLayer(layer)
             styleReady = true
             renderMarks()
+            renderDots()
             startLink()
             scene.markReady()
             if let shot, shot != .intro { move(animated: false) }
@@ -100,7 +113,8 @@ struct CityMapView: UIViewRepresentable {
             self.orbit = orbit
             self.flight = flight
             let insets = UIEdgeInsets(top: 110, left: 0, bottom: bottomInset, right: 0)
-            if map.contentInset != insets { map.setContentInset(insets, animated: !reduceMotion, completionHandler: nil) }
+            // Applied instantly: animating the inset during a camera flight shifts where the flight lands.
+            if map.contentInset != insets { map.setContentInset(insets, animated: false, completionHandler: nil) }
 
             let marksChanged = marks != self.marks
             if marksChanged {
@@ -119,6 +133,24 @@ struct CityMapView: UIViewRepresentable {
             startLink()
         }
 
+        private var dots: [MapMark] = []
+
+        func syncDots(_ dots: [MapMark]) {
+            guard dots != self.dots else { return }
+            self.dots = dots
+            renderDots()
+        }
+
+        private func renderDots() {
+            guard let map, styleReady, let source = map.style?.source(withIdentifier: "dots") as? MLNShapeSource else { return }
+            source.shape = MLNShapeCollectionFeature(shapes: dots.map { dot in
+                let f = MLNPointFeature()
+                f.coordinate = dot.coordinate
+                f.attributes = ["id": dot.id.uuidString, "c": dot.group.uiColor.hexString]
+                return f
+            })
+        }
+
         func stop() {
             link?.invalidate()
             link = nil
@@ -129,7 +161,7 @@ struct CityMapView: UIViewRepresentable {
             let p = gesture.location(in: map)
             // A little slack around the finger so thin hexes are easy to hit.
             let area = CGRect(x: p.x - 22, y: p.y - 22, width: 44, height: 44)
-            let hits = map.visibleFeatures(in: area, styleLayerIdentifiers: ["marks"])
+            let hits = map.visibleFeatures(in: area, styleLayerIdentifiers: ["marks", "dots"])
             let ids = hits.compactMap { ($0.attribute(forKey: "id") as? String).flatMap(UUID.init(uuidString:)) }
             // Prefer the hit closest to the finger.
             let best = ids.min { a, b in distance(a, to: p, in: map) < distance(b, to: p, in: map) }
@@ -137,7 +169,7 @@ struct CityMapView: UIViewRepresentable {
         }
 
         private func distance(_ id: UUID, to p: CGPoint, in map: MLNMapView) -> CGFloat {
-            guard let mark = marks.first(where: { $0.id == id }) else { return .greatestFiniteMagnitude }
+            guard let mark = (marks + dots).first(where: { $0.id == id }) else { return .greatestFiniteMagnitude }
             let q = map.convert(mark.coordinate, toPointTo: map)
             return hypot(q.x - p.x, q.y - p.y)
         }

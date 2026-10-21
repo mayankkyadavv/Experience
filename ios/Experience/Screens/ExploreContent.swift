@@ -17,6 +17,7 @@ enum ExploreFilter: Hashable {
 /// The whole city catalog in the home panel: filter chips, search, and a list that mirrors the map.
 struct ExploreContent: View {
     @Environment(AppModel.self) private var model
+    @Environment(LocationProvider.self) private var location
     let items: [CatalogItem]
     @Binding var filter: ExploreFilter
     @Binding var query: String
@@ -92,7 +93,10 @@ struct ExploreContent: View {
             ScrollView {
                 LazyVStack(spacing: 0) {
                     ForEach(items) { item in
-                        Button { onSelect(item) } label: { ExploreRow(item: item, saved: model.states[item.id]?.isSaved == true) }
+                        Button { onSelect(item) } label: {
+                            ExploreRow(item: item, saved: model.states[item.id]?.isSaved == true,
+                                       minutes: item.coordinate.flatMap { location.travelMinutes(to: $0.lat, $0.lng) })
+                        }
                             .buttonStyle(PressableStyle())
                         Divider().overlay(Theme.hairline).padding(.leading, Theme.Space.xl + 18)
                     }
@@ -107,6 +111,8 @@ struct ExploreContent: View {
 private struct ExploreRow: View {
     let item: CatalogItem
     let saved: Bool
+    /// Rough travel estimate from the user's location; labelled as an estimate.
+    let minutes: Int?
 
     var body: some View {
         HStack(spacing: Theme.Space.md) {
@@ -117,7 +123,7 @@ private struct ExploreRow: View {
                     .foregroundStyle(Theme.text)
                     .lineLimit(2)
                     .multilineTextAlignment(.leading)
-                Text([item.place?.neighborhood, item.subcategory, item.price].compactMap { $0 }.joined(separator: " · "))
+                Text([minutes.map { "~\($0) min (estimated)" }, item.place?.neighborhood, item.subcategory, item.price].compactMap { $0 }.joined(separator: " · "))
                     .font(.caption).foregroundStyle(Theme.textMuted).lineLimit(1)
             }
             Spacer(minLength: 0)

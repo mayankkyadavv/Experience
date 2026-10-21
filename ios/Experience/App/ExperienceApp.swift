@@ -4,12 +4,14 @@ import SwiftUI
 struct ExperienceApp: App {
     @State private var model = AppModel()
     @State private var scene = MapScene()
+    @State private var location = LocationProvider()
 
     var body: some Scene {
         WindowGroup {
             RootView()
                 .environment(model)
                 .environment(scene)
+                .environment(location)
         }
     }
 }
@@ -20,6 +22,9 @@ struct RootView: View {
     @Environment(MapScene.self) private var scene
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var introDone = false
+    /// After setup the camera is home (ADR-012); the city is one tap away.
+    @State private var showingCity = false
+    @State private var camera = CameraModel()
 
     var body: some View {
         ZStack {
@@ -37,7 +42,14 @@ struct RootView: View {
                     case .launching: Color.clear
                     case .signedOut: WelcomeView()
                     case .onboarding: OnboardingView()
-                    case .ready: HomeView()
+                    case .ready:
+                        if showingCity {
+                            HomeView(onCamera: { withAnimation(.spring(duration: 0.45, bounce: 0)) { showingCity = false } })
+                                .transition(.move(edge: .leading).combined(with: .opacity))
+                        } else {
+                            CaptureFlow(camera: camera, onCity: { withAnimation(.spring(duration: 0.45, bounce: 0)) { showingCity = true } })
+                                .transition(.opacity)
+                        }
                     }
                 }
                 .transition(.move(edge: .bottom).combined(with: .opacity))
@@ -46,6 +58,11 @@ struct RootView: View {
         .animation(Theme.Motion.short, value: model.phase)
         .tint(Theme.primary)
         .task { await model.start() }
+        .task(id: model.phase) {
+            guard model.phase == .ready else { return }
+            await model.loadCatalog()
+            await model.loadStates()
+        }
         .task { await runIntro() }
         .onChange(of: model.city) { _, city in
             if let city { scene.center = .init(latitude: city.centerLat, longitude: city.centerLng) }

@@ -1,5 +1,16 @@
 # Build Plan: Experience, Philadelphia beta (30 days)
 
+> **2026-10-20 (ADR-013):** the product is now `EXPERIENCES_PRODUCT.md` (a personal life archive). Scope is the brief's Stages 0-2 as mapped in `docs/MVP.md`. The 30-day plan below was written for the superseded city-first loop; its finished work carries over (see MVP.md "What carries over"), and the unchecked Week 2-4 items are replaced by **Next** below.
+
+## Next (Stages 0-1)
+- [ ] Personal Experience schema + one access policy (ARCHITECTURE.md "Changes required by the product brief" 1-2), PGlite RLS tests for owner / friend / non-friend / blocked / logged out.
+- [ ] `ExperienceCore` models: Experience with state, time precision, visibility, moments, media, provenance; local draft store.
+- [ ] Design pass (`/design-consultation` or `/plan-design-review`): several Life layouts, Experience detail, capture draft.
+- [ ] Capture → draft → Save privately (camera, library, text, no media), offline-safe.
+- [ ] Life: Overview, Timeline, Map + list; Experience detail; lexical search.
+- [ ] Want / Planned on the same object; save a catalog listing or TikTok link as a Want.
+- [ ] Media storage (after the founder confirms MVP.md open decision 1) and export.
+
 Last updated 2026-10-18 (city-first). Check off tasks as you go and add decisions to the log at the bottom. Scope: `docs/MVP.md`. How it's built: `docs/ARCHITECTURE.md`, `docs/ADR/` (009 catalog, 010 map). How it looks: `DESIGN.md` (approved mockup linked there).
 
 **Goal:** in 30 days (by ~2026-11-18), a TestFlight build the founder uses every week in Philadelphia to answer "What should we do?", then friends there. Core loop first: onboarding → ask → 3 recommendations → feedback → Did it → rate. TikTok capture feeds it.
@@ -30,7 +41,7 @@ Last updated 2026-10-18 (city-first). Check off tasks as you go and add decision
 
 ### Week 3 (Nov 2-8): feedback, memory, capture
 - [ ] Interested / Not for us / Save / Did it / rating (3-tile placeholder until the founder picks the scale); events logged. **Backend done 2026-10-19:** `record_feedback` RPC + `ExperienceCore.Feedback`; UI remains.
-- [ ] Saved list; "Your Philadelphia" with pillars. **2026-10-19:** Explore mode (whole catalog on the map, filters incl. Saved, search, list) and the Experience detail sheet (facts, hours, dates, links, sources, directions, Save/Interested/Not for us/Did it/rating) are in; pillars remain.
+- [ ] Saved list; "Your Philadelphia" with pillars. **2026-10-19:** Explore mode (whole catalog on the map, filters incl. Saved, search, list) and the Experience detail sheet (facts, hours, dates, links, sources, directions, Save/Interested/Not for us/Did it/rating) are in. **Your city:** saved dots on every screen, pillars for done Experiences (height = rating), a done/saved count in the header, and an "Added to your city" toast after rating.
 - [ ] Share extension (TikTok only): outbox first, "Saved", identify job (port `spikes/identify` extraction to the Edge Function, metadata only per ADR-004), match-or-create against the catalog.
 - [ ] Catalog to 300+ reviewed entries.
 
@@ -75,3 +86,6 @@ M0 spikes still worth doing when convenient: TikTok share payloads on a real iPh
 - 2026-10-19 · **iOS app foundation:** minimum iOS 17 (Observation, scroll APIs; matches ExperienceCore), app target in Swift 5 language mode (MapLibre delegates; ExperienceCore stays Swift 6). Dependencies: MapLibre 6.31.0 (exact), supabase-swift 2.55+ (auth session/refresh/keychain, PostgREST). Debug builds use `LOCAL_BACKEND` → `http://localhost:54321` with an auto-created email account; Release uses Sign in with Apple. `CoreLoopTests` (XCUITest) walks onboarding → ask → results against Docker and attaches screenshots. Why: fastest path to a working loop with real data (flexible). Undo: swap supabase-swift for our own auth in ExperienceCore.
 - 2026-10-19 · **Data model v2 (ADR-011):** links, dated occurrences, `kind`/`subcategory`/`slug` on experiences, `recommendation_items`, profile handles, and `friendships`/`groups`/`group_members` tables with RLS (social stays "not building yet" in the UI). Additive migration; PGlite tests cover the new RLS.
 - 2026-10-19 · **Bulk catalog harvest** (`tools/catalog/harvest.ts`): one Claude call per topic in `catalog/<city>/_topics.txt` with web search (≤30 searches), ~15-20 entries per topic, resumable, spend tracked in `_harvest.json` with a `--budget` cap. Model: **Sonnet 5.5** by default (pilot: same quality as Opus 5.5 at ~$1.00 vs $1.65 per topic). Geocoding via Nominatim (`tools/catalog/geocode.ts`, 1 req/s, cached, bounded to the city). Every harvested fact is `estimated`; production publishes only reviewed entries, the local Docker stack publishes drafts (`LOCAL_PUBLISH_DRAFTS`). Undo: delete the drafts; the reviewed flow is unchanged.
+- 2026-10-19 · **Location, asked in context:** when-in-use permission is requested on the first "Find 3 things"; the coordinate goes only with recommendation requests (travel time + distance penalty server-side). The app shows the user dot, "~N min (estimated)" on cards and Explore rows, and sorts Explore closest-first. Same rough estimate as the recommender (walk < 1.2 km, else drive/transit). Undo: drop `constraints.location`.
+- 2026-10-19 · **Capture-first (ADR-012):** after setup the app opens to the camera (AVFoundation: tap = photo, hold = video ≤ 60 s, pinch / slide-up zoom, lens presets, tap-to-focus, double-tap flip, flash). Review → "Where was this?" (nearest catalog Experiences) → `captures` row + marked done → pillar. Media stays in the app's documents folder; only metadata goes to the server, no coordinates. Mic is requested on first video. Local builds get a "test photo" on the Simulator's no-camera screen. Device runs use `ios/Config/Local.xcconfig` (gitignored) for the Mac's LAN address and signing team.
+- 2026-10-20 · **Refounded on `EXPERIENCES_PRODUCT.md` (ADR-013).** Experiences is a personal life archive: one Experience object from Want to Planned to Experienced, private by default, Private/Friends/Public, Stages 0-2 in scope. Supersedes the city-first strategy. CLAUDE.md, MVP.md, ARCHITECTURE.md, ADR index, DESIGN.md (banner), README and EXPERIENCE/COMPETITIVE_RESEARCH (marked historical) updated. Existing code carries over as inputs. Undo: supersede ADR-013.

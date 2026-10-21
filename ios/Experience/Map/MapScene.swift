@@ -35,11 +35,15 @@ final class MapScene {
     var center = CLLocationCoordinate2D(latitude: 39.9524, longitude: -75.1636)
     var shot: Shot = .intro
     var marks: [MapMark] = []
+    /// Saved Experiences: flat category dots with a white ring (DESIGN.md), shown on every screen.
+    var dots: [MapMark] = []
     var orbit = true
     /// Space covered by bottom panels; the camera frames content above it.
     var bottomInset: CGFloat = 0
     /// Seconds for the next camera move (0 = cut).
     var flight: TimeInterval = 1.2
+    /// Show the blue "you are here" dot (only once location is authorized).
+    var showsUser = false
     /// The mark the user tapped last (screens react with `onChange`).
     var tapped: UUID?
 

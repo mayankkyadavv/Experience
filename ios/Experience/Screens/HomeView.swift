@@ -3,8 +3,10 @@ import SwiftUI
 
 /// The city, one question, three answers. The ask button grows into the panel; the panel becomes the results.
 struct HomeView: View {
+    var onCamera: () -> Void = {}
     @Environment(AppModel.self) private var model
     @Environment(MapScene.self) private var scene
+    @Environment(LocationProvider.self) private var location
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Namespace private var ns
 
@@ -16,13 +18,31 @@ struct HomeView: View {
     @State private var filter: ExploreFilter = .all
     @State private var query = ""
     @State private var detail: DetailTarget?
+    @State private var doneBefore = 0
+    @State private var toast: String?
 
     enum Stage: Equatable { case idle, asking, loading, results, explore, failed(String) }
 
     struct DetailTarget: Identifiable, Equatable { let id: UUID; var recommendationId: UUID? }
 
+    /// Things you've done stand as pillars; height is how much you loved it (DESIGN.md).
+    private var pillars: [MapMark] {
+        model.cityCatalog.compactMap { item in
+            guard let state = model.states[item.id], state.isDone, let c = item.coordinate else { return nil }
+            let height: Double = switch state.rating { case 1: 90; case 2: 170; case 3: 260; default: 120 }
+            return MapMark(id: item.id, coordinate: .init(latitude: c.lat, longitude: c.lng), group: item.category.group, height: height, radius: 34)
+        }
+    }
+
+    private var savedDots: [MapMark] {
+        model.cityCatalog.compactMap { item in
+            guard let state = model.states[item.id], state.isSaved, !state.isDone, let c = item.coordinate else { return nil }
+            return MapMark(id: item.id, coordinate: .init(latitude: c.lat, longitude: c.lng), group: item.category.group)
+        }
+    }
+
     private var exploreItems: [CatalogItem] {
-        model.cityCatalog.filter { item in
+        let filtered = model.cityCatalog.filter { item in
             let passes: Bool = switch filter {
             case .all: true
             case .group(let g): item.category.group == g
@@ -30,11 +50,20 @@ struct HomeView: View {
             }
             return passes && item.matches(query)
         }
+        // Closest first once we know where you are; otherwise alphabetical (the query's order).
+        guard location.last != nil else { return filtered }
+        func minutes(_ item: CatalogItem) -> Int { item.coordinate.flatMap { location.travelMinutes(to: $0.lat, $0.lng) } ?? .max }
+        return filtered.sorted { (minutes($0), $0.title) < (minutes($1), $1.title) }
     }
 
     var body: some View {
         VStack(spacing: 0) {
-            CityHeader(onExplore: openExplore)
+            CityHeader(onExplore: openExplore, onCamera: onCamera)
+            if let toast {
+                Toast(text: toast)
+                    .padding(.top, Theme.Space.sm)
+                    .transition(.move(edge: .top).combined(with: .opacity))
+            }
             Spacer(minLength: Theme.Space.lg)
             panel
                 .offset(y: max(0, drag))
@@ -48,8 +77,11 @@ struct HomeView: View {
         }
         .task {
             await model.loadCatalog()
-            await model.loadStates()
+            doneBefore = model.states.values.filter(\.isDone).count
+            refreshYourCity()
         }
+        .onChange(of: model.states) { _, _ in refreshYourCity() }
+        .onAppear { scene.showsUser = location.isAuthorized }
         .onChange(of: active) { _, i in focus(i) }
         .onChange(of: scene.tapped) { _, id in
             guard let id else { return }
@@ -61,7 +93,7 @@ struct HomeView: View {
         .onChange(of: filter) { _, _ in if stage == .explore { showExploreMarks() } }
         .onChange(of: query) { _, _ in if stage == .explore { showExploreMarks() } }
         .onChange(of: model.cityCatalog) { _, _ in if stage == .explore { showExploreMarks() } }
-        .sheet(item: $detail, onDismiss: { if stage == .explore { showExploreMarks() } }) { target in
+        .sheet(item: $detail, onDismiss: afterDetail) { target in
             ExperienceDetailView(id: target.id, recommendationId: target.recommendationId)
                 .presentationDetents([.medium, .large])
                 .presentationBackgroundInteraction(.enabled(upThrough: .medium))
@@ -157,9 +189,33 @@ struct HomeView: View {
             stage = .idle
             active = nil
         }
-        scene.marks = []
+        scene.marks = pillars
         scene.shot = .city
         scene.bottomInset = 0
+    }
+
+    /// Dots everywhere; pillars on the home view (other stages use the marks for picks or the catalog).
+    private func refreshYourCity() {
+        scene.dots = savedDots
+        if stage == .idle { scene.marks = pillars }
+    }
+
+    private func afterDetail() {
+        if stage == .explore { showExploreMarks() }
+        let done = model.states.values.filter(\.isDone).count
+        if done > doneBefore {
+            if stage != .idle { close() }
+            show(toast: done == 1 ? "Added to your \(model.city?.name ?? "city"). Your first thing done." : "Added to your \(model.city?.name ?? "city"). \(done) things done.")
+        }
+        doneBefore = done
+    }
+
+    private func show(toast text: String) {
+        withAnimation(Theme.Motion.short) { toast = text }
+        Task {
+            try? await Task.sleep(for: .seconds(3.2))
+            withAnimation(Theme.Motion.short) { if toast == text { toast = nil } }
+        }
     }
 
     private func openExplore() {
@@ -190,6 +246,11 @@ struct HomeView: View {
         withAnimation(.spring(duration: 0.38, bounce: 0)) { stage = .loading; active = nil }
         scene.bottomInset = 160
         let started = Date()
+        // First time: the system asks for location here, where the reason is obvious.
+        if let here = await location.current() {
+            constraints.location = Coordinate(lat: here.coordinate.latitude, lng: here.coordinate.longitude)
+            scene.showsUser = true
+        }
         do {
             let r = try await model.api.recommend(constraints)
             // One beat of the status line so results never flash in.
@@ -238,15 +299,33 @@ struct HomeView: View {
 private struct CityHeader: View {
     @Environment(AppModel.self) private var model
     let onExplore: () -> Void
+    let onCamera: () -> Void
+
+    private var summary: String {
+        let done = model.states.values.filter(\.isDone).count
+        let saved = model.states.values.filter { $0.isSaved && !$0.isDone }.count
+        var parts: [String] = []
+        if model.city?.status == .beta { parts.append("Beta") }
+        if done > 0 { parts.append("\(done) done") }
+        if saved > 0 { parts.append("\(saved) saved") }
+        return parts.joined(separator: " · ")
+    }
 
     var body: some View {
         HStack(alignment: .center) {
+            Button(action: onCamera) {
+                Image(systemName: "camera")
+                    .font(.title3.weight(.semibold))
+                    .foregroundStyle(Theme.text)
+                    .frame(width: 44, height: 44)
+            }
+            .accessibilityLabel("Camera")
             VStack(alignment: .leading, spacing: 2) {
                 Text(model.city?.name ?? "Your city")
                     .font(.title(24))
                     .displayTracking(24)
                     .foregroundStyle(Theme.text)
-                if model.city?.status == .beta { Text("Beta").monoLabel() }
+                if !summary.isEmpty { Text(summary).monoLabel().contentTransition(.numericText()) }
             }
             Spacer()
             Button(action: onExplore) {
@@ -266,7 +345,7 @@ private struct CityHeader: View {
             }
             .accessibilityLabel("Account")
         }
-        .padding(.leading, Theme.Space.lg + 2)
+        .padding(.leading, Theme.Space.xs)
         .padding(.trailing, Theme.Space.sm)
         .padding(.vertical, Theme.Space.sm)
         .background(.regularMaterial, in: .rect(cornerRadius: 22, style: .continuous))
@@ -334,5 +413,31 @@ private struct ExplorePill: View {
             .liftSmall()
         }
         .buttonStyle(PressableStyle())
+    }
+}
+
+/// "Added to your Philadelphia": a pillar icon rising next to the message.
+private struct Toast: View {
+    let text: String
+    @State private var risen = false
+
+    var body: some View {
+        HStack(spacing: Theme.Space.md) {
+            RoundedRectangle(cornerRadius: 4, style: .continuous)
+                .fill(CategoryGroup.culture.color)
+                .frame(width: 12, height: risen ? 30 : 4)
+                .frame(height: 30, alignment: .bottom)
+            Text(text).font(.subheadline.weight(.semibold)).foregroundStyle(Theme.text)
+                .fixedSize(horizontal: false, vertical: true)
+            Spacer(minLength: 0)
+        }
+        .padding(.horizontal, Theme.Space.lg)
+        .padding(.vertical, Theme.Space.md)
+        .background(Theme.surface, in: .rect(cornerRadius: 20, style: .continuous))
+        .lift()
+        .padding(.horizontal, 8)
+        .onAppear { withAnimation(.spring(duration: 0.9, bounce: 0).delay(0.2)) { risen = true } }
+        .sensoryFeedback(.success, trigger: risen)
+        .accessibilityElement(children: .combine)
     }
 }

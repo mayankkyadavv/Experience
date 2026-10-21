@@ -41,6 +41,23 @@ final class CoreLoopTests: XCTestCase {
         snap(app, "4-who")
         app.buttons["Friends"].tap() // finishes onboarding
 
+        // The camera is home. The Simulator has no camera, so capture a test photo and place it.
+        let testPhoto = app.buttons["Try with a test photo"]
+        XCTAssertTrue(testPhoto.waitForExistence(timeout: 15))
+        snap(app, "4b-camera")
+        testPhoto.tap()
+        let add = app.buttons["Add to your city"]
+        XCTAssertTrue(add.waitForExistence(timeout: 5))
+        snap(app, "4c-review")
+        add.tap()
+        XCTAssertTrue(app.staticTexts["Where was this?"].waitForExistence(timeout: 5))
+        sleep(2)
+        snap(app, "4d-where")
+        app.buttons.matching(NSPredicate(format: "label CONTAINS[c] %@", "estimated")).firstMatch.tap()
+        XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "Added")).firstMatch.waitForExistence(timeout: 8))
+        snap(app, "4e-added")
+        app.buttons["Your city"].tap()
+
         let ask = app.buttons["What should we do?"]
         XCTAssertTrue(ask.waitForExistence(timeout: 15))
         sleep(4)
@@ -83,6 +100,15 @@ final class CoreLoopTests: XCTestCase {
         app.buttons["Loved it"].tap()
         sleep(1)
         snap(app, "12-rated")
+
+        // Closing the sheet raises a pillar on your city.
+        // One swipe on the sheet's top edge (a second one would pan the map).
+        let top = app.windows.firstMatch.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.42))
+        top.press(forDuration: 0.05, thenDragTo: app.windows.firstMatch.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.98)))
+        XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "Added to your")).firstMatch.waitForExistence(timeout: 6))
+        snap(app, "13-toast")
+        sleep(2)
+        snap(app, "14-your-city")
     }
 
     @MainActor

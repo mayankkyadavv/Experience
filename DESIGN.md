@@ -98,6 +98,8 @@ components:
 
 ## Overview
 
+> **Product changed 2026-10-20 (ADR-013, `EXPERIENCES_PRODUCT.md`).** The app is now a personal life archive, not "one big question, three answers". Tokens (colors, type, shapes, motion springs) still apply. Screen-level direction for Life (Overview / Timeline / Map / Calendar), Experience detail, capture draft, Plans and Discover needs a new design pass (brief §20: explore several Life layouts against sparse, dense, media-free and decade-long histories). Ask the founder before changing the direction below.
+
 **Creative North Star:** your city as a living, white 3D model; color appears only where your life happens (saves, picks, things done), so the map fills in with you.
 **Product context:** iOS app for people living in a city (Philadelphia beta) answering "What should we do?" with three recommendations, plus TikTok capture. Peers: Beli, Google Maps, Fever, Rhyme.
 **Mode per surface:** Experience (home map, results flight, your city) · Operate (ask sheet, onboarding, rating) · Read (recommendation card, experience detail).

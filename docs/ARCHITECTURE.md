@@ -2,6 +2,8 @@
 
 How the MVP is built. Decisions and their reasons live in `docs/ADR/` (the index maps every Eng Review ledger record). The scope is in `docs/MVP.md`.
 
+> **Life-archive update (2026-10-20, ADR-013):** the product is now `EXPERIENCES_PRODUCT.md`. The system (iOS + share extension + Supabase + identification) still holds. The domain model below is out of date: the root is now the **personal Experience** (owner, lifecycle state, time precision/timezone, visibility, moments, media, participation, reflections), and the catalog becomes reference listings. See "Changes required by the product brief" at the end.
+
 > **City-first update (2026-10-18):** the strategy moved to "What should we do?" in Philadelphia (`docs/EXPERIENCE.md`, `docs/MVP.md`). The system below (iOS + share extension + Supabase + the identification pipeline) still holds. The city-first schema is now in `supabase/migrations/20261019000000_init.sql` (ADR-009) and supersedes the domain model table below where they differ; maps follow ADR-010. Items 1-3, 6 and 7 of "Changes required by the city-first strategy" are done; 4, 5 and 8 remain.
 
 ## System
@@ -108,3 +110,14 @@ Kept small on purpose: only what the MVP needs, plus not blocking what comes lat
 6. **Provenance for curated data:** add a provenance value for editorial/catalog data, or map it to an existing one.
 7. **No longer needed for the wedge decision:** `home_cells` and `local_tag` (the travel-vs-local question is decided). Drop them unless another feature needs them.
 8. **Not now, but don't block:** Plans (ordered Experiences + transport), groups of users, many-user ratings, "what did people do" aggregates, sequences. Plain relational tables are fine; no graph database.
+
+## Changes required by the product brief (2026-10-20, ADR-013)
+
+1. **Personal Experience schema:** a new migration for owner-scoped `experiences` (or rename the catalog to `listings` and give personal Experiences the name): `state`, draft/archived flags, `visibility`, time start/end + precision + timezone, `inspired_by`, `source_listing_id`, revision. Related: `moments`, `media_assets` (original vs derivative, processing status, contributor), `participation` (invitation, attendance, display consent), `reflections` (per person, private by default), `collections`. Migrate `user_experiences` and `captures` into it.
+2. **One access policy:** a Postgres function (`can_view(experience, viewer)`) used by every RLS policy, media signing, search and counts, so all surfaces agree. Friends visibility = the owner's accepted friends (`friendships`), not participants' friends.
+3. **Media storage:** private Supabase Storage buckets, signed short-lived URLs checked against the access policy, location stripped from served derivatives, idempotent uploads keyed by a client id (founder confirms, MVP.md open decision 1).
+4. **Local-first capture:** an on-device draft store (extends the outbox, ADR-007) so saves work offline and sync visibly.
+5. **Search:** Postgres full-text search over permitted fields first; semantic search later and rebuildable.
+6. **Export:** an Edge Function (or on-device builder) producing versioned JSON + media + manifest + Markdown; round-trip test.
+7. **Deletion:** remove from serving paths, search, derived summaries, queued jobs and recaps; documented retention windows.
+8. **Recommender and identification** stay; their output is a proposed Want, never an asserted fact.

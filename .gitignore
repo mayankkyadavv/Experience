@@ -32,3 +32,6 @@ spikes/identify/models/
 .build/
 .swiftpm/
 DerivedData/
+
+# Per-developer iOS overrides (device backend address, signing team)
+ios/Config/Local.xcconfig
