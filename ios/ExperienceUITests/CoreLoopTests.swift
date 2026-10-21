@@ -41,22 +41,36 @@ final class CoreLoopTests: XCTestCase {
         snap(app, "4-who")
         app.buttons["Friends"].tap() // finishes onboarding
 
-        // The camera is home. The Simulator has no camera, so capture a test photo and place it.
+        // Home is the globe. Capture from +: the Simulator has no camera, so use a test photo and place it.
+        let add = app.buttons["Add an Experience"]
+        XCTAssertTrue(add.waitForExistence(timeout: 15))
+        sleep(3) // the earth fades in and spins
+        snap(app, "4a-home-globe")
+        add.tap()
         let testPhoto = app.buttons["Try with a test photo"]
         XCTAssertTrue(testPhoto.waitForExistence(timeout: 15))
         snap(app, "4b-camera")
         testPhoto.tap()
-        let add = app.buttons["Add to your city"]
-        XCTAssertTrue(add.waitForExistence(timeout: 5))
+        let addToCity = app.buttons["Add to your city"]
+        XCTAssertTrue(addToCity.waitForExistence(timeout: 5))
         snap(app, "4c-review")
-        add.tap()
+        addToCity.tap()
         XCTAssertTrue(app.staticTexts["Where was this?"].waitForExistence(timeout: 5))
         sleep(2)
         snap(app, "4d-where")
         app.buttons.matching(NSPredicate(format: "label CONTAINS[c] %@", "estimated")).firstMatch.tap()
         XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "Added")).firstMatch.waitForExistence(timeout: 8))
         snap(app, "4e-added")
-        app.buttons["Your city"].tap()
+        app.buttons["Close"].tap()
+
+        // Back on the globe, the capture shows under Recently; dive into the city.
+        let exploreCity = app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Explore ")).firstMatch
+        XCTAssertTrue(exploreCity.waitForExistence(timeout: 10))
+        sleep(2)
+        snap(app, "4f-home-recently")
+        exploreCity.tap()
+        usleep(500_000)
+        snap(app, "4g-dive")
 
         let ask = app.buttons["What should we do?"]
         XCTAssertTrue(ask.waitForExistence(timeout: 15))

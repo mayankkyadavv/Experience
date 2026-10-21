@@ -35,6 +35,8 @@ The creator first: they record their own ordinary life, plans and wants, every w
 discover → want → plan → do → capture → remember → share → reflect → discover again
 ```
 
+**Home (2026-10-20):** a colorful earth spinning in black space, "Experiences" on top, your places glowing on it, a calm Life overview below; tap your city to dive into its 3D map. The camera is behind **+**, not the home screen (ADR-012 superseded in part).
+
 Capture: **+** from anywhere (the camera from ADR-012 is one entry) → photos/video, a short thought, or no media → draft with proposed title/time/place → **Save privately**. Saves locally first; never waits for AI or upload. Text-only, undated and place-less Experiences are first class.
 
 Navigation (starting point, brief §7): **Life · Discover · Plans · You**, with **+** always available and search everywhere. Life switches Overview / Timeline / Map / Calendar.
@@ -42,7 +44,7 @@ Navigation (starting point, brief §7): **Life · Discover · Plans · You**, wi
 ## Architecture (ADR-001 to ADR-013)
 
 - **iOS:** SwiftUI app + Share Extension on a local Swift package **`ExperienceCore`** (models, `Sourced<T>`, API client, outbox, auth). Minimum iOS 17.
-- **Backend: one Supabase project** (Auth with Sign in with Apple, Postgres with RLS on every table, Edge Functions, `jobs` + `pg_cron`, APNs). Free tier while building; Pro on the day of the first TestFlight build.
+- **Backend: one Supabase project** (Auth with Sign in with Apple, Postgres with RLS on every table, Edge Functions, `jobs` + `pg_cron`, APNs). **Runs only on the local Docker stack until the app is perfected** (founder, 2026-10-21); hosted Supabase comes later.
 - **Domain (ADR-013 over ADR-006/009/011):** the **personal Experience** is the root (owner, state, time with precision and timezone, visibility, places, moments, media, participation, per-person reflections, provenance). `cities` and the Philadelphia catalog stay as reference listings. The schema for this is the next migration.
 - **Maps (ADR-010):** MapLibre Native + OpenFreeMap tiles; place search and directions stay Apple.
 - **Identification (ADR-005):** shared links → legal metadata → Claude extraction → place search; the result is a proposed Want. Check the `claude-api` skill for model IDs before writing that code.

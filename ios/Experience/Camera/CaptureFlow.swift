@@ -1,16 +1,16 @@
 import SwiftUI
 
-/// Camera → review → "Where was this?" → back to the camera with a quiet confirmation.
+/// Camera → review → "Where was this?" → back to the camera with a quiet confirmation. Opened from + on home.
 struct CaptureFlow: View {
     @Environment(AppModel.self) private var model
     let camera: CameraModel
-    let onCity: () -> Void
+    let onClose: () -> Void
 
     @State private var confirmation: String?
 
     var body: some View {
         ZStack {
-            CameraView(camera: camera, onCity: onCity)
+            CameraView(camera: camera, onClose: onClose)
 
             if let media = camera.captured {
                 CaptureReview(media: media, onRetake: {

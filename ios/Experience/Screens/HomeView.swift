@@ -3,7 +3,7 @@ import SwiftUI
 
 /// The city, one question, three answers. The ask button grows into the panel; the panel becomes the results.
 struct HomeView: View {
-    var onCamera: () -> Void = {}
+    var onHome: () -> Void = {}
     @Environment(AppModel.self) private var model
     @Environment(MapScene.self) private var scene
     @Environment(LocationProvider.self) private var location
@@ -58,7 +58,7 @@ struct HomeView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            CityHeader(onExplore: openExplore, onCamera: onCamera)
+            CityHeader(onExplore: openExplore, onHome: onHome)
             if let toast {
                 Toast(text: toast)
                     .padding(.top, Theme.Space.sm)
@@ -299,7 +299,7 @@ struct HomeView: View {
 private struct CityHeader: View {
     @Environment(AppModel.self) private var model
     let onExplore: () -> Void
-    let onCamera: () -> Void
+    let onHome: () -> Void
 
     private var summary: String {
         let done = model.states.values.filter(\.isDone).count
@@ -313,13 +313,13 @@ private struct CityHeader: View {
 
     var body: some View {
         HStack(alignment: .center) {
-            Button(action: onCamera) {
-                Image(systemName: "camera")
+            Button(action: onHome) {
+                Image(systemName: "globe.americas.fill")
                     .font(.title3.weight(.semibold))
                     .foregroundStyle(Theme.text)
                     .frame(width: 44, height: 44)
             }
-            .accessibilityLabel("Camera")
+            .accessibilityLabel("Home")
             VStack(alignment: .leading, spacing: 2) {
                 Text(model.city?.name ?? "Your city")
                     .font(.title(24))

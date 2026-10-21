@@ -65,7 +65,8 @@ Selected-friend audiences, collaborative contributions and consent, group availa
 
 ## Open decisions (founder)
 
-1. **Media storage.** Default proposal: originals upload to private Supabase Storage (signed, short-lived URLs; location metadata stripped from served derivatives), with the on-device copy kept until upload is confirmed. This changes ADR-012's "media stays on device" and is a privacy disclosure.
-2. **What the app opens to.** The brief's Life overview, or keep ADR-012's camera as the first screen with Life one tap away.
+1. **Media storage.** Locally (2026-10-21): originals go to the local Supabase Storage on the founder's Mac, so nothing leaves it. Still open for when it's hosted. Default proposal: originals upload to private Supabase Storage (signed, short-lived URLs; location metadata stripped from served derivatives), with the on-device copy kept until upload is confirmed. This changes ADR-012's "media stays on device" and is a privacy disclosure.
+2. ~~What the app opens to~~: decided 2026-10-20: home is a colorful spinning earth in black space ("Experiences" on top, your places glowing, Recently / Want to Experience below, + for capture). Camera-first waits until users have the habit.
+5. **Earth style:** dot globe vs. satellite (both built, toggle on home); delete the loser.
 3. **Rating scale:** the brief proposes an optional 1-5; the current UI has three tiles.
 4. Final name (Experiences is the working name).

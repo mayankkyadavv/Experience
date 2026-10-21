@@ -1,5 +1,7 @@
 # ADR-012: Capture-first: the camera is the home screen
 
+> **Superseded in part (2026-10-20, founder):** the camera is no longer the home screen. Home is the globe ("your world"); the camera opens from **+**. Reason: people are conditioned to record in their regular camera, Instagram, Snapchat or TikTok; revisit camera-first once there are enough users for that habit to form. The capture flow itself stands.
+
 - **Status:** Accepted (2026-10-19, founder) · **Amends:** MVP.md core loop (capture becomes the center; "What should we do?" and your city stay) · **Design:** DESIGN.md "Camera"
 
 ## Context

@@ -13,7 +13,7 @@ docker compose run --rm tools deno task smoke     # sign up, pick Philadelphia, 
 
 | What | Where |
 |---|---|
-| API (auth, REST, Edge Functions) | `http://localhost:54321` (`/auth/v1`, `/rest/v1`, `/functions/v1`) |
+| API (auth, REST, Edge Functions, Storage) | `http://localhost:54321` (`/auth/v1`, `/rest/v1`, `/functions/v1`, `/storage/v1`) |
 | Postgres | `postgresql://postgres:postgres@localhost:54322/postgres` |
 | Studio (tables, SQL editor) | http://localhost:54323 |
 | Anon key | in `compose.yaml` (`ANON_KEY`); local only |
@@ -31,7 +31,7 @@ docker compose run --rm tools deno task catalog:check
 docker compose logs -f functions                  # Edge Function logs
 docker compose up -d migrate                      # apply a new migration without restarting
 docker compose down                               # stop (data kept)
-docker compose down -v                            # stop and wipe the database
+docker compose down -v                            # stop and wipe the database AND all stored media
 ```
 
 With Deno installed on your Mac, the same tasks run directly (`deno task test`, `deno task smoke`).
@@ -50,7 +50,7 @@ Debug builds talk to `http://localhost:54321` and sign in with a local account a
 
 - **The iOS app** needs Xcode and the iOS Simulator (macOS only).
 - **`ExperienceCore` Swift tests:** `ios/Packages/ExperienceCore/test.sh` (or `swift test` once Xcode is installed).
-- **Production** is hosted Supabase (ADR-002): migrations and functions deploy with the Supabase CLI. The local stack runs the same open-source services, so what works here works there.
+- **Production** is hosted Supabase (ADR-002): migrations and functions deploy with the Supabase CLI. The local stack runs the same open-source services, so what works here works there. Until the app is ready, the local stack is the only backend (2026-10-21).
 
 ## Layout
 

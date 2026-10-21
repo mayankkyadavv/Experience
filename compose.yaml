@@ -8,6 +8,7 @@
 # Ports match the Supabase CLI so `supabase start` is a drop-in replacement. Production stays hosted Supabase;
 # this file is for local development only. Keys below are local-only defaults; override them in a root `.env`.
 # Image versions come from supabase/supabase docker/docker-compose.yml (2026-10).
+# Decision 2026-10-21: everything runs locally until the app is ready; hosted Supabase comes later.
 
 name: experience
 
@@ -76,6 +77,38 @@ services:
       timeout: 5s
       retries: 20
 
+  # Media (photos, video) at /storage/v1, same API as the hosted project. Files live in the storage-data
+  # volume (a Mac folder can't be used: the file backend needs extended attributes, which bind mounts lack).
+  # Runs its own schema migrations on start, so ours can create buckets and policies on storage.objects.
+  storage:
+    image: supabase/storage-api:v1.81.0
+    restart: unless-stopped
+    depends_on:
+      db: { condition: service_healthy }
+    environment:
+      ANON_KEY: *anon
+      SERVICE_KEY: *service
+      AUTH_JWT_SECRET: *jwt
+      POSTGREST_URL: http://rest:3000
+      DATABASE_URL: postgres://supabase_storage_admin:${POSTGRES_PASSWORD:-postgres}@db:5432/postgres
+      STORAGE_PUBLIC_URL: http://localhost:54321
+      REQUEST_ALLOW_X_FORWARDED_PATH: "true"
+      FILE_SIZE_LIMIT: 1073741824  # 1 GB: 60 s of 4K video fits
+      STORAGE_BACKEND: file
+      GLOBAL_S3_BUCKET: experiences
+      FILE_STORAGE_BACKEND_PATH: /var/lib/storage
+      TENANT_ID: stub
+      REGION: local
+      ENABLE_IMAGE_TRANSFORMATION: "false"
+    volumes:
+      - storage-data:/var/lib/storage
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1:5000/status"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+
   # Applies supabase/migrations and supabase/seed.sql, publishes catalog drafts locally, then exits.
   # SAMPLE_DATA=true also loads the 8 hand-written samples in docker/sample-data.sql.
   # Needs auth healthy first: the schema references auth.users, which GoTrue creates.
@@ -83,6 +116,7 @@ services:
     image: supabase/postgres:17.6.1.136
     depends_on:
       auth: { condition: service_healthy }
+      storage: { condition: service_healthy }
     environment:
       PGHOST: db
       PGUSER: postgres
@@ -151,6 +185,7 @@ services:
       auth: { condition: service_healthy }
       rest: { condition: service_healthy }
       functions: { condition: service_healthy }
+      storage: { condition: service_healthy }
     ports:
       - "54321:8000"
     volumes:
@@ -214,5 +249,6 @@ services:
 
 volumes:
   db-data:
+  storage-data:
   db-config:
   deno-cache:

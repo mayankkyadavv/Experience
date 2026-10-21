@@ -16,14 +16,15 @@ struct ExperienceApp: App {
     }
 }
 
-/// One living city behind every screen; screens are panels over it.
+/// One living city behind every screen; screens are panels over it. Home is the globe (your world) above it.
 struct RootView: View {
     @Environment(AppModel.self) private var model
     @Environment(MapScene.self) private var scene
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var introDone = false
-    /// After setup the camera is home (ADR-012); the city is one tap away.
+    /// Home is the globe; the city is one dive away.
     @State private var showingCity = false
+    @State private var capturing = false
     @State private var camera = CameraModel()
 
     var body: some View {
@@ -33,9 +34,15 @@ struct RootView: View {
                 .ignoresSafeArea()
                 .accessibilityHidden(true)
 
-            if !introDone {
-                Wordmark()
-                    .transition(.opacity.combined(with: .scale(scale: 1.04)))
+            if model.phase == .ready && !showingCity {
+                GlobeHomeView(
+                    onOpenCity: { withAnimation(.easeOut(duration: 0.35)) { showingCity = true } },
+                    onCapture: { capturing = true }
+                )
+                .transition(.opacity)
+            } else if model.phase == .launching || !introDone {
+                LaunchCurtain()
+                    .transition(.opacity)
             } else {
                 Group {
                     switch model.phase {
@@ -43,13 +50,8 @@ struct RootView: View {
                     case .signedOut: WelcomeView()
                     case .onboarding: OnboardingView()
                     case .ready:
-                        if showingCity {
-                            HomeView(onCamera: { withAnimation(.spring(duration: 0.45, bounce: 0)) { showingCity = false } })
-                                .transition(.move(edge: .leading).combined(with: .opacity))
-                        } else {
-                            CaptureFlow(camera: camera, onCity: { withAnimation(.spring(duration: 0.45, bounce: 0)) { showingCity = true } })
-                                .transition(.opacity)
-                        }
+                        HomeView(onHome: { withAnimation(.easeInOut(duration: 0.45)) { showingCity = false } })
+                            .transition(.opacity)
                     }
                 }
                 .transition(.move(edge: .bottom).combined(with: .opacity))
@@ -57,6 +59,9 @@ struct RootView: View {
         }
         .animation(Theme.Motion.short, value: model.phase)
         .tint(Theme.primary)
+        .fullScreenCover(isPresented: $capturing) {
+            CaptureFlow(camera: camera, onClose: { capturing = false })
+        }
         .task { await model.start() }
         .task(id: model.phase) {
             guard model.phase == .ready else { return }
@@ -67,40 +72,54 @@ struct RootView: View {
         .onChange(of: model.city) { _, city in
             if let city { scene.center = .init(latitude: city.centerLat, longitude: city.centerLng) }
         }
+        .onChange(of: showingCity) { _, city in
+            // Arrive from above: the city tilts in under the dive.
+            guard city else { return }
+            scene.flight = 0
+            scene.shot = .intro
+            Task {
+                try? await Task.sleep(for: .milliseconds(60))
+                scene.flight = reduceMotion ? 0 : 1.8
+                scene.shot = .city
+            }
+        }
     }
 
-    /// Flat city from above → the camera tilts in and the buildings rise → the first panel slides up.
+    /// Black space with the name → (signed in) the globe, or (new) the flat city tilts in and the first panel slides up.
     private func runIntro() async {
         // Wait (briefly) for tiles and the session; never block the app on a slow network.
-        for _ in 0..<60 where !(scene.ready && model.phase != .launching) {
+        for _ in 0..<60 where model.phase == .launching || (model.phase != .ready && !scene.ready) {
             try? await Task.sleep(for: .milliseconds(50))
         }
         if let city = model.city { scene.center = .init(latitude: city.centerLat, longitude: city.centerLng) }
-        let returning = model.phase == .ready
-        scene.flight = reduceMotion ? 0 : (returning ? 1.4 : 2.2)
+        if model.phase == .ready {
+            withAnimation(Theme.Motion.medium) { introDone = true }
+            return
+        }
+        scene.flight = reduceMotion ? 0 : 2.2
         scene.shot = .city
-        try? await Task.sleep(for: .seconds(reduceMotion ? 0 : (returning ? 0.7 : 1.3)))
-        withAnimation(Theme.Motion.medium) { introDone = true }
+        try? await Task.sleep(for: .seconds(reduceMotion ? 0 : 0.6))
+        withAnimation(.easeInOut(duration: 0.8)) { introDone = true }
         scene.flight = 1.1
     }
 }
 
-/// The name over the flat city while it loads and rises.
-private struct Wordmark: View {
+/// Launch: black space and the name at the top, where home keeps it.
+private struct LaunchCurtain: View {
     @State private var shown = false
 
     var body: some View {
-        Text("Experience")
-            .font(.display(46))
-            .displayTracking(46)
-            .foregroundStyle(Theme.text)
-            .padding(.horizontal, 28)
-            .padding(.vertical, 14)
-            .background(Theme.surface.opacity(0.75), in: .capsule)
-            .blur(radius: shown ? 0 : 8)
-            .opacity(shown ? 1 : 0)
-            .scaleEffect(shown ? 1 : 0.96)
-            .onAppear { withAnimation(.spring(duration: 0.8, bounce: 0)) { shown = true } }
-            .accessibilityAddTraits(.isHeader)
+        ZStack(alignment: .top) {
+            SpaceBackground()
+            Text("Experiences")
+                .font(.display(38))
+                .displayTracking(38)
+                .foregroundStyle(.white)
+                .padding(.top, Theme.Space.sm)
+                .blur(radius: shown ? 0 : 8)
+                .opacity(shown ? 1 : 0)
+                .onAppear { withAnimation(.spring(duration: 0.8, bounce: 0)) { shown = true } }
+                .accessibilityAddTraits(.isHeader)
+        }
     }
 }

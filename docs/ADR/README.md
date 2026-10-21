@@ -17,7 +17,7 @@ New decisions get the next number. To change one, add a new ADR that supersedes 
 | [009](ADR-009-city-first-catalog.md) | City-first: shared Experience catalog, City as a domain concept | Accepted (amends 006); catalog becomes reference listings per 013 |
 | [010](ADR-010-map-rendering.md) | Map rendering: MapLibre Native + OpenStreetMap vector tiles (search stays Apple) | Accepted |
 | [011](ADR-011-data-model-v2.md) | Data model v2: links, occurrences, recommendation items, social graph | Accepted (extends 009) |
-| [012](ADR-012-capture-first.md) | Capture-first: the camera is the home screen | Accepted (amended by 013: media durability) |
+| [012](ADR-012-capture-first.md) | Capture-first: the camera is the home screen | Partly superseded 2026-10-20: home is the globe, camera behind + (amended by 013: media durability) |
 | [013](ADR-013-life-archive-foundation.md) | Experiences is a personal life archive; the product brief governs | Accepted (supersedes city-first; amends 006, 009, 011, 012) |
 
 ## Ledger → ADR map

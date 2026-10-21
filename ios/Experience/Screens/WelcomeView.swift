@@ -16,13 +16,13 @@ struct WelcomeView: View {
         VStack {
             Spacer()
             VStack(alignment: .leading, spacing: Theme.Space.lg) {
-                Text("What should we do?")
+                Text("Experiences")
                     .font(.display(44))
                     .displayTracking(44)
                     .foregroundStyle(Theme.text)
                     .fixedSize(horizontal: false, vertical: true)
                     .modifier(rise(0))
-                Text("Tell it when, who and how much. Get three good answers in your city, then go.")
+                Text("A home for the life you've lived and what you want to do next.")
                     .font(.body)
                     .foregroundStyle(Theme.textMuted)
                     .fixedSize(horizontal: false, vertical: true)

@@ -2,12 +2,12 @@ import AVFoundation
 import ExperienceCore
 import SwiftUI
 
-/// The home screen (ADR-012): a calm, full-screen camera. Tap the shutter for a photo, hold it to record.
+/// A calm, full-screen camera, opened from + on home. Tap the shutter for a photo, hold it to record.
 struct CameraView: View {
     @Environment(\.openURL) private var openURL
     @Environment(\.scenePhase) private var scenePhase
     let camera: CameraModel
-    let onCity: () -> Void
+    let onClose: () -> Void
 
     @State private var pinchStart: CGFloat?
     @State private var focusPoint: CGPoint?
@@ -83,7 +83,7 @@ struct CameraView: View {
             }
 
             HStack {
-                CircleIcon(system: "map", label: "Your city", size: 52, action: onCity)
+                CircleIcon(system: "xmark", label: "Close", size: 52, action: onClose)
                 Spacer()
                 Shutter(camera: camera)
                 Spacer()

@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Experience</string>
+	<string>Experiences</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -28,7 +30,7 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Experience uses the camera to capture what you're doing and add it to your city.</string>
+	<string>Experiences uses the camera to capture moments you want to remember.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Experience uses your location to show what's close and how long it takes to get there.</string>
 	<key>NSMicrophoneUsageDescription</key>

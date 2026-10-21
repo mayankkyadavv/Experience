@@ -144,6 +144,10 @@ Continuous corners. Hierarchy: chip 8 → control 13 → button 16 → card 28 �
 - **Capture tray:** thumbnail drops in from the top; "Figuring out what this is…" morphs (blur + slide) into the activity and place; estimated facts appear as chips labelled "(estimated)".
 - **States:** every component has loading (shimmer or morphing status line), empty (real map, no fake data, a clear next step), and error (what happened + that nothing was lost) designs.
 
+## Home: your world (2026-10-20, founder)
+
+Home departs from the white chrome on purpose: near-black space (#030308) with faint seeded stars, **"Experiences"** in Bricolage 38 white at the top, date and confirmed count in mono below, and a 3D earth (SceneKit) spinning slowly in the middle (drag to turn, inertia, resumes spin; Reduce Motion stops it). Your city glows as a beacon in the color of the last thing you did there; tapping it or **Explore {city}** turns the city to face you, rushes in, and hands off to the white 3D city map. Below: a dark sheet (Recently, Want to Experience; empty state "Start with something you want to remember.") with a white primary button and a **+** inside a turning ring of the six category hues. Two earth styles are under comparison (`ios/Experience/Globe/`, one `EarthLook` each): **Dots**, drawn procedurally in one shader: an equal-area grid of round anti-aliased dots colored by each place's real climate (Köppen-Geiger 1991-2020: apricot and coral deserts, marigold and wheat steppe, jade rainforest, olive Mediterranean, fresh green temperate land, teal into boreal blue across the cold continents, lavender tundra, white ice; borders blended softly in OKLab, `tools/globe/climate.swift`), a soft lit/night side, slow breathing and a light sweep, your city's dots taking its color with a ripple, and a thin day-blue/night-indigo atmosphere (land from a 2048×1024 coastline distance field, `tools/globe/dots.swift`). **Satellite**, one-pass shading of 8K Blue Marble with a low sun and soft terminator, warm night city lights, ocean-only sun glint, terrain relief, clouds with shadows that warm at dusk, and a thin limb atmosphere (HEIC sources compressed to ASTC at launch, `tools/globe/satellite.swift`). Satellite imagery is public-domain NASA; climate data is Beck et al. (2023), CC BY 4.0, which needs a visible credit in the app (an About/credits line) before anyone else uses it. Launch screen is the same black.
+
 ## Do's and Don'ts
 
 - Do keep the map white; only categories add color.
@@ -171,4 +175,6 @@ Continuous corners. Hierarchy: chip 8 → control 13 → button 16 → card 28 �
 |------|----------|-----------|
 | 2026-10-18 | Initial design system from the approved city-first mockup | /design-consultation; founder: "this is amazing". Earlier directions (dark Lamplight Atlas, white Postcards) preceded the city-first strategy |
 | 2026-10-18 | Light default, white 3D city, six category hues as the only color | Founder wants white, dynamic, awe; color as a reward for real-world activity |
+| 2026-10-20 | Home is a colorful earth in black space; camera moves behind + | Founder: "Not just black and white"; camera-first waits for user habit |
+| 2026-10-21 | Dots earth colored by climate instead of the category rainbow | Founder: the rainbow was distracting; climate gives the color meaning |
 | 2026-10-18 | 3D city rendered from OpenStreetMap vector tiles with custom extrusions (beacons, pillars) | MapKit can't extrude custom shapes or restyle buildings white; see ADR-010 |
