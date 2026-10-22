@@ -2,6 +2,8 @@
 
 How the MVP is built. Decisions and their reasons live in `docs/ADR/` (the index maps every Eng Review ledger record). The scope is in `docs/MVP.md`.
 
+> **Built (2026-10-21):** the personal Experience schema, one access rule, private media storage and local-first saves are in (BUILD_PLAN decisions of 2026-10-21; migrations `20261024000000_life_archive.sql`, `20261025000000_media_storage.sql`; `ios/Experience/Life/`). The catalog tables are now `listings`. Items 1-4 of "Changes required by the product brief" are done; 5-8 remain.
+>
 > **Life-archive update (2026-10-20, ADR-013):** the product is now `EXPERIENCES_PRODUCT.md`. The system (iOS + share extension + Supabase + identification) still holds. The domain model below is out of date: the root is now the **personal Experience** (owner, lifecycle state, time precision/timezone, visibility, moments, media, participation, reflections), and the catalog becomes reference listings. See "Changes required by the product brief" at the end.
 
 > **City-first update (2026-10-18):** the strategy moved to "What should we do?" in Philadelphia (`docs/EXPERIENCE.md`, `docs/MVP.md`). The system below (iOS + share extension + Supabase + the identification pipeline) still holds. The city-first schema is now in `supabase/migrations/20261019000000_init.sql` (ADR-009) and supersedes the domain model table below where they differ; maps follow ADR-010. Items 1-3, 6 and 7 of "Changes required by the city-first strategy" are done; 4, 5 and 8 remain.

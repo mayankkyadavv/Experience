@@ -23,7 +23,7 @@ struct CatalogItem: Identifiable, Equatable, Decodable {
 
     enum CodingKeys: String, CodingKey {
         case id, title, category, kind, subcategory, tags, provenance
-        case priceMinCents = "price_min_cents", priceMaxCents = "price_max_cents", experiencePlaces = "experience_places"
+        case priceMinCents = "price_min_cents", priceMaxCents = "price_max_cents", experiencePlaces = "listing_places"
     }
 
     var place: PlaceLink.Place? { experiencePlaces.first { $0.role == "primary" }?.places }
@@ -74,7 +74,7 @@ struct ExperienceDetail: Decodable, Identifiable {
         case id, title, intent, description, category, kind, subcategory, tags, hours, provenance
         case goodFor = "good_for", priceMinCents = "price_min_cents", priceMaxCents = "price_max_cents"
         case durationMinMinutes = "duration_min_minutes", durationMaxMinutes = "duration_max_minutes"
-        case experiencePlaces = "experience_places", experienceLinks = "experience_links", experienceOccurrences = "experience_occurrences"
+        case experiencePlaces = "listing_places", experienceLinks = "listing_links", experienceOccurrences = "listing_occurrences"
     }
 
     var place: PlaceLink.Place? { experiencePlaces.first { $0.role == "primary" }?.places }
@@ -111,8 +111,8 @@ extension AppModel {
     func loadCatalog() async {
         guard let cityId = profile?.cityId ?? cities.first(where: { $0.status != .coming })?.id, catalog[cityId] == nil else { return }
         do {
-            let rows: [CatalogItem] = try await supabase.from("experiences")
-                .select("id, title, category, kind, subcategory, tags, price_min_cents, price_max_cents, provenance, experience_places(role, places(name, neighborhood, lat, lng))")
+            let rows: [CatalogItem] = try await supabase.from("listings")
+                .select("id, title, category, kind, subcategory, tags, price_min_cents, price_max_cents, provenance, listing_places(role, places(name, neighborhood, lat, lng))")
                 .eq("city_id", value: cityId).eq("status", value: "published")
                 .order("title")
                 .execute().value
@@ -125,15 +125,15 @@ extension AppModel {
     var cityCatalog: [CatalogItem] { profile?.cityId.flatMap { catalog[$0] } ?? [] }
 
     func loadStates() async {
-        let rows: [UserExperienceState] = (try? await supabase.from("user_experiences")
+        let rows: [UserExperienceState] = (try? await supabase.from("listing_states")
             .select("experience_id, saved_at, interested_at, not_interested_at, done_at, rating, from_recommendation")
             .execute().value) ?? []
         states = Dictionary(rows.map { ($0.experienceId, $0) }, uniquingKeysWith: { a, _ in a })
     }
 
     func detail(_ id: UUID) async throws -> ExperienceDetail {
-        try await supabase.from("experiences")
-            .select("id, title, intent, description, category, kind, subcategory, tags, good_for, price_min_cents, price_max_cents, duration_min_minutes, duration_max_minutes, hours, provenance, experience_places(role, places(name, address, neighborhood, lat, lng)), experience_links(kind, url), experience_occurrences(starts_at, ends_at)")
+        try await supabase.from("listings")
+            .select("id, title, intent, description, category, kind, subcategory, tags, good_for, price_min_cents, price_max_cents, duration_min_minutes, duration_max_minutes, hours, provenance, listing_places(role, places(name, address, neighborhood, lat, lng)), listing_links(kind, url), listing_occurrences(starts_at, ends_at)")
             .eq("id", value: id)
             .single()
             .execute().value
@@ -146,23 +146,4 @@ extension AppModel {
         states[state.experienceId] = state
         return state
     }
-
-    /// Records a capture (media stays on the device) and, with an Experience, marks it done so its pillar rises.
-    func saveCapture(_ media: CapturedMedia, experienceId: UUID?) async throws {
-        struct Row: Encodable {
-            let experience_id: UUID?
-            let kind: String
-            let taken_at: Date
-            let duration_seconds: Double?
-            let device_media_id: String
-        }
-        try await supabase.from("captures").insert(Row(
-            experience_id: experienceId, kind: media.kind.rawValue, taken_at: media.takenAt,
-            duration_seconds: media.duration, device_media_id: media.url.lastPathComponent
-        )).execute()
-        if let experienceId, states[experienceId]?.isDone != true {
-            try await send(Feedback(.done, on: experienceId))
-        }
-    }
 }
-

@@ -27,14 +27,14 @@ fi
 if [ "${LOCAL_PUBLISH_DRAFTS}" = "true" ]; then
   # Local only: show AI-researched drafts in the app. Their facts stay `estimated`, so the UI labels them.
   echo "publishing catalog drafts locally (LOCAL_PUBLISH_DRAFTS=false to skip)"
-  psql -c "update experiences set status = 'published' where status = 'draft' and visibility = 'catalog'"
+  psql -c "update listings set status = 'published' where status = 'draft' and visibility = 'catalog'"
 fi
 
 if [ "${SAMPLE_DATA}" = "true" ]; then
   echo "applying docker/sample-data.sql (set SAMPLE_DATA=false to skip)"
   psql --single-transaction -f /sample-data.sql
 else
-  psql -c "delete from experiences where id::text like '5a5a5a5a-%'; delete from places where id::text like '5a5a5a5a-%';"
+  psql -c "delete from listings where id::text like '5a5a5a5a-%'; delete from places where id::text like '5a5a5a5a-%';"
 fi
 
 # PostgREST caches the schema; tell it to pick up new tables and functions.

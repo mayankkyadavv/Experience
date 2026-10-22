@@ -28,7 +28,7 @@ create temp table sample_rows (n, title, intent, category, tags, good_for, pmin,
    'East Passyunk & 9th', 'South Philadelphia', 39.9335, -75.1590)
 ;
 
-insert into experiences (id, city_id, visibility, status, title, intent, category, tags, good_for, location_requirement,
+insert into listings (id, city_id, visibility, status, title, intent, category, tags, good_for, location_requirement,
                            price_min_cents, price_max_cents, duration_min_minutes, duration_max_minutes, group_min, group_max,
                            hours, provenance, review_note)
   select ('5a5a5a5a-0000-4000-8000-' || lpad(n::text, 12, '0'))::uuid, 'philadelphia', 'catalog', 'published', title, intent,
@@ -48,7 +48,7 @@ insert into places (id, city_id, provider, provider_place_id, name, neighborhood
   from sample_rows
   on conflict (id) do update set name = excluded.name, neighborhood = excluded.neighborhood, lat = excluded.lat, lng = excluded.lng;
 
-insert into experience_places (experience_id, place_id, role)
+insert into listing_places (listing_id, place_id, role)
 select ('5a5a5a5a-0000-4000-8000-' || lpad(n::text, 12, '0'))::uuid, ('5a5a5a5a-0000-4000-9000-' || lpad(n::text, 12, '0'))::uuid, 'primary'
 from sample_rows
 on conflict do nothing;

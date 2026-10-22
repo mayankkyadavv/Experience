@@ -6,6 +6,7 @@ import SwiftUI
 /// Review a capture, then say where it was. Picking an Experience marks it done, so its pillar rises (ADR-012).
 struct CaptureReview: View {
     @Environment(AppModel.self) private var model
+    @Environment(LifeStore.self) private var store
     @Environment(LocationProvider.self) private var location
     let media: CapturedMedia
     let onRetake: () -> Void
@@ -154,13 +155,9 @@ struct CaptureReview: View {
     private func save(_ item: CatalogItem?) async {
         saving = .some(item?.id)
         error = nil
-        do {
-            try await model.saveCapture(media, experienceId: item?.id)
-            onSaved(item?.place?.name ?? item?.title)
-        } catch {
-            self.error = "Couldn't save. It's still on your phone; try again."
-            saving = nil
-        }
+        // Saved on the phone first; the upload follows on its own, so this can't fail the person.
+        await store.saveCapture(media, listing: item)
+        onSaved(item?.place?.name ?? item?.title)
     }
 
     static func distance(_ meters: CLLocationDistance) -> String {

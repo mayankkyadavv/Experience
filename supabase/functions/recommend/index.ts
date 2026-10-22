@@ -29,7 +29,7 @@ function parseConstraints(b: Record<string, unknown>): Constraints | string {
 /** Events with known occurrences are only possible on those (local) days; everything else keeps its `dates`. */
 // deno-lint-ignore no-explicit-any
 function eventDates(r: any, timezone: string) {
-  const occ: { starts_at: string }[] = r.experience_occurrences ?? [];
+  const occ: { starts_at: string }[] = r.listing_occurrences ?? [];
   if (r.kind !== "event" || occ.length === 0) return r.dates;
   const day = (iso: string) => new Intl.DateTimeFormat("en-CA", { timeZone: timezone }).format(new Date(iso));
   return occ.map((o) => ({ start: day(o.starts_at), end: day(o.starts_at) }));
@@ -57,16 +57,17 @@ Deno.serve(async (req) => {
   if (!city) return json(409, { error: "Unknown city" });
 
   const [{ data: rows, error }, { data: states }] = await Promise.all([
-    asUser.from("experiences")
-      .select("*, experience_places(role, places(lat, lng, name, neighborhood)), experience_occurrences(starts_at)")
+    asUser.from("listings")
+      .select("*, listing_places(role, places(lat, lng, name, neighborhood)), listing_occurrences(starts_at)")
       .eq("city_id", city.id)
       .eq("status", "published"),
-    asUser.from("user_experiences").select("*, experiences(category)"),
+    // What this person has saved, done, rated or dismissed, per listing (a view over their Experiences).
+    asUser.from("listing_states").select("*"),
   ]);
   if (error) return json(500, { error: error.message });
 
   // deno-lint-ignore no-explicit-any
-  const primaryPlace = (r: any) => (r.experience_places ?? []).find((p: any) => p.role === "primary")?.places ?? null;
+  const primaryPlace = (r: any) => (r.listing_places ?? []).find((p: any) => p.role === "primary")?.places ?? null;
   // deno-lint-ignore no-explicit-any
   const candidates: CandidateExperience[] = (rows ?? []).map((r: any) => ({
     id: r.id, title: r.title, category: r.category, tags: r.tags, goodFor: r.good_for,
@@ -76,8 +77,10 @@ Deno.serve(async (req) => {
     place: primaryPlace(r)?.lat != null ? { lat: primaryPlace(r).lat, lng: primaryPlace(r).lng } : null,
   }));
   // deno-lint-ignore no-explicit-any
+  const categoryOf = new Map<string, string>((rows ?? []).map((r: any) => [r.id, r.category]));
+  // deno-lint-ignore no-explicit-any
   const userStates: UserState[] = (states ?? []).map((s: any) => ({
-    experienceId: s.experience_id, category: s.experiences?.category ?? "other",
+    experienceId: s.experience_id, category: categoryOf.get(s.experience_id) ?? "other",
     savedAt: s.saved_at ?? undefined, interestedAt: s.interested_at ?? undefined,
     notInterestedAt: s.not_interested_at ?? undefined, doneAt: s.done_at ?? undefined, rating: s.rating ?? undefined,
   }));
@@ -93,7 +96,7 @@ Deno.serve(async (req) => {
     .select("id").single();
   if (logged) {
     await service.from("recommendation_items").insert(picks.map((p, position) => ({
-      request_id: logged.id, experience_id: p.experienceId, position, score: p.score, reasons: p.reasons,
+      request_id: logged.id, listing_id: p.experienceId, position, score: p.score, reasons: p.reasons,
     })));
   }
 

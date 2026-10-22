@@ -2,7 +2,7 @@
 
 Working name **Experiences** (the repo and Swift targets still say "Experience"). **A beautiful, intelligent, evolving representation of the life a person has actually lived, and the experiences they still want to have.** It answers three questions: **What have I experienced? What are the people I care about experiencing? What should I experience next?** The standard: *a home for a life that its owner will still want to open, understand, and trust twenty years from now.*
 
-**Stage (2026-10-20):** the product was refounded on `EXPERIENCES_PRODUCT.md` (ADR-013). Building Stages 0-2 of that brief on the existing codebase (iOS app, camera capture, Supabase, Philadelphia catalog). The city-first "What should we do?" recommender strategy is superseded; its code stays as inputs. Next: the personal Experience schema, capture → Life → detail, then Want → Planned → Experienced.
+**Stage (2026-10-22):** the product was refounded on `EXPERIENCES_PRODUCT.md` (ADR-013); we're building Stages 0-2 of that brief on the existing codebase. The city-first "What should we do?" strategy is superseded; its code stays as inputs. **Built so far:** the personal Experience model with one access rule, private media storage, local-first saves, the three-page home (You · world · Discover), profile direction A with collections and Arrange, Add an Experience, light/dark, and a labelled sample profile for demos. **Where we left off and what's next:** `docs/BUILD_PLAN.md` → "State of play". Branch work happens on `00-LaunchResponse`-style feature branches merged into `main`.
 
 ## Source documents (read in this order)
 
@@ -35,7 +35,7 @@ The creator first: they record their own ordinary life, plans and wants, every w
 discover → want → plan → do → capture → remember → share → reflect → discover again
 ```
 
-**Home (2026-10-20):** a colorful earth spinning in black space, "Experiences" on top, your places glowing on it, a calm Life overview below; tap your city to dive into its 3D map. The camera is behind **+**, not the home screen (ADR-012 superseded in part).
+**Home (2026-10-21):** three pages you swipe between over one backdrop (space at night; paper "Atlas" or "Gallery" white by day): **You** (left: your profile, direction A: identity, counts, collections shelf, Experienced / Want, Arrange, mosaic) · **your world** (center, where the app opens: "Experiences", the date, the climate-dot earth with a beacon for each place you've lived something) · **Discover** (right: things you could do). A floating island at the bottom holds three evenly spaced icons, one per page. Tap your city to dive into its map, which becomes the place for memories and, later, maps shared with friends and groups. **Capture has no entry on the home island for now** (founder, 2026-10-21: they'll decide where it goes). **Add an Experience** is the **+** on the You page; the camera (`CaptureFlow`) is in the code with no entry. This departs from the brief's "+ always available" until the founder decides.
 
 Capture: **+** from anywhere (the camera from ADR-012 is one entry) → photos/video, a short thought, or no media → draft with proposed title/time/place → **Save privately**. Saves locally first; never waits for AI or upload. Text-only, undated and place-less Experiences are first class.
 
@@ -45,7 +45,7 @@ Navigation (starting point, brief §7): **Life · Discover · Plans · You**, wi
 
 - **iOS:** SwiftUI app + Share Extension on a local Swift package **`ExperienceCore`** (models, `Sourced<T>`, API client, outbox, auth). Minimum iOS 17.
 - **Backend: one Supabase project** (Auth with Sign in with Apple, Postgres with RLS on every table, Edge Functions, `jobs` + `pg_cron`, APNs). **Runs only on the local Docker stack until the app is perfected** (founder, 2026-10-21); hosted Supabase comes later.
-- **Domain (ADR-013 over ADR-006/009/011):** the **personal Experience** is the root (owner, state, time with precision and timezone, visibility, places, moments, media, participation, per-person reflections, provenance). `cities` and the Philadelphia catalog stay as reference listings. The schema for this is the next migration.
+- **Domain (ADR-013 over ADR-006/009/011):** the **personal Experience** is the root (owner, state, time with precision and timezone, visibility, places, moments, media, participation, per-person reflections, provenance). `cities` and the Philadelphia catalog are reference **listings** (`listings`, `listing_*` tables). Built 2026-10-21: `experiences`, `collections`, `media_assets`, `reflections`, `participations`, one access rule (`can_view`), private `media` storage, and local-first saves in `ios/Experience/Life/LifeStore.swift`.
 - **Maps (ADR-010):** MapLibre Native + OpenFreeMap tiles; place search and directions stay Apple.
 - **Identification (ADR-005):** shared links → legal metadata → Claude extraction → place search; the result is a proposed Want. Check the `claude-api` skill for model IDs before writing that code.
 

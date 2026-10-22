@@ -2,14 +2,22 @@ import SwiftUI
 
 @main
 struct ExperienceApp: App {
-    @State private var model = AppModel()
+    @State private var model: AppModel
+    @State private var life: LifeStore
     @State private var scene = MapScene()
     @State private var location = LocationProvider()
+
+    init() {
+        let model = AppModel()
+        _model = State(initialValue: model)
+        _life = State(initialValue: LifeStore(supabase: model.supabase))
+    }
 
     var body: some Scene {
         WindowGroup {
             RootView()
                 .environment(model)
+                .environment(life)
                 .environment(scene)
                 .environment(location)
         }
@@ -20,6 +28,10 @@ struct ExperienceApp: App {
 struct RootView: View {
     @Environment(AppModel.self) private var model
     @Environment(MapScene.self) private var scene
+    @Environment(LifeStore.self) private var life
+    @Environment(\.scenePhase) private var scenePhase
+    /// Light, dark or the system's (Settings on the You page). Applied here, where every screen inherits it.
+    @AppStorage("appearance") private var appearance: Appearance = .system
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var introDone = false
     /// Home is the globe; the city is one dive away.
@@ -35,10 +47,8 @@ struct RootView: View {
                 .accessibilityHidden(true)
 
             if model.phase == .ready && !showingCity {
-                GlobeHomeView(
-                    onOpenCity: { withAnimation(.easeOut(duration: 0.35)) { showingCity = true } },
-                    onCapture: { capturing = true }
-                )
+                // Capture (CaptureFlow below) has no entry on home for now; the founder decides where it goes.
+                HomePager(onOpenCity: { withAnimation(.easeOut(duration: 0.35)) { showingCity = true } })
                 .transition(.opacity)
             } else if model.phase == .launching || !introDone {
                 LaunchCurtain()
@@ -57,6 +67,7 @@ struct RootView: View {
                 .transition(.move(edge: .bottom).combined(with: .opacity))
             }
         }
+        .preferredColorScheme(appearance.scheme)
         .animation(Theme.Motion.short, value: model.phase)
         .tint(Theme.primary)
         .fullScreenCover(isPresented: $capturing) {
@@ -64,9 +75,18 @@ struct RootView: View {
         }
         .task { await model.start() }
         .task(id: model.phase) {
-            guard model.phase == .ready else { return }
+            guard model.phase == .ready else {
+                if model.phase == .signedOut { life.reset() }
+                return
+            }
+            async let lifeLoaded: Void = life.load()
             await model.loadCatalog()
             await model.loadStates()
+            await lifeLoaded
+        }
+        .onChange(of: scenePhase) { _, phase in
+            // Coming back to the app is a good moment to finish uploads that were waiting for a network.
+            if phase == .active, model.phase == .ready { Task { await life.sync() } }
         }
         .task { await runIntro() }
         .onChange(of: model.city) { _, city in
@@ -104,17 +124,17 @@ struct RootView: View {
     }
 }
 
-/// Launch: black space and the name at the top, where home keeps it.
+/// Launch: the home backdrop and the name at the top, where home keeps it.
 private struct LaunchCurtain: View {
     @State private var shown = false
 
     var body: some View {
         ZStack(alignment: .top) {
-            SpaceBackground()
+            HomeBackdrop()
             Text("Experiences")
                 .font(.display(38))
                 .displayTracking(38)
-                .foregroundStyle(.white)
+                .foregroundStyle(Color.primary)
                 .padding(.top, Theme.Space.sm)
                 .blur(radius: shown ? 0 : 8)
                 .opacity(shown ? 1 : 0)

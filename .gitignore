@@ -35,3 +35,6 @@ DerivedData/
 
 # Per-developer iOS overrides (device backend address, signing team)
 ios/Config/Local.xcconfig
+
+# Sample profile placeholder images (rendered by tools/demo/gradients.swift)
+tools/demo/.images/

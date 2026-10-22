@@ -65,8 +65,12 @@ Selected-friend audiences, collaborative contributions and consent, group availa
 
 ## Open decisions (founder)
 
-1. **Media storage.** Locally (2026-10-21): originals go to the local Supabase Storage on the founder's Mac, so nothing leaves it. Still open for when it's hosted. Default proposal: originals upload to private Supabase Storage (signed, short-lived URLs; location metadata stripped from served derivatives), with the on-device copy kept until upload is confirmed. This changes ADR-012's "media stays on device" and is a privacy disclosure.
-2. ~~What the app opens to~~: decided 2026-10-20: home is a colorful spinning earth in black space ("Experiences" on top, your places glowing, Recently / Want to Experience below, + for capture). Camera-first waits until users have the habit.
-5. **Earth style:** dot globe vs. satellite (both built, toggle on home); delete the loser.
-3. **Rating scale:** the brief proposes an optional 1-5; the current UI has three tiles.
+1. **Media storage.** Built 2026-10-21 on the local stack: private `media` bucket, originals separate from thumbnails, access through the one rule, 5-minute signed URLs. Locally, originals go to the local Supabase Storage on the founder's Mac, so nothing leaves it. Still open for when it's hosted. Default proposal: originals upload to private Supabase Storage (signed, short-lived URLs; location metadata stripped from served derivatives), with the on-device copy kept until upload is confirmed. This changes ADR-012's "media stays on device" and is a privacy disclosure.
+2. ~~What the app opens to~~: decided 2026-10-20, refined 2026-10-21: the app opens on the world page (the climate-dot earth, your places glowing), between You (profile) and Discover, with a three-icon island. Camera-first waits until users have the habit.
+5. ~~Earth style~~: decided 2026-10-21: Dots (climate colors). Satellite is parked in `ios/Unused/SatelliteEarth/` for a possible toggle.
+3. **Rating scale:** the brief proposes an optional 1-5; the current UI has three tiles (stored as `rating_scale = 3`).
 4. Final name (Experiences is the working name).
+6. **Where capture lives on home** (founder, 2026-10-21): the island has no +; Add an Experience is the + on the You page and the camera has no entry. The brief wants + always available.
+7. **Light backdrop:** Atlas (paper + graticule) or Gallery (white). Both ship behind a temporary picker in Settings; delete the loser. Agent's pick: Atlas.
+8. **Hosting:** everything is local until the app is perfected; hosted Supabase (Pro at TestFlight, ADR-002) waits for the founder.
+9. **Climate data credit:** the Dots earth uses Beck et al. (2023), CC BY 4.0; it needs a visible credit (an About line) before anyone else uses the app.

@@ -41,33 +41,11 @@ final class CoreLoopTests: XCTestCase {
         snap(app, "4-who")
         app.buttons["Friends"].tap() // finishes onboarding
 
-        // Home is the globe. Capture from +: the Simulator has no camera, so use a test photo and place it.
-        let add = app.buttons["Add an Experience"]
-        XCTAssertTrue(add.waitForExistence(timeout: 15))
-        sleep(3) // the earth fades in and spins
-        snap(app, "4a-home-globe")
-        add.tap()
-        let testPhoto = app.buttons["Try with a test photo"]
-        XCTAssertTrue(testPhoto.waitForExistence(timeout: 15))
-        snap(app, "4b-camera")
-        testPhoto.tap()
-        let addToCity = app.buttons["Add to your city"]
-        XCTAssertTrue(addToCity.waitForExistence(timeout: 5))
-        snap(app, "4c-review")
-        addToCity.tap()
-        XCTAssertTrue(app.staticTexts["Where was this?"].waitForExistence(timeout: 5))
-        sleep(2)
-        snap(app, "4d-where")
-        app.buttons.matching(NSPredicate(format: "label CONTAINS[c] %@", "estimated")).firstMatch.tap()
-        XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "Added")).firstMatch.waitForExistence(timeout: 8))
-        snap(app, "4e-added")
-        app.buttons["Close"].tap()
-
-        // Back on the globe, the capture shows under Recently; dive into the city.
-        let exploreCity = app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Explore ")).firstMatch
+        // Home is the globe. (Capture has no entry on home for now, so the camera steps are skipped.)
+        // Home: You on the left, Discover on the right; then dive into the city.
+        walkHomePages(app)
+        let exploreCity = app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Open your map of ")).firstMatch
         XCTAssertTrue(exploreCity.waitForExistence(timeout: 10))
-        sleep(2)
-        snap(app, "4f-home-recently")
         exploreCity.tap()
         usleep(500_000)
         snap(app, "4g-dive")
@@ -125,9 +103,166 @@ final class CoreLoopTests: XCTestCase {
         snap(app, "14-your-city")
     }
 
+    /// The three home pages, by button and by swipe. Signed-in account already set up (run the core loop once first).
     @MainActor
+    func testHomePages() {
+        let app = XCUIApplication()
+        app.launch()
+        XCTAssertTrue(app.buttons["Your world"].waitForExistence(timeout: 20))
+        walkHomePages(app)
+    }
+
+    @MainActor
+    private func walkHomePages(_ app: XCUIApplication) {
+        XCTAssertTrue(app.buttons["Your world"].waitForExistence(timeout: 15))
+        XCTAssertTrue(app.buttons["Your world"].isSelected, "home opens on the world")
+        sleep(2)
+        snap(app, "5a-home-world")
+        app.buttons["You"].tap()
+        XCTAssertTrue(app.buttons["Edit profile"].waitForExistence(timeout: 5))
+        sleep(1)
+        snap(app, "5b-home-you")
+        // Fill in the profile, then see it as a visitor would.
+        app.buttons["Edit profile"].tap()
+        // Replace whatever is there (fresh accounts are empty; reused ones aren't). Usernames are unique, so each run picks its own.
+        func replace(_ id: String, with text: String) {
+            let field = app.descendants(matching: .any).matching(identifier: id).firstMatch
+            XCTAssertTrue(field.waitForExistence(timeout: 5))
+            field.tap()
+            if let current = field.value as? String, !current.isEmpty, current != field.placeholderValue {
+                field.typeText(String(repeating: XCUIKeyboardKey.delete.rawValue, count: current.count))
+            }
+            field.typeText(text)
+        }
+        replace("profile.name", with: "Mayank Yadav")
+        replace("profile.username", with: "mayank_\(Int.random(in: 1000...9999))")
+        replace("profile.bio", with: "Collecting ordinary days in Philadelphia.")
+        snap(app, "5b1-edit-profile")
+        app.buttons["Save"].tap()
+        XCTAssertTrue(app.staticTexts["Mayank Yadav"].waitForExistence(timeout: 8))
+        snap(app, "5b2-profile")
+        app.buttons["Preview as public"].tap()
+        XCTAssertTrue(app.staticTexts["This is what others see"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Nothing shared yet"].exists, "private Experiences never show publicly")
+        snap(app, "5b3-profile-public")
+        app.buttons["Done"].tap()
+        app.buttons["Settings"].tap()
+        XCTAssertTrue(app.navigationBars["Settings"].waitForExistence(timeout: 5))
+        snap(app, "5b4-settings")
+        app.buttons["Done"].tap()
+        // Back to the world: swipe across the header (the collections shelf below scrolls sideways by itself).
+        app.coordinate(withNormalizedOffset: CGVector(dx: 0.9, dy: 0.2))
+            .press(forDuration: 0.05, thenDragTo: app.coordinate(withNormalizedOffset: CGVector(dx: 0.1, dy: 0.2)))
+        XCTAssertTrue(app.buttons["Your world"].waitForExistence(timeout: 3))
+        sleep(1)
+        app.swipeLeft() // across the globe, on to Discover
+        XCTAssertTrue(app.staticTexts["Discover"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["Discover"].isSelected, "a swipe across the globe changes the page")
+        sleep(1)
+        snap(app, "5c-home-discover")
+        app.buttons["Your world"].tap()
+        XCTAssertTrue(app.buttons["Open your map of Philadelphia"].waitForExistence(timeout: 5))
+    }
+
+    /// Add a text-only Experience into a new collection from the profile; it shows at once, then syncs.
+    /// Signed-in account already set up (run the core loop once first).
+    @MainActor
+    func testAddExperienceToProfile() {
+        let app = XCUIApplication()
+        app.launch()
+        XCTAssertTrue(app.buttons["You"].waitForExistence(timeout: 20))
+        app.buttons["You"].tap()
+        XCTAssertTrue(app.buttons["Add an Experience"].waitForExistence(timeout: 8))
+        sleep(2)
+        snap(app, "6a-profile")
+
+        app.buttons["Add an Experience"].firstMatch.tap()
+        let title = app.textFields["What was it?"]
+        XCTAssertTrue(title.waitForExistence(timeout: 5))
+        let name = "Tea and a long conversation \(Int.random(in: 100...999))"
+        title.typeText(name)
+        app.textFields["A few words, if you like"].tap()
+        app.textFields["A few words, if you like"].typeText("We stayed at the table long after the tea went cold.")
+        app.buttons["Everyday Life"].tap()
+        app.swipeUp()
+        app.buttons["None"].tap()
+        // Reuse the collection from an earlier run; make it the first time.
+        if app.buttons["Sunday dinners"].waitForExistence(timeout: 2) {
+            app.buttons["Sunday dinners"].tap()
+        } else {
+            app.buttons["New collection…"].tap()
+            let col = app.textFields["Name it: Barcelona 2024, Sunday dinners…"]
+            XCTAssertTrue(col.waitForExistence(timeout: 3))
+            col.tap()
+            col.typeText("Sunday dinners")
+        }
+        snap(app, "6b-add")
+        app.buttons["Save privately"].tap()
+
+        // Phone first: the card is there before (and whether or not) the upload finishes.
+        XCTAssertTrue(app.staticTexts[name].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Sunday dinners"].waitForExistence(timeout: 5))
+        sleep(3)
+        snap(app, "6c-profile-after")
+
+        app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Arrange")).firstMatch.tap()
+        XCTAssertTrue(app.buttons["Time"].waitForExistence(timeout: 3))
+        snap(app, "6d-arrange-menu")
+        app.buttons["Time"].tap()
+        sleep(2)
+        snap(app, "6e-arranged-by-time")
+        app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Arrange")).firstMatch.tap()
+        app.buttons["Collections"].tap()
+
+        app.staticTexts[name].firstMatch.tap()
+        XCTAssertTrue(app.staticTexts["Only you"].waitForExistence(timeout: 5), "the audience is always shown")
+        snap(app, "6f-experience")
+        app.buttons["Done"].tap()
+    }
+
+    /// The sample profile (tools/demo/seed.ts): switch to it, look around, switch back.
+    /// Needs `deno task demo` to have run. Screenshots are what the founder shows people.
+    @MainActor
+    func testSampleProfile() {
+        let app = XCUIApplication()
+        app.launch()
+        XCTAssertTrue(app.buttons["You"].waitForExistence(timeout: 20))
+        app.buttons["You"].tap()
+        app.buttons["Settings"].tap()
+        let use = app.buttons["Use the sample profile"]
+        if use.waitForExistence(timeout: 3) { use.tap() } else { app.buttons["Done"].tap() }
+        XCTAssertTrue(app.staticTexts["Jordan Lee"].waitForExistence(timeout: 20))
+        XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "Sample profile")).firstMatch.exists,
+                      "sample data is always labelled")
+        sleep(4)
+        snap(app, "7a-sample-profile")
+        app.swipeUp()
+        sleep(2)
+        snap(app, "7b-sample-mosaic")
+        app.swipeDown(); app.swipeDown()
+        app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Arrange")).firstMatch.tap()
+        app.buttons["Time"].tap()
+        sleep(3)
+        snap(app, "7c-sample-by-time")
+        app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Arrange")).firstMatch.tap()
+        app.buttons["Collections"].tap()
+        app.buttons["Preview as public"].tap()
+        sleep(3)
+        snap(app, "7d-sample-public")
+        app.buttons["Done"].tap()
+        app.buttons["Your world"].tap()
+        sleep(4)
+        snap(app, "7e-sample-world")
+    }
+
+    @MainActor
+    /// Attaches a screenshot; with SNAPSHOT_DIR set (TEST_RUNNER_SNAPSHOT_DIR on the command line) also writes it there.
     private func snap(_ app: XCUIApplication, _ name: String) {
-        let shot = XCTAttachment(screenshot: app.screenshot())
+        let image = app.screenshot()
+        if let dir = ProcessInfo.processInfo.environment["SNAPSHOT_DIR"] {
+            try? image.pngRepresentation.write(to: URL(fileURLWithPath: dir).appendingPathComponent("\(name).png"))
+        }
+        let shot = XCTAttachment(screenshot: image)
         shot.name = name
         shot.lifetime = .keepAlways
         add(shot)

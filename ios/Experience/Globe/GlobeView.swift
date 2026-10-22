@@ -3,13 +3,6 @@ import SceneKit
 import SwiftUI
 import UIKit
 
-/// The two earth styles under comparison. Temporary: the founder picks one, then the other is deleted.
-enum GlobeStyle: String, CaseIterable, Identifiable {
-    case dots, satellite
-    var id: String { rawValue }
-    var label: String { self == .dots ? "Dots" : "Satellite" }
-}
-
 /// A glowing point on the globe: one per city where you have Experiences (the brief clusters at world scale).
 struct GlobeBeacon: Equatable, Identifiable {
     let id: String
@@ -35,12 +28,15 @@ final class GlobeController {
     }
 }
 
-/// A spinning earth in SceneKit. Drag to turn it (with inertia); it resumes its slow spin when let go.
+/// A spinning earth in SceneKit. Touch and hold, then drag, to turn it (with inertia); it resumes its slow spin when let go.
 struct GlobeView: UIViewRepresentable {
-    var style: GlobeStyle
     var beacons: [GlobeBeacon]
     var controller: GlobeController
     var reduceMotion: Bool
+    /// False when the globe is off screen (another home page is showing): stop rendering.
+    var isActive = true
+    /// The glow of air outside the limb (night); hidden by day, where the earth sits on the page instead.
+    var showsAtmosphere = true
     var onBeaconTap: (GlobeBeacon) -> Void = { _ in }
 
     func makeCoordinator() -> GlobeCoordinator { GlobeCoordinator() }
@@ -59,7 +55,12 @@ struct GlobeView: UIViewRepresentable {
         #if DEBUG
         view.showsStatistics = ProcessInfo.processInfo.arguments.contains("-globeStats") // fps + draw calls
         #endif
-        view.addGestureRecognizer(UIPanGestureRecognizer(target: context.coordinator, action: #selector(GlobeCoordinator.pan(_:))))
+        // Touch and hold, then drag, to turn the earth: a quick swipe stays free to change home pages.
+        let hold = UILongPressGestureRecognizer(target: context.coordinator, action: #selector(GlobeCoordinator.drag(_:)))
+        hold.minimumPressDuration = 0.18
+        hold.allowableMovement = 12
+        hold.delegate = context.coordinator
+        view.addGestureRecognizer(hold)
         view.addGestureRecognizer(UITapGestureRecognizer(target: context.coordinator, action: #selector(GlobeCoordinator.tap(_:))))
         view.isAccessibilityElement = false
         return view
@@ -69,7 +70,8 @@ struct GlobeView: UIViewRepresentable {
         let c = context.coordinator
         c.onBeaconTap = onBeaconTap
         c.reduceMotion = reduceMotion
-        c.apply(style: style)
+        if view.isPlaying != isActive { view.isPlaying = isActive }
+        c.atmosphereNode.isHidden = !showsAtmosphere
         c.apply(beacons: beacons)
         if let r = controller.focusRequest {
             if r.id != c.lastFocusId { c.lastFocusId = r.id; c.focus(lat: r.lat, lng: r.lng, zoom: r.zoom) }
@@ -84,8 +86,9 @@ struct GlobeView: UIViewRepresentable {
 }
 
 /// Owns the scene graph and motion. root → tilt (pitch) → spin (yaw) → earth layers and beacons.
-/// What the earth looks like lives in an `EarthLook` (EarthLook.swift, DotsEarth.swift, SatelliteEarth.swift).
-final class GlobeCoordinator: NSObject, SCNSceneRendererDelegate {
+/// What the earth looks like lives in an `EarthLook` (EarthLook.swift, DotsEarth.swift). A second look, Satellite,
+/// is parked in `ios/Unused/SatelliteEarth` with steps to bring it back as a toggle.
+final class GlobeCoordinator: NSObject, SCNSceneRendererDelegate, UIGestureRecognizerDelegate {
     let scene = SCNScene()
     let cameraNode = SCNNode()
     private let tilt = SCNNode()
@@ -94,15 +97,15 @@ final class GlobeCoordinator: NSObject, SCNSceneRendererDelegate {
     private let earth = SCNNode()
     private let beaconLayer = SCNNode()
     private let atmosphere = SCNNode()
+    var atmosphereNode: SCNNode { atmosphere }
     private let lights = SCNNode()
-    private var look: EarthLook?
+    private var look: EarthLook!
 
     var onBeaconTap: (GlobeBeacon) -> Void = { _ in }
     var reduceMotion = false
     var lastFocusId = -1
     private(set) var isFocused = false
 
-    private var style: GlobeStyle?
     private var beacons: [GlobeBeacon] = []
 
     // Spin state (radians). Touched on the render thread and the main thread; a lock keeps them consistent.
@@ -135,23 +138,7 @@ final class GlobeCoordinator: NSObject, SCNSceneRendererDelegate {
         spin.addChildNode(beaconLayer)
         scene.rootNode.addChildNode(atmosphere)
         scene.rootNode.addChildNode(lights)
-    }
-
-    // MARK: Style
-
-    func apply(style newStyle: GlobeStyle) {
-        guard newStyle != style else { return }
-        style = newStyle
-        lock.lock()
-        defer { lock.unlock() }
-        for layer in [earth, clouds, atmosphere, lights] { layer.childNodes.forEach { $0.removeFromParentNode() } }
-        clouds.eulerAngles = SCNVector3Zero
-        let layers = EarthLayers(earth: earth, clouds: clouds, atmosphere: atmosphere, lights: lights)
-        look = switch newStyle {
-        case .dots: DotsEarth(layers: layers)
-        case .satellite: SatelliteEarth(layers: layers)
-        }
-        look?.setBeacons(beacons)
+        look = DotsEarth(layers: EarthLayers(earth: earth, clouds: clouds, atmosphere: atmosphere, lights: lights))
     }
 
     // MARK: Beacons
@@ -159,7 +146,7 @@ final class GlobeCoordinator: NSObject, SCNSceneRendererDelegate {
     func apply(beacons new: [GlobeBeacon]) {
         guard new != beacons else { return }
         beacons = new
-        look?.setBeacons(new)
+        look.setBeacons(new)
         beaconLayer.childNodes.forEach { $0.removeFromParentNode() }
         for b in new {
             let node = SCNNode()
@@ -239,9 +226,13 @@ final class GlobeCoordinator: NSObject, SCNSceneRendererDelegate {
 
     // MARK: Gestures
 
-    @objc func pan(_ g: UIPanGestureRecognizer) {
+    private var dragLast: (point: CGPoint, time: TimeInterval)?
+    private var dragSpeed: Float = 0
+
+    @objc func drag(_ g: UILongPressGestureRecognizer) {
         guard let view = g.view else { return }
         let scale = Float(2.4 / max(view.bounds.width, 1))
+        let p = g.location(in: view), now = CACurrentMediaTime()
         lock.lock()
         defer { lock.unlock() }
         guard !isFocused else { return }
@@ -249,16 +240,39 @@ final class GlobeCoordinator: NSObject, SCNSceneRendererDelegate {
         case .began:
             dragging = true
             velocity = 0
+            dragSpeed = 0
+            dragLast = (p, now)
         case .changed:
-            let t = g.translation(in: view)
-            g.setTranslation(.zero, in: view)
-            yaw += Float(t.x) * scale
-            pitch = min(1.1, max(-1.1, pitch + Float(t.y) * scale))
+            guard let last = dragLast else { return }
+            let dx = Float(p.x - last.point.x), dy = Float(p.y - last.point.y)
+            yaw += dx * scale
+            pitch = min(1.1, max(-1.1, pitch + dy * scale))
+            let dt = Float(max(now - last.time, 1.0 / 240))
+            dragSpeed = dragSpeed * 0.5 + dx * scale / dt * 0.5
+            dragLast = (p, now)
         default:
             dragging = false
-            velocity = Float(g.velocity(in: view).x) * scale
+            velocity = dragSpeed
+            dragLast = nil
             lastInteraction = Date()
         }
+    }
+
+    /// Only touches on the earth can turn it; everything around it is left to the home pager.
+    func gestureRecognizerShouldBegin(_ g: UIGestureRecognizer) -> Bool {
+        guard let view = g.view as? SCNView, let camera = cameraNode.camera else { return true }
+        let p = g.location(in: view)
+        let center = CGPoint(x: view.bounds.midX, y: view.bounds.midY)
+        // The earth's silhouette: radius 1 seen from the camera's distance through its vertical field of view.
+        let distance = Double(cameraNode.presentation.position.z)
+        let half = camera.fieldOfView * .pi / 360
+        let radius = tan(asin(min(1, 1 / max(distance, 1.001)))) / tan(half) * view.bounds.height / 2
+        return hypot(p.x - center.x, p.y - center.y) <= radius * 1.05
+    }
+
+    /// On the earth, the pager waits for the hold to fail; a swipe moves too far too soon, so paging still feels immediate.
+    func gestureRecognizer(_ g: UIGestureRecognizer, shouldBeRequiredToFailBy other: UIGestureRecognizer) -> Bool {
+        other.view is UIScrollView
     }
 
     @objc func tap(_ g: UITapGestureRecognizer) {
@@ -281,7 +295,7 @@ final class GlobeCoordinator: NSObject, SCNSceneRendererDelegate {
         lastTime = time
         lock.lock()
         defer { lock.unlock() }
-        guard !isFocused else { look?.update(dt: dt, reduceMotion: reduceMotion); return }
+        guard !isFocused else { look.update(dt: dt, reduceMotion: reduceMotion); return }
         if !dragging {
             // Inertia decays; then the slow spin eases back in, and the pitch settles to rest.
             velocity *= pow(0.04, dt)
@@ -291,7 +305,7 @@ final class GlobeCoordinator: NSObject, SCNSceneRendererDelegate {
         }
         spin.eulerAngles.y = yaw
         tilt.eulerAngles.x = pitch
-        look?.update(dt: dt, reduceMotion: reduceMotion)
+        look.update(dt: dt, reduceMotion: reduceMotion)
         // Beacons on the far side fade out instead of poking past the limb.
         for node in beaconLayer.childNodes {
             let z = node.presentation.worldPosition.z

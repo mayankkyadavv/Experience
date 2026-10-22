@@ -39,8 +39,50 @@ struct Profile: Codable, Equatable {
     var cityId: String?
     var onboarding: OnboardingAnswers
     var onboardedAt: Date?
+    /// What a visitor sees (brief §8). All optional; the You page invites filling them in.
+    var displayName: String? = nil
+    var username: String? = nil
+    var bio: String? = nil
+    /// A demo account (tools/demo/seed.ts). The app labels it "Sample profile" so it's never mistaken for a life.
+    var isSample: Bool = false
 
-    enum CodingKeys: String, CodingKey { case userId = "user_id", cityId = "city_id", onboarding, onboardedAt = "onboarded_at" }
+    enum CodingKeys: String, CodingKey {
+        case userId = "user_id", cityId = "city_id", onboarding, onboardedAt = "onboarded_at"
+        case displayName = "display_name", username, bio, isSample = "is_sample"
+    }
+
+    init(userId: UUID, cityId: String?, onboarding: OnboardingAnswers, onboardedAt: Date? = nil) {
+        self.userId = userId; self.cityId = cityId; self.onboarding = onboarding; self.onboardedAt = onboardedAt
+    }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        userId = try c.decode(UUID.self, forKey: .userId)
+        cityId = try c.decodeIfPresent(String.self, forKey: .cityId)
+        onboarding = try c.decodeIfPresent(OnboardingAnswers.self, forKey: .onboarding) ?? .init()
+        onboardedAt = try c.decodeIfPresent(Date.self, forKey: .onboardedAt)
+        displayName = try c.decodeIfPresent(String.self, forKey: .displayName)
+        username = try c.decodeIfPresent(String.self, forKey: .username)
+        bio = try c.decodeIfPresent(String.self, forKey: .bio)
+        isSample = try c.decodeIfPresent(Bool.self, forKey: .isSample) ?? false
+    }
+
+    /// Writes only the columns onboarding owns; `is_sample` is set by the demo tool, never by the app.
+    func encode(to encoder: Encoder) throws {
+        var c = encoder.container(keyedBy: CodingKeys.self)
+        try c.encode(userId, forKey: .userId)
+        try c.encode(cityId, forKey: .cityId)
+        try c.encode(onboarding, forKey: .onboarding)
+        try c.encode(onboardedAt, forKey: .onboardedAt)
+        try c.encode(displayName, forKey: .displayName)
+        try c.encode(username, forKey: .username)
+        try c.encode(bio, forKey: .bio)
+    }
+}
+
+/// Why a profile edit was refused, in words for the person.
+struct ProfileEditError: LocalizedError {
+    let errorDescription: String?
 }
 
 @MainActor @Observable
@@ -121,6 +163,32 @@ final class AppModel {
     }
     #endif
 
+    #if LOCAL_BACKEND
+    /// Local Docker stack only: switch to the sample profile (tools/demo/seed.ts), and back to this install's account.
+    func useSampleProfile() async {
+        try? await supabase.auth.signOut()
+        phase = .signedOut
+        do {
+            try await supabase.auth.signIn(email: "sample@experiences.local", password: "experiences-sample-profile")
+            await loadProfile()
+        } catch {
+            authError = "No sample profile yet. Run `docker compose run --rm tools deno task demo`."
+        }
+    }
+
+    func useMyAccount() async {
+        try? await supabase.auth.signOut()
+        phase = .signedOut
+        await signInLocal()
+    }
+
+    var isUsingSampleProfile: Bool { profile?.isSample == true }
+    #endif
+
+    #if !LOCAL_BACKEND
+    var isUsingSampleProfile: Bool { false }
+    #endif
+
     func signOut() async {
         try? await supabase.auth.signOut()
         profile = nil
@@ -151,14 +219,14 @@ final class AppModel {
             let id: UUID
             let category: ExperienceCategory
             let tags: [String]
-            let experience_places: [Link]
+            let listing_places: [Link]
         }
-        let rows: [Row] = (try? await supabase.from("experiences")
-            .select("id, category, tags, experience_places(role, places(lat, lng))")
+        let rows: [Row] = (try? await supabase.from("listings")
+            .select("id, category, tags, listing_places(role, places(lat, lng))")
             .eq("city_id", value: cityId).eq("status", value: "published")
             .execute().value) ?? []
         pins[cityId] = rows.compactMap { r in
-            guard let p = r.experience_places.first(where: { $0.role == "primary" })?.places, let lat = p.lat, let lng = p.lng else { return nil }
+            guard let p = r.listing_places.first(where: { $0.role == "primary" })?.places, let lat = p.lat, let lng = p.lng else { return nil }
             return CatalogPin(id: r.id, category: r.category, tags: r.tags, lat: lat, lng: lng)
         }
     }
@@ -166,9 +234,48 @@ final class AppModel {
     /// Saves the city and answers; `skipped` keeps defaults but still needs a city.
     func finishOnboarding(cityId: String, answers: OnboardingAnswers) async throws {
         let userId = try await supabase.auth.session.user.id
-        let updated = Profile(userId: userId, cityId: cityId, onboarding: answers, onboardedAt: Date())
+        var updated = profile ?? Profile(userId: userId, cityId: nil, onboarding: .init())
+        updated.cityId = cityId
+        updated.onboarding = answers
+        updated.onboardedAt = Date()
         try await supabase.from("profiles").upsert(updated).execute()
         profile = updated
         phase = .ready
+    }
+
+    // MARK: Profile basics
+
+    /// Saves name, username and bio. Empty strings clear a field. The server checks the rules too (lengths, username shape).
+    func updateProfile(displayName: String, username: String, bio: String) async throws {
+        guard var updated = profile else { return }
+        func clean(_ s: String) -> String? {
+            let t = s.trimmingCharacters(in: .whitespacesAndNewlines)
+            return t.isEmpty ? nil : t
+        }
+        updated.displayName = clean(displayName)
+        updated.username = clean(username)?.lowercased()
+        updated.bio = clean(bio)
+        struct Row: Encodable {
+            let display_name: String?, username: String?, bio: String?
+            // Send nulls explicitly so clearing a field clears it.
+            func encode(to encoder: Encoder) throws {
+                var c = encoder.container(keyedBy: CodingKeys.self)
+                try c.encode(display_name, forKey: .display_name)
+                try c.encode(username, forKey: .username)
+                try c.encode(bio, forKey: .bio)
+            }
+            enum CodingKeys: CodingKey { case display_name, username, bio }
+        }
+        do {
+            try await supabase.from("profiles")
+                .update(Row(display_name: updated.displayName, username: updated.username, bio: updated.bio))
+                .eq("user_id", value: updated.userId)
+                .execute()
+        } catch let error as PostgrestError where error.code == "23505" {
+            throw ProfileEditError(errorDescription: "That username is taken. Try another.")
+        } catch {
+            throw ProfileEditError(errorDescription: "Couldn't save. Check your connection and try again; your changes are still here.")
+        }
+        profile = updated
     }
 }

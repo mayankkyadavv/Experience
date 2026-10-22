@@ -26,6 +26,8 @@ Edge Functions in `supabase/functions/` are live-mounted: save a file and the ne
 
 ```sh
 docker compose run --rm tools                     # Deno tests (recommender + schema/RLS)
+swift tools/demo/gradients.swift && docker compose run --rm tools deno task demo   # the labelled sample profile (`--remove` to delete)
+docker compose run --rm tools deno task access     # who can see what: rows, media and files, for owner/friend/stranger/blocked/logged out
 docker compose run --rm tools deno task smoke --when weekend --hours 4 --budget any --who date --mood something_new
 docker compose run --rm tools deno task catalog:check
 docker compose logs -f functions                  # Edge Function logs

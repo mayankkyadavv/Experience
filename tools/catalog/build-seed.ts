@@ -74,7 +74,7 @@ for (const e of entries) {
     Object.entries(e.provenance).map(([k, v]) => [k, e.status === "reviewed" && v !== "lookup" ? "curated" : v]),
   );
   lines.push(
-    `insert into experiences (id, city_id, visibility, status, slug, kind, subcategory, title, intent, description, category, tags, good_for, location_requirement, price_min_cents, price_max_cents, duration_min_minutes, duration_max_minutes, group_min, group_max, hours, dates, image_url, provenance, review_note) values (` +
+    `insert into listings (id, city_id, visibility, status, slug, kind, subcategory, title, intent, description, category, tags, good_for, location_requirement, price_min_cents, price_max_cents, duration_min_minutes, duration_max_minutes, group_min, group_max, hours, dates, image_url, provenance, review_note) values (` +
       [
         q(id), q(e.city), "'catalog'", q(status), q(e.slug), q(e.kind), q(e.subcategory), q(e.title), q(e.intent), q(e.description), q(e.category),
         arr(e.tags, "text"), arr(e.good_for, "occasion"), q(e.location_requirement),
@@ -89,13 +89,13 @@ for (const e of entries) {
   const links = [...e.links.map((l) => [l.kind, l.url]), ...e.sources.map((u) => ["source", u])]
     .filter(([, url], i, all) => all.findIndex(([, u]) => u === url) === i);
   for (const [kind, url] of links) {
-    lines.push(`insert into experience_links (experience_id, kind, url, provenance) values (${q(id)}, ${q(kind)}, ${q(url)}, ${q(linkProvenance)}) on conflict (experience_id, url) do update set kind = excluded.kind, provenance = excluded.provenance;`);
+    lines.push(`insert into listing_links (listing_id, kind, url, provenance) values (${q(id)}, ${q(kind)}, ${q(url)}, ${q(linkProvenance)}) on conflict (listing_id, url) do update set kind = excluded.kind, provenance = excluded.provenance;`);
   }
   for (const o of e.occurrences) {
     // Local wall-clock time in the city's timezone.
     const at = (t: string | null) => t ? `(timestamp ${q(`${o.date} ${t}`)} at time zone (select timezone from cities where id = ${q(e.city)}))` : "null";
     const starts = o.start ? at(o.start) : at("00:00");
-    lines.push(`insert into experience_occurrences (experience_id, starts_at, ends_at, provenance) values (${q(id)}, ${starts}, ${at(o.end)}, ${q(linkProvenance)}) on conflict (experience_id, starts_at) do nothing;`);
+    lines.push(`insert into listing_occurrences (listing_id, starts_at, ends_at, provenance) values (${q(id)}, ${starts}, ${at(o.end)}, ${q(linkProvenance)}) on conflict (listing_id, starts_at) do nothing;`);
   }
   if (e.place) {
     const placeId = await uuidv5(`place:${e.city}:${e.slug}`);
@@ -103,7 +103,7 @@ for (const e of entries) {
       `insert into places (id, city_id, provider, provider_place_id, name, address, neighborhood, lat, lng) values (${
         [q(placeId), q(e.city), "'manual'", q(`${e.city}:${e.slug}`), q(e.place.name), q(e.place.address), q(e.place.neighborhood), e.coordinates?.lat ?? "null", e.coordinates?.lng ?? "null"].join(", ")
       }) on conflict (id) do update set name = excluded.name, address = excluded.address, neighborhood = excluded.neighborhood, lat = excluded.lat, lng = excluded.lng;`,
-      `insert into experience_places (experience_id, place_id, role) values (${q(id)}, ${q(placeId)}, 'primary') on conflict do nothing;`,
+      `insert into listing_places (listing_id, place_id, role) values (${q(id)}, ${q(placeId)}, 'primary') on conflict do nothing;`,
     );
   }
 }
