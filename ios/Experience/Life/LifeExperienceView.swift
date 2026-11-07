@@ -93,7 +93,7 @@ private struct MediaPage: View {
                     .onAppear { player = AVPlayer(url: local) }
                     .onDisappear { player?.pause() }
             } else if asset.kind == .photo, let file = asset.deviceFile, let local = LifeFiles.locate(file),
-                      let image = UIImage(contentsOfFile: local.path()) {
+                      let image = UIImage(contentsOfFile: local.path(percentEncoded: false)) {
                 Image(uiImage: image).resizable().scaledToFit()
             } else {
                 MediaThumb(asset: asset, drift: false)

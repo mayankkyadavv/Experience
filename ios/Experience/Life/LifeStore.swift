@@ -13,6 +13,10 @@ struct ExperienceDraft: Codable, Equatable {
     var precision: TimePrecision = .unknown
     var timezone: String?
     var placeName: String?
+    /// The broad area ("Fishtown, Philadelphia") and the spot, when known.
+    var placeLocality: String?
+    var placeLat: Double?
+    var placeLng: Double?
     var categories: [String] = []
     var listingId: UUID?
     /// Field provenance, e.g. ["time": .source] when the date came from a photo.
@@ -29,6 +33,11 @@ struct PendingMedia: Codable, Equatable {
     var width: Int?
     var height: Int?
     var contentType: String
+    /// Where it was taken, from the file itself. Used on the phone to suggest a place; not uploaded as a field.
+    var lat: Double?
+    var lng: Double?
+    /// Linked from the Photos library instead of copied: there's no file of ours, and nothing to upload.
+    var libraryRef: String?
 }
 
 /// Put the saved Experience into a collection; `newTitle` creates the collection too.
@@ -123,7 +132,8 @@ final class LifeStore {
             return p.media.enumerated().map { i, m in
                 MediaAsset(id: m.clientId, experienceId: id, clientId: m.clientId, kind: m.kind, position: i, caption: nil, altText: nil,
                            takenAt: m.takenAt, durationSeconds: m.duration, width: m.width, height: m.height, originalPath: nil,
-                           thumbPath: nil, deviceFile: m.fileName, status: .onDevice)
+                           thumbPath: nil, deviceFile: m.libraryRef == nil ? m.fileName : nil,
+                           status: m.libraryRef == nil ? .onDevice : .linked, libraryRef: m.libraryRef)
             }
         }
         return (media[id] ?? []).sorted { $0.position < $1.position }
@@ -137,6 +147,11 @@ final class LifeStore {
     }
 
     func isPending(_ id: UUID) -> Bool { pending.contains { $0.id == id } }
+
+    /// Photos already linked into an Experience, so an import doesn't bring them in twice.
+    var linkedRefs: Set<String> {
+        Set(media.values.joined().compactMap(\.libraryRef) + pending.flatMap(\.media).compactMap(\.libraryRef))
+    }
 
     /// Plain words for where a save stands (brief §20: never a bare spinner).
     func syncStatus(_ id: UUID) -> String? {
@@ -205,7 +220,7 @@ final class LifeStore {
     /// Media the server knows about but that never finished uploading (an interrupted sync, or photos from the
     /// first in-app camera): if the file is still on this phone, send it now. Nothing stays stranded.
     private func uploadStrays(owner: UUID) async {
-        let strays = media.values.joined().filter { $0.status != .ready && !isPending($0.experienceId) }
+        let strays = media.values.joined().filter { $0.status != .ready && $0.status != .linked && !isPending($0.experienceId) }
         for m in strays {
             guard let name = m.deviceFile, let file = LifeFiles.locate(name) else { continue }
             let base = "\(owner.uuidString.lowercased())/\(m.experienceId.uuidString.lowercased())/\(m.clientId.uuidString.lowercased())"
@@ -246,16 +261,32 @@ final class LifeStore {
         struct Row: Encodable {
             let id: UUID, save_id: UUID, title: String, description: String?, state: String
             let starts_at: Date?, ends_at: Date?, time_precision: String, timezone: String?
-            let place_name: String?, categories: [String], listing_id: UUID?, provenance: [String: String]
+            let place_name: String?, place_locality: String?, place_lat: Double?, place_lng: Double?
+            let categories: [String], listing_id: UUID?, provenance: [String: String]
         }
         try await supabase.from("experiences").upsert(Row(
             id: save.id, save_id: save.id, title: d.title, description: d.description, state: d.state.rawValue,
             starts_at: d.startsAt, ends_at: d.endsAt, time_precision: (d.startsAt == nil ? TimePrecision.unknown : d.precision).rawValue,
-            timezone: d.timezone, place_name: d.placeName, categories: d.categories, listing_id: d.listingId,
+            timezone: d.timezone, place_name: d.placeName, place_locality: d.placeLocality, place_lat: d.placeLat, place_lng: d.placeLng,
+            categories: d.categories, listing_id: d.listingId,
             provenance: d.provenance.mapValues(\.rawValue)
         ), onConflict: "id", ignoreDuplicates: true).execute()
 
         for (position, m) in save.media.enumerated() {
+            if let ref = m.libraryRef {
+                // Linked: the row records where the photo lives; the photo itself stays in the library.
+                struct LinkedRow: Encodable {
+                    let id: UUID, experience_id: UUID, client_id: UUID, kind: String, position: Int
+                    let taken_at: Date?, duration_seconds: Double?, width: Int?, height: Int?, content_type: String
+                    let library_ref: String, status: String
+                }
+                try await supabase.from("media_assets").upsert(LinkedRow(
+                    id: m.clientId, experience_id: save.id, client_id: m.clientId, kind: m.kind.rawValue, position: position,
+                    taken_at: m.takenAt, duration_seconds: m.duration, width: m.width, height: m.height, content_type: m.contentType,
+                    library_ref: ref, status: "linked"
+                ), onConflict: "owner_id,client_id").execute()
+                continue
+            }
             let ext = (m.fileName as NSString).pathExtension.lowercased()
             let base = "\(owner.uuidString.lowercased())/\(save.id.uuidString.lowercased())/\(m.clientId.uuidString.lowercased())"
             let original = "\(base).\(ext.isEmpty ? (m.kind == .photo ? "jpg" : "mov") : ext)"
@@ -268,7 +299,7 @@ final class LifeStore {
                 try await storage.from("media").upload(thumb, data: data, options: FileOptions(contentType: "image/jpeg", upsert: true))
                 thumbPath = thumb
             }
-            let size = (try? FileManager.default.attributesOfItem(atPath: file.path())[.size] as? Int64) ?? nil
+            let size = (try? FileManager.default.attributesOfItem(atPath: file.path(percentEncoded: false))[.size] as? Int64) ?? nil
             struct MediaRow: Encodable {
                 let id: UUID, experience_id: UUID, client_id: UUID, kind: String, position: Int
                 let taken_at: Date?, duration_seconds: Double?, width: Int?, height: Int?, byte_size: Int64?, content_type: String
@@ -343,31 +374,8 @@ final class LifeStore {
         return Experience(id: p.id, ownerId: p.id, saveId: p.id, state: d.state, isDraft: false, archivedAt: nil, visibility: .private,
                           title: d.title, description: d.description, categories: d.categories, startsAt: d.startsAt, endsAt: d.endsAt,
                           timePrecision: d.startsAt == nil ? .unknown : d.precision, timezone: d.timezone, placeName: d.placeName,
-                          placeLocality: nil, placeLat: nil, placeLng: nil, cityId: nil, listingId: d.listingId, inspiredBy: nil,
+                          placeLocality: d.placeLocality, placeLat: d.placeLat, placeLng: d.placeLng, cityId: nil, listingId: d.listingId, inspiredBy: nil,
                           completedAt: d.state == .experienced ? p.createdAt : nil, coverMediaId: p.media.first?.clientId,
                           provenance: d.provenance, createdAt: p.createdAt, updatedAt: p.createdAt)
-    }
-
-    // MARK: Camera
-
-    /// A photo or video from the in-app camera becomes an Experience of its own (with the place, when one was
-    /// picked from the catalog). It's copied into the originals and saved like any other: phone first.
-    func saveCapture(_ captured: CapturedMedia, listing: CatalogItem?) async {
-        let clientId = UUID()
-        let file = "\(clientId.uuidString.lowercased()).\(captured.url.pathExtension.isEmpty ? "jpg" : captured.url.pathExtension)"
-        try? FileManager.default.copyItem(at: captured.url, to: LifeFiles.original(file))
-        let kind: MediaAsset.Kind = captured.kind == .video ? .video : .photo
-        let facts = await LifeMedia.facts(of: LifeFiles.original(file), kind: kind)
-        let tz = TimeZone.current.identifier
-        var provenance: [String: Provenance] = ["time": .source]
-        if let listing { provenance["title"] = listing.sourcedTitle.provenance; provenance["categories"] = .estimated }
-        let title = listing?.title ?? ExperienceTime(start: captured.takenAt, precision: .day, timezone: tz).label()
-        if listing == nil { provenance["title"] = .source }
-        let draft = ExperienceDraft(title: title, startsAt: captured.takenAt, precision: .day, timezone: tz,
-                                    placeName: listing?.place?.name, categories: listing.map { [$0.category.life.rawValue] } ?? [],
-                                    listingId: listing?.id, provenance: provenance)
-        save(draft, media: [PendingMedia(clientId: clientId, kind: kind, fileName: file, takenAt: captured.takenAt,
-                                         duration: captured.duration ?? facts.duration, width: facts.width, height: facts.height,
-                                         contentType: facts.contentType)], collection: nil)
     }
 }

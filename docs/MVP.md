@@ -70,7 +70,7 @@ Selected-friend audiences, collaborative contributions and consent, group availa
 5. ~~Earth style~~: decided 2026-10-21: Dots (climate colors). Satellite is parked in `ios/Unused/SatelliteEarth/` for a possible toggle.
 3. **Rating scale:** the brief proposes an optional 1-5; the current UI has three tiles (stored as `rating_scale = 3`).
 4. Final name (Experiences is the working name).
-6. **Where capture lives on home** (founder, 2026-10-21): the island has no +; Add an Experience is the + on the You page and the camera has no entry. The brief wants + always available.
+6. ~~Where capture lives on home~~: decided 2026-10-22: the camera is the page right of the globe (Discover parked). Add an Experience stays the + on the You page. Camera saves go to a draft tray, gathered in an evening card (BUILD_PLAN decisions).
 7. **Light backdrop:** Atlas (paper + graticule) or Gallery (white). Both ship behind a temporary picker in Settings; delete the loser. Agent's pick: Atlas.
 8. **Hosting:** everything is local until the app is perfected; hosted Supabase (Pro at TestFlight, ADR-002) waits for the founder.
 9. **Climate data credit:** the Dots earth uses Beck et al. (2023), CC BY 4.0; it needs a visible credit (an About line) before anyone else uses the app.

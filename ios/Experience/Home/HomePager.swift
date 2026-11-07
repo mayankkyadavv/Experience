@@ -1,12 +1,13 @@
 import ExperienceCore
 import SwiftUI
 
-/// Home: three pages over one backdrop (space at night, paper or a gallery wall by day). You (left) · your world (center, where the app opens) · Discover (right).
-/// Swipe between them, or tap their icons on the island at the bottom. Capture has no entry here for now (founder, 2026-10-21).
+/// Home: three pages over one backdrop (space at night, paper or a gallery wall by day). You (left) · your world (center, where the app opens) · the camera (right).
+/// Swipe between them, or tap their icons on the island at the bottom. The camera only runs while its page is showing.
 struct HomePager: View {
+    let camera: CameraModel
     let onOpenCity: () -> Void
 
-    enum Page: Hashable { case you, world, discover }
+    enum Page: Hashable { case you, world, camera }
 
     @Environment(AppModel.self) private var model
     @Environment(LifeStore.self) private var life
@@ -22,15 +23,15 @@ struct HomePager: View {
 
             ScrollView(.horizontal) {
                 HStack(spacing: 0) {
-                    ProfilePage(onOpen: { detail = $0 })
+                    ProfilePage(onOpen: { detail = $0 }, onCamera: { go(.camera) })
                         .containerRelativeFrame(.horizontal)
                         .id(Page.you)
                     WorldPage(isActive: page == .world, onOpenCity: openCity)
                         .containerRelativeFrame(.horizontal)
                         .id(Page.world)
-                    DiscoverPage(onOpen: { detail = $0 })
+                    CaptureFlow(camera: camera, isActive: page == .camera)
                         .containerRelativeFrame(.horizontal)
-                        .id(Page.discover)
+                        .id(Page.camera)
                 }
                 .scrollTargetLayout()
             }
@@ -38,10 +39,14 @@ struct HomePager: View {
             .scrollPosition(id: $page)
             .defaultScrollAnchor(.center)
             .scrollIndicators(.hidden)
+            // Holding the shutter, recording or reviewing a capture keeps you on the camera.
+            .scrollDisabled(cameraBusy)
             .safeAreaInset(edge: .bottom, spacing: 0) {
                 HomeIsland(page: page ?? .world, go: go)
                     .offset(y: shown ? 0 : 40)
-                    .opacity(shown ? 1 : 0)
+                    .opacity(shown && !cameraBusy ? 1 : 0)
+                    .allowsHitTesting(!cameraBusy)
+                    .animation(Theme.Motion.short, value: cameraBusy)
             }
             .opacity(diving ? 0 : 1)
         }
@@ -59,6 +64,10 @@ struct HomePager: View {
     }
 
     private struct DetailID: Identifiable { let id: UUID }
+
+    private var cameraBusy: Bool {
+        page == .camera && (camera.shutterDown || camera.isRecording || camera.captured != nil)
+    }
 
     private func go(_ target: Page) {
         withAnimation(reduceMotion ? nil : Theme.Motion.short) { page = target }
@@ -79,22 +88,25 @@ struct HomePager: View {
 
 // MARK: - Island
 
-/// A floating island at the bottom with one evenly spaced icon per page: You · your world · Discover.
-/// A soft light sits under the current page's icon and slides as you swipe or tap.
+/// A floating island at the bottom with one evenly spaced icon per page: You · your world · Camera.
+/// A soft light sits under the current page's icon and slides as you swipe or tap. Over the camera it turns dark and drops the fade.
 private struct HomeIsland: View {
     let page: HomePager.Page
     let go: (HomePager.Page) -> Void
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
-    @Environment(\.colorScheme) private var scheme
+    @Environment(\.colorScheme) private var systemScheme
     @AppStorage("lightBackdrop") private var backdrop: LightBackdrop = .atlas
     @Namespace private var light
 
     private static let items: [(page: HomePager.Page, symbol: String, label: String)] = [
         (.you, "person.crop.circle", "You"),
         (.world, "globe.americas", "Your world"),
-        (.discover, "sparkles", "Discover"),
+        (.camera, "camera", "Camera"),
     ]
+
+    private var overCamera: Bool { page == .camera }
+    private var scheme: ColorScheme { overCamera ? .dark : systemScheme }
 
     var body: some View {
         HStack(spacing: 0) {
@@ -130,15 +142,18 @@ private struct HomeIsland: View {
         .frame(maxWidth: .infinity)
         .padding(.top, Theme.Space.sm)
         .padding(.bottom, Theme.Space.xs)
+        .environment(\.colorScheme, scheme)
         .background {
-            // Lists fade into the background under the island instead of running into it.
-            let base = HomeBackdrop.base(scheme, backdrop)
+            // Lists fade into the background under the island instead of running into it. The camera runs to the edge.
+            let base = HomeBackdrop.base(systemScheme, backdrop)
             LinearGradient(stops: [.init(color: base.opacity(0), location: 0),
                                    .init(color: base.opacity(0.92), location: 0.45),
                                    .init(color: base, location: 1)],
                            startPoint: .top, endPoint: .bottom)
                 .padding(.top, -Theme.Space.xl)
                 .ignoresSafeArea(edges: .bottom)
+                .opacity(overCamera ? 0 : 1)
+                .animation(reduceMotion ? nil : Theme.Motion.short, value: overCamera)
                 .allowsHitTesting(false)
         }
     }

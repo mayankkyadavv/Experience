@@ -8,6 +8,8 @@ import SwiftUI
 struct ProfilePage: View {
     /// Opens a listing from Discover-style rows elsewhere; kept for the home pager's detail sheet.
     let onOpen: (UUID) -> Void
+    /// The + sheet's "Take a photo or video" goes to the camera page.
+    var onCamera: () -> Void = {}
 
     enum Tab: Hashable { case experienced, wanted }
     enum Arrangement: String, CaseIterable, Identifiable {
@@ -71,7 +73,7 @@ struct ProfilePage: View {
         .refreshable { await store.load() }
         .sheet(isPresented: $editing) { EditProfileSheet() }
         .sheet(isPresented: $settings) { SettingsSheet() }
-        .sheet(isPresented: $adding) { AddExperienceSheet() }
+        .sheet(isPresented: $adding) { AddMenu(onCamera: onCamera) }
         .sheet(item: $openExperience) { LifeExperienceView(experience: $0) }
         .sheet(item: $openCollection) { c in CollectionSheet(collection: c) { e in openCollection = nil; openExperience = e } }
         .animation(Theme.Motion.short, value: asPublic)

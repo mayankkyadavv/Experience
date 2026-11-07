@@ -24,6 +24,8 @@ final class CameraModel: NSObject {
     private(set) var isRecording = false
     private(set) var recordingStarted: Date?
     var flash: AVCaptureDevice.FlashMode = .off
+    /// A finger is on the shutter. Home keeps the page still and hides the island until it lifts.
+    var shutterDown = false
     /// Zoom as people read it (0.5×, 1×, 2×…), independent of which lens is behind it.
     private(set) var zoom: CGFloat = 1
     private(set) var minZoom: CGFloat = 1
@@ -56,15 +58,19 @@ final class CameraModel: NSObject {
             break
         }
         guard AVCaptureDevice.default(for: .video) != nil else { state = .unavailable; return }
-        let pos = position
-        let ok = await run { [self] in configure(position: pos) }
-        guard ok else { state = .unavailable; return }
-        applyDeviceInfo()
+        // Coming back to the page reuses the configured session; only the first start builds it.
+        if device == nil {
+            let pos = position
+            let ok = await run { [self] in configure(position: pos) }
+            guard ok else { state = .unavailable; return }
+            applyDeviceInfo()
+        }
         await run { [self] in if !session.isRunning { session.startRunning() } }
         state = .running
     }
 
     func stop() {
+        stopRecording()
         queue.async { [session] in if session.isRunning { session.stopRunning() } }
     }
 
@@ -164,9 +170,10 @@ final class CameraModel: NSObject {
         photoOutput.capturePhoto(with: settings, delegate: self)
     }
 
-    func startRecording() async {
+    /// Records once the microphone question (asked the first time someone records, not before) is settled.
+    /// `stillWanted` is checked after any wait (the alert ends the hold): recording never starts with nobody holding.
+    func startRecording(stillWanted: () -> Bool = { true }) async {
         guard state == .running, !isRecording else { return }
-        // Ask for the microphone the first time someone records, not before.
         if !audioAdded, await AVCaptureDevice.requestAccess(for: .audio) {
             await run { [self] in
                 guard let mic = AVCaptureDevice.default(for: .audio), let input = try? AVCaptureDeviceInput(device: mic),
@@ -177,6 +184,7 @@ final class CameraModel: NSObject {
                 audioAdded = true
             }
         }
+        guard stillWanted(), !isRecording else { return }
         let url = Self.newFile("mov")
         if flash == .on, let device, device.hasTorch {
             queue.async { try? device.lockForConfiguration(); device.torchMode = .on; device.unlockForConfiguration() }
@@ -249,7 +257,7 @@ extension CameraModel: AVCaptureFileOutputRecordingDelegate {
             let started = recordingStarted ?? Date()
             recordingStarted = nil
             // Reaching the 60 s limit reports an "error" but the file is complete.
-            if FileManager.default.fileExists(atPath: url.path()), duration > 0.3 {
+            if FileManager.default.fileExists(atPath: url.path(percentEncoded: false)), duration > 0.3 {
                 captured = CapturedMedia(kind: .video, url: url, takenAt: started, duration: duration)
             } else {
                 try? FileManager.default.removeItem(at: url)

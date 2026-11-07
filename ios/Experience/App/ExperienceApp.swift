@@ -6,6 +6,7 @@ struct ExperienceApp: App {
     @State private var life: LifeStore
     @State private var scene = MapScene()
     @State private var location = LocationProvider()
+    @State private var tray = CaptureTray()
 
     init() {
         let model = AppModel()
@@ -20,6 +21,7 @@ struct ExperienceApp: App {
                 .environment(life)
                 .environment(scene)
                 .environment(location)
+                .environment(tray)
         }
     }
 }
@@ -36,7 +38,6 @@ struct RootView: View {
     @State private var introDone = false
     /// Home is the globe; the city is one dive away.
     @State private var showingCity = false
-    @State private var capturing = false
     @State private var camera = CameraModel()
 
     var body: some View {
@@ -47,8 +48,7 @@ struct RootView: View {
                 .accessibilityHidden(true)
 
             if model.phase == .ready && !showingCity {
-                // Capture (CaptureFlow below) has no entry on home for now; the founder decides where it goes.
-                HomePager(onOpenCity: { withAnimation(.easeOut(duration: 0.35)) { showingCity = true } })
+                HomePager(camera: camera, onOpenCity: { withAnimation(.easeOut(duration: 0.35)) { showingCity = true } })
                 .transition(.opacity)
             } else if model.phase == .launching || !introDone {
                 LaunchCurtain()
@@ -70,9 +70,6 @@ struct RootView: View {
         .preferredColorScheme(appearance.scheme)
         .animation(Theme.Motion.short, value: model.phase)
         .tint(Theme.primary)
-        .fullScreenCover(isPresented: $capturing) {
-            CaptureFlow(camera: camera, onClose: { capturing = false })
-        }
         .task { await model.start() }
         .task(id: model.phase) {
             guard model.phase == .ready else {

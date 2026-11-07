@@ -143,33 +143,12 @@ struct AddExperienceSheet: View {
         }
     }
 
-    /// Copies each picked file into the app's originals, untouched, and reads when it was taken.
     private func importPicks(_ items: [PhotosPickerItem]) async {
         guard !items.isEmpty else { return }
         importing = true
         importError = nil
-        var failed = 0
-        for item in items {
-            let isVideo = item.supportedContentTypes.contains { $0.conforms(to: .movie) }
-            let clientId = UUID()
-            do {
-                let url: URL
-                if isVideo {
-                    guard let movie = try await item.loadTransferable(type: PickedMovie.self) else { failed += 1; continue }
-                    url = movie.url
-                } else {
-                    guard let data = try await item.loadTransferable(type: Data.self) else { failed += 1; continue }
-                    let ext = item.supportedContentTypes.first?.preferredFilenameExtension ?? "jpg"
-                    url = LifeFiles.original("\(clientId.uuidString.lowercased()).\(ext)")
-                    try data.write(to: url, options: .atomic)
-                }
-                let facts = await LifeMedia.facts(of: url, kind: isVideo ? .video : .photo)
-                media.append(PendingMedia(clientId: clientId, kind: facts.kind, fileName: url.lastPathComponent, takenAt: facts.takenAt,
-                                          duration: facts.duration, width: facts.width, height: facts.height, contentType: facts.contentType))
-            } catch {
-                failed += 1
-            }
-        }
+        let (added, failed) = await LifeMedia.importPicked(items)
+        media += added
         picks = []
         importing = false
         if failed > 0 { importError = failed == 1 ? "One item couldn't be added." : "\(failed) items couldn't be added." }
@@ -349,26 +328,6 @@ struct AddExperienceSheet: View {
             .padding(.horizontal, Theme.Space.md)
             .frame(minHeight: 48)
             .background(Theme.soft, in: .rect(cornerRadius: Theme.Radius.control, style: .continuous))
-        }
-    }
-}
-
-extension CollectionChoice {
-    init(collectionId: UUID) { self.init(collectionId: collectionId, newTitle: nil, newKind: nil) }
-}
-
-/// A picked video, copied into the app's originals as soon as the picker hands it over.
-struct PickedMovie: Transferable {
-    let url: URL
-
-    static var transferRepresentation: some TransferRepresentation {
-        FileRepresentation(contentType: .movie) { movie in
-            SentTransferredFile(movie.url)
-        } importing: { received in
-            let ext = received.file.pathExtension.isEmpty ? "mov" : received.file.pathExtension
-            let dest = LifeFiles.original("\(UUID().uuidString.lowercased()).\(ext)")
-            try FileManager.default.copyItem(at: received.file, to: dest)
-            return PickedMovie(url: dest)
         }
     }
 }

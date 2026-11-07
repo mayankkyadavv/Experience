@@ -27,7 +27,7 @@ enum LifeFiles {
     /// Where a device file actually is: the originals, or the folder the first in-app camera wrote to (ADR-012).
     static func locate(_ name: String) -> URL? {
         let candidates = [original(name), URL.documentsDirectory.appending(path: "Captures").appending(path: name)]
-        return candidates.first { FileManager.default.fileExists(atPath: $0.path()) }
+        return candidates.first { FileManager.default.fileExists(atPath: $0.path(percentEncoded: false)) }
     }
     static func thumb(_ clientId: UUID) -> URL { thumbs.appending(path: "\(clientId.uuidString.lowercased()).jpg") }
 }
@@ -40,6 +40,8 @@ struct MediaFacts {
     var width: Int?
     var height: Int?
     var contentType: String
+    var lat: Double?
+    var lng: Double?
 }
 
 enum LifeMedia {
@@ -57,8 +59,14 @@ enum LifeMedia {
                 let r = CGRect(origin: .zero, size: natural).applying(t)
                 size = CGSize(width: abs(r.width), height: abs(r.height))
             }
+            var spot: (Double, Double)?
+            if let items = try? await asset.load(.metadata),
+               let iso = AVMetadataItem.metadataItems(from: items, filteredByIdentifier: .quickTimeMetadataLocationISO6709).first,
+               let text = try? await iso.load(.stringValue) {
+                spot = iso6709(text)
+            }
             return MediaFacts(kind: .video, takenAt: created, duration: duration, width: size.map { Int($0.width) },
-                              height: size.map { Int($0.height) }, contentType: type)
+                              height: size.map { Int($0.height) }, contentType: type, lat: spot?.0, lng: spot?.1)
         }
         guard let src = CGImageSourceCreateWithURL(url as CFURL, nil),
               let props = CGImageSourceCopyPropertiesAtIndex(src, 0, nil) as? [CFString: Any] else {
@@ -79,7 +87,19 @@ enum LifeMedia {
                 taken = f.date(from: s)
             }
         }
-        return MediaFacts(kind: .photo, takenAt: taken, width: w, height: h, contentType: type)
+        var lat: Double?, lng: Double?
+        if let gps = props[kCGImagePropertyGPSDictionary] as? [CFString: Any],
+           let la = gps[kCGImagePropertyGPSLatitude] as? Double, let lo = gps[kCGImagePropertyGPSLongitude] as? Double {
+            lat = (gps[kCGImagePropertyGPSLatitudeRef] as? String) == "S" ? -la : la
+            lng = (gps[kCGImagePropertyGPSLongitudeRef] as? String) == "W" ? -lo : lo
+        }
+        return MediaFacts(kind: .photo, takenAt: taken, width: w, height: h, contentType: type, lat: lat, lng: lng)
+    }
+
+    /// "+39.9735-075.1342+010.000/" → (39.9735, -75.1342).
+    static func iso6709(_ text: String) -> (Double, Double)? {
+        let numbers = text.matches(of: /[+-]\d+(?:\.\d+)?/).compactMap { Double($0.output) }
+        return numbers.count >= 2 ? (numbers[0], numbers[1]) : nil
     }
 
     /// A 900 px JPEG made from pixels only: no EXIF, no location. Videos use a frame a moment in.
@@ -106,7 +126,7 @@ enum LifeMedia {
     }
 }
 
-/// Thumbnails for cards: memory, then the on-disk cache, then made from the local original,
+/// Thumbnails for cards: memory, then the Photos library for linked media, then the on-disk cache, then made from the local original,
 /// then fetched through a short-lived signed URL (checked by the access policy on the server).
 @MainActor
 final class ThumbnailCache {
@@ -118,6 +138,8 @@ final class ThumbnailCache {
         if let hit = memory.object(forKey: asset.clientId as NSUUID) { return hit }
         if let task = inFlight[asset.clientId] { return await task.value }
         let task = Task<UIImage?, Never> {
+            // Linked photos are drawn from the library each time; no copy of them is kept here.
+            if let ref = asset.libraryRef { return await PhotoLibrary.image(ref, size: 900) }
             let file = LifeFiles.thumb(asset.clientId)
             if let data = try? Data(contentsOf: file), let img = UIImage(data: data) { return img }
             if let name = asset.deviceFile, let local = LifeFiles.locate(name),

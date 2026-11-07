@@ -155,11 +155,11 @@ final class CoreLoopTests: XCTestCase {
             .press(forDuration: 0.05, thenDragTo: app.coordinate(withNormalizedOffset: CGVector(dx: 0.1, dy: 0.2)))
         XCTAssertTrue(app.buttons["Your world"].waitForExistence(timeout: 3))
         sleep(1)
-        app.swipeLeft() // across the globe, on to Discover
-        XCTAssertTrue(app.staticTexts["Discover"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.buttons["Discover"].isSelected, "a swipe across the globe changes the page")
+        app.swipeLeft() // across the globe, on to the camera
+        XCTAssertTrue(app.staticTexts["No camera here"].waitForExistence(timeout: 5), "the simulator has no camera")
+        XCTAssertTrue(app.buttons["Camera"].isSelected, "a swipe across the globe changes the page")
         sleep(1)
-        snap(app, "5c-home-discover")
+        snap(app, "5c-home-camera")
         app.buttons["Your world"].tap()
         XCTAssertTrue(app.buttons["Open your map of Philadelphia"].waitForExistence(timeout: 5))
     }
@@ -177,15 +177,19 @@ final class CoreLoopTests: XCTestCase {
         snap(app, "6a-profile")
 
         app.buttons["Add an Experience"].firstMatch.tap()
+        XCTAssertTrue(app.buttons["Just write it down"].waitForExistence(timeout: 5))
+        snap(app, "6a1-add-menu")
+        app.buttons["Just write it down"].tap()
         let title = app.textFields["What was it?"]
         XCTAssertTrue(title.waitForExistence(timeout: 5))
         let name = "Tea and a long conversation \(Int.random(in: 100...999))"
         title.typeText(name)
         app.textFields["A few words, if you like"].tap()
         app.textFields["A few words, if you like"].typeText("We stayed at the table long after the tea went cold.")
+        app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Kind")).firstMatch.tap()
+        XCTAssertTrue(app.buttons["Everyday Life"].waitForExistence(timeout: 3))
         app.buttons["Everyday Life"].tap()
-        app.swipeUp()
-        app.buttons["None"].tap()
+        app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Collection")).firstMatch.tap()
         // Reuse the collection from an earlier run; make it the first time.
         if app.buttons["Sunday dinners"].waitForExistence(timeout: 2) {
             app.buttons["Sunday dinners"].tap()
@@ -195,6 +199,7 @@ final class CoreLoopTests: XCTestCase {
             XCTAssertTrue(col.waitForExistence(timeout: 3))
             col.tap()
             col.typeText("Sunday dinners")
+            app.buttons["Add"].tap()
         }
         snap(app, "6b-add")
         app.buttons["Save privately"].tap()
@@ -253,6 +258,103 @@ final class CoreLoopTests: XCTestCase {
         app.buttons["Your world"].tap()
         sleep(4)
         snap(app, "7e-sample-world")
+    }
+
+    /// Shoot a few test photos: they collect in the tray beside the shutter. Open it, check the guesses, save privately.
+    /// Then one more shot waits on the globe's card. Set a location first: `xcrun simctl location booted set 39.9735,-75.1342`.
+    @MainActor
+    func testCaptureTray() {
+        let app = XCUIApplication()
+        app.launch()
+        XCTAssertTrue(app.buttons["Camera"].waitForExistence(timeout: 20))
+        app.buttons["Camera"].tap()
+        let shoot = app.buttons["Try with a test photo"]
+        XCTAssertTrue(shoot.waitForExistence(timeout: 5))
+        let tray = app.buttons.matching(NSPredicate(format: "label CONTAINS %@", "'s draft, ")).firstMatch
+        // Shots left from an earlier run join tonight's draft too; count from there.
+        let before = tray.exists ? Self.photoCount(tray.label) : 0
+        shoot.tap()
+        // Location is asked for on the first shot, to suggest the place.
+        let allow = XCUIApplication(bundleIdentifier: "com.apple.springboard").buttons["Allow While Using App"]
+        if allow.waitForExistence(timeout: 4) { allow.tap() }
+        shoot.tap()
+        shoot.tap()
+        XCTAssertTrue(tray.waitForExistence(timeout: 5), "shots collect in the tray")
+        XCTAssertEqual(Self.photoCount(tray.label), before + 3, "three more shots in one draft, got: \(tray.label)")
+        sleep(3) // the place lookup
+        snap(app, "8a-camera-tray")
+
+        tray.tap()
+        XCTAssertTrue(app.buttons["Save privately"].waitForExistence(timeout: 5))
+        sleep(1)
+        snap(app, "8b-tray-open")
+        app.buttons["Edit details"].tap()
+        XCTAssertTrue(app.buttons["Done"].waitForExistence(timeout: 5), "the pencil opens the draft screen")
+        sleep(1)
+        snap(app, "8b1-draft")
+        // Named from a nearby place when Apple Maps finds one, otherwise from the day.
+        app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@ OR label == %@", "Title suggested", "How we guessed")).firstMatch.tap()
+        XCTAssertTrue(app.staticTexts["How we guessed"].waitForExistence(timeout: 5))
+        sleep(1)
+        snap(app, "8c-how-we-guessed")
+        app.buttons["Looks right"].tap()
+        app.buttons["Done"].tap()
+        XCTAssertTrue(app.buttons["Keep shooting"].waitForExistence(timeout: 5))
+        app.buttons["Save privately"].tap()
+        XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label ENDSWITH %@", "privately")).firstMatch.waitForExistence(timeout: 5))
+        snap(app, "8d-saved")
+        XCTAssertFalse(tray.exists, "the tray empties once its draft is kept")
+
+        shoot.tap()
+        app.buttons["Your world"].tap()
+        let keep = app.buttons["Keep it privately"]
+        XCTAssertTrue(keep.waitForExistence(timeout: 5), "waiting shots show on the globe")
+        sleep(2)
+        snap(app, "8e-world-card")
+        keep.tap()
+        XCTAssertTrue(keep.waitForNonExistence(timeout: 5))
+    }
+
+    /// Bring in past Experiences from an album: grouped by day and place, linked (nothing copied), kept privately.
+    /// Needs the April 2024 test photos in the simulator's library (see BUILD_PLAN) and Photos access granted.
+    @MainActor
+    func testImportFromPhotos() {
+        let app = XCUIApplication()
+        app.launchArguments = ["-seedPhotosAlbum"]
+        app.launch()
+        XCTAssertTrue(app.buttons["You"].waitForExistence(timeout: 20))
+        app.buttons["You"].tap()
+        app.buttons["Add an Experience"].firstMatch.tap()
+        let bringIn = app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Bring in past Experiences")).firstMatch
+        XCTAssertTrue(bringIn.waitForExistence(timeout: 5))
+        bringIn.tap()
+        let start = app.buttons["Start with my albums"]
+        XCTAssertTrue(start.waitForExistence(timeout: 5))
+        sleep(1)
+        snap(app, "9a-import-start")
+        start.tap()
+        let album = app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Philly weekend")).firstMatch
+        XCTAssertTrue(album.waitForExistence(timeout: 10), "the test album is listed")
+        album.tap()
+        snap(app, "9b-import-albums")
+        app.buttons["Group 1 album"].tap()
+        let found = app.staticTexts["3 Experiences found"]
+        let nothingNew = app.staticTexts["Nothing new here"]
+        XCTAssertTrue(found.waitForExistence(timeout: 10) || nothingNew.exists, "three outings over two days")
+        sleep(6) // place names arrive one at a time
+        snap(app, "9c-import-review")
+        if found.exists {
+            app.buttons["Keep 3 Experiences"].tap()
+            XCTAssertTrue(app.buttons["Add an Experience"].firstMatch.waitForExistence(timeout: 5))
+            sleep(2)
+            snap(app, "9d-profile-after-import")
+        }
+    }
+
+    /// "Tonight's draft, 8 photos" → 8; "…, a photo" → 1.
+    private static func photoCount(_ label: String) -> Int {
+        if label.hasSuffix("a photo") { return 1 }
+        return Int(label.split(separator: ",").last?.split(separator: " ").first ?? "") ?? 0
     }
 
     @MainActor

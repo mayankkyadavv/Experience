@@ -10,10 +10,15 @@ struct WorldPage: View {
 
     @Environment(AppModel.self) private var model
     @Environment(LifeStore.self) private var life
+    @Environment(CaptureTray.self) private var tray
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.colorScheme) private var scheme
     @State private var globe = GlobeController()
     @State private var shown = false
+    @State private var opened: OpenDraft?
+
+    private struct OpenDraft: Identifiable { let id: UUID }
+    private var showsToday: Bool { !tray.drafts.isEmpty && !tray.snoozed }
 
     /// A beacon for each place you've lived something, clustered by city at world scale (brief §13), in the
     /// color of the last thing you did there. Your home city comes first: it glows and it's where the dive goes.
@@ -68,6 +73,16 @@ struct WorldPage: View {
                     .accessibilityAddTraits(.isButton)
                     .accessibilityAction { onOpenCity(globe) }
             }
+            .overlay(alignment: .bottom) {
+                // Shots waiting in the tray: gather them here, over the world they'll join.
+                if showsToday {
+                    TodayCard { opened = OpenDraft(id: $0) }
+                        .padding(.horizontal, Theme.Space.lg)
+                        .padding(.bottom, Theme.Space.sm)
+                        .transition(.move(edge: .bottom).combined(with: .opacity))
+                }
+            }
+            .animation(Theme.Motion.short, value: showsToday)
 
             if let city = model.city {
                 Button { onOpenCity(globe) } label: {
@@ -88,6 +103,7 @@ struct WorldPage: View {
                 .padding(.bottom, Theme.Space.lg)
             }
         }
+        .sheet(item: $opened) { TraySheet(draft: $0.id) }
         .onAppear {
             globe.release()
             withAnimation(reduceMotion ? .easeOut(duration: 0.2) : .spring(duration: 1.1, bounce: 0)) { shown = true }

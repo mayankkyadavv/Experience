@@ -258,6 +258,8 @@ public struct MediaAsset: Codable, Identifiable, Equatable, Sendable {
     public enum Kind: String, Codable, Sendable { case photo, video }
     public enum Status: String, Codable, Sendable {
         case onDevice = "on_device", uploading, ready, failed
+        /// Points at a photo in this phone's Photos library; never uploaded.
+        case linked
     }
 
     public var id: UUID
@@ -275,21 +277,23 @@ public struct MediaAsset: Codable, Identifiable, Equatable, Sendable {
     public var thumbPath: String?
     public var deviceFile: String?
     public var status: Status
+    /// The Photos library's identifier for a linked photo or video. Only meaningful on the phone that linked it.
+    public var libraryRef: String?
 
     enum CodingKeys: String, CodingKey {
         case id, kind, position, caption, width, height, status
         case experienceId = "experience_id", clientId = "client_id", altText = "alt_text", takenAt = "taken_at"
         case durationSeconds = "duration_seconds", originalPath = "original_path", thumbPath = "thumb_path"
-        case deviceFile = "device_file"
+        case deviceFile = "device_file", libraryRef = "library_ref"
     }
 
     public init(id: UUID, experienceId: UUID, clientId: UUID, kind: Kind, position: Int, caption: String?, altText: String?,
                 takenAt: Date?, durationSeconds: Double?, width: Int?, height: Int?, originalPath: String?, thumbPath: String?,
-                deviceFile: String?, status: Status) {
+                deviceFile: String?, status: Status, libraryRef: String? = nil) {
         self.id = id; self.experienceId = experienceId; self.clientId = clientId; self.kind = kind; self.position = position
         self.caption = caption; self.altText = altText; self.takenAt = takenAt; self.durationSeconds = durationSeconds
         self.width = width; self.height = height; self.originalPath = originalPath; self.thumbPath = thumbPath
-        self.deviceFile = deviceFile; self.status = status
+        self.deviceFile = deviceFile; self.status = status; self.libraryRef = libraryRef
     }
 
     /// Width over height when known (cards keep their shape while media loads).

@@ -52,6 +52,7 @@ targets:
         CADisableMinimumFrameDurationOnPhone: true # let the globe run at 120 Hz on ProMotion
         NSCameraUsageDescription: Experiences uses the camera to capture moments you want to remember.
         NSMicrophoneUsageDescription: Experience records sound with your videos.
+        NSPhotoLibraryUsageDescription: Experiences looks through your photos on this iPhone to suggest past Experiences. Your photos stay in your library.
         NSLocationWhenInUseUsageDescription: Experience uses your location to show what's close and how long it takes to get there.
         SupabaseURL: $(SUPABASE_URL)
         SupabaseAnonKey: $(SUPABASE_ANON_KEY)
